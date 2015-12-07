@@ -40,4 +40,11 @@ class String
 
 	end
 
+	def firstParagraph
+
+		if !self.include?("</p>") then return self end
+		return "<p>"+self.split('</p>')[0].gsub('<p>','')+"</p>"
+
+	end
+
 end
