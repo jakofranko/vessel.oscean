@@ -64,7 +64,7 @@ class Layouts
     end
 
     if $module == "horaire"
-      html += "<a class='module' href='/#{$page.topic}'>#{icon_return}Return to #{$page.topic}</a>"
+      html += "<a class='module' href='/#{$page.topic}'>#{Icon.new.return}Return to #{$page.topic}</a>"
     elsif $page.topic == "Home"
     	html += "<a class='module' href='Horaire'>#{Icon.new.horaire}#{$horaire.all.length} Logs</a>"
     elsif $page.logs.length > 1
