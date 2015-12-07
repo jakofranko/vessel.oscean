@@ -1,0 +1,241 @@
+p { vertical-align: top}
+html { height: 100%; height:100%; background:#000; font-family: 'georgia', 'Garamond', 'Times'; font-size:16px;}
+body { margin:0px auto; overflow-x:hidden;text-rendering: optimizeLegibility;}
+img { max-width: 100%}
+img.half { width:50%; display: inline-block !important;}
+img.third { width:33%; display: inline-block !important;}
+b { font-weight: bold;}
+i { font-family: georgia, 'Garamond', times; font-style: italic}
+hr { border:0px; clear:both;}
+iframe { margin-bottom: 30px}
+
+pre { font-family: Monaco, monospace, courier;font-size:14px;padding:15px 30px; margin-bottom: 30px; border-left:5px solid #ddd;}
+pre comment { display: inline-block; color:#999;}
+code { display: inline-block; font-family: Monaco, monospace, courier;}
+
+table { margin-bottom:30px;border:0px; border-collapse: collapse; max-width:100%; font-family: 'dinregular'; width:100%; font-family: inherit; display: table; max-width:700px;}
+table tr b { font-family: 'dinbold'; font-weight: normal;}
+table tr td { background: transparent;font-size: 14px;padding:5px 10px;line-height: 30px; font-family: 'dinregular'; border: 1px solid #ddd}
+table tr td a { font-family: 'dinbold';}
+table tr th { background: transparent;font-size: 12px;padding:5px 10px;line-height: 30px;font-family: 'dinregular';color: #555;text-align: left;}
+table tr:target td { background:#000; color: #fff; border-bottom: 1px solid #000; border-right:0px; border-left:0px; border-top:0px solid #000; }
+table tr:target td * { color: #fff}
+
+.right { float: right !important}
+.left { float: left !important}
+.bgclear { background:none;}
+.clear { clear: both;}
+.grey { color:#bbb;}
+.wrap { margin: 0px;max-width: calc(100vw - 30px);line-height: 34px;font-size: 20px;position: relative;margin-bottom: 30px;width:700px }
+.print { font-family: monospace,courier; border-bottom: 0px; font-weight: normal;background:#222;color: white;padding: 0px 5px;border-radius: 30px; font-size:11px; line-height: 15px}
+
+p,center,div,form { max-width: calc(100vw - 30px);line-height: 30px;font-size: 20px;position: relative;margin-bottom: 30px; display: block; line-height: 26px;font-size: 17px;}
+p a { line-height: 15px;display: inline-block;border-bottom: 1px solid #ccc;}
+p a:hover { border-bottom: 1px solid #000}
+p a.external { border-bottom: 0px}
+p a.external::after {content: "°";color:#333;font-family: helvetica;}
+p a.dead { border-bottom: 0px}
+p a.dead::after {content: "°";color:red;font-family: helvetica;}
+p.small { font-size:16px; line-height: 25px}
+p.small a { line-height: 16px }
+div { margin-bottom: 0px}
+form select { border: 1px solid #ccc;font-family: 'Helvetica Neue';font-size: 16px;height: 30px;}
+form input[type="submit"] { color: #000;line-height: 25px;padding: 0px 10px;border-radius: 30px;font-size: 14px;font-family: Helvetica Neue;font-weight: 900;border: 1px solid #ccc;background: #eee;}
+form input[type="submit"]:hover { background:#fff;}
+img { max-width: 100%;display: block;margin:0px auto;margin-bottom: 15px;}
+
+.half { display: block;max-width: calc(50% - 15px);vertical-align: top;float: left;min-width: 335px; margin-right:15px;}
+
+ul { max-width: calc(100vw - 30px);line-height: 34px;position: relative;margin-bottom: 30px;}
+ul.column { -webkit-column-count: 3; /* Chrome, Safari, Opera */ -moz-column-count: 3; /* Firefox */column-count: 3;}
+ul ul { margin-bottom: 0px; margin-left: 15px}
+ul li { list-style-type:none; list-style-type: none;font-size: 15px;line-height: 23px}
+ul li span.right { font-size:14px; color: #999; padding-right: 0px}
+ul li small { font-size:14px; line-height:18px;}
+ul li a { line-height: 19px;display: inline-block;border-bottom: 1px solid #ccc;}
+ul li.top { font-size: 14px;margin-bottom: 5px;font-family: 'dinregular';letter-spacing: 0px;text-transform: uppercase;color: #999 }
+ul.bullet li { list-style-type: circle; margin-left:20px;}
+ul.small li a { font-size:16px; line-height:16px;}
+
+ul.minimal * { font-family: 'dinregular'}
+ul.minimal li.head { font-family: 'din_mediumregular'; font-size:14px; padding:15px 0px; border-left:0px;}
+ul.minimal li.head a { font-family: 'din_mediumregular'; font-size:14px; border-left:0px; border-bottom:0px;}
+ul.minimal li { font-size: 14px; line-height:20px; border-left: 15px solid #ddd; padding-left:15px;}
+
+table.minimal { display: table}
+table.minimal tr th { border:0px; border-bottom:1px dashed #ccc; background:none; padding: 5px 10px 5px 0px;}
+table.minimal tr td { border:0px; border-bottom:1px solid #ccc; background:none; padding: 5px 10px 5px 0px;}
+table.minimal tr td:hover { border-bottom: 1px solid #000}
+
+h1 { text-align: center;margin-bottom: 30px;font-size: 32px;font-style: italic;letter-spacing: -1px;}
+h2 { line-height: 34px;font-size: 30px;position: relative;margin-bottom: 30px; font-family: 'din_lightregular'; letter-spacing: -1px}
+h2 small { font-size:16px; line-height:20px; font-style:normal; display: block; letter-spacing: 0px}
+h3 { line-height: 30px;font-size: 20px;position: relative;margin-bottom: 15px;font-style: normal; font-weight: bold; font-family: 'din_mediumregular'; letter-spacing: -1px}
+h3 small { font-weight: normal; font-size: 14px; display: block; line-height: 14px; font-family: 'dinregular'; letter-spacing: 0px}
+
+content { display: block; margin:0px auto; position: relative; vertical-align: top}
+
+/* Main */
+
+content.main { margin: 0px auto;z-index: 9000;background:#efefef;padding-bottom: 30px;min-height: calc(100vh / 2); overflow-x: hidden;}
+
+/* Sidebar */
+
+content.sidebar { display: block;width: 190px;font-family: 'dinregular';font-weight: 100;padding-bottom: 30px;position: absolute;left:50%;margin-left:-600px; padding-top:30px}
+content.sidebar h1 { line-height: 60px; display: inline-block; font-weight: normal; margin-bottom: 30px; text-align:right; width:190px;}
+content.sidebar h1 a { color:#999;}
+content.sidebar ul { width: 190px; text-align: right;}
+
+content.sidebar ul.options li a { border-bottom: 0px;font-size: 13px;line-height: 21px;display: block;border-right: 1px solid #ccc;padding-right: 30px;margin-right: -30px }
+content.sidebar ul.options li a.selected { font-family: 'dinbold'}
+content.sidebar ul.options li a:hover { border-right:1px solid #000;}
+
+content.sidebar ul li a.icon { width:30px; height:30px; border-radius: 20px; display: inline-block; overflow: hidden; padding-left:0px; opacity: 1.0; border-bottom:0px;}
+content.sidebar ul li a.icon:hover { background:none; opacity: 0.5;}
+
+/* Core */
+
+content.header { max-width: 100%; width:100%;overflow: hidden;min-height: 100px;max-height: 60vh;position: relative;background: #111; z-index: 50}
+content.header.collapse { min-height: 0px}
+
+content.header content.logo { z-index: 900;margin: 0px auto;height: 0px;width: calc(100vw - 10%);position: fixed;max-width: calc(100vw - 30px); top:30px; left: calc(50vw - 540px); left: 30px; position: absolute}
+content.header content.photo { background-size: cover;background-position: center center;height: 60vh;width: 100vw;max-width: 100vw; transform: translateZ(0);}
+
+content.title { z-index: 900;margin: 0px auto;height: 45px;max-width: 700px;width: calc(100vw - 30px);position: relative;top: -45px;padding: 0px 15px; }
+content.title * { display: inline-block;line-height: 16px;font-family: 'dinregular';font-weight: 100;}
+
+content.title span.right { color: #fff;font-size: 12px;text-align: right; line-height: 18px}
+content.title span.right a { text-decoration: underline; font-size: 12px}
+content.title h1 a:hover { text-decoration: underline;}
+
+content.title a.module { line-height: 30px;font-family: 'din_mediumregular';color: #fff;position: relative;padding-left: 30px;padding-right: 5px;font-size: 11px;display: inline-block;margin-left: 0px}
+content.title a.module svg { width:25px; height:25px; position: absolute; left:0px; top:2px;}
+content.title a.module:hover { cursor: pointer; border-bottom: 2px solid #fff}
+
+content.title div.search { float:right;}
+content.title div.search .sector { background: #ccc;width: 10px;height: 10px;border-radius: 20px;position: absolute;top: 10px;left: 12px}
+content.title div.search .sector.audio { background:#72dec2;}
+content.title div.search .sector.visual { background:red;}
+content.title div.search .sector.research { background:#888;}
+content.title div.search input { text-transform: capitalize;font-size: 11px;border-radius: 100px;line-height: 18px;font-family: 'din_mediumregular';background: transparent;border: 2px solid #fff;color: #fff;text-indent: 30px;padding: 4px 0px}
+content.title div.search input:hover { background-color:#fff; color:#000;}
+content.title div.search input::-webkit-input-placeholder { line-height: 18px; color:#fff; }
+content.title div.search input:hover::-webkit-input-placeholder { line-height: 18px; color:#000; }
+
+content.badge { width:35px;left:5px;position: absolute;}
+content.badge img { max-width: 25px;margin-top: 3.5px; -webkit-filter: brightness(0) invert(1); filter: brightness(0) invert(1);}
+
+content.search { float:right;width: auto}
+content.search input { padding:5px;text-align: right;background: #fff;border-radius: 100px;padding-right: 15px;text-transform: capitalize;font-size: 12px;font-family: 'dinregular';margin-top: 15px;color: #fff;line-height: 20px; width:80px;}
+
+content.core { max-width: 700px;display: block;padding-top: 30px;padding: 30px 15px}
+
+content.definition, content.article, content.storage { z-index: 900;margin: 0px auto;position: relative;max-width: calc(100vw - 30px); max-width: 1150px}
+content.definition p { max-width: 700px}
+
+content.theater { background:#0c0c0c; padding-top:30px; padding-bottom: 30px; color:#999;}
+content.theater img { max-width: 1000px; border-radius: 2px; width: 100%}
+content.theater p { max-width: 350px;font-family: 'dinregular';color: #999;font-size: 14px;margin-bottom: 30px;line-height: 18px;}
+content.theater p a { text-decoration: none; border-bottom:0px; color:#fff;}
+content.theater p b { font-weight: normal; font-family: 'dinbold'}
+content.theater h3 { letter-spacing: 0px;font-weight: normal;max-width: 350px;margin: 0px auto;font-size: 12px;line-height: 18px;color: #555;margin-bottom: 30px;font-family: 'din_mediumregular';padding-left: 30px;border-left: 1px solid #333;float:right; width:250px;}
+content.theater h3 b { font-weight:normal;font-family: 'dinbold'; color:#eee;}
+
+content.theater .wrap { display: block; max-width:700px; margin:0px auto; min-height: 30px; width: 100%}
+content.theater .wrap img { max-width: 700px; margin-bottom: 30px}
+
+content.pagination { margin-bottom:30px; max-width: 700px;}
+content.pagination a { font-family:'dinregular';font-size:12px;padding:20px 50px; border-bottom: 0px; padding: 20px 50px;width:219px; color: #777; border: 2px solid #fff;border-radius: 50px;}
+content.pagination a:hover { color:#fff;}
+content.pagination a.right { text-align: right;}
+content.pagination a.left { border:2px solid #333;}
+
+content.storage { max-width: 700px; margin-bottom:30px;}
+content.storage a { border: 2px solid #eee; display: inline-block;padding:10px;border-radius: 100px; margin-right:15px; width:300px; position: relative; margin-bottom: 10px}
+content.storage a:first-child { border: 2px solid #fff;}
+content.storage a:hover { background:#fff; border: 2px solid #fff;}
+content.storage a span { display: inline-block;width: 230px;line-height: 20px;font-family: 'dinregular';font-size: 16px;margin-top: 5px;margin-bottom: 5px}
+content.storage a span small { font-size: 11px;line-height: 10px;clear: both;display: block; font-family: 'dinbold'}
+content.storage a icon{ display: inline-block;height: 40px;width: 40px;float:left;margin-right:15px; background-size:cover;}
+
+content.readmore { margin-bottom:30px;}
+content.readmore a { margin-bottom:10px; display: block; width:75%;}
+content.readmore a span { font-family: 'dinbold'; text-transform: capitalize;}
+content.readmore a small { display:block; font-family: 'dinregular'; font-size:11px; text-transform: lowercase; line-height: 20px}
+
+content.details { font-family: 'dinregular';font-size: 13px;line-height: 13px;position: relative;}
+
+content.diary { }
+content.diary img.photo { margin-bottom: 30px}
+content.diary graphic { background-color: #fff;height: 40px;width: 40px;background-position: center center;display: block;float: left;margin-right:15px;border-radius: 50px; background-size: 40%;background-repeat: no-repeat; }
+content.diary p.small.badge { min-height: 50px}
+
+content.log { border-top: 1px dotted #ccc;padding: 5px 0px;}
+content.log p { margin-bottom: 0px}
+content.log graphic { height: 25px;width: 25px;background-position: center center;display: block;float: left;margin-right:15px;border-radius: 50px;background-size: 60%;background-repeat: no-repeat;margin-left: 12px; text-indent: 30px;}
+content.log task { display: inline-block;border-radius: 5px;font-family: 'dinregular';font-size: 11px;color: white;line-height: 18px;padding: 0px 5px;font-style: normal; background:#ccc; margin-right: 15px}
+content.log task.audio { background:#72dec2;}
+content.log task.visual { background:#ff0000;}
+content.log task.research { background:#222;}
+content.log task.misc { background:#ffcb2b;}
+content.log a.subject { font-style: normal; display: inline-block; margin-right:15px; font-size:13px; border-bottom: 0px}
+content.log span.date a { font-size:13px;}
+
+content.portal {border-radius: 3px; position: relative; min-height:160px; margin-top:60px}
+content.portal img.badge { width:160px; }
+content.portal ul { }
+content.portal ul li { font-family: 'dinregular';font-size: 12px;clear: both;position: relative;margin-bottom: 1px;text-align: center}
+content.portal ul li.head { font-family: 'dinbold'; border-bottom: 1px solid #ccc; line-height: 30px; margin-bottom: 15px}
+content.portal ul li span.cat { font-family: 'dinbold';margin-right: 10px}
+content.portal ul li span.sub { text-align: center;line-height: 20px;}
+content.portal ul li b { font-weight: normal; font-family: 'dinbold'}
+content.portal ul li a { line-height: 14px;border-bottom: 0px;}
+content.portal ul li a:hover { border-bottom: 1px solid #aaa}
+
+
+content.footer { font-size: 13px;line-height: 19px;font-family: 'dinregular';clear: both; background:white;z-index: 900;margin: 0px auto;padding: 60px 5%;}
+content.footer b {font-family: 'dinbold'; font-weight: normal; }
+content.footer dl {position: relative;max-width: calc(100vw - 30px); }
+content.footer dl dd { color:#000;}
+content.footer dl.main { width:700px;margin: 0px auto;}
+
+content.footer dl dd.small { font-size:11px; color:#aaa;}
+content.footer dl dd.small * { color:#aaa; font-size:11px;}
+content.footer dl dd.small a { font-family: 'dinbold'; font-size:12px;}
+content.footer a { border-bottom: 0px; color:#000;font-family: 'dinregular'; font-weight: normal;}
+content.footer a:hover {border-bottom: 1px solid #000}
+
+content.footer dl.icons { height: 50px;width: 120px;display: block;clear: both;width: 700px;margin: 0px auto; }
+content.footer dl.icons .icon { display: inline-block;margin-right: 10px; opacity:0.2;}
+content.footer dl.icons .icon img { width:30px; height:30px; float:right; border-radius:20px;}
+content.footer dl.icons .icon:hover { border-bottom: 0px; opacity: 1.0}
+
+content.graph { background:black; padding: 35px 0px; position:relative; margin-bottom: 30px}
+content.graph svg { margin: 15px 30px; display:block;}
+content.graph span { display: block; color:white; font-family: 'dinregular'; font-size: 12px}
+content.graph line { border-top: 1px solid #72dec2;width: 15px;display: inline-block;margin-right:7px;top:-3px;position:relative}
+
+content.circlegraph { position: relative;}
+content.circlegraph .details { position: relative;left: 70px;top:-60px}
+content.circlegraph .details a { width:210px; display:inline-block; line-height: 20px}
+content.circlegraph .details a strong { font-family: 'dinbold';display: inline-block;margin-right: 7px;}
+content.circlegraph .details a .hours { display: inline-block;margin-right: 7px;color:grey; font-size: 11px}
+content.circlegraph .details a .ratio { display: inline-block;margin-right: 7px; font-size: 11px}
+
+issue { display: block; line-height: 22px;font-size:14px; font-family: 'dinregular'; }
+issue a.tag { font-family: monospace,courier;border-bottom: 0px;font-weight: normal;background:transparent; color:black;padding: 2px 5px;border-radius: 30px;font-size: 11px;line-height: 15px; margin-right:10px;width:30px;display: inline-block; background: #fff;}
+issue i { color:#999;}
+issue.complete a.tag { background: #222;color: white;}
+issue.bug a.tag { background:#fff; color:red;}
+issue.bug.complete a.tag { background:red; color:white;}
+issue:hover a.tag { color: #999;}
+issue a.topic { font-family: 'dinbold'; display:inline-block; margin-right:7px;}
+issue span.date { opacity: 0.3; display: inline-block; margin-left:7px;}
+
+log { display: block; line-height: 22px;font-size:14px; font-family: 'dinregular'; }
+log svg { display: block;width: 20px;height: 20px;float:left; background:white; border-radius: 20px; margin-right:7px;}
+log a.topic {font-family: 'dinbold'; display:inline-block; margin-right:7px;}
+log a.title {font-family: 'dinregular'; display:inline-block; margin-right:7px; text-decoration: underline}
+log span.date { opacity: 0.3; display: inline-block; margin-left:7px;}
+
+.twitter-tweet { margin-bottom:30px !important;}
