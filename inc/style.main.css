@@ -32,10 +32,11 @@ table tr:target td * { color: #fff}
 p,center,div,form { max-width: calc(100vw - 30px);line-height: 30px;font-size: 20px;position: relative;margin-bottom: 30px; display: block; line-height: 26px;font-size: 17px;}
 p a { line-height: 15px;display: inline-block;border-bottom: 1px solid #ccc;}
 p a:hover { border-bottom: 1px solid #000}
-p a.external { border-bottom: 0px}
-p a.external::after {content: "°";color:#333;font-family: helvetica;}
-p a.dead { border-bottom: 0px}
-p a.dead::after {content: "°";color:red;font-family: helvetica;}
+p .external { border-bottom: 0px}
+p .external::after {content: "°";color:#333;font-family: helvetica;}
+p .error:after {content: "*";color:red;font-family: helvetica;}
+p .dead { border-bottom: 0px}
+p .dead::after {content: "°";color:red;font-family: helvetica;}
 p.small { font-size:16px; line-height: 25px}
 p.small a { line-height: 16px }
 div { margin-bottom: 0px}

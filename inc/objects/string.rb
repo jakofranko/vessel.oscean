@@ -15,14 +15,14 @@ class String
 
 	def parser text
 
-		if $lexicon.find(text) then text = local_link(text) end
-		if text.include?("|") then text = deferred_link(text) end
+		if $lexicon.find(text) then return local_link(text) end
+		if text.include?("|") then return deferred_link(text) end
 
-		if text == "TIME" then text = Clock.new().default end
-		if text == "DATE" then text = Desamber.new().default end
-		if text.length == 10 && text[4,1] == "-" then text = Desamber.new(text).default end 
+		if text == "TIME" then return Clock.new().default end
+		if text == "DATE" then return Desamber.new().default end
+		if text.length == 10 && text[4,1] == "-" then return Desamber.new(text).default end 
 
-		return text
+		return "<span class='error'>#{text}</span>"
 
 	end
 
