@@ -17,7 +17,7 @@ class Link
 	end
 
 	def url
-		return @data.split("|")[1].to_s.downcase.capitalize
+		return @data.split("|")[1].to_s
 	end
 
 	def domain

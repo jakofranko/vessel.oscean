@@ -189,7 +189,9 @@ class Term
 
     if portalName == "" then return "" end
 
-    if File.exist?("img/interface/badge.#{portalName.downcase}.png")
+    if File.exist?("img/interface/badge.#{topic.downcase}.png")
+      html += "<img src='img/interface/badge.#{topic.downcase}.png' class='badge'/>"
+    elsif File.exist?("img/interface/badge.#{portalName.downcase}.png")
       html += "<img src='img/interface/badge.#{portalName.downcase}.png' class='badge'/>"
     else
       html += "<img src='img/interface/badge.oscean.png' class='badge'/>"
