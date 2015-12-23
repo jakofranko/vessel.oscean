@@ -184,13 +184,16 @@ class Log
 	def macros article
 		testArray = article.scan(/(?:\{\{)([\w\W]*?)(?=\}\})/)
 		testArray.each do |str,details|
-			return article.gsub("{{"+str+"}}",macroParser(str))
+			article = article.gsub("{{"+str+"}}",macroParser(str))
 		end
 		return article
 	end
 
 	def macroParser str
 		if str[0,1] == "$" then return macroIssues(str.sub("$","")) # Issues
+		elsif str[0,6] == "diary:" && File.exist?("content/diary/#{photo}.#{str.gsub("diary:","").downcase}.jpg") then return "<img src='content/diary/#{photo}.#{str.gsub("diary:","").downcase}.jpg'/>"
+		elsif str[0,6] == "diary:" && File.exist?("content/diary/#{photo}.#{str.gsub("diary:","").downcase}") then return "<img src='content/diary/#{photo}.#{str.gsub("diary:","").downcase}'/>"
+		elsif str[0,8] == "lexicon:" then return "<img src='content/lexicon/#{topic.downcase}.#{str.gsub("lexicon:","").downcase}.png'/>"
 		elsif str.include?("|") then return "<a href='"+str.split("|")[1]+"'>"+str.split("|")[0]+"</a>"
 		elsif $lexicon.term(str) then return "<a href='"+str.gsub(" ","+")+"'>"+str+"</a>"
 		end

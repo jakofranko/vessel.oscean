@@ -10,6 +10,7 @@ class Layouts
 		@lexicon = fetch_lexicon
 		@imagesDiary = fetch_imagesDiary
 		@imagesLexicon = fetch_imagesLexicon
+		@usedImages = []
 
 		@imagesIssues = []
 
@@ -24,7 +25,7 @@ class Layouts
 	def print_result
 
 		html = "<pre>"
-		@diaries.each do |date,diary|
+		@diaries.sort.each do |date,diary|
 			if diary["macros"].length == 0 then next end
 			html += "#{date}(#{diary["macros"].length} macros)<br />"
 			diary["macros"].each do |macro|
@@ -49,7 +50,7 @@ class Layouts
 	def fetch_diaries
 
 		hash = {}
-		query = $quest.query("SELECT date,topic,photo,full FROM XIV_Horaire WHERE full !='' ") 
+		query = $quest.query("SELECT date,topic,photo,full FROM XIV_Horaire WHERE full !='' OR photo > 0 ") 
 	    while row = query.fetch_row do
 	    	hash["#{row[0]}"] = {"topic"=>row[1],"photo"=>row[2],"full"=>row[3].force_encoding("utf-8"),"macros"=>[]}
 	    end
@@ -108,6 +109,7 @@ class Layouts
 
 	def macro_diaryImage date,diary, macro
 
+		@usedImages.push("#{diary['photo']}.#{macro.gsub("diary:","")}")
 		if !File.exist?("content/diary/#{diary['photo']}."+macro.gsub("diary:","")+".jpg")
 			return "  #{macro} <span style='color:red'>Missing image: <b>#{diary['photo']}."+macro.gsub("diary:","")+".jpg</b></span><br />"
 		end
@@ -137,9 +139,19 @@ class Layouts
 
 	def find_unusedImages
 
+		# Find used images
+		@diaries.each do |date,diary|
+			@usedImages.push(diary["photo"])
+		end
+
 		@imagesDiary.each do |name,issues|
 			if name.include?("_") then @imagesIssues.push([name,"Invalid name: Includes _"]) end
 			if name[0,1] == "0" then @imagesIssues.push([name,"Invalid name: Start with 0"]) end
+			if !@usedImages.include?(name.gsub(".jpg","")) then @imagesIssues.push([name,"Unsused Image"]) end
+		end
+
+		@imagesLexicon.each do |name,issues|
+			if !@usedImages.include?(name.gsub(".jpg","")) then @imagesIssues.push([name,"Unsused Image"]) end
 		end
 
 	end

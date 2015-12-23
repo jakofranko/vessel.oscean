@@ -10,8 +10,8 @@ class Layouts
     children = Oscean.new($page.topic).lexiconFind("parent",$page.topic)
 
     children.each do |term|
-      if File.exist?("img/diary/#{term.photo}.jpg")
-        html += "<a href='#{term.topic}'><img src='/img/diary/#{term.photo}.jpg' style='width:100%; margin-bottom:30px'></a>"
+      if File.exist?("content/diary/#{term.photo}.jpg")
+        html += "<a href='#{term.topic}'><img src='/content/diary/#{term.photo}.jpg' style='width:100%; margin-bottom:30px'></a>"
       end
       html += "<h2>{{#{term.topic}}}</h2>"
       html += term.definition.firstParagraph

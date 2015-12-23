@@ -28,7 +28,7 @@ class Term
   end
 
   def definition
-    return @definition
+    return macros(@definition)
   end
 
   def description
@@ -132,6 +132,25 @@ class Term
   	end
   	if photoAlbum.length > 0 then return photoAlbum.first end
   	return 0
+  end
+
+  def macros article
+    testArray = article.scan(/(?:\{\{)([\w\W]*?)(?=\}\})/)
+    testArray.each do |str,details|
+      article = article.gsub("{{"+str+"}}",macroParser(str))
+    end
+    return article
+  end
+
+  def macroParser str
+    if str[0,1] == "$" then return macroIssues(str.sub("$","")) # Issues
+    elsif str[0,8] == "lexicon:" && File.exist?("content/lexicon/#{topic.downcase}.#{str.gsub("lexicon:","").downcase}.png") then return "<img src='content/lexicon/#{topic.downcase}.#{str.gsub("lexicon:","").downcase}.png'/>"
+    elsif str[0,8] == "lexicon:" && File.exist?("content/lexicon/#{str.gsub("lexicon:","").downcase}.png") then return "<img src='content/lexicon/#{str.gsub("lexicon:","").downcase}.png'/>"
+    elsif str[0,8] == "lexicon:" then return "[Missing images]"
+    elsif str.include?("|") then return "<a href='"+str.split("|")[1]+"'>"+str.split("|")[0]+"</a>"
+    elsif $lexicon.term(str) then return "<a href='"+str.gsub(" ","+")+"'>"+str+"</a>"
+    end
+    return str
   end
 
   def template_lastUpdate
