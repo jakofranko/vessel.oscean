@@ -1,13 +1,10 @@
-=begin
-<p>TODO:</p>
-=end
 require_relative "../objects/graph.rb"
 
-class Layouts
+class Page
 
-  def home
+  def body
 
-    html = $page.definition
+    html = @term.definition
     html += "<p>If this is your first time around, the {{Introduction}} is a good place to begin your exploration. If you wish to stay updated on the development of the latest projects, follow {{@Neauoire|http://twitter.com/neauoire}}. </p>"
 
     html += recentEdits
@@ -16,14 +13,14 @@ class Layouts
     html += thisMonth
     html += activeIssues
 
-  	return html
+  	return macros(html)
 
   end
 
   def graphViewData
 
     graphData = []
-    $horaire.all.each do |date,log|
+    @horaire.all.each do |date,log|
       if log.elapsed < 0 then next end
       if log.elapsed/86400 > 100 then next end
       graphData.push(log)
@@ -47,7 +44,7 @@ class Layouts
     html_list = ""
     topicHistory = {}
     count = 0
-    $horaire.all.each do |date,log|
+    @horaire.all.each do |date,log|
       # if log.task == "Update" then next end
       if log.title != "" then next end
       if count >= 5 then break end
@@ -70,7 +67,7 @@ class Layouts
     html_list = ""
     topicHistory = {}
     count = 0
-    $horaire.all.each do |date,log|
+    @horaire.all.each do |date,log|
       if log.task != "Update" then next end
       if count >= 5 then break end
       if topicHistory[log.topic] then next end
@@ -91,7 +88,7 @@ class Layouts
 
     topicHistory = {}
     count = 0
-    $issues.reverse.each do |issue|
+    @issues.reverse.each do |issue|
       if !issue.active then next end
       if count >= 5 then break end
       if topicHistory[issue.topic] then next end

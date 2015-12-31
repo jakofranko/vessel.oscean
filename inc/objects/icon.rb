@@ -1,3 +1,5 @@
+#: Contains all icons of XXIIVV.
+
 class Icon
 
 	def logo scale

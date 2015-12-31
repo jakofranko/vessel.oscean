@@ -1,18 +1,11 @@
-=begin
-<p>TODO:</p>
-=end
-class Layouts
+#: Missing
 
-  def events
+class Page
 
-  	@lastEvent = ""
-  	@lastAlt = ""
-  	return timeline
+  def body
 
-  end
-
-
-  def timeline
+    @lastEvent = ""
+    @lastAlt = ""
 
   	html = ""
 
@@ -61,7 +54,7 @@ class Layouts
 
   	monthData = []
 
-  	$horaire.all.each do |date,log|
+  	@horaire.all.each do |date,log|
   		if log.year != year then next end
   		if log.month != month then next end
   		monthData.push(log)

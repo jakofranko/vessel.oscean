@@ -16,6 +16,7 @@ class Lexicon
 	end
 
 	def term target
+		target = target.capitalize
 		if @db_lexicon[target] then return @db_lexicon[target] end
 		return Term.new({ 'term' => "Missing", 'parent' => "Home", 'flags' => "", 'storage' => "", 'definition' => ""})
 	end

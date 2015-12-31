@@ -1,7 +1,6 @@
-=begin
-<p>The missing layout, displays a series of pages related to the missing selected topic.</p>
-=end
-class Layouts
+#: The missing layout, displays a series of pages related to the missing selected topic.
+
+class Page
 
   #----------------
   # Search DB when a term is not found
@@ -9,9 +8,9 @@ class Layouts
 
   def missing
 
-    template = "There is no entry for {{"+$query+"}} on this wiki.<br />"
+    template = "There is no entry for {{"+@query+"}} on this wiki.<br />"
 
-    if $query.to_i < 1 && $query.length < 4 then return "<content class='wrap'>Your search query is too short, try again with something longer than 4 characters.</content>" end
+    if @query.to_i < 1 && @query.length < 4 then return "<content class='wrap'>Your search query is too short, try again with something longer than 4 characters.</content>" end
 
     searchResult = search()
 
@@ -29,27 +28,27 @@ class Layouts
     searchResult = {}
 
     # Lexicon
-    $lexicon.all.each do |topic,term|
+    lexicon.all.each do |topic,term|
       if !searchResult[topic] then searchResult[topic] = 0 end
 
-      if topic.downcase == $query then searchResult[topic] += 5 end
-      if topic.downcase.include?($query.downcase) then searchResult[topic] += 1 end
+      if topic.downcase == @query then searchResult[topic] += 5 end
+      if topic.downcase.include?(@query.downcase) then searchResult[topic] += 1 end
 
-      if term.parent.include?($query) then searchResult[topic] += 1 end
-      if term.storage.include?($query) then searchResult[topic] += 1 end
+      if term.parent.include?(@query) then searchResult[topic] += 1 end
+      if term.storage.include?(@query) then searchResult[topic] += 1 end
     end
 
     # Horaire
-    $horaire.all.each do |date,log|
+    horaire.all.each do |date,log|
       if !searchResult[log.topic] then searchResult[log.topic] = 0 end
 
-      if log.topic.downcase == $query then searchResult[log.topic] += 5 end
-      if log.topic.downcase.include?($query.downcase) then searchResult[log.topic] += 1 end
+      if log.topic.downcase == @query then searchResult[log.topic] += 5 end
+      if log.topic.downcase.include?(@query.downcase) then searchResult[log.topic] += 1 end
 
-      if log.title.downcase.include?($query.downcase) then searchResult[log.topic] += 1 end
-      if log.title.downcase.include?($query.downcase) then searchResult[log.topic] += 1 end
+      if log.title.downcase.include?(@query.downcase) then searchResult[log.topic] += 1 end
+      if log.title.downcase.include?(@query.downcase) then searchResult[log.topic] += 1 end
 
-      if log.photo.to_i > 0 && log.photo.to_i == $query.to_i then searchResult[log.topic] = 100 end
+      if log.photo.to_i > 0 && log.photo.to_i == @query.to_i then searchResult[log.topic] = 100 end
     end
 
     searchResult = searchResult.sort_by {|_key, value| value}.reverse

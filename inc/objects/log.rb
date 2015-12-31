@@ -77,7 +77,7 @@ class Log
 	end
 
 	def full
-		return macros(@log['full'].to_s.force_encoding("UTF-8"))
+		return @log['full'].to_s.force_encoding("UTF-8")
 	end
 
 	def task
@@ -164,49 +164,16 @@ class Log
 		return "<log>"+html+"</log>"
 	end
 
-	def templateDiary
-		html = ""
-		if $horaire.photo != photo || $page.topic == "Diary" then html += image end
-		html += "<div class='wrap'>"
-		html += "<content class='details'><h3><b>#{title}</b><br />#{date.default}</h3></content>"
+	def diary_template
 
-		html += full
+		return "
+		<content class='diary'>
+			<a href='/#{photo}'>#{Image.new(photo).view}</a>
+			<small>#{date.default}</small>
+			<h1>#{title}</h1>
+			<div class='full'>#{full}</div>
+		</content>"
 
-		html += "<hr />"
-
-		html += "</div>"
-		return "<content class='diary'>"+html+"</content>"
-	end
-
-	# Macros
-
-	def macros article
-		testArray = article.scan(/(?:\{\{)([\w\W]*?)(?=\}\})/)
-		testArray.each do |str,details|
-			article = article.gsub("{{"+str+"}}",macroParser(str))
-		end
-		return article
-	end
-
-	def macroParser str
-		if str[0,1] == "$" then return macroIssues(str.sub("$","")) # Issues
-		elsif str[0,6] == "diary:" && File.exist?("content/diary/#{photo}.#{str.gsub("diary:","").downcase}.jpg") then return "<img src='content/diary/#{photo}.#{str.gsub("diary:","").downcase}.jpg'/>"
-		elsif str[0,6] == "diary:" && File.exist?("content/diary/#{photo}.#{str.gsub("diary:","").downcase}") then return "<img src='content/diary/#{photo}.#{str.gsub("diary:","").downcase}'/>"
-		elsif str[0,6] == "diary:" && File.exist?("content/diary/#{str.gsub("diary:","").downcase}.jpg") then return "<img src='content/diary/#{str.gsub("diary:","").downcase}.jpg'/>"
-		elsif str[0,8] == "lexicon:" then return "<img src='content/lexicon/#{topic.downcase}.#{str.gsub("lexicon:","").downcase}.png'/>"
-		elsif str.include?("|") then return "<a href='"+str.split("|")[1]+"'>"+str.split("|")[0]+"</a>"
-		elsif $lexicon.term(str) then return "<a href='"+str.gsub(" ","+")+"'>"+str+"</a>"
-		end
-		return str
-	end
-
-	def macroIssues version
-		html = ""
-		$lexicon.term(topic).issues.each do |issue|
-			if issue.release != version then next end
-			html += issue.template
-		end
-		return "<ul>"+html+"</ul>"
 	end
 
 end

@@ -1,15 +1,17 @@
-class Layouts
+#: Main Traumae documentation
 
-    def traumae
+class Page
+
+    def body
 
         $dictionaery = $oscean.dictionaery()
 
         html = ""
 
-        html += $page.definition
+        html += @term.definition
         html += traumaeDocumentation
 
-        return "<content><wrapper>"+html+"</wrapper></content>"
+        return "<content><wrapper>#{macros(html)}</wrapper></content>"
 
     end
 

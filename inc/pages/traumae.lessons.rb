@@ -1,10 +1,8 @@
-=begin
-<p>The Traumae documentation page.</p>
-=end
+#: Main Traumae lessons
 
 require_relative "traumae.tools.rb"
 
-class Layouts
+class Page
 
     def lessons
     	

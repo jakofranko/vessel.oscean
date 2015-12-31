@@ -1,5 +1,6 @@
 # encoding: utf-8
 #: {{Horaire}} is a Hash extension with filtering tools to look up Logs quickly.
+
 class Horaire
 
 	def initialize(db_horaire)
@@ -66,6 +67,19 @@ class Horaire
 			return log
 		end
 
+		return nil
+
+	end
+
+	# Search
+
+	def featuredDiaryWithTopic target
+
+		all.each do |date,log|
+			if log.photo < 1 then next end
+			if log.topic.downcase != target.downcase then next end
+			return log
+		end
 		return nil
 
 	end

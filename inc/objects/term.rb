@@ -20,7 +20,7 @@ class Term
   end
 
   def flags
-  	return @flags
+  	return @flags.split(" ")
   end
 
   def storage
@@ -28,7 +28,7 @@ class Term
   end
 
   def definition
-    return macros(@definition)
+    return @definition
   end
 
   def description
@@ -128,63 +128,6 @@ class Term
       return log
     end
     return nil
-  end
-
-  def macros article
-    testArray = article.scan(/(?:\{\{)([\w\W]*?)(?=\}\})/)
-    testArray.each do |str,details|
-      article = article.gsub("{{"+str+"}}",macroParser(str))
-    end
-    return article
-  end
-
-  def macroParser str
-    if str[0,1] == "$" then return macroIssues(str.sub("$","")) # Issues
-    elsif str[0,8] == "lexicon:" && File.exist?("content/lexicon/#{topic.downcase}.#{str.gsub("lexicon:","").downcase}.png") then return "<img src='content/lexicon/#{topic.downcase}.#{str.gsub("lexicon:","").downcase}.png'/>"
-    elsif str[0,8] == "lexicon:" && File.exist?("content/lexicon/#{str.gsub("lexicon:","").downcase}.png") then return "<img src='content/lexicon/#{str.gsub("lexicon:","").downcase}.png'/>"
-    elsif str[0,8] == "lexicon:" then return "[Missing images]"
-    elsif str.include?("|") then return "<a href='"+str.split("|")[1]+"'>"+str.split("|")[0]+"</a>"
-    elsif $lexicon.term(str) then return "<a href='"+str.gsub(" ","+")+"'>"+str+"</a>"
-    end
-    return str
-  end
-
-  def template_lastUpdate
-    html = ""
-
-    logs.reverse.each do |log|
-      if log.task != "Update" then next end
-      html += "<h2>Version #{log.title}<small>Updated <a href='/#{topic}:changelog'>#{log.offset}</a></small></h2>"
-      html += log.full
-      return "<content class='update'>"+html+"</content>"
-    end
-    return ""
-  end
-
-  def template_links
-    html = ""
-    storage.each do |linkString,v| 
-      link = Link.new(linkString)
-      if link.type == "quote" then next end
-      html += link.template
-    end
-    return "<content class='storage'>"+html+"</content>"
-  end
-
-  def template_readMore
-    html = ""
-    quotes = []
-    storage.each do |linkString,v|
-      link = Link.new(linkString)
-      if link.type != "quote" then next end
-      quotes.push(link)
-    end
-    if quotes.length == 0 then return "" end
-    html += "<h2>Press</h2>"
-    quotes.each do |link|
-      html += link.template
-    end
-    return "<content class='readmore'>"+html+"</content>"
   end
 
   def template_portal

@@ -17,7 +17,6 @@ require 'date'
 
 require_relative "../../tools/oscean.rb"
 
-require_relative "objects/string.rb"
 require_relative "objects/desamber.rb"
 require_relative "objects/horaire.rb"
 require_relative "objects/log.rb"
@@ -30,8 +29,8 @@ require_relative "objects/dictionaery.rb"
 require_relative "objects/clock.rb"
 require_relative "objects/icon.rb"
 require_relative "objects/image.rb"
-
-require_relative "system.layouts.rb"
+require_relative "objects/page.rb"
+require_relative "objects/layout.rb"
 
 #----------------
 # Setup
@@ -48,7 +47,8 @@ data = {
   "issues" => $oscean.issues(@input_search)
 }
 
-layout = Layouts.new(data)
+page   = Page.new(data)
+layout = Layout.new(page)
 
 puts "
 <!DOCTYPE html>

@@ -1,19 +1,14 @@
-=begin
-<p>Redirects to a random page of the wiki.</p>
-=end
+#: Redirects to a random page of the wiki.
 
-class Layouts
+class Page
 
-  def random
+  def body
 
-  	html = ""
+  	html = "<p>Choosing a random page.</p>"
     
-    termsArray = $lexicon.all.to_a
+    destination = @lexicon.all.sample
 
-    randomNumber = rand(termsArray.length)
-    randomTerm = termsArray[randomNumber]
-
-    html += '<meta http-equiv="refresh" content="0; url='+randomTerm[0].to_s+'" />'
+    html += "<meta http-equiv='refresh' content='0; url=/#{destination.first}' />"
 
   	return html
 

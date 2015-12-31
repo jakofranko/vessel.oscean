@@ -87,8 +87,7 @@ class Issue
 	def template
 		if Time.new.to_i - time < 0 then timeLeft = "<i>"+offset.downcase.sub("in ","")+" left</i>" else timeLeft = offset end
 		if !active then activeStyle = "complete" end
-		if $page.topic != topic then projectName = "<a href='/#{topic}' class='topic'>#{topic}</a> " end
-		return "<issue class='#{type.downcase} #{activeStyle}'><a href='/issues##{id}' class='tag'>#{code}</a>#{projectName}#{task}<span class='date'>#{timeLeft}</span></issue>"
+		return "<issue class='#{type.downcase} #{activeStyle}'><a href='/issues##{id}' class='tag'>#{code}</a><a href='/#{topic}' class='topic'>#{topic}</a>#{task}<span class='date'>#{timeLeft}</span></issue>"
 	end
 
 end
