@@ -7,7 +7,7 @@ class Layouts
     html = $page.definition
     children = Oscean.new($page.topic).lexiconFind("parent",$page.topic)
     children.each do |term|
-      html += Image.new(term.photo).view
+      html += ( term.featured ) ? Image.new(term.featured.photo).view : ""
       html += "<h2>{{#{term.topic}}}</h2>"
       html += term.definition.firstParagraph
       html += "<ul>"

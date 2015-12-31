@@ -30,7 +30,7 @@ class Icon
 	end
 
 	def diary
-	  return "<svg>
+	  return "<svg class='icon'>
 	  <line x1='3' y1='17.5' x2='12.5' y2='17.5' style='stroke:#fff;stroke-width:2' />
 	  <line x1='3' y1='12.5' x2='22' y2='12.5' style='stroke:#fff;stroke-width:2' />
 	  <line x1='3' y1='7.5' x2='22' y2='7.5' style='stroke:#fff;stroke-width:2' />
@@ -38,7 +38,7 @@ class Icon
 	end
 
 	def horaire
-	  return "<svg><path d='
+	  return "<svg class='icon'><path d='
 	    M 3 12.5 
 	    l 5 0
 	    l 4 -5
@@ -50,7 +50,7 @@ class Icon
 	end
 
 	def issues
-	  return "<svg>
+	  return "<svg class='icon'>
 	  <line x1='3' y1='17.5' x2='22' y2='17.5' style='stroke:#fff;stroke-width:2' />
 	  <line x1='3' y1='12.5' x2='10.5' y2='12.5' style='stroke:#fff;stroke-width:2' />
 	  <line x1='14.5' y1='12.5' x2='22' y2='12.5' style='stroke:#fff;stroke-width:2' />
@@ -59,10 +59,17 @@ class Icon
 	end
 
 	def return
-	  return "<svg>
+	  return "<svg class='icon'>
 	  <line x1='3' y1='12.5' x2='8' y2='17.5' style='stroke:#fff;stroke-width:2' />
 	  <line x1='3' y1='12.5' x2='8' y2='7.5' style='stroke:#fff;stroke-width:2' />
 	  <line x1='3' y1='12.5' x2='16' y2='12.5' style='stroke:#fff;stroke-width:2' />
+	  </svg>"
+	end
+
+	def photo
+	  return "<svg class='icon'>
+	  <line x1='3' y1='12.5' x2='22' y2='12.5' style='stroke:#ccc;stroke-width:2' />
+	  <circle cx='12.5' cy='12.5' r='7' stroke='#ccc' stroke-width='2' fill='none'/>
 	  </svg>"
 	end
 

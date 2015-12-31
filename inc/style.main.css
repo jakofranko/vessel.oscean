@@ -92,7 +92,7 @@ content.title span.right a { text-decoration: underline; font-size: 12px}
 content.title h1 a:hover { text-decoration: underline;}
 
 content.title a.module { line-height: 30px;font-family: 'din_mediumregular';color: #fff;position: relative;padding-left: 30px;padding-right: 5px;font-size: 11px;display: inline-block;margin-left: 0px}
-content.title a.module svg { width:25px; height:25px; position: absolute; left:0px; top:2px;}
+content.title a.module svg { position: absolute; left:0px; top:2px;}
 content.title a.module:hover { cursor: pointer; border-bottom: 2px solid #fff}
 
 content.title div.search { float:right;}
@@ -111,7 +111,7 @@ content.badge img { max-width: 25px;margin-top: 3.5px; -webkit-filter: brightnes
 content.search { float:right;width: auto}
 content.search input { padding:5px;text-align: right;background: #fff;border-radius: 100px;padding-right: 15px;text-transform: capitalize;font-size: 12px;font-family: 'dinregular';margin-top: 15px;color: #fff;line-height: 20px; width:80px;}
 
-content.core { max-width: 700px;display: block;padding-top: 30px;padding: 30px 15px}
+content.core { max-width: 700px;display: block;padding:15px}
 
 content.definition, content.article, content.storage { z-index: 900;margin: 0px auto;position: relative;max-width: calc(100vw - 30px); max-width: 1150px}
 content.definition p { max-width: 700px}
@@ -168,7 +168,7 @@ content.log task.misc { background:#ffcb2b;}
 content.log a.subject { font-style: normal; display: inline-block; margin-right:15px; font-size:13px; border-bottom: 0px}
 content.log span.date a { font-size:13px;}
 
-content.portal {border-radius: 3px; position: relative; min-height:160px; margin-top:60px}
+content.portal { border-radius: 3px; position: relative; min-height:160px; margin-top:30px; max-width: 700px }
 content.portal img.badge { width:160px; }
 content.portal ul { }
 content.portal ul li { font-family: 'dinregular';font-size: 12px;clear: both;position: relative;margin-bottom: 1px;text-align: center}
@@ -178,7 +178,6 @@ content.portal ul li span.sub { text-align: center;line-height: 20px;}
 content.portal ul li b { font-weight: normal; font-family: 'dinbold'}
 content.portal ul li a { line-height: 14px;border-bottom: 0px;}
 content.portal ul li a:hover { border-bottom: 1px solid #aaa}
-
 
 content.footer { font-size: 13px;line-height: 19px;font-family: 'dinregular';clear: both; background:white;z-index: 900;margin: 0px auto;padding: 60px 5%;}
 content.footer b {font-family: 'dinbold'; font-weight: normal; }
@@ -208,6 +207,13 @@ content.circlegraph .details a { width:210px; display:inline-block; line-height:
 content.circlegraph .details a strong { font-family: 'dinbold';display: inline-block;margin-right: 7px;}
 content.circlegraph .details a .hours { display: inline-block;margin-right: 7px;color:grey; font-size: 11px}
 content.circlegraph .details a .ratio { display: inline-block;margin-right: 7px; font-size: 11px}
+
+content.source { width: 700px;border-bottom: 1px solid #ccc;line-height: 50px;font-family: 'dinregular';font-size: 12px;color: #999; }
+content.source svg.icon { margin-bottom: -8px }
+content.source a { font-family:'dinbold';}
+content.source a:hover { color:black;}
+
+svg.icon { display: inline-block; width:25px; height:25px; }
 
 issue { display: block; line-height: 22px;font-size:14px; font-family: 'dinregular'; }
 issue a.tag { font-family: monospace,courier;border-bottom: 0px;font-weight: normal;background:transparent; color:black;padding: 2px 5px;border-radius: 30px;font-size: 11px;line-height: 15px; margin-right:10px;width:30px;display: inline-block; background: #fff;}

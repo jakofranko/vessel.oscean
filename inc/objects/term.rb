@@ -57,7 +57,7 @@ class Term
   def logs
     logs = []
     $horaire.all.sort.each do |date,log|
-      if log.topic != @topic then next end
+      if log.topic != @topic && @topic != "Home" then next end
       logs.push(log)
     end
     return logs
@@ -66,7 +66,7 @@ class Term
   def diaries
     result = []
     logs.each do |log|
-      if log.topic != @topic then next end
+      if log.topic != @topic && @topic != "Home" then next end
       if log.photo == 0 then next end
       result.push(log)
     end
@@ -119,19 +119,15 @@ class Term
   	return hours
   end
 
-  def photo
-  	if @topic.to_i > 0 then return @topic.to_i end
-  	photoAlbum = []
-  	logs.each do |log|
-  		if log.photo < 1 then next end
-  		if log.topic != topic && topic != "Home" then next end
-  		if log.isFeatured then return log.photo end
-  		if log.topic == topic then photoAlbum.push(log.photo)
-  		elsif log.title == topic then photoAlbum.push(log.photo)
-  		end
-  	end
-  	if photoAlbum.length > 0 then return photoAlbum.first end
-  	return 0
+  def featured
+    diaries.reverse.each do |log|
+      if log.isFeatured == false then next end
+      return log
+    end
+    diaries.reverse.each do |log|
+      return log
+    end
+    return nil
   end
 
   def macros article
@@ -192,6 +188,7 @@ class Term
   end
 
   def template_portal
+
     html = ""
 
     # find root
@@ -217,7 +214,6 @@ class Term
     end
 
     if $lexicon.term(parent).children.length > 1
-      html += "<li class='head'>{{"+portalName+" Portal|#{portalName}}}</li>"
       $lexicon.term(parent).children.each do |term|
         if $page.topic == $page.parent && $page.topic == term.topic then next end
         html += "<li><span class='cat'>{{"+term.topic+"}}</span><span class='sub'> "

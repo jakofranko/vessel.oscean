@@ -12,6 +12,8 @@ class Layouts
     $issues  = data["issues"]
     $page    = $lexicon.term($query.capitalize)
 
+    @featured = $page.featured
+
   end
 
   # -----------------
@@ -39,22 +41,15 @@ class Layouts
 
   def layoutHeaderPhoto
 
-    if $query == "home" then return "<content id='photo' class='photo' style='background-image:url(/content/diary/"+$horaire.photo.to_s+".jpg)'></content>" end
     if $query.to_i > 0 then return "<content id='photo' class='photo' style='background-image:url(/content/diary/#{$query}.jpg)'></content>" end
-    if $page.photo > 0 then return "<content id='photo' class='photo' style='background-image:url(/content/diary/"+$page.photo.to_s+".jpg)'></content>" end
+    if @featured && @featured.photo > 0 then return "<content id='photo' class='photo' style='background-image:url(/content/diary/#{@featured.photo}.jpg)'></content>" end
     return ""
 
   end
 
   def layoutHeaderTitle
 
-    html = ""
-
-    html += "
-    <div class='search'>
-    	<div class='sector #{$page.sector}'></div>
-    	<input placeholder='"+$page.topic+"' id='query'/>
-    </div>"
+    html = "<div class='search'><div class='sector #{$page.sector}'></div><input placeholder='"+$page.topic+"' id='query'/></div>"
 
     if $module == "diary"
     	html += "<a class='module' href='/#{$page.topic}'>#{Icon.new.return}Return to #{$page.topic}</a>"
@@ -84,19 +79,13 @@ class Layouts
 
   end
 
-  def layoutBadge
+  def layoutHeaderSource
 
-  	html = ""
+    if !@featured then return "" end
 
-  	if File.exist?("img/interface/badge."+$page.topic.downcase.to_s.gsub(" ",".")+".png")
-  		html += "<img src='img/interface/badge."+$page.topic.downcase.to_s.gsub(" ",".")+".png'/>"
-  	elsif File.exist?("img/interface/badge."+$page.parent.downcase.to_s.gsub(" ",".")+".png")
-  		html += "<img src='img/interface/badge."+$page.parent.downcase.to_s.gsub(" ",".")+".png'/>"
-  	else
-  	  html += "<img src='img/interface/icon.crest.png'/>"
-  	end
-
-  	return "<content class='badge'><a href='/"+$page.topic+"'>"+html+"</a></content>"
+    html = ""
+    html += "#{Icon.new.photo} \"{{#{@featured.title}|#{@featured.photo}}}\" updated #{@featured.offset}."
+    return "<content class='source'>#{html}</content>"
 
   end
 
@@ -122,7 +111,6 @@ class Layouts
   	elsif $module && self.respond_to?("theater_#{$module.downcase}")
   		return "<content class='theater'>"+self.send("theater_#{$module.downcase}")+"</content>"
     end
-
     return ""
 
   end
@@ -159,7 +147,6 @@ class Layouts
       require_relative "pages/missing.rb"
       html = missing
     end
-
     return "<content class='definition'>"+html+"</content>"
 
   end
@@ -208,14 +195,10 @@ class Layouts
       require_relative "pages/#{$query}.rb"
     end
 
-    # Load page with prefix
-    if File.exist?("inc/pages/#{$page.parent.downcase}.#{$page.topic.downcase}.rb")
-      require_relative "pages/#{$page.parent.downcase}.#{$page.topic.downcase}.rb"
-    end
-
     html = ""
     html += layoutHeader
     html += "<content class='main'>"
+    html += layoutHeaderSource
     html += layoutTheater.force_encoding("UTF-8")
     html += layoutCore.force_encoding("UTF-8")
     html += "</content>"
@@ -228,6 +211,7 @@ class Layouts
 
   def title
 
+    if $horaire.diaryWithId($query) then return "XXIIVV ∴ "+$horaire.diaryWithId($query).title end
     return "XXIIVV ∴ "+$page.topic
     
   end
