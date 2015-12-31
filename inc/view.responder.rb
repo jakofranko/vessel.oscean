@@ -29,6 +29,7 @@ require_relative "objects/term.rb"
 require_relative "objects/dictionaery.rb"
 require_relative "objects/clock.rb"
 require_relative "objects/icon.rb"
+require_relative "objects/image.rb"
 
 require_relative "system.layouts.rb"
 

@@ -9,7 +9,7 @@ i { font-family: georgia, 'Garamond', times; font-style: italic}
 hr { border:0px; clear:both;}
 iframe { margin-bottom: 30px}
 
-pre { font-family: Monaco, monospace, courier;font-size:14px;padding:15px 30px; margin-bottom: 30px; border-left:5px solid #ddd;}
+pre { font-family: Monaco, monospace, courier;font-size: 14px;padding: 15px 15px;margin-bottom: 30px;background: #fff;}
 pre comment { display: inline-block; color:#999;}
 code { display: inline-block; font-family: Monaco, monospace, courier;}
 
@@ -26,10 +26,10 @@ table tr:target td * { color: #fff}
 .bgclear { background:none;}
 .clear { clear: both;}
 .grey { color:#bbb;}
-.wrap { margin: 0px;max-width: calc(100vw - 30px);line-height: 34px;font-size: 20px;position: relative;margin-bottom: 30px;width:700px }
+.wrap { margin: 0px;max-width: calc(100vw - 30px);line-height: 34px;position: relative;margin-bottom: 30px;width:700px }
 .print { font-family: monospace,courier; border-bottom: 0px; font-weight: normal;background:#222;color: white;padding: 0px 5px;border-radius: 30px; font-size:11px; line-height: 15px}
 
-p,center,div,form { max-width: calc(100vw - 30px);line-height: 30px;font-size: 20px;position: relative;margin-bottom: 30px; display: block; line-height: 26px;font-size: 17px;}
+p,center,div,form { max-width: calc(100vw - 30px);line-height: 30px;position: relative;margin-bottom: 30px; display: block; line-height: 26px;font-size: 17px;}
 p a { line-height: 15px;display: inline-block;border-bottom: 1px solid #ccc;}
 p a:hover { border-bottom: 1px solid #000}
 p .external { border-bottom: 0px}
@@ -43,30 +43,12 @@ div { margin-bottom: 0px}
 form select { border: 1px solid #ccc;font-family: 'Helvetica Neue';font-size: 16px;height: 30px;}
 form input[type="submit"] { color: #000;line-height: 25px;padding: 0px 10px;border-radius: 30px;font-size: 14px;font-family: Helvetica Neue;font-weight: 900;border: 1px solid #ccc;background: #eee;}
 form input[type="submit"]:hover { background:#fff;}
-img { max-width: 100%;display: block;margin:0px auto;margin-bottom: 15px;}
+img { max-width: 100%;display: block;margin:0px auto;margin-bottom: 30px;}
 
 .half { display: block;max-width: calc(50% - 15px);vertical-align: top;float: left;min-width: 335px; margin-right:15px;}
 
-ul { max-width: calc(100vw - 30px);line-height: 34px;position: relative;margin-bottom: 30px;}
-ul.column { -webkit-column-count: 3; /* Chrome, Safari, Opera */ -moz-column-count: 3; /* Firefox */column-count: 3;}
-ul ul { margin-bottom: 0px; margin-left: 15px}
-ul li { list-style-type:none; list-style-type: none;font-size: 15px;line-height: 23px}
-ul li span.right { font-size:14px; color: #999; padding-right: 0px}
-ul li small { font-size:14px; line-height:18px;}
-ul li a { line-height: 19px;display: inline-block;border-bottom: 1px solid #ccc;}
-ul li.top { font-size: 14px;margin-bottom: 5px;font-family: 'dinregular';letter-spacing: 0px;text-transform: uppercase;color: #999 }
-ul.bullet li { list-style-type: circle; margin-left:20px;}
-ul.small li a { font-size:16px; line-height:16px;}
-
-ul.minimal * { font-family: 'dinregular'}
-ul.minimal li.head { font-family: 'din_mediumregular'; font-size:14px; padding:15px 0px; border-left:0px;}
-ul.minimal li.head a { font-family: 'din_mediumregular'; font-size:14px; border-left:0px; border-bottom:0px;}
-ul.minimal li { font-size: 14px; line-height:20px; border-left: 15px solid #ddd; padding-left:15px;}
-
-table.minimal { display: table}
-table.minimal tr th { border:0px; border-bottom:1px dashed #ccc; background:none; padding: 5px 10px 5px 0px;}
-table.minimal tr td { border:0px; border-bottom:1px solid #ccc; background:none; padding: 5px 10px 5px 0px;}
-table.minimal tr td:hover { border-bottom: 1px solid #000}
+ul {}
+ul li { line-height: 25px; }
 
 h1 { text-align: center;margin-bottom: 30px;font-size: 32px;font-style: italic;letter-spacing: -1px;}
 h2 { line-height: 34px;font-size: 30px;position: relative;margin-bottom: 30px; font-family: 'din_lightregular'; letter-spacing: -1px}
@@ -96,13 +78,13 @@ content.sidebar ul li a.icon:hover { background:none; opacity: 0.5;}
 
 /* Core */
 
-content.header { max-width: 100%; width:100%;overflow: hidden;min-height: 100px;max-height: 60vh;position: relative;background: #111; z-index: 50}
+content.header { max-width: 100%; width:100%;overflow: hidden;min-height: 150px;max-height: 60vh;position: relative;background: #111; z-index: 50}
 content.header.collapse { min-height: 0px}
 
 content.header content.logo { z-index: 900;margin: 0px auto;height: 0px;width: calc(100vw - 10%);position: fixed;max-width: calc(100vw - 30px); top:30px; left: calc(50vw - 540px); left: 30px; position: absolute}
 content.header content.photo { background-size: cover;background-position: center center;height: 60vh;width: 100vw;max-width: 100vw; transform: translateZ(0);}
 
-content.title { z-index: 900;margin: 0px auto;height: 45px;max-width: 700px;width: calc(100vw - 30px);position: relative;top: -45px;padding: 0px 15px; }
+content.title { z-index: 900;height: 45px;max-width: 700px;width: calc(100vw - 30px);position: absolute;bottom: 0px;padding: 0px 15px;left: calc(50vw);margin-left: -365px; }
 content.title * { display: inline-block;line-height: 16px;font-family: 'dinregular';font-weight: 100;}
 
 content.title span.right { color: #fff;font-size: 12px;text-align: right; line-height: 18px}
@@ -133,6 +115,10 @@ content.core { max-width: 700px;display: block;padding-top: 30px;padding: 30px 1
 
 content.definition, content.article, content.storage { z-index: 900;margin: 0px auto;position: relative;max-width: calc(100vw - 30px); max-width: 1150px}
 content.definition p { max-width: 700px}
+content.definition ul { margin-bottom: 30px; }
+content.definition ul li a { border-bottom: 1px solid #ccc; line-height: 15px; display: inline-block}
+content.definition ul li a:hover { border-bottom: 1px solid #000}
+content.definition ul li:before { content: "•"; padding: 15px;color: #999}
 
 content.theater { background:#0c0c0c; padding-top:30px; padding-bottom: 30px; color:#999;}
 content.theater img { max-width: 1000px; border-radius: 2px; width: 100%}
@@ -236,7 +222,9 @@ issue span.date { opacity: 0.3; display: inline-block; margin-left:7px;}
 log { display: block; line-height: 22px;font-size:14px; font-family: 'dinregular'; }
 log svg { display: block;width: 20px;height: 20px;float:left; background:white; border-radius: 20px; margin-right:7px;}
 log a.topic {font-family: 'dinbold'; display:inline-block; margin-right:7px;}
+log a.topic:hover { text-decoration: underline}
 log a.title {font-family: 'dinregular'; display:inline-block; margin-right:7px; text-decoration: underline}
-log span.date { opacity: 0.3; display: inline-block; margin-left:7px;}
+log span.task { background: #000;border-radius: 200px;color: #fff;font-size: 11px;padding: 0px 10px;display: inline-block;margin-right: 10px}
+log span.date { opacity: 0.3; display: inline-block;}
 
 .twitter-tweet { margin-bottom:30px !important;}

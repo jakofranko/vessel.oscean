@@ -25,7 +25,6 @@ class Horaire
 
 	# Lookups
 
-
 	def diaries
 
 		result = []
@@ -54,6 +53,20 @@ class Horaire
 			result += log.value
 		end
 		return result
+
+	end
+
+	# Search
+
+	def diaryWithId target
+
+		all.each do |date,log|
+			if log.photo < 1 then next end
+			if log.photo != target.to_i then next end
+			return log
+		end
+
+		return nil
 
 	end
 

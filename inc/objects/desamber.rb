@@ -18,6 +18,10 @@ class Desamber
 		return @date[5,2].to_i
 	end
 
+	def monthName
+		return "#{dict[equalMonth-1]}"
+	end
+
 	def day
 		return @date[8,2].to_i
 	end

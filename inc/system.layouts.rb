@@ -40,6 +40,7 @@ class Layouts
   def layoutHeaderPhoto
 
     if $query == "home" then return "<content id='photo' class='photo' style='background-image:url(/content/diary/"+$horaire.photo.to_s+".jpg)'></content>" end
+    if $query.to_i > 0 then return "<content id='photo' class='photo' style='background-image:url(/content/diary/#{$query}.jpg)'></content>" end
     if $page.photo > 0 then return "<content id='photo' class='photo' style='background-image:url(/content/diary/"+$page.photo.to_s+".jpg)'></content>" end
     return ""
 
@@ -61,6 +62,8 @@ class Layouts
     	html += "<a class='module' href='/Diary'>#{Icon.new.diary}#{$horaire.diaries.length} Diaries</a>"
     elsif $page.diaries.length > 1
     	html += "<a class='module' href='/#{$page.topic}:Diary'>#{Icon.new.diary}#{$page.diaries.length} Diaries</a>"
+    elsif $query.to_i > 0
+    	html += "<a class='module' href='/#{$horaire.diaryWithId($query).topic}'>#{Icon.new.return}Return to #{$horaire.diaryWithId($query).topic}</a>"
     end
 
     if $module == "horaire"
@@ -105,6 +108,7 @@ class Layouts
 
     html = ""
     html += layoutCoreDefinition
+    html += $page.template_portal
 
     return "<content class='core'>"+html+"</content>"
 
@@ -144,19 +148,17 @@ class Layouts
     elsif $page.flags.include?("index")
       require_relative "layouts/index.rb"
       html = index
+    elsif $horaire.diaryWithId($query) != nil
+      html = $horaire.diaryWithId($query).full
     # Lexicon
     elsif $page.definition != ""
       html += $page.definition
-      # html += $page.template_readMore
-      # html += $page.template_lastUpdate
       html += $page.template_links
     # 404
     else
       require_relative "pages/missing.rb"
       html = missing
     end
-    
-    html += $page.template_portal
 
     return "<content class='definition'>"+html+"</content>"
 
