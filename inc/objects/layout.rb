@@ -88,7 +88,7 @@ class Layout
     elsif File.exist?("img/interface/badge.#{@page.portal.downcase}.png")
       return "<a href='/#{@page.portal}' class='badge'><img src='img/interface/badge.#{@page.portal.downcase}.png'/></a>"
     end
-    return "<a href='#{@term.parent}' class='badge'><img src='img/interface/badge.oscean.png'/></a>"
+    return "<a href='#{@page.term.parent}' class='badge'><img src='img/interface/badge.oscean.png'/></a>"
 
   end
 
