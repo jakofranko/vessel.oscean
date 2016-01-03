@@ -5,11 +5,12 @@ class Page
 	def body
 
 		html = ""
-		count = 0
-		@diaries.each do |log|
-			if count > 20 then break end
-			html += log.diary_template
-			count += 1
+		if @diaries.count == 0
+			html = "<p>The Diary page is currently down, visit <a href='/Home:Diary'>this page</a> in the meantime.</p>"
+		else
+			@diaries[0,10].each do |log|
+				html += log.diary_template
+			end
 		end
 		return "<content class='issues'>#{macros(html)}</content>"
 

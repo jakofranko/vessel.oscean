@@ -90,7 +90,7 @@ class Page
 
 		array = []
 		@horaire.all.each do |date,log|
-			if log.topic != @term.topic && @query != "home" then next end
+			if log.topic != @term.topic && @query != "home" && @query != "diary" then next end
 			if log.photo < 1 then next end
 			array.push(log)
 		end
@@ -147,7 +147,9 @@ class Page
 	def _body
 
 		if @term.definition.to_s != "" then return @term.definition end
-	    return "[Missing body]"
+
+		require_relative("../modules/missing.rb")
+	    return missing
 
 	end
 
