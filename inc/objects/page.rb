@@ -221,6 +221,9 @@ class Page
 
 	def parser macro
 
+		if macro == "!clock" then return "<a href='/Clock'>#{Clock.new().default}</a>" end
+		if macro == "!desamber" then return "<a href='/Desamber'>#{Desamber.new().default}</a>" end
+			
 		if macro.downcase == @query then return "<b>#{macro}</b>" end
 		if macro.include?("|") then return "<a href='"+macro.split("|")[1]+"'>"+macro.split("|")[0]+"</a>" end
         return "<a href='"+macro.gsub(" ","+")+"'>"+macro+"</a>"

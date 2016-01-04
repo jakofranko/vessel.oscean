@@ -14,12 +14,12 @@ class Clock
 	end
 
 	def timeInt
-		return ((elapsed / 86400.0) * 10000).to_i
+		return ((elapsed / 86400.0) * 1000000).to_i
 	end
 
 	def format_normal
 		timeIntString = timeInt.to_s.rjust(4, '0')
-		return timeIntString[0,2]+"t"+timeIntString[2,2]
+		return timeIntString[0,3]+":"+timeIntString[3,3]
 	end
 
 	def default
