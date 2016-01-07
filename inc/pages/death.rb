@@ -6,8 +6,8 @@ class Page
 
   def body
 
+    html = macros(@term.definition)
     time1 = Time.new
-    html = "<p>This is my life.<br />Every week, a cell goes dark</p>"
     html += timelineStyle
     year = 1
     while year < 60
@@ -15,7 +15,7 @@ class Page
     	week = 0
     	while week < 52
     		if (year * 52)+week < (DateTime.now.mjd - DateTime.parse("22-03-1986").mjd)/7
-    			html += "<cell style='background:black'></cell>"
+    			html += "<cell class='black'></cell>"
     		else
     			html += "<cell></cell>"
     		end
@@ -24,7 +24,7 @@ class Page
     	html += "<hr/>"
     	year += 1
     end
-    return "<content class='wrap'>"+html+"</content>"
+    return "<content class='wrap' style='line-height:3px'>"+html+"</content>"
 
   end
 
@@ -32,8 +32,9 @@ class Page
 
   	html = "
   	<style>
-  		cell { float:left; width:9px; border:1px solid #000; height:3px; margin-right:1px; display:block; margin-bottom:1px}
-  		small.divider { display: block;font-family: 'dinbold';font-size: 11px;line-height: 20px;color:#777}
+  		cell { display: inline-block;width: calc(1.9% - 2px);background: white;height: 6px;margin: 1px 0px 0px 1px;border-radius: 10px}
+      cell.black { background:black}
+  		small.divider { display: block;font-family: 'dinbold';font-size: 11px;line-height: 30px;color: #000;}
   	</style>
   	"
   	return html

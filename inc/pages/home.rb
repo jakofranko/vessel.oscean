@@ -5,7 +5,6 @@ class Page
   def body
 
     html = @term.definition
-    html += "<p>If this is your first time around, the {{Introduction}} is a good place to begin your exploration. If you wish to stay updated on the development of the latest projects, follow {{@Neauoire|http://twitter.com/neauoire}}. </p>"
 
     html += recentEdits
     html += latestUpdates
@@ -45,7 +44,7 @@ class Page
     topicHistory = {}
     count = 0
     @horaire.all.each do |date,log|
-      # if log.task == "Update" then next end
+      if log.topic == "" then next end
       if log.title != "" then next end
       if count >= 5 then break end
       if topicHistory[log.topic] then next end

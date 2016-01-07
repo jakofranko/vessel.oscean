@@ -106,7 +106,7 @@ class Graph
 		markers += "<span style='position:absolute; bottom:15px;left:30px; text-align:right'><line style='border-top:1px solid #72dec2'></line>Audio</span>"
 		markers += "<span style='position:absolute; bottom:15px;left:110px; text-align:right'><line style='border-top:1px solid red'></line>Visual</span>"
 		markers += "<span style='position:absolute; bottom:15px;left:190px; text-align:right'><line style='border-top:1px solid white'></line>Research</span>"
-		markers += "<span style='position:absolute; bottom:15px;right:30px; text-align:right'>{{#{@sumHours.to_i} hours|Horaire}}</span>"
+		markers += "<span style='position:absolute; bottom:15px;right:30px; text-align:right'><a href='/Horaire'>#{@sumHours.to_i} hours</a></span>"
 
 		return "<content class='graph'><svg style='width:#{width}px; height:#{height}px; background:black'>"+html+"<svg>#{markers}</content>"
 

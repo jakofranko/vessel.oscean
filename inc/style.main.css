@@ -84,7 +84,7 @@ content.header.collapse { min-height: 0px}
 content.header content.logo { z-index: 900;margin: 0px auto;height: 0px;width: calc(100vw - 10%);position: fixed;max-width: calc(100vw - 30px); top:30px; left: calc(50vw - 540px); left: 30px; position: absolute}
 content.header content.photo { background-size: cover;background-position: center center;height: 60vh;width: 100vw;max-width: 100vw; transform: translateZ(0);}
 
-content.title { z-index: 900;max-width: 700px;width: calc(100vw - 60px);position: relative;bottom: 45px;padding: 0px 15px;}
+content.title { z-index: 900;max-width: 700px;width: calc(100vw - 60px);position: absolute;bottom: 15px;padding: 0px 15px;left: 0;right: 0;height: 30px}
 content.title * { display: inline-block;line-height: 16px;font-family: 'dinregular';font-weight: 100;}
 
 content.title span.right { color: #fff;font-size: 12px;text-align: right; line-height: 18px}
