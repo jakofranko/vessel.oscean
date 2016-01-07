@@ -61,8 +61,7 @@ class Horaire
 
 	def diaryWithId target
 
-		all.each do |date,log|
-			if log.photo < 1 then next end
+		diaries.each do |log|
 			if log.photo != target.to_i then next end
 			return log
 		end
@@ -75,8 +74,7 @@ class Horaire
 
 	def featuredDiaryWithTopic target
 
-		all.each do |date,log|
-			if log.photo < 1 then next end
+		diaries.each do |log|
 			if log.topic.downcase != target.downcase then next end
 			return log
 		end

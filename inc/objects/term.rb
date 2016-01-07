@@ -130,48 +130,4 @@ class Term
     return nil
   end
 
-  def template_portal
-
-    html = ""
-
-    # find root
-    depth = 0
-    parent = $page.topic
-    while $lexicon.parent(parent) != parent
-      if depth > 5 then return "" end
-      if $lexicon.term(parent).flags.include?("portal") then break end
-      parent = $lexicon.parent(parent)
-      depth += 1
-    end
-
-    portalName = parent
-
-    if portalName == "" then return "" end
-
-    if File.exist?("img/interface/badge.#{topic.downcase}.png")
-      html += "<img src='img/interface/badge.#{topic.downcase}.png' class='badge'/>"
-    elsif File.exist?("img/interface/badge.#{portalName.downcase}.png")
-      html += "<img src='img/interface/badge.#{portalName.downcase}.png' class='badge'/>"
-    else
-      html += "<img src='img/interface/badge.oscean.png' class='badge'/>"
-    end
-
-    if $lexicon.term(parent).children.length > 1
-      $lexicon.term(parent).children.each do |term|
-        if $page.topic == $page.parent && $page.topic == term.topic then next end
-        html += "<li><span class='cat'>{{"+term.topic+"}}</span><span class='sub'> "
-        category = term.topic
-        children = ""
-        $lexicon.term(category).children.each do |term|
-          children += "{{"+term.topic+"}}"
-          children += " · "
-        end
-        html += children[0...-3]
-
-        html += "</span></li>"
-      end
-    end
-    return "<content class='portal'><ul>"+html+"</ul></content>"
-  end
-
 end
