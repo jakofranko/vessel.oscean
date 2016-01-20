@@ -15,9 +15,9 @@ code { display: inline-block; font-family: Monaco, monospace, courier;}
 
 table { margin-bottom:30px;border:0px; border-collapse: collapse; max-width:100%; font-family: 'dinregular'; width:100%; font-family: inherit; display: table; max-width:700px;}
 table tr b { font-family: 'dinbold'; font-weight: normal;}
-table tr td { background: transparent;font-size: 14px;padding:5px 10px;line-height: 30px; font-family: 'dinregular'; border: 1px solid #ddd}
+table tr td { background: transparent;font-size: 13px;padding: 5px 10px;line-height: 20px;font-family: 'dinregular';border: 1px solid #ddd}
 table tr td a { font-family: 'dinbold';}
-table tr th { background: transparent;font-size: 12px;padding:5px 10px;line-height: 30px;font-family: 'dinregular';color: #555;text-align: left;}
+table tr th { background: transparent;font-size: 13px;padding: 5px 10px;line-height: 20px;font-family: 'dinbold';color: #000;text-align: left;border-left: 1px solid #ddd}
 table tr:target td { background:#000; color: #fff; border-bottom: 1px solid #000; border-right:0px; border-left:0px; border-top:0px solid #000; }
 table tr:target td * { color: #fff}
 
