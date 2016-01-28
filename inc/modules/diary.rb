@@ -4,7 +4,7 @@ class Page
 
 	def body
 
-		html = ""
+		html = macros(@term.definition)
 		if @diaries.count == 0
 			html = "<p>The Diary page is currently down, visit <a href='/Home:Diary'>this page</a> in the meantime.</p>"
 		else

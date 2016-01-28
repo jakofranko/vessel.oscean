@@ -7,6 +7,7 @@ class Page
 		html = macros(@term.definition)
 	    children = Oscean.new(@term.topic).lexiconFind("parent",@term.topic)
 	    children.each do |term|
+	    	if term.topic == @term.topic then next end
 	    	html += "
 		    <content>
 		      <h2><a href='/#{term.topic}'>#{term.topic}</a></h2>
