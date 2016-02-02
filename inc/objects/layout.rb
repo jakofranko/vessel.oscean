@@ -83,12 +83,12 @@ class Layout
 
   def layoutPortal
 
-    if File.exist?("img/interface/badge.#{@page.term.topic.downcase}.png")
-      return "<a href='/#{@page.portal}' class='badge'><img src='img/interface/badge.#{@page.term.topic.downcase}.png'/></a>"
-    elsif File.exist?("img/interface/badge.#{@page.portal.downcase}.png")
-      return "<a href='/#{@page.portal}' class='badge'><img src='img/interface/badge.#{@page.portal.downcase}.png'/></a>"
+    if File.exist?("content/badges/#{@page.term.topic.downcase}.png")
+      return "<a href='/#{@page.portal}' class='badge'><img src='content/badges/#{@page.term.topic.downcase}.png'/></a>"
+    elsif File.exist?("content/badges/#{@page.portal.downcase}.png")
+      return "<a href='/#{@page.portal}' class='badge'><img src='content/badges/#{@page.portal.downcase}.png'/></a>"
     end
-    return "<a href='#{@page.term.parent}' class='badge'><img src='img/interface/badge.oscean.png'/></a>"
+    return "<a href='#{@page.term.parent}' class='badge'><img src='content/badges/oscean.png'/></a>"
 
   end
 
