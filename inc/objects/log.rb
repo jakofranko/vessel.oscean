@@ -151,8 +151,8 @@ class Log
 
 	def template
 		html = ""
+		html += "<a class='topic #{sector}' href='/#{topic}'>#{topic}</a>"
 		html += "<span class='task'>#{task}</span>"
-		html += "<a class='topic' href='/#{topic}'>#{topic}</a>"
 		if photo > 0
 			html += "<a class='title' href='/#{topic}:diary'>#{title}</a>"
 		elsif task.downcase == "update"

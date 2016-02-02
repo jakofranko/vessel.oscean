@@ -30,15 +30,14 @@ class Page
 
   def thisMonth
 
-    html = "<h2>#{Desamber.new().default_month_year}</h2>"
-    html += Graph.new(graphViewData).draw
-    return html
+    return Graph.new(graphViewData).draw+"
+    <p>This graph shows the time invested in audio, visual and research projects for the past 3 months. You can see the time logged into projects of the past 10 years by visiting the <a href='/Horaire'>Horaire</a> module.</p>"
 
   end
 
   def recentEdits
 
-    html = "<h2>Recent Edits</h2>"
+    html = ""
 
     html_list = ""
     topicHistory = {}
@@ -61,7 +60,7 @@ class Page
 
   def latestUpdates
 
-    html = "<h2>Latest Updates</h2>"
+    html = ""
 
     html_list = ""
     topicHistory = {}
@@ -83,7 +82,7 @@ class Page
 
   def activeIssues
 
-    html = "<h2>Active Issues</h2>"
+    html = ""
 
     topicHistory = {}
     count = 0

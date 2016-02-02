@@ -197,7 +197,7 @@ content.source a:hover { color:black;}
 svg.icon { display: inline-block; width:25px; height:25px; }
 
 issue { display: block; line-height: 22px;font-size:14px; font-family: 'dinregular'; }
-issue a.tag { font-family: monospace,courier;border-bottom: 0px;font-weight: normal;background:transparent; color:black;padding: 2px 5px;border-radius: 30px;font-size: 11px;line-height: 15px; margin-right:10px;width:30px;display: inline-block; background: #fff;}
+issue a.tag { font-family: monospace,courier;border-bottom: 0px;font-weight: normal;background:transparent; color:black;padding: 2px 5px;border-radius: 30px;font-size: 11px;line-height: 15px; margin-right:10px;width:30px;display: inline-block; }
 issue i { color:#999;}
 issue.complete a.tag { background: #222;color: white;}
 issue.bug a.tag { background:#fff; color:red;}
@@ -209,9 +209,13 @@ issue span.date { opacity: 0.3; display: inline-block; margin-left:7px;}
 log { display: block; line-height: 22px;font-size:14px; font-family: 'dinregular'; }
 log svg { display: block;width: 20px;height: 20px;float:left; background:white; border-radius: 20px; margin-right:7px;}
 log a.topic {font-family: 'dinbold'; display:inline-block; margin-right:7px;}
+log a.topic:after { content:'•'; padding-left:5px;}
 log a.topic:hover { text-decoration: underline}
+log a.topic.audio:after { color:#72dec2;}
+log a.topic.visual:after { color:red;}
+log a.topic.visual:after { color:#ccc;}
 log a.title {font-family: 'dinregular'; display:inline-block; margin-right:7px; text-decoration: underline}
-log span.task { background: #000;border-radius: 200px;color: #fff;font-size: 11px;padding: 0px 10px;display: inline-block;margin-right: 10px}
+log span.task { color: #000;display: inline-block;margin-right: 10px;}
 log span.date { opacity: 0.3; display: inline-block;}
 
 .twitter-tweet { margin-bottom:30px !important;}

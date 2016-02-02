@@ -11,8 +11,8 @@ class Page
 	    	html += "
 		    <content class='diary'>
 		      <a href='/#{term.topic}'>#{diary != nil ? Image.new(diary.photo).view : ""}</a>
-		      <small>#{diary != nil ? diary.offset : "unknown"}</small>
-		      <h1>#{term.topic}</h1>
+		      <small>#{diary != nil ? diary.offset : ""}</small>
+		      <h1><a href='/#{term.topic}'>#{term.topic}</a></h1>
 		      <div class='full'>#{term.description}</div>
 		    </content>"
 	    end
