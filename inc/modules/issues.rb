@@ -5,14 +5,23 @@ class Page
 	def body
 
 		html = ""
-		html += "<p>This list shows the latest active issues out of <i>"+@issues.length.to_s+" total issues</i>, across all topics of XXIIVV. Click on a topic to see the issues specific to this topic.</p>"
-		html += "<table class='minimal'>"
-		html += "<tr><th style='width:10px'>Ticket</th><th>Topic</th><th>Type</th><th>Task</th><th style='width:100px; text-align:right'>Updated</th></tr>"
-		@issues.reverse.each do |issue|
+		html += "<p>This list shows the latest issues for the <b>#{@term.topic}</b> project.</p>"
+	
+		html += "<h3>Next Version</h3>"
+		@issues[""].each do |issue|
 			if issue.active != true then next end
-			html += "<tr id='id"+issue.id.to_s+"'><td><span style='font-size:12px'>#"+issue.id.to_s+"</span></td><td>{{"+issue.topic+"|/"+issue.topic+":Issues}}</td><td>"+issue.type+"</td><td>"+issue.task+"</td><td style='text-align:right; color:#999'>"+issue.offset+"</td></tr>"
+			html += issue.template
 		end
-		html += "</table>"
+		html += "<br />"
+		@issues.each do |release,issues|
+			if release == "" then next end
+			html += "<h3>Version #{release}</h3>"
+			issues.each do |issue|
+				html += issue.template
+			end
+			html += "<br />"
+		end
+		html += "<br />"
 		return "<content class='issues'>#{macros(html)}</content>"
 
 	end

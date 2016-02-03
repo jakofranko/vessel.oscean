@@ -10,7 +10,6 @@ class Page
     html += latestUpdates
     html += "<hr/>"
     html += thisMonth
-    html += activeIssues
 
   	return macros(html)
 
@@ -78,25 +77,6 @@ class Page
 
     return "<content style='margin-bottom:30px' class='half'>"+html+"</content>"
     
-  end
-
-  def activeIssues
-
-    html = ""
-
-    topicHistory = {}
-    count = 0
-    @issues.reverse.each do |issue|
-      if !issue.active then next end
-      if count >= 5 then break end
-      if topicHistory[issue.topic] then next end
-      html += issue.template
-      count += 1
-      topicHistory[issue.topic] = 1
-    end
-    
-    return "<content style='margin-bottom:30px'>"+html+"</content>"
-
   end
 
 end

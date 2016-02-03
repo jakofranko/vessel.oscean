@@ -123,13 +123,13 @@ class Page
 
 	def _issues
 
-		array = []
+		hash = {}
 		@issues.each do |issue|
 			if issue.topic != @term.topic && @query != "home" then next end
-			if issue.active == false then next end
-			array.push(issue)
+			if !hash[issue.release] then hash[issue.release] = [] end
+			hash[issue.release].push(issue)
 		end
-		return array
+		return hash
 
 	end
 

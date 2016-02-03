@@ -185,7 +185,7 @@ content.footer dl.icons .icon img { width:30px; height:30px; float:right; border
 content.footer dl.icons .icon:hover { border-bottom: 0px; opacity: 1.0}
 
 content.graph { background:black; padding: 35px 0px; position:relative; margin-bottom: 30px; overflow: hidden}
-content.graph svg { margin: 15px 30px; display:block;}
+content.graph svg { margin: 15px 30px;display: block;width: calc(100% - 60px) !important;overflow-x: hidden}
 content.graph span { display: block; color:white; font-family: 'dinregular'; font-size: 12px}
 content.graph line { border-top: 1px solid #72dec2;width: 15px;display: inline-block;margin-right:7px;top:-3px;position:relative}
 
@@ -199,9 +199,9 @@ svg.icon { display: inline-block; width:25px; height:25px; }
 issue { display: block; line-height: 22px;font-size:14px; font-family: 'dinregular'; }
 issue a.tag { font-family: monospace,courier;border-bottom: 0px;font-weight: normal;background:transparent; color:black;padding: 2px 5px;border-radius: 30px;font-size: 11px;line-height: 15px; margin-right:10px;width:30px;display: inline-block; }
 issue i { color:#999;}
-issue.complete a.tag { background: #222;color: white;}
-issue.bug a.tag { background:#fff; color:red;}
-issue.bug.complete a.tag { background:red; color:white;}
+issue.complete a.tag { background: #333;color: white;}
+issue.bug a.tag { background:#ccc; }
+issue.bug.complete a.tag { background:#000; color:white;}
 issue:hover a.tag { color: #999;}
 issue a.topic { font-family: 'dinbold'; display:inline-block; margin-right:7px;}
 issue span.date { opacity: 0.3; display: inline-block; margin-left:7px;}
