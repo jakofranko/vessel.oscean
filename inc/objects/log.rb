@@ -77,7 +77,7 @@ class Log
 	end
 
 	def full
-		return @log['full'].to_s.force_encoding("UTF-8")
+		return macros(@log['full'].to_s.force_encoding("UTF-8"))
 	end
 
 	def task
@@ -170,9 +170,26 @@ class Log
 		<content class='diary'>
 			<a href='/#{photo}'>#{Image.new(photo).view}</a>
 			<small>#{date.default}</small>
-			<h1>#{title}</h1>
+			<h1><a href='/#{photo}'>#{title}</a></h1>
 			<div class='full'>#{full}</div>
 		</content>"
+
+	end
+
+	def macros text
+
+		search = text.scan(/(?:\{\{)([\w\W]*?)(?=\}\})/)
+        search.each do |str,details|
+            text = text.to_s.gsub("{{"+str+"}}",parser(str))
+        end
+        return text
+
+	end
+
+	def parser macro
+
+		if macro.include?("diary:") then return "<img src='content/diary/#{photo}.#{macro.split(":")[1]}.jpg'/>" end
+		return ""
 
 	end
 
