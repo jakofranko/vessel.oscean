@@ -4,18 +4,18 @@ class Page
 
     def body
 
-        $dictionaery = $oscean.dictionaery()
+        @dict = $oscean.dictionaery()
 
         html = ""
 
         html += @term.definition
-        html += traumaeDocumentation
+        html += docs_alphabet
 
         return "<content><wrapper>#{macros(html)}</wrapper></content>"
 
     end
 
-    def traumaeDocumentation
+    def docs_alphabet
 
         return "
 
@@ -23,21 +23,114 @@ class Page
 
         <p>It wouldn't be wrong to assume that traumae has 27 core words, and to learn these few concepts should be enough to guess at what a new word might mean. In practice, the relationship between sounds and meanings can become very blurry, it is good to rely on both memory and logic while learning traumae.</p>
 
-        "+$dictionaery.solver("")+"
+        <table>
+        <tr><th colspan='2'>Traversing</th><th colspan='2'>State</th><th colspan='2'>Origin</th></tr>
+
+        <tr>
+            <td>ki</td>
+            <td>#{@dict["ki"].english}</td>
+            <td>xi</td>
+            <td>#{@dict["xi"].english}</td>
+            <td>si</td>
+            <td>#{@dict["si"].english}</td>
+        </tr>
+
+        <tr>
+            <td>ti</td>
+            <td>#{@dict["ti"].english}</td>
+            <td>di</td>
+            <td>#{@dict["di"].english}</td>
+            <td>li</td>
+            <td>#{@dict["li"].english}</td>
+        </tr>
+
+        <tr>
+            <td>pi</td>
+            <td>#{@dict["pi"].english}</td>
+            <td>bi</td>
+            <td>#{@dict["bi"].english}</td>
+            <td>vi</td>
+            <td>#{@dict["vi"].english}</td>
+        </tr>
+
+        <tr><th colspan='2'>Direction</th><th colspan='2'>Transformation</th><th colspan='2'>Counters</th></tr>
+
+        <tr>
+            <td>ka</td>
+            <td>#{@dict["ka"].english}</td>
+            <td>xa</td>
+            <td>#{@dict["xa"].english}</td>
+            <td>sa</td>
+            <td>#{@dict["sa"].english}</td>
+        </tr>
+
+        <tr>
+            <td>ta</td>
+            <td>#{@dict["ta"].english}</td>
+            <td>da</td>
+            <td>#{@dict["da"].english}</td>
+            <td>la</td>
+            <td>#{@dict["la"].english}</td>
+        </tr>
+        <tr>
+            <td>pa</td>
+            <td>#{@dict["pa"].english}</td>
+            <td>ba</td>
+            <td>#{@dict["ba"].english}</td>
+            <td>va</td>
+            <td>#{@dict["va"].english}</td>
+        </tr>
+
+        <tr><th colspan='2'>Modality</th><th colspan='2'>Alignment</th><th colspan='2'>Interaction</th></tr>
+
+        <tr>
+            <td>ko</td>
+            <td>#{@dict["ko"].english}</td>
+            <td>xo</td>
+            <td>#{@dict["xo"].english}</td>
+            <td>so</td>
+            <td>#{@dict["so"].english}</td>
+        </tr>
+        <tr>
+            <td>to</td>
+            <td>#{@dict["to"].english}</td>
+            <td>do</td>
+            <td>#{@dict["do"].english}</td>
+            <td>lo</td>
+            <td>#{@dict["lo"].english}</td>
+        </tr>
+
+        <tr>
+            <td>po</td>
+            <td>#{@dict["po"].english}</td>
+            <td>bo</td>
+            <td>#{@dict["bo"].english}</td>
+            <td>vo</td>
+            <td>#{@dict["vo"].english}</td>
+        </tr>
+
+        </table>
 
         <p>Similarly to how kanji compound words work, Traumae constructs are formed by combining letters from its alphabet. To give you a sense of the possibilities of Traumae, the following table will show you how to create many words stemming from the <a href='So'>so</a> letter, in combination with the <a href='Ka'>ka</a>, <a href='Ta'>ta</a> & <a href='Pa'>pa</a> syllables.</p>
 
         <table>
         <tr><th></th><th colspan='2'>ka</th><th colspan='2'>ta</th><th colspan='2'>pa</th></tr>
-        <tr><th>so</th><td>soka</td><td>"+$dictionaery.english("soka")+"</td><td>sota</td><td>"+$dictionaery.english("sota")+"</td><td>sopa</td><td>"+$dictionaery.english("sopa")+"</td></tr>
-        <tr><th>lo</th><td>loka</td><td>"+$dictionaery.english("loka")+"</td><td>lota</td><td>"+$dictionaery.english("lota")+"</td><td>lopa</td><td>"+$dictionaery.english("lopa")+"</td></tr>
-        <tr><th>vo</th><td>voka</td><td>"+$dictionaery.english("voka")+"</td><td>vota</td><td>"+$dictionaery.english("vota")+"</td><td>vopa</td><td>"+$dictionaery.english("vopa")+"</td></tr>
+        <tr><th>so</th><td>soka</td><td>#{@dict["soka"].english}</td><td>sota</td><td>#{@dict["sota"].english}</td><td>sopa</td><td>#{@dict["sopa"].english}</td></tr>
+        <tr><th>lo</th><td>loka</td><td>#{@dict["loka"].english}</td><td>lota</td><td>#{@dict["lota"].english}</td><td>lopa</td><td>#{@dict["lopa"].english}</td></tr>
+        <tr><th>vo</th><td>voka</td><td>#{@dict["voka"].english}</td><td>vota</td><td>#{@dict["vota"].english}</td><td>vopa</td><td>#{@dict["vopa"].english}</td></tr>
         </table>
 
         <p>A common difficulty with Traumae is to properly divide the words and to use the correct sequence of letter to express a specific concept - or which letter comes first in <a href='xoka'>xoka</a>, why is it not <a href='kaxo'>kaxo</a>.</p>
 
-        <table><tr><th>Do loka</th><td>"+$dictionaery.english("do loka")+"</td><th>Dolo ka</th><td>"+$dictionaery.english("dolo ka")+"</td></tr></table>
+        <table><tr><th>Do loka</th><td>#{@dict["do loka"].english}</td><th>Dolo ka</th><td>#{@dict["dolo ka"].english}</td></tr></table>"
 
+    end
+
+    def traumaeDocumentation
+
+        return "
+
+        
         <h2>The Pronouns</h2>
 
         <p>Traumae's grammar is asexual and its pronouns are divided into four families and three persons, where \"it\" is included in the third family.</p>
@@ -192,89 +285,6 @@ class Page
 
         "
 
-    end
-
-    # Define View
-
-    def defineTraumae
-
-        html = ""
-
-        @dictionaery = {}
-        @dictionaery = traumaeDatabase
-
-        # Tools
-        transMain = @dictionaery[@search.downcase]['default']
-        transMainType = transMain['type'].to_s
-        transAlt = []
-        @dictionaery[@search.downcase].sort.each do |k,v|
-            if v['english'] != transMain['english']
-                transAlt.push(v['english'])
-            end
-        end
-
-        transAlt = transAlt.uniq.compact
-
-        # Definition
-
-        html += "<p>"
-        html += "{{"+@search+"}}, or <i>"+adultSpeak(@search.downcase)+"</i>, is a {{Traumae}} construct translatable into the english "+transMainType+" \""+transMain['english']+"\". "
-        if transAlt.length == 1
-            html += "Alternatively, it can also be translated into \""+transAlt[0]+"\". "
-        elsif transAlt.length > 1
-            html += "Alternatively, it can also be translated into \""+transAlt[0]+"\" or \""+transAlt[1]+"\". "
-        end
-        html += "View the full list of accepted constructs in the {{Dictionary|http://wiki.xxiivv.com/Traumae:Dictionary}}."
-        html += "</p>"
-
-        # Info
-
-        @dictionaery[@search.downcase].sort.each do |k,v|
-            if k == "default" then next end 
-            html += v['info'].to_s
-        end
-
-        # Construction
-
-        html += "<h2>Construction</h2>"
-
-        html += "<pre>"+deconstruction(@search.downcase)+"</pre>"
-
-        # Similar Type
-
-        if transMainType != ""
-            html += "<h2>Similar "+transMainType+"s</h2>"
-            html += "<pre>"
-            @dictionaery.sort.each do |k,v|
-                if v['default']['english'] == transMain['english'] then next end 
-                if v['default']['type'] != transMainType then next end 
-                if v['lang'] != "traumae" then next end 
-                html += deconstruction(k)
-            end
-            html += "</pre>"
-        end
-
-        # Same Aeth
-
-        html += "<h2>Construction Family</h2>"
-        html += "<pre>"
-        @dictionaery.sort.each do |k,v|
-            if k[0,2] != @search.downcase[0,2] then next end 
-            if v['lang'] != "traumae" then next end 
-            html += deconstruction(k)
-        end
-        html += "</pre>"
-
-        # Composites
-
-        return "<content><wrapper>"+html+"</wrapper></content>"
-
-    end
-
-    def deconstruction construct
-        aeth = construct[0,2]
-        diveth = construct.sub(aeth,"")
-        return aeth+"("+diveth.gsub(" ","")+"), "+Laeth.new(aeth)+"("+Laeth.new(diveth.gsub(" ",""))+") <comment># "+Laeth.new(construct)+"</comment>\n"
     end
 
 end

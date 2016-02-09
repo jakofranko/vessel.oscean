@@ -31,6 +31,7 @@ require_relative "objects/icon.rb"
 require_relative "objects/image.rb"
 require_relative "objects/page.rb"
 require_relative "objects/layout.rb"
+require_relative "objects/aeth.rb"
 
 #----------------
 # Setup
