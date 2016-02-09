@@ -28,7 +28,7 @@ class Term
   end
 
   def definition
-    return @definition
+    return macros(@definition)
   end
 
   def description
@@ -128,6 +128,23 @@ class Term
       return log
     end
     return nil
+  end
+
+  def macros text
+
+    search = text.scan(/(?:\{\{)([\w\W]*?)(?=\}\})/)
+    search.each do |str,details|
+        text = text.to_s.gsub("{{"+str+"}}",parser(str))
+    end
+    return text
+
+  end
+
+  def parser macro
+
+    if macro.include?("lexicon:") then return "<img src='content/lexicon/#{topic.downcase}.#{macro.split(":")[1]}.png'/>" end
+    return "{{#{macro}}}"
+
   end
 
 end

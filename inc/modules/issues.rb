@@ -7,10 +7,14 @@ class Page
 		html = ""
 		html += "<p>This list shows the latest issues for the <b>#{@term.topic}</b> project.</p>"
 	
-		html += "<h3>Next Version</h3>"
-		@issues[""].each do |issue|
-			if issue.active != true then next end
-			html += issue.template
+		if @issues[""]
+			html += "<h3>Next Version</h3>"
+			@issues[""].each do |issue|
+				if issue.active != true then next end
+				html += issue.template
+			end
+		else
+			html += "<p>There are currently no open issues.</p>"
 		end
 		html += "<br />"
 		@issues.each do |release,issues|
