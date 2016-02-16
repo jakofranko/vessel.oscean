@@ -168,9 +168,9 @@ class Log
 
 		return "
 		<content class='diary'>
-			<a href='/#{photo}'>#{Image.new(photo).view}</a>
 			<small>#{date.default}</small>
 			<h1><a href='/#{photo}'>#{title}</a></h1>
+			<a href='/#{photo}'>#{Image.new(photo).view}</a>
 			<div class='full'>#{full}</div>
 		</content>"
 

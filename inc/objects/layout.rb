@@ -43,9 +43,14 @@ class Layout
 
     html = "<div class='search'><div class='sector #{@page.sector}'></div><input placeholder='"+@page.title+"' id='query'/></div>"
     html += (@page.module != "" || @page.isDiary) ? "<a class='module' href='/#{@page.term.topic}'>#{Icon.new.return}Return to #{@page.term.topic}</a>" : ""
-    html += (@page.module != "diary" && @page.diaries.length > 1) ? "<a class='module' href='/#{@page.term.topic}:Diary'>#{Icon.new.diary}#{@page.diaries.length} Diaries</a>" : ""
-    html += (@page.module != "horaire" && @page.logs.length > 1) ? "<a class='module' href='/#{@page.term.topic}:Horaire'>#{Icon.new.horaire}#{@page.logs.length} Logs</a>" : ""
-    html += (@page.module != "issues" && @page.issues.length > 1) ? "<a class='module' href='/#{@page.term.topic}:Issues'>#{Icon.new.issues}#{@page.issues.length} Versions</a>" : ""
+    html += (@page.module != "diary" && @page.diaries.length > 1 && @page.term.topic != "Home") ? "<a class='module' href='/#{@page.term.topic}:Diary'>#{Icon.new.diary}#{@page.diaries.length} Diaries</a>" : ""
+    html += (@page.module != "horaire" && @page.logs.length > 1 && @page.term.topic != "Home") ? "<a class='module' href='/#{@page.term.topic}:Horaire'>#{Icon.new.horaire}#{@page.logs.length} Logs</a>" : ""
+    html += (@page.module != "issues" && @page.issues.length > 1 && @page.term.topic != "Home") ? "<a class='module' href='/#{@page.term.topic}:Issues'>#{Icon.new.issues}#{@page.issues.length} Versions</a>" : ""
+
+    html += (@page.term.topic == "Home") ? "<a class='module' href='/Diary'>#{Icon.new.diary}#{@page.diaries.length} Diaries</a>" : ""
+    html += (@page.term.topic == "Home") ? "<a class='module' href='/Horaire'>#{Icon.new.horaire}#{@page.logs.length} Logs</a>" : ""
+    html += (@page.term.topic == "Home") ? "<a class='module' href='/Issues'>#{Icon.new.issues}#{@page.issues.length} Versions</a>" : ""
+
     return "<content class='title'>"+html+"</content>"
 
   end

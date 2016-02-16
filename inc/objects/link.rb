@@ -11,7 +11,6 @@ class Link
 		if domain == "bandcamp" then return "Listen to Album" end
 		if domain == "itunes" then return "Download on iTunes" end
 		if domain == "github" && !url.include?("release") then return "View Source Files" end
-		if domain == "patreon" then return "Support on Patreon" end
 		if domain == "youtube" then return "Watch on Youtube" end
 		return @data.split("|")[0].to_s.downcase.capitalize
 	end

@@ -61,7 +61,7 @@ puts "
 	<meta property='og:title'        content='XXIIVV ∴ NEON HERMETISM'/>
 	<meta property='og:type'         content='website'/>
 	<meta property='og:url'          content='http://wiki.xxiivv.com/"+@input_search+"'/>
-	<meta property='og:image'        content='http://wiki.xxiivv.com/img/diary/001.jpg'/>
+	<meta property='og:image'        content='http://wiki.xxiivv.com/content/diary/001.jpg'/>
 	<meta property='og:email'        content='me@m0oo.com'/>
 	<meta property='og:site_name'    content='Neon Hermetism'/>
 	<meta property='fb:admins'       content='deoxys'/>

@@ -118,7 +118,8 @@ content.body p { max-width: 700px}
 content.body ul { margin-bottom: 30px; }
 content.body ul li a { border-bottom: 1px solid #ccc; line-height: 15px; display: inline-block}
 content.body ul li a:hover { border-bottom: 1px solid #000}
-content.body ul li:before { content: "•"; padding: 15px;color: #999}
+content.body ul li:before { content: "•"; color: #999; display: inline-block; width:15px;}
+content.body ul li.blank:before { content: ""; color: #999; display: inline-block; width:15px;}
 
 content.theater { background:#0c0c0c; padding-top:30px; padding-bottom: 30px; color:#999;}
 content.theater img { max-width: 1000px; border-radius: 2px; width: 100%}
