@@ -61,7 +61,7 @@ content { display: block; margin:0px auto; position: relative; vertical-align: t
 
 /* Main */
 
-content.main { margin: 0px auto;z-index: 9000;background:#efefef;padding-bottom: 30px;min-height: calc(100vh / 2); overflow-x: hidden;}
+content.main { margin: 0px auto;z-index: 9000;background:#efefef;min-height: calc(100vh / 2); overflow-x: hidden;}
 
 /* Sidebar */
 
@@ -106,14 +106,14 @@ content.title div.search input:hover { background-color:#fff; color:#000;}
 content.title div.search input::-webkit-input-placeholder { line-height: 18px; color:#fff; }
 content.title div.search input:hover::-webkit-input-placeholder { line-height: 18px; color:#000; }
 
-a.badge { max-width: 150px; display:block; margin:0px auto;}
+a.badge { max-width: 100px; display:block; float:left; margin-right: 30px}
 
 content.search { float:right;width: auto}
 content.search input { padding:5px;text-align: right;background: #fff;border-radius: 100px;padding-right: 15px;text-transform: capitalize;font-size: 12px;font-family: 'dinregular';margin-top: 15px;color: #fff;line-height: 20px; width:80px;}
 
 content.core { max-width: 700px;display: block;padding:15px}
 
-content.body, content.article {z-index: 900;margin: 0px auto;position: relative;width: calc(100vw - 60px);max-width: 700px;padding: 15px}
+content.body, content.article, content.portal, content.footer content {z-index: 900;margin: 0px auto;position: relative;width: calc(100vw - 60px);max-width: 700px;padding: 15px}
 content.body p { max-width: 700px}
 content.body ul { margin-bottom: 30px; }
 content.body ul li a { border-bottom: 1px solid #ccc; line-height: 15px; display: inline-block}
@@ -171,7 +171,7 @@ content.log task.misc { background:#ffcb2b;}
 content.log a.subject { font-style: normal; display: inline-block; margin-right:15px; font-size:13px; border-bottom: 0px}
 content.log span.date a { font-size:13px;}
 
-content.footer { font-size: 13px;line-height: 19px;font-family: 'dinregular';clear: both; background:white;z-index: 900;margin: 0px auto;padding: 60px 5%;}
+content.footer { font-size: 13px;line-height: 22px;font-family: 'dinregular';clear: both; background:white;z-index: 900;margin: 0px auto;padding: 60px 5%;}
 content.footer b {font-family: 'dinbold'; font-weight: normal; }
 content.footer dl {position: relative;max-width: calc(100vw - 30px); }
 content.footer dl dd { color:#000;}
@@ -181,7 +181,7 @@ content.footer dl dd.small * { color:#aaa; font-size:11px;}
 content.footer dl dd.small a { font-family: 'dinbold'; font-size:12px;}
 content.footer a { border-bottom: 0px; color:#000;font-family: 'dinregular'; font-weight: normal;}
 content.footer a:hover {border-bottom: 1px solid #000}
-content.footer dl.icons { height: 50px;width: 120px;display: block;clear: both;width: 700px;margin: 0px auto; }
+content.footer dl.icons { height: 50px;display: inline-block;margin: 0px auto;float: right;z-index: 900 }
 content.footer dl.icons .icon { display: inline-block;margin-right: 10px; opacity:0.2;}
 content.footer dl.icons .icon img { width:30px; height:30px; float:right; border-radius:20px;}
 content.footer dl.icons .icon:hover { border-bottom: 0px; opacity: 1.0}
@@ -195,6 +195,15 @@ content.source { width: 700px;border-bottom: 1px solid #ccc;line-height: 50px;fo
 content.source svg.icon { margin-bottom: -8px }
 content.source a { font-family:'dinbold';}
 content.source a:hover { color:black;}
+
+content.portal { font-family: 'dinregular';font-size: 13px;border-top: 1px solid #fff;padding: 45px 0px;line-height: 19px;min-height:100px}
+content.portal ul { max-width: 500px }
+content.portal ul li.head { display: block }
+content.portal ul li.head * { font-size:13px; display: block; text-transform: uppercase; color:#000; font-family: 'dinbold'; }
+content.portal ul li { display: inline-block;margin: 0px 10px 0px 0px; line-height: 22px}
+content.portal ul li a:hover { text-decoration: underline;}
+content.portal ul li b { font-weight: normal; color:#999;}
+content.portal ul.siblings { font-family: 'din_mediumregular'; margin-bottom: 2px }
 
 svg.icon { display: inline-block; width:25px; height:25px; }
 

@@ -45,8 +45,27 @@ class Lexicon
 	end
 
 	def parent term
-		if !@db_lexicon[term] then return "" end
-		return @db_lexicon[term].parent
+		if term == nil then return nil end
+		if !@db_lexicon[term.parent] then return nil end
+		return @db_lexicon[term.parent]
+	end
+
+	def siblings target
+		array = []
+		@db_lexicon.each do |index,term|
+			if term.parent != target.parent then next end
+			array.push(term)
+		end
+		return array
+	end
+
+	def children target
+		array = []
+		@db_lexicon.each do |index,term|
+			if term.parent != target.topic then next end
+			array.push(term)
+		end
+		return array
 	end
 
 	def storage term

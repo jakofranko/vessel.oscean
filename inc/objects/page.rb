@@ -198,10 +198,10 @@ class Page
 	def _portal
 
 	    depth = 0
-	    parent = @term.topic
-	    while @lexicon.parent(parent) != parent
-	      if depth > 5 then return "" end
-	      if @lexicon.term(parent).flags.include?("portal") then break end
+	    parent = @lexicon.parent(@term)
+	    while @lexicon.parent(parent).parent != parent.topic
+	      if depth > 5 then return parent end
+	      if parent.flags.include?("portal") then break end
 	      parent = @lexicon.parent(parent)
 	      depth += 1
 	    end

@@ -88,12 +88,49 @@ class Layout
 
   def layoutPortal
 
-    if File.exist?("content/badges/#{@page.term.topic.downcase}.png")
-      return "<a href='/#{@page.portal}' class='badge'><img src='content/badges/#{@page.term.topic.downcase}.png'/></a>"
-    elsif File.exist?("content/badges/#{@page.portal.downcase}.png")
-      return "<a href='/#{@page.portal}' class='badge'><img src='content/badges/#{@page.portal.downcase}.png'/></a>"
+    return "<content class='portal'>#{layoutPortalIcon}#{layoutPortalTree}</content>"
+
+  end
+
+  def layoutPortalIcon
+
+    if File.exist?("content/badges/#{@page.term.topic.downcase.gsub(' ','.')}.png")
+		return "<a href='/#{@page.portal.topic}' class='badge'><img src='content/badges/#{@page.term.topic.downcase.gsub(' ','.')}.png'/></a>"
+    elsif File.exist?("content/badges/#{@page.portal.topic.downcase.gsub(' ','.')}.png")
+		return "<a href='/#{@page.portal.topic}' class='badge'><img src='content/badges/#{@page.portal.topic.downcase.gsub(' ','.')}.png'/></a>"
+    else 
+		return "<a href='#{@page.term.parent}' class='badge'><img src='content/badges/oscean.png'/></a>"
     end
-    return "<a href='#{@page.term.parent}' class='badge'><img src='content/badges/oscean.png'/></a>"
+
+  end
+
+  def layoutPortalTree
+
+  	html = "<ul>"
+    html += (@page.portal.topic != @page.term.topic) ? "<li class='head'><a href='/#{@page.portal.topic}'>#{@page.portal.topic} Portal</a></li>" : "<li class='head'><b>#{@page.portal.topic}</b></li>"
+	html += "</ul>"
+
+	html += "<ul class='siblings'>"
+    @page.lexicon.siblings(@page.term).each do |term|
+    	if term.topic == "Home" then next end
+    	if term.topic == @page.portal.topic then next end
+    	html += (term.topic != @page.term.topic) ? "<li><a href='/#{term.topic}'>#{term.topic}</a></li>" : "<li><b>#{term.topic}</b></li>"
+    end
+    html += "</ul>"
+
+    if @page.term.topic != @page.portal.topic
+		html += "<ul class='children'>"
+    	@page.lexicon.children(@page.term).each do |term|
+	    	if term.topic == "Home" then next end
+	    	if term.topic == @page.term.topic then next end
+	    	html += (term.topic != @page.term.topic) ? "<li><a href='/#{term.topic}'>#{term.topic}</a></li>" : "<li><b>#{term.topic}</b></li>"
+	    end
+	    html += "</ul>"
+	end
+    
+    html += "</ul>"
+
+    return html
 
   end
 
@@ -101,6 +138,7 @@ class Layout
 
     return "
     <content class='footer'>
+    	<content>
         <dl class='icons'>
           <a href='/Oscean' class='icon'><img src='/img/interface/icon.oscean.png'/></a>
           <a href='https://github.com/neauoire' class='icon' target='_blank'><img src='img/interface/icon.github.png'/></a>
@@ -111,6 +149,7 @@ class Layout
           <dd>Currently indexing #{@page.lexicon.length} projects, built over #{@page.horaire.length} days.</dd>
           <dd class='small'><a href='/Diary'>Diary</a> &bull; <a href='/Horaire'>Horaire</a> &bull; <a href='/Issues'>Issues</a> &bull; <a href='/Desamber' class='date'>"+Desamber.new().default+"</a><br /><a href='Clock'>"+Clock.new().default+"</a> "+((Time.new - $timeStart) * 1000).to_i.to_s+"ms</dd>
         </dl>
+        </content>
         <hr />
     </content>"
 
