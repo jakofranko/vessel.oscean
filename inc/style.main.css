@@ -36,8 +36,8 @@ p a:hover { border-bottom: 1px solid #000}
 p .external { border-bottom: 0px}
 p .external::after {content: "°";color:#333;font-family: helvetica;}
 p .error:after {content: "*";color:red;font-family: helvetica;}
-p .dead { border-bottom: 0px}
-p .dead::after {content: "°";color:red;font-family: helvetica;}
+a.dead { border-bottom: 0px; cursor: pointer}
+a.dead::after {content: "°";color:red;font-family: helvetica;}
 p.small { font-size:16px; line-height: 25px}
 p.small a { line-height: 16px }
 div { margin-bottom: 0px}

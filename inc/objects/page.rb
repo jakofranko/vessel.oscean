@@ -225,8 +225,11 @@ class Page
 		if macro == "!desamber" then return "<a href='/Desamber'>#{Desamber.new().default}</a>" end
 			
 		if macro.downcase == @query then return "<b>#{macro}</b>" end
-		if macro.include?("|") then return "<a href='"+macro.split("|")[1]+"'>"+macro.split("|")[0]+"</a>" end
-        return "<a href='"+macro.gsub(" ","+")+"'>"+macro+"</a>"
+		if macro.include?("|")
+			if macro.split("|")[1].include?("http") then return "<a href='"+macro.split("|")[1]+"' class='external'>"+macro.split("|")[0]+"</a>"
+			else return @lexicon.find(macro.split("|")[1]) ? "<a href='"+macro.split("|")[1]+"'>"+macro.split("|")[0]+"</a>" : "<a class='dead' href='"+macro.split("|")[1]+"'>"+macro.split("|")[0]+"</a>" end
+		end
+        return @lexicon.find(macro) ? "<a href='"+macro.gsub(" ","+")+"'>#{macro}</a>" : "<a class='dead' href='"+macro.gsub(" ","+")+"'>#{macro}</a>"
 
 	end
 

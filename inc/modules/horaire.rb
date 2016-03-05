@@ -50,6 +50,7 @@ class Page
     return "<style>
   content.main {background:black}
   content.header {background:black}
+  content.portal { display:none}
   .task { width:140px; color:white; display:inline-block; padding:15px;}
   .task svg { width:140px; height:140px}
   .task p { border-top: 1px solid #555;font-family: 'dinregular';font-size: 11px;line-height: 15px;margin-bottom: 0px;padding-top: 14px}
@@ -57,6 +58,7 @@ class Page
   circle.audio { fill:#72dec2}
   circle.visual { fill:red}
   circle.research { fill:#ccc}
+  content.storage a { background:white}
     </style>"
     return ""
 
