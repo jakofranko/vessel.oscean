@@ -62,6 +62,7 @@ function scrollHeader()
 	percentHeaderScrolled = scrollPosition/headerHeight;
 	positionPercentage = 50 + (scrollPosition*0.4)/10;
 	headerPhoto.css("background-position-y", Math.floor(positionPercentage)+"%").css("opacity", 1-(percentHeaderScrolled*1) );
+	$(".source").css("opacity", Math.floor(positionPercentage)+"%").css("opacity", 1-(percentHeaderScrolled*3) );
 }
 
 // Mobile LOD

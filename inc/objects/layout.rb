@@ -16,9 +16,9 @@ class Layout
   def layoutHeader
 
     html = ""
-    html += layoutHeaderLogo
     html += layoutHeaderPhoto
     html += layoutHeaderTitle
+    html += layoutHeaderSource
 
     return "<content class='header'>"+html+"</content>"
 
@@ -41,7 +41,8 @@ class Layout
 
   def layoutHeaderTitle
 
-    html = "<div class='search'><div class='sector #{@page.sector}'></div><input placeholder='"+@page.title+"' id='query'/></div>"
+    html = ""
+    html += layoutHeaderLogo
     html += (@page.module != "" || @page.isDiary) ? "<a class='module' href='/#{@page.term.topic}'>#{Icon.new.return}Return to #{@page.term.topic}</a>" : ""
     html += (@page.module != "diary" && @page.diaries.length > 1 && @page.term.topic != "Home") ? "<a class='module' href='/#{@page.term.topic}:Diary'>#{Icon.new.diary}#{@page.diaries.length} Diaries</a>" : ""
     html += (@page.module != "horaire" && @page.logs.length > 1 && @page.term.topic != "Home") ? "<a class='module' href='/#{@page.term.topic}:Horaire'>#{Icon.new.horaire}#{@page.logs.length} Logs</a>" : ""
@@ -51,7 +52,7 @@ class Layout
     html += (@page.term.topic == "Home") ? "<a class='module' href='/Horaire'>#{Icon.new.horaire}#{@page.logs.length} Logs</a>" : ""
     html += (@page.term.topic == "Home") ? "<a class='module' href='/Issues'>#{Icon.new.issues}#{@page.issues.length} Versions</a>" : ""
 
-    return "<content class='title'>"+html+"</content>"
+    return "<content class='title'><div class='search'><input placeholder='"+@page.title+"' id='query'/></div>"+html+"</content>"
 
   end
 
@@ -145,7 +146,7 @@ class Layout
           <a href='https://twitter.com/neauoire' class='icon' target='_blank'><img src='img/interface/icon.twitter.png'/></a>
         </dl>
         <dl class='main'>
-          <dd><a href='/About'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year} <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank' style='color:#aaa'>BY-NC-SA 4.0</a></dd>
+          <dd><a href='/Devine+Lu+Linvega'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year} <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank' style='color:#aaa'>BY-NC-SA 4.0</a></dd>
           <dd>Currently indexing #{@page.lexicon.length} projects, built over #{@page.horaire.length} days.</dd>
           <dd class='small'><a href='/Diary'>Diary</a> &bull; <a href='/Horaire'>Horaire</a> &bull; <a href='/Issues'>Issues</a> &bull; <a href='/Desamber' class='date'>"+Desamber.new().default+"</a><br /><a href='Clock'>"+Clock.new().default+"</a> "+((Time.new - $timeStart) * 1000).to_i.to_s+"ms</dd>
         </dl>
@@ -164,7 +165,6 @@ class Layout
     html = ""
     html += layoutHeader
     html += "<content class='main'>"
-    html += layoutHeaderSource
     html += layoutBody
     html += layoutPortal
     html += "</content>"
