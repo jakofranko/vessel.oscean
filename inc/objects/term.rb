@@ -3,7 +3,7 @@
 
 class Term
 
-  def initialize(data)
+  def initialize(data = Hash["term" => "Home","parent"=>"Home","flags"=>"","storage"=>"","definition"=>""])
   	@topic      = data["term"].to_s.force_encoding("utf-8")
   	@parent     = data["parent"].to_s.force_encoding("utf-8")
   	@flags      = data["flags"].to_s.force_encoding("utf-8")

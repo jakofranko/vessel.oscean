@@ -199,6 +199,9 @@ class Page
 
 	    depth = 0
 	    parent = @lexicon.parent(@term)
+	    
+	    if parent == nil then return Term.new() end
+
 	    while @lexicon.parent(parent).parent != parent.topic
 	      if depth > 5 then return parent end
 	      if parent.flags.include?("portal") then break end

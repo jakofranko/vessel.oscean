@@ -6,10 +6,10 @@ class Page
 
     html = @term.definition
 
+    html += thisMonth
     html += recentEdits
     html += latestUpdates
     html += "<hr/>"
-    html += thisMonth
 
   	return macros(html)
 
