@@ -189,7 +189,7 @@ class Log
 	def parser macro
 
 		if macro.include?("diary:") then return "<img src='content/diary/#{photo}.#{macro.split(":")[1]}.jpg'/>" end
-		return ""
+		return "{{#{macro}}}"
 
 	end
 
