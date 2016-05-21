@@ -8,15 +8,12 @@ class Page
 
     html += "ello"
 
-    require("/xxiivv/Jiin/core/jiin.rb")
+    horaire = $jiin.command("disk load horaire")
 
-    $jiin = Jiin.new
-    lexicon = $jiin.command("disk load lexicon")
-
-    html += lexicon["ABLETON"].to_s
+    horaire.each do |k,v|
+    	html += "#{k}(#{v})<br />"
+    end
     
     return html
 
-  end
-
-end
+  en

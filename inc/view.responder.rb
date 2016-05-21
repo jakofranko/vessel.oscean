@@ -10,12 +10,9 @@ $timeStart = Time.new
 
 # Imports
 
-require "mysql"
 require 'date'
 
 # Generals
-
-require_relative "../../tools/oscean.rb"
 
 require_relative "objects/string.rb"
 require_relative "objects/desamber.rb"
@@ -41,15 +38,12 @@ require_relative "objects/aeth.rb"
 require("/xxiivv/Jiin/core/jiin.rb")
 $jiin = Jiin.new
 
-$oscean = Oscean.new(@input_search)
-$oscean.connect
-
 data = {
   "topic"   => @input_search,
   "module"  => @input_module,
   "lexicon" => $jiin.command("disk load lexicon"),
-  "horaire" => $oscean.horaire,
-  "issues" => $oscean.issues(@input_search)
+  "horaire" => $jiin.command("disk load horaire"),
+  "issues" => []
 }
 
 page   = Page.new(data)

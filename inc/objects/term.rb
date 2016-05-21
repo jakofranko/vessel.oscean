@@ -171,4 +171,19 @@ class Term
 
   def macros text
 
-    se
+    search = text.scan(/(?:\{\{)([\w\W]*?)(?=\}\})/)
+    search.each do |str,details|
+        text = text.to_s.gsub("{{"+str+"}}",parser(str))
+    end
+    return text
+
+  end
+
+  def parser macro
+
+    if macro.include?("lexicon:") then return "<img src='content/lexicon/#{topic.downcase}.#{macro.split(":")[1]}.png'/>" end
+    return "{{#{macro}}}"
+
+  end
+
+end

@@ -8,7 +8,7 @@ class Page
 		@query   = data["topic"].upcase
 	    @module  = data["module"].upcase
 	    @lexicon = Lexicon.new(data["lexicon"])
-	    @horaire = data["horaire"]
+	    @horaire = Horaire.new(data["horaire"])
 	    @issues  = data["issues"]
 
 	    @term = @lexicon.term(@query)

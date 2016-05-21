@@ -2,8 +2,11 @@
 
 class Log
 
-	def initialize(log)
-		@log = log
+	def initialize(date,content)
+
+		@log = content
+		@log['date'] = date
+
 	end
 
 	def time
@@ -54,42 +57,42 @@ class Log
 	end
 
 	def value
-		return @log['verb'][1,1].to_i
+		return @log['CODE'][1,1].to_i
 	end
 
 	def verb
-		return @log['verb'].to_i
+		return @log['CODE'].to_i
 	end
 
 	def sector
-		if @log['verb'][0,1].to_i == 1
+		if @log['CODE'][0,1].to_i == 1
 			return "audio"
-		elsif @log['verb'][0,1].to_i == 2
+		elsif @log['CODE'][0,1].to_i == 2
 			return "visual"
-		elsif @log['verb'][0,1].to_i == 3
+		elsif @log['CODE'][0,1].to_i == 3
 			return "research"
 		end
 		return "misc"
 	end
 
 	def title
-		return @log['title'].to_s.force_encoding("UTF-8")
+		return @log['NAME'].to_s.force_encoding("UTF-8")
 	end
 
 	def full
-		return macros(@log['full'].to_s.force_encoding("UTF-8"))
+		return macros(@log['TEXT'].to_s.force_encoding("UTF-8"))
 	end
 
 	def task
-		return @log['location'].to_s
+		return @log['TASK'].to_s
 	end
 
 	def photo
-		return @log['photo']
+		return @log['PICT'].to_i
 	end
 
 	def topic
-		return @log['topic'].to_s
+		return @log['TERM'].to_s
 	end
 
 	def tags

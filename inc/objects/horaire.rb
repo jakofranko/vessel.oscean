@@ -4,7 +4,12 @@
 class Horaire
 
 	def initialize(db_horaire)
-		@db_horaire = db_horaire
+		
+		@db_horaire = {}
+		db_horaire.each do |date,content|
+			@db_horaire[date] = Log.new(date,content)
+		end
+
 	end
 
 	def logOnDate year,month,day
