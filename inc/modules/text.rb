@@ -4,7 +4,8 @@ class Page
 
 	def body
 
-		html = macros(@term.definition)
+		html = "#{@term.bref}#{@term.long}"
+		
 	    children = Oscean.new(@term.topic).lexiconFind("parent",@term.topic)
 	    children.each do |term|
 	    	if term.topic == @term.topic then next end

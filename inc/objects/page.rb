@@ -25,8 +25,6 @@ class Page
 
 	    loadModules
 
-	    puts "<div style='background:red; color:white'>Migrating XXIIVV database to Jiin. Things should return to normal shortly.</div>"
-
 	end
 
 	def title
@@ -117,32 +115,15 @@ class Page
 
 	end
 
+	def body
+
+		return view
+
+	end
+
 	def view
 
-		html = ""
-
-		if @term.bref
-			html += "<p>#{@term.bref}</p>"
-		end
-
-		if @term.long
-			@term.long.each do |line|
-				rune = line[0,1]
-				text = line.sub(rune,"").strip
-				case rune
-				when "&"
-					html += "<p>#{text}</p>"
-				when "-"
-					html += "<li>#{text}</li>"
-				when "?"
-					html += "<small>#{text}</small>"
-				else
-					html += "[??]#{text}[??]"
-				end
-			end
-		end
-
-		return macros(html)
+		return macros("#{@term.bref}#{@term.long}")
 
 	end
 
@@ -197,7 +178,7 @@ class Page
 
 	    while @lexicon.unde(unde).unde != unde.name
 	      if depth > 5 then return unde end
-	      if unde.flags.include?("portal") then break end
+	      if unde.type.like("portal") then break end
 	      unde = @lexicon.unde(unde)
 	      depth += 1
 	    end
@@ -233,7 +214,9 @@ class Page
 
 	def loadModules
 
-		# @term.flags.each do |flag|
-		# 	if File.exist?("inc/modules/#{flag}.rb") then require_relative("../modules/#{flag}.rb") end
-		# end
-	 #    if File.exist?("inc/pages/#{@query}.rb") then require_relative("../pages/#{@query}.rb") end
+		if File.exist?("inc/pages/#{@query.downcase}.rb") then require_relative("../pages/#{@query.downcase}.rb") end
+		if @term.type && File.exist?("inc/modules/#{@term.type.downcase}.rb") then require_relative("../modules/#{@term.type.downcase}.rb") end
+
+	end
+
+end

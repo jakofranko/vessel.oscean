@@ -49,8 +49,8 @@ class Lexicon
 
 	def unde term
 		if term == nil then return nil end
-		if !@db_lexicon[term.unde] then return nil end
-		return @db_lexicon[term.unde]
+		if !@db_lexicon[term.unde.upcase] then return nil end
+		return @db_lexicon[term.unde.upcase]
 	end
 
 	def siblings target

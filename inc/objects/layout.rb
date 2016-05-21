@@ -64,7 +64,7 @@ class Layout
 
   def layoutBody
 
-    return "<content class='body'>#{@page.view} #{layoutLinks}</content>"
+    return "<content class='body'>#{@page.body} #{layoutLinks}</content>"
 
   end
 

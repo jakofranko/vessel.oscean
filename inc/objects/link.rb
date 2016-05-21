@@ -17,6 +17,12 @@ class Link
 			return "Source Files"
 		when "ITUN"
 			return "iTunes Store"
+		when "TWTR"
+			return "Twitter"
+		when "PATR"
+			return "Patreon"
+		when "BAND"
+			return "Bandcamp"
 		else
 			return @name
 		end
@@ -43,7 +49,7 @@ class Link
 		
 		return "
 		<a href='#{@url}' target='_blank'>
-		<icon style='background-image:url(/img/interface/icon.#{domain}.png)'></icon>
+		<icon style='background-image:url(/img/interface/icon.#{domain.downcase}.png)'></icon>
 		<span>#{name}<br />
 		<small>#{domain.capitalize}</small></span>
 		</a>"

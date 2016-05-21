@@ -4,7 +4,7 @@ class Page
 
   def body
 
-    html = @term.definition
+    html = "#{@term.bref}#{@term.long}"
 
     html += thisMonth
     html += recentEdits

@@ -6,7 +6,7 @@ class Term
   def initialize(name = "MISSING", content = {})
 
   	@NAME = "#{name}"
-  	@UNDE = content["UNDE"]
+  	@UNDE = content["UNDE"].to_s
   	@TYPE = content["TYPE"]
   	@LINK = content["LINK"]
   	@BREF = content["BREF"]
@@ -27,7 +27,8 @@ class Term
   end
 
   def type
-    
+
+    if !@TYPE then return end
     return @TYPE.downcase.capitalize
 
   end
@@ -40,18 +41,35 @@ class Term
 
   def bref
     
-    return @BREF
+    if !@BREF then return end
+      
+    return "<p>#{@BREF}</p>"
 
   end
 
   def long
     
-    return @LONG
+    if !@LONG then return end
+
+    html = ""
+    @LONG.each do |line|
+        rune = line[0,1]
+        text = line.sub(rune,"").strip
+        case rune
+        when "&"
+          html += "<p>#{text}</p>"
+        when "-"
+          html += "<li>#{text}</li>"
+        when "?"
+          html += "<small>#{text}</small>"
+        else
+          html += "[??]#{text}[??]"
+        end
+      end
+
+    return html
 
   end
-
-
-
 
 
 
@@ -153,19 +171,4 @@ class Term
 
   def macros text
 
-    search = text.scan(/(?:\{\{)([\w\W]*?)(?=\}\})/)
-    search.each do |str,details|
-        text = text.to_s.gsub("{{"+str+"}}",parser(str))
-    end
-    return text
-
-  end
-
-  def parser macro
-
-    if macro.include?("lexicon:") then return "<img src='content/lexicon/#{topic.downcase}.#{macro.split(":")[1]}.png'/>" end
-    return "{{#{macro}}}"
-
-  end
-
-end
+    se
