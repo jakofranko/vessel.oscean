@@ -4,7 +4,12 @@
 class Lexicon
 
 	def initialize(db_lexicon)
-		@db_lexicon = db_lexicon
+
+		@db_lexicon = {}
+		db_lexicon.each do |name,content|
+			@db_lexicon[name] = Term.new(name,content)
+		end
+
 	end
 
 	def all
@@ -16,9 +21,8 @@ class Lexicon
 	end
 
 	def term target
-		target = target.capitalize
-		if @db_lexicon[target] then return @db_lexicon[target] end
-		return Term.new({ 'term' => "Missing", 'parent' => "Home", 'flags' => "", 'storage' => "", 'definition' => ""})
+		if @db_lexicon[target.upcase] then return @db_lexicon[target.upcase] end
+		return Term.new({ 'NAME' => "Missing", 'UNDE' => "HOME", 'flags' => "", 'storage' => "", 'definition' => ""})
 	end
 
 	def definition term
@@ -27,8 +31,7 @@ class Lexicon
 	end
 
 	def find term
-		term = term.to_s.downcase.capitalize
-		if @db_lexicon[term] then return @db_lexicon[term] end
+		if @db_lexicon[term.upcase] then return Term.new(@db_lexicon[term.upcase]) end
 		return
 	end
 
@@ -44,16 +47,16 @@ class Lexicon
 		end
 	end
 
-	def parent term
+	def unde term
 		if term == nil then return nil end
-		if !@db_lexicon[term.parent] then return nil end
-		return @db_lexicon[term.parent]
+		if !@db_lexicon[term.unde] then return nil end
+		return @db_lexicon[term.unde]
 	end
 
 	def siblings target
 		array = []
 		@db_lexicon.each do |index,term|
-			if term.parent != target.parent then next end
+			if term.unde != target.unde then next end
 			array.push(term)
 		end
 		return array
@@ -62,7 +65,7 @@ class Lexicon
 	def children target
 		array = []
 		@db_lexicon.each do |index,term|
-			if term.parent != target.topic then next end
+			if term.unde != target.name then next end
 			array.push(term)
 		end
 		return array

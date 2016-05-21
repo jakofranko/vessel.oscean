@@ -28,7 +28,6 @@ table tr:target td * { color: #fff}
 .clear { clear: both;}
 .grey { color:#bbb;}
 .wrap { margin: 0px;max-width: calc(100vw - 30px);line-height: 34px;position: relative;margin-bottom: 30px;width:700px }
-.print { font-family: monospace,courier; border-bottom: 0px; font-weight: normal;background:#222;color: white;padding: 0px 5px;border-radius: 30px; font-size:11px; line-height: 15px}
 
 p,center,div,form { max-width: calc(100vw - 30px);line-height: 30px;position: relative;margin-bottom: 30px; display: block; line-height: 26px;font-size: 17px;}
 p a { display: inline-block;border-bottom: 1px solid #ccc;}

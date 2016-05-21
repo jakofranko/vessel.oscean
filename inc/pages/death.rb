@@ -6,7 +6,10 @@ class Page
 
   def body
 
-    html = macros(@term.definition)
+  	daysAgo = (Time.new.to_i - Date.new(1986,03,22).to_time.to_i)/86400
+
+  	html = "<p>My life started #{daysAgo} days ago. <br />Every week, a cell goes dark.</p>"
+    html += macros(@term.definition)
     time1 = Time.new
     html += timelineStyle
     year = 1
@@ -14,7 +17,7 @@ class Page
     	html += year % 10 == 0 ? "<small class='divider'>"+year.to_s+"</small>" : ""
     	week = 0
     	while week < 52
-    		if (year * 52)+week < (DateTime.now.mjd - DateTime.parse("22-03-1986").mjd)/7
+    		if (year * 52)+week < (daysAgo/7)-4
     			html += "<cell class='black'></cell>"
     		else
     			html += "<cell></cell>"

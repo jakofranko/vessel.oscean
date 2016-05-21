@@ -3,38 +3,59 @@
 
 class Term
 
-  def initialize(data = Hash["term" => "Home","parent"=>"Home","flags"=>"","storage"=>"","definition"=>""])
-  	@topic      = data["term"].to_s.force_encoding("utf-8")
-  	@parent     = data["parent"].to_s.force_encoding("utf-8")
-  	@flags      = data["flags"].to_s.force_encoding("utf-8")
-  	@storage    = data["storage"].to_s.force_encoding("utf-8")
-  	@definition = data["definition"].to_s.force_encoding("utf-8")
+  def initialize(name = "MISSING", content = {})
+
+  	@NAME = "#{name}"
+  	@UNDE = content["UNDE"]
+  	@TYPE = content["TYPE"]
+  	@LINK = content["LINK"]
+  	@BREF = content["BREF"]
+    @LONG = content["LONG"]
+
   end
 
-  def topic
-  	return @topic
+  def name
+
+    return @NAME.downcase.capitalize
+
   end
 
-  def parent
-  	return @parent
+  def unde
+    
+    return @UNDE.downcase.capitalize
+
   end
 
-  def flags
-  	return @flags.split(" ")
+  def type
+    
+    return @TYPE.downcase.capitalize
+
   end
 
-  def storage
-  	return @storage.lines()
+  def link
+    
+    return @LINK
+
   end
 
-  def definition
-    return macros(@definition)
+  def bref
+    
+    return @BREF
+
   end
 
-  def description
-    if !@definition.include?("</p>") then return @definition end
-    return @definition.split("</p>").first+"</p>"
+  def long
+    
+    return @LONG
+
   end
+
+
+
+
+
+
+  # OLD
 
   def siblings
     siblings = []
@@ -57,7 +78,7 @@ class Term
   def logs
     logs = []
     $horaire.all.sort.each do |date,log|
-      if log.topic != @topic && @topic != "Home" then next end
+      if log.topic != @topic && @topic != "HOME" then next end
       logs.push(log)
     end
     return logs
@@ -66,7 +87,7 @@ class Term
   def diaries
     result = []
     logs.each do |log|
-      if log.topic != @topic && @topic != "Home" then next end
+      if log.topic != @topic && @topic != "HOME" then next end
       if log.photo == 0 then next end
       result.push(log)
     end

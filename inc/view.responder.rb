@@ -17,6 +17,7 @@ require 'date'
 
 require_relative "../../tools/oscean.rb"
 
+require_relative "objects/string.rb"
 require_relative "objects/desamber.rb"
 require_relative "objects/horaire.rb"
 require_relative "objects/log.rb"
@@ -37,13 +38,16 @@ require_relative "objects/aeth.rb"
 # Setup
 #----------------
 
+require("/xxiivv/Jiin/core/jiin.rb")
+$jiin = Jiin.new
+
 $oscean = Oscean.new(@input_search)
 $oscean.connect
 
 data = {
   "topic"   => @input_search,
   "module"  => @input_module,
-  "lexicon" => $oscean.lexicon,
+  "lexicon" => $jiin.command("disk load lexicon"),
   "horaire" => $oscean.horaire,
   "issues" => $oscean.issues(@input_search)
 }

@@ -26,6 +26,16 @@ class Horaire
 
 	# Lookups
 
+	def logs term
+
+		array = []
+		all.each do |date,log|
+			if log.topic.like(term.name) || term.name.like("home") then array.push(log) end
+		end
+		return array
+
+	end
+
 	def diaries
 
 		result = []

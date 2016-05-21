@@ -43,14 +43,13 @@ class Layout
 
     html = ""
     html += layoutHeaderLogo
-    html += (@page.module != "" || @page.isDiary) ? "<a class='module' href='/#{@page.term.topic}'>#{Icon.new.return}Return to #{@page.term.topic}</a>" : ""
-    html += (@page.module != "diary" && @page.diaries.length > 1 && @page.term.topic != "Home") ? "<a class='module' href='/#{@page.term.topic}:Diary'>#{Icon.new.diary}#{@page.diaries.length} Diaries</a>" : ""
-    html += (@page.module != "horaire" && @page.logs.length > 1 && @page.term.topic != "Home") ? "<a class='module' href='/#{@page.term.topic}:Horaire'>#{Icon.new.horaire}#{@page.logs.length} Logs</a>" : ""
-    html += (@page.module != "issues" && @page.issues.length > 1 && @page.term.topic != "Home") ? "<a class='module' href='/#{@page.term.topic}:Issues'>#{Icon.new.issues}#{@page.issues.length} Versions</a>" : ""
+    html += (!@page.module.like("diary") && @page.diaries.length > 1 && !@page.term.name.like("home")) ? "<a class='module' href='/#{@page.term.name}:Diary'>#{Icon.new.diary}#{@page.diaries.length} Diaries</a>" : ""
+    html += (!@page.module.like("horaire") && @page.logs.length > 1 && !@page.term.name.like("home")) ? "<a class='module' href='/#{@page.term.name}:Horaire'>#{Icon.new.horaire}#{@page.logs.length} Logs</a>" : ""
+    html += (!@page.module.like("issues") && @page.issues.length > 1 && !@page.term.name.like("home")) ? "<a class='module' href='/#{@page.term.name}:Issues'>#{Icon.new.issues}#{@page.issues.length} Versions</a>" : ""
 
-    html += (@page.term.topic == "Home") ? "<a class='module' href='/Diary'>#{Icon.new.diary}#{@page.diaries.length} Diaries</a>" : ""
-    html += (@page.term.topic == "Home") ? "<a class='module' href='/Horaire'>#{Icon.new.horaire}#{@page.logs.length} Logs</a>" : ""
-    html += (@page.term.topic == "Home") ? "<a class='module' href='/Issues'>#{Icon.new.issues}#{@page.issues.length} Versions</a>" : ""
+    html += (@page.term.name == "HOME") ? "<a class='module' href='/Diary'>#{Icon.new.diary}#{@page.diaries.length} Diaries</a>" : ""
+    html += (@page.term.name == "HOME") ? "<a class='module' href='/Horaire'>#{Icon.new.horaire}#{@page.logs.length} Logs</a>" : ""
+    html += (@page.term.name == "HOME") ? "<a class='module' href='/Issues'>#{Icon.new.issues}#{@page.issues.length} Versions</a>" : ""
 
     return "<content class='title'><div class='search'><input placeholder='"+@page.title+"' id='query'/></div>"+html+"</content>"
 
@@ -74,9 +73,8 @@ class Layout
     if !@page.links then return "" end
 
     html = ""
-    @page.links.each do |linkString,v| 
-      link = Link.new(linkString)
-      if link.type == "quote" then next end
+    @page.links.each do |name,url| 
+      link = Link.new(name,url)
       html += link.template
     end
     return "<content class='storage'>"+html+"</content>"
@@ -95,12 +93,12 @@ class Layout
 
   def layoutPortalIcon
 
-    if File.exist?("content/badges/#{@page.term.topic.downcase.gsub(' ','.')}.png")
-		return "<a href='/#{@page.portal.topic}' class='badge'><img src='content/badges/#{@page.term.topic.downcase.gsub(' ','.')}.png'/></a>"
-    elsif File.exist?("content/badges/#{@page.portal.topic.downcase.gsub(' ','.')}.png")
-		return "<a href='/#{@page.portal.topic}' class='badge'><img src='content/badges/#{@page.portal.topic.downcase.gsub(' ','.')}.png'/></a>"
+    if File.exist?("content/badges/#{@page.term.name.downcase.gsub(' ','.')}.png")
+		return "<a href='/#{@page.portal.name}' class='badge'><img src='content/badges/#{@page.term.name.downcase.gsub(' ','.')}.png'/></a>"
+    elsif File.exist?("content/badges/#{@page.portal.name.downcase.gsub(' ','.')}.png")
+		return "<a href='/#{@page.portal.name}' class='badge'><img src='content/badges/#{@page.portal.name.downcase.gsub(' ','.')}.png'/></a>"
     else 
-		return "<a href='#{@page.term.parent}' class='badge'><img src='content/badges/oscean.png'/></a>"
+		return "<a href='#{@page.term.unde}' class='badge'><img src='content/badges/oscean.png'/></a>"
     end
 
   end
@@ -108,23 +106,23 @@ class Layout
   def layoutPortalTree
 
   	html = "<ul>"
-    html += (@page.portal.topic != @page.term.topic) ? "<li class='head'><a href='/#{@page.portal.topic}'>#{@page.portal.topic} Portal</a></li>" : "<li class='head'><b>#{@page.portal.topic}</b></li>"
+    html += (@page.portal.name != @page.term.name) ? "<li class='head'><a href='/#{@page.portal.name}'>#{@page.portal.name} Portal</a></li>" : "<li class='head'><b>#{@page.portal.name}</b></li>"
 	html += "</ul>"
 
 	html += "<ul class='siblings'>"
     @page.lexicon.siblings(@page.term).each do |term|
-    	if term.topic == "Home" then next end
-    	if term.topic == @page.portal.topic then next end
-    	html += (term.topic != @page.term.topic) ? "<li><a href='/#{term.topic}'>#{term.topic}</a></li>" : "<li><b>#{term.topic}</b></li>"
+    	if term.name == "HOME" then next end
+    	if term.name == @page.portal.name then next end
+    	html += (term.name != @page.term.name) ? "<li><a href='/#{term.name}'>#{term.name}</a></li>" : "<li><b>#{term.name}</b></li>"
     end
     html += "</ul>"
 
-    if @page.term.topic != @page.portal.topic
+    if @page.term.name != @page.portal.name
 		html += "<ul class='children'>"
     	@page.lexicon.children(@page.term).each do |term|
-	    	if term.topic == "Home" then next end
-	    	if term.topic == @page.term.topic then next end
-	    	html += (term.topic != @page.term.topic) ? "<li><a href='/#{term.topic}'>#{term.topic}</a></li>" : "<li><b>#{term.topic}</b></li>"
+	    	if term.name == "HOME" then next end
+	    	if term.name == @page.term.name then next end
+	    	html += (term.name != @page.term.name) ? "<li><a href='/#{term.name}'>#{term.name}</a></li>" : "<li><b>#{term.name}</b></li>"
 	    end
 	    html += "</ul>"
 	end
@@ -147,7 +145,7 @@ class Layout
         </dl>
         <dl class='main'>
           <dd><a href='/Devine+Lu+Linvega'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year} <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank' style='color:#aaa'>BY-NC-SA 4.0</a></dd>
-          <dd>Currently indexing #{@page.lexicon.length} projects, built over #{@page.horaire.length} days.</dd>
+          <dd>Currently indexing ????? projects, built over #{@page.horaire.length} days.</dd>
           <dd class='small'><a href='/Diary'>Diary</a> &bull; <a href='/Horaire'>Horaire</a> &bull; <a href='/Issues'>Issues</a> &bull; <a href='/Desamber' class='date'>"+Desamber.new().default+"</a><br /><a href='Clock'>"+Clock.new().default+"</a> "+((Time.new - $timeStart) * 1000).to_i.to_s+"ms</dd>
         </dl>
         </content>

@@ -5,23 +5,27 @@ class Page
 
 	def initialize data
 
-		@query   = data["topic"].downcase
-	    @module  = data["module"].downcase
-	    @lexicon = data["lexicon"]
+		@query   = data["topic"].upcase
+	    @module  = data["module"].upcase
+	    @lexicon = Lexicon.new(data["lexicon"])
 	    @horaire = data["horaire"]
 	    @issues  = data["issues"]
 
+	    @term = @lexicon.term(@query)
+	    @logs = @horaire.logs(@term)
+
 	    @sector = _sector
-	    @term = _term
+
 	    @diaries = _diaries
 	    @diary = _diary
-	    @logs = _logs
+	    
 	    @issues = _issues
 	    @title = _title
-	    @body = _body
 	    @portal = _portal
 
 	    loadModules
+
+	    puts "<div style='background:red; color:white'>Migrating XXIIVV database to Jiin. Things should return to normal shortly.</div>"
 
 	end
 
@@ -33,9 +37,7 @@ class Page
 
 	def _title
 
-		if isDiary then return @diary.title end
-		if isTerm then return @term.topic end
-		return "Missing"
+		return @term.name.downcase.capitalize
 
 	end
 
@@ -57,12 +59,7 @@ class Page
 
 	end
 
-	def _term
-
-		if @query.to_i > 0 then return @lexicon.term(@horaire.diaryWithId(@query).topic) end
-		return @lexicon.term(@query)
-
-	end
+	# Horaire
 
 	def diary
 
@@ -72,7 +69,6 @@ class Page
 
 	def _diary
 
-		if @horaire.diaryWithId(@query) then return @horaire.diaryWithId(@query) end
 		@diaries.each do |log| 
 			if log.isFeatured then return log end
 		end
@@ -89,8 +85,7 @@ class Page
 	def _diaries
 
 		array = []
-		@horaire.all.each do |date,log|
-			if log.topic != @term.topic && @query != "home" && @query != "diary" then next end
+		@logs.each do |log|
 			if log.photo < 1 then next end
 			array.push(log)
 		end
@@ -104,17 +99,6 @@ class Page
 
 	end
 
-	def _logs
-
-		array = []
-		@horaire.all.each do |date,log|
-			if log.topic != @term.topic && @query != "home" then next end
-			array.push(log)
-		end
-		return array
-
-	end
-
 	def issues
 
 		return @issues
@@ -125,7 +109,7 @@ class Page
 
 		hash = {}
 		@issues.each do |issue|
-			if issue.topic != @term.topic && @query != "home" then next end
+			if issue.topic != @term.name && @query != "HOME" then next end
 			if !hash[issue.release] then hash[issue.release] = [] end
 			hash[issue.release].push(issue)
 		end
@@ -135,27 +119,36 @@ class Page
 
 	def view
 
-		if isDiary then return macros(@diary.full) end
-		return body
+		html = ""
 
-	end
+		if @term.bref
+			html += "<p>#{@term.bref}</p>"
+		end
 
-	def body
-		return macros(@body)
-	end
+		if @term.long
+			@term.long.each do |line|
+				rune = line[0,1]
+				text = line.sub(rune,"").strip
+				case rune
+				when "&"
+					html += "<p>#{text}</p>"
+				when "-"
+					html += "<li>#{text}</li>"
+				when "?"
+					html += "<small>#{text}</small>"
+				else
+					html += "[??]#{text}[??]"
+				end
+			end
+		end
 
-	def _body
-
-		if @term.definition.to_s != "" then return @term.definition end
-
-		require_relative("../modules/missing.rb")
-	    return missing
+		return macros(html)
 
 	end
 
 	def links
 
-		return @term.storage
+		return @term.link
 
 	end
 
@@ -198,17 +191,17 @@ class Page
 	def _portal
 
 	    depth = 0
-	    parent = @lexicon.parent(@term)
+	    unde = @lexicon.unde(@term)
 	    
-	    if parent == nil then return Term.new() end
+	    if unde == nil then return Term.new() end
 
-	    while @lexicon.parent(parent).parent != parent.topic
-	      if depth > 5 then return parent end
-	      if parent.flags.include?("portal") then break end
-	      parent = @lexicon.parent(parent)
+	    while @lexicon.unde(unde).unde != unde.name
+	      if depth > 5 then return unde end
+	      if unde.flags.include?("portal") then break end
+	      unde = @lexicon.unde(unde)
 	      depth += 1
 	    end
-	    return parent
+	    return unde
 
 	end
 
@@ -218,6 +211,8 @@ class Page
         search.each do |str,details|
             text = text.gsub("{{"+str+"}}",parser(str))
         end
+        text = text.gsub("{_","<i>").gsub("_}","</i>")
+        text = text.gsub("{*","<b>").gsub("*}","</b>")
         return text
 
 	end
@@ -227,7 +222,7 @@ class Page
 		if macro == "!clock" then return "<a href='/Clock'>#{Clock.new().default}</a>" end
 		if macro == "!desamber" then return "<a href='/Desamber'>#{Desamber.new().default}</a>" end
 			
-		if macro.downcase == @query then return "<b>#{macro}</b>" end
+		if macro.like(@query) then return "<b>#{macro}</b>" end
 		if macro.include?("|")
 			if macro.split("|")[1].include?("http") then return "<a href='"+macro.split("|")[1]+"' class='external'>"+macro.split("|")[0]+"</a>"
 			else return @lexicon.find(macro.split("|")[1]) ? "<a href='"+macro.split("|")[1]+"'>"+macro.split("|")[0]+"</a>" : "<a class='dead' href='"+macro.split("|")[1]+"'>"+macro.split("|")[0]+"</a>" end
@@ -238,13 +233,7 @@ class Page
 
 	def loadModules
 
-		@term.flags.each do |flag|
-			if File.exist?("inc/modules/#{flag}.rb") then require_relative("../modules/#{flag}.rb") end
-		end
-	    if File.exist?("inc/pages/#{@query}.rb") then require_relative("../pages/#{@query}.rb") end
-		if File.exist?("inc/modules/#{@query}.rb") then require_relative("../modules/#{@query}.rb") end
-	    if File.exist?("inc/modules/#{@module}.rb") then require_relative("../modules/#{@module}.rb") end
-
-	end
-
-end
+		# @term.flags.each do |flag|
+		# 	if File.exist?("inc/modules/#{flag}.rb") then require_relative("../modules/#{flag}.rb") end
+		# end
+	 #    if File.exist?("inc/pages/#{@query}.rb") then require_relative("../pages/#{@query}.rb") end
