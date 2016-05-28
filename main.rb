@@ -6,6 +6,8 @@ $timeStart = Time.new
 @input_search = ARGV[0].to_s.gsub("+"," ").split(':')[0].to_s
 @input_module = ARGV[0].to_s.gsub("+"," ").split(':')[1].to_s
 
+@input_search = "HOME"
+
 # Imports
 
 require 'date'
@@ -48,7 +50,7 @@ data = {
 page   = Page.new(data)
 layout = Layout.new(page)
 
-puts "
+$main = "
 <!DOCTYPE html>
 <html> 
 <head>
