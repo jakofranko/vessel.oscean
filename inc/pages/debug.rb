@@ -1,4 +1,4 @@
-#: Shows various administration debug
+# encoding: utf-8
 
 require 'date'
 

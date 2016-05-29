@@ -1,4 +1,4 @@
-#: The missing layout, displays a series of pages related to the missing selected topic.
+# encoding: utf-8
 
 class Page
 

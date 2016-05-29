@@ -1,5 +1,4 @@
 # encoding: utf-8
-#: The {{Term}} object are {{Lexicon}} contructs.
 
 class Term
 
@@ -11,6 +10,8 @@ class Term
   	@LINK = content["LINK"]
   	@BREF = content["BREF"]
     @LONG = content["LONG"]
+
+    @LOGS = []
 
   end
 
@@ -110,24 +111,6 @@ class Term
       result.push(log)
     end
     return result
-  end
-
-  def issues
-  	issues = []
-  	$issues.each do |issue|
-  		# if issue.topic != @topic then next end
-  		issues.push(issue)
-  	end
-  	return issues
-  end
-
-  def issuesActive
-  	active = []
-  	issues.each do |issue|
-  		if issue.active == false then next end
-  		active.push(issue)
-  	end
-  	return active
   end
 
   def sector

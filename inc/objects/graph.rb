@@ -1,4 +1,4 @@
-#: The graph object creates the Horaire previews.
+# encoding: utf-8
 
 class Graph
 

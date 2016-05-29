@@ -1,5 +1,4 @@
 # encoding: utf-8
-#: {{Desamber}} is a time conversion Class from Gregorian to Desamber. Desamber.new("2015-08-19").default
 
 require 'date'
 

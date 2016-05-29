@@ -1,5 +1,4 @@
 # encoding: utf-8
-#: The {{Term}} object are {{Lexicon}} contructs.
 
 class Image
 

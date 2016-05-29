@@ -1,4 +1,4 @@
-#: Missing..
+# encoding: utf-8
 
 class Page
 
@@ -8,16 +8,25 @@ class Page
 		
 	    @lexicon.all.each do |name,term|
 	    	if !term.unde.like(@term.name) then next end
-
-	    	html += "<content class='diary'>
-		      <a href='/#{term.name}'>#{diary != nil ? Image.new(diary.photo).view : ""}</a>
-		      <small>#{diary != nil ? diary.offset : ""}</small>
-		      <h1><a href='/#{term.name}'>#{term.name}</a></h1>
+	    	photo = photoForTerm(term.name)
+	    	html += "<content>
+		      #{photo != nil ? "<a href='"+name.downcase+"'>"+Image.new(photo).view+"</a>" : ""}
 		      <div class='full'>#{term.bref}</div>
 		    </content>"
 	    end
 
 	    return macros(html)
+
+	end
+
+	def photoForTerm term
+
+		@horaire.all.each do |date,log|
+			if log.topic != term then next end
+			if log.photo < 1 then next end
+			return log.photo
+		end
+
 
 	end
 

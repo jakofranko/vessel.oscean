@@ -1,5 +1,4 @@
 # encoding: utf-8
-#: Missing..
 
 class Page
 
@@ -7,9 +6,9 @@ class Page
 
 		@query   = data["topic"].upcase
 	    @module  = data["module"].upcase
+
 	    @lexicon = Lexicon.new(data["lexicon"])
 	    @horaire = Horaire.new(data["horaire"])
-	    @issues  = data["issues"]
 
 	    @term = @lexicon.term(@query)
 	    @logs = @horaire.logs(@term)
@@ -19,7 +18,6 @@ class Page
 	    @diaries = _diaries
 	    @diary = _diary
 	    
-	    @issues = _issues
 	    @title = _title
 	    @portal = _portal
 
@@ -94,24 +92,6 @@ class Page
 	def logs
 
 		return @logs
-
-	end
-
-	def issues
-
-		return @issues
-
-	end
-
-	def _issues
-
-		hash = {}
-		@issues.each do |issue|
-			if issue.topic != @term.name && @query != "HOME" then next end
-			if !hash[issue.release] then hash[issue.release] = [] end
-			hash[issue.release].push(issue)
-		end
-		return hash
 
 	end
 
@@ -215,6 +195,7 @@ class Page
 	def loadModules
 
 		if File.exist?("/xxiivv/Jiin/disk/http.oscean/inc/pages/#{@query.downcase}.rb") then require_relative("../pages/#{@query.downcase}.rb") end
+			if File.exist?("/xxiivv/Jiin/disk/http.oscean/inc/modules/#{@query.downcase}.rb") then require_relative("../modules/#{@query.downcase}.rb") end
 		if @term.type && File.exist?("/xxiivv/Jiin/disk/http.oscean/inc/modules/#{@term.type.downcase}.rb") then require_relative("../modules/#{@term.type.downcase}.rb") end
 
 	end

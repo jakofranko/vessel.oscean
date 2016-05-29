@@ -1,4 +1,4 @@
-#: The timeline page displays various visualisations of Horaire.
+# encoding: utf-8
 
 require 'date'
 

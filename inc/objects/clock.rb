@@ -1,5 +1,4 @@
 # encoding: utf-8
-#: {{Clock}} is a time system that simply divides the elapsed day into percentages. Clock.new().default
 
 require 'date'
 

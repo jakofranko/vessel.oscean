@@ -1,5 +1,4 @@
 # encoding: utf-8
-#: The {{Link}} object wraps around {{URL}} constructs.
 
 class Link
 

@@ -1,4 +1,4 @@
-#: Contains all icons of XXIIVV.
+# encoding: utf-8
 
 class Icon
 

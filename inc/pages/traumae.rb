@@ -1,4 +1,4 @@
-#: Main Traumae documentation
+# encoding: utf-8
 
 class Page
 

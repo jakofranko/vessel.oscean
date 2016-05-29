@@ -1,4 +1,4 @@
-#: Redirects to a random page of the wiki.
+# encoding: utf-8
 
 class Page
 

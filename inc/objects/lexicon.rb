@@ -1,5 +1,4 @@
 # encoding: utf-8
-#: {{Horaire}} is a Hash extension with filtering tools to look up Terms quickly.
 
 class Lexicon
 

@@ -1,6 +1,4 @@
-#: Missing..
-
-require_relative "../objects/graph.rb"
+# encoding: utf-8
 
 class Page
 
@@ -21,7 +19,7 @@ class Page
 
     graphData = []
     @horaire.all.each do |date,log|
-      if @term.topic != "Horaire" && log.topic != @term.topic then next end
+      if @term.name != "Horaire" && log.topic != @term.name then next end
       if log.sector == "misc" then next end
       graphData.push(log)
     end
@@ -33,7 +31,7 @@ class Page
 
     hash = {}
     @horaire.all.each do |date,log|
-      if @term.topic != "Horaire" && log.topic != @term.topic then next end
+      if @term.name != "Horaire" && log.topic != @term.name then next end
       if log.sector == "misc" then next end
       if !hash[log.task] then hash[log.task] = {"name" => log.task, "hours" => 0, "logs" => 0} end
       hash[log.task]["hours"] += log.value

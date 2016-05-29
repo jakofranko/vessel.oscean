@@ -1,4 +1,4 @@
-#: The {{Log}} object are {{Horaire}} contructs.
+# encoding: utf-8
 
 class Log
 

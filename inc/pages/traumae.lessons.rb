@@ -1,4 +1,4 @@
-#: Main Traumae lessons
+# encoding: utf-8
 
 require_relative "traumae.tools.rb"
 

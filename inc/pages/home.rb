@@ -1,4 +1,4 @@
-require_relative "../objects/graph.rb"
+# encoding: utf-8
 
 class Page
 
