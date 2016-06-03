@@ -168,6 +168,8 @@ class Page
 
 	def macros text
 		
+		if !text then return "" end
+			
 		search = text.scan(/(?:\{\{)([\w\W]*?)(?=\}\})/)
         search.each do |str,details|
             text = text.gsub("{{"+str+"}}",parser(str))

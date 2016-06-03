@@ -105,7 +105,7 @@ content.search input { padding:5px;text-align: right;background: #fff;border-rad
 content.core { max-width: 700px;display: block;padding:15px}
 
 content.body, content.article, content.portal, content.footer content {z-index: 900;margin: 0px auto;position: relative;width: calc(100vw - 60px);max-width: 700px;padding: 30px 15px;}
-content.body p { max-width: 700px}
+content.body p { max-width: 700px; font-family: 'Helvetica Neue','Helvetica',Arial;}
 content.body p:first-child { font-size:22px; line-height: 30px }
 content.body ul { margin-bottom: 30px; }
 content.body ul li a { border-bottom: 1px solid #ccc; line-height: 15px; display: inline-block}

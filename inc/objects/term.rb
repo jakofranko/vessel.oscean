@@ -60,11 +60,13 @@ class Term
         when "&"
           html += "<p>#{text}</p>"
         when "-"
-          html += "<li>#{text}</li>"
+          html += "<l>#{text}</l>"
         when "?"
-          html += "<p class='small'>#{text}</p>"
+          html += "<p class='note'>#{text}</p>"
         when "*"
           html += "<h2>#{text}</h2>"
+        when "#"
+          html += "<pre>#{text}</pre>"
         else
           html += "[??]#{text}[??]"
         end
