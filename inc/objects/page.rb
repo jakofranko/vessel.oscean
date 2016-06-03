@@ -158,7 +158,7 @@ class Page
 
 	    while @lexicon.unde(unde).unde != unde.name
 	      if depth > 5 then return unde end
-	      if unde.type.like("portal") then break end
+	      if unde.type && unde.type.like("portal") then break end
 	      unde = @lexicon.unde(unde)
 	      depth += 1
 	    end

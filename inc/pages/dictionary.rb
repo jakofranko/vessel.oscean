@@ -7,7 +7,7 @@ class Page
   	html = macros(@term.bref)
     
     lastLetter = "4"
-    html += "<ul>"
+    html += "<ul style='column-count:3'>"
     @lexicon.all.each do |topic,term|
       if term.name[0,1].downcase != lastLetter.downcase
         lastLetter = term.name[0,1]

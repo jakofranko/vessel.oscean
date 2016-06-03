@@ -63,6 +63,8 @@ class Term
           html += "<li>#{text}</li>"
         when "?"
           html += "<small>#{text}</small>"
+        when "*"
+          html += "<h2>#{text}</h2>"
         else
           html += "[??]#{text}[??]"
         end

@@ -51,7 +51,7 @@ class Icon
 	  </svg>"
 	end
 
-	def issues
+	def version
 	  return "<svg class='icon'>
 	  <line x1='3' y1='17.5' x2='22' y2='17.5' style='stroke:#fff;stroke-width:2' />
 	  <line x1='3' y1='12.5' x2='10.5' y2='12.5' style='stroke:#fff;stroke-width:2' />
