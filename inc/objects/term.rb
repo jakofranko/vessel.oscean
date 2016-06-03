@@ -62,7 +62,7 @@ class Term
         when "-"
           html += "<li>#{text}</li>"
         when "?"
-          html += "<small>#{text}</small>"
+          html += "<p class='small'>#{text}</p>"
         when "*"
           html += "<h2>#{text}</h2>"
         else

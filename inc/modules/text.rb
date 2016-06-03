@@ -6,13 +6,14 @@ class Page
 
 		html = "#{@term.bref}#{@term.long}"
 		
-	    children = Oscean.new(@term.topic).lexiconFind("parent",@term.topic)
-	    children.each do |term|
-	    	if term.topic == @term.topic then next end
+	    @lexicon.all.each do |name,term|
+	    	if !term.unde.like(@term.name) then next end
+	    	if term.name == @term.name then next end
 	    	html += "
 		    <content>
-		      <h2><a href='/#{term.topic}'>#{term.topic}</a></h2>
-		      <div class='full'>#{term.definition}</div>
+		      <h2><a href='/#{term.name}'>#{term.name}</a></h2>
+		      <div class='full'>#{term.bref}</div>
+		      #{term.long}
 		    </content>"
 	    end
 	    return macros(html)
