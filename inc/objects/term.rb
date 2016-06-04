@@ -67,6 +67,8 @@ class Term
           html += "<h2>#{text}</h2>"
         when "#"
           html += "<pre>#{text}</pre>"
+        when "%"
+          html += "<img src='#{text}'/>"
         else
           html += "[??]#{text}[??]"
         end

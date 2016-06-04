@@ -156,7 +156,7 @@ class Page
 	    
 	    if unde == nil then return Term.new() end
 
-	    while @lexicon.unde(unde).unde != unde.name
+	    while @lexicon.unde(unde) && @lexicon.unde(unde).unde != unde.name
 	      if depth > 5 then return unde end
 	      if unde.type && unde.type.like("portal") then break end
 	      unde = @lexicon.unde(unde)

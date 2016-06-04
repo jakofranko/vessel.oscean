@@ -28,8 +28,15 @@ class Page
 			html += "<td><h2><a href='/#{term.name}'>#{term.name}</a></h2>"
 			@lexicon.all.each do |name,term|
 				if !term.unde.like(parent) then next end
+					if used.include?(name.downcase) then next end
 				html += "<li style='display:inline-block; width:150px'><a href='/#{name}'>#{name.capitalize}</a></li>"
 				used.push(name.downcase)
+				@lexicon.all.each do |child,term|
+					if !term.unde.like(name) then next end
+					if used.include?(child.downcase) then next end
+					html += "<li style='display:inline-block; width:150px'><a href='/#{child}'>#{child.capitalize}</a></li>"
+					used.push(child.downcase)
+				end
 			end
 			html += "<br /><br /></td></tr>"
 			used.push(parent.downcase)
