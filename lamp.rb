@@ -23,7 +23,9 @@ require_relative "inc/objects/graph.rb"
 
 require_relative "inc/objects/string.rb"
 
-class Site
+class Oscean
+
+	include Lamp
 
 	def initialize query
 
@@ -33,12 +35,18 @@ class Site
 		@data = {
 		  "topic"   => @query,
 		  "module"  => @module,
-		  "lexicon" => $jiin.command("disk load lexicon"),
-		  "horaire" => $jiin.command("disk load horaire")
+		  "lexicon" => $jiin.command("grid lexicon"),
+		  "horaire" => $jiin.command("grid horaire")
 		}
 
 		@page   = Page.new(@data)
 		@layout = Layout.new(@page)
+
+	end
+
+	def application
+
+		return view
 
 	end
 
@@ -50,8 +58,6 @@ class Site
 		<head>
 			<meta charset='UTF-8'>
 			<meta name='viewport'            content='width=device-width, initial-scale=1, maximum-scale=1'>
-			<meta name='color:Accent'        content='#7cc0b0'>
-			<meta name='SKYPE_TOOLBAR' 		 content='SKYPE_TOOLBAR_PARSER_COMPATIBLE' />
 			<meta name='apple-mobile-web-app-capable' content='yes' />
 			<meta name='viewport' 			 content='width=device-width, initial-scale=1.0'>
 			<meta name='description'         content='Works of Devine Lu Linvega' />
