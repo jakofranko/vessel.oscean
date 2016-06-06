@@ -7,21 +7,12 @@ $timeStart = Time.new
 
 require_relative "inc/objects/horaire.rb"
 require_relative "inc/objects/log.rb"
-
 require_relative "inc/objects/lexicon.rb"
 require_relative "inc/objects/term.rb"
 require_relative "inc/objects/link.rb"
-
-require_relative "inc/objects/desamber.rb"
-require_relative "inc/objects/clock.rb"
-
 require_relative "inc/objects/page.rb"
 require_relative "inc/objects/layout.rb"
-require_relative "inc/objects/icon.rb"
-require_relative "inc/objects/image.rb"
 require_relative "inc/objects/graph.rb"
-
-require_relative "inc/objects/string.rb"
 
 class Oscean
 

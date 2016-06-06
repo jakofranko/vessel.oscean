@@ -26,7 +26,7 @@ class Layout
   def layoutHeaderLogo
 
     html = ""
-    html += "<a href='/'>"+Icon.new().logo(0.30)+"</a>"
+    html += "<a href='/'><img src='img/vectors/logo.svg' class='logo'/></a>"
     return "<content class='logo'>"+html+"</content>"
 
   end
@@ -42,11 +42,11 @@ class Layout
 
     html = ""
     html += layoutHeaderLogo
-    html += (!@page.module.like("diary") && @page.diaries.length > 1 && !@page.term.name.like("home")) ? "<a class='module' href='/#{@page.term.name}:Diary'>#{Icon.new.diary}#{@page.diaries.length} Diaries</a>" : ""
-    html += (!@page.module.like("horaire") && @page.logs.length > 1 && !@page.term.name.like("home")) ? "<a class='module' href='/#{@page.term.name}:Horaire'>#{Icon.new.horaire}#{@page.logs.length} Logs</a>" : ""
+    html += (!@page.module.like("diary") && @page.diaries.length > 1 && !@page.term.name.like("home")) ? "<a class='module' href='/#{@page.term.name}:Diary'><img src='img/vectors/diary.svg' class='icon'/>#{@page.diaries.length} Diaries</a>" : ""
+    html += (!@page.module.like("horaire") && @page.logs.length > 1 && !@page.term.name.like("home")) ? "<a class='module' href='/#{@page.term.name}:Horaire'><img src='img/vectors/log.svg' class='icon'/>#{@page.logs.length} Logs</a>" : ""
 
-    html += (@page.term.name.like("home")) ? "<a class='module' href='/Diary'>#{Icon.new.diary}#{@page.diaries.length} Diaries</a>" : ""
-    html += (@page.term.name.like("home")) ? "<a class='module' href='/Horaire'>#{Icon.new.horaire}#{@page.logs.length} Logs</a>" : ""
+    html += (@page.term.name.like("home")) ? "<a class='module' href='/Diary'><img src='img/vectors/diary.svg' class='icon'/>#{@page.diaries.length} Diaries</a>" : ""
+    html += (@page.term.name.like("home")) ? "<a class='module' href='/Horaire'><img src='img/vectors/log.svg' class='icon'/>#{@page.logs.length} Logs</a>" : ""
 
     return "<content class='title'><div class='search'><input placeholder='"+@page.title+"' id='query'/></div>"+html+"</content>"
 
@@ -55,7 +55,7 @@ class Layout
   def layoutHeaderSource
 
     if !@page.diary then return "" end
-    return "<content class='source'>#{Icon.new.photo} \"<a href='/#{@page.diary.topic}:diary'>#{@page.diary.title}</a>\" #{@page.diary.offset}.</content>"
+    return "<content class='source'><img src='img/vectors/feature.svg' class='icon'/> \"<a href='/#{@page.diary.topic}:diary'>#{@page.diary.title}</a>\" #{@page.diary.offset}.</content>"
 
   end
 
