@@ -29,6 +29,10 @@ class Oscean
 
 	def initialize query
 
+	end
+
+	def application query
+
 		@query = query.gsub("+"," ").split(":").first
 		@module = query.include?(":") ? query.gsub("+"," ").split(":").last : ""
 
@@ -41,16 +45,6 @@ class Oscean
 
 		@page   = Page.new(@data)
 		@layout = Layout.new(@page)
-
-	end
-
-	def application
-
-		return view
-
-	end
-
-	def view
 
 		return "
 		<!DOCTYPE html>
