@@ -37,6 +37,7 @@ class Horaire
 
 	def logs term
 
+		if !term then return [] end
 		array = []
 		all.each do |date,log|
 			if log.topic.like(term.name) || term.name.like("home") then array.push(log) end

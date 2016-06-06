@@ -21,7 +21,7 @@ class Lexicon
 
 	def term target
 		if @db_lexicon[target.upcase] then return @db_lexicon[target.upcase] end
-		return Term.new({ 'NAME' => "Missing", 'UNDE' => "HOME", 'flags' => "", 'storage' => "", 'definition' => ""})
+		return nil
 	end
 
 	def definition term
