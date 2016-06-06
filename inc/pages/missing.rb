@@ -10,10 +10,10 @@ class Page
 
     searchResult = search()
 
-    if searchResult.length == 0 then return "<content class='wrap'><p>"+template+"</p></content>" end
+    if searchResult.length == 0 then return macros("<content class='wrap'><p>"+template+"</p></content>") end
     
-    if searchResult.length == 1 then return "<content class='wrap'><p>"+template+"Did you mean {{"+searchResult[0].to_s+"}}?</p></content>" end
-    if searchResult.length == 2 then return "<content class='wrap'><p>"+template+"Did you mean {{"+searchResult[0].to_s+"}} or {{"+searchResult[1].to_s+"}}?</p></content>" end
+    if searchResult.length == 1 then return macros("<content class='wrap'><p>"+template+"Did you mean {{"+searchResult[0].to_s+"}}?</p></content>") end
+    if searchResult.length == 2 then return macros("<content class='wrap'><p>"+template+"Did you mean {{"+searchResult[0].to_s+"}} or {{"+searchResult[1].to_s+"}}?</p></content>") end
 
     return macros("<content class='wrap'><p>"+template+"Did you mean {{"+searchResult[0].to_s+"}}, {{"+searchResult[1].to_s+"}} or {{"+searchResult[2].to_s+"}}?</p><p>If you believe that this page should exist, contact {{@neauoire|https://twitter.com/neauoire}}</p></content>")
 

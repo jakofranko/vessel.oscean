@@ -173,7 +173,7 @@ class Log
 		<content class='diary'>
 			<small>#{date.default}</small>
 			<h1><a href='/#{photo}'>#{title}</a></h1>
-			<a href='/#{photo}'>#{Image.new(photo).view}</a>
+			<a href='/#{photo}'><img src='content/diary/#{photo}.jpg'/></a>
 			<div class='full'>#{full}</div>
 		</content>"
 
