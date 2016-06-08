@@ -45,8 +45,8 @@ class Layout
     html += (!@page.module.like("diary") && @page.diaries.length > 1 && !@page.term.name.like("home")) ? "<a class='module' href='/#{@page.term.name}:Diary'><img src='img/vectors/diary.svg' class='icon'/>#{@page.diaries.length} Diaries</a>" : ""
     html += (!@page.module.like("horaire") && @page.logs.length > 1 && !@page.term.name.like("home")) ? "<a class='module' href='/#{@page.term.name}:Horaire'><img src='img/vectors/log.svg' class='icon'/>#{@page.logs.length} Logs</a>" : ""
 
-    html += @term && (@page.term.name.like("home")) ? "<a class='module' href='/Diary'><img src='img/vectors/diary.svg' class='icon'/>#{@page.diaries.length} Diaries</a>" : ""
-    html += @term && (@page.term.name.like("home")) ? "<a class='module' href='/Horaire'><img src='img/vectors/log.svg' class='icon'/>#{@page.logs.length} Logs</a>" : ""
+    html += @page.term && (@page.term.name.like("home")) ? "<a class='module' href='/Diary'><img src='img/vectors/diary.svg' class='icon'/>#{@page.diaries.length} Diaries</a>" : ""
+    html += @page.term && (@page.term.name.like("home")) ? "<a class='module' href='/Horaire'><img src='img/vectors/log.svg' class='icon'/>#{@page.logs.length} Logs</a>" : ""
 
     return "<content class='title'><div class='search'><input placeholder='"+@page.title+"' id='query'/></div>"+html+"</content>"
 
@@ -84,7 +84,7 @@ class Layout
 
   def layoutPortal
 
-    if !@term then return "" end
+    if !@page.term || @page.term.name.like("home") then return "" end
     return "<content class='portal'>#{layoutPortalIcon}#{layoutPortalTree}</content>"
 
   end
