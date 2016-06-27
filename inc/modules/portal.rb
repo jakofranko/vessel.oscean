@@ -68,6 +68,7 @@ class Page
 
 		@lexicon.all.each do |name,term|
 	    	if !term.unde.like(@term.name) then next end
+	    	if term.name.like(@term.name) then next end
 	    	photoTest = photoForTerm(term.name)
 	    	html += "<content>
 		      "+(photoTest ? "<img src='content/diary/#{photoTest}.jpg'/>" : "")+"
