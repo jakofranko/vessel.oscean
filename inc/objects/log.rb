@@ -128,14 +128,14 @@ class Log
 	end
 
 	def storage
-		return @log['storage'].to_s
+		return @log['FLAG'].to_s
 	end
 
 	def isFeatured
-		if @log['storage'].to_s.include?('featured')
+		if @log['FLAG'].to_s.downcase.include?('featured')
 			return true
 		end
-		return false
+		return nil
 	end
 
 	def isDiary

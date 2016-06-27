@@ -64,7 +64,7 @@ class Page
 
 	def _diary
 
-		@diaries.each do |log| 
+		@diaries.each do |log|
 			if log.isFeatured then return log end
 		end
 		return @diaries.first
