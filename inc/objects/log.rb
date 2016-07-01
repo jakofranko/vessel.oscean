@@ -158,8 +158,6 @@ class Log
 		html += "<span class='task'>#{task}</span>"
 		if photo > 0
 			html += "<a class='title' href='/#{topic}:diary'>#{title}</a>"
-		elsif task.downcase == "update"
-			html += "<a class='title' href='/#{topic}:changelog'>v#{title}</a>"
 		elsif title.to_s != ""
 			html += "<a class='title' href='/#{topic}:diary'>#{title}</a>"
 		end

@@ -30,7 +30,8 @@ class Page
   def thisMonth
 
     return Graph.new(graphViewData).draw+"
-    <p>This graph shows the time invested in audio, visual and research projects for the past 3 months. You can see the time logged into projects of the past 10 years by visiting the <a href='/Horaire'>Horaire</a> module.</p>"
+    <p>This graph shows the time invested in audio, visual and research projects for the past 3 months. You can see the time logged into projects of the past 10 years by visiting the <a href='/Horaire'>Horaire</a> module.</p>
+    <p style='background:white; padding:15px; font-size:14px; border-radius:3px'>Currently sailing across the <a href='/Oceanism'>Pacific Ocean</a>, as of <i>June 30th 2016</i>, and will be unable to consistently update the playground. You can learn more about the adventure on the <a href='https://www.patreon.com/100'>Hundred Rabbits Patreon</a>.</p>"
 
   end
 
