@@ -42,10 +42,6 @@ class Page
 			used.push(parent.downcase)
 		end
 		html += "</table>"
-
-
-
-
     
 		lastLetter = "4"
 		html += "<ul style='column-count:3'>"
@@ -71,7 +67,7 @@ class Page
 	    	if term.name.like(@term.name) then next end
 	    	photoTest = photoForTerm(term.name)
 	    	html += "<content>
-		      "+(photoTest ? "<img src='content/diary/#{photoTest}.jpg'/>" : "")+"
+		      "+(photoTest ? "<a href='/#{term.name}'><img src='content/diary/#{photoTest}.jpg'/></a>" : "<h2><a href='/#{term.name}'>#{term.name}</a></h2>")+"
 		      <div class='full'>#{term.bref}</div>
 		    </content>"
 	    end
