@@ -37,6 +37,8 @@ class Oscean
 		@page   = Page.new(@data)
 		@layout = Layout.new(@page)
 
+		$photo = @page.diary.photo
+
 		return "
 		<!DOCTYPE html>
 		<html> 

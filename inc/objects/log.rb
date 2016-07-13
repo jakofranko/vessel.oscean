@@ -171,7 +171,7 @@ class Log
 		<content class='diary'>
 			<small>#{date.default}</small>
 			<h1><a href='/#{photo}'>#{title}</a></h1>
-			"+(photo > 0 ? "<a href='/#{photo}'><img src='content/diary/#{photo}.jpg'/></a>" : "")+"
+			"+(photo > 0 && photo != $photo ? "<a href='/#{topic}'><img src='content/diary/#{photo}.jpg'/></a>" : "")+"
 			<div class='full'>#{full}</div>
 		</content>"
 
