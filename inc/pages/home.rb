@@ -44,7 +44,6 @@ class Page
     count = 0
     @horaire.all.each do |date,log|
       if log.topic == "" then next end
-      if log.title != "" then next end
       if count >= 5 then break end
       if topicHistory[log.topic] then next end
       html_list += log.template
