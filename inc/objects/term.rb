@@ -52,29 +52,7 @@ class Term
     
     if !@LONG then return end
 
-    html = ""
-    @LONG.each do |line|
-        rune = line[0,1]
-        text = line.sub(rune,"").strip
-        case rune
-        when "&"
-          html += "<p>#{text}</p>"
-        when "-"
-          html += "<l>#{text}</l>"
-        when "?"
-          html += "<p class='note'>#{text}</p>"
-        when "*"
-          html += "<h2>#{text}</h2>"
-        when "#"
-          html += "<pre>#{text}</pre>"
-        when "%"
-          html += "<img src='#{text}'/>"
-        else
-          html += "[??]#{text}[??]"
-        end
-      end
-
-    return html
+    return @LONG.runes
 
   end
 
