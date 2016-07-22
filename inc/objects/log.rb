@@ -5,7 +5,7 @@ class Log
 	def initialize(date,content)
 
 		@log = content
-		@log['date'] = date
+		@log['DATE'] = date
 
 	end
 
@@ -14,19 +14,19 @@ class Log
 	end
 
 	def year
-		return @log['date'][0,4].to_i
+		return @log['DATE'][0,4].to_i
 	end
 
 	def month
-		return @log['date'][5,2].to_i
+		return @log['DATE'][5,2].to_i
 	end
 
 	def day
-		return @log['date'][8,2].to_i
+		return @log['DATE'][8,2].to_i
 	end
 
 	def date
-		return Desamber.new(@log['date'])
+		return Desamber.new(@log['DATE'])
 	end
 
 	def elapsed
@@ -56,20 +56,28 @@ class Log
 		return false
 	end
 
-	def value
-		return @log['CODE'][1,1].to_i
+	def code
+		return @log['CODE']
+	end
+
+	def rune
+		return code[0,1]
 	end
 
 	def verb
-		return @log['CODE'].to_i
+		return code[2,1].to_i
+	end
+
+	def value
+		return code[3,1].to_i
 	end
 
 	def sector
-		if @log['CODE'][0,1].to_i == 1
+		if verb.to_i == 1
 			return "audio"
-		elsif @log['CODE'][0,1].to_i == 2
+		elsif verb == 2
 			return "visual"
-		elsif @log['CODE'][0,1].to_i == 3
+		elsif verb == 3
 			return "research"
 		end
 		return "misc"
@@ -95,31 +103,6 @@ class Log
 		return @log['TERM'].to_s
 	end
 
-	def tags
-		words = []
-
-		title.split(" ").each do |word|
-			words.push(word.downcase)
-		end
-		topic.split(" ").each do |word|
-			words.push(word.downcase)
-		end
-		task.split(" ").each do |word|
-			words.push(word.downcase)
-		end
-		full.gsub("{{"," ").gsub("}}"," ").gsub("'"," ").split(" ").each do |word|
-			words.push(word.downcase)
-		end
-		tags = []
-		words.each do |word|
-			if !$lexicon.find(word) then next end
-			if word.to_s == "" then next end
-			if tags.include?(word) then next end
-			tags.push(word)
-		end
-		return tags.uniq
-	end
-
 	def image
 		if File.exist?("content/diary/"+photo.to_s+".jpg") && photo > 0
 		  return "<img src='content/diary/"+photo.to_s+".jpg' class='photo'/>"
@@ -127,29 +110,12 @@ class Log
 		return ""
 	end
 
-	def storage
-		return @log['FLAG'].to_s
-	end
-
 	def isFeatured
-		if @log['FLAG'].to_s.downcase.include?('featured')
-			return true
-		end
-		return nil
+		return rune == "!" ? true : nil
 	end
 
 	def isDiary
-		if @log['photo'].to_i > 0
-			return true
-		end
-		return false
-	end
-
-	# Templates
-
-	def icon
-		return ""
-		return "<svg><line x1='0' y1='9.5' x2='19' y2='9.5' style='stroke:#fff;stroke-width:2'></line></svg>"
+		return photo > 0 ? true : nil
 	end
 
 	def template
