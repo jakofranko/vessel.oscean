@@ -57,19 +57,19 @@ class Log
 	end
 
 	def code
-		return @log['CODE']
+		return @log['CODE'].to_s != "" ? @log['CODE'] : nil
 	end
 
 	def rune
-		return code[0,1]
+		return code ? code[0,1] : nil
 	end
 
 	def verb
-		return code[2,1].to_i
+		return code ? code[2,1].to_i : 0
 	end
 
 	def value
-		return code[3,1].to_i
+		return code ? code[3,1].to_i : 0
 	end
 
 	def sector
