@@ -22,16 +22,16 @@ class Oscean
 
 	end
 
-	def application query
+	def application query = "Home"
 
-		@query = query.gsub("+"," ").split(":").first
+		@query = query != "" ? query.gsub("+"," ").split(":").first : "Home"
 		@module = query.include?(":") ? query.gsub("+"," ").split(":").last : ""
 
 		@data = {
 		  "topic"   => @query,
 		  "module"  => @module,
 		  "lexicon" => $jiin.command("grid lexicon"),
-		  "horaire" => $jiin.command("grid horaire")
+		  "horaire" => $jiin.command("flat horaire")
 		}
 
 		@page   = Page.new(@data)
