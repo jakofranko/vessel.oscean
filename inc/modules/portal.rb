@@ -79,7 +79,7 @@ class Page
 	def photoForTerm term
 
 		@horaire.all.each do |date,log|
-			if log.topic != term then next end
+			if !log.topic.like(term) then next end
 			if log.photo < 1 then next end
 			return log.photo
 		end
