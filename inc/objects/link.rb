@@ -22,6 +22,8 @@ class Link
 			return "Patreon"
 		when "BAND"
 			return "Bandcamp"
+		when "DRIV"
+			return "Download"
 		else
 			return @name
 		end
@@ -39,6 +41,7 @@ class Link
 	  if @url.include? "twitter" then return "Twitter" end
 	  if @url.include? "patreon" then return "Patreon" end
 	  if @url.include? "youtu" then return "Youtube" end
+	  if @url.include? "drive.google" then return "Google Drive" end
 	    
 	  return "External"
 
@@ -48,7 +51,7 @@ class Link
 		
 		return "
 		<a href='#{@url}' target='_blank'>
-		<icon style='background-image:url(/img/interface/icon.#{domain.downcase}.png)'></icon>
+		<icon style='background-image:url(/img/interface/icon.#{domain.split(" ").first.downcase}.png)'></icon>
 		<span>#{name}<br />
 		<small>#{domain.capitalize}</small></span>
 		</a>"

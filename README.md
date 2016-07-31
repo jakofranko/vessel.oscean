@@ -6,7 +6,7 @@ Pull requests are encouraged, make sure to leave a comment with your intent.
 
 ##Documentation
 
-Generated with [Jiin](https://github.com/XXIIVV/Jiin), on **21 July 2016**, view the [project documentation](http://wiki.xxiivv.com/OSCEAN).
+Generated with [Jiin](https://github.com/XXIIVV/Jiin), on **30 July 2016**, view the [project documentation](http://wiki.xxiivv.com/OSCEAN).
 
 ##License
 
