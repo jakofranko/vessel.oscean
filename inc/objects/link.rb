@@ -23,7 +23,7 @@ class Link
 		when "BAND"
 			return "Bandcamp"
 		when "DRIV"
-			return "Google Drive"
+			return "Download File"
 		else
 			return @name
 		end
