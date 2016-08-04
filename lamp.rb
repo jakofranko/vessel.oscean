@@ -31,7 +31,7 @@ class Oscean
 		  "topic"   => @query,
 		  "module"  => @module,
 		  "lexicon" => $jiin.command("grid lexicon"),
-		  "horaire" => $jiin.command("flat horaire")
+		  "horaire" => $jiin.command("flat horaire").to_a
 		}
 
 		@page   = Page.new(@data)
