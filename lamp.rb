@@ -5,14 +5,9 @@ require 'date'
 
 $timeStart = Time.new
 
-require_relative "inc/objects/horaire.rb"
-require_relative "inc/objects/log.rb"
-require_relative "inc/objects/lexicon.rb"
-require_relative "inc/objects/term.rb"
-require_relative "inc/objects/link.rb"
-require_relative "inc/objects/page.rb"
-require_relative "inc/objects/layout.rb"
-require_relative "inc/objects/graph.rb"
+Dir["#{$jiin_path}/disk/http.oscean/inc/objects/*"].each do |file_name|
+	load(file_name)
+end
 
 class Oscean
 
