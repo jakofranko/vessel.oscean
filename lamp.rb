@@ -25,7 +25,7 @@ class Oscean
 		@data = {
 		  "topic"   => @query,
 		  "module"  => @module,
-		  "lexicon" => $jiin.command("grid lexicon"),
+		  "lexicon" => $jiin.command("grid lexicon").to_h,
 		  "horaire" => $jiin.command("flat horaire").to_a
 		}
 
