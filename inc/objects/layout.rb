@@ -34,7 +34,11 @@ class Layout
   def layoutHeaderPhoto
   
     if !@page.diary then return "" end
-    return "<content id='photo' class='photo' style='background-image:url(/content/diary/#{@page.diary.photo}.jpg)'></content>"
+    if File.exist?("/var/www/client.oscean/content/diary/#{@page.diary.photo}.mp4")
+      return "<video autoplay loop><source src='/content/diary/#{@page.diary.photo}.mp4' type='video/mp4'>Your browser does not support the video tag.</video>"
+    elsif File.exist?("/var/www/client.oscean/content/diary/#{@page.diary.photo}.jpg")
+      return "<content id='photo' class='photo' style='background-image:url(/content/diary/#{@page.diary.photo}.jpg)'></content>"
+    end
 
   end
 
@@ -55,7 +59,7 @@ class Layout
   def layoutHeaderSource
 
     if !@page.diary then return "" end
-    return "<content class='source'><img src='img/vectors/feature.svg' class='icon'/> \"<a href='/#{@page.diary.topic}:diary'>#{@page.diary.title}</a>\" #{@page.diary.offset}.</content>"
+    return "<content class='source'><img src='img/vectors/source.svg' class='icon'/> \"<a href='/#{@page.diary.topic}:diary#fullscreen'>#{@page.diary.title}</a>\" #{@page.diary.offset}.</content>"
 
   end
 
