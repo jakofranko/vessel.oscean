@@ -102,7 +102,7 @@ class Page
 
 	def view
 
-		return macros("#{@term.bref}#{@term.long}")
+		return macros("#{@term.bref.to_s}#{@term.long.to_s}")
 
 	end
 
