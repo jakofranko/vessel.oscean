@@ -133,10 +133,19 @@ class Log
 
 	def diary_template
 
+		graphic = nil
+
+		if File.exist?("/var/www/client.oscean/content/diary/#{photo}.mp4")
+		  graphic = "<a href='/#{topic}' class='photo'><video autoplay loop><source src='/content/diary/#{photo}.mp4' type='video/mp4'>Your browser does not support the video tag.</video></a>"
+		elsif File.exist?("/var/www/client.oscean/content/diary/#{photo}.jpg")
+		  graphic = "<a href='/#{topic}' class='photo'><img src='content/diary/#{photo}.jpg'/></a>"
+		end
+
 		return "
 		<content class='diary'>
-			"+(photo > 0 && photo != $photo ? "<a href='/#{topic}'><img src='content/diary/#{photo}.jpg'/></a><small>#{date.default}</small>" : "")+"
-			<div class='full'>#{full}</div>
+			"+(graphic != nil ? graphic : "")+"
+			<small><b>#{title}</b>#{date.default}</small>
+			"+(full != "" ? "<div class='full'>#{full}</div>" : "")+"
 		</content>"
 
 	end
