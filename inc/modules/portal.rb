@@ -65,7 +65,11 @@ class Page
 		@lexicon.all.each do |name,term|
 	    	if !term.unde.like(@term.name) then next end
 	    	if term.name.like(@term.name) then next end
+
 	    	photoTest = photoForTerm(term.name)
+
+	    	if !term.bref && !photoTest then next end
+
 	    	html += "<content>
 		      "+(photoTest ? "<a href='/#{term.name}'><img src='content/diary/#{photoTest}.jpg'/></a>" : "<h2><a href='/#{term.name}'>#{term.name}</a></h2>")+"
 		      <div class='full'>#{term.bref}</div>
