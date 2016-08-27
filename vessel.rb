@@ -11,7 +11,7 @@ Dir["#{$vessel_path}/inc/objects/*"].each do |file_name|
 	load(file_name)
 end
 
-class Oscean
+class Oscea
 
 	def http q = "Home"
 
