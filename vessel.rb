@@ -1,32 +1,28 @@
 #!/bin/env ruby
 # encoding: utf-8
 
+$vessel_path = File.expand_path(File.join(File.dirname(__FILE__), "/"))
+
 require 'date'
 
 $timeStart = Time.new
 
-Dir["#{$jiin_path}/disk/http.oscean/inc/objects/*"].each do |file_name|
+Dir["#{$vessel_path}/inc/objects/*"].each do |file_name|
 	load(file_name)
 end
 
 class Oscean
 
-	include Lamp
+	def http q = "Home"
 
-	def initialize query
-
-	end
-
-	def application query = "Home"
-
-		@query = query != "" ? query.gsub("+"," ").split(":").first : "Home"
-		@module = query.include?(":") ? query.gsub("+"," ").split(":").last : ""
+		@query = q != "" ? q.gsub("+"," ").split(":").first : "Home"
+		@module = q.include?(":") ? q.gsub("+"," ").split(":").last : ""
 
 		@data = {
 		  "topic"   => @query,
 		  "module"  => @module,
-		  "lexicon" => $jiin.command("grid lexicon").to_h,
-		  "horaire" => $jiin.command("flat horaire").to_a
+		  "lexicon" => En.new("lexicon").to_h,
+		  "horaire" => Di.new("horaire").to_a
 		}
 
 		@page   = Page.new(@data)
@@ -61,7 +57,6 @@ class Oscean
 		<body>"+@layout.view+"</body>
 		</html>
 		"
-
 	end
 
 end

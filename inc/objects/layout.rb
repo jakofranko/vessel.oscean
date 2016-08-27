@@ -33,12 +33,12 @@ class Layout
 
   def layoutHeaderPhoto
   
-    if !@page.diary then return "" end
     if File.exist?("/var/www/client.oscean/content/diary/#{@page.diary.photo}.mp4")
       return "<video autoplay loop><source src='/content/diary/#{@page.diary.photo}.mp4' type='video/mp4'>Your browser does not support the video tag.</video>"
     elsif File.exist?("/var/www/client.oscean/content/diary/#{@page.diary.photo}.jpg")
       return "<content id='photo' class='photo' style='background-image:url(/content/diary/#{@page.diary.photo}.jpg)'></content>"
     end
+    return ""
 
   end
 
