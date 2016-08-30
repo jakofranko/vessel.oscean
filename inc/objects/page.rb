@@ -197,10 +197,10 @@ class Page
 	def loadModules
 
 		if !@term then require_relative("../pages/missing.rb") ; return end
-		if File.exist?("/xxiivv/Jiin/disk/http.oscean/inc/pages/#{@query.downcase}.rb") then require_relative("../pages/#{@query.downcase}.rb") end
-		if File.exist?("/xxiivv/Jiin/disk/http.oscean/inc/modules/#{@query.downcase}.rb") then require_relative("../modules/#{@query.downcase}.rb") end
-		if @term.type && File.exist?("/xxiivv/Jiin/disk/http.oscean/inc/modules/#{@term.type.downcase}.rb") then require_relative("../modules/#{@term.type.downcase}.rb") end
-		if @module && File.exist?("/xxiivv/Jiin/disk/http.oscean/inc/modules/#{@module.downcase}.rb") then require_relative("../modules/#{@module.downcase}.rb") end
+		if File.exist?("#{$nataniev_path}/instances/instance.oscea/inc/pages/#{@query.downcase}.rb") then require_relative("../pages/#{@query.downcase}.rb") end
+		if File.exist?("#{$nataniev_path}/instances/instance.oscea/inc/modules/#{@query.downcase}.rb") then require_relative("../modules/#{@query.downcase}.rb") end
+		if @term.type && File.exist?("#{$nataniev_path}/instances/instance.oscea/inc/modules/#{@term.type.downcase}.rb") then require_relative("../modules/#{@term.type.downcase}.rb") end
+		if @module && File.exist?("#{$nataniev_path}/instances/instance.oscea/inc/modules/#{@module.downcase}.rb") then require_relative("../modules/#{@module.downcase}.rb") end
 
 	end
 
