@@ -3,8 +3,6 @@
 
 $vessel_path = File.expand_path(File.join(File.dirname(__FILE__), "/"))
 
-require 'date'
-
 $timeStart = Time.new
 
 Dir["#{$vessel_path}/inc/objects/*"].each do |file_name|
@@ -61,6 +59,7 @@ class Oscea
       <body>"+@layout.view+"</body>
       </html>
       "
+
     end
 
   end
