@@ -142,7 +142,7 @@ class Layout
     <content class='footer'>
     	<content>
         <dl class='icons'>
-          <a href='/Oscean' class='icon'><img src='/img/interface/icon.oscean.png'/></a>
+          <a href='/Nataniev' class='icon'><img src='/img/interface/icon.oscean.png'/></a>
           <a href='https://github.com/neauoire' class='icon' target='_blank'><img src='img/interface/icon.github.png'/></a>
           <a href='https://twitter.com/neauoire' class='icon' target='_blank'><img src='img/interface/icon.twitter.png'/></a>
         </dl>
