@@ -21,7 +21,7 @@ class Lexicon
 
 	def term target
 		if @db_lexicon[target.upcase] then return @db_lexicon[target.upcase] end
-		return nil
+		return Term.new
 	end
 
 	def definition term

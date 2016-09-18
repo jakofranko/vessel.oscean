@@ -2,10 +2,10 @@
 
 class Term
 
-  def initialize(name = "MISSING", content = {})
+  def initialize(name = "Unknown", content = {})
 
   	@NAME = "#{name}"
-  	@UNDE = content["UNDE"].to_s
+  	@UNDE = content["UNDE"] ? content["UNDE"] : "Home"
   	@TYPE = content["TYPE"]
   	@LINK = content["LINK"]
   	@BREF = content["BREF"]

@@ -42,8 +42,8 @@ class Page
       if log.topic.downcase == @query then searchResult[log.topic] += 5 end
       if log.topic.downcase.include?(@query.downcase) then searchResult[log.topic.downcase] += 1 end
 
-      if log.title.downcase.include?(@query.downcase) then searchResult[log.topic.downcase] += 1 end
-      if log.title.downcase.include?(@query.downcase) then searchResult[log.topic.downcase] += 1 end
+      if log.name.downcase.include?(@query.downcase) then searchResult[log.topic.downcase] += 1 end
+      if log.name.downcase.include?(@query.downcase) then searchResult[log.topic.downcase] += 1 end
 
       if log.photo.to_i > 0 && log.photo.to_i == @query.to_i then searchResult[log.topic.downcase] = 100 end
     end
