@@ -60,7 +60,7 @@ class Layout
   def layoutHeaderSource
 
     if !@page.diary then return "" end
-    return "<content class='source'><img src='img/vectors/source.svg' class='icon'/> \"<a href='/#{@page.diary.topic}:diary#fullscreen'>#{@page.diary.title}</a>\" #{@page.diary.offset}.</content>"
+    return "<content class='source'><img src='img/vectors/source.svg' class='icon'/> \"<a href='/#{@page.diary.topic}:diary#fullscreen'>#{@page.diary.name}</a>\" #{@page.diary.offset}.</content>"
 
   end
 

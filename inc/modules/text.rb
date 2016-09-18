@@ -4,17 +4,12 @@ class Page
 
 	def body
 
-		html = "#{@term.bref}#{@term.long}"
+		html = "<p>#{@term.bref}</p>#{@term.long}"
 		
 	    @lexicon.all.each do |name,term|
 	    	if !term.unde.like(@term.name) then next end
 	    	if term.name.like(@term.name) then next end
-	    	html += "
-		    <content>
-		      <h2><a href='/#{term.name}'>#{term.name}</a></h2>
-		      <div class='full'>#{term.bref}</div>
-		      #{term.long}
-		    </content>"
+	    	html += term.template
 	    end
 	    return macros(html)
 

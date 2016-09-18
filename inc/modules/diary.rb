@@ -4,7 +4,7 @@ class Page
 
 	def body
 
-		html = "#{@term.bref}#{@term.long}"
+		html = "<p>#{@term.bref}</p>#{@term.long}"
 		
 		if @term.name.like("diary")
 			return diaryList
@@ -20,7 +20,7 @@ class Page
 
 		html = ""
 		@diaries[0,10].each do |log|
-			html += log.diary_template
+			html += log.template
 		end
 		return html
 
@@ -36,7 +36,7 @@ class Page
 	    @horaire.diaries.each do |log|
 	    	from = page*perPage
 	    	to = from+perPage
-	    	if i >= from && i < to then html += log.diary_template end
+	    	if i >= from && i < to then html += log.template end
 	    	i += 1
 	    end
 

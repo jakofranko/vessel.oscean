@@ -11,7 +11,7 @@ class Term
   	@BREF = content["BREF"]
     @LONG = content["LONG"]
 
-    @LOGS = []
+    @LOGS = nil
 
   end
 
@@ -44,7 +44,7 @@ class Term
     
     if !@BREF then return end
       
-    return "<p>#{@BREF}</p>"
+    return @BREF
 
   end
 
@@ -53,6 +53,36 @@ class Term
     if !@LONG then return end
 
     return @LONG.runes
+
+  end
+
+  def logs
+
+    @LOGS = !@LOGS ? $horaire.logsWithTopic(name) : @LOGS
+
+    return @LOGS
+
+  end
+
+  def template
+
+    diary = $horaire.featuredDiaryWithTopic(name)
+
+    if logs.length == 0
+      logs_text = "No entries"
+    elsif logs.length == 1
+      logs_text = "#{logs.length} Logs, #{logs.last.date.default}"
+    else
+      logs_text = "#{logs.length} Log, #{logs.last.date.default}"
+    end
+
+    return "
+    <content class='template term'>
+      #{diary ? diary.image : ""}
+      <h2><a href='/#{name}'>#{name}</a></h2>
+      <h3>#{logs_text}</h3>
+      <p>#{bref}</p>
+    </content>"
 
   end
 

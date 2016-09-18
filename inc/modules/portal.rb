@@ -14,7 +14,7 @@ class Page
 
 	def body_land
 
-		html = "#{macros(@term.bref)}"
+		html = "<p>#{macros(@term.bref)}</p>"
 
 		used = []
 
@@ -60,7 +60,7 @@ class Page
 
 	def body_module
 
-		html = "#{@term.bref}#{@term.long}"
+		html = "<p>#{@term.bref}</p>#{@term.long}"
 
 		@lexicon.all.each do |name,term|
 	    	if !term.unde.like(@term.name) then next end
@@ -70,10 +70,8 @@ class Page
 
 	    	if !term.bref && !photoTest then next end
 
-	    	html += "<content>
-		      "+(photoTest ? "<a href='/#{term.name}'><img src='content/diary/#{photoTest}.jpg'/></a>" : "<h2><a href='/#{term.name}'>#{term.name}</a></h2>")+"
-		      <div class='full'>#{term.bref}</div>
-		    </content>"
+	    	html += term.template
+
 	    end
 
 	    return macros(html)

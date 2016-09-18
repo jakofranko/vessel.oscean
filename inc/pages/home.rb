@@ -4,7 +4,7 @@ class Page
 
   def body
 
-    html = "#{@term.bref}#{@term.long}"
+    html = "<p>#{@term.bref}</p>#{@term.long}"
 
     html += thisMonth
     html += recentEdits
@@ -46,7 +46,7 @@ class Page
       if log.topic == "" then next end
       if count >= 5 then break end
       if topicHistory[log.topic] then next end
-      html_list += log.template
+      html_list += log.preview
       count += 1
       topicHistory[log.topic] = 1
     end
@@ -68,7 +68,7 @@ class Page
       if log.task != "Update" then next end
       if count >= 5 then break end
       if topicHistory[log.topic] then next end
-      html_list += log.template
+      html_list += log.preview
       count += 1
       topicHistory[log.topic] = 1
     end

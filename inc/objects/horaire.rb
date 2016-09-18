@@ -2,100 +2,105 @@
 
 class Horaire
 
-	def initialize(db_horaire)
-		
-		@db_horaire = {}
-		db_horaire.each do |log|
-			date = log["DATE"]
-			@db_horaire[date] = Log.new(date,log)
-		end
+  def initialize(db_horaire)
+    
+    @db_horaire = {}
+    db_horaire.each do |log|
+      date = log["DATE"]
+      @db_horaire[date] = Log.new(date,log)
+    end
 
-	end
+  end
 
-	def logOnDate year,month,day
+  def logOnDate year,month,day
 
-		dateFormat = "#{year}-#{month.to_s.rjust(2, '0')}-#{day.to_s.rjust(2, '0')}"
+    dateFormat = "#{year}-#{month.to_s.rjust(2, '0')}-#{day.to_s.rjust(2, '0')}"
 
-		if @db_horaire[dateFormat] then return @db_horaire[dateFormat] end
-		return
+    if @db_horaire[dateFormat] then return @db_horaire[dateFormat] end
+    return
 
-	end
+  end
 
-	def all
-		return @db_horaire.sort.reverse
-	end
+  def all
+    return @db_horaire.sort.reverse
+  end
 
-	def length
-		return @db_horaire.length
-	end
+  def length
+    return @db_horaire.length
+  end
 
-	# Lookups
+  # Lookups
 
-	def logs term
+  def logs topic
 
-		if !term then return [] end
-		array = []
-		all.each do |date,log|
-			if log.topic.like(term.name) || term.name.like("home") then array.push(log) end
-		end
-		return array
+    array = []
+    all.each do |date,log|
+      if log.topic.like(topic) || topic.like("home") then array.push(log) end
+    end
+    return array
 
-	end
+  end
 
-	def diaries
+  def diaries
 
-		result = []
-		all.each do |date,log|
-			if log.photo < 1 then next end
-			result.push(log)
-		end
-		return result
+    result = []
+    all.each do |date,log|
+      if log.photo < 1 then next end
+      result.push(log)
+    end
+    return result
 
-	end
+  end
 
-	def photo
+  def photo
 
-		all.each do |date,log|
-			if log.photo < 1 then next end
-			if log.isFeatured == false then next end
-			return log.photo
-		end
+    all.each do |date,log|
+      if log.photo < 1 then next end
+      if log.isFeatured == false then next end
+      return log.photo
+    end
 
-	end
+  end
 
-	def hours
+  def hours
 
-		result = 0
-		all.each do |date,log|
-			result += log.value
-		end
-		return result
+    result = 0
+    all.each do |date,log|
+      result += log.value
+    end
+    return result
 
-	end
+  end
 
-	# Search
+  # Search
 
-	def diaryWithId target
+  def diaryWithId id
 
-		diaries.each do |log|
-			if log.photo != target.to_i then next end
-			return log
-		end
+    diaries.each do |log|
+      if log.photo != id.to_i then next end
+      return log
+    end
 
-		return nil
+    return nil
 
-	end
+  end
 
-	# Search
+  # Search
 
-	def featuredDiaryWithTopic target
+  def featuredDiaryWithTopic topic
 
-		diaries.each do |log|
-			if log.topic.downcase != target.downcase then next end
-			return log
-		end
-		return nil
+    diaries.each do |log|
+      if !log.topic.like(topic) then next end
+      return log
+    end
+    return nil
 
-	end
+  end
+
+  def logsWithTopic topic
+
+    return logs(topic)
+
+  end
 
 end

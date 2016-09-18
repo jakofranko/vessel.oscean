@@ -11,13 +11,16 @@ class Page
 	    @horaire = Horaire.new(data["horaire"])
 
 	    @term = @lexicon.term(@query)
-	    @logs = @horaire.logs(@term)
+	    @logs = @horaire.logs(@term.name)
 
 	    @sector = _sector
 	    @diaries = _diaries
 	    @diary = _diary
 	    @title = _title
 	    @portal = _portal
+
+	    $lexicon = @lexicon
+	    $horaire = @horaire
 
 	    loadModules
 
@@ -96,13 +99,7 @@ class Page
 
 	def body
 
-		return view
-
-	end
-
-	def view
-
-		return macros("#{@term.bref.to_s}#{@term.long.to_s}")
+		return macros("<p>#{@term.bref.to_s}</p>#{@term.long.to_s}")
 
 	end
 
