@@ -23,6 +23,8 @@ class Oscea
 
     def http q = "Home"
 
+      # Holy hell, what is this mess!?
+
       @query = q != "" ? q.gsub("+"," ").split(":").first : "Home"
       @module = q.include?(":") ? q.gsub("+"," ").split(":").last : ""
 
@@ -38,13 +40,24 @@ class Oscea
 
       $photo = @page.diary ? @page.diary.photo : nil
 
+      # Corpse
+      
       corpse = Corpse.new
+      
+      corpse.add_meta("description","Works of Devine Lu Linvega")
+      corpse.add_meta("keywords","aliceffekt, traumae, ikaruga, devine lu linvega")
+      corpse.add_meta("viewport","width=device-width, initial-scale=1, maximum-scale=1")
+      corpse.add_meta("apple-mobile-web-app-capable","yes")
+
       corpse.add_link("style.reset.css")
       corpse.add_link("style.main.css")
+
       corpse.add_script("jquery.core.js")
       corpse.add_script("jquery.main.js")
+
       corpse.set_title(@layout.title)
       corpse.set_body(@layout.view)
+
       return corpse.result
 
     end
