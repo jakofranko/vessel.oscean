@@ -11,17 +11,19 @@ end
 
 class Oscea
 
+  include Vessel
+  
   class Corpse
 
     include CorpseHttp
 
   end
 
-  class Actions
+  class PassiveActions
 
     include ActionCollection
 
-    def http q = "Home"
+    def answer q = "Home"
 
       # Holy hell, what is this mess!?
 
@@ -64,6 +66,6 @@ class Oscea
 
   end
   
-  def actions ; return Actions.new(self,self) end
+  def passive_actions ; return PassiveActions.new(self,self) end
 
 end
