@@ -20,6 +20,7 @@ class Page
 
 		html = macros("<p>#{@term.bref}</p>#{@term.long}")
 		@diaries[0,10].each do |log|
+			if log.photo == $photo then next end
 			html += log.template
 		end
 		return html
