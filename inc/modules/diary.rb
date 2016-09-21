@@ -18,7 +18,7 @@ class Page
 
 	def diaryTopic
 
-		html = ""
+		html = "<p>#{@term.bref}</p>#{@term.long}"
 		@diaries[0,10].each do |log|
 			html += log.template
 		end
