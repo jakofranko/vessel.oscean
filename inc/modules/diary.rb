@@ -4,7 +4,7 @@ class Page
 
 	def body
 
-		html = "<p>#{@term.bref}</p>#{@term.long}"
+		html = macros("<p>#{@term.bref}</p>#{@term.long}")
 		
 		if @term.name.like("diary")
 			return diaryList
@@ -18,7 +18,7 @@ class Page
 
 	def diaryTopic
 
-		html = "<p>#{@term.bref}</p>#{@term.long}"
+		html = macros("<p>#{@term.bref}</p>#{@term.long}")
 		@diaries[0,10].each do |log|
 			html += log.template
 		end
