@@ -103,15 +103,6 @@ class Log
     return @log['TERM'].to_s
   end
 
-  def image
-    if File.exist?("/var/www/client.oscean/content/diary/#{photo}.mp4")
-      return "<a href='/#{topic}' class='photo'><video autoplay loop><source src='/content/diary/#{photo}.mp4' type='video/mp4'>Your browser does not support the video tag.</video></a>"
-    elsif File.exist?("/var/www/client.oscean/content/diary/#{photo}.jpg")
-      return "<a href='/#{topic}' class='photo'><img src='content/diary/#{photo}.jpg'/></a>"
-    end
-    return "[[MISSING]]"
-  end
-
   def isFeatured
     return rune == "!" ? true : nil
   end
@@ -137,15 +128,21 @@ class Log
 
   end
 
+  def media
+
+    return Media.new("diary",photo)
+    
+  end
+
   def template
 
     return "
-    <content class='template diary'>
-      #{photo ? "<a href='/"+topic+"'>"+image+"</a>" : ""}
+    <yu class='di'>
+      #{photo ? "<a href='/"+topic+"'>"+media.to_html+"???</a>" : ""}
       <h2>#{name}</h2>
       <h3>#{date.default}</h3>
       <p>#{full}</p>
-    </content>"
+    </yu>"
 
   end
 
@@ -156,7 +153,7 @@ class Log
     html += "<span class='task'>#{task}</span>"
     html += "<a class='title' href='/#{topic}:diary'>#{name}</a>"
     html += "<span class='date'>#{offset}</span>"
-    return "<log>"+html+"</log>"
+    return "<yu>"+html+"</yu>"
 
   end
 

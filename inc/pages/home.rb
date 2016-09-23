@@ -11,7 +11,7 @@ class Page
     html += latestUpdates
     html += "<hr/>"
 
-  	return macros(html)
+  	return "<wr>"+macros(html)+"</wr>"
 
   end
 

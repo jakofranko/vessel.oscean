@@ -23,7 +23,7 @@ class Page
 			if log.photo == $photo then next end
 			html += log.template
 		end
-		return html
+		return "<wr>#{html}</wr>"
 
 	end
 
@@ -43,7 +43,7 @@ class Page
 
 	    html += "<p><a href='/Diary:#{(page+1)}' style='background: #ddd;padding: 15px;font-size: 12px;display: block;border-radius: 100px;text-align: center'>Page #{page+1}</a></p>"
 
-	  	return html
+	  	return "<wr>#{html}</wr>"
 
 	end
 

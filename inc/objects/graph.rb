@@ -108,7 +108,7 @@ class Graph
 		markers += "<span style='position:absolute; bottom:15px;left:190px; text-align:right'><line style='border-top:1px solid white'></line>Research</span>"
 		markers += "<span style='position:absolute; bottom:15px;right:30px; text-align:right'><a href='/Horaire'>#{@sumHours.to_i} hours</a></span>"
 
-		return "<content class='graph'><svg style='width:#{width}px; height:#{height}px; background:black'>"+html+"<svg>#{markers}</content>"
+		return "<vz><svg style='width:#{width}px; height:#{height}px; background:black'>"+html+"<svg>#{markers}</vz>"
 
 	end
 

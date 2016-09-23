@@ -78,7 +78,7 @@ class Term
 
     return "
     <content class='template term'>
-      #{diary ? diary.image : ""}
+      #{diary ? diary.media.to_html : ""}
       <h2><a href='/#{name}'>#{name}</a></h2>
       <h3>#{logs_text}</h3>
       <p>#{bref}</p>

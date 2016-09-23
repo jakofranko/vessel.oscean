@@ -4,6 +4,7 @@ class Page
 
 	def initialize query
 
+    query    = query.gsub("+"," ")
 		@query   = query
     @module  = query != @query ? query.last : nil
 

@@ -11,14 +11,12 @@ class Media
 
 	def to_html
 
-		if @id.to_i < 1 then return "" end
-
 		if File.exist?("/var/www/client.oscean/media/#{@cat}/#{@id}.mp4")
       return "<video class='media' autoplay loop><source src='/media/#{@cat}/#{@id}.mp4' type='video/mp4'>Your browser does not support the video tag.</video>"
     elsif File.exist?("/var/www/client.oscean/media/#{@cat}/#{@id}.jpg")
-      return "<content class='media' style='background-image:url(/media/#{@cat}/#{@id}.jpg)'></content>"
+      return "<media style='background-image:url(/media/#{@cat}/#{@id}.jpg)'></media>" 
     end
-    return ""
+    return "[missing]"
 
 	end
 
