@@ -17,9 +17,9 @@ class Oscea
 
     include CorpseHttp
 
-    def title
+    def title q = "Home"
 
-      return "XXIIVV ∴ "+@page.title
+      return "XXIIVV ∴ #{q}"
 
     end
 
@@ -33,15 +33,20 @@ class Oscea
     <content class='logo'><a href='/'><img src='img/vectors/logo.svg' class='logo'/></a></content>
     <div class='search'>
       <input placeholder='#{page.title}' id='query'/>
-      #{page.is_diary   && page.has_diaries ? "<a class='module' href='/Diary'><img src='img/vectors/diary.svg' class='icon'/>#{page.diaries.length} Diaries</a>" : ""}
-      #{page.is_horaire && page.has_logs    ? "<a class='module' href='/Horaire'><img src='img/vectors/log.svg' class='icon'/>#{page.logs.length} Logs</a>" : ""}
+      #{!page.is_diary   && page.has_diaries ? "<a class='module' href='/Diary'><img src='img/vectors/diary.svg' class='icon'/>#{page.diaries.length} Diaries</a>" : ""}
+      #{!page.is_horaire && page.has_logs    ? "<a class='module' href='/Horaire'><img src='img/vectors/log.svg' class='icon'/>#{page.logs.length} Logs</a>" : ""}
     </div>
-    <content class='source'><img src='img/vectors/source.svg' class='icon'/> \"<a href='/#{page.diary.topic}:diary#fullscreen'>#{page.diary.name}</a>\" #{page.diary.offset}.</content>
-    #{Media.new("diary",page.diary.photo).to_html} 
+    <content class='source'>
+      #{page.diary ? "<img src='img/vectors/source.svg' class='icon'/> \"<a href='/#{page.diary.topic}:diary#fullscreen'>#{page.diary.name}</a>\" #{page.diary.offset}." : ""}
+    </content>
+    #{page.diary ? Media.new("diary",page.diary.photo).to_html : ""} 
 </content>
 <content class='body'>
   #{page.body}
-</content>
+</content>"
+
+      return "
+
 <content class='footer'>
   <content>
     <dl class='icons'>
@@ -57,7 +62,6 @@ class Oscea
   </content>
   <hr />
 </content>"
-
     end
 
   end
@@ -79,9 +83,6 @@ class Oscea
 
       corpse.add_script("jquery.core.js")
       corpse.add_script("jquery.main.js")
-
-      corpse.set_title(@target.title)
-      corpse.set_body(@target.body)
 
       return corpse.result
 
