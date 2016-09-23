@@ -23,6 +23,18 @@ class Page
 
 	end
 
+  def lexicon
+
+    return @lexicon
+    
+  end
+
+  def horaire
+
+    return @lexicon
+    
+  end
+
 	def is_diary
 
 		if @module == "diary" then return true end
