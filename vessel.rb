@@ -17,51 +17,43 @@ class Oscea
 
     include CorpseHttp
 
-    def title q = "Home"
-
-      return "XXIIVV ∴ #{q}"
-
-    end
-
     def body q = "Home"
 
       page   = Page.new(q.include?(":") ? q.split(":") : q)
 
       return "
-<content class='header'>
-  <content class='title'>
-    <content class='logo'><a href='/'><img src='img/vectors/logo.svg' class='logo'/></a></content>
-    <div class='search'>
-      <input placeholder='#{page.title}' id='query'/>
-      #{!page.is_diary   && page.has_diaries ? "<a class='module' href='/Diary'><img src='img/vectors/diary.svg' class='icon'/>#{page.diaries.length} Diaries</a>" : ""}
-      #{!page.is_horaire && page.has_logs    ? "<a class='module' href='/Horaire'><img src='img/vectors/log.svg' class='icon'/>#{page.logs.length} Logs</a>" : ""}
-    </div>
-    <content class='source'>
-      #{page.diary ? "<img src='img/vectors/source.svg' class='icon'/> \"<a href='/#{page.diary.topic}:diary#fullscreen'>#{page.diary.name}</a>\" #{page.diary.offset}." : ""}
-    </content>
-    #{page.diary ? Media.new("diary",page.diary.photo).to_html : ""} 
-</content>
-<content class='body'>
-  #{page.body}
-</content>"
+<yu class='hd'>
+  <wr>
+    <a href='/' class='lg'><img src='img/vectors/logo.svg'/></a>
+    #{!page.is_diary   && page.has_diaries ? "<a class='md' href='/Diary'><img src='img/vectors/diary.svg'/>#{page.diaries.length} Diaries</a>" : ""}
+    #{!page.is_horaire && page.has_logs    ? "<a class='md' href='/Horaire'><img src='img/vectors/log.svg'/>#{page.logs.length} Logs</a>" : ""}
+    <input placeholder='#{page.term.name}' class='q'/>
+      #{page.diary ? "<a href='/#{page.diary.topic}:diary#fullscreen' class='md'><img src='img/vectors/source.svg' class='icon'/> \"#{page.diary.name}\" #{page.diary.offset}</a>" : ""}
+  </wr>
+  #{page.diary ? Media.new("diary",page.diary.photo).to_html : ""} 
+</yu>
+<yu class='cr'>
+
+</yu>
+<yu class='ft'>
+  <yu>
+    <ln><a href='/Nataniev'><img src='/img/interface/icon.oscean.png'/></a></ln>
+    <ln><a href='https://github.com/neauoire' target='_blank'><img src='img/interface/icon.github.png'/></a></ln>
+    <ln><a href='https://twitter.com/neauoire' target='_blank'><img src='img/interface/icon.twitter.png'/></a></ln>
+  </yu>
+  <yu>
+    <ln><a href='/Devine+Lu+Linvega'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year} <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank' style='color:#aaa'>BY-NC-SA 4.0</a></ln>
+    <ln>Currently indexing #{page.lexicon.all.length} projects, built over #{page.horaire.length} days.</ln>
+    <ln><a href='/Diary'>Diary</a> &bull; <a href='/Horaire'>Horaire</a> &bull; <a href='/Desamber' class='date'>"+Desamber.new().default+"</a><br /><a href='Clock'>"+Clock.new().default+"</a> "+((Time.new - $timeStart) * 1000).to_i.to_s+"ms</ln>
+  </yu>
+  <hr />
+</yu>"
 
       return "
-
-<content class='footer'>
-  <content>
-    <dl class='icons'>
-      <a href='/Nataniev' class='icon'><img src='/img/interface/icon.oscean.png'/></a>
-      <a href='https://github.com/neauoire' class='icon' target='_blank'><img src='img/interface/icon.github.png'/></a>
-      <a href='https://twitter.com/neauoire' class='icon' target='_blank'><img src='img/interface/icon.twitter.png'/></a>
-    </dl>
-    <dl class='main'>
-      <dd><a href='/Devine+Lu+Linvega'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year} <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank' style='color:#aaa'>BY-NC-SA 4.0</a></dd>
-      <dd>Currently indexing #{page.lexicon.all.length} projects, built over #{page.horaire.length} days.</dd>
-      <dd class='small'><a href='/Diary'>Diary</a> &bull; <a href='/Horaire'>Horaire</a> &bull; <a href='/Desamber' class='date'>"+Desamber.new().default+"</a><br /><a href='Clock'>"+Clock.new().default+"</a> "+((Time.new - $timeStart) * 1000).to_i.to_s+"ms</dd>
-    </dl>
-  </content>
-  <hr />
-</content>"
+<content class='body'>
+  #{page.body}
+</content>
+"
     end
 
   end
@@ -83,6 +75,8 @@ class Oscea
 
       corpse.add_script("jquery.core.js")
       corpse.add_script("jquery.main.js")
+
+      corpse.set_title("XXIIVV ∴ #{q}")
 
       return corpse.result
 
