@@ -5,24 +5,24 @@ class Page
 	def initialize data
 
 		@query   = data["topic"].upcase
-	    @module  = data["module"].upcase
+    @module  = data["module"].upcase
 
-	    @lexicon = Lexicon.new(data["lexicon"])
-	    @horaire = Horaire.new(data["horaire"])
+    @lexicon = Lexicon.new(data["lexicon"])
+    @horaire = Horaire.new(data["horaire"])
 
-	    @term = @lexicon.term(@query)
-	    @logs = @horaire.logs(@term.name)
+    @term = @lexicon.term(@query)
+    @logs = @horaire.logs(@term.name)
 
-	    @sector = _sector
-	    @diaries = _diaries
-	    @diary = _diary
-	    @title = _title
-	    @portal = _portal
+    @sector = _sector
+    @diaries = _diaries
+    @diary = _diary
+    @title = _title
+    @portal = _portal
 
-	    $lexicon = @lexicon
-	    $horaire = @horaire
+    $lexicon = @lexicon
+    $horaire = @horaire
 
-	    loadModules
+    loadModules
 
 	end
 
