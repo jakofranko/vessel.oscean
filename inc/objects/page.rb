@@ -84,11 +84,12 @@ class Page
 		if @diary then return @diary end
     if diaries.length < 1 then return nil end
 
-		@diary = diaries.last
+		@diary = diaries.first
 
 		diaries.each do |log|
 			if log.isFeatured
 				@diary = log
+        break
 			end
 		end
 		
