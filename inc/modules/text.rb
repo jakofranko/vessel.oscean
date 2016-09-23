@@ -11,7 +11,7 @@ class Page
 	    	if term.name.like(@term.name) then next end
 	    	html += term.template
 	    end
-	    return macros(html)
+	    return "<wr>#{macros(html)}</wr>"
 
 	end
 

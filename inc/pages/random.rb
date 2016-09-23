@@ -4,7 +4,7 @@ class Page
 
   def body
 
-  	html = "<p>Choosing a random page.</p>"
+  	html = "<wr><p>Choosing a random page.</p></wr>"
     
     destination = @lexicon.all.sample
 

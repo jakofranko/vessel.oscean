@@ -25,7 +25,7 @@ class Oscea
 
     def answer q = "Home"
 
-      @page   = Page.new(q.include?(":") ? q.split(":") : q)
+      page   = Page.new(q.include?(":") ? q.split(":") : q)
 
       corpse = Corpse.new(q)
       corpse.add_meta("description","Works of Devine Lu Linvega")
@@ -39,10 +39,10 @@ class Oscea
       corpse.add_script("jquery.core.js")
       corpse.add_script("jquery.main.js")
 
-      corpse.set_view(@page.view)
+      corpse.set_view(page.view)
 
-      corpse.set_title("XXIIVV ∴ #{@page.title}")
-      corpse.set_style(@page.style)
+      corpse.set_title("XXIIVV ∴ #{page.title}")
+      corpse.set_style(page.style)
       
       return corpse.result
 

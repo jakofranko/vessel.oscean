@@ -138,7 +138,7 @@ class Log
 
     return "
     <yu class='di'>
-      #{photo ? "<a href='/"+topic+"'>"+media.to_html+"???</a>" : ""}
+      #{photo ? "<a href='/"+topic+"'>"+media.to_html+"</a>" : ""}
       <h2>#{name}</h2>
       <h3>#{date.default}</h3>
       <p>#{full}</p>
