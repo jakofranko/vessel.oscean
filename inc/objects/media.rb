@@ -16,7 +16,7 @@ class Media
     elsif File.exist?("/var/www/client.oscean/media/#{@cat}/#{@id}.jpg")
       return "<media style='background-image:url(/media/#{@cat}/#{@id}.jpg)'></media>" 
     end
-    return "[missing]"
+    return ""
 
 	end
 
