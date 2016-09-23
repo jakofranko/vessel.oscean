@@ -7,15 +7,14 @@ class Page
 
   def body
 
-    add_style("cell","display: inline-block;width: calc(1.9% - 2px);background: white;height: 6px;margin: 1px 0px 0px 1px;border-radius: 10px")
-    add_style("cell.black","background:black")
-    add_style("small.divider","display: block;font-family: 'dinbold';font-size: 11px;line-height: 30px;color: #000;")
+    add_style(".death yu","line-height:3px")
+    add_style(".death cell","display: inline-block;width: calc(1.9% - 2px);background: white;height: 6px;margin: 1px 0px 0px 1px;border-radius: 10px")
+    add_style(".death cell.black","background:black")
+    add_style(".death small.divider","display: block;font-family: 'dinbold';font-size: 11px;line-height: 30px;color: #000;")
 
   	daysAgo = (Time.new.to_i - Date.new(1986,03,22).to_time.to_i)/86400
-
-  	html = "<p>My life started #{daysAgo} days ago. <br />Every week, a cell goes dark.</p>"
     
-    html = "#{@term.bref}#{@term.long}"
+    html = ""
     
     time1 = Time.new
     year = 1
@@ -33,7 +32,7 @@ class Page
     	html += "<hr/>"
     	year += 1
     end
-    return "<wr style='line-height:3px'>"+html+"</wr>"
+    return "<wr class='death'><p>#{@term.bref}</p>#{@term.long}<yu>"+html+"</yu></wr>"
 
   end
 
