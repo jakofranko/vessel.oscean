@@ -68,6 +68,7 @@ class Graph
 		lineWidth = 660/28
 		segmentWidth = lineWidth/3
 		highestValue = findHighestValue
+		width += segmentWidth
 
 		lineAudio_html = ""
 		lineVisual_html = ""
@@ -77,17 +78,17 @@ class Graph
 		count = 0
 		@segments.reverse.each do |values|
 			value = height - ((values["audio"]/highestValue) * height)
-			lineAudio_html += "#{(count * lineWidth + (segmentWidth))},#{(value).to_i} "
-			lineAudio_html += "#{(count * lineWidth + (segmentWidth * 3))},#{(value).to_i} "
+			lineAudio_html += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(value).to_i} "
+			lineAudio_html += "#{(count * lineWidth + (segmentWidth * 3) - segmentWidth)},#{(value).to_i} "
 			value = height - (values["visual"]/highestValue * height)
-			lineVisual_html += "#{(count * lineWidth + (segmentWidth))},#{(value).to_i} "
-			lineVisual_html += "#{(count * lineWidth + (segmentWidth * 3))},#{(value).to_i} "
+			lineVisual_html += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(value).to_i} "
+			lineVisual_html += "#{(count * lineWidth + (segmentWidth * 3) - segmentWidth)},#{(value).to_i} "
 			value = height - (values["research"]/highestValue * height)
-			lineResearch_html += "#{(count * lineWidth + (segmentWidth))},#{(value).to_i} "
-			lineResearch_html += "#{(count * lineWidth + (segmentWidth * 3))},#{(value).to_i} "
+			lineResearch_html += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(value).to_i} "
+			lineResearch_html += "#{(count * lineWidth + (segmentWidth * 3) - segmentWidth)},#{(value).to_i} "
 			value = height - (((values["audio"] + values["visual"] + values["research"])/3)/highestValue * height)
-			lineAverage_html += "#{(count * lineWidth + (segmentWidth))},#{(value).to_i} "
-			lineAverage_html += "#{(count * lineWidth + (segmentWidth * 3))},#{(value).to_i} "
+			lineAverage_html += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(value).to_i} "
+			lineAverage_html += "#{(count * lineWidth + (segmentWidth * 3) - segmentWidth)},#{(value).to_i} "
 			count += 1
 		end
 
@@ -103,12 +104,12 @@ class Graph
 		markers += "<span style='position:absolute; top:15px;left:30px; color:grey'>#{@logs.last.offset}</span>"
 		markers += "<span style='position:absolute; top:15px;right:30px; text-align:right; color:grey'>#{@logs.first.offset}</span>"
 
-		markers += "<span style='position:absolute; bottom:15px;left:30px; text-align:right'><line style='border-top:1px solid #72dec2'></line>Audio</span>"
-		markers += "<span style='position:absolute; bottom:15px;left:110px; text-align:right'><line style='border-top:1px solid red'></line>Visual</span>"
-		markers += "<span style='position:absolute; bottom:15px;left:190px; text-align:right'><line style='border-top:1px solid white'></line>Research</span>"
-		markers += "<span style='position:absolute; bottom:15px;right:30px; text-align:right'><a href='/Horaire'>#{@sumHours.to_i} hours</a></span>"
+		markers += "<span style='position:absolute; bottom:15px;left:30px'><tt style='color:#72dec2; padding-right:5px'>— </tt> Audio</span>"
+		markers += "<span style='position:absolute; bottom:15px;left:110px'><tt style='color:red; padding-right:5px'>— </tt> Visual</span>"
+		markers += "<span style='position:absolute; bottom:15px;left:190px'><tt style='color:white; padding-right:5px'>— </tt> Research</span>"
+		markers += "<span style='position:absolute; bottom:15px;right:30px'><a href='/Horaire'>#{@sumHours.to_i} hours</a></span>"
 
-		return "<vz><svg style='width:#{width}px; height:#{height}px; background:black'>"+html+"<svg>#{markers}</vz>"
+		return "<vz><svg style='width:#{width}px; height:#{height}px; background:black; overflow: visible'>"+html+"<svg>#{markers}</vz>"
 
 	end
 

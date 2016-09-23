@@ -68,19 +68,10 @@ class Term
 
     diary = $horaire.featuredDiaryWithTopic(name)
 
-    if logs.length == 0
-      logs_text = "No entries"
-    elsif logs.length == 1
-      logs_text = "#{logs.length} Logs, #{logs.last.date.default}"
-    else
-      logs_text = "#{logs.length} Log, #{logs.last.date.default}"
-    end
-
     return "
     <content class='template term'>
       #{diary ? diary.media.to_html : ""}
       <h2><a href='/#{name}'>#{name}</a></h2>
-      <h3>#{logs_text}</h3>
       <p>#{bref}</p>
     </content>"
 

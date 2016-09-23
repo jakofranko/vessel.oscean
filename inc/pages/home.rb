@@ -6,12 +6,19 @@ class Page
 
     html = "<p>#{@term.bref}</p>#{@term.long}"
 
-    html += thisMonth
+    html += Graph.new(graphViewData).draw
     html += recentEdits
     html += latestUpdates
     html += "<hr/>"
 
-  	return "<wr>"+macros(html)+"</wr>"
+    add_style("wr.horaire yu","display: inline-block;width: 50%;min-width: 300px;margin-bottom: 30px")
+    add_style("wr.horaire yu ln","font-family: 'dinregular';font-size: 14px;line-height: 22px")
+    add_style("wr.horaire yu ln .tp","font-family:'dinbold'")
+    add_style("wr.horaire yu ln .tp:hover","text-decoration:underline")
+    add_style("wr.horaire yu ln .tl","text-decoration:underline")
+    add_style("wr.horaire yu ln .dt","color:#aaa")
+
+  	return "<wr class='horaire'>"+macros(html)+"</wr>"
 
   end
 
@@ -24,14 +31,6 @@ class Page
       graphData.push(log)
     end
     return graphData
-
-  end
-
-  def thisMonth
-
-    return Graph.new(graphViewData).draw+"
-    <p>This graph shows the time invested in audio, visual and research projects for the past 3 months. You can see the time logged into projects of the past 10 years by visiting the <a href='/Horaire'>Horaire</a> module.</p>
-    <p style='background:white; padding:15px; font-size:14px; border-radius:3px'>Currently sailing across the Ocean, as of <i>July 4th 2016</i>, and will be unable to consistently update the playground. You can learn more about the adventure on the <a href='http://100r.co'>Hundred Rabbits Site</a>.</p>"
 
   end
 
@@ -50,10 +49,7 @@ class Page
       count += 1
       topicHistory[log.topic] = 1
     end
-
-    html += html_list
-
-    return "<content style='margin-bottom:30px' class='half'>"+html+"</content>"
+    return "<yu>#{html_list}</yu>"
     
   end
 
@@ -72,10 +68,7 @@ class Page
       count += 1
       topicHistory[log.topic] = 1
     end
-    
-    html += html_list
-
-    return "<content style='margin-bottom:30px' class='half'>"+html+"</content>"
+    return "<yu>#{html_list}</yu>"
     
   end
 

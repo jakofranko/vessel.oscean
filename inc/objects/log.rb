@@ -148,12 +148,13 @@ class Log
 
   def preview
 
-    html = ""
-    html += "<a class='topic #{sector}' href='/#{topic}'>#{topic}</a>"
-    html += "<span class='task'>#{task}</span>"
-    html += "<a class='title' href='/#{topic}:diary'>#{name}</a>"
-    html += "<span class='date'>#{offset}</span>"
-    return "<yu>"+html+"</yu>"
+    return "
+    <ln>
+      <a class='tp #{sector}' href='/#{topic}'>#{topic}</a>
+      <t class='tk'>#{task}</t>
+      <a class='tl' href='/#{topic}:diary'>#{name}</a>
+      <t class='dt'>#{offset}</t>
+    </ln>"
 
   end
 

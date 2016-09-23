@@ -5,9 +5,9 @@ class Page
 	def body
 
 		if @query.like("portal")
-			return body_land
+			return "<wr>#{body_land}</wr>"
 		else
-			return body_module
+			return "<wr>#{body_module}</wr>"
 		end
 
 	end

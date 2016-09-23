@@ -5,13 +5,26 @@ class Page
   def body
 
     html = ""
-    html += styles
+    # html += styles
     @graphData = graphData
     if @graphData.length > 0 
       html += Graph.new(@graphData).draw
     end
     html += tasks
-    return "<content class='wrap'>#{macros(html)}</content>"
+
+    add_style("yu.cr","background:black")
+    add_style(".horaire .task","width:140px; color:white; display:inline-block; padding:15px;")
+    add_style(".horaire .task svg","width:140px; height:140px")
+    add_style(".horaire .task p","border-top: 1px solid #555;font-family: 'dinregular';font-size: 11px;line-height: 15px;margin-bottom: 0px;padding-top: 14px")
+    add_style(".horaire .task p b","font-family:'dinbold'; font-weight:normal; text-transform: uppercase;")
+    add_style(".horaire circle.audio","fill:#72dec2")
+    add_style(".horaire circle.visual","fill:red")
+    add_style(".horaire circle.research","fill:#ccc")
+    add_style(".horaire content.storage a","background:white")
+    add_style(".horaire vz","background:#111 !important")
+    add_style(".horaire vz svg","background:#111 !important")
+
+    return "<wr class='horaire'>#{macros(html)}</wr>"
 
   end
 
@@ -40,25 +53,6 @@ class Page
     end
 
     return hash
-
-  end
-
-  def styles
-
-    return "<style>
-  content.main {background:black}
-  content.header {background:black}
-  content.portal { display:none}
-  .task { width:140px; color:white; display:inline-block; padding:15px;}
-  .task svg { width:140px; height:140px}
-  .task p { border-top: 1px solid #555;font-family: 'dinregular';font-size: 11px;line-height: 15px;margin-bottom: 0px;padding-top: 14px}
-  .task p b { font-family:'dinbold'; font-weight:normal; text-transform: uppercase;}
-  circle.audio { fill:#72dec2}
-  circle.visual { fill:red}
-  circle.research { fill:#ccc}
-  content.storage a { background:white}
-    </style>"
-    return ""
 
   end
 
