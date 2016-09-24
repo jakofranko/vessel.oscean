@@ -110,7 +110,7 @@ class Page
 
 	end
 
-	# OLD
+	# HTML
 
 	def body
 
@@ -120,15 +120,20 @@ class Page
 
 	def links
 
-		if @links then return @links end
-		@links = term.link
-		return @links
+    if !term.link then return "" end
+
+    html = ""
+    term.link.each do |link|
+      html += Link.new(link.first,link.last).template
+    end
+
+		return "<wr>"+html+"</wr>"
 
 	end
 
-	def portal
+	def portal # TODO
 
-		return "None"
+		return ""
     # depth = 0
     # unde = @lexicon.unde(@term)
     
@@ -193,16 +198,18 @@ class Page
     #{!is_diary   && has_diaries ? "<a class='md' href='/Diary'><img src='img/vectors/diary.svg'/>#{diaries.length} Diaries</a>" : ""}
     #{!is_horaire && has_logs    ? "<a class='md' href='/Horaire'><img src='img/vectors/log.svg'/>#{logs.length} Logs</a>" : ""}
     <input placeholder='#{term.name}' class='q'/>
-    #{diary ? "<a href='/#{diary.topic}:diary#fullscreen' class='md li'>#{diary.name}<img src='img/vectors/source.svg'/></a>" : ""}
+    #{diary ? "<a href='/#{diary.photo}' class='md li'><img src='img/vectors/source.svg'/></a>" : ""}
   </wr>
   #{diary ? Media.new("diary",diary.photo).to_html : ""}
 </yu>
 <yu class='cr'>
   #{body}
+  #{links}
+  #{portal}
 </yu>
 <yu class='ft'>
   <wr>
-    <ln><a href='/Nataniev'><img src='/img/interface/icon.oscean.png'/></a><a href='https://github.com/neauoire' target='_blank'><img src='img/interface/icon.github.png'/></a><a href='https://twitter.com/neauoire' target='_blank'><img src='img/interface/icon.twitter.png'/></a></ln>
+    <ln><a href='/Nataniev'>#{Media.new("interface","icon.oscean").to_html}</a><a href='https://github.com/neauoire' target='_blank'>#{Media.new("interface","icon.github").to_html}</a><a href='https://twitter.com/neauoire' target='_blank'>#{Media.new("interface","icon.twitter").to_html}</a></ln>
     <ln><a href='/Devine+Lu+Linvega'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year} <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank' style='color:#aaa'>BY-NC-SA 4.0</a></ln>
     <ln>Currently indexing #{lexicon.all.length} projects, built over #{horaire.length} days.</ln>
     <ln><a href='/Diary'>Diary</a> &bull; <a href='/Horaire'>Horaire</a> &bull; <a href='/Desamber' class='date'>"+Desamber.new().default+"</a><br /><a href='Clock'>"+Clock.new().default+"</a> "+((Time.new - $timeStart) * 1000).to_i.to_s+"ms</ln>

@@ -49,12 +49,7 @@ class Link
 
 	def template
 		
-		return "
-		<a href='#{@url}' target='_blank'>
-		<icon style='background-image:url(/img/interface/icon.#{domain.split(" ").first.downcase}.png)'></icon>
-		<span>#{name}<br />
-		<small>#{domain.capitalize}</small></span>
-		</a>"
+		return "<a href='#{@url}' target='_blank' class='lk'>#{Media.new("interface","icon."+domain).to_html}<b>#{name}</b><i>#{domain.capitalize}</i></a>"
 
 	end
 
