@@ -11,7 +11,7 @@ class Page
     #{recentEdits}
     #{latestUpdates}"
 
-    add_style("wr.horaire yu","display: inline-block;width: 50%;min-width: 300px;margin-bottom: 30px")
+    add_style("wr.horaire yu","display: inline-block;width: 340px;min-width: 300px;margin-bottom: 30px")
     add_style("wr.horaire yu ln","font-family: 'dinregular';font-size: 14px;line-height: 22px")
     add_style("wr.horaire yu ln .tp","font-family:'dinbold'")
     add_style("wr.horaire yu ln .tp:hover","text-decoration:underline")
