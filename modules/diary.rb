@@ -8,12 +8,14 @@ class Page
 		html = "<p>#{@term.bref.to_s.markup}</p>#{@term.long.to_s.markup}"
 		
 		if @term.name.like("diary")
-			return diaryList
+			html = diaryList
 		elsif @diaries.count > 0
-			return diaryTopic
+			html = diaryTopic
 		else
-			return "<p>There are no diaries for #{@term.name}.</p>"
+			html = "<p>There are no diaries for #{@term.name}.</p>"
 		end
+
+		return "<wr>#{html}</wr>"
 
 	end
 
@@ -24,27 +26,27 @@ class Page
 			if log.photo == diary.photo then next end
 			html += log.template
 		end
-		return "<wr>#{html}</wr>"
+		return hmtl
 
 	end
 
 	def diaryList
 
 		html = ""
-	    page = @module.to_i
-	    perPage = 10
+    page = @module.to_i
+    perPage = 10
 
-	    i = 0
-	    $horaire.diaries.each do |log|
-	    	from = page*perPage
-	    	to = from+perPage
-	    	if i >= from && i < to then html += log.template end
-	    	i += 1
-	    end
+    i = 0
+    $horaire.diaries.each do |log|
+    	from = page*perPage
+    	to = from+perPage
+    	if i >= from && i < to then html += log.template end
+    	i += 1
+    end
 
-	    html += "<p><a href='/Diary:#{(page+1)}' style='background: #ddd;padding: 15px;font-size: 12px;display: block;border-radius: 100px;text-align: center'>Page #{page+1}</a></p>"
+    html += "<p><a href='/Diary:#{(page+1)}' style='background: #ddd;padding: 15px;font-size: 12px;display: block;border-radius: 100px;text-align: center'>Page #{page+1}</a></p>"
 
-	  	return "<wr>#{html}</wr>"
+  	return html
 
 	end
 

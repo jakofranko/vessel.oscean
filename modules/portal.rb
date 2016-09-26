@@ -6,16 +6,16 @@ class Page
 	def body
 
 		if @query.like("portal")
-			return "<wr>#{body_land}</wr>"
+			return "<wr>#{body_land.markup}</wr>"
 		else
-			return "<wr>#{body_module}</wr>"
+			return "<wr>#{body_module.markup}</wr>"
 		end
 
 	end
 
 	def body_land
 
-		html = "<p>#{@term.bref.markup}</p>"
+		html = "<p>#{@term.bref}</p>"
 
 		used = []
 

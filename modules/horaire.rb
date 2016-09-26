@@ -6,7 +6,7 @@ class Page
   def body
 
     html = ""
-    # html += styles
+    
     @graphData = graphData
     if @graphData.length > 0 
       html += Graph.new(@graphData).draw

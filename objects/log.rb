@@ -105,11 +105,15 @@ class Log
   end
 
   def isFeatured
+    
     return rune == "!" ? true : nil
+
   end
 
   def isDiary
+
     return photo > 0 ? true : nil
+
   end
 
   def media

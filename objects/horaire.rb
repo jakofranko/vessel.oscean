@@ -23,11 +23,15 @@ class Horaire
   end
 
   def all
+
     return @db_horaire.sort.reverse
+
   end
 
   def length
+
     return @db_horaire.length
+    
   end
 
   # Lookups
