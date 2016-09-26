@@ -3,12 +3,6 @@
 
 $vessel_path = File.expand_path(File.join(File.dirname(__FILE__), "/"))
 
-$timeStart = Time.new
-
-Dir["#{$vessel_path}/inc/objects/*"].each do |file_name|
-  load(file_name)
-end
-
 class Oscea
 
   include Vessel
@@ -25,7 +19,11 @@ class Oscea
 
     def answer q = "Home"
 
+      load_folder("#{$vessel_path}/objects/*")
+
       page   = Page.new(q.include?(":") ? q.split(":") : q)
+
+      # return "?"
 
       corpse = Corpse.new(q)
       corpse.add_meta("description","Works of Devine Lu Linvega")

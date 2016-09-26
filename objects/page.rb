@@ -1,3 +1,4 @@
+#!/bin/env ruby
 # encoding: utf-8
 
 class Page
@@ -114,7 +115,7 @@ class Page
 
 	def body
 
-		return "<wr>"+macros("<p>#{term.bref.to_s}</p>#{term.long.to_s}")+"</wr>"
+		return "<wr><p>#{term.bref.to_s.markup}</p>#{term.long.to_s.markup}</wr>"
 
 	end
 
@@ -146,41 +147,13 @@ class Page
 
 	end
 
-	def macros text
-		
-		if !text then return "" end
-			
-		search = text.scan(/(?:\{\{)([\w\W]*?)(?=\}\})/)
-    search.each do |str,details|
-        text = text.gsub("{{"+str+"}}",parser(str))
-    end
-    text = text.gsub("{_","<i>").gsub("_}","</i>")
-    text = text.gsub("{*","<b>").gsub("*}","</b>")
-    return text
-
-	end
-
-	def parser macro
-
-		if macro == "!clock" then return "<a href='/Clock'>#{Clock.new().default}</a>" end
-		if macro == "!desamber" then return "<a href='/Desamber'>#{Desamber.new().default}</a>" end
-			
-		if macro.like(@query) then return "<b>#{macro}</b>" end
-		if macro.include?("|")
-			if macro.split("|")[1].include?("http") then return "<a href='"+macro.split("|")[1]+"' class='external'>"+macro.split("|")[0]+"</a>"
-			else return @lexicon.find(macro.split("|")[1]) ? "<a href='"+macro.split("|")[1]+"'>"+macro.split("|")[0]+"</a>" : "<a class='dead' href='"+macro.split("|")[1]+"'>"+macro.split("|")[0]+"</a>" end
-		end
-    return @lexicon.find(macro) ? "<a href='"+macro.gsub(" ","+")+"'>#{macro}</a>" : "<a class='dead' href='"+macro.gsub(" ","+")+"'>#{macro}</a>"
-
-	end
-
 	def loadModules
 
 		if term.name.like("Unknown") then require_relative("../pages/missing.rb") ; return end
-		if File.exist?("#{$nataniev_path}/instances/instance.oscea/inc/pages/#{@query.downcase}.rb") then require_relative("../pages/#{@query.downcase}.rb") end
-		if File.exist?("#{$nataniev_path}/instances/instance.oscea/inc/modules/#{@query.downcase}.rb") then require_relative("../modules/#{@query.downcase}.rb") end
-		if @term.type && File.exist?("#{$nataniev_path}/instances/instance.oscea/inc/modules/#{@term.type.downcase}.rb") then require_relative("../modules/#{@term.type.downcase}.rb") end
-		if @module && File.exist?("#{$nataniev_path}/instances/instance.oscea/inc/modules/#{@module.downcase}.rb") then require_relative("../modules/#{@module.downcase}.rb") end
+		if File.exist?("#{$nataniev.path}/instances/instance.oscea/pages/#{@query.downcase}.rb") then require_relative("../pages/#{@query.downcase}.rb") end
+		if File.exist?("#{$nataniev.path}/instances/instance.oscea/modules/#{@query.downcase}.rb") then require_relative("../modules/#{@query.downcase}.rb") end
+		if @term.type && File.exist?("#{$nataniev.path}/instances/instance.oscea/modules/#{@term.type.downcase}.rb") then require_relative("../modules/#{@term.type.downcase}.rb") end
+		if @module && File.exist?("#{$nataniev.path}/instances/instance.oscea/modules/#{@module.downcase}.rb") then require_relative("../modules/#{@module.downcase}.rb") end
 
 	end
 
@@ -209,22 +182,9 @@ class Page
     <ln><a href='/Nataniev'>#{Media.new("interface","icon.oscean").to_html}</a><a href='https://github.com/neauoire' target='_blank'>#{Media.new("interface","icon.github").to_html}</a><a href='https://twitter.com/neauoire' target='_blank'>#{Media.new("interface","icon.twitter").to_html}</a></ln>
     <ln><a href='/Devine+Lu+Linvega'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year} <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank' style='color:#aaa'>BY-NC-SA 4.0</a></ln>
     <ln>Currently indexing #{lexicon.all.length} projects, built over #{horaire.length} days.</ln>
-    <ln><a href='/Diary'>Diary</a> &bull; <a href='/Horaire'>Horaire</a> &bull; <a href='/Desamber' class='date'>"+Desamber.new().default+"</a><br /><a href='Clock'>"+Clock.new().default+"</a> "+((Time.new - $timeStart) * 1000).to_i.to_s+"ms</ln>
+    <ln><a href='/Diary'>Diary</a> &bull; <a href='/Horaire'>Horaire</a> &bull; <a href='/Desamber' class='date'>"+Desamber.new().default+"</a><br /><a href='Clock'>"+Clock.new().default+"</a> "+((Time.new - $nataniev.time) * 1000).to_i.to_s+"ms</ln>
   </wr>
 </yu>"
-
-  end
-
-  def add_style k,v
-
-    styles.push([k,v])
-
-  end
-
-  def styles
-
-    @styles = !@styles ? [] : @styles
-    return @styles
 
   end
 
@@ -236,6 +196,19 @@ class Page
     end
 
     return css
+
+  end
+
+  def styles
+
+    @styles = !@styles ? [] : @styles
+    return @styles
+
+  end
+
+  def add_style k,v
+
+    styles.push([k,v])
 
   end
 

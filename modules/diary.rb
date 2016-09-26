@@ -1,24 +1,25 @@
+#!/bin/env ruby
 # encoding: utf-8
 
 class Page
 
 	def body
 
-		html = macros("<p>#{@term.bref}</p>#{@term.long}")
+		html = "<p>#{@term.bref.to_s.markup}</p>#{@term.long.to_s.markup}"
 		
 		if @term.name.like("diary")
 			return diaryList
 		elsif @diaries.count > 0
 			return diaryTopic
 		else
-			return "<p>There are no diaries for this #{@term.name}.</p>"
+			return "<p>There are no diaries for #{@term.name}.</p>"
 		end
 
 	end
 
 	def diaryTopic
 
-		html = macros("<p>#{@term.bref}</p>#{@term.long}")
+		html = "<p>#{@term.bref.to_s.markup}</p>#{@term.long.to_s.markup}"
 		@diaries[0,10].each do |log|
 			if log.photo == diary.photo then next end
 			html += log.template

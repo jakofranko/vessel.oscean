@@ -1,3 +1,4 @@
+#!/bin/env ruby
 # encoding: utf-8
 
 class Page
@@ -14,7 +15,7 @@ class Page
 
 	def body_land
 
-		html = "<p>#{macros(@term.bref)}</p>"
+		html = "<p>#{@term.bref.markup}</p>"
 
 		used = []
 
@@ -74,7 +75,7 @@ class Page
 
 	    end
 
-	    return macros(html)
+	    return html.markup
 
 	end
 

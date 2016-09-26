@@ -1,3 +1,4 @@
+#!/bin/env ruby
 # encoding: utf-8
 
 class Page
@@ -23,7 +24,7 @@ class Page
     add_style(".horaire content.storage a","background:white")
     add_style(".horaire","margin-bottom:30px")
 
-    return "<wr class='horaire'>#{macros(html)}</wr>"
+    return "<wr class='horaire'>#{html.markup}</wr>"
 
   end
 

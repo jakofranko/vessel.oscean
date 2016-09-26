@@ -1,3 +1,4 @@
+#!/bin/env ruby
 # encoding: utf-8
 
 class Page
@@ -11,7 +12,7 @@ class Page
 	    	if term.name.like(@term.name) then next end
 	    	html += term.template
 	    end
-	    return "<wr>#{macros(html)}</wr>"
+	    return "<wr>#{html.markup}</wr>"
 
 	end
 

@@ -1,3 +1,4 @@
+#!/bin/env ruby
 # encoding: utf-8
 
 class Page
@@ -18,7 +19,7 @@ class Page
     add_style("wr.horaire yu ln .tl","text-decoration:underline")
     add_style("wr.horaire yu ln .dt","color:#aaa")
 
-  	return "<wr class='horaire'>"+macros(html)+"</wr>"
+  	return "<wr class='horaire'>#{html.markup}</wr>"
 
   end
 

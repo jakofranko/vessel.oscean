@@ -1,3 +1,4 @@
+#!/bin/env ruby
 # encoding: utf-8
 
 class Page
@@ -10,12 +11,12 @@ class Page
 
     searchResult = search()
 
-    if searchResult.length == 0 then return macros("<wr><p>"+template+"</p></wr>") end
+    if searchResult.length == 0 then return ("<wr><p>"+template+"</p></wr>").markup end
     
-    if searchResult.length == 1 then return macros("<wr><p>"+template+"Did you mean {{"+searchResult[0].to_s+"}}?</p></wr>") end
-    if searchResult.length == 2 then return macros("<wr><p>"+template+"Did you mean {{"+searchResult[0].to_s+"}} or {{"+searchResult[1].to_s+"}}?</p></wr>") end
+    if searchResult.length == 1 then return ("<wr><p>"+template+"Did you mean {{"+searchResult[0].to_s+"}}?</p></wr>").markup end
+    if searchResult.length == 2 then return ("<wr><p>"+template+"Did you mean {{"+searchResult[0].to_s+"}} or {{"+searchResult[1].to_s+"}}?</p></wr>").markup end
 
-    return macros("<wr><p>"+template+"Did you mean {{"+searchResult[0].to_s+"}}, {{"+searchResult[1].to_s+"}} or {{"+searchResult[2].to_s+"}}?</p><p>If you believe that this page should exist, contact {{@neauoire|https://twitter.com/neauoire}}</p></wr>")
+    return ("<wr><p>"+template+"Did you mean {{"+searchResult[0].to_s+"}}, {{"+searchResult[1].to_s+"}} or {{"+searchResult[2].to_s+"}}?</p><p>If you believe that this page should exist, contact {{@neauoire|https://twitter.com/neauoire}}</p></wr>").markup
 
   end
 

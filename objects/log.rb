@@ -1,3 +1,4 @@
+#!/bin/env ruby
 # encoding: utf-8
 
 class Log
@@ -88,7 +89,7 @@ class Log
   end
 
   def full
-    return macros(@log['TEXT'].to_s.force_encoding("UTF-8"))
+    return @log['TEXT'].to_s.force_encoding("UTF-8").markup
   end
 
   def task
@@ -109,23 +110,6 @@ class Log
 
   def isDiary
     return photo > 0 ? true : nil
-  end
-
-  def macros text
-
-    search = text.scan(/(?:\{\{)([\w\W]*?)(?=\}\})/)
-        search.each do |str,details|
-            text = text.to_s.gsub("{{"+str+"}}",parser(str))
-        end
-        return text
-
-  end
-
-  def parser macro
-
-    if macro.include?("diary:") then return "<img src='content/diary/#{photo}.#{macro.split(":")[1]}.jpg'/>" end
-    return "{{#{macro}}}"
-
   end
 
   def media
