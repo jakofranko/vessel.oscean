@@ -21,8 +21,7 @@ class Page
     add_style(".horaire circle.visual","fill:red")
     add_style(".horaire circle.research","fill:#ccc")
     add_style(".horaire content.storage a","background:white")
-    add_style(".horaire vz","background:#111 !important")
-    add_style(".horaire vz svg","background:#111 !important")
+    add_style(".horaire","margin-bottom:30px")
 
     return "<wr class='horaire'>#{macros(html)}</wr>"
 

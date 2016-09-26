@@ -131,21 +131,18 @@ class Page
 
 	end
 
-	def portal # TODO
+	def portal
 
-		return ""
-    # depth = 0
-    # unde = @lexicon.unde(@term)
-    
-    # if unde == nil then return Term.new() end
+    depth = 0
+    t = term
 
-    # while @lexicon.unde(unde) && @lexicon.unde(unde).unde != unde.name
-    #   if depth > 5 then return unde end
-    #   if unde.type && unde.type.like("portal") then break end
-    #   unde = @lexicon.unde(unde)
-    #   depth += 1
-    # end
-    # return unde
+    while !t.parent.name.like(term.name) 
+      if depth > 5 then return "nataniev" end
+      if t.is_type("Portal") then t = t ; break end
+      t = t.parent
+      depth += 1
+    end
+    return t.name
 
 	end
 
@@ -195,8 +192,8 @@ class Page
 <yu class='hd'>
   <wr>
     <a href='/' class='lg'><img src='img/vectors/logo.svg'/></a>
-    #{!is_diary   && has_diaries ? "<a class='md' href='/Diary'><img src='img/vectors/diary.svg'/>#{diaries.length} Diaries</a>" : ""}
-    #{!is_horaire && has_logs    ? "<a class='md' href='/Horaire'><img src='img/vectors/log.svg'/>#{logs.length} Logs</a>" : ""}
+    #{!is_diary   && has_diaries ? "<a class='md' href='/#{term.name}:diary'><img src='img/vectors/diary.svg'/>#{diaries.length} Diaries</a>" : ""}
+    #{!is_horaire && has_logs    ? "<a class='md' href='/#{term.name}:horaire'><img src='img/vectors/log.svg'/>#{logs.length} Logs</a>" : ""}
     <input placeholder='#{term.name}' class='q'/>
     #{diary ? "<a href='/#{diary.photo}' class='md li'><img src='img/vectors/source.svg'/></a>" : ""}
   </wr>
@@ -205,10 +202,10 @@ class Page
 <yu class='cr'>
   #{body}
   #{links}
-  #{portal}
 </yu>
 <yu class='ft'>
   <wr>
+    <a href='/#{portal}'>#{ badge = Media.new("badge",term.name) ; badge.exists ? badge.to_html : badge = Media.new("badge",portal) ; badge.exists ? badge.to_html : badge = Media.new("badge","nataniev") ; badge.to_html }</a>
     <ln><a href='/Nataniev'>#{Media.new("interface","icon.oscean").to_html}</a><a href='https://github.com/neauoire' target='_blank'>#{Media.new("interface","icon.github").to_html}</a><a href='https://twitter.com/neauoire' target='_blank'>#{Media.new("interface","icon.twitter").to_html}</a></ln>
     <ln><a href='/Devine+Lu+Linvega'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year} <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank' style='color:#aaa'>BY-NC-SA 4.0</a></ln>
     <ln>Currently indexing #{lexicon.all.length} projects, built over #{horaire.length} days.</ln>

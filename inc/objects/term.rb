@@ -27,9 +27,16 @@ class Term
 
   end
 
+  def parent
+
+    @parent = @parent ? @parent : @parent = $lexicon.term(unde)
+    return @parent
+
+  end
+
   def type
 
-    if !@TYPE then return end
+    if !@TYPE then return nil end
     return @TYPE.downcase.capitalize
 
   end
@@ -64,16 +71,24 @@ class Term
 
   end
 
+  def is_type t
+
+    if !type then return false end
+    if type.like(t) then return true end
+    return false
+    
+  end
+
   def template
 
     diary = $horaire.featuredDiaryWithTopic(name)
 
     return "
-    <content class='template term'>
+    <yu>
       #{diary ? diary.media.to_html : ""}
-      <h2><a href='/#{name}'>#{name}</a></h2>
+      #{diary && diary.name ? "<h2><a href='/#{name}'>#{name}</a></h2><hs>Updated "+logs.first.offset+"</hs>" : "" }
       <p>#{bref}</p>
-    </content>"
+    </yu>"
 
   end
 
