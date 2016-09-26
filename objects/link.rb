@@ -50,7 +50,7 @@ class Link
 
 	def template
 		
-		return "<a href='#{@url}' target='_blank' class='lk'>#{Media.new("interface","icon."+domain).to_html}<b>#{name}</b><i>#{domain.capitalize}</i></a>"
+		return "<a href='#{@url}' target='_blank' class='lk'>#{Media.new("interface","icon."+domain)}<b>#{name}</b><i>#{domain.capitalize}</i></a>"
 
 	end
 

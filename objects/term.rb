@@ -80,7 +80,7 @@ class Term
 
     return "
     <yu>
-      #{diary ? diary.media.to_html : ""}
+      #{diary ? diary.media : ""}
       #{diary && diary.name ? "<h2><a href='/#{name}'>#{name}</a></h2><hs>Updated "+logs.first.offset+"</hs>" : "" }
       <p>#{bref}</p>
     </yu>"
