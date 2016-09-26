@@ -3,9 +3,9 @@
 
 class Page
 
-	def initialize q
+  def initialize q
 
-		@query   = q.class == Array ? q.first.gsub("+"," ") : q.gsub("+"," ") 
+    @query   = q.class == Array ? q.first.gsub("+"," ") : q.gsub("+"," ") 
     @module  = q.class == Array ? q.last : nil
 
     $lexicon = Lexicon.new(En.new("lexicon").to_h)
@@ -16,98 +16,77 @@ class Page
 
     loadModules
 
-	end
+  end
 
-	def title
+  def title
 
-		return term.name
+    return term.name
 
-	end
+  end
 
-	def is_diary
+  def is_diary     ; return @module == "diary"    ? true : false end
+  def is_horaire   ; return @module == "horaire"  ? true : false end
+  def has_diaries  ; return diaries.length > 0    ? true : false end
+  def has_logs     ; return logs.length > 0       ? true : false end
 
-		if @module == "diary" then return true end
-		return false
+  def term
 
-	end
+    if @term then return @term end
+    @term = $lexicon.term(@query)
+    return @term
 
-	def is_horaire
+  end
 
-		if @module == "horaire" then return true end
-		return false
+  # Horaire
 
-	end
+  def logs
 
-	def term
+    if @logs then return @logs end
+    @logs = $horaire.logs(@term.name)
+    return @logs
 
-		if @term then return @term end
-		@term = $lexicon.term(@query)
-		return @term
+  end
 
-	end
+  def diary
 
-	# Horaire
-
-	def logs
-
-		if @logs then return @logs end
-		@logs = $horaire.logs(@term.name)
-		return @logs
-
-	end
-
-	def has_diaries
-
-		return diaries.length > 0 ? true : false
-		
-	end
-
-	def has_logs
-
-		return logs.length > 0 ? true : false
-		
-	end
-
-	def diary
-
-		if @diary then return @diary end
+    if @diary then return @diary end
     if diaries.length < 1 then return nil end
 
-		@diary = diaries.first
+    @diary = diaries.first
 
-		diaries.each do |log|
-			if log.isFeatured
-				@diary = log
+    diaries.each do |log|
+      if log.isFeatured
+        @diary = log
         break
-			end
-		end
-		
-		return @diary
+      end
+    end
+    
+    return @diary
 
-	end
+  end
 
-	def diaries
+  def diaries
 
-		if @diaries then return @diaries end
+    if @diaries then return @diaries end
 
-		@diaries = []
-		logs.each do |log|
-			if log.photo < 1 && log.full.to_s == "" then next end
-			@diaries.push(log)
-		end
-		return @diaries
+    @diaries = []
+    logs.each do |log|
+      if log.photo < 1 && log.full.to_s == "" then next end
+      @diaries.push(log)
+    end
+    return @diaries
 
-	end
+  end
 
-	# HTML
+  # HTML
 
-	def body
+  def body
 
-		return "<wr><p>#{term.bref.to_s.markup}</p>#{term.long.to_s.markup}</wr>"
+    return "<wr><p>#{term.bref.to_s.markup}</p>#{term.long.to_s.markup}</wr>"
 
-	end
+  end
 
-	def links
+  def links
 
     if !term.link then return "" end
 
@@ -116,11 +95,11 @@ class Page
       html += Link.new(link.first,link.last).template
     end
 
-		return "<wr>"+html+"</wr>"
+    return "<wr>"+html+"</wr>"
 
-	end
+  end
 
-	def portal
+  def portal
 
     depth = 0
     t = term
@@ -133,17 +112,17 @@ class Page
     end
     return t.name
 
-	end
+  end
 
-	def loadModules
+  def loadModules
 
-		if term.name.like("Unknown") then require_relative("../pages/missing.rb") ; return end
-		if File.exist?("#{$nataniev.path}/instances/instance.oscea/pages/#{@query.downcase}.rb") then require_relative("../pages/#{@query.downcase}.rb") end
-		if File.exist?("#{$nataniev.path}/instances/instance.oscea/modules/#{@query.downcase}.rb") then require_relative("../modules/#{@query.downcase}.rb") end
-		if @term.type && File.exist?("#{$nataniev.path}/instances/instance.oscea/modules/#{@term.type.downcase}.rb") then require_relative("../modules/#{@term.type.downcase}.rb") end
-		if @module && File.exist?("#{$nataniev.path}/instances/instance.oscea/modules/#{@module.downcase}.rb") then require_relative("../modules/#{@module.downcase}.rb") end
+    if term.name.like("Unknown") then require_relative("../pages/missing.rb") ; return end
+    if File.exist?("#{$nataniev.path}/instances/instance.oscea/pages/#{@query.downcase}.rb") then require_relative("../pages/#{@query.downcase}.rb") end
+    if File.exist?("#{$nataniev.path}/instances/instance.oscea/modules/#{@query.downcase}.rb") then require_relative("../modules/#{@query.downcase}.rb") end
+    if @term.type && File.exist?("#{$nataniev.path}/instances/instance.oscea/modules/#{@term.type.downcase}.rb") then require_relative("../modules/#{@term.type.downcase}.rb") end
+    if @module && File.exist?("#{$nataniev.path}/instances/instance.oscea/modules/#{@module.downcase}.rb") then require_relative("../modules/#{@module.downcase}.rb") end
 
-	end
+  end
 
   # Inline Style
 

@@ -1,8 +1,6 @@
 #!/bin/env ruby
 # encoding: utf-8
 
-$vessel_path = File.expand_path(File.join(File.dirname(__FILE__), "/"))
-
 class Oscea
 
   include Vessel
@@ -19,7 +17,7 @@ class Oscea
 
     def answer q = "Home"
 
-      load_folder("#{$vessel_path}/objects/*")
+      load_folder(File.expand_path(File.join(File.dirname(__FILE__), "/"))+"/objects/*")
 
       page   = Page.new(q.include?(":") ? q.split(":") : q)
 

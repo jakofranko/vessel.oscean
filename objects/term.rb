@@ -15,6 +15,8 @@ class Term
     @LOGS = nil
 
   end
+  
+  def is_type t ; return type && type.like(t) ? true : false end
 
   def name
 
@@ -70,14 +72,6 @@ class Term
 
     return @LOGS
 
-  end
-
-  def is_type t
-
-    if !type then return false end
-    if type.like(t) then return true end
-    return false
-    
   end
 
   def template

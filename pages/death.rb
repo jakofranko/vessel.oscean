@@ -32,7 +32,7 @@ class Page
     	html += "<hr/>"
     	year += 1
     end
-    return "<wr class='death'><p>#{@term.bref}</p>#{@term.long}<yu>#{html}</yu></wr>"
+    return "<wr class='death'><p>#{@term.bref.to_s.markup}</p>#{@term.long.to_s.markup}<yu>#{html}</yu></wr>"
 
   end
 

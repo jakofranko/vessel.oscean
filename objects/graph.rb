@@ -61,7 +61,7 @@ class Graph
 
 	end
 
-	def draw
+	def to_s
 
 		html = ""
 		width = 640

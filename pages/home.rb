@@ -5,12 +5,11 @@ class Page
 
   def body
 
-    html = "<p>#{@term.bref}</p>#{@term.long}"
-
-    html += Graph.new(graphViewData).draw
-    html += recentEdits
-    html += latestUpdates
-    html += "<hr/>"
+    html = "
+    <p>#{@term.bref.to_s.markup}</p>#{@term.long.to_s.markup}
+    #{Graph.new(graphViewData)}
+    #{recentEdits}
+    #{latestUpdates}"
 
     add_style("wr.horaire yu","display: inline-block;width: 50%;min-width: 300px;margin-bottom: 30px")
     add_style("wr.horaire yu ln","font-family: 'dinregular';font-size: 14px;line-height: 22px")
@@ -19,7 +18,7 @@ class Page
     add_style("wr.horaire yu ln .tl","text-decoration:underline")
     add_style("wr.horaire yu ln .dt","color:#aaa")
 
-  	return "<wr class='horaire'>#{html.markup}</wr>"
+  	return "<wr class='horaire'>#{html}</wr>"
 
   end
 

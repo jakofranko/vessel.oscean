@@ -5,7 +5,7 @@ class Page
 
 	def body
 
-		html = "<p>#{@term.bref.to_s.markup}</p>#{@term.long.to_s.markup}"
+		html = "<p>#{@term.bref}</p>#{@term.long}".markup
 		
 		if @term.name.like("diary")
 			html = diaryList
@@ -21,7 +21,8 @@ class Page
 
 	def diaryTopic
 
-		html = "<p>#{@term.bref.to_s.markup}</p>#{@term.long.to_s.markup}"
+		html = "<p>#{@term.bref}</p>#{@term.long}".markup
+    
 		@diaries[0,10].each do |log|
 			if log.photo == diary.photo then next end
 			html += log.template

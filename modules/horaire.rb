@@ -9,7 +9,7 @@ class Page
     
     @graphData = graphData
     if @graphData.length > 0 
-      html += Graph.new(@graphData).draw
+      html += Graph.new(@graphData).to_s
     end
     html += tasks
 
@@ -24,7 +24,7 @@ class Page
     add_style(".horaire content.storage a","background:white")
     add_style(".horaire","margin-bottom:30px")
 
-    return "<wr class='horaire'>#{html.markup}</wr>"
+    return "<wr class='horaire'>#{html}</wr>"
 
   end
 
