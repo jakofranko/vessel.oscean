@@ -31,7 +31,7 @@ class Page
   def graphData
 
     graphData = []
-    @horaire.all.each do |date,log|
+    $horaire.all.each do |date,log|
       if @term.name != "Horaire" && log.topic != @term.name then next end
       if log.sector == "misc" then next end
       graphData.push(log)
@@ -43,7 +43,7 @@ class Page
   def tasksData
 
     hash = {}
-    @horaire.all.each do |date,log|
+    $horaire.all.each do |date,log|
       if @term.name != "Horaire" && log.topic != @term.name then next end
       if log.sector == "misc" then next end
       if !hash[log.task] then hash[log.task] = {"name" => log.task, "hours" => 0, "logs" => 0} end

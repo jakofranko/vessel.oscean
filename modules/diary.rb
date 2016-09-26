@@ -35,7 +35,7 @@ class Page
 	    perPage = 10
 
 	    i = 0
-	    @horaire.diaries.each do |log|
+	    $horaire.diaries.each do |log|
 	    	from = page*perPage
 	    	to = from+perPage
 	    	if i >= from && i < to then html += log.template end

@@ -19,7 +19,7 @@ class Page
     time1 = Time.new
     year = 1
     while year < 60
-    	html += year % 10 == 0 ? "<small class='divider'>"+year.to_s+"</small>" : ""
+    	html += year % 10 == 0 ? "<small class='divider'>#{year}</small>" : ""
     	week = 0
     	while week < 52
     		if (year * 52)+week < (daysAgo/7)-4
@@ -32,7 +32,7 @@ class Page
     	html += "<hr/>"
     	year += 1
     end
-    return "<wr class='death'><p>#{@term.bref}</p>#{@term.long}<yu>"+html+"</yu></wr>"
+    return "<wr class='death'><p>#{@term.bref}</p>#{@term.long}<yu>#{html}</yu></wr>"
 
   end
 

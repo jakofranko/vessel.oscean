@@ -20,19 +20,19 @@ class Page
 		used = []
 
 		html += "<table>"
-		@lexicon.all.each do |parent,term|
+		$lexicon.all.each do |parent,term|
 			if !term.type then next end
 			if !term.type.to_s.like("portal") then next end
 		    if !File.exist?("content/badges/#{term.name.downcase.gsub(' ','.')}.png") then next end
 
 			html += "<tr><td style='width:100px'><img src='content/badges/#{term.name.downcase.gsub(' ','.')}.png' style='margin:15px 0px 0px 0px'/></td>"
 			html += "<td><h2><a href='/#{term.name}'>#{term.name}</a></h2>"
-			@lexicon.all.each do |name,term|
+			$lexicon.all.each do |name,term|
 				if !term.unde.like(parent) then next end
 					if used.include?(name.downcase) then next end
 				html += "<li style='display:inline-block; width:150px'><a href='/#{name}'>#{name.capitalize}</a></li>"
 				used.push(name.downcase)
-				@lexicon.all.each do |child,term|
+				$lexicon.all.each do |child,term|
 					if !term.unde.like(name) then next end
 					if used.include?(child.downcase) then next end
 					html += "<li style='display:inline-block; width:150px'><a href='/#{child}'>#{child.capitalize}</a></li>"
@@ -46,7 +46,7 @@ class Page
     
 		lastLetter = "4"
 		html += "<ul style='column-count:3'>"
-		@lexicon.all.each do |topic,term|
+		$lexicon.all.each do |topic,term|
 			if used.include?(topic.downcase) then next end
 			if term.name[0,1].downcase != lastLetter.downcase
 				lastLetter = term.name[0,1]
@@ -63,7 +63,7 @@ class Page
 
 		html = "<p>#{@term.bref}</p>#{@term.long}"
 
-		@lexicon.all.each do |name,term|
+		$lexicon.all.each do |name,term|
 	    	if !term.unde.like(@term.name) then next end
 	    	if term.name.like(@term.name) then next end
 
@@ -81,7 +81,7 @@ class Page
 
 	def photoForTerm term
 
-		@horaire.all.each do |date,log|
+		$horaire.all.each do |date,log|
 			if !log.topic.like(term) then next end
 			if log.photo < 1 then next end
 			return log.photo

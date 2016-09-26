@@ -8,11 +8,11 @@ class Page
 		@query   = q.class == Array ? q.first.gsub("+"," ") : q.gsub("+"," ") 
     @module  = q.class == Array ? q.last : nil
 
-    @lexicon = Lexicon.new(En.new("lexicon").to_h)
-    @horaire = Horaire.new(Di.new("horaire").to_a)    
+    $lexicon = Lexicon.new(En.new("lexicon").to_h)
+    $horaire = Horaire.new(Di.new("horaire").to_a)    
 
-    $lexicon = @lexicon
-    $horaire = @horaire
+    $lexicon = $lexicon
+    $horaire = $horaire
 
     loadModules
 
@@ -23,18 +23,6 @@ class Page
 		return term.name
 
 	end
-
-  def lexicon
-
-    return @lexicon
-    
-  end
-
-  def horaire
-
-    return @lexicon
-    
-  end
 
 	def is_diary
 
@@ -53,7 +41,7 @@ class Page
 	def term
 
 		if @term then return @term end
-		@term = @lexicon.term(@query)
+		@term = $lexicon.term(@query)
 		return @term
 
 	end
@@ -63,7 +51,7 @@ class Page
 	def logs
 
 		if @logs then return @logs end
-		@logs = @horaire.logs(@term.name)
+		@logs = $horaire.logs(@term.name)
 		return @logs
 
 	end
@@ -181,8 +169,8 @@ class Page
     <a href='/#{portal}'>#{ badge = Media.new("badge",term.name) ; badge.exists ? badge.to_html : badge = Media.new("badge",portal) ; badge.exists ? badge.to_html : badge = Media.new("badge","nataniev") ; badge.to_html }</a>
     <ln><a href='/Nataniev'>#{Media.new("interface","icon.oscean").to_html}</a><a href='https://github.com/neauoire' target='_blank'>#{Media.new("interface","icon.github").to_html}</a><a href='https://twitter.com/neauoire' target='_blank'>#{Media.new("interface","icon.twitter").to_html}</a></ln>
     <ln><a href='/Devine+Lu+Linvega'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year} <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank' style='color:#aaa'>BY-NC-SA 4.0</a></ln>
-    <ln>Currently indexing #{lexicon.all.length} projects, built over #{horaire.length} days.</ln>
-    <ln><a href='/Diary'>Diary</a> &bull; <a href='/Horaire'>Horaire</a> &bull; <a href='/Desamber' class='date'>"+Desamber.new().default+"</a><br /><a href='Clock'>"+Clock.new().default+"</a> "+((Time.new - $nataniev.time) * 1000).to_i.to_s+"ms</ln>
+    <ln>Currently indexing #{$lexicon.all.length} projects, built over #{$horaire.length} days.</ln>
+    <ln><a href='/Diary'>Diary</a> &bull; <a href='/Horaire'>Horaire</a> &bull; <a href='/Desamber' class='date'>#{Desamber.new}</a><br /><a href='Clock'>#{Clock.new}</a> "+((Time.new - $nataniev.time) * 1000).to_i.to_s+"ms</ln>
   </wr>
 </yu>"
 
