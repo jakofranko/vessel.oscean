@@ -25,7 +25,7 @@ class Page
     searchResult = {}
 
     # Lexicon
-    lexicon.all.each do |topic,term|
+    $lexicon.all.each do |topic,term|
       topic = topic.downcase
       if !searchResult[topic] then searchResult[topic] = 0 end
 
@@ -37,16 +37,16 @@ class Page
     end
 
     # Horaire
-    horaire.all.each do |date,log|
-      # if !searchResult[log.topic] then searchResult[log.topic.downcase] = 0 end
+    $horaire.all.each do |date,log|
+      if !searchResult[log.topic] then searchResult[log.topic.downcase] = 0 end
 
-      # if log.topic.downcase == @query then searchResult[log.topic] += 5 end
-      # if log.topic.downcase.include?(@query.downcase) then searchResult[log.topic.downcase] += 1 end
+      if log.topic.downcase == @query then searchResult[log.topic] += 5 end
+      if log.topic.downcase.include?(@query.downcase) then searchResult[log.topic.downcase] += 1 end
 
-      # if log.name.downcase.include?(@query.downcase) then searchResult[log.topic.downcase] += 1 end
-      # if log.name.downcase.include?(@query.downcase) then searchResult[log.topic.downcase] += 1 end
+      if log.name.downcase.include?(@query.downcase) then searchResult[log.topic.downcase] += 1 end
+      if log.name.downcase.include?(@query.downcase) then searchResult[log.topic.downcase] += 1 end
 
-      # if log.photo.to_i > 0 && log.photo.to_i == @query.to_i then searchResult[log.topic.downcase] = 100 end
+      if log.photo.to_i > 0 && log.photo.to_i == @query.to_i then searchResult[log.topic.downcase] = 100 end
     end
 
     searchResult = searchResult.sort_by {|_key, value| value}.reverse
