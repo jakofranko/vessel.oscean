@@ -27,7 +27,7 @@ class Page
 			if log.photo == diary.photo then next end
 			html += log.template
 		end
-		return hmtl
+		return html
 
 	end
 
