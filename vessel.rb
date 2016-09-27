@@ -17,11 +17,12 @@ class Oscea
 
     def answer q = "Home"
 
-      load_folder(File.expand_path(File.join(File.dirname(__FILE__), "/"))+"/objects/*")
+      path = File.expand_path(File.join(File.dirname(__FILE__), "/"))
+      load_folder("#{path}/objects/*")
 
       page   = Page.new(q.include?(":") ? q.split(":") : q)
-
-      # return "?"
+      page.path = path
+      page.start
 
       corpse = Corpse.new(q)
       corpse.add_meta("description","Works of Devine Lu Linvega")

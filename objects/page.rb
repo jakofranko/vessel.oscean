@@ -8,15 +8,18 @@ class Page
     @query   = q.class == Array ? q.first.gsub("+"," ") : q.gsub("+"," ") 
     @module  = q.class == Array ? q.last : nil
 
-    $lexicon = Lexicon.new(En.new("lexicon").to_h)
-    $horaire = Horaire.new(Di.new("horaire").to_a)    
+  end
 
-    $lexicon = $lexicon
-    $horaire = $horaire
+  def start
+
+    $lexicon = Lexicon.new(En.new("lexicon",path).to_h)
+    $horaire = Horaire.new(Di.new("horaire",path).to_a)
 
     loadModules
 
   end
+
+  attr_accessor :path
 
   def title
 
@@ -99,28 +102,13 @@ class Page
 
   end
 
-  def portal
-
-    depth = 0
-    t = term
-
-    while !t.parent.name.like(term.name) 
-      if depth > 5 then return "nataniev" end
-      if t.is_type("Portal") then t = t ; break end
-      t = t.parent
-      depth += 1
-    end
-    return t.name
-
-  end
-
   def loadModules
 
     if term.name.like("Unknown") then require_relative("../pages/missing.rb") ; return end
-    if File.exist?("#{$nataniev.path}/instances/instance.oscea/pages/#{@query.downcase}.rb") then require_relative("../pages/#{@query.downcase}.rb") end
-    if File.exist?("#{$nataniev.path}/instances/instance.oscea/modules/#{@query.downcase}.rb") then require_relative("../modules/#{@query.downcase}.rb") end
-    if @term.type && File.exist?("#{$nataniev.path}/instances/instance.oscea/modules/#{@term.type.downcase}.rb") then require_relative("../modules/#{@term.type.downcase}.rb") end
-    if @module && File.exist?("#{$nataniev.path}/instances/instance.oscea/modules/#{@module.downcase}.rb") then require_relative("../modules/#{@module.downcase}.rb") end
+    if File.exist?("#{path}/pages/#{@query.downcase}.rb") then require_relative("../pages/#{@query.downcase}.rb") end
+    if File.exist?("#{path}/modules/#{@query.downcase}.rb") then require_relative("../modules/#{@query.downcase}.rb") end
+    if @term.type && File.exist?("#{path}/modules/#{@term.type.downcase}.rb") then require_relative("../modules/#{@term.type.downcase}.rb") end
+    if @module && File.exist?("#{path}/modules/#{@module.downcase}.rb") then require_relative("../modules/#{@module.downcase}.rb") end
 
   end
 
@@ -145,7 +133,7 @@ class Page
 </yu>
 <yu class='ft'>
   <wr>
-    <a href='/#{portal}'>#{ badge = Media.new("badge",term.name) ; badge.exists ? badge : badge = Media.new("badge",portal) ; badge.exists ? badge : badge = Media.new("badge","nataniev") ; badge }</a>
+    <a href='/#{term.portal}'>#{ badge = Media.new("badge",term.name) ; badge.exists ? badge : badge = Media.new("badge",term.portal) ; badge.exists ? badge : badge = Media.new("badge","nataniev") ; badge }</a>
     <ln><a href='/Nataniev'>#{Media.new("interface","icon.oscean")}</a><a href='https://github.com/neauoire' target='_blank'>#{Media.new("interface","icon.github")}</a><a href='https://twitter.com/neauoire' target='_blank'>#{Media.new("interface","icon.twitter")}</a></ln>
     <ln><a href='/Devine+Lu+Linvega'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year} <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank' style='color:#aaa'>BY-NC-SA 4.0</a></ln>
     <ln>Currently indexing #{$lexicon.all.length} projects, built over #{$horaire.length} days.</ln>
