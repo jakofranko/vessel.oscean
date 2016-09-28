@@ -310,7 +310,7 @@ DONSOL
    HELP : Guide|http://wiki.xxiivv.com/Donsol+guide
 
 DONSOL GUIDE
-  UNDE : Donsol
+  UNDE : Board
   BREF : {{Donsol}}, designed by {{John Eternal|https://twitter.com/johneternal}}, is a game about exploring a dungeon using nothing but what you find.You play with a standard 54 poker card set, Jokers included.
   LONG
     & Shuffle the deck and draw 4 cards, equip a shield, slay all monsters, heal yourself with potions and exit the deck alive.
@@ -344,6 +344,36 @@ DONSOL GUIDE
     - Continue making your way through the dungeon (deck) until all enemies are defeated.
   LINK
     ITUN : https://itunes.apple.com/us/app/donsol/id976367718
+
+DOMINE
+  UNDE : Board
+  BREF : {{Domine}} is a simple game to play with dominoes designed by {{Hundred Rabbits}}. 
+  LONG
+    & Every domino has 2 values, which we will call Attack/Defence. So a domino with both 6 and 2 values, can be used as both 6/2 and 2/6.
+    * Setup
+    & Each player draws 7 random tiles.
+    & To determine which player begins, both players flip a tile, the player with the highest combined value is the attacking player.
+    & The Attacking Player(AP) can forfeit their attack by exchanging a tile for a random one from the draw pile. In that case, the opponent becomes the Attacking Player.
+    & The AP chooses an attacking tile from their hand, and plays it vertically toward the Defending Player(DP). From the perspective of the AP, the top value is the attack value, the bottom value, the defense value.
+    & The AP chooses a defending tile from their hand, and puts it vertically toward the Defending Player.
+    & A game lasts 7 rounds.
+    * A Basic Turn
+    & The AP puts 8/4
+    & The DP puts 5/6
+    & The DP tile is killed by the AP tile. (8 > 6)
+    & The AP wins the turn, the BP tile is flipped.
+    * A Blocking Turn
+    & The AP puts 8/4
+    & The DP puts 3/8
+    & The DP tile is blocked by the AP tile. (8 !> 8)
+    & The turn is a stand-still, no tiles are flipped.
+    * A Counter-Attacked Turn
+    & The AP puts 8/4
+    & The DP puts 5/9
+    & The DP tile is blocked by the AP tile. (8 !> 9)
+    & The DP tile counter-attacks with 5.
+    & The AP tile is killed by the DP tile. (5 > 4)
+    & The DP wins the turn, the AP tile is flipped.
 
 DOWNTEMPERATURE
   UNDE : First wave

@@ -3,6 +3,9 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2015 09 28 - 39      Nataniev             Tools
+2015 09 27 - 21      Polygonoscopy        Modeling
+2015 09 26 - 21      Polygonoscopy        Modeling
 2015 09 25 - 27      Nataniev             Design
 2016 09 24 - 35      Pino                 Maintenance
 2016 09 23 - 36      Nataniev             Tools
