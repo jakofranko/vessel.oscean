@@ -5,6 +5,8 @@ class Page
 
   def body
 
+    @all_logs = $horaire.to_a("log")
+    
     html = "
     <p>#{@term.bref.to_s.markup}</p>#{@term.long.to_s.markup}
     #{Graph.new(graphViewData)}
@@ -25,7 +27,7 @@ class Page
   def graphViewData
 
     graphData = []
-    $horaire.to_a("log").each do |log|
+    @all_logs.each do |log|
       if log.elapsed < 0 then next end
       if log.elapsed/86400 > 100 then next end
       graphData.push(log)
@@ -41,7 +43,7 @@ class Page
     html_list = ""
     topicHistory = {}
     count = 0
-    $horaire.to_a("log").each do |log|
+    @all_logs.each do |log|
       if log.topic == "" then next end
       if count >= 5 then break end
       if topicHistory[log.topic] then next end
@@ -60,7 +62,7 @@ class Page
     html_list = ""
     topicHistory = {}
     count = 0
-    $horaire.to_a("log").each do |log|
+    @all_logs.each do |log|
       if log.task != "Update" then next end
       if count >= 5 then break end
       if topicHistory[log.topic] then next end
