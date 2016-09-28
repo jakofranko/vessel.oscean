@@ -73,7 +73,7 @@ class Oscea
 
           if !term.bref && !photoTest then next end
 
-          html += term.template
+          html += term.to_s
 
         end
 

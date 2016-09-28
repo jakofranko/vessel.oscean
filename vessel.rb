@@ -69,7 +69,7 @@ class Oscea
 
       html = ""
       term.link.each do |link|
-        html += Link.new(link.first,link.last).template
+        html += Link.new(link.first,link.last).to_s
       end
       return "<wr>"+html+"</wr>"
 

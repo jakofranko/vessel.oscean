@@ -12,7 +12,7 @@ class Oscea
       $lexicon.to_h("term").each do |name,term|
         if !term.unde.like(@term.name) then next end
         if term.name.like(@term.name) then next end
-        html += term.template
+        html += term.to_s
       end
       return "<wr>#{html}</wr>"
       

@@ -6,6 +6,9 @@ class Term
   def initialize name = "Unknown", content = {}
 
     @NAME = "#{name}"
+
+    content = content ? content : { "UNDE" => "HOME", "TYPE" => "Missing" }
+
     @UNDE = content["UNDE"] ? content["UNDE"] : "Home"
     @TYPE = content["TYPE"]
     @LINK = content["LINK"]
@@ -125,9 +128,7 @@ class Term
 
   end
 
-  def template
-
-    diary = $horaire.featuredDiaryWithTopic(name)
+  def to_s
 
     return "
     <yu>

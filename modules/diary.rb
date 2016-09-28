@@ -27,7 +27,7 @@ class Oscea
       
       term.diaries[0,10].each do |log|
         if log.photo == diary.photo then next end
-        html += log.template
+        html += log.to_s
       end
       return html
 
@@ -43,7 +43,7 @@ class Oscea
       $horaire.diaries.each do |log|
         from = page*perPage
         to = from+perPage
-        if i >= from && i < to then html += log.template end
+        if i >= from && i < to then html += log.to_s end
         i += 1
       end
 

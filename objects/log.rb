@@ -121,7 +121,7 @@ class Log
     
   end
 
-  def template
+  def to_s
 
     return "
     <yu class='di'>
