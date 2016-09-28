@@ -58,6 +58,7 @@ class Oscea
     end
 
     def view
+      
       return "<wr><p>#{term.bref.to_s.markup}</p>#{term.long.to_s.markup}</wr>"
 
     end

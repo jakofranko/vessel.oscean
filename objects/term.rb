@@ -5,11 +5,11 @@ class Term
 
   def initialize name = "Unknown", content = {}
 
-  	@NAME = "#{name}"
-  	@UNDE = content["UNDE"] ? content["UNDE"] : "Home"
-  	@TYPE = content["TYPE"]
-  	@LINK = content["LINK"]
-  	@BREF = content["BREF"]
+    @NAME = "#{name}"
+    @UNDE = content["UNDE"] ? content["UNDE"] : "Home"
+    @TYPE = content["TYPE"]
+    @LINK = content["LINK"]
+    @BREF = content["BREF"]
     @LONG = content["LONG"]
 
     @logs = nil
