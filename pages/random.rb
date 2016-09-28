@@ -1,15 +1,19 @@
 #!/bin/env ruby
 # encoding: utf-8
 
-class Page
+class Oscea
 
-  def body
+  class Corpse
 
-  	html = "<wr><p>Choosing a random page.</p></wr>
-    <meta http-equiv='refresh' content='0; url=/#{$lexicon.to_h("term").sample.first}' />"
+    def view
 
-  	return html
+    	html = "<wr><p>Choosing a random page.</p></wr>
+      <meta http-equiv='refresh' content='0; url=/#{$lexicon.to_h("term").sample.first}' />"
 
+    	return html
+
+    end
+    
   end
 
 end

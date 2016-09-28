@@ -1,54 +1,58 @@
 #!/bin/env ruby
 # encoding: utf-8
 
-class Corpse
+class Oscea
 
-	def body
+  class Corpse
 
-		html = "<p>#{term.bref}</p>#{term.long}".markup
-		
-		if term.name.like("diary")
-			html = diaryList
-		elsif term.diaries.count > 0
-			html = diaryTopic
-		else
-			html = "<p>There are no diaries for #{term.name}.</p>"
-		end
+    def view
 
-		return "<wr>#{html}</wr>"
+      html = "<p>#{term.bref}</p>#{term.long}".markup
+      
+      if term.name.like("diary")
+        html = diaryList
+      elsif term.diaries.count > 0
+        html = diaryTopic
+      else
+        html = "<p>There are no diaries for #{term.name}.</p>"
+      end
 
-	end
+      return "<wr>#{html}</wr>"
 
-	def diaryTopic
-
-		html = "<p>#{term.bref}</p>#{term.long}".markup
-    
-		term.diaries[0,10].each do |log|
-			if log.photo == diary.photo then next end
-			html += log.template
-		end
-		return html
-
-	end
-
-	def diaryList
-
-		html = ""
-    page = @module.to_i
-    perPage = 10
-
-    i = 0
-    $horaire.diaries.each do |log|
-    	from = page*perPage
-    	to = from+perPage
-    	if i >= from && i < to then html += log.template end
-    	i += 1
     end
 
-    html += "<p><a href='/Diary:#{(page+1)}' style='background: #ddd;padding: 15px;font-size: 12px;display: block;border-radius: 100px;text-align: center'>Page #{page+1}</a></p>"
+    def diaryTopic
 
-  	return html
+      html = "<p>#{term.bref}</p>#{term.long}".markup
+      
+      term.diaries[0,10].each do |log|
+        if log.photo == diary.photo then next end
+        html += log.template
+      end
+      return html
 
-	end
+    end
+
+    def diaryList
+
+      html = ""
+      page = @module.to_i
+      perPage = 10
+
+      i = 0
+      $horaire.diaries.each do |log|
+        from = page*perPage
+        to = from+perPage
+        if i >= from && i < to then html += log.template end
+        i += 1
+      end
+
+      html += "<p><a href='/Diary:#{(page+1)}' style='background: #ddd;padding: 15px;font-size: 12px;display: block;border-radius: 100px;text-align: center'>Page #{page+1}</a></p>"
+
+      return html
+
+    end
+    
+  end
 
 end
