@@ -5,6 +5,23 @@ class Oscea
 
   class Corpse
 
+    def style
+
+      return "<style>
+      yu.cr { background:black }
+      .horaire .task { width:140px; color:white; display:inline-block; padding:15px; }
+      .horaire .task svg { width:140px; height:140px }
+      .horaire .task p { border-top: 1px solid #555;font-family: 'dinregular';font-size: 11px;line-height: 15px;margin-bottom: 0px;padding-top: 14px }
+      .horaire .task p b { font-family:'dinbold'; font-weight:normal; text-transform: uppercase; }
+      .horaire circle.audio { fill:#72dec2 }
+      .horaire circle.visual { fill:red }
+      .horaire circle.research { fill:#ccc }
+      .horaire content.storage a { background:white }
+      .horaire { margin-bottom:30px }
+      </style>"
+
+    end
+
     def view
 
       html = ""
@@ -14,17 +31,6 @@ class Oscea
         html += Graph.new(@graphData).to_s
       end
       html += tasks
-
-      add_style("yu.cr","background:black")
-      add_style(".horaire .task","width:140px; color:white; display:inline-block; padding:15px;")
-      add_style(".horaire .task svg","width:140px; height:140px")
-      add_style(".horaire .task p","border-top: 1px solid #555;font-family: 'dinregular';font-size: 11px;line-height: 15px;margin-bottom: 0px;padding-top: 14px")
-      add_style(".horaire .task p b","font-family:'dinbold'; font-weight:normal; text-transform: uppercase;")
-      add_style(".horaire circle.audio","fill:#72dec2")
-      add_style(".horaire circle.visual","fill:red")
-      add_style(".horaire circle.research","fill:#ccc")
-      add_style(".horaire content.storage a","background:white")
-      add_style(".horaire","margin-bottom:30px")
 
       return "<wr class='horaire'>#{html}</wr>"
 

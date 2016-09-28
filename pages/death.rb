@@ -5,12 +5,18 @@ class Oscea
 
   class Corpse
 
-    def view
+    def style
 
-      add_style(".death yu","line-height:3px")
-      add_style(".death cell","display: inline-block;width: calc(1.9% - 2px);background: white;height: 6px;margin: 1px 0px 0px 1px;border-radius: 10px")
-      add_style(".death cell.black","background:black")
-      add_style(".death small.divider","display: block;font-family: 'dinbold';font-size: 11px;line-height: 30px;color: #000;")
+      return "<style>
+      .death yu { line-height:3px }
+      .death cell { display: inline-block;width: calc(1.9% - 2px);background: white;height: 6px;margin: 1px 0px 0px 1px;border-radius: 10px }
+      .death cell.black { background:black }
+      .death small.divider { display: block;font-family: 'dinbold';font-size: 11px;line-height: 30px;color: #000; }
+      </style>"
+      
+    end
+
+    def view
 
       daysAgo = (Time.new.to_i - Date.new(1986,03,22).to_time.to_i)/86400
       
@@ -33,7 +39,7 @@ class Oscea
         year += 1
       end
       return "<wr class='death'><p>#{@term.bref.to_s.markup}</p>#{@term.long.to_s.markup}<yu>#{html}</yu></wr>"
-      
+
     end
 
   end

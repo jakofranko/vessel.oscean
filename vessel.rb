@@ -26,19 +26,10 @@ class Oscea
       add_script("jquery.core.js")
       add_script("jquery.main.js")
 
-      
     end
 
     def body
       
-      path = File.expand_path(File.join(File.dirname(__FILE__), "/"))
-
-      if term.name.like("Unknown") then require_relative("pages/missing.rb") ; return end
-      if File.exist?("#{path}/pages/#{@query.downcase}.rb") then require_relative("pages/#{@query.downcase}.rb") end
-      if File.exist?("#{path}/modules/#{@query.downcase}.rb") then require_relative("modules/#{@query.downcase}.rb") end
-      if term.type && File.exist?("#{path}/modules/#{term.type.downcase}.rb") then require_relative("modules/#{term.type.downcase}.rb") end
-      if @module && File.exist?("#{path}/modules/#{@module.downcase}.rb") then require_relative("modules/#{@module.downcase}.rb") end
-
       return "
     <yu class='hd'>
       <wr>
@@ -67,8 +58,6 @@ class Oscea
     end
 
     def view
-
-      return "6"
       return "<wr><p>#{term.bref.to_s.markup}</p>#{term.long.to_s.markup}</wr>"
 
     end
@@ -110,6 +99,11 @@ class Oscea
       corpse.horaire = Di.new("horaire",path)
       corpse.lexicon = En.new("lexicon",path)
       corpse.title = "XXIIVV ∴ #{corpse.term.name}"
+
+      load_any "#{path}/pages",   @query
+      load_any "#{path}/modules", @query
+      load_any "#{path}/modules", @module
+      load_any "#{path}/modules", corpse.term.type
 
       return corpse.result
 

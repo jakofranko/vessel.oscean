@@ -5,6 +5,19 @@ class Oscea
 
   class Corpse
 
+    def style
+
+      return "<style>
+      wr.horaire yu { display: inline-block;width: 340px;min-width: 300px;margin-bottom: 30px}
+      wr.horaire yu ln { font-family: 'dinregular';font-size: 14px;line-height: 22px}
+      wr.horaire yu ln .tp { font-family:'dinbold'}
+      wr.horaire yu ln .tp:hover { text-decoration:underline}
+      wr.horaire yu ln .tl { text-decoration:underline}
+      wr.horaire yu ln .dt { color:#aaa}
+      </style>"
+
+    end
+
     def view
 
       @all_logs = $horaire.to_a("log")
@@ -14,13 +27,6 @@ class Oscea
       #{Graph.new(graphViewData)}
       #{recentEdits}
       #{latestUpdates}"
-
-      add_style("wr.horaire yu","display: inline-block;width: 340px;min-width: 300px;margin-bottom: 30px")
-      add_style("wr.horaire yu ln","font-family: 'dinregular';font-size: 14px;line-height: 22px")
-      add_style("wr.horaire yu ln .tp","font-family:'dinbold'")
-      add_style("wr.horaire yu ln .tp:hover","text-decoration:underline")
-      add_style("wr.horaire yu ln .tl","text-decoration:underline")
-      add_style("wr.horaire yu ln .dt","color:#aaa")
 
       return "<wr class='horaire'>#{html}</wr>"
 
@@ -77,5 +83,5 @@ class Oscea
     end
 
   end
-  
+
 end

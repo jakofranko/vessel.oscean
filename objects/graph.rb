@@ -4,9 +4,11 @@
 class Graph
 
 	def initialize(logs)
+		
 		@logs = logs
 		@segments = equalSegments
 		@sumHours = 0
+
 	end
 
 	def segmentMemory
