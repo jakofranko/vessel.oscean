@@ -25,7 +25,7 @@ class Page
     searchResult = {}
 
     # Lexicon
-    lexicon.all.each do |topic,term|
+    lexicon.to_h("term").each do |topic,term|
       topic = topic.downcase
       if !searchResult[topic] then searchResult[topic] = 0 end
 
@@ -37,7 +37,7 @@ class Page
     end
 
     # Horaire
-    horaire.all.each do |date,log|
+    horaire.to_a("log").each do |log|
       # if !searchResult[log.topic] then searchResult[log.topic.downcase] = 0 end
 
       # if log.topic.downcase == @query then searchResult[log.topic] += 5 end
