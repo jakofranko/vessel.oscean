@@ -38,7 +38,7 @@ class Oscea
 
       corpse.set_view(page.view)
 
-      corpse.set_title("XXIIVV ∴ #{page.title}")
+      corpse.set_title("XXIIVV ∴ #{page.term.name}")
       corpse.set_style(page.style)
       
       return corpse.result

@@ -3,10 +3,9 @@
 
 class Log
 
-  def initialize(date,content)
+  def initialize(content)
 
     @log = content
-    @log['DATE'] = date
 
   end
 

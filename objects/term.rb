@@ -3,7 +3,7 @@
 
 class Term
 
-  def initialize(name = "Unknown", content = {})
+  def initialize name = "Unknown", content = {}
 
   	@NAME = "#{name}"
   	@UNDE = content["UNDE"] ? content["UNDE"] : "Home"
@@ -12,9 +12,14 @@ class Term
   	@BREF = content["BREF"]
     @LONG = content["LONG"]
 
-    @LOGS = nil
+    @logs = nil
 
   end
+
+  def is_diary     ; return @module == "diary"    ? true : false end
+  def is_horaire   ; return @module == "horaire"  ? true : false end
+  def has_diaries  ; return diaries.length > 0    ? true : false end
+  def has_logs     ; return logs.length > 0       ? true : false end
   
   def is_type t ; return type && type.like(t) ? true : false end
 
@@ -32,7 +37,7 @@ class Term
 
   def parent
 
-    @parent = @parent ? @parent : @parent = $lexicon.term(unde)
+    @parent = @parent ? @parent : @parent = $lexicon.filter("term",unde,"term")
     return @parent
 
   end
@@ -66,11 +71,42 @@ class Term
 
   end
 
+  # Dynamo
+
   def logs
 
-    @LOGS = !@LOGS ? $horaire.logsWithTopic(name) : @LOGS
+    @logs = @logs ? @logs : $horaire.filter("term",name,"log")
+    return @logs
 
-    return @LOGS
+  end
+
+  def diaries
+
+    if @diaries then return @diaries end
+
+    @diaries = []
+    logs.each do |log|
+      if log.photo < 1 && log.full.to_s == "" then next end
+      @diaries.push(log)
+    end
+    return @diaries
+
+  end
+
+  def diary
+
+    if @diary then return @diary end
+    if diaries.length < 1 then return nil end
+
+    @diary = diaries.first
+
+    diaries.each do |log|
+      if log.isFeatured
+        @diary = log
+        break
+      end
+    end
+    return @diary
 
   end
 

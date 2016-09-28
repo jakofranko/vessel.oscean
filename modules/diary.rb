@@ -5,14 +5,14 @@ class Page
 
 	def body
 
-		html = "<p>#{@term.bref}</p>#{@term.long}".markup
+		html = "<p>#{term.bref}</p>#{term.long}".markup
 		
-		if @term.name.like("diary")
+		if term.name.like("diary")
 			html = diaryList
-		elsif @diaries.count > 0
+		elsif term.diaries.count > 0
 			html = diaryTopic
 		else
-			html = "<p>There are no diaries for #{@term.name}.</p>"
+			html = "<p>There are no diaries for #{term.name}.</p>"
 		end
 
 		return "<wr>#{html}</wr>"
@@ -21,9 +21,9 @@ class Page
 
 	def diaryTopic
 
-		html = "<p>#{@term.bref}</p>#{@term.long}".markup
+		html = "<p>#{term.bref}</p>#{term.long}".markup
     
-		@diaries[0,10].each do |log|
+		term.diaries[0,10].each do |log|
 			if log.photo == diary.photo then next end
 			html += log.template
 		end
