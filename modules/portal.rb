@@ -20,21 +20,19 @@ class Oscea
       html = "<p>#{@term.bref}</p>"
 
       used = []
+      terms = $lexicon.to_h("term")
 
-      html += "<table>"
-      $lexicon.to_h("term").each do |parent,term|
+      terms.each do |parent,term|
         if !term.type then next end
         if !term.type.to_s.like("portal") then next end
-          if !File.exist?("content/badges/#{term.name.downcase.gsub(' ','.')}.png") then next end
 
-        html += "<tr><td style='width:100px'><img src='content/badges/#{term.name.downcase.gsub(' ','.')}.png' style='margin:15px 0px 0px 0px'/></td>"
-        html += "<td><h2><a href='/#{term.name}'>#{term.name}</a></h2>"
-        $lexicon.to_h("term").each do |name,term|
+        html += "#{media = Media.new("badge",term.name.downcase) ; media.set_style('width:100px;height:100px;margin-left:30px') ; media}"
+        html += "<h2><a href='/#{term.name}'>#{term.name}</a></h2>"
+        terms.each do |name,term|
           if !term.unde.like(parent) then next end
-            if used.include?(name.downcase) then next end
           html += "<li style='display:inline-block; width:150px'><a href='/#{name}'>#{name.capitalize}</a></li>"
           used.push(name.downcase)
-          $lexicon.to_h("term").each do |child,term|
+          terms.each do |child,term|
             if !term.unde.like(name) then next end
             if used.include?(child.downcase) then next end
             html += "<li style='display:inline-block; width:150px'><a href='/#{child}'>#{child.capitalize}</a></li>"
@@ -44,11 +42,10 @@ class Oscea
         html += "<br /><br /></td></tr>"
         used.push(parent.downcase)
       end
-      html += "</table>"
       
       lastLetter = "4"
       html += "<ul style='column-count:3'>"
-      $lexicon.to_h("term").each do |topic,term|
+      terms.each do |topic,term|
         if used.include?(topic.downcase) then next end
         if term.name[0,1].downcase != lastLetter.downcase
           lastLetter = term.name[0,1]
