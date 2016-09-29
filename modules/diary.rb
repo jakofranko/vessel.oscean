@@ -26,7 +26,6 @@ class Oscea
       html = "<p>#{term.bref}</p>#{term.long}".markup
       
       term.diaries[0,10].each do |log|
-        if log.photo == diary.photo then next end
         html += log.to_s
       end
       return html

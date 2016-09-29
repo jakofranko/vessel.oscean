@@ -43,7 +43,7 @@ class Oscea
     </yu>
     <yu class='cr'>
       #{view}
-      #{links}
+      #{links_}
     </yu>
     <yu class='ft'>
       <wr>
@@ -63,7 +63,7 @@ class Oscea
 
     end
 
-    def links
+    def links_
 
       if !term.link then return "" end
 
