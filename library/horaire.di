@@ -3,17 +3,17 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
-2015 09 05 - 17      Moonman              Composition
-2016 09 04 - 35      Pino                 Maintenance
-2016 09 03 - 35      Pino                 Maintenance
-2016 09 02 - 35      Pino                 Maintenance
-2015 09 01 - 14      Moonman              Composition
-2015 09 30 - 16      Moonman              Composition
-2015 09 29 - 14      Moonman              Composition
-2015 09 28 - 39      Nataniev             Tools
-2015 09 27 - 21      Polygonoscopy        Modeling
-2015 09 26 - 21      Polygonoscopy        Modeling
-2015 09 25 - 27      Nataniev             Design
+2015 10 05 - 17      Moonman              Composition
+2016 10 04 - 35      Pino                 Maintenance
+2016 10 03 - 35      Pino                 Maintenance
+2016 10 02 - 35      Pino                 Maintenance
+2016 10 01 - 14      Moonman              Composition
+2016 09 30 - 16      Moonman              Composition
+2016 09 29 - 14      Moonman              Composition
+2016 09 28 - 39      Nataniev             Tools
+2016 09 27 - 21      Polygonoscopy        Modeling
+2016 09 26 - 21      Polygonoscopy        Modeling
+2016 09 25 - 27      Nataniev             Design
 2016 09 24 - 35      Pino                 Maintenance
 2016 09 23 - 36      Nataniev             Tools
 2016 09 22 - 39      Nataniev             Migration
