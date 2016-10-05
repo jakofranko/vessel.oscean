@@ -83,8 +83,8 @@ class Oscea
 
     def answer q = "Home"
 
-      @query   = q.class == Array ? q.first.gsub("+"," ") : q.gsub("+"," ") 
-      @module  = q.class == Array ? q.last : nil
+      @query   = q.include?(":") ? q.split(":").first.gsub("+"," ") : q.gsub("+"," ") 
+      @module  = q.include?(":") ? q.split(":").last : nil
 
       path = File.expand_path(File.join(File.dirname(__FILE__), "/"))
 
@@ -95,7 +95,7 @@ class Oscea
 
       # Corpse
 
-      corpse = Corpse.new(q)      
+      corpse = Corpse.new(@query)      
       corpse.term = $lexicon.filter("term",@query,"term")
       corpse.horaire = Di.new("horaire",path)
       corpse.lexicon = En.new("lexicon",path)

@@ -8,7 +8,7 @@ class Oscea
     def style
 
       return "<style>
-      yu.cr { background:black }
+      yu.cr { background:black; }
       .horaire .task { width:140px; color:white; display:inline-block; padding:15px; }
       .horaire .task svg { width:140px; height:140px }
       .horaire .task p { border-top: 1px solid #555;font-family: 'dinregular';font-size: 11px;line-height: 15px;margin-bottom: 0px;padding-top: 14px }
@@ -18,6 +18,7 @@ class Oscea
       .horaire circle.research { fill:#ccc }
       .horaire content.storage a { background:white }
       .horaire { margin-bottom:30px }
+      .horaire p { color:white}
       </style>"
 
     end
@@ -25,13 +26,15 @@ class Oscea
     def view
 
       html = ""
-      
+
       @graphData = graphData
       if @graphData.length > 0 
         html += Graph.new(@graphData).to_s
+        html += tasks
+      else
+        html += "<p>The lexicon entry {{@query}} does not contain any {{Horaire}} log.</p>"
       end
-      html += tasks
-
+      
       return "<wr class='horaire'>#{html}</wr>"
 
     end
@@ -39,8 +42,8 @@ class Oscea
     def graphData
 
       graphData = []
-      $horaire.to_a("log").each do |log|
-        if @term.name != "Horaire" && log.topic != @term.name then next end
+      horaire.to_a("log").each do |log|
+        if !term.name.like("horaire") && !log.topic.like(term.name) then next end
         if log.sector == "misc" then next end
         graphData.push(log)
       end
@@ -52,7 +55,7 @@ class Oscea
 
       hash = {}
       $horaire.to_a("log").each do |log|
-        if @term.name != "Horaire" && log.topic != @term.name then next end
+        if term.name != "Horaire" && log.topic != term.name then next end
         if log.sector == "misc" then next end
         if !hash[log.task] then hash[log.task] = {"name" => log.task, "hours" => 0, "logs" => 0} end
         hash[log.task]["hours"] += log.value
