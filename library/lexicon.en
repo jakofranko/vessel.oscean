@@ -540,6 +540,15 @@ FLACTALS
   TYPE : Diary
   BREF : Flowers.
 
+PEARLS
+  UNDE : Nereid
+  TYPE : Diary
+  BREF : Flowers.
+
+VOYNICH
+  UNDE : Code
+  BREF : Notes on Voynich Manuscript. 
+
 INTERACTIVE
   UNDE : Visual
   BREF : The {{Interactive}} Portal contains all the released interactive applications. The interactive project list contains various completed and unreleased experiments and games for iOS, desktop and browser.

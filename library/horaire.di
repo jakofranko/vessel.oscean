@@ -92,10 +92,10 @@
 2016 07 11 - 39      Sailing              Writing
 2016 07 10
 2016 07 09 - 29      Sailing              Photography
-2016 07 08
-2016 07 07
+2016 07 08 - 25  113 Voynich              Illustration
+2016 07 07 - 25  143 Pearls               Modeling
 2016 07 06 - 15      Moonman              Composition
-2016 07 05
+2016 07 05 - 25  144 Pearls               Modeling
 2016 07 04 - 39      Pino                 Maintenance
 2016 07 03 - 38      Nataniev             Analytics
 2016 07 02 - 39      Pino                 Maintenance
