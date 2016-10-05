@@ -3,11 +3,11 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2015 09 05 - 17      Moonman              Composition
 2016 09 04 - 35      Pino                 Maintenance
 2016 09 03 - 35      Pino                 Maintenance
 2016 09 02 - 35      Pino                 Maintenance
 2015 09 01 - 14      Moonman              Composition
-2015 09 31 - 17      Moonman              Composition
 2015 09 30 - 16      Moonman              Composition
 2015 09 29 - 14      Moonman              Composition
 2015 09 28 - 39      Nataniev             Tools
