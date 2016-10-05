@@ -78,7 +78,7 @@ class Term
 
   def logs
 
-    @logs = @logs ? @logs : ( name.like("home") ? $horaire.filter("term","*","log") : $horaire.filter("term",name,"log"))
+    @logs = @logs ? @logs : ( name.like("home") || name.like("diary") ? $horaire.filter("term","*","log") : $horaire.filter("term",name,"log"))
     return @logs
 
   end
