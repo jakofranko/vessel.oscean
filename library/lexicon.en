@@ -530,6 +530,16 @@ ILLUSTRATION
   TYPE : Portal
   BREF : A collection of illustrated works.
 
+SKETCHBOOK
+  UNDE : Illustration
+  TYPE : Portal
+  BREF : From the sketchbook.
+
+FLACTALS
+  UNDE : Sketchbook
+  TYPE : Diary
+  BREF : Flowers.
+
 INTERACTIVE
   UNDE : Visual
   BREF : The {{Interactive}} Portal contains all the released interactive applications. The interactive project list contains various completed and unreleased experiments and games for iOS, desktop and browser.
@@ -1129,11 +1139,6 @@ THIRD WAVE
 TIME ALLOY
   UNDE : Polygonoscopy
   BREF : The {{Time Alloy}} is a series of {{Polygonoscopic|Polygonoscopy}} samples, taken from {{The sartre mechanism}}.
-  TYPE : Diary
-
-OGRE
-  UNDE : Polygonoscopy
-  BREF : Videographies of {{Serventines}}' {{Ogre}}-type  planets.
   TYPE : Diary
 
 TRAPEZOID

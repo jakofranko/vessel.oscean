@@ -3,6 +3,13 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 09 04 - 35      Pino                 Maintenance
+2016 09 03 - 35      Pino                 Maintenance
+2016 09 02 - 35      Pino                 Maintenance
+2015 09 01 - 14      Moonman              Composition
+2015 09 31 - 17      Moonman              Composition
+2015 09 30 - 16      Moonman              Composition
+2015 09 29 - 14      Moonman              Composition
 2015 09 28 - 39      Nataniev             Tools
 2015 09 27 - 21      Polygonoscopy        Modeling
 2015 09 26 - 21      Polygonoscopy        Modeling
@@ -26,7 +33,7 @@
 2016 09 08 - 37      Pino                 Maintenance
 2016 09 07 - 00 
 2016 09 06 - 37      Pino                 Maintenance
-2016 09 05 - 00 
+2016 09 05 - 15      Moonman              Composition
 2016 09 04 - 24   96 Markle               Design
 2016 09 03 - 35      Nataniev             Development
 2016 09 02 - 35      Nataniev             Tools
@@ -87,7 +94,7 @@
 2016 07 09 - 29      Sailing              Photography
 2016 07 08
 2016 07 07
-2016 07 06
+2016 07 06 - 15      Moonman              Composition
 2016 07 05
 2016 07 04 - 39      Pino                 Maintenance
 2016 07 03 - 38      Nataniev             Analytics
@@ -138,14 +145,14 @@
 2016 05 19 - 32      Nataniev             Development
 2016 05 18 - 34      Verreciel            Update               1.1
 2016 05 17 - 32      Verreciel            Development
-2016 05 16
+2016 05 16   16      Moonman              Composition
 2016 05 15 - 37      Nataniev             Development
 2016 05 14 - 39      Nataniev             Development
 2016 05 13 - 37      Verreciel            Development
 2016 05 12 - 37      Verreciel            Development
 2016 05 11 - 37      Verreciel            Analytics
 2016 05 10 - 19  171 Verreciel ost        Release              Verreciel Soundtrack
-2016 05 09
+2016 05 09 - 16      Moonman              Composition
 2016 05 08 - 14      Verreciel ost        Composition
 2016 05 07 - 19      Verreciel ost        Composition
 2016 05 06 - 29      Pino                 Branding
@@ -172,7 +179,7 @@
 2016 04 15 - 32      Lietal               Linguistics
 2016 04 14 - 38      Verreciel            Refactoring
 2016 04 13 ! 27   32 Polygore             Modeling             Trigore
-2016 04 12
+2016 04 12 - 16      Moonman              Composition
 2016 04 11 - 38      Verreciel            Refactoring
 2016 04 10 - 19      Verreciel ost        Composition
 2016 04 09 - 18      Hundred rabbits      Composition
@@ -188,7 +195,7 @@
 2016 03 30
 2016 03 29 - 27   37 Nervous              Modeling             Exhibit B
 2016 03 28 - 27   41 Nervous              Modeling             Exhibit A
-2016 03 27
+2016 03 27 - 17      Moonman              Composition
 2016 03 26
 2016 03 25 ! 26  495 Verreciel            Design               Eminence
 2016 03 24 - 18      Verreciel ost        Composition
@@ -201,7 +208,7 @@
 2016 03 17 - 15      Hundred rabbits      Composition
 2016 03 16
 2016 03 15 - 19      Portalion            Live
-2016 03 14
+2016 03 14 - 17      Moonman              Composition
 2016 03 13
 2016 03 12 - 34      Verreciel            Development
 2016 03 11 - 29      Verreciel            Development
@@ -525,11 +532,11 @@
 2015 04 28 - 17      Gaii                 Composition
 2015 04 27 - 17      Gaii                 Composition
 2015 04 26
-2015 04 25
+2015 04 25 - 25  112 Flactals             Illustration         Torazine
 2015 04 24 - 18      Extended sleep       Live
 2015 04 23 - 39  386 Talk                 Live                 Frameworks for Mysti  The full talk can be watched on {{Vimeo|https://vimeo.com/129368249}}, the slides can be downloaded from {{Github|https://github.com/neauoire/Talk-Amaze}}.
-2015 04 22
-2015 04 21
+2015 04 22 - 25  111 Flactals             Illustration         Nestorine
+2015 04 21 - 25  107 Flactals             Illustration         Coraline
 2015 04 20 - 28      Time alloy           Illustration
 2015 04 19 ! 00      Germany              Travel               Berlin
 2015 04 18 - 35      Horaire              Development
