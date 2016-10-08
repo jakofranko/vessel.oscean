@@ -244,10 +244,10 @@
 2016 02 11 - 25      Verreciel            Design
 2016 02 10 - 25      Verreciel            Design
 2016 02 09 - 25      Verreciel            Design
-2016 02 08 - 38      Traumae              Cryptography
-2016 02 07 - 38      Traumae              Linguistics
+2016 02 08 - 38      Lietal               Cryptography
+2016 02 07 - 38      Lietal               Linguistics
 2016 02 06 - 15      Verreciel            Composition
-2016 02 05 - 29  492 Flag                 Design               The Traumae Flag
+2016 02 05 - 29  492 Flag                 Design               The Lietal Flag
 2016 02 04 - 39      Blindfolk            Development
 2016 02 03 - 32      Blindfolk            Documentation
 2016 02 02 - 32      Blindfolk            Documentation
@@ -448,7 +448,7 @@
 2015 07 22 - 19      Trapezoid            Live
 2015 07 21 - 34      Den                  Tools
 2015 07 20 - 34      Den                  Tools
-2015 07 19 - 34      Traumae              Linguistics
+2015 07 19 - 34      Lietal               Linguistics
 2015 07 18 - 38      Verreciel            Development
 2015 07 17 - 36      Verreciel            Development
 2015 07 16 - 36      Verreciel            Tools
@@ -783,8 +783,8 @@
 2014 08 21 - 38  233 Ledoliel             Update               2.0
 2014 08 20 - 26      Kaleidoscope         Illustration         Warpnest of Polygono  Nest of the {{Polygonoscopal|Polygonoscopy}} Echoes.
 2014 08 19 ! 26  156 Kaleidoscope         Illustration         Ode, The Perfect Bei
-2014 08 18 - 35      Traumae              Linguistics
-2014 08 17 - 35      Traumae              Linguistics
+2014 08 18 - 35      Lietal               Linguistics
+2014 08 17 - 35      Lietal               Linguistics
 2014 08 16 - 26      Rafinograde          Development
 2014 08 15 - 26      Rafinograde          Development
 2014 08 14 - 26      Rafinograde          Development
@@ -863,8 +863,8 @@
 2014 06 02 - 35  117 Ledoliel                                  Strange Diplomacy
 2014 06 01 - 35      Nataniev             Development
 2014 05 31 - 35      Nataniev             Tools
-2014 05 30 - 34      Traumae              Tools
-2014 05 29 - 34      Traumae              Tools
+2014 05 30 - 34      Lietal               Tools
+2014 05 29 - 34      Lietal               Tools
 2014 05 28 - 29      Serventines          Modeling             Perce                 One of the more memorable shores of {{Serventines}}, a smaller hill had its core eaten.
 2014 05 27 - 29  248 Serventines          Modeling             Snailden
 2014 05 26 - 25      Brane                Illustration
@@ -1019,16 +1019,16 @@
 2013 12 28 - 29      Nataniev             Design
 2013 12 27
 2013 12 26
-2013 12 25 - 39      Traumae              Linguistics
+2013 12 25 - 39      Lietal               Linguistics
 2013 12 24 - 25      Oquonie              Design
 2013 12 23 - 25      Oquonie              Design
 2013 12 22 - 25      Oquonie              Design
-2013 12 21 - 34      Traumae              Linguistics
+2013 12 21 - 34      Lietal               Linguistics
 2013 12 20 - 34      Nataniev             Update
 2013 12 19 - 34      Oquonie              Development
-2013 12 18 - 34      Traumae              Linguistics
-2013 12 17 - 34      Traumae              Linguistics
-2013 12 16 - 34      Traumae              Linguistics
+2013 12 18 - 34      Lietal               Linguistics
+2013 12 17 - 34      Lietal               Linguistics
+2013 12 16 - 34      Lietal               Linguistics
 2013 12 15 - 34      Oquonie              Development
 2013 12 14 - 34      Nataniev             Update
 2013 12 13
@@ -1042,12 +1042,12 @@
 2013 12 05 - 39      Mute                 Tools
 2013 12 04 - 39      Mute                 Development
 2013 12 03 - 28      Nataniev             Update
-2013 12 02 - 36      Traumae              Linguistics
-2013 12 01 - 36      Traumae              Linguistics
+2013 12 02 - 36      Lietal               Linguistics
+2013 12 01 - 36      Lietal               Linguistics
 2013 11 30 - 36      Nataniev             Testing
 2013 11 29 - 36      Nataniev             Testing
-2013 11 28 - 36      Traumae              Development
-2013 11 27 - 36      Traumae              Cryptography
+2013 11 28 - 36      Lietal               Development
+2013 11 27 - 36      Lietal               Cryptography
 2013 11 26 - 36      Nataniev             Testing
 2013 11 25 - 36      Nataniev             Testing
 2013 11 24 - 39      Nataniev             Update
@@ -1084,7 +1084,7 @@
 2013 10 24 - 34      Nataniev             Development
 2013 10 23 - 34      Nataniev             Refactoring
 2013 10 22 - 34      Nataniev             Development
-2013 10 21 - 36      Traumae              Documentation
+2013 10 21 - 36      Lietal               Documentation
 2013 10 20 - 36      Nataniev             Refactoring
 2013 10 19 - 36      Nataniev             Refactoring
 2013 10 18 - 27      Oquonie              Design
@@ -1165,7 +1165,7 @@
 2013 08 04 - 39      Mute                 Development
 2013 08 03 - 36      Mute                 Development
 2013 08 02
-2013 08 01 - 37      Traumae              Linguistics
+2013 08 01 - 37      Lietal               Linguistics
 2013 07 31
 2013 07 30 - 35      Milavrega            Design
 2013 07 29 - 25      Milavrega            Design
@@ -1365,23 +1365,23 @@
 2013 01 16 - 15      Nor let the fools    Composition
 2013 01 15 - 15      Nor let the fools    Composition
 2013 01 14 - 15      Nor let the fools    Composition
-2013 01 13 - 35      Traumae              Documentation
+2013 01 13 - 35      Lietal               Documentation
 2013 01 12
 2013 01 11 - 15      Nor let the fools    Composition
-2013 01 10 - 35      Traumae              Documentation
-2013 01 09 - 35      Traumae              Documentation
+2013 01 10 - 35      Lietal               Documentation
+2013 01 09 - 35      Lietal               Documentation
 2013 01 08
 2013 01 07
 2013 01 06 - 25  166 Japan                Photography          Mt. Fuji
 2013 01 05
-2013 01 04 - 34      Traumae              Tools
-2013 01 03 - 35      Traumae              Tools
-2013 01 02 - 34      Traumae              Tools
+2013 01 04 - 34      Lietal               Tools
+2013 01 03 - 35      Lietal               Tools
+2013 01 02 - 34      Lietal               Tools
 2013 01 01 - 27  163 Infrared             Photography          Tokyo Infrared II
 2012 12 31 - 39      Nataniev             Development
-2012 12 30 - 39      Traumae              Linguistics
-2012 12 29 - 27      Traumae              Linguistics
-2012 12 28 - 39      Traumae              Linguistics
+2012 12 30 - 39      Lietal               Linguistics
+2012 12 29 - 27      Lietal               Linguistics
+2012 12 28 - 39      Lietal               Linguistics
 2012 12 27 - 39      Nataniev             Tools
 2012 12 26
 2012 12 25
@@ -1389,9 +1389,9 @@
 2012 12 23 - 35      Nataniev             Design
 2012 12 22 - 35      Nataniev             Tools
 2012 12 21 - 35      Nataniev             Development
-2012 12 20 - 39      Traumae              Documentation
-2012 12 19 - 39      Traumae              Cryptography
-2012 12 18 - 39      Traumae              Documentation
+2012 12 20 - 39      Lietal               Documentation
+2012 12 19 - 39      Lietal               Cryptography
+2012 12 18 - 39      Lietal               Documentation
 2012 12 17 - 25      Merveilles portable  Layout
 2012 12 16 - 25      Merveilles portable  Layout
 2012 12 15
@@ -1401,11 +1401,11 @@
 2012 12 11 - 35  110 Yearly               Writing              MMXII
 2012 12 10
 2012 12 09
-2012 12 08 - 35      Traumae              Documentation
-2012 12 07 - 35      Traumae              Cryptography
+2012 12 08 - 35      Lietal               Documentation
+2012 12 07 - 35      Lietal               Cryptography
 2012 12 06
-2012 12 05 - 35      Traumae              Documentation
-2012 12 04 - 35      Traumae              Cryptography
+2012 12 05 - 35      Lietal               Documentation
+2012 12 04 - 35      Lietal               Cryptography
 2012 12 03
 2012 12 02
 2012 12 01 - 38      Nataniev             Development
@@ -1462,7 +1462,7 @@
 2012 10 11 - 17      To The Aeons Hell    Composition
 2012 10 10 - 27      Waiting for horus    Testing
 2012 10 09 - 28      Ehrivevnv Studies    Composition
-2012 10 08 - 32      Traumae              Documentation
+2012 10 08 - 32      Lietal               Documentation
 2012 10 07 - 29      Waiting for horus    Testing
 2012 10 06 - 29      Waiting for horus    Testing
 2012 10 05 - 25  220 Waiting for horus    Design               Mar
@@ -1510,15 +1510,15 @@
 2012 08 24 - 16      Waiting for horus    Composition
 2012 08 23 - 18      Waiting for horus    Composition
 2012 08 22 - 25      Waiting for horus    Design
-2012 08 21 - 37      Traumae              Linguistics
+2012 08 21 - 37      Lietal               Linguistics
 2012 08 20 - 25      Waiting for horus    Design
 2012 08 19 - 25      Waiting for horus    Design
 2012 08 18
 2012 08 17 - 15      Sombre               Mixing               Sombre
-2012 08 16 - 39      Traumae              Linguistics
-2012 08 15 - 39      Traumae              Linguistics
-2012 08 14 - 39      Traumae              Cryptography
-2012 08 13 - 39      Traumae              Linguistics
+2012 08 16 - 39      Lietal               Linguistics
+2012 08 15 - 39      Lietal               Linguistics
+2012 08 14 - 39      Lietal               Cryptography
+2012 08 13 - 39      Lietal               Linguistics
 2012 08 12 - 32      Nataniev             Development
 2012 08 11 - 32      Nataniev             Development
 2012 08 10 - 32      Nataniev             Development
@@ -1539,7 +1539,7 @@
 2012 07 26
 2012 07 25
 2012 07 24
-2012 07 23 - 35      Traumae              Documentation
+2012 07 23 - 35      Lietal               Documentation
 2012 07 22 - 35      Neauismetica         Writing
 2012 07 21 - 25      Infrared             Photography
 2012 07 20
@@ -1584,13 +1584,13 @@
 2012 06 11 - 15      To The Aeons Hell    Composition
 2012 06 10 - 15      To The Aeons Hell    Composition
 2012 06 09 - 19      To The Aeons Hell    Composition
-2012 06 08 - 35      Traumae              Documentation
+2012 06 08 - 35      Lietal               Documentation
 2012 06 07 - 39      Nataniev             Development
 2012 06 06 - 25      Pico battle          Design
-2012 06 05 - 35      Traumae              Documentation
+2012 06 05 - 35      Lietal               Documentation
 2012 06 04 - 25  150 Artwork              Illustration         Hydro74 Remix
 2012 06 03 - 25      Pico battle          Design
-2012 06 02 - 25      Traumae              Cryptography
+2012 06 02 - 25      Lietal               Cryptography
 2012 06 01 - 25      Diluvium             Design
 2012 05 31 - 25      Artwork              Illustration
 2012 05 30
@@ -1630,28 +1630,28 @@
 2012 04 26
 2012 04 25
 2012 04 24
-2012 04 23 - 35      Traumae              Development
+2012 04 23 - 35      Lietal               Development
 2012 04 22 - 25      Waiting for horus    Design
-2012 04 21 - 35      Traumae              Linguistics
-2012 04 20 - 35      Traumae              Linguistics
+2012 04 21 - 35      Lietal               Linguistics
+2012 04 20 - 35      Lietal               Linguistics
 2012 04 19 - 15  266 Sombre               Mixing               New Mixtape
-2012 04 18 - 35      Traumae              Cryptography
-2012 04 17 - 35      Traumae              Cryptography
+2012 04 18 - 35      Lietal               Cryptography
+2012 04 17 - 35      Lietal               Cryptography
 2012 04 16 - 35      Nataniev             Development
 2012 04 15
 2012 04 14 - 25      Waiting for horus    Design
-2012 04 13 - 34      Traumae              Linguistics
+2012 04 13 - 34      Lietal               Linguistics
 2012 04 12 - 15      Waiting for horus    Composition
 2012 04 11 - 19  140 Children of bramble  Release              Release
-2012 04 10 - 35      Traumae              Development
+2012 04 10 - 35      Lietal               Development
 2012 04 09 - 28      Interactive
-2012 04 08 - 35      Traumae              Tools
+2012 04 08 - 35      Lietal               Tools
 2012 04 07 - 19      Vetetrandes lettres  Live                 Neurodance - Toronto
-2012 04 06 - 35      Traumae              Tools
-2012 04 05 - 35      Traumae              Tools
-2012 04 04 - 35      Traumae              Tools
-2012 04 03 - 35      Traumae              Documentation
-2012 04 02 - 35      Traumae              Documentation
+2012 04 06 - 35      Lietal               Tools
+2012 04 05 - 35      Lietal               Tools
+2012 04 04 - 35      Lietal               Tools
+2012 04 03 - 35      Lietal               Documentation
+2012 04 02 - 35      Lietal               Documentation
 2012 04 01 - 15      Children of bramble  Composition
 2012 03 31
 2012 03 30
@@ -1677,7 +1677,7 @@
 2012 03 10 - 29   95 Hex hive necklace    Design               Hex Hive Necklace
 2012 03 09
 2012 03 08 - 25   31 Spool holder         Design               PP3DP 1kg Spool Hold
-2012 03 07 - 35      Traumae              Documentation
+2012 03 07 - 35      Lietal               Documentation
 2012 03 06 - 25   30 Spagettini scale     Design               Spagettini Scale
 2012 03 05 - 29   68 Nataniev             Development          A Ghost in Paradise
 2012 03 04 - 35  100 Nataniev             Illustration         Lost in Paradise
@@ -1699,7 +1699,7 @@
 2012 02 17 - 25      Waiting for horus    Design
 2012 02 16 - 25      Waiting for horus    Design
 2012 02 15 - 25      Waiting for horus    Design
-2012 02 14 - 25      Traumae              Typography
+2012 02 14 - 25      Lietal               Typography
 2012 02 13 - 35      Nataniev             Tools
 2012 02 12 ! 17   27 Es gulf sunflowers   Release              Es Gulfs'Sunflowers
 2012 02 11 - 19      Es gulf sunflowers   Live                 Toy Company - Jack &
@@ -1756,20 +1756,20 @@
 2011 12 22 - 25                           Design
 2011 12 21 - 25      Merveilles portable  Testing
 2011 12 20 - 35      Merveilles portable  Testing
-2011 12 19 - 35      Traumae              Linguistics
+2011 12 19 - 35      Lietal               Linguistics
 2011 12 18 ! 15    3 From Saharaphorest   Release              From Saharaphorest  
 2011 12 17 - 19      Es gulf sunflowers   Live                 8Bit Noel - Montreal
 2011 12 16 - 25                           Design
-2011 12 15 - 35      Traumae              Typography
-2011 12 14 - 35      Traumae              Linguistics
+2011 12 15 - 35      Lietal               Typography
+2011 12 14 - 35      Lietal               Linguistics
 2011 12 13 - 19      Collected works      Composition
 2011 12 12 - 25      Artwork              Illustration
 2011 12 11 - 25   94 Septambres           Typography           Septambres Mini
-2011 12 10 - 35      Traumae              Linguistics
-2011 12 09 - 35      Traumae              Linguistics
-2011 12 08 - 35      Traumae              Linguistics
-2011 12 07 - 35      Traumae              Linguistics
-2011 12 06 - 35      Traumae              Linguistics
+2011 12 10 - 35      Lietal               Linguistics
+2011 12 09 - 35      Lietal               Linguistics
+2011 12 08 - 35      Lietal               Linguistics
+2011 12 07 - 35      Lietal               Linguistics
+2011 12 06 - 35      Lietal               Linguistics
 2011 12 05 - 15      From Saharaphorest   Composition
 2011 12 04
 2011 12 03 - 19      Es gulf sunflowers   Live                 Neurodance - Toronto
@@ -1781,14 +1781,14 @@
 2011 11 27 - 15      From Saharaphorest   Composition
 2011 11 26 - 35      Neauismetica                              Nanowrimo
 2011 11 25 - 35      Nataniev             Development
-2011 11 24 - 35      Traumae              Documentation
+2011 11 24 - 35      Lietal               Documentation
 2011 11 23 - 35      Nataniev             Development
 2011 11 22 - 35      Nataniev             Development
-2011 11 21 - 35      Traumae              Documentation
-2011 11 20 - 35      Traumae              Documentation
-2011 11 19 - 35      Traumae              Documentation
-2011 11 18 - 35      Traumae              Documentation
-2011 11 17 - 35      Traumae              Documentation
+2011 11 21 - 35      Lietal               Documentation
+2011 11 20 - 35      Lietal               Documentation
+2011 11 19 - 35      Lietal               Documentation
+2011 11 18 - 35      Lietal               Documentation
+2011 11 17 - 35      Lietal               Documentation
 2011 11 16 - 25      Merveilles portable  Testing
 2011 11 15 - 25      Merveilles portable  Testing
 2011 11 14 - 25      Merveilles portable  Testing
@@ -1820,18 +1820,18 @@
 2011 10 19
 2011 10 18
 2011 10 17 - 35      Nataniev             Design
-2011 10 16 - 35      Traumae              Documentation
-2011 10 15 - 25      Traumae              Design
-2011 10 14 - 35      Traumae              Documentation
-2011 10 13 - 35      Traumae              Documentation
-2011 10 12 - 35      Traumae              Documentation
+2011 10 16 - 35      Lietal               Documentation
+2011 10 15 - 25      Lietal               Design
+2011 10 14 - 35      Lietal               Documentation
+2011 10 13 - 35      Lietal               Documentation
+2011 10 12 - 35      Lietal               Documentation
 2011 10 11 - 25      Merveilles portable  Design
 2011 10 10
 2011 10 09
 2011 10 08
 2011 10 07
-2011 10 06 - 35      Traumae              Documentation
-2011 10 05 - 35      Traumae              Documentation
+2011 10 06 - 35      Lietal               Documentation
+2011 10 05 - 35      Lietal               Documentation
 2011 10 04 - 15      From Saharaphorest   Composition
 2011 10 03 - 39   81 Nataniev             Development          Started Modules
 2011 10 02 - 25
@@ -1843,7 +1843,7 @@
 2011 09 26 - 35      Nataniev             Development
 2011 09 25 ! 15   89 The Sixth Season     Release              The Sixth Season    
 2011 09 24 - 19      The Sixth Season     Live                 Neu Installation - T
-2011 09 23 - 25      Traumae              Documentation
+2011 09 23 - 25      Lietal               Documentation
 2011 09 22 - 25      Artwork              Illustration
 2011 09 21 - 25      Artwork              Illustration
 2011 09 20 - 35      Nataniev             Tools
@@ -1958,14 +1958,14 @@
 2011 06 03
 2011 06 02 - 19   78 Vermillionth         Release              Vermillionth
 2011 06 01 - 19      Vermillionth         Composition
-2011 05 31 - 35      Traumae              Documentation
-2011 05 30 - 35      Traumae              Documentation
-2011 05 29 - 35      Traumae              Documentation
+2011 05 31 - 35      Lietal               Documentation
+2011 05 30 - 35      Lietal               Documentation
+2011 05 29 - 35      Lietal               Documentation
 2011 05 28 - 15      Mixtape              Mixing               Alife
 2011 05 27 - 19      Vermillionth         Composition
-2011 05 26 - 35      Traumae              Documentation
-2011 05 25 - 25      Traumae              Documentation
-2011 05 24 - 25      Traumae              Documentation
+2011 05 26 - 35      Lietal               Documentation
+2011 05 25 - 25      Lietal               Documentation
+2011 05 24 - 25      Lietal               Documentation
 2011 05 23 - 19  158 The Sixth Season     Live                 Kinetik Festival 201
 2011 05 22 - 25      To The Aeons Hell    Composition
 2011 05 21 - 25      To The Aeons Hell    Composition
@@ -1979,7 +1979,7 @@
 2011 05 13 - 29      Collegiennes         Design
 2011 05 12 - 19      Vermillionth         Rehearsal
 2011 05 11 - 19      Vermillionth         Rehearsal
-2011 05 10 - 35      Traumae              Documentation
+2011 05 10 - 35      Lietal               Documentation
 2011 05 09 - 19      Vermillionth         Composition
 2011 05 08 - 35      Nataniev             Tools
 2011 05 07
@@ -2026,7 +2026,7 @@
 2011 03 27 - 35      Nataniev             Design
 2011 03 26 - 39      Nataniev             Design
 2011 03 25 - 25      Drownspire
-2011 03 24 - 35      Traumae              Documentation
+2011 03 24 - 35      Lietal               Documentation
 2011 03 23
 2011 03 22 ! 17  370 Aliceffekt           Writing              Photo Shoot
 2011 03 21 - 25      Merveilles portable  Design
@@ -2051,8 +2051,8 @@
 2011 03 02 - 25   51 Czech                Photography
 2011 03 01
 2011 02 28 - 25   58 Septambres           Typography           Septambres Neau
-2011 02 27 - 25      Traumae              Typography
-2011 02 26 - 25      Traumae              Typography
+2011 02 27 - 25      Lietal               Typography
+2011 02 26 - 25      Lietal               Typography
 2011 02 25 - 35      Nataniev             Design
 2011 02 24 - 25      Merveilles portable  Design
 2011 02 23 - 25      Merveilles portable  Design
@@ -2093,7 +2093,7 @@
 2011 01 19 - 15      Mixtape              Mixing               Tunnel
 2011 01 18 - 35      Nataniev             Design
 2011 01 17 - 25      Nataniev             Design
-2011 01 16 - 25      Traumae              Typography
+2011 01 16 - 25      Lietal               Typography
 2011 01 15 - 15      To The Aeons Hell    Composition
 2011 01 14 - 35      Nataniev             Development
 2011 01 13 - 35      Nataniev             Development
@@ -2150,7 +2150,7 @@
 2010 11 23 - 35      Nataniev             Development
 2010 11 22
 2010 11 21 - 35                           Prototype
-2010 11 20 - 25      Traumae              Typography
+2010 11 20 - 25      Lietal               Typography
 2010 11 19
 2010 11 18 - 35      Nataniev             Development
 2010 11 17
@@ -2247,7 +2247,7 @@
 2010 08 18 - 25      Pico
 2010 08 17 - 25      Merure               Design
 2010 08 16 - 25      Drownspire
-2010 08 15 - 35      Traumae              Documentation
+2010 08 15 - 35      Lietal               Documentation
 2010 08 14
 2010 08 13 ! 25   79 Vambits              Design               Vambits, Gen I
 2010 08 12
@@ -2309,8 +2309,8 @@
 2010 06 17 - 35      Nataniev             Prototype
 2010 06 16 - 35      Zjeveni              Design
 2010 06 15 - 35      Zjeveni              Design
-2010 06 14 - 35      Traumae              Documentation
-2010 06 13 - 35      Traumae              Documentation
+2010 06 14 - 35      Lietal               Documentation
+2010 06 13 - 35      Lietal               Documentation
 2010 06 12
 2010 06 11
 2010 06 10
@@ -3489,7 +3489,7 @@
 2007 03 25
 2007 03 24
 2007 03 23
-2007 03 22 - 35   76 Traumae              Documentation        Composing Words
+2007 03 22 - 35   76 Lietal               Documentation        Composing Words
 2007 03 21
 2007 03 20
 2007 03 19
