@@ -3,6 +3,8 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 10 08 - 34      Nataniev             Development
+2016 10 07 - 37      Nataniev             Development
 2016 10 06 - 29      Hundred rabbits      Video
 2015 10 05 - 17      Moonman              Composition
 2016 10 04 - 35      Pino                 Maintenance
