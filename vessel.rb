@@ -9,6 +9,7 @@ class Oscea
 
     include CorpseHttp
 
+    attr_accessor :path
     attr_accessor :term
     attr_accessor :horaire
     attr_accessor :lexicon
@@ -95,11 +96,12 @@ class Oscea
 
       # Corpse
 
-      corpse = Corpse.new(@query)      
-      corpse.term = $lexicon.filter("term",@query,"term")
-      corpse.horaire = Di.new("horaire",path)
-      corpse.lexicon = En.new("lexicon",path)
-      corpse.title = "XXIIVV ∴ #{corpse.term.name}"
+      corpse         = Corpse.new(@query)      
+      corpse.term    = $lexicon.filter("term",@query,"term")
+      corpse.horaire = $horaire
+      corpse.lexicon = $lexicon
+      corpse.title   = "XXIIVV ∴ #{corpse.term.name}"
+      corpse.path    = path
 
       load_any "#{path}/pages",   @query
       load_any "#{path}/modules", @query
