@@ -1044,12 +1044,6 @@ SUPERVISITOR
     BAND : https://aliceffekt.bandcamp.com/album/supervisitor
     ITUN : iTunes|https://itunes.apple.com/ca/album/supervisitor-ep/id951144870
 
-TALK
-  UNDE : Research
-  BREF : These talks were created as periodical research dumps, often gravitating around the topics of the {{hexagrammaton|Nataniev
-  }} and {{Horaire}}.
-  TYPE : Diary
-
 TARPOPHOBIA
   UNDE : Polygonoscopy
   BREF : {{Tarpophobia}} is the fear of seeing yourself fractalized onto reflective surfaces, especially onto eyes.
@@ -1079,7 +1073,7 @@ TEN AXITECTURE
 
 EHRIVEVNV STUDIES
   UNDE : Third wave
-  BREF : This album was composed for and performed at <a href='105'>Blip Festival Tokyo</a> on October 21st 2012 and reissued on april 15th 2013, including some changes from the <a href=''>Melbourne Squaresound Show</a>. Exploring new aesthetics and sounds, this highly melodic releases reaches into IDM and glitch while keeping some of the Aliceffekt compositions. Whilst the album displays a series of light hearted songs, its title and cover are showing a moment in the <a href='Neauismetical+timeline'>27th season</a> when <a href='Vetetrandes'>Vetetrandes</a> was at it's worse. 
+  BREF : This album was composed for and performed at <a href='105'>Blip Festival Tokyo</a> on October 21st 2012 and reissued on april 15th 2013, including some changes from the <a href=''>Melbourne Squaresound Show</a>. Exploring new aesthetics and sounds, this highly melodic releases reaches into IDM and glitch while keeping some of the Aliceffekt compositions. Whilst the album displays a series of light hearted songs, its title and cover are showing a moment in the <a href='Neauismetical+timeline'>27th season</a> when {{Vetetrandes}} was at it's worse. 
   LONG
     & The Processing source files for the <a href='http://www.youtube.com/watch?v=9vA3HI9kuaE&feature=youtu.be'>Blip Festival performance</a> are available for download on the <a href='105'>project page</a>.
     & The track names contains encrypted Lietal</a>. The first track is decrypted into "<a href='Simkin'>Simkin</a> <a href='Kamsi'>Kamsi</a>" and can be translated to {_Time Structure_}, refering to The Library of Sand. The second track, "<a href='Xomsinsom'>Xomsinsom</a> <a href='kim'>Kim</a> <a href='Yajnev'>Yajnev</a>", can be translated to {_Yajnev's Curse_} and refers to the short <a href='082'>Yajnev's Thoughts</a>. The third track is titled "<a href='Ko'>Ko</a> <a href='sokamxi'>Sokamxi</a>" which simply means {_The Impossible Exploration_}.
@@ -1522,11 +1516,41 @@ VAMBITS
 
 ~ Segments
 
+SEGMENT
+  UNDE : Research
+  BREF : Various notes written as shorts.
+  TYPE : Text
+
 LANGUAGE OF THE BIRDS
   UNDE : Segment
-  BREF : I have been pondering what a conceptually perfect {{language}} could look like; a language so precise that it fully expresses an idea in all its infinite details.
+  BREF : Immortals speak not with words<br />But wait for things to happen<br />And merely points at them.
+
+PAPER SCISSORS
+  UNDE : Segment
+  BREF : Our most soffisticated Artificial Intelligence plays a million games of Rock Paper Sissors, against itself. <br />It soon develops a framework for complex speech, only to lie to its opponent self.
+
+~ Shorts
+
+NOTES
+  UNDE : Research
+  BREF : Various notes written as stories.
+  TYPE : Text
+
+THE SARTRE MECHANISM
+  UNDE : Notes
+  BREF : It was just three days before Christmas when my friend invited me to his workshop to witness the completion of his latest project, sold to me as a {_perfection of design_}. 
   LONG
-    & Immortals speak not with words<br />But wait for things to happen<br />And merely points at them.
+    & Crouched over a small heap of cogs, he did not look over as I hung my snow-covered coat on something that, by the look of it, might very well be a time machine. His gaze turned for a moment, perhaps to make sure that I did not break anything as I navigated the hoarded studio.
+    & What I first perceived as a pile of junk from afar, turned out to be an upmost beautiful clock, but where the needles would have been, a small hand rested at the tip of a short metallic arm.
+    & Its maker held a minuscule weight above the tiny hand, before carefully laying it onto the opened palm. Whirring and clicking into life, a second arm emerged and plucked a gear out of its entrails and laid it back into the toolbox at its side. In controlled gestures, activated by the weight, tiny arms dismantled bolts and screws, while carefully putting them in that toolbox, gradually taking the casing of the mechanism apart, leaving its core exposed.
+    & I started in silent awe, to the busy mechanical concerto, playing its requiem. The arms eventually began to reach inside the mechanism, unbuilding its core, growing weaker as it dismantled the heavier components and moved them back into the toolbox. This obscene ritual of disembowelment and exposé on pointlessness ended as the tiny arms and the weight had fallen back into the toolbox.
+    & The machine was indeed truly perfect. 
+    & {_Originally written by {{Voidshaper|https://twitter.com/voidshaper}}, <br />Edited by {{Devine Lu Linvega}}_}
+
+RATIONALITY
+  UNDE : Notes
+  BREF : Notes on rationality, compiled from LessWrong and other sources.
+  TYPE : Ladder
 
 ~ Language
 
@@ -1542,7 +1566,7 @@ JAPANESE
 
 RUSSIAN
   UNDE : Language
-  BREF : This page is currently used to store hours invested in learning {{Japanese}}. It will, hopefully, become a series of notes on the language at some point in time.
+  BREF : This page is currently used to store hours invested in learning {{Russian}}. It will, hopefully, become a series of notes on the language at some point in time.
 
 LIETAL
   UNDE : Language
@@ -1594,13 +1618,34 @@ RESEARCH
   BREF : Various entries on topics gravitating around a philosophy of bettering through an improvement of language and informatics. These sections may contains incomplete, broken or deprecated articles.
   TYPE : Portal
 
+TALK
+  UNDE : Research
+  BREF : These talks were created as periodical research dumps, often gravitating around the topics of the {{hexagrammaton|Nataniev
+  }} and {{Horaire}}.
+  TYPE : Diary
+
+~ Utope
+
+UTOPE
+  UNDE : Research
+  BREF : Tools to the {{Utope}}.
+  LONG
+    & Work in progress.
+    - Spoken Language: {{Lietal}}
+    - Calendar Format: {{Desamber}}
+    - Time Format: {{Clock}}(Rename)
+    - Political System: {{Gamme}}
+    - Thought System: {{Bayesianism}}
+
+~ Tools
+
 TOOLS
   UNDE : Research
   BREF : A list of tools that exists within {{Nataniev}}.
   TYPE : Portal
 
 SHORTHAND
-  UNDE : Language
+  UNDE : Tools
   BREF : Notebook and after notebook, I fill pages of notes, ideas and to-dos. When presented with {{the idea of shorthand|http://theatlantic.com/technology/archive/2014/06/yeah-i-still-use-shorthand-and-a-smartpen/373281/}}, I saw immediate practical application.
   LONG
     * The idea is simple, writing faster. 
@@ -1631,29 +1676,3 @@ DESAMBER
     # 13 Tridesamber
   LINK
     GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
-
-SEGMENT
-  UNDE : Research
-  BREF : Various notes written as shorts.
-  TYPE : Text
-
-NOTES
-  UNDE : Research
-  BREF : Various notes written as stories.
-  TYPE : Text
-
-THE SARTRE MECHANISM
-  UNDE : Notes
-  BREF : It was just three days before Christmas when my friend invited me to his workshop to witness the completion of his latest project, sold to me as a {_perfection of design_}. 
-  LONG
-    & Crouched over a small heap of cogs, he did not look over as I hung my snow-covered coat on something that, by the look of it, might very well be a time machine. His gaze turned for a moment, perhaps to make sure that I did not break anything as I navigated the hoarded studio.
-    & What I first perceived as a pile of junk from afar, turned out to be an upmost beautiful clock, but where the needles would have been, a small hand rested at the tip of a short metallic arm.
-    & Its maker held a minuscule weight above the tiny hand, before carefully laying it onto the opened palm. Whirring and clicking into life, a second arm emerged and plucked a gear out of its entrails and laid it back into the toolbox at its side. In controlled gestures, activated by the weight, tiny arms dismantled bolts and screws, while carefully putting them in that toolbox, gradually taking the casing of the mechanism apart, leaving its core exposed.
-    & I started in silent awe, to the busy mechanical concerto, playing its requiem. The arms eventually began to reach inside the mechanism, unbuilding its core, growing weaker as it dismantled the heavier components and moved them back into the toolbox. This obscene ritual of disembowelment and exposé on pointlessness ended as the tiny arms and the weight had fallen back into the toolbox.
-    & The machine was indeed truly perfect. 
-    & {_Originally written by {{Voidshaper|https://twitter.com/voidshaper}}, <br />Edited by {{Devine Lu Linvega}}_}
-
-RATIONALITY
-  UNDE : Notes
-  BREF : Notes on rationality, compiled from LessWrong and other sources.
-  TYPE : Ladder
