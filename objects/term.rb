@@ -48,7 +48,15 @@ class Term
   def type
 
     if !@TYPE then return nil end
-    return @TYPE.downcase.capitalize
+    return @TYPE.split(" ").first.downcase.capitalize
+
+  end
+
+  def type_value
+
+    if !@TYPE then return nil end
+    if !@TYPE.include?(" ") then return nil end
+    return @TYPE.sub(type,"").strip.downcase.capitalize
 
   end
 

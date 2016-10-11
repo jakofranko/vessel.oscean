@@ -3,6 +3,8 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 10 11 - 35      Nataniev             Development
+2016 10 10 - 34      Pino                 Maintenance
 2016 10 09 - 38      Lietal               Linguistics
 2016 10 08 - 37      Nataniev             Development
 2016 10 07 - 00      America              Travel               Los Angeles
