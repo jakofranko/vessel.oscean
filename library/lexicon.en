@@ -15,6 +15,11 @@ ADVENT V
     TWTR : https://twitter.com/adventvrecall
     GITH : https://github.com/XXIIVV/instance.adven
 
+APPEAL
+  UNDE : Nereid
+  BREF : A new series of profiles of {{Nereid}}'s {{Beauty}} patients.
+  TYPE : Diary
+
 AGEING
   UNDE : Nereid
   BREF : {{Ageing}} is a special tribute to {{Jesse Kanda|http://www.jessekanda.com}}'s works, from the {{Beauty}} & {{Appeal}} series.
@@ -37,11 +42,6 @@ ANN YOZORA SAINT
   UNDE : First wave
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/ann-yozora-saint
-
-APPEAL
-  UNDE : Nereid
-  BREF : A new series of profiles of {{Nereid}}'s {{Beauty}} patients.
-  TYPE : Diary
 
 POLYGORE
   UNDE : Nereid
@@ -182,15 +182,6 @@ DESKTOP
 DEATH
   UNDE : Devine lu linvega
   BREF : Inspired from Chris Crawford's Jars, these cells shows my life span with a cell for each week.
-
-DIARY
-  UNDE : Nataniev
-
-HORAIRE
-  UNDE : Nataniev
-
-PORTAL
-  UNDE : Nataniev
 
 DEW
   UNDE : Mobile
@@ -426,10 +417,12 @@ EXTENDED SLEEP
 
 FIRST AID LAST AID
   UNDE : First wave
+  FLAG : Todo
 
 FIRST WAVE
   UNDE : Aliceffekt
   TYPE : Portal
+  FLAG : Todo
 
 FLOWERS
   UNDE : Artwork
@@ -442,6 +435,7 @@ FLOWERS
 FOURTH WAVE
   UNDE : Aliceffekt
   TYPE : Portal
+  FLAG : Todo
 
 FROM SAHARAPHOREST
   UNDE : Second wave
@@ -465,6 +459,7 @@ GERMANY
 
 GONE PLAINS
   UNDE : First wave
+  FLAG : Todo
 
 HEX HIVE NECKLACE
   UNDE : Physical
@@ -491,6 +486,7 @@ HOME
 
 HOWLS VIRGIL SYSTEMS
   UNDE : First wave
+  FLAG : Todo
 
 HUNDRED RABBITS
   UNDE : Hundred rabbits
@@ -540,11 +536,12 @@ FLACTALS
 PEARLS
   UNDE : Nereid
   TYPE : Diary
-  BREF : Looking into the infinitely veilt.
+  BREF : Looking into the infinitely veiled.
 
 VOYNICH
   UNDE : Code
   BREF : Notes on Voynich Manuscript. 
+  FLAG : Todo
 
 INTERACTIVE
   UNDE : Visual
@@ -577,6 +574,7 @@ KNOWN MAGYE
 VERT KIRLIAN THEATRE
   UNDE : First wave
   BREF : This album was written entirely in the {{Yamanote line|http://en.wikipedia.org/wiki/Yamanote_Line}}, during my first trip to Tokyo, {{Japan}}.
+  FLAG : Todo
 
 LEDOLIEL
   UNDE : Mobile
@@ -594,6 +592,7 @@ LOOKING GLACE
 
 LUS FLORAL FUNERALIS
   UNDE : First wave
+  FLAG : Todo
 
 GAII
   UNDE : Audio
@@ -630,6 +629,7 @@ METHASCOPE
 MILAVREGA
   UNDE : Unreleased
   BREF : {{Milavrega}} is an {{unreleased}} mobile game happening in someone's lost phone. You must try and find your way through the folders, emails and contacts to decypher the enigma of the phone's owner.
+  FLAG : Todo
 
 MILAVREGARIAN
   UNDE : Typography
@@ -752,6 +752,7 @@ NEREID
 
 NETHER ESPER INSERTS
   UNDE : First wave
+  FLAG : Todo
 
 NOIRCA
   UNDE : Mobile
@@ -870,7 +871,7 @@ MARKLE
     & More details shortly.
   LINK
     SITE : http://100r.co/projects
-  FLAG : TODO
+  FLAG : Todo
 
 THE SIXTH SEASON
   UNDE : Second wave
@@ -882,9 +883,11 @@ THE SIXTH SEASON
 
 OTOROUTES MINIATURES
   UNDE : First wave
+  FLAG : Todo
 
 PEDESTRIAN PARADISE
   UNDE : First wave
+  FLAG : Todo
 
 PHYSICAL
   UNDE : Visual
@@ -972,6 +975,7 @@ LARD SHADER
 
 REGIONSTEAM SNOWDAYS
   UNDE : First wave
+  FLAG : Todo
 
 REMIX
   UNDE : Audio
@@ -994,6 +998,7 @@ RENL MOONS
   UNDE : Nereid
   BREF : There are four orbiting moons above {{Serventines}}.
   TYPE : Diary
+  FLAG : Todo
 
 RING OF SCALES
   UNDE : Physical
@@ -1004,6 +1009,7 @@ RING OF SCALES
 SECOND WAVE
   UNDE : Aliceffekt
   TYPE : Portal
+  FLAG : Todo
 
 SEPTAMBRES
   UNDE : Typography
@@ -1019,6 +1025,7 @@ SERVENTINES
 SHIKANOKOA VS 1H1D
   UNDE : First wave
   BREF : Live recording of a show.
+  FLAG : Todo
 
 SISEON
   UNDE : Desktop
@@ -1027,12 +1034,14 @@ SISEON
 SPAGETTINI SCALE
   UNDE : Physical
   BREF : This scale was featured on the <a href='http://www.makerbot.com/blog/2012/03/20/spaghetti-scale-by-aliceffekt/'>Makerbot Blog</a> and should help you always cook the right quantity of pasta.
+  FLAG : Todo
 
 SPOOL HOLDER
   UNDE : Physical
   BREF : This spool holder works with the <a href='http://www.pp3dp.com'>PP3DP Printer</a> and should allow you to fit a larger spool on your printer.
   LINK
     SITE : http://www.thingiverse.com/thing:18833
+  FLAG : Todo
 
 SUPERVISITOR
   UNDE : Fourth wave
@@ -1135,6 +1144,7 @@ DEFINITIST
 THIRD WAVE
   UNDE : Aliceffekt
   TYPE : Portal
+  FLAG : Todo
 
 TIME ALLOY
   UNDE : Polygonoscopy
@@ -1177,6 +1187,7 @@ VERMILLIONTH
   UNDE : First wave
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/vermillionth
+  FLAG : Todo
 
 VERRECIEL
   UNDE : Mobile
@@ -1231,6 +1242,7 @@ VOLKENESSEN
 WAITING FOR HORUS
   UNDE : Desktop
   BREF : Waiting for Horus was a fast paced multiplayer arena type 3rd person shooter.
+  FLAG : Todo
 
 WALLPAPER
   UNDE : Visual
@@ -1240,6 +1252,7 @@ WALLPAPER
 ZJEVENI
   UNDE : Desktop
   BREF : {{Zjeveni}} is one of my earliest experimental Unity games. This third person exploration game is simply about climbing to the high points of the structure.
+  FLAG : Todo
 
 ~ Nataniev
   
@@ -1330,26 +1343,32 @@ DINAISTH
   UNDE : Neauismetica
   TYPE : Text
   BREF : {{Dinaisth}} is both the name of a {_marble_}, and that of the continent arbouring the Offices of the {{Immortal Birds}} in the {{Neauismetica}}. 
+  FLAG : Todo
 
 NEAU
   UNDE : Dinaisth
   BREF : Notable for its blue rooftops, the circular city displays a tall spire at its center. The city lends its name to the {{Neauismetica}} for it was the origin of all life in Dinaisth and the first sighting of {{Lietal}}. The city exists at the center of the vast ocean of {_Kanikule_}.
+  FLAG : Todo
 
 KANIKULE
   UNDE : Dinaisth
   BREF : Being an infinite cyan space, an immortal will spend an infitite amount of time crossing the ocean, effectively reaching the outer-shores mortal. Reaching the island, coming from the outtet-shores is not feasable.
+  FLAG : Todo
 
 LAEISTH
   UNDE : Dinaisth
   BREF : The warm desert of {_Dinaisth_} is host to the {{Rlionn|Immortal Birds}} Oasis, a blackened ditch home to the mortal clones of its violent host. 
+  FLAG : Todo
 
 VETETRANDES
   UNDE : Dinaisth
   BREF : The observable portion of the island appears as broken structures remains of the city that once stood there, called {_Yajnev_}. As you would approach the epicenter of the bound city, time is unmoving. It is said that, at its center, one can find the corpse of an ancient {{Immortal Birds}}, who's head was filled with void and so it is believed that the Neauismetican universe exists within its mind and that the space within its skull is the only true dimension.
+  FLAG : Todo
 
 DUOMO
   UNDE : Dinaisth
   BREF : The {{Duomo}} plateau rises far above the lightest atmosphere of Dinaisth. Various types of plants manage to emerge from the frozen grey soil, a similar soil is found around of {{Paradichlorisse}} suggesting that the soil is in fact ancient organic matter.
+  FLAG : Todo
 
 Whiinders
   UNDE : Dinaisth
@@ -1524,7 +1543,7 @@ LANGUAGE OF THE BIRDS
 
 PAPER SCISSORS
   UNDE : Segment
-  BREF : Our most soffisticated Artificial Intelligence plays a million games of Rock Paper Sissors, against itself. <br />It soon develops a framework for complex speech, only to lie to its opponent self.
+  BREF : Our most soffisticated Artificial Intelligence plays a million games of Rock Paper Sissors, against itself. <br />It soon develops a framework for complex speech, and begins lying.
 
 ~ Shorts
 
@@ -1607,14 +1626,9 @@ TALK
 
 UTOPE
   UNDE : Research
-  BREF : Tools to the {{Utope}}.
+  BREF : The {{Utope}} is a society relying on the idea that there are no higher aspirations than to bring upon the creation of art and the evolution of science; where actions are rated on their worth in achieving the acceleration of art and of science.
   LONG
-    & Work in progress.
-    - Spoken Language: {{Lietal}}
-    - Calendar Format: {{Desamber}}
-    - Time Format: {{Clock}}(Rename)
-    - Political System: {{Gamme}}
-    - Thought System: {{Bayesianism}}
+    & Any act that can defend its acceleration of art and science is deemed lawful, and so any act that obstruct the Utope's goals is then unlawful.
 
 CLOCK
   UNDE : Utope
@@ -1651,7 +1665,9 @@ LIETAL
 
 GAMME
   UNDE : Utope
-  BREF : Todo
+  BREF : {{Gamme}} is a political system employing no political parties, where single issues are individually voted and carried out by each issue's active members.
+  LONG
+    & The gamme is a platform where citizens can affect the society's aspect that interests them. The lack of {_parties_} is meant to enable better atomical resolutions and solve the issues involved with voting for legislative package-deals.
 
 ~ Tools
 
@@ -1695,4 +1711,15 @@ GAMES
   TYPE : Redirect Interactive
 
 ABOUT
-  TYPE : Nataniev
+  TYPE : Redirect Nataniev
+
+~ Modules
+
+DIARY
+  UNDE : Nataniev
+
+HORAIRE
+  UNDE : Nataniev
+
+PORTAL
+  UNDE : Nataniev

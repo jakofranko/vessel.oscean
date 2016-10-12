@@ -12,7 +12,7 @@ class Oscea
       ladder = En.new(term.name,path)
 
       html += "<table>"
-      ladder.to_h.sort.each do |cat,con|
+      ladder.to_h.each do |cat,con|
         html += "<tr><th>#{cat}</th></tr>\n"
         con.sort.each do |term,con|
           con = con.to_a
