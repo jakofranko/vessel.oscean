@@ -3,6 +3,11 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 10 17 - 37      Markle               Migration
+2016 10 16 - 36      Markle               Migration
+2016 10 15 
+2016 10 14 
+2016 10 13 
 2016 10 12 - 28      Lietal               Typography
 2016 10 11 - 35      Nataniev             Development
 2016 10 10 - 34      Pino                 Maintenance
