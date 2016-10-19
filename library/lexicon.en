@@ -73,10 +73,53 @@ AUDIO
   BREF : {{Devine|Devine Lu Linvega}} originally started the {{Aliceffekt|Audio}} project to create soundscapes to complement {{illustrations|illustration}} and {{games|Interactive}}, but has since produced a wide variety of tracks, ranging from IDM, noise, industrial, and ambient - as well as music for interactive installations.
   TYPE : Portal
 
+~ Automatons
+
 AUTOMATONS
   UNDE : Language
   BREF : A collection of twitter games and chatbots, along with their source files.
   TYPE : Portal
+
+THE WILL THE WISP
+  UNDE : Automatons
+  BREF : {{The will the wisp}} is a twitter bot that generates short poems, once every hour. Inspired by Lewis Carroll's Jabberwocky.
+  LONG
+    ? It can be found as a ghostly beetle, in the {{Meadow|Nataniev}}, on a tree.
+  LINK
+    TWTR : https://twitter.com/thewillthewisp
+    GITH : https://github.com/XXIIVV/instance.willw
+
+DICTIONARISM
+  UNDE : Automatons
+  BREF : {{Dictionarism}} is a simple twitter bot that generates {_-isms_} from every of every single word of a dictionary and tweets them.
+  LONG
+    ? It can be found as writing on a blackboard, in the {{Library|Nataniev}}.
+  LINK
+    TWTR : https://twitter.com/dictionarism
+    GITH : https://github.com/XXIIVV/instance.disms
+
+GLOSSOLALIARIUM
+  UNDE : Automatons
+  BREF : {{Glossolaliarium}} is a twitter bot that generates procedural english words by combining various prefixes and suffixes, and try to form definitions of these newly created terms.
+  LONG
+    - Dictcephaladelog: Speech or process of foretelling the future encephalitis.
+    - Percedecracyalgia: Pain government throughout, yield.
+    - Juvenoryocuplegia: To bring back to youthful strength or appearance relating to an eye doctor paralysis.
+    - Omniialsanive: Relating to knowing all things inclined to relating to cleanliness and health.
+    - Pentostomydermsion: Surgical pentagon state or quality elephant.
+    - Selfmortcideily: In what manner act of killing or by itself, death.
+    - Ferdynletoid: Resembling version of bear energy.
+    - Nonizepoliful: Become with no special characteristics full of metropolis.
+    - Ruptorygenine: Relating to a break in something relating to birth.
+    - Selfcyclhoodtroby: Nourishment condition for ring.
+    - Gramhydrudeic: Characterized by written liquid.
+    - Fidcardiboneity: Quality of sound from faith.
+    - Forpolierist: A person more completely city.
+    - Toxbytitearium: Follower poison plant.
+    - Centblastbileian: Relating to one who loves hundred primitive.
+  LINK
+    TWTR : https://twitter.com/Glossolaliarium
+    GITH : https://github.com/XXIIVV/instance.gloss
 
 BEAUTY
   UNDE : Nereid
@@ -1100,46 +1143,6 @@ THE OPAL INQUISITORS
     - Exosphere Sunsets(Ver’Tale)
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/the-opal-inquisitors
-
-THE WILL THE WISP
-  UNDE : Automatons
-  BREF : {{The will the wisp}} is a twitter bot that generates short poems, once every hour. Inspired by Lewis Carroll's Jabberwocky.
-  LONG
-    ? It can be found as a ghostly beetle, in the {{Meadow|Nataniev}}, on a tree.
-  LINK
-    TWTR : https://twitter.com/thewillthewisp
-    GITH : https://github.com/XXIIVV/Nataniev/blob/master/vessels/willw.rb
-
-DICTIONARISM
-  UNDE : Automatons
-  BREF : {{Dictionarism}} is a simple twitter bot that generates {_-isms_} from every of every single word of a dictionary and tweets them.
-  LONG
-    ? It can be found as writing on a blackboard, in the {{Library|Nataniev}}.
-  LINK
-    TWTR : https://twitter.com/dictionarism
-    GITH : https://github.com/XXIIVV/Nataniev/blob/master/vessels/disms.rb
-
-DEFINITIST
-  UNDE : Automatons
-  BREF : {{Definitist}} is a twitter bot that generates procedural english words by combining various prefixes and suffixes, and try to form definitions of these newly created terms.
-  LONG
-    - Dictcephaladelog: Speech or process of foretelling the future encephalitis.
-    - Percedecracyalgia: Pain government throughout, yield.
-    - Juvenoryocuplegia: To bring back to youthful strength or appearance relating to an eye doctor paralysis.
-    - Omniialsanive: Relating to knowing all things inclined to relating to cleanliness and health.
-    - Pentostomydermsion: Surgical pentagon state or quality elephant.
-    - Selfmortcideily: In what manner act of killing or by itself, death.
-    - Ferdynletoid: Resembling version of bear energy.
-    - Nonizepoliful: Become with no special characteristics full of metropolis.
-    - Ruptorygenine: Relating to a break in something relating to birth.
-    - Selfcyclhoodtroby: Nourishment condition for ring.
-    - Gramhydrudeic: Characterized by written liquid.
-    - Fidcardiboneity: Quality of sound from faith.
-    - Forpolierist: A person more completely city.
-    - Toxbytitearium: Follower poison plant.
-    - Centblastbileian: Relating to one who loves hundred primitive.
-  LINK
-    GITH : https://github.com/XXIIVV/auto.definitist
 
 THIRD WAVE
   UNDE : Aliceffekt
