@@ -1,6 +1,8 @@
 #!/bin/env ruby
 # encoding: utf-8
 
+$instance_path = File.expand_path(File.join(File.dirname(__FILE__), "/"))
+
 class Oscea
 
   include Vessel
