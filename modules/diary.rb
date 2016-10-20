@@ -23,6 +23,9 @@ class Oscea
 
       html = "<p>#{term.bref}</p>#{term.long}".markup
       
+      page = @module.to_i
+      perPage = 10
+      
       i = 0
       term.diaries.each do |log|
         from = page*perPage
