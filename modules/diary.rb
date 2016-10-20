@@ -9,9 +9,7 @@ class Oscea
 
       html = "<p>#{term.bref}</p>#{term.long}".markup
       
-      if term.name.like("diary")
-        html = diaryList
-      elsif term.diaries.count > 0
+      if term.diaries.count > 0
         html = diaryTopic
       else
         html = "<p>There are no diaries for #{term.name}.</p>"
@@ -25,19 +23,6 @@ class Oscea
 
       html = "<p>#{term.bref}</p>#{term.long}".markup
       
-      term.diaries[0,10].each do |log|
-        html += log.to_s
-      end
-      return html
-
-    end
-
-    def diaryList
-
-      html = ""
-      page = @module.to_i
-      perPage = 10
-
       i = 0
       term.diaries.each do |log|
         from = page*perPage
@@ -46,8 +31,9 @@ class Oscea
         i += 1
       end
 
-      html += "<p><a href='/Diary:#{(page+1)}' style='background: #ddd;padding: 15px;font-size: 12px;display: block;border-radius: 100px;text-align: center'>Page #{page+1}</a></p>"
-
+      if term.name.like("home")
+        html += "<p><a href='/Diary:#{(page+1)}' style='background: #ddd;padding: 15px;font-size: 12px;display: block;border-radius: 100px;text-align: center'>Page #{page+1}</a></p>"
+      end
       return html
 
     end
