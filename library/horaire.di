@@ -3,10 +3,11 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 10 19 - 37      Nataniev             Tools
 2016 10 18 - 37      The will the wisp    Update
 2016 10 17 - 37      Markle               Migration
 2016 10 16 - 36      Markle               Migration
-2016 10 15 
+2016 10 15 ! 25  162 Nervous              Modeling             Woulg                 Cover for {{Woulg|https://www.facebook.com/woulg.music/}}'s Dragged album on {{Methlab Agency|http://methlab-agency.com}}.
 2016 10 14 
 2016 10 13 
 2016 10 12 - 28      Lietal               Typography
@@ -202,7 +203,7 @@
 2016 04 05 - 29      Verreciel            Testing
 2016 04 04 - 29      Verreciel            Refactoring
 2016 04 03 - 25      Sailing              Photography
-2016 04 02 - 25  162 Nervous              Modeling             Woulg                 Cover for {{Woulg|https://www.facebook.com/woulg.music/}}'s Dragged album on {{Methlab Agency|http://methlab-agency.com}}.
+2016 04 02
 2016 04 01 - 24      Verreciel            Design
 2016 03 31 - 25      Verreciel            Design
 2016 03 30

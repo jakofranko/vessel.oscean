@@ -84,7 +84,8 @@ THE WILL THE WISP
   UNDE : Automatons
   BREF : {{The will the wisp}} is a twitter bot that generates short poems, once every hour. Inspired by Lewis Carroll's Jabberwocky.
   LONG
-    ? It can be found as a ghostly beetle, in the {{Meadow|Nataniev}}, on a tree.
+    & Tweeting a word at {{@thewillthewisp|https://twitter.com/thewillthewisp}} will produce a reply that includes that word.
+    ? It can be found in {{Paradise|Nataniev}} as a ghostly beetle, in the {_Meadow_}, on a tree.
   LINK
     TWTR : https://twitter.com/thewillthewisp
     GITH : https://github.com/XXIIVV/instance.willw
