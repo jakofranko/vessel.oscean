@@ -7,25 +7,25 @@ class Oscea
 
     def view
 
-      html = "<p>#{term.bref}</p>#{term.long}".markup
+      html = term.name.like("home") ? "" : "<p>#{term.bref}</p>#{term.long}".markup
       
       if term.diaries.count > 0
-        html = diaryTopic
+        html += diary_list
       else
-        html = "<p>There are no diaries for #{term.name}.</p>"
+        html += "<p>There are no diaries for #{term.name}.</p>"
       end
 
       return "<wr>#{html}</wr>"
 
     end
 
-    def diaryTopic
+    def diary_list
 
-      html = "<p>#{term.bref}</p>#{term.long}".markup
+      html = ""
       
       page = @module.to_i
       perPage = 10
-      
+
       i = 0
       term.diaries.each do |log|
         from = page*perPage
