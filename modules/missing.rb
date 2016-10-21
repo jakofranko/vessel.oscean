@@ -15,37 +15,52 @@ class Oscea
 
       if searchResult.length == 0 then return ("<wr><p>"+template+"</p></wr>").markup end
       
-      if searchResult.length == 1 then return ("<wr><p>"+template+"Did you mean {{"+searchResult[0].to_s+"}}?</p></wr>").markup end
-      if searchResult.length == 2 then return ("<wr><p>"+template+"Did you mean {{"+searchResult[0].to_s+"}} or {{"+searchResult[1].to_s+"}}?</p></wr>").markup end
+      if searchResult.length == 1 then return ("<wr><p>"+template+"Did you mean {{"+searchResult[0].first.to_s+"}}?</p></wr>").markup end
+      if searchResult.length == 2 then return ("<wr><p>"+template+"Did you mean {{"+searchResult[0].first.to_s+"}} or {{"+searchResult[1].first.to_s+"}}?</p></wr>").markup end
 
-      return ("<wr><p>"+template+"Did you mean {{"+searchResult[0].to_s+"}}, {{"+searchResult[1].to_s+"}} or {{"+searchResult[2].to_s+"}}?</p><p>If you believe that this page should exist, contact {{@neauoire|https://twitter.com/neauoire}}</p></wr>").markup
+      return ("<wr><p>"+template+"Did you mean {{"+searchResult[0].first.to_s+"}}, {{"+searchResult[1].first.to_s+"}} or {{"+searchResult[2].first.to_s+"}}?</p><p>If you believe that this page should exist, contact {{@neauoire|https://twitter.com/neauoire}}</p></wr>").markup
 
     end
 
     def search
 
       searchResult = {}
+      query = @query.downcase
+
+      # Lexicon
 
       lexicon.to_h("term").each do |topic,term|
+        
         topic = topic.downcase
+
         if !searchResult[topic] then searchResult[topic] = 0 end
 
-        if topic.downcase == @query then searchResult[topic] += 5 end
-        if topic.downcase.include?(@query.downcase) then searchResult[topic] += 1 end
+        if term.name.to_s.downcase.include?(query) then searchResult[topic] += 3 end
+        if term.bref.to_s.downcase.include?(query) then searchResult[topic] += 2 end
+        if term.long.to_s.downcase.include?(query) then searchResult[topic] += 2 end
+        if term.unde.to_s.downcase.include?(query) then searchResult[topic] += 1 end
+        if term.link.to_s.downcase.include?(query) then searchResult[topic] += 1 end
 
-        if term.unde.to_s.include?(@query) then searchResult[topic] += 1 end
-        if term.link.to_s.include?(@query) then searchResult[topic] += 1 end
+      end
+
+      # Horaire
+
+      horaire.to_a("log").each do |log|
+        
+        topic = log.topic.downcase
+
+        if !searchResult[topic] then searchResult[topic] = 0 end
+
+        if log.name.to_s.downcase.include?(query) then searchResult[topic] += 3 end
+        if log.topic.to_s.downcase.include?(query) then searchResult[topic] += 2 end
+        if log.task.to_s.downcase.include?(query) then searchResult[topic] += 2 end
+        if log.full.to_s.downcase.include?(query) then searchResult[topic] += 2 end
+
       end
 
       searchResult = searchResult.sort_by {|_key, value| value}.reverse
 
-      strippedResults = []
-      searchResult.each do |term,value|
-        if value == 0 then break end
-        strippedResults.push(term)
-      end
-
-      return strippedResults
+      return searchResult
 
     end
 
