@@ -3,9 +3,23 @@
 
 class Log
 
+  attr_accessor :topic
+  attr_accessor :name
+  attr_accessor :full
+  attr_accessor :task
+  attr_accessor :photo
+  attr_accessor :code
+
   def initialize(content)
 
     @log = content
+
+    @topic = @log['TERM'].to_s
+    @name  = @log['NAME'].to_s.force_encoding("UTF-8")
+    @full  = @log['TEXT'].to_s.force_encoding("UTF-8").markup
+    @task  = @log['TASK'].to_s
+    @photo = @log['PICT'].to_i
+    @code  = @log['CODE'].to_s.like("") ? @log['CODE'] : nil
 
   end
 
@@ -56,10 +70,6 @@ class Log
     return false
   end
 
-  def code
-    return @log['CODE'].to_s != "" ? @log['CODE'] : nil
-  end
-
   def rune
     return code ? code[0,1] : nil
   end
@@ -81,26 +91,6 @@ class Log
       return "research"
     end
     return "misc"
-  end
-
-  def name
-    return @log['NAME'].to_s.force_encoding("UTF-8")
-  end
-
-  def full
-    return @log['TEXT'].to_s.force_encoding("UTF-8").markup
-  end
-
-  def task
-    return @log['TASK'].to_s
-  end
-
-  def photo
-    return @log['PICT'].to_i
-  end
-
-  def topic
-    return @log['TERM'].to_s
   end
 
   def isFeatured

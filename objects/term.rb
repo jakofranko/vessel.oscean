@@ -3,17 +3,24 @@
 
 class Term
 
-  def initialize name = "Unknown", content = {}
+  attr_accessor :name
+  attr_accessor :unde
+  attr_accessor :type
+  attr_accessor :link
+  attr_accessor :bref
+  attr_accessor :long
+  attr_accessor :logs
 
-    @NAME = "#{name}"
+  def initialize name = "Unknown", content = {}
 
     content = content ? content : { "UNDE" => "HOME", "TYPE" => "Missing" }
 
-    @UNDE = content["UNDE"] ? content["UNDE"] : "Home"
-    @TYPE = content["TYPE"]
-    @LINK = content["LINK"]
-    @BREF = content["BREF"]
-    @LONG = content["LONG"]
+    @name = "#{name}".downcase.capitalize
+    @unde = content["UNDE"] ? content["UNDE"].downcase.capitalize : "Home"
+    @type = content["TYPE"] ? content["TYPE"].split(" ").first.downcase.capitalize : nil
+    @link = content["LINK"]
+    @bref = content["BREF"] ? content["BREF"] : nil
+    @long = content["LONG"] ? content["LONG"].runes : nil
 
     @logs = nil
 
@@ -26,18 +33,6 @@ class Term
   
   def is_type t ; return type && type.like(t) ? true : false end
 
-  def name
-
-    return @NAME.downcase.capitalize
-
-  end
-
-  def unde
-    
-    return @UNDE.downcase.capitalize
-
-  end
-
   def parent
 
     @parent = @parent ? @parent : @parent = $lexicon.filter("term",unde,"term")
@@ -45,40 +40,11 @@ class Term
 
   end
 
-  def type
-
-    if !@TYPE then return nil end
-    return @TYPE.split(" ").first.downcase.capitalize
-
-  end
-
   def type_value
 
-    if !@TYPE then return nil end
-    if !@TYPE.include?(" ") then return nil end
-    return @TYPE.sub(type,"").strip.downcase.capitalize
-
-  end
-
-  def link
-    
-    return @LINK
-
-  end
-
-  def bref
-    
-    if !@BREF then return end
-      
-    return @BREF
-
-  end
-
-  def long
-    
-    if !@LONG then return end
-
-    return @LONG.runes
+    if !@type then return nil end
+    if !@type.include?(" ") then return nil end
+    return @type.sub(type,"").strip.downcase.capitalize
 
   end
 

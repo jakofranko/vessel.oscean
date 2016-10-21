@@ -80,11 +80,11 @@ class Oscea
 
   end
 
-  class PassiveActions
+  class Actions
 
     include ActionCollection
 
-    def answer q = "Home"
+    def serve q = "Home"
 
       @query   = q.include?(":") ? q.split(":").first.gsub("+"," ") : q.gsub("+"," ") 
       @module  = q.include?(":") ? q.split(":").last : nil
@@ -96,10 +96,14 @@ class Oscea
       $lexicon = En.new("lexicon",path)
       $horaire = Di.new("horaire",path)
 
+      # Diary Id
+
+      diary = @query.to_i > 0 ? $horaire.filter("pict",@query,"log").first : nil
+
       # Corpse
 
       corpse         = Corpse.new(@query)      
-      corpse.term    = $lexicon.filter("term",@query,"term")
+      corpse.term    = diary ? $lexicon.filter("term",diary.topic,"term") : $lexicon.filter("term",@query,"term")
       corpse.horaire = $horaire
       corpse.lexicon = $lexicon
       corpse.title   = "XXIIVV ∴ #{corpse.term.name}"
@@ -116,6 +120,6 @@ class Oscea
 
   end
   
-  def passive_actions ; return PassiveActions.new(self,self) end
+  def actions ; return Actions.new(self,self) end
 
 end
