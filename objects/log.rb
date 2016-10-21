@@ -19,7 +19,7 @@ class Log
     @full  = @log['TEXT'].to_s.force_encoding("UTF-8").markup
     @task  = @log['TASK'].to_s
     @photo = @log['PICT'].to_i
-    @code  = @log['CODE'].to_s.like("") ? @log['CODE'] : nil
+    @code  = @log['CODE'].to_s.like("") ? nil : @log['CODE']
 
   end
 

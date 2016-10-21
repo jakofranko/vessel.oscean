@@ -40,17 +40,15 @@ class Oscea
 
     def tasksData
 
-      hash = {}
+      h = {}
       term.logs.each do |log|
-        if term.name != "Horaire" && log.topic != term.name then next end
-        if log.sector == "misc" then next end
-        if !hash[log.task] then hash[log.task] = {"name" => log.task, "hours" => 0, "logs" => 0} end
-        hash[log.task]["hours"] += log.value
-        hash[log.task]["logs"] += 1
-        hash[log.task]["sector"] = log.sector
+        if !h[log.task] then h[log.task] = {"name" => log.task, "hours" => 0, "logs" => 0} end
+        h[log.task]["hours"] += log.value
+        h[log.task]["logs"] += 1
+        h[log.task]["sector"] = log.sector
       end
 
-      return hash
+      return h
 
     end
 
