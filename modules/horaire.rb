@@ -27,9 +27,8 @@ class Oscea
 
       html = ""
 
-      @graphData = graphData
-      if @graphData.length > 0 
-        html += Graph.new(@graphData).to_s
+      if term.logs.length > 0 
+        html += Graph.new(term.logs).to_s
         html += tasks
       else
         html += "<p>The lexicon entry {{@query}} does not contain any {{Horaire}} log.</p>"
@@ -39,22 +38,10 @@ class Oscea
 
     end
 
-    def graphData
-
-      graphData = []
-      horaire.to_a("log").each do |log|
-        if !term.name.like("horaire") && !log.topic.like(term.name) then next end
-        if log.sector == "misc" then next end
-        graphData.push(log)
-      end
-      return graphData
-
-    end
-
     def tasksData
 
       hash = {}
-      $horaire.to_a("log").each do |log|
+      term.logs.each do |log|
         if term.name != "Horaire" && log.topic != term.name then next end
         if log.sector == "misc" then next end
         if !hash[log.task] then hash[log.task] = {"name" => log.task, "hours" => 0, "logs" => 0} end
