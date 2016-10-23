@@ -1,11 +1,17 @@
 #!/bin/env ruby
 # encoding: utf-8
 
-$instance_path = File.expand_path(File.join(File.dirname(__FILE__), "/"))
+$nataniev.require("corpse","http")
 
-class Oscea
+class Oscean
 
   include Vessel
+
+  def path
+
+    return File.expand_path(File.join(File.dirname(__FILE__), "/"))
+
+  end
 
   class Corpse
 
