@@ -9,7 +9,7 @@ class Oscea
 
       html = "<p>#{term.bref}</p>#{term.long}".markup
 
-      ladder = En.new(term.name,path)
+      ladder = Memory_Hash.new(term.name,path)
 
       html += "<table>"
       ladder.to_h.each do |cat,con|

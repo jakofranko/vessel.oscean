@@ -99,10 +99,8 @@ class Oscean
 
       load_folder("#{path}/objects/*")
 
-      $lexicon = En.new("lexicon",path)
-      $horaire = Di.new("horaire",path)
-
-      p Memory.new("horaire",path)
+      $lexicon = Memory_Hash.new("lexicon",path)
+      $horaire = Memory_Array.new("horaire",path)
 
       # Diary Id
 
