@@ -1,7 +1,7 @@
 #!/bin/env ruby
 # encoding: utf-8
 
-class Oscea
+class Oscean
 
   class Corpse
 
@@ -20,8 +20,6 @@ class Oscea
 
     def view
 
-      @all_logs = $horaire.to_a("log")
-      
       html = "
       <p>#{@term.bref.to_s.markup}</p>#{@term.long.to_s.markup}
       #{Graph.new(graphViewData)}
@@ -34,13 +32,14 @@ class Oscea
 
     def graphViewData
 
-      graphData = []
-      @all_logs.each do |log|
+      p term.logs
+      a = []
+      term.logs.each do |log|
         if log.elapsed < 0 then next end
         if log.elapsed/86400 > 100 then next end
-        graphData.push(log)
+        a.push(log)
       end
-      return graphData
+      return a
 
     end
 
@@ -51,7 +50,7 @@ class Oscea
       html_list = ""
       topicHistory = {}
       count = 0
-      @all_logs.each do |log|
+      term.logs.each do |log|
         if log.topic == "" then next end
         if count >= 5 then break end
         if topicHistory[log.topic] then next end
@@ -70,7 +69,7 @@ class Oscea
       html_list = ""
       topicHistory = {}
       count = 0
-      @all_logs.each do |log|
+      term.logs.each do |log|
         if log.task != "Update" then next end
         if count >= 5 then break end
         if topicHistory[log.topic] then next end

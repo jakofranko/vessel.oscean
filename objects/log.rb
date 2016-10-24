@@ -4,6 +4,7 @@
 class Log
 
   attr_accessor :topic
+  attr_accessor :date
   attr_accessor :name
   attr_accessor :full
   attr_accessor :task
@@ -15,6 +16,7 @@ class Log
     @log = content
 
     @topic = @log['TERM'].to_s
+    @date  = @log['DATE'].to_s
     @name  = @log['NAME'].to_s.force_encoding("UTF-8")
     @full  = @log['TEXT'].to_s.force_encoding("UTF-8").markup
     @task  = @log['TASK'].to_s
@@ -44,7 +46,7 @@ class Log
   end
 
   def elapsed
-    return Time.new.to_i - Date.new(year,month,day).to_time.to_i
+    return Time.new.to_i - time
   end
 
   def offset

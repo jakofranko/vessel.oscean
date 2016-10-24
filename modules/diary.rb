@@ -1,7 +1,7 @@
 #!/bin/env ruby
 # encoding: utf-8
 
-class Oscea
+class Oscean
 
   class Corpse
 
