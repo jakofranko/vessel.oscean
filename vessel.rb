@@ -102,6 +102,8 @@ class Oscean
       $lexicon = En.new("lexicon",path)
       $horaire = Di.new("horaire",path)
 
+      p Memory.new("horaire",path)
+
       # Diary Id
 
       diary = @query.to_i > 0 ? $horaire.filter("pict",@query,"log").first : nil
