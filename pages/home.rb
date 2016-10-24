@@ -32,7 +32,6 @@ class Oscean
 
     def graphViewData
 
-      p term.logs
       a = []
       term.logs.each do |log|
         if log.elapsed < 0 then next end
