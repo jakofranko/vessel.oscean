@@ -3,6 +3,60 @@
 
 $nataniev.require("corpse","http")
 
+class VesselOscean
+
+  include Vessel
+
+  def initialize id = 0
+
+    super
+
+    @name = "Oscean"
+    @path = File.expand_path(File.join(File.dirname(__FILE__), "/"))
+
+    install(:default,:serve)
+
+  end
+
+end
+
+class ActionServe
+
+  include Action
+
+  def act q = "Home"
+
+    @query   = q.include?(":") ? q.split(":").first.gsub("+"," ") : q.gsub("+"," ") 
+    @module  = q.include?(":") ? q.split(":").last : nil
+
+    load_folder("#{@host.path}/objects/*")
+
+    $lexicon = Memory_Hash.new("lexicon",@host.path)
+    $horaire = Memory_Array.new("horaire",@host.path)
+
+    # Diary Id
+
+    diary = @query.to_i > 0 ? $horaire.filter("pict",@query,"log").first : nil
+
+    # Corpse
+
+    corpse         = CorpseHttp.new(@host,@query)      
+    corpse.term    = diary ? $lexicon.filter("term",diary.topic,"term") : $lexicon.filter("term",@query,"term")
+    corpse.horaire = $horaire
+    corpse.lexicon = $lexicon
+    corpse.title   = "XXIIVV ∴ #{corpse.term.name}"
+
+    load_any "#{@host.path}/pages",   @query
+    load_any "#{@host.path}/modules", @query
+    load_any "#{@host.path}/modules", @module
+    load_any "#{@host.path}/modules", corpse.term.type
+
+    return corpse.result
+
+  end
+
+end
+
 class CorpseHttp
 
   attr_accessor :path
@@ -69,63 +123,6 @@ class CorpseHttp
       html += Link.new(link.first,link.last).to_s
     end
     return "<wr>"+html+"</wr>"
-
-  end
-
-end
-
-class ActionServe
-
-  include Action
-
-  def act q = "Home"
-
-    @query   = q.include?(":") ? q.split(":").first.gsub("+"," ") : q.gsub("+"," ") 
-    @module  = q.include?(":") ? q.split(":").last : nil
-
-    path = File.expand_path(File.join(File.dirname(__FILE__), "/"))
-
-    load_folder("#{path}/objects/*")
-
-    $lexicon = Memory_Hash.new("lexicon",path)
-    $horaire = Memory_Array.new("horaire",path)
-
-    # Diary Id
-
-    diary = @query.to_i > 0 ? $horaire.filter("pict",@query,"log").first : nil
-
-    # Corpse
-
-    corpse         = CorpseHttp.new(@query)      
-    corpse.term    = diary ? $lexicon.filter("term",diary.topic,"term") : $lexicon.filter("term",@query,"term")
-    corpse.horaire = $horaire
-    corpse.lexicon = $lexicon
-    corpse.title   = "XXIIVV ∴ #{corpse.term.name}"
-    corpse.path    = path
-
-    load_any "#{path}/pages",   @query
-    load_any "#{path}/modules", @query
-    load_any "#{path}/modules", @module
-    load_any "#{path}/modules", corpse.term.type
-
-    return corpse.result
-
-  end
-
-end
-
-class VesselOscean
-
-  include Vessel
-
-  def initialize id = 0
-
-    super
-
-    @name = "Oscean"
-    @path = File.expand_path(File.join(File.dirname(__FILE__), "/"))
-
-    install(:default,:serve)
 
   end
 
