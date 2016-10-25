@@ -6,9 +6,9 @@ class CorpseHttp
   def view
 
     if @query.like("portal")
-      return "<wr>#{body_land.markup}</wr>"
+      return "<wr>#{body_land}</wr>"
     else
-      return "<wr>#{body_module.markup}</wr>"
+      return "<wr>#{body_module}</wr>"
     end
 
   end
@@ -72,7 +72,7 @@ class CorpseHttp
 
       end
 
-      return html.markup
+      return html
 
   end
 

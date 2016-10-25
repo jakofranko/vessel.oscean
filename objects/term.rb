@@ -20,7 +20,7 @@ class Term
     @type = content["TYPE"] ? content["TYPE"].split(" ").first.downcase.capitalize : nil
     @link = content["LINK"]
     @bref = content["BREF"] ? content["BREF"].markup : nil
-    @long = content["LONG"] ? content["LONG"] : nil
+    @long = content["LONG"] ? content["LONG"] : []
 
     @logs = nil
 

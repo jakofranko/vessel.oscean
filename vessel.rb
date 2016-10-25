@@ -110,7 +110,7 @@ class CorpseHttp
 
   def view
     
-    return "<wr><p>#{term.bref.to_s.markup}</p>#{term.long.runes.to_s.markup}</wr>"
+    return "<wr><p>#{term.bref.to_s}</p>#{term.long.runes.to_s}</wr>"
 
   end
 

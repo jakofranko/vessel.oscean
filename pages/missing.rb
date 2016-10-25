@@ -11,12 +11,12 @@ class CorpseHttp
 
     searchResult = search()
 
-    if searchResult.length == 0 then return ("<wr><p>"+template+"</p></wr>").markup end
+    if searchResult.length == 0 then return ("<wr><p>"+template+"</p></wr>") end
     
-    if searchResult.length == 1 then return ("<wr><p>"+template+"Did you mean {{"+searchResult[0].first.to_s+"}}?</p></wr>").markup end
-    if searchResult.length == 2 then return ("<wr><p>"+template+"Did you mean {{"+searchResult[0].first.to_s+"}} or {{"+searchResult[1].first.to_s+"}}?</p></wr>").markup end
+    if searchResult.length == 1 then return ("<wr><p>"+template+"Did you mean {{"+searchResult[0].first.to_s+"}}?</p></wr>") end
+    if searchResult.length == 2 then return ("<wr><p>"+template+"Did you mean {{"+searchResult[0].first.to_s+"}} or {{"+searchResult[1].first.to_s+"}}?</p></wr>") end
 
-    return ("<wr><p>"+template+"Did you mean {{"+searchResult[0].first.to_s+"}}, {{"+searchResult[1].first.to_s+"}} or {{"+searchResult[2].first.to_s+"}}?</p><p>If you believe that this page should exist, contact {{@neauoire|https://twitter.com/neauoire}}</p></wr>").markup
+    return ("<wr><p>"+template+"Did you mean {{"+searchResult[0].first.to_s+"}}, {{"+searchResult[1].first.to_s+"}} or {{"+searchResult[2].first.to_s+"}}?</p><p>If you believe that this page should exist, contact {{@neauoire|https://twitter.com/neauoire}}</p></wr>")
 
   end
 
