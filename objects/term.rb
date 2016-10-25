@@ -19,7 +19,7 @@ class Term
     @unde = content["UNDE"] ? content["UNDE"].downcase.capitalize : "Home"
     @type = content["TYPE"] ? content["TYPE"].split(" ").first.downcase.capitalize : nil
     @link = content["LINK"]
-    @bref = content["BREF"] ? content["BREF"] : nil
+    @bref = content["BREF"] ? content["BREF"].markup : nil
     @long = content["LONG"] ? content["LONG"] : nil
 
     @logs = nil
