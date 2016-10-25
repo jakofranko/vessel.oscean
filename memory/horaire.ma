@@ -3,6 +3,8 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 10 25 - 27      Markle               Design
+2016 10 24 - 34      Markle               Development
 2016 10 23 - 37      Markle               Migration
 2016 10 22 - 29      Hundred rabbits      Design
 2016 10 21 - 24      Hundred rabbits      Design
