@@ -5,7 +5,7 @@ class CorpseHttp
 
   def view
 
-    html = "<p>#{term.bref}</p>#{term.long}".markup
+    html = "<p>#{term.bref}</p>#{term.long.runes}".markup
 
     ladder = Memory_Hash.new(term.name,path)
 

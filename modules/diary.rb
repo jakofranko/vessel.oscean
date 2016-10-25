@@ -5,7 +5,7 @@ class CorpseHttp
 
   def view
 
-    html = term.name.like("home") ? "" : "<p>#{term.bref}</p>#{term.long}".markup
+    html = term.name.like("home") ? "" : "<p>#{term.bref}</p>#{term.long.runes}".markup
     
     if term.diaries.count > 0
       html += diary_list

@@ -19,7 +19,7 @@ class CorpseHttp
   def view
 
     html = "
-    <p>#{@term.bref.to_s.markup}</p>#{@term.long.to_s.markup}
+    <p>#{@term.bref.to_s.markup}</p>#{@term.long.runes.to_s.markup}
     #{Graph.new(graphViewData)}
     #{recentEdits}
     #{latestUpdates}"
