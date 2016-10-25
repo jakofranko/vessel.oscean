@@ -5,7 +5,7 @@ class CorpseHttp
 
   def view
 
-    template = "There is no entry for {_"+@query.capitalize+"_} on this wiki.<br />"
+    template = "There is no entry for <i>#{@query.capitalize}</i> on this wiki.<br />"
 
     if @query.to_i < 1 && @query.length < 4 then return "<wr>Your search query is too short, try again with something longer than 4 characters.</wr>" end
 
@@ -13,10 +13,10 @@ class CorpseHttp
 
     if searchResult.length == 0 then return ("<wr><p>"+template+"</p></wr>") end
     
-    if searchResult.length == 1 then return ("<wr><p>"+template+"Did you mean {{"+searchResult[0].first.to_s+"}}?</p></wr>") end
-    if searchResult.length == 2 then return ("<wr><p>"+template+"Did you mean {{"+searchResult[0].first.to_s+"}} or {{"+searchResult[1].first.to_s+"}}?</p></wr>") end
+    if searchResult.length == 1 then return ("<wr><p>"+template+"Did you mean {{"+searchResult[0].first.to_s+"}}?</p></wr>".markup) end
+    if searchResult.length == 2 then return ("<wr><p>"+template+"Did you mean {{"+searchResult[0].first.to_s+"}} or {{"+searchResult[1].first.to_s+"}}?</p></wr>".markup) end
 
-    return ("<wr><p>"+template+"Did you mean {{"+searchResult[0].first.to_s+"}}, {{"+searchResult[1].first.to_s+"}} or {{"+searchResult[2].first.to_s+"}}?</p><p>If you believe that this page should exist, contact {{@neauoire|https://twitter.com/neauoire}}</p></wr>")
+    return ("<wr><p>"+template+"Did you mean {{"+searchResult[0].first.to_s+"}}, {{"+searchResult[1].first.to_s+"}} or {{"+searchResult[2].first.to_s+"}}?</p><p>If you believe that this page should exist, contact {{@neauoire|https://twitter.com/neauoire}}</p></wr>".markup)
 
   end
 
