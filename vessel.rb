@@ -71,6 +71,8 @@ class CorpseHttp
     add_meta("viewport","width=device-width, initial-scale=1, maximum-scale=1")
     add_meta("apple-mobile-web-app-capable","yes")
 
+    add_link("https://fonts.googleapis.com/css?family=Playfair+Display")
+    
     add_link("style.reset.css")
     add_link("style.main.css")
 
