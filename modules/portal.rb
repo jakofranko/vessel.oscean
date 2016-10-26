@@ -15,7 +15,7 @@ class CorpseHttp
 
   def body_land
 
-    html = "<p>#{@term.bref}</p>"
+    html = ""
 
     used = []
     terms = $lexicon.to_h("term")

@@ -5,7 +5,7 @@ class CorpseHttp
 
   def view
 
-    html = "<p>#{term.bref}</p>#{term.long.runes}"
+    html = @term.long.runes
 
     ladder = Memory_Hash.new(term.name,path)
 

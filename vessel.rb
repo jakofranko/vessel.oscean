@@ -87,20 +87,27 @@ class CorpseHttp
   <yu class='hd'>
     <wr>
       <a href='/' class='lg'><img src='img/vectors/logo.svg'/></a>
-      #{!term.is_diary   && term.has_diaries ? "<a class='md' href='/#{term.name}:diary'><img src='img/vectors/diary.svg'/>#{term.diaries.length} Diaries</a>" : ""}
-      #{!term.is_horaire && term.has_logs    ? "<a class='md' href='/#{term.name}:horaire'><img src='img/vectors/log.svg'/>#{term.logs.length} Logs</a>" : ""}
-      <input placeholder='#{term.name}' class='q'/>
+      #{!term.is_diary   && term.has_diaries ? "<a class='md' href='/#{term.name}:diary'><img src='img/vectors/diary.svg'/><b>Diary</b>#{term.diaries.length} Entires</a>" : ""}
+      #{!term.is_horaire && term.has_logs    ? "<a class='md' href='/#{term.name}:horaire'><img src='img/vectors/log.svg'/><b>Horaire</b>#{term.logs.length} Logs</a>" : ""}
       #{term.diary ? "<a href='/#{term.diary.photo}' class='md li'><img src='img/vectors/source.svg'/></a>" : ""}
+      <input placeholder='$' class='q'/>
     </wr>
     #{term.diary ? Media.new("diary",term.diary.photo) : ""}
   </yu>
   <yu class='cr'>
-    #{view}
-    #{links_}
+    <yu class='si'>
+      <a href='/#{term.portal}'>#{ badge = Media.new("badge",term.name) ; badge.exists ? badge : badge = Media.new("badge",term.portal) ; badge.exists ? badge : badge = Media.new("badge","nataniev") ; badge }</a>
+      <p>#{term.bref.to_s}</p>
+      <h1></h1>
+    </yu>
+    <yu class='vi'>
+      #{view}
+      #{_links}
+    </yu>
+    <hr/>
   </yu>
   <yu class='ft'>
     <wr>
-      <a href='/#{term.portal}'>#{ badge = Media.new("badge",term.name) ; badge.exists ? badge : badge = Media.new("badge",term.portal) ; badge.exists ? badge : badge = Media.new("badge","nataniev") ; badge }</a>
       <ln><a href='/Nataniev'>#{Media.new("interface","icon.oscean")}</a><a href='https://github.com/neauoire' target='_blank'>#{Media.new("interface","icon.github")}</a><a href='https://twitter.com/neauoire' target='_blank'>#{Media.new("interface","icon.twitter")}</a></ln>
       <ln><a href='/Devine+Lu+Linvega'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year} <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank' style='color:#aaa'>BY-NC-SA 4.0</a></ln>
       <ln>Currently indexing #{$lexicon.length} projects, built over #{$horaire.length} days.</ln>
@@ -112,11 +119,11 @@ class CorpseHttp
 
   def view
     
-    return "<wr><p>#{term.bref.to_s}</p>#{term.long.runes.to_s}</wr>"
+    return "<wr>#{term.long.runes.to_s}</wr>"
 
   end
 
-  def links_
+  def _links
 
     if !term.link then return "" end
 
