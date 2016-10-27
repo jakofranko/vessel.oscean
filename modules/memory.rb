@@ -6,8 +6,7 @@ class CorpseHttp
   def view
 
     html = @term.long.runes
-
-    ladder = Memory_Hash.new(term.name,path)
+    ladder = Memory_Hash.new(term.name,@host.path)
 
     html += "<table>"
     ladder.to_h.each do |cat,con|
