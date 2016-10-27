@@ -10,7 +10,10 @@ TO THE AEONS HELL
 
 ADVENT V
   UNDE : Automatons
-  BREF : {{Advent V}}, is a simple twitter game in the format of the {_Choose Your Own Adventure_} where the players tell Advent where to go in a choice of locations.
+  BREF : {{Advent V}}, is a simple twitter game in the format of the {_Choose Your Own Adventure_}.
+  LONG
+    & Players are invited to tell Advent where to go in a choice of locations from a previous tweet.
+    ? The project is currently under development.
   LINK 
     TWTR : https://twitter.com/adventvrecall
     GITH : https://github.com/XXIIVV/instance.adven
@@ -27,13 +30,17 @@ AGEING
 
 ALICEFFEKT
   UNDE : Audio
-  BREF : Aliceffekt, is an explorative and narrative audio project by {{Devine Lu Linvega}} that travels across the fictional worlds of the {{Neauismetica}} where every album is a sort of travel diary across the {{Dinaisth}} landscape.
+  BREF : Aliceffekt, is an explorative and narrative audio project by {{Devine Lu Linvega}}.
+  LONG
+    &  A travel across the fictional worlds of the {{Neauismetica}} where every album is a sort of travel diary across the {{Dinaisth}} landscape.
   LINK : 
     BAND : https://aliceffekt.bandcamp.com
 
 ALPHAVETIST
   UNDE : Mobile
-  BREF : {{Alphavetist}} is a minimalist alphabet learning application for iOS for reviewing the Hebrew, Cyrillic, Korean, Inuktitut, Greek, Morse and Japanese alphabets.
+  BREF : {{Alphavetist}} is a minimalist alphabet learning application for iOS.
+  LONG
+    &  Currently included are the Hebrew, Cyrillic, Korean, Inuktitut, Greek, Morse and Japanese alphabets.
   LINK
     ITUN : https://itunes.apple.com/ca/app/hahapapa/id689193147
     GITH : https://github.com/Echorridoors/alphavetist
@@ -70,7 +77,9 @@ ASTRATAS
 
 AUDIO
   UNDE : Home
-  BREF : {{Devine|Devine Lu Linvega}} originally started the {{Aliceffekt|Audio}} project to create soundscapes to complement {{illustrations|illustration}} and {{games|Interactive}}, but has since produced a wide variety of tracks, ranging from IDM, noise, industrial, and ambient - as well as music for interactive installations.
+  BREF : Various audio related projects.
+  LONG
+    & {{Devine|Devine Lu Linvega}} originally started the {{Aliceffekt|Audio}} project to create soundscapes to complement {{illustrations|illustration}} and {{games|Interactive}}, but has since produced a wide variety of tracks, ranging from IDM, noise, industrial, and ambient - as well as music for interactive installations.
   TYPE : Portal
 
 ~ Automatons
@@ -535,8 +544,9 @@ HOWLS VIRGIL SYSTEMS
 
 HUNDRED RABBITS
   UNDE : Hundred rabbits
-  BREF : {{Hundred Rabbits}}, is a nomad design studio founded by {{Rekka Bellum|http://kokorobo.ca}} and {{Devine Lu Linvega|Devine Lu Linvega}} aboard a {{sailboat|https://github.com/hundredrabbits/Pino}}, somewhere on the shores of the Pacific Ocean.
+  BREF : {{Hundred Rabbits}}, is a nomad design studio founded by {{Rekka Bellum|http://kokorobo.ca}} and {{Devine Lu Linvega|Devine Lu Linvega}} aboard a {{sailboat|https://github.com/hundredrabbits/Pino}}.
   LONG
+    & Somewhere on the shores of the Pacific Ocean.
     & This partnership is host to interactive projects like {{Oquonie}}, {{Grimgrains|http://grimgrains.com}} and travel diaries. A {{Patreon page|https://www.patreon.com/100}} is available to help fund the production of monthly videos and liveaboard documentation.
     & Living on a {{sailboat|Hundred rabbits}} might be quite foreign for most people, as it once was for us. This selection of questions and answers will try to address the recurring requests. If you want to add to this list, ask your questions as comments {{here|https://www.patreon.com/posts/4421599}}.
   LINK
@@ -546,7 +556,9 @@ HUNDRED RABBITS
 
 PINO
   UNDE : Hundred rabbits
-  BREF : {{PINO}}, is a 33' Yamaha Sloop sailboat, built in 1982. It is ocean ready and sleeps 5 passengers comfortably. You can read more about the {{Hundred Rabbits}} project {{here|http://100r.co/Sailboat}}.
+  BREF : {{PINO}}, is a 33' Yamaha Sloop sailboat, built in 1982. 
+  LONG
+    & It is ocean ready and sleeps 5 passengers comfortably. You can read more about the {{Hundred Rabbits}} project {{here|http://100r.co/Sailboat}}.
   LINK
     PATR : https://patreon.com/100
 
@@ -560,7 +572,9 @@ GRIMGRAINS
 
 HYPERVOID
   UNDE : Polygonoscopy
-  BREF : Navigating the nullplane of Dischromatic Nullcolour Anti-pigments. The {{Hypervoid}} pieces were selected to be on the cover of the second volume of the {{Amaze Newspaper|http://issuu.com/independenceamazing/docs/amaze_screen}}.
+  BREF : Navigating the nullplane of Dischromatic Nullcolour Anti-pigments. 
+  LONG
+    & The {{Hypervoid}} pieces were selected to be on the cover of the second volume of the {{Amaze Newspaper|http://issuu.com/independenceamazing/docs/amaze_screen}}.
   TYPE : Diary
 
 ILLUSTRATION
@@ -590,7 +604,9 @@ VOYNICH
 
 INTERACTIVE
   UNDE : Visual
-  BREF : The {{Interactive}} Portal contains all the released interactive applications. The interactive project list contains various completed and unreleased experiments and games for iOS, desktop and browser.
+  BREF : The {{Interactive}} Portal contains all the released interactive applications. 
+  LONG
+    & The interactive project list contains various completed and unreleased experiments and games for iOS, desktop and browser.
   TYPE : Portal
 
 KALEIDOSCOPE
@@ -600,8 +616,9 @@ KALEIDOSCOPE
 
 KEYBOARD 468
   UNDE : Mobile
-  BREF : The {{Keyboard 468}} is a 18 keys keyboard that sorts characters by the most likely letter to follow the last input. So you always only need to type using the two rows at the top, maximizing the space and allowing for big large letters. The hidden letters are accessible through the {_alt_} key, alongside symbols and numbers.
+  BREF : The {{Keyboard 468}} is a 18 keys keyboard that sorts characters by the most likely letter to follow the last input. 
   LONG
+    & So you always only need to type using the two rows at the top, maximizing the space and allowing for big large letters. The hidden letters are accessible through the {_alt_} key, alongside symbols and numbers.
     * Privacy Policy
     & This policy exists to inform you that the keyboard does not record, save, harvest or send any data of any type. The application, and its keyboard extension is self contained and does not keep any data. The active {{source code|https://github.com/Echorridoors/Keyboard468}} is also available to demonstrate that the keyboard does not hold onto your content.
   LINK
@@ -610,8 +627,9 @@ KEYBOARD 468
 
 KNOWN MAGYE
   UNDE : Third wave
-  BREF : {{Known Magye}} is an album and performance relying heavily on visuals. Sometimes reminiscent of the compositions of {{Children of bramble}}, sometimes of the drowned sounds of {{Telekinetic}}, this single is a fair mix of ambient and breaks. 
+  BREF : {{Known Magye}} is an album and performance relying heavily on visuals. 
   LONG
+    & Sometimes reminiscent of the compositions of {{Children of bramble}}, sometimes of the drowned sounds of {{Telekinetic}}, this single is a fair mix of ambient and breaks. 
     & The album was recorded live from {{San Fransisco|travel}}'s {*POW POW POW*} which was controlled entirely with the {{Leap Motion|https://www.leapmotion.com}}.
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/known-magye
@@ -623,14 +641,18 @@ VERT KIRLIAN THEATRE
 
 LEDOLIEL
   UNDE : Mobile
-  BREF : {{Ledoliel}} is a strange dating toy for iOS, involving procedural creatures and their bizarre customs, where you must try and figure out what topics they might want to discuss, gift they might want to receive and places they may like to be touched - based on their cryptic attributes.
+  BREF : {{Ledoliel}} is a strange dating toy for iOS.
+  LONG
+    & Procedural creatures and their bizarre customs, where you must try and figure out what topics they might want to discuss, gift they might want to receive and places they may like to be touched - based on their cryptic attributes.
   LINK
     ITUN : https://itunes.apple.com/us/app/ledoliel/id891693763
     GITH : https://github.com/Echorridoors/Ledoliel
 
 LOOKING GLACE
   UNDE : Beldam records
-  BREF : Following {{Miniscopie}}, {{Looking Glace}} is {{Reine|http://noirmirroir.com}}'s second release on {{Beldam Records}}, painting a harsher, and more complete picture of her acoustic universe where the liquid sounds and suffocating vocoder are incessantly present.
+  BREF : Following {{Miniscopie}}, {{Looking Glace}} is {{Reine|http://noirmirroir.com}}'s second release on {{Beldam Records}}.
+  LONG
+    & Painting a harsher, and more complete picture of her acoustic universe where the liquid sounds and suffocating vocoder are incessantly present.
   LINK
     BAND : https://beldamrecords.bandcamp.com/album/looking-glace
     ITUN : https://itunes.apple.com/ca/album/looking-glace-ep/id1034127266
@@ -673,7 +695,9 @@ METHASCOPE
 
 MILAVREGA
   UNDE : Unreleased
-  BREF : {{Milavrega}} is an {{unreleased}} mobile game happening in someone's lost phone. You must try and find your way through the folders, emails and contacts to decypher the enigma of the phone's owner.
+  BREF : {{Milavrega}} is an {{unreleased}} mobile game happening in someone's lost phone. 
+  LONG
+    & You must try and find your way through the folders, emails and contacts to decypher the enigma of the phone's owner.
   FLAG : Todo
 
 MILAVREGARIAN
@@ -790,8 +814,9 @@ ABLETON
 
 NEREID
   UNDE : Illustration
-  BREF : {{Nereid}} is one of Neptune's {{moon|http://en.wikipedia.org/wiki/Nereid_(moon)}}. It has but one weather, "cold", terribly slow internet reception, idyllic valleys. The soil is mostly diamonds, {_carbonado_} and the lack of atmosphere leaves the surface of the moon, mostly quiet. Were there pigments on Nereid, they would be illegal - for Nereid is strickly colourless.
+  BREF : {{Nereid}} is one of Neptune's {{moon|http://en.wikipedia.org/wiki/Nereid_(moon)}}. 
   LONG
+    & It has but one weather, "cold", terribly slow internet reception, idyllic valleys. The soil is mostly diamonds, {_carbonado_} and the lack of atmosphere leaves the surface of the moon, mostly quiet. Were there pigments on Nereid, they would be illegal - for Nereid is strickly colourless.
     & The daily eclipse we call Night, you can have a look at my {{travel photography|Serventines}}.
   TYPE : Portal
 
