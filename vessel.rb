@@ -90,7 +90,7 @@ class CorpseHttp
       #{!term.is_diary   && term.has_diaries ? "<a class='md' href='/#{term.name}:diary'><img src='img/vectors/diary.svg'/><b>Diary</b>#{term.diaries.length} Entires</a>" : ""}
       #{!term.is_horaire && term.has_logs    ? "<a class='md' href='/#{term.name}:horaire'><img src='img/vectors/log.svg'/><b>Horaire</b>#{term.logs.length} Logs</a>" : ""}
       #{term.diary ? "<a href='/#{term.diary.photo}' class='md li'><img src='img/vectors/source.svg'/></a>" : ""}
-      <input placeholder='$' class='q'/>
+      <input placeholder='$ #{term.name}' class='q'/>
     </wr>
     #{term.diary ? Media.new("diary",term.diary.photo) : ""}
   </yu>
