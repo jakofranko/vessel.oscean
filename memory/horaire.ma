@@ -3,6 +3,7 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 10 26 - 26      Markle               Design
 2016 10 25 - 27      Markle               Design
 2016 10 24 - 34      Markle               Development
 2016 10 23 - 37      Markle               Migration
@@ -14,8 +15,8 @@
 2016 10 17 - 37      Markle               Migration
 2016 10 16 - 36      Markle               Migration
 2016 10 15 ! 25  162 Nervous              Modeling             Woulg                 Cover for {{Woulg|https://www.facebook.com/woulg.music/}}'s Dragged album on {{Methlab Agency|http://methlab-agency.com}}.
-2016 10 14 
-2016 10 13 
+2016 10 14 - 24      Nataniev             Design
+2016 10 13 - 23      Nataniev             Design
 2016 10 12 - 28      Lietal               Typography
 2016 10 11 - 35      Nataniev             Development
 2016 10 10 - 34      Pino                 Maintenance
