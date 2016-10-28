@@ -16,40 +16,26 @@ LIETAL
 
 OSCEAN
   Add flags(TODO/STUB)
-  Add auto-flags?
-  Voynich
   Make old interactive projects available again
-  Utope
-    Gamme
-    End Of Science
-    Goals
-    Flag
-    Graphic?
-    Atobe basics
   Update Repositories
   Surperstition short
   Add available diary action to vessel
   Add missing dates action to vessel
   Add errors report action to vessel
-  Display Tasks icon in header
 
 BELDAM
-  Rebuild website
-  Migrate to HttpCorpse Class
-
-NOIRMIRROIR
   Rebuild website
   Migrate to HttpCorpse Class
 
 HUNDREDRABBITS
   Setup podcast in iTunes
   100R Business Cards
-  Migrate Oquonie to Javascript
+  Migrate {{Oquonie}} to Javascript
 
 GRIMGRAIN
 
 VERRECIEL
-  Migrate to Swift 3
+  Fix issues in iOS10
 
 MARKLE
   Create alpha
