@@ -25,7 +25,7 @@ class CorpseHttp
         html += "</list>"
     end
     
-    return "<wr>#{html}</wr>"
+    return "<wr>#{html}</wr>".markup
 
   end
   
