@@ -27,9 +27,11 @@ class Term
   end
 
   def is_diary     ; return @module == "diary"    ? true : false end
+  def is_task      ; return @module == "task"     ? true : false end
   def is_horaire   ; return @module == "horaire"  ? true : false end
   def has_diaries  ; return diaries.length > 0    ? true : false end
   def has_logs     ; return logs.length > 0       ? true : false end
+  def has_tasks    ; return tasks.length > 0      ? true : false end
   
   def is_type t ; return type && type.like(t) ? true : false end
 
@@ -45,6 +47,13 @@ class Term
     if !@type then return nil end
     if !@type.include?(" ") then return nil end
     return @type.sub(type,"").strip.downcase.capitalize
+
+  end
+
+  def tasks
+
+    @tasks = @tasks ? @tasks : ( name.like("home") || name.like("diary") || name.like("horaire") ? $desktop.to_h : $desktop.filter("term",name,"issue"))
+    return @tasks
 
   end
 

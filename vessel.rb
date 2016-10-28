@@ -33,6 +33,7 @@ class ActionServe
 
     $lexicon = Memory_Hash.new("lexicon",@host.path)
     $horaire = Memory_Array.new("horaire",@host.path)
+    $desktop = Memory_Hash.new("desktop",@host.path)
 
     # Diary Id
 
@@ -44,6 +45,7 @@ class ActionServe
     corpse.term    = diary ? $lexicon.filter("term",diary.topic,"term") : $lexicon.filter("term",@query,"term")
     corpse.horaire = $horaire
     corpse.lexicon = $lexicon
+    corpse.desktop = $desktop
     corpse.title   = "XXIIVV ∴ #{corpse.term.name}"
 
     load_any "#{@host.path}/pages",   @query
@@ -63,6 +65,7 @@ class CorpseHttp
   attr_accessor :term
   attr_accessor :horaire
   attr_accessor :lexicon
+  attr_accessor :desktop
 
   def build
 
@@ -87,8 +90,9 @@ class CorpseHttp
   <yu class='hd'>
     <wr>
       <a href='/' class='lg'><img src='img/vectors/logo.svg'/></a>
-      #{!term.is_diary   && term.has_diaries ? "<a class='md' href='/#{term.name}:diary'><img src='img/vectors/diary.svg'/><b>Diary</b>#{term.diaries.length} Entires</a>" : ""}
+      #{!term.is_diary   && term.has_diaries ? "<a class='md' href='/#{term.name}:diary'><img src='img/vectors/diary.svg'/><b>Diary</b>#{term.diaries.length} Entries</a>" : ""}
       #{!term.is_horaire && term.has_logs    ? "<a class='md' href='/#{term.name}:horaire'><img src='img/vectors/log.svg'/><b>Horaire</b>#{term.logs.length} Logs</a>" : ""}
+      #{!term.is_task    && term.has_tasks   ? "<a class='md' href='/#{term.name}:issues'><img src='img/vectors/task.svg'/><b>Issues</b>#{term.tasks.length} Tasks</a>" : ""}
       #{term.diary ? "<a href='/#{term.diary.photo}' class='md li'><img src='img/vectors/source.svg'/></a>" : ""}
       <input placeholder='$ #{term.name}' class='q'/>
     </wr>
