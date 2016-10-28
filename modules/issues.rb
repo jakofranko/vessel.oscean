@@ -7,7 +7,7 @@ class CorpseHttp
 
     html = ""
 
-    if term.like("home") || term.like("issues")
+    if term.name.like("home") || term.name.like("issues")
       term.tasks.to_a.each do |topic,tasks|
         html += "<h2>#{topic}</h2>\n"
         tasks.each do |task|
@@ -15,7 +15,7 @@ class CorpseHttp
         end
       end
     else
-      html += "<h2>Tasks</h2>\n"
+      html += "<h2>Issues</h2>\n"
       term.tasks.to_a.each do |task|
         html += "<ln>#{task}</ln>\n"
       end
