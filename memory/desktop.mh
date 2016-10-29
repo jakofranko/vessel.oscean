@@ -2,6 +2,10 @@
 ~ NOTE : YAML
 ~ AUTH : Devine Lu Linvega
   
+NATANIEV
+  Atari vessel
+  Documentation action
+
 BLINDFOLK
   Get up and running
 
@@ -10,9 +14,6 @@ ADVENTV
 
 LIETAL
   Translate introduction
-  Migrate to new Actions
-  Fix documentation for Oscean
-  Fix API for Tekgo
 
 OSCEAN
   Add flags(TODO/STUB)
@@ -30,9 +31,11 @@ BELDAM
 HUNDREDRABBITS
   Setup podcast in iTunes
   100R Business Cards
-  Migrate {{Oquonie}} to Javascript
 
 GRIMGRAIN
+
+OQUONIE
+  Migrate to Javascript
 
 VERRECIEL
   Fix issues in iOS10
