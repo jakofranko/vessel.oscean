@@ -15,9 +15,11 @@ class CorpseHttp
           html += "<p>#{text}</p>"
         end
       else
+        html += "<list>"
         con.each do |k,v|
-          html += "<p><b>#{k}</b>: #{v.to_a.last.last}</p>\n"
+          html += "<line><b>#{k}</b>: #{v.to_a.last.last}</line>\n"
         end
+        html += "</list>"
       end
     end
 
