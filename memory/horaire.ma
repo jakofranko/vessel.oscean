@@ -3,7 +3,7 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
-2016 10 28 - 36      Obliques             Writing
+2016 10 28 ! 36  221 Obliques             Writing
 2016 10 27 - 36      Markle               Design
 2016 10 26 - 26      Markle               Design
 2016 10 25 - 27      Markle               Design
@@ -1290,7 +1290,7 @@
 2013 04 23 - 19      Remix
 2013 04 22 - 29      Waiting for horus    Testing
 2013 04 21 - 38      Hiversaires          Refactoring
-2013 04 20 - 19  221 Hiversaires          Composition          Soundtrack Release
+2013 04 20 - 19      Hiversaires          Composition          Soundtrack Release
 2013 04 19
 2013 04 18 - 25      Melady antres
 2013 04 17 - 27      Waiting for horus    Testing
