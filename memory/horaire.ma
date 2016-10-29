@@ -3,6 +3,8 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 10 28 - 36      Obliques             Writing
+2016 10 27 - 36      Markle               Design
 2016 10 26 - 26      Markle               Design
 2016 10 25 - 27      Markle               Design
 2016 10 24 - 34      Markle               Development
