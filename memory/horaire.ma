@@ -1751,7 +1751,7 @@
 2012 01 16
 2012 01 15 - 25   20 Mobile               Development          Character Builder
 2012 01 14 - 35      Nataniev             Development
-2012 01 13 - 35   19 Nataniev             Tools                Extra
+2012 01 13 - 35   19 Obliques             Tools                Extra
 2012 01 12
 2012 01 11
 2012 01 10 - 25  999 Nataniev             Development          Oscean Eye
