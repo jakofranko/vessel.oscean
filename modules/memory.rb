@@ -8,15 +8,18 @@ class CorpseHttp
     html = @term.long.runes
     ladder = Memory_Hash.new(term.name,@host.path)
 
-    html += "<table>"
     ladder.to_h.each do |cat,con|
-      html += "<tr><th>#{cat}</th></tr>\n"
-      con.sort.each do |term,con|
-        con = con.to_a
-        html += "<tr><td><b>#{term}</b></td><td>#{con.first.last}</td></tr>\n"
+      html += "<h2>#{cat}</h2>\n"
+      if con.kind_of?(Array)
+        con.each do |text|
+          html += "<p>#{text}</p>"
+        end
+      else
+        con.each do |k,v|
+          html += "<p><b>#{k}</b>: #{v.to_a.last.last}</p>\n"
+        end
       end
     end
-    html += "</table>"
 
     return "<wr>#{html}</wr>"
 
