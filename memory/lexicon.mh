@@ -1720,15 +1720,13 @@ SHORTHAND
 RATIONALITY
   UNDE : Notes
   BREF : Notes on rationality, compiled from LessWrong and other sources.
-  LONG
-    & Use the github link at the bottom of the page to suggest changes through pull requests.
   TYPE : Memory
   LINK
     GITH : https://github.com/XXIIVV/Nataniev/blob/master/library/rationality.en
 
 OBLIQUES
   UNDE : Notes
-  BREF : Notes on goals.
+  BREF : More is more is less.
   TYPE : Memory
 
 ~ Redirects
