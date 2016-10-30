@@ -17,7 +17,7 @@ class Term
 
     @name = "#{name}".downcase.capitalize
     @unde = content["UNDE"] ? content["UNDE"].downcase.capitalize : "Home"
-    @type = content["TYPE"] ? content["TYPE"].split(" ").first.downcase.capitalize : nil
+    @type = content["TYPE"] ? content["TYPE"] : nil
     @link = content["LINK"]
     @bref = content["BREF"] ? content["BREF"].markup : nil
     @long = content["LONG"] ? content["LONG"] : []
@@ -47,6 +47,13 @@ class Term
     if !@type then return nil end
     if !@type.include?(" ") then return nil end
     return @type.sub(type,"").strip.downcase.capitalize
+
+  end
+
+  def type
+
+    if !@type then return nil end
+    return @type.split(" ").first.downcase.capitalize
 
   end
 

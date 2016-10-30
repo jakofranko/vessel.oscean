@@ -283,50 +283,6 @@ DILUVIUM
     YOUT : http://youtu.be/z7NNBzNXncw
     GITH : https://github.com/Collegiennes/diluvium
 
-DIRECTORY
-  UNDE : Devine Lu Linvega
-  BREF : Timeless art that I have enjoyed and that I often talk about.
-  LONG
-    * Books
-    - {{Flatland: A Romance of Many Dimensions|https://en.wikipedia.org/wiki/Flatland}},  Edwin A. Abbott. 1884
-    - {{Le Matin Des Magiciens|https://en.wikipedia.org/wiki/The_Morning_of_the_Magicians}},  Louis Pauwels & Jacques Bergier. 1960
-    - {{Le Città Invisibili|https://en.wikipedia.org/wiki/Invisible_Cities}}, Italo Calvino. 1972 
-    - {{Ficciones|https://en.wikipedia.org/wiki/Ficciones}}, Jorge Luis Borges. 1941
-    - {{The Mysterious Stranger|https://en.wikipedia.org/wiki/The_Mysterious_Stranger}}, Mark Twain. 1916
-    - {{Kybalion|https://en.wikipedia.org/wiki/Kybalion}}, the Three Initiates. 1908
-    - {{La Ricerca della Lingua Perfetta nella Cultura Europea|https://en.wikipedia.org/wiki/La_Ricerca_della_Lingua_Perfetta_nella_Cultura_Europea}}, Umberto Eco. 1993
-    - {{Consolations in Travel|https://en.wikipedia.org/wiki/Humphry_Davy}}, Sir Humphry Davy. 1830
-    - {{Blumroch l'admirable|https://en.wikipedia.org/wiki/Louis_Pauwels}}, Louis Pauwels. 1976
-    - {{Simulacra and Simulation|https://en.wikipedia.org/wiki/Simulacra_and_Simulation}}, Jean Baudrillard. 1981
-    * Movies
-    - {{Last Life In The Universe|https://en.wikipedia.org/wiki/Last_Life_in_the_Universe}}, Pen-Ek Ratanaruang. 2003
-    - {{Solaris|https://en.wikipedia.org/wiki/Solaris_(2002_film)}}, Steven Soderbergh. 2002
-    - {{Wristcutters: A Love Story|http://www.imdb.com/title/tt0477139/}}, Goran Dukic. 2006
-    - {{Mais ne nous délivrez pas du mal|https://en.wikipedia.org/wiki/Don%27t_Deliver_Us_from_Evil}}, Joël Séria. 1971
-    - {{Faust|https://en.wikipedia.org/wiki/Faust_(1994_film)}}, Jan Švankmajer. 1994
-    - {{Rosencrantz and Guildenstern Are Dead|https://en.wikipedia.org/wiki/Rosencrantz_%26_Guildenstern_Are_Dead_(film)}}, Tom Stoppard. 1990
-    - {{Primer|https://en.wikipedia.org/wiki/Primer_(film)}}, Shane Carruth. 2004
-    - {{My Dinner with Andre|https://en.wikipedia.org/wiki/My_Dinner_with_Andre}}, Louis Malle. 1981
-    - {{Valerie and Her Week of Wonders|https://en.wikipedia.org/wiki/Valerie_and_Her_Week_of_Wonders_(film)}}, Jaromil Jireš. 1970
-    - {{The Legend of Suram Fortress|https://en.wikipedia.org/wiki/The_Legend_of_Suram_Fortress}}, Sergei Parajanov. 1985
-    * Words
-    - {{Февраль|https://ru.wikipedia.org/wiki/Февраль}}, February in Russian
-    - {{Roÿnes|https://fr.wiktionary.org/wiki/roÿne}}, queen in Middle French
-    - Pleurir, crying-laugh in French
-    - Neleodicastes, unknown from Logopandekteision
-    - {{Dodecahedron|https://en.wikipedia.org/wiki/Dodecahedron}}, in English
-    - {{Oyasumi|https://en.wiktionary.org/wiki/お休み}}, in Japanese
-    - {{Betwixt|https://en.wikipedia.org/wiki/Betwixt}}, in English
-    * Albums
-    - {{Weighing Souls With Sand|https://www.youtube.com/watch?v=G9ZiU7ahZso}}, by Angelic Process
-    - {{HoneySuckle Æons|https://www.youtube.com/watch?v=TKWpxsmNe6k}}, by Current 93
-    - {{顕信の一撃}}, by 友川カズキ
-    - {{Il y a|https://www.youtube.com/watch?v=N8v4xFvATy0}}, by 夢中夢
-    - {{Хтонь|https://srub.bandcamp.com/album/--3}}, Сруб
-    - {{Void();|https://www.youtube.com/watch?v=OY04fTctl7A}}, Access to Arasaka
-    - {{Noise Of The New|https://www.youtube.com/watch?v=hmX9VG1OS0I}}, by Seven Ark
-
-
 DODECAE
   UNDE : Supervisitor
   BREF : In collaboration with the <a href=‘https://bentomiso.com’>BentoMiso</a> coworking space, {{XXIIVV|http://xxiivv.com}} will present live experimental music performances from {{Adversary|http://tympanikaudio.com/releases/ta025}}, {{Ilkae|https://ilkae.bandcamp.com}}, {{Dualryan|https://dualryan.bandcamp.com}} and {{Aliceffekt|https://aliceffekt.bandcamp.com}} alongside the visualists {{Nonante|http://theinstructionlimit.com}} and {{Melesul3|http://www.pocaille.com}}, following the yearly <a href=‘https://bentomiso.com/bit-bazaar-winter-market-2014/’>Bit Bazzar</a> market on {_December 6th, 2014_}.
@@ -440,7 +396,9 @@ EHRIVEVNV
 
 ENTALONERALIE
   UNDE : Mobile
-  BREF : {{Entaloneralie}} is an experimental time observation device, in the lines of {{Bifurcan}}. While the old design displayed a circular layout and binary type format. The redesign explores an entirely different system of displaying minutes and is meant to be a toy, a distraction.
+  BREF : {{Entaloneralie}} is an experimental time observation device, in the lines of {{Bifurcan}}. 
+  LONG
+    & While the old design displayed a circular layout and binary type format. The redesign explores an entirely different system of displaying minutes and is meant to be a toy, a distraction.
   LINK
     ITUN : https://itunes.apple.com/us/app/entaloneralie/id657224738
     GITH : https://github.com/Echorridoors/Entaloneralie
@@ -853,8 +811,9 @@ RUBY RIDING HOOD
 
 NUMERALS
   UNDE : Code
-  BREF : {{Numerals}}, is a script that generates the name of numbers with 50'000 characters and beyond. It uses various extensions of the short word form, and ISQ inspired names, to create the names of numbers which have never previously been catalogued.
+  BREF : {{Numerals}}, is a script that generates the name of numbers with 50'000 characters and beyond. 
   LONG
+    & It uses various extensions of the short word form, and ISQ inspired names, to create the names of numbers which have never previously been catalogued.
     - One Million 6 zeros
     - One Quindecillion 48 zeros
     - One Quattuortrigintallion 105 zeros
@@ -896,8 +855,9 @@ OQUONIE
 
 OQUONIE GUIDE
   UNDE : Oquonie
-  BREF : I noticed that a few people get stuck after finding the first red pillar. This guide is meant to be a spoiler-free list of tips to help you proceed through {{Oquonie}}. So if you have not yet found the first pillar, this is {*not*} for you, so keep playing, for your only task at the moment would be to find three matching tokens.
+  BREF : I noticed that a few people get stuck after finding the first red pillar. 
   LONG
+    & This guide is meant to be a spoiler-free list of tips to help you proceed through {{Oquonie}}. So if you have not yet found the first pillar, this is {*not*} for you, so keep playing, for your only task at the moment would be to find three matching tokens.
     * That darn shark
     & You have found a locked red door, {*a red pillar thing*} appeared next to one of the town's gates, you have been turned back into the first character, {{Necomedre|Oquonie universe}}. What do?
     % oquonie guide
@@ -909,7 +869,7 @@ OQUONIE GUIDE
 
 OQUONIE UNIVERSE
   UNDE : Oquonie
-  BREF : The game {{Oquonie}} has no name, but we still created them some names to help us talk about it. But feel free to call them, the dino, the rabbit, the bird, the pig and the humanoid if that helps you.
+  BREF : The game {{Oquonie}} has no name, but we still created them some names to help us talk about it. 
   LONG
     * Playable
     ? Necomedre
@@ -1608,37 +1568,6 @@ JAPANESE
 RUSSIAN
   UNDE : Language
   BREF : This page is currently used to store hours invested in learning {{Russian}}. It will, hopefully, become a series of notes on the language at some point in time.
-
-DEVINE LU LINVEGA
-  TYPE : Portal
-  BREF : {{Devine lu linvega}} is a composer, illustrator and programer, living aboard a {{sailboat|Hundred rabbits}} on the Pacific Ocean. 
-  LONG
-    & Operating under the {{Neauoire|https://twitter.com/neauoire}} moniker, Devine is currating the {{Beldam Records}} catalog along with {{Elodie Lareine|http://noirmirroir.com}} and creating {{experimental mobile projects|http://www.creativeapplications.net/openframeworks/experimental-mobile-apps-by-devine-aliceffect-lu-linvega}}.
-    & Populating {{Nataniev}} with notes on {{Language}}, {{Illustrations|Illustration}} and {{Sounds|Audio}}, Devine hopes to inspire visitors to learn and to travel.    
-    & "To flee is life; To linger is death"
-
-NOOTROPICS
-  UNDE : Lifestyle
-  BREF : {{Nootropics|https://en.wikipedia.org/wiki/Nootropic}} are {_smart drugs_}. They can help with focus and attention, or simply serve as a weak stimulant - not unlike coffee. I started using them out of curiosity and they grew on me as an extra tool to help with concentration.
-  LONG
-    & There are a variety of Nootropics out there, and I have only tried but the combination, {_stack_}, of Noopept and Citicoline, as per suggested by a friend back in Tokyo. I order my supplements from {{Intellimeds|https://www.intellimeds.co.uk}}, shipping to Canada. I take this stack every day for a {*sequence of 30 days, then stop for a week*} as it seems to make the effect stronger when I start again at the end of the week.
-    - {{20mg Noopept|https://www.intellimeds.co.uk/noopept-powder}}, powder
-    - {{150mg Citicoline|https://www.intellimeds.co.uk/citicoline/citicoline-powder}}, powder
-    & It feels a bit like coffee, but with a light {_tunnel vision_}, the immediate effect is that of tuning out the voices in your head for a moment. When cycling on Noopept, it feels a bit like seeing wider. When coding, it feels a bit like things need to get done. I have been taking it for more than a year and I have yet to feel any negative effect. Noopept can be distracting at times, I heard that Racetams are weaker and might be more what you are looking for - I have yet to try them.
-
-LIFESTYLE
-  UNDE : Devine lu linvega
-  BREF : This entry covers multiple questions I have been getting lately.
-  TYPE : Text
-
-KEYBOARD
-  UNDE : Lifestyle
-  BREF : My {{mechanical keyboard|Keyboard}} is the {{Vortex Poker II PBT Mechanical Keyboard|https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=458}} with {{Blank Mint PBT caps|https://www.massdrop.com/buy/npkc-blank-pbt-keycaps}}. It's also connected, to my Macbook, through a {{90 degrees angle USB wire|http://www.amazon.ca/gp/product/B004YD6LW0?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00}}.
-  LONG
-    & The color choice is inspired from the {{Nataniev}} interface colors. I have red Cherry MX switches installed, with {{sound dampening o-rings|http://www.amazon.ca/gp/product/B00VHXHP6Q?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00}}. This cheers me up.
-  LINK
-    DROP : https://www.massdrop.com/mechanical-keyboards
-    REDD : https://www.reddit.com/r/MechanicalKeyboards/
   
 ~ Research
 
@@ -1719,15 +1648,57 @@ SHORTHAND
 
 RATIONALITY
   UNDE : Notes
-  BREF : Notes on rationality, compiled from LessWrong and other sources.
+  BREF : A list of compiled falacies, effects and biases.
   TYPE : Memory
   LINK
-    GITH : https://github.com/XXIIVV/Nataniev/blob/master/library/rationality.en
+    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/rationality.en
 
 OBLIQUES
   UNDE : Notes
   BREF : More is more is less.
   TYPE : Memory
+  LINK
+    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/obliques.en
+
+DIRECTORY
+  UNDE : Notes
+  BREF : A list of timeless art that I often refer to.
+  TYPE : Memory
+  LINK
+    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/directory.en
+
+~ About
+
+DEVINE LU LINVEGA
+  TYPE : Portal
+  BREF : {{Devine lu linvega}} is a composer, illustrator and programer, living aboard a {{sailboat|Hundred rabbits}} on the Pacific Ocean. 
+  LONG
+    & Operating under the {{Neauoire|https://twitter.com/neauoire}} moniker, Devine is currating the {{Beldam Records}} catalog along with {{Elodie Lareine|http://noirmirroir.com}} and creating {{experimental mobile projects|http://www.creativeapplications.net/openframeworks/experimental-mobile-apps-by-devine-aliceffect-lu-linvega}}.
+    & Populating {{Nataniev}} with notes on {{Language}}, {{Illustrations|Illustration}} and {{Sounds|Audio}}, Devine hopes to inspire visitors to learn and to travel.    
+    & "To flee is life; To linger is death"
+
+NOOTROPICS
+  UNDE : Lifestyle
+  BREF : {{Nootropics|https://en.wikipedia.org/wiki/Nootropic}} are {_smart drugs_}. They can help with focus and attention, or simply serve as a weak stimulant - not unlike coffee. I started using them out of curiosity and they grew on me as an extra tool to help with concentration.
+  LONG
+    & There are a variety of Nootropics out there, and I have only tried but the combination, {_stack_}, of Noopept and Citicoline, as per suggested by a friend back in Tokyo. I order my supplements from {{Intellimeds|https://www.intellimeds.co.uk}}, shipping to Canada. I take this stack every day for a {*sequence of 30 days, then stop for a week*} as it seems to make the effect stronger when I start again at the end of the week.
+    - {{20mg Noopept|https://www.intellimeds.co.uk/noopept-powder}}, powder
+    - {{150mg Citicoline|https://www.intellimeds.co.uk/citicoline/citicoline-powder}}, powder
+    & It feels a bit like coffee, but with a light {_tunnel vision_}, the immediate effect is that of tuning out the voices in your head for a moment. When cycling on Noopept, it feels a bit like seeing wider. When coding, it feels a bit like things need to get done. I have been taking it for more than a year and I have yet to feel any negative effect. Noopept can be distracting at times, I heard that Racetams are weaker and might be more what you are looking for - I have yet to try them.
+
+LIFESTYLE
+  UNDE : Devine lu linvega
+  BREF : This entry covers multiple questions I have been getting lately.
+  TYPE : Text
+
+KEYBOARD
+  UNDE : Lifestyle
+  BREF : My {{mechanical keyboard|Keyboard}} is the {{Vortex Poker II PBT Mechanical Keyboard|https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=458}} with {{Blank Mint PBT caps|https://www.massdrop.com/buy/npkc-blank-pbt-keycaps}}. It's also connected, to my Macbook, through a {{90 degrees angle USB wire|http://www.amazon.ca/gp/product/B004YD6LW0?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00}}.
+  LONG
+    & The color choice is inspired from the {{Nataniev}} interface colors. I have red Cherry MX switches installed, with {{sound dampening o-rings|http://www.amazon.ca/gp/product/B00VHXHP6Q?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00}}. This cheers me up.
+  LINK
+    DROP : https://www.massdrop.com/mechanical-keyboards
+    REDD : https://www.reddit.com/r/MechanicalKeyboards/
 
 ~ Redirects
 

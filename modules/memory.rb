@@ -9,15 +9,13 @@ class CorpseHttp
     ladder = Memory_Hash.new(term.name,@host.path)
 
     ladder.to_h.each do |cat,con|
-      html += "<h2>#{cat}</h2>\n"
+      html += "<h2>#{cat.capitalize}</h2>\n"
       if con.kind_of?(Hash)
         con.each do |k,v|
           html += "<h4>#{k}</h4>\n<p>#{v.first}</p>\n"
         end
       elsif con.kind_of?(Array)
-        con.each do |v|
-          html += "<p>#{v}</p>\n"
-        end
+        html += con.runes
       else
         html += con
       end
