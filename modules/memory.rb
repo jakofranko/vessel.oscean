@@ -10,14 +10,16 @@ class CorpseHttp
 
     ladder.to_h.each do |cat,con|
       html += "<h2>#{cat}</h2>\n"
-      if con.kind_of?(Array)
-        con.each do |text|
-          html += "<p>#{text}</p>"
+      if con.kind_of?(Hash)
+        con.each do |k,v|
+          html += "<h4>#{k}</h4>\n<p>#{v.first}</p>\n"
+        end
+      elsif con.kind_of?(Array)
+        con.each do |v|
+          html += "<p>#{v}</p>\n"
         end
       else
-        con.each do |k,v|
-          html += "<h4>#{k}</h4><p>#{v.to_a.last.last}</p>\n"
-        end
+        html += con
       end
     end
 
