@@ -32,11 +32,11 @@ THE WILL THE WISP
   UNDE : Automatons
   BREF : {{The will the wisp}} is a twitter bot that generates short poems, once every hour. Inspired by Lewis Carroll's Jabberwocky.
   LONG
-    & Tweeting a word at {{@thewillthewisp|https://twitter.com/thewillthewisp}} will produce a reply that includes that word, note that it will pick the last word of a sentence if more than one word is sent. Feel free to suggest more poem templates through {{pull requests|https://github.com/XXIIVV/instance.willw/blob/master/library/templates.ra}}.
+    & Tweeting a word at {{@thewillthewisp|https://twitter.com/thewillthewisp}} will produce a reply that includes that word, note that it will pick the last word of a sentence if more than one word is sent. Feel free to suggest more poem templates through {_pull requests_}.
     ? It can be found in {{Paradise|Nataniev}} as a ghostly beetle, in the {_Meadow_}, on a tree.
   LINK
     TWTR : https://twitter.com/thewillthewisp
-    GITH : https://github.com/XXIIVV/instance.willw
+    GITH : https://github.com/XXIIVV/vessel.thewillthewisp
 
 DICTIONARISM
   UNDE : Automatons
@@ -45,7 +45,7 @@ DICTIONARISM
     ? It can be found as writing on a blackboard, in the {{Library|Nataniev}}.
   LINK
     TWTR : https://twitter.com/dictionarism
-    GITH : https://github.com/XXIIVV/instance.disms
+    GITH : https://github.com/XXIIVV/vessel.dictionarism
 
 GLOSSOLALIARIUM
   UNDE : Automatons
@@ -68,7 +68,7 @@ GLOSSOLALIARIUM
     - Centblastbileian: Relating to one who loves hundred primitive.
   LINK
     TWTR : https://twitter.com/Glossolaliarium
-    GITH : https://github.com/XXIIVV/instance.gloss
+    GITH : https://github.com/XXIIVV/vessel.glossolaliarium
 
 ADVENT V
   UNDE : Automatons
@@ -78,7 +78,7 @@ ADVENT V
     ? The project is currently under development.
   LINK 
     TWTR : https://twitter.com/adventvrecall
-    GITH : https://github.com/XXIIVV/instance.adven
+    GITH : https://github.com/XXIIVV/vessel.adventv
     
 ~
 
@@ -180,11 +180,11 @@ BLINDFOLK
   LONG
     & It was first created in the span of 48 hours for {{Global Game Jam 2016|http://globalgamejam.org}}. 
     & This project joins {{Nataniev}} in its text-based interaction and concepts. 
-    & The game is open source and is available on {{Github|https://github.com/XXIIVV/instance.blind}}
+    & The game is open source and is available on {{Github|https://github.com/XXIIVV/vessel.blindfolk}}
     & The game uses a simple scripting language, here is an example of a riposte to an attack coming from the back, and a default movement pattern with an attack and a shout.
     # case attack.backward  step.leftcase default  attack.forward  turn.right  attack.backward  say yatta
   LINK
-    GITH : https://github.com/XXIIVV/instance.blind
+    GITH : https://github.com/XXIIVV/vessel.blindfolk
 
 BRANE
   UNDE : Polygonoscopy
@@ -531,7 +531,7 @@ GRIMGRAINS
   LINK
     MAIN : http://grimgrains.com/
     TWTR : https://twitter.com/grimgrains
-    GITH : https://github.com/XXIIVV/instance.grimg
+    GITH : https://github.com/XXIIVV/vessel.grimg
 
 HYPERVOID
   UNDE : Polygonoscopy
@@ -1574,7 +1574,7 @@ LIETAL
     & The Lietal language has 27 root words, each associated with a core idea - combinable and specific, to make all permutations of its alphabet possible. Written from left to right with implicit neutrality, words and groups of word are both ruled by the same grammatical logics. 
     $ lietal serve documentation
   LINK
-    GITH : https://github.com/XXIIVV/instance.lietl
+    GITH : https://github.com/XXIIVV/vessel.lietal
 
 GAMME
   UNDE : Utope
@@ -1605,21 +1605,21 @@ RATIONALITY
   BREF : A list of compiled falacies, effects and biases.
   TYPE : Memory
   LINK
-    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/rationality.en
+    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/rationality.mh
 
 OBLIQUES
   UNDE : Notes
   BREF : More is more is less.
   TYPE : Memory
   LINK
-    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/obliques.en
+    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/obliques.mh
 
 DIRECTORY
   UNDE : Notes
   BREF : A list of timeless art that I often refer to.
   TYPE : Memory
   LINK
-    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/directory.en
+    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/directory.mh
 
 ~ Gear
 
