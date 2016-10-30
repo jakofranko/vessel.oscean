@@ -21,36 +21,6 @@ RESEARCH
   BREF : Various entries on topics gravitating around a philosophy of bettering through an improvement of language and informatics. These sections may contains incomplete, broken or deprecated articles.
   TYPE : Portal
 
-~ Gear
-
-GEAR
-  BREF : TODO
-  TYPE : Portal
-
-CAMERA
-  UNDE : Gear
-  BREF : The photography on {{XXIIVV|Nataniev}} is mainly done with a now deceased Leica M8, and an old Nikon D90 camera. A few other cameras are used, below is a list {{Devine|Devine lu linvega}}'s principal camera equipment.
-  LONG
-    - {*Film*}
-    - {{Bessa R3M 250 Jahre|https://www.cameraquest.com/voigt_250.htm}}, Voigtlander
-    - {{Super wide heliar 15mm f4.5|http://www.kenrockwell.com/voigtlander/15mm.htm}}, Voigtlander
-    - {{Ultron 28mm f2|http://www.kenrockwell.com/voigtlander/28mm-f2.htm}}, Voigtlander
-    - {*Infrared*}
-    - D3000, Nikon({{Modified|http://www.lifepixel.com/infrared-photography-primer}})
-    - {{50mm Nikkor f1.2|https://commons.wikimedia.org/wiki/File:Auto_nikkor_50mm.jpg}}, Nikon
-    - {*General*}
-    - {{D90|http://www.kenrockwell.com/nikon/d90.htm}}, Nikon
-    - {{28mm Soligor f2.8|http://cannonfastreviews.com/soligor-28mm-f2-8-wide-auto/}}, Soligor
-
-KEYBOARD
-  UNDE : Gear
-  BREF : My {{mechanical keyboard|Keyboard}} is the {{Vortex Poker II PBT Mechanical Keyboard|https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=458}} with {{Blank Mint PBT caps|https://www.massdrop.com/buy/npkc-blank-pbt-keycaps}}. It's also connected, to my Macbook, through a {{90 degrees angle USB wire|http://www.amazon.ca/gp/product/B004YD6LW0?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00}}.
-  LONG
-    & The color choice is inspired from the {{Nataniev}} interface colors. I have red Cherry MX switches installed, with {{sound dampening o-rings|http://www.amazon.ca/gp/product/B00VHXHP6Q?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00}}. This cheers me up.
-  LINK
-    DROP : https://www.massdrop.com/mechanical-keyboards
-    REDD : https://www.reddit.com/r/MechanicalKeyboards/
-
 ~ Automatons
 
 AUTOMATONS
@@ -528,8 +498,8 @@ HOME
   UNDE : Home
   BREF : Welcome to the documentation and playground for the projects of multimedia developer {{Devine Lu Linvega}}.
   LONG
-    & This wiki provides narrative context for the {{Audio}}, {{Visual}} and {{Research}} projects. A {{Portal}} and a {{Timeline|Horaire}} are also maintained daily as part of {{XXIIVV|Nataniev}}.
-    & If this is your first time around, the {{Introduction|Nataniev}} is a good place to begin your exploration. If you wish to stay updated on the development of the latest projects, follow {{@Neauoire|http://twitter.com/neauoire}}.
+    & This wiki provides narrative context for the {{Audio}}, {{Visual}} and {{Research}} projects.
+    & If this is your first time around, the {{Introduction|Nataniev}} is a good place to begin your exploration. If you wish to stay updated on the development of the latest projects, follow {{@Neauoire|http://twitter.com/neauoire}}. A {{Portal}} and a {{Timeline|Horaire}} are also maintained daily as part of {{XXIIVV|Nataniev}}.
 
 HOWLS VIRGIL SYSTEMS
   UNDE : First wave
@@ -1651,18 +1621,45 @@ DIRECTORY
   LINK
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/directory.en
 
-~ About
+~ Gear
+
+GEAR
+  UNDE : Visual
+  BREF : Detailed collection of various pieces of equipment used in the creation of {{XXIIVV|Nataniev}}.
+  TYPE : Portal
+
+CAMERA
+  UNDE : Gear
+  BREF : The photography on {{XXIIVV|Nataniev}} is mainly done with a now deceased Leica M8, and an old Nikon D90 camera. A few other cameras are used, below is a list {{Devine|Devine lu linvega}}'s principal camera equipment.
+  LONG
+    - {*Film*}
+    - {{Bessa R3M 250 Jahre|https://www.cameraquest.com/voigt_250.htm}}, Voigtlander
+    - {{Super wide heliar 15mm f4.5|http://www.kenrockwell.com/voigtlander/15mm.htm}}, Voigtlander
+    - {{Ultron 28mm f2|http://www.kenrockwell.com/voigtlander/28mm-f2.htm}}, Voigtlander
+    - {*Infrared*}
+    - D3000, Nikon({{Modified|http://www.lifepixel.com/infrared-photography-primer}})
+    - {{50mm Nikkor f1.2|https://commons.wikimedia.org/wiki/File:Auto_nikkor_50mm.jpg}}, Nikon
+    - {*General*}
+    - {{D90|http://www.kenrockwell.com/nikon/d90.htm}}, Nikon
+    - {{28mm Soligor f2.8|http://cannonfastreviews.com/soligor-28mm-f2-8-wide-auto/}}, Soligor
+
+KEYBOARD
+  UNDE : Gear
+  BREF : My {{mechanical keyboard|Keyboard}} is the {{Vortex Poker II PBT Mechanical Keyboard|https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=458}} with {{Blank Mint PBT caps|https://www.massdrop.com/buy/npkc-blank-pbt-keycaps}}. It's also connected, to my Macbook, through a {{90 degrees angle USB wire|http://www.amazon.ca/gp/product/B004YD6LW0?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00}}.
+  LONG
+    & The color choice is inspired from the {{Nataniev}} interface colors. I have red Cherry MX switches installed, with {{sound dampening o-rings|http://www.amazon.ca/gp/product/B00VHXHP6Q?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00}}. This cheers me up.
+  LINK
+    DROP : https://www.massdrop.com/mechanical-keyboards
+    REDD : https://www.reddit.com/r/MechanicalKeyboards/
 
 DEVINE LU LINVEGA
-  TYPE : Portal
   BREF : {{Devine lu linvega}} is a composer, illustrator and programer, living aboard a {{sailboat|Hundred rabbits}} on the Pacific Ocean. 
   LONG
-    & Operating under the {{Neauoire|https://twitter.com/neauoire}} moniker, Devine is currating the {{Beldam Records}} catalog along with {{Elodie Lareine|http://noirmirroir.com}} and creating {{experimental mobile projects|http://www.creativeapplications.net/openframeworks/experimental-mobile-apps-by-devine-aliceffect-lu-linvega}}.
-    & Populating {{Nataniev}} with notes on {{Language}}, {{Illustrations|Illustration}} and {{Sounds|Audio}}, Devine hopes to inspire visitors to learn and to travel.    
-    & "To flee is life; To linger is death"
+    & Operating under the {{Neauoire|https://twitter.com/neauoire}} moniker, Devine is currating the {{Beldam Records}} catalog and creating {{experimental mobile projects|http://www.creativeapplications.net/openframeworks/experimental-mobile-apps-by-devine-aliceffect-lu-linvega}}. Populating {{Nataniev}} with notes on {{Language}}, {{Illustrations|Illustration}} and {{Sounds|Audio}}, Devine hopes to inspire visitors to learn and to travel.  
+    ? "To flee is life; To linger is death"
 
 DEATH
-  UNDE : Devine lu linvega
+  UNDE : Lifestyle
   BREF : Inspired from Chris Crawford's Jars, these cells shows my life span with a cell for each week.
 
 NOOTROPICS
