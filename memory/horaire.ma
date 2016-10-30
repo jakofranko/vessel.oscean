@@ -108,7 +108,7 @@
 2016 07 18 - 32      Nataniev             AI
 2016 07 17 - 34      Nataniev             AI
 2016 07 16 - 38      Nataniev             Tools
-2016 07 15 - 24   18 Photograph           Photography          Voigtländer Bessa
+2016 07 15 - 24   18 Camera               Photography          Voigtländer Bessa
 2016 07 14 - 19   10 Collected works      Release              Cyan
 2016 07 13 - 34      The will the wisp    Development
 2016 07 12 ! 29    8 Sailing              Photography          Becalmed              Becalmed under a suffocating moonless sky, we drag deeper into the numbing gloom. Shapeless forms slither nearer and across the oily swells, cutting through flakes of luminescence, laughing at us. Attracted to the steaming light, a flock of bats circle our limp sail and the mind wanders. <br /><br />Intermittent gurgles, a pod of whales surfaces all around us. The sun didn't rise that day, the fog only turned into a lighter shade of black.
