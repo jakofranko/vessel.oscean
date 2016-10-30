@@ -2,11 +2,103 @@
 ~ NOTE : Project archive
 ~ AUTH : Devine Lu Linvega
 
-TO THE AEONS HELL
-  UNDE : First wave
-  BREF : This album is a sort of mixtape made of bits and pieces from songs I like.
+~ Sectors
+
+AUDIO
+  UNDE : Home
+  BREF : Various audio related projects.
+  LONG
+    & {{Devine|Devine Lu Linvega}} originally started the {{Aliceffekt|Audio}} project to create soundscapes to complement {{illustrations|illustration}} and {{games|Interactive}}, but has since produced a wide variety of tracks, ranging from IDM, noise, industrial, and ambient - as well as music for interactive installations.
+  TYPE : Portal
+
+VISUAL
+  UNDE : Home
+  BREF : Various entries relative to interactive and design related projects.
+  TYPE : Portal
+
+RESEARCH
+  UNDE : Home
+  BREF : Various entries on topics gravitating around a philosophy of bettering through an improvement of language and informatics. These sections may contains incomplete, broken or deprecated articles.
+  TYPE : Portal
+
+~ Gear
+
+GEAR
+  BREF : TODO
+  TYPE : Portal
+
+PHOTOGRAPH
+  UNDE : Gear
+  BREF : The photography on {{XXIIVV|Nataniev}} is mainly done with a now deceased Leica M8, and an old Nikon D90 camera. A few other cameras are used, below is a list {{Devine|Devine lu linvega}}'s principal camera equipment.
+  LONG
+    - {*Film*}
+    - {{Bessa R3M 250 Jahre|https://www.cameraquest.com/voigt_250.htm}}, Voigtlander
+    - {{Super wide heliar 15mm f4.5|http://www.kenrockwell.com/voigtlander/15mm.htm}}, Voigtlander
+    - {{Ultron 28mm f2|http://www.kenrockwell.com/voigtlander/28mm-f2.htm}}, Voigtlander
+    - {*Infrared*}
+    - D3000, Nikon({{Modified|http://www.lifepixel.com/infrared-photography-primer}})
+    - {{50mm Nikkor f1.2|https://commons.wikimedia.org/wiki/File:Auto_nikkor_50mm.jpg}}, Nikon
+    - {*General*}
+    - {{D90|http://www.kenrockwell.com/nikon/d90.htm}}, Nikon
+    - {{28mm Soligor f2.8|http://cannonfastreviews.com/soligor-28mm-f2-8-wide-auto/}}, Soligor
+
+KEYBOARD
+  UNDE : Gear
+  BREF : My {{mechanical keyboard|Keyboard}} is the {{Vortex Poker II PBT Mechanical Keyboard|https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=458}} with {{Blank Mint PBT caps|https://www.massdrop.com/buy/npkc-blank-pbt-keycaps}}. It's also connected, to my Macbook, through a {{90 degrees angle USB wire|http://www.amazon.ca/gp/product/B004YD6LW0?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00}}.
+  LONG
+    & The color choice is inspired from the {{Nataniev}} interface colors. I have red Cherry MX switches installed, with {{sound dampening o-rings|http://www.amazon.ca/gp/product/B00VHXHP6Q?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00}}. This cheers me up.
   LINK
-    BAND : http://aliceffekt.bandcamp.com/album/accursed-be-it-to-the-aeons-hell
+    DROP : https://www.massdrop.com/mechanical-keyboards
+    REDD : https://www.reddit.com/r/MechanicalKeyboards/
+
+~ Automatons
+
+AUTOMATONS
+  UNDE : Research
+  BREF : A collection of twitter games and chatbots, along with their source files.
+  TYPE : Portal
+
+THE WILL THE WISP
+  UNDE : Automatons
+  BREF : {{The will the wisp}} is a twitter bot that generates short poems, once every hour. Inspired by Lewis Carroll's Jabberwocky.
+  LONG
+    & Tweeting a word at {{@thewillthewisp|https://twitter.com/thewillthewisp}} will produce a reply that includes that word, note that it will pick the last word of a sentence if more than one word is sent. Feel free to suggest more poem templates through {{pull requests|https://github.com/XXIIVV/instance.willw/blob/master/library/templates.ra}}.
+    ? It can be found in {{Paradise|Nataniev}} as a ghostly beetle, in the {_Meadow_}, on a tree.
+  LINK
+    TWTR : https://twitter.com/thewillthewisp
+    GITH : https://github.com/XXIIVV/instance.willw
+
+DICTIONARISM
+  UNDE : Automatons
+  BREF : {{Dictionarism}} is a simple twitter bot that generates {_-isms_} from every of every single word of a dictionary and tweets them.
+  LONG
+    ? It can be found as writing on a blackboard, in the {{Library|Nataniev}}.
+  LINK
+    TWTR : https://twitter.com/dictionarism
+    GITH : https://github.com/XXIIVV/instance.disms
+
+GLOSSOLALIARIUM
+  UNDE : Automatons
+  BREF : {{Glossolaliarium}} is a twitter bot that generates procedural english words by combining various prefixes and suffixes, and try to form definitions of these newly created terms.
+  LONG
+    - Dictcephaladelog: Speech or process of foretelling the future encephalitis.
+    - Percedecracyalgia: Pain government throughout, yield.
+    - Juvenoryocuplegia: To bring back to youthful strength or appearance relating to an eye doctor paralysis.
+    - Omniialsanive: Relating to knowing all things inclined to relating to cleanliness and health.
+    - Pentostomydermsion: Surgical pentagon state or quality elephant.
+    - Selfmortcideily: In what manner act of killing or by itself, death.
+    - Ferdynletoid: Resembling version of bear energy.
+    - Nonizepoliful: Become with no special characteristics full of metropolis.
+    - Ruptorygenine: Relating to a break in something relating to birth.
+    - Selfcyclhoodtroby: Nourishment condition for ring.
+    - Gramhydrudeic: Characterized by written liquid.
+    - Fidcardiboneity: Quality of sound from faith.
+    - Forpolierist: A person more completely city.
+    - Toxbytitearium: Follower poison plant.
+    - Centblastbileian: Relating to one who loves hundred primitive.
+  LINK
+    TWTR : https://twitter.com/Glossolaliarium
+    GITH : https://github.com/XXIIVV/instance.gloss
 
 ADVENT V
   UNDE : Automatons
@@ -17,6 +109,14 @@ ADVENT V
   LINK 
     TWTR : https://twitter.com/adventvrecall
     GITH : https://github.com/XXIIVV/instance.adven
+    
+~
+
+TO THE AEONS HELL
+  UNDE : First wave
+  BREF : This album is a sort of mixtape made of bits and pieces from songs I like.
+  LINK
+    BAND : http://aliceffekt.bandcamp.com/album/accursed-be-it-to-the-aeons-hell
 
 APPEAL
   UNDE : Nereid
@@ -74,62 +174,6 @@ ASTRATAS
   UNDE : Polygonoscopy
   BREF : The {{Astratas}} topologic maps oscillate to {{Serventines}}'s {{Polygonoscopic|polygonoscopy}} frequencies.
   TYPE : Diary
-
-AUDIO
-  UNDE : Home
-  BREF : Various audio related projects.
-  LONG
-    & {{Devine|Devine Lu Linvega}} originally started the {{Aliceffekt|Audio}} project to create soundscapes to complement {{illustrations|illustration}} and {{games|Interactive}}, but has since produced a wide variety of tracks, ranging from IDM, noise, industrial, and ambient - as well as music for interactive installations.
-  TYPE : Portal
-
-~ Automatons
-
-AUTOMATONS
-  UNDE : Language
-  BREF : A collection of twitter games and chatbots, along with their source files.
-  TYPE : Portal
-
-THE WILL THE WISP
-  UNDE : Automatons
-  BREF : {{The will the wisp}} is a twitter bot that generates short poems, once every hour. Inspired by Lewis Carroll's Jabberwocky.
-  LONG
-    & Tweeting a word at {{@thewillthewisp|https://twitter.com/thewillthewisp}} will produce a reply that includes that word, note that it will pick the last word of a sentence if more than one word is sent. Feel free to suggest more poem templates through {{pull requests|https://github.com/XXIIVV/instance.willw/blob/master/library/templates.ra}}.
-    ? It can be found in {{Paradise|Nataniev}} as a ghostly beetle, in the {_Meadow_}, on a tree.
-  LINK
-    TWTR : https://twitter.com/thewillthewisp
-    GITH : https://github.com/XXIIVV/instance.willw
-
-DICTIONARISM
-  UNDE : Automatons
-  BREF : {{Dictionarism}} is a simple twitter bot that generates {_-isms_} from every of every single word of a dictionary and tweets them.
-  LONG
-    ? It can be found as writing on a blackboard, in the {{Library|Nataniev}}.
-  LINK
-    TWTR : https://twitter.com/dictionarism
-    GITH : https://github.com/XXIIVV/instance.disms
-
-GLOSSOLALIARIUM
-  UNDE : Automatons
-  BREF : {{Glossolaliarium}} is a twitter bot that generates procedural english words by combining various prefixes and suffixes, and try to form definitions of these newly created terms.
-  LONG
-    - Dictcephaladelog: Speech or process of foretelling the future encephalitis.
-    - Percedecracyalgia: Pain government throughout, yield.
-    - Juvenoryocuplegia: To bring back to youthful strength or appearance relating to an eye doctor paralysis.
-    - Omniialsanive: Relating to knowing all things inclined to relating to cleanliness and health.
-    - Pentostomydermsion: Surgical pentagon state or quality elephant.
-    - Selfmortcideily: In what manner act of killing or by itself, death.
-    - Ferdynletoid: Resembling version of bear energy.
-    - Nonizepoliful: Become with no special characteristics full of metropolis.
-    - Ruptorygenine: Relating to a break in something relating to birth.
-    - Selfcyclhoodtroby: Nourishment condition for ring.
-    - Gramhydrudeic: Characterized by written liquid.
-    - Fidcardiboneity: Quality of sound from faith.
-    - Forpolierist: A person more completely city.
-    - Toxbytitearium: Follower poison plant.
-    - Centblastbileian: Relating to one who loves hundred primitive.
-  LINK
-    TWTR : https://twitter.com/Glossolaliarium
-    GITH : https://github.com/XXIIVV/instance.gloss
 
 BEAUTY
   UNDE : Nereid
@@ -231,10 +275,6 @@ DESKTOP
   UNDE : Interactive
   BREF : This list shows all of the desktop projects built of the last few years.
   TYPE : Portal
-
-DEATH
-  UNDE : Devine lu linvega
-  BREF : Inspired from Chris Crawford's Jars, these cells shows my life span with a cell for each week.
 
 DEW
   UNDE : Mobile
@@ -463,11 +503,6 @@ GENESIS MINERS
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/genesis-iii-20-ov-idyllic-miners
 
-GERMANY
-  UNDE : Travel
-  BREF : Travel pictures from 2012 and Amaze's 2015.
-  TYPE : Diary
-
 GONE PLAINS
   UNDE : First wave
   FLAG : Todo
@@ -682,7 +717,6 @@ MIXTAPE
   BREF : A collection of dj sets recorded over the years, ranging from industrial, to classical to idm.
   LONG
     & Some of the tracklists were lost, feel free to contact me if you need to find the name of a specific track. The entire collection is available {{here|https://drive.google.com/folderview?id=0B24klRuG3GLNam56My1Va1RfSU0&usp=sharing}} while the individual tracklists can be seen bellow.
-  TYPE : Text
   LINK
     DRIV : https://drive.google.com/folderview?id=0B24klRuG3GLNam56My1Va1RfSU0&usp=sharing
 
@@ -797,7 +831,6 @@ NOR LET THE FOOLS
 CODE
   UNDE : Code
   BREF : This is a collection of linguistic and programming projects.
-  TYPE : Text
   FLAG : TODO
 
 RUBY RIDING HOOD
@@ -957,18 +990,6 @@ POLYGONOSCOPY
   BREF : {{Polygonoscopy}} is a series of illustration made with the {{Kaleidoscope}} along with better lenses, allowing me to zoom into reflections and visit spaces that would normally be impossible to explore. This, in some ways, pleases my curiosity in explorating the {_Simulacra_}.
   TYPE : Portal
 
-PORTALION
-  UNDE : Second wave
-  BREF : {{Portalion}} is the successor to {{The Opal Inquisitors}}, continuing the exploration of the central regions of {{Dinaisth}}, landing on the southernest docks of {_Laeisth_}.
-  LONG
-    & On a foggy night of the {_Sixth Season_}, embarking on one of the vessels of the {_Septechoes_} in the desert of {_Clionn_}, {{Neonev}} sails toward {_Whiinders_} to see its {{Immortal Birds}} once more.
-    - Landing in Laeisth
-    - The Sixth Season Festival
-    - Tunnel Aeroports of Clionn
-    - Moebius Lift's Ascension
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/portalion
-
 PURGATEUS
   UNDE : Desktop
   BREF : Purgateus is a {{Proteus|http://www.visitproteus.com}} remix, inspired from a tweet by {{Ian Snyder|https://twitter.com/whatisian/status/468819959859007488}}. This world behave just like Proteus, but looks and sounds different. Read more on {{Venus Patrol|http://venuspatrol.com/purgateus/}}.
@@ -1119,18 +1140,6 @@ EHRIVEVNV STUDIES
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/the-ehrivevnv-studies-reissue
 
-THE OPAL INQUISITORS
-  UNDE : Second wave
-  BREF : {{The Opal Inquisitors}} is the prequel to {{Portalion}}, where {{Neonev}} begin their exploration of the central regions of {{Dinaisth}}, emerging from the tunnels of {_Dei Dain Canals_}.
-  LONG
-    & Driving the {{Vermillionth}} up the spires below the surface of central islands, the records are photographs of the travels between the caves of {_Dilitrielth_} and the deserts of {{Duomo}.
-    - Down The Vertical Canals
-    - Below The Vetetrandes Spires
-    - Moires Of Dei Dain
-    - Exosphere Sunsets(Ver’Tale)
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/the-opal-inquisitors
-
 THIRD WAVE
   UNDE : Aliceffekt
   TYPE : Portal
@@ -1203,11 +1212,6 @@ VETETRANDES LETTRES
     & The album is part of {{Aliceffekt}}'s {{Second Wave}} albums.
   LINK
     BAND : http://aliceffekt.bandcamp.com/album/vetetrandes-lettres-perdues
-
-VISUAL
-  UNDE : Home
-  BREF : Various entries relative to interactive and design related projects.
-  TYPE : Portal
 
 VOCAVULARIST
   UNDE : Mobile
@@ -1331,7 +1335,6 @@ PARADICHLORISSE
 
 DINAISTH
   UNDE : Neauismetica
-  TYPE : Text
   BREF : {{Dinaisth}} is both the name of a {_marble_}, and that of the continent arbouring the Offices of the {{Immortal Birds}} in the {{Neauismetica}}. 
   FLAG : Todo
 
@@ -1369,7 +1372,6 @@ Whiinders
 IMMORTAL BIRDS
   UNDE : Neauismetica
   BREF : {{Immortal Birds}} are individuals looking working on the {{Ehrivevnv}}, aspiring to reach the center of the dimensional puzzle. The group is often called {_The Courtship Of The Immortal Birds_}, taking its name from the {{Language Of The Birds|Nohlxeserre}}. 
-  TYPE : Text
 
 YAJNEV
   UNDE : Immortal birds
@@ -1406,22 +1408,6 @@ NEONEV
     & Neonev met with {{Andes}} at his arrival in the northern part of Dinais and again as Evelyn before he met with {{Paradichlorisse}} in the last season. While they lived apart, they corresponded and established {{Neon Hermetism}} to solve the dimensional puzzle {{Ehrivevnv}}.
 
 ~ Photography
-
-PHOTOGRAPH
-  UNDE : Visual
-  BREF : The photography on {{XXIIVV|Nataniev}} is mainly done with a now deceased Leica M8, and an old Nikon D90 camera. A few other cameras are used, below is a list {{Devine|Devine lu linvega}}'s principal camera equipment.
-  LONG
-    - {*Film*}
-    - {{Bessa R3M 250 Jahre|https://www.cameraquest.com/voigt_250.htm}}, Voigtlander
-    - {{Super wide heliar 15mm f4.5|http://www.kenrockwell.com/voigtlander/15mm.htm}}, Voigtlander
-    - {{Ultron 28mm f2|http://www.kenrockwell.com/voigtlander/28mm-f2.htm}}, Voigtlander
-    - {*Infrared*}
-    - D3000, Nikon({{Modified|http://www.lifepixel.com/infrared-photography-primer}})
-    - {{50mm Nikkor f1.2|https://commons.wikimedia.org/wiki/File:Auto_nikkor_50mm.jpg}}, Nikon
-    - {*General*}
-    - {{D90|http://www.kenrockwell.com/nikon/d90.htm}}, Nikon
-    - {{28mm Soligor f2.8|http://cannonfastreviews.com/soligor-28mm-f2-8-wide-auto/}}, Soligor
-  TYPE : Portal
   
 MACRO
   UNDE : Photograph
@@ -1500,6 +1486,11 @@ CZECH
   BREF : Trip to Czech Republic in 2011.
   TYPE : Diary
 
+GERMANY
+  UNDE : Travel
+  BREF : Travel pictures from 2012 and Amaze's 2015.
+  TYPE : Diary
+
 ~ Drownspire
 
 DROWNSPIRE
@@ -1525,7 +1516,6 @@ VAMBITS
 SEGMENT
   UNDE : Research
   BREF : Various notes written as shorts.
-  TYPE : Text
 
 LANGUAGE OF THE BIRDS
   UNDE : Segment
@@ -1540,7 +1530,6 @@ PAPER SCISSORS
 NOTES
   UNDE : Research
   BREF : Various notes written as stories.
-  TYPE : Text
 
 THE SARTRE MECHANISM
   UNDE : Notes
@@ -1570,11 +1559,6 @@ RUSSIAN
   BREF : This page is currently used to store hours invested in learning {{Russian}}. It will, hopefully, become a series of notes on the language at some point in time.
   
 ~ Research
-
-RESEARCH
-  UNDE : Home
-  BREF : Various entries on topics gravitating around a philosophy of bettering through an improvement of language and informatics. These sections may contains incomplete, broken or deprecated articles.
-  TYPE : Portal
 
 TALK
   UNDE : Research
@@ -1677,6 +1661,10 @@ DEVINE LU LINVEGA
     & Populating {{Nataniev}} with notes on {{Language}}, {{Illustrations|Illustration}} and {{Sounds|Audio}}, Devine hopes to inspire visitors to learn and to travel.    
     & "To flee is life; To linger is death"
 
+DEATH
+  UNDE : Devine lu linvega
+  BREF : Inspired from Chris Crawford's Jars, these cells shows my life span with a cell for each week.
+
 NOOTROPICS
   UNDE : Lifestyle
   BREF : {{Nootropics|https://en.wikipedia.org/wiki/Nootropic}} are {_smart drugs_}. They can help with focus and attention, or simply serve as a weak stimulant - not unlike coffee. I started using them out of curiosity and they grew on me as an extra tool to help with concentration.
@@ -1686,20 +1674,32 @@ NOOTROPICS
     - {{150mg Citicoline|https://www.intellimeds.co.uk/citicoline/citicoline-powder}}, powder
     & It feels a bit like coffee, but with a light {_tunnel vision_}, the immediate effect is that of tuning out the voices in your head for a moment. When cycling on Noopept, it feels a bit like seeing wider. When coding, it feels a bit like things need to get done. I have been taking it for more than a year and I have yet to feel any negative effect. Noopept can be distracting at times, I heard that Racetams are weaker and might be more what you are looking for - I have yet to try them.
 
-LIFESTYLE
-  UNDE : Devine lu linvega
-  BREF : This entry covers multiple questions I have been getting lately.
-  TYPE : Text
+~ [TODO] Combine under a portal page
 
-KEYBOARD
-  UNDE : Lifestyle
-  BREF : My {{mechanical keyboard|Keyboard}} is the {{Vortex Poker II PBT Mechanical Keyboard|https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=458}} with {{Blank Mint PBT caps|https://www.massdrop.com/buy/npkc-blank-pbt-keycaps}}. It's also connected, to my Macbook, through a {{90 degrees angle USB wire|http://www.amazon.ca/gp/product/B004YD6LW0?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00}}.
+THE OPAL INQUISITORS
+  UNDE : Second wave
+  BREF : {{The Opal Inquisitors}} is the prequel to {{Portalion}}, where {{Neonev}} begin their exploration of the central regions of {{Dinaisth}}, emerging from the tunnels of {_Dei Dain Canals_}.
   LONG
-    & The color choice is inspired from the {{Nataniev}} interface colors. I have red Cherry MX switches installed, with {{sound dampening o-rings|http://www.amazon.ca/gp/product/B00VHXHP6Q?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00}}. This cheers me up.
+    & Driving the {{Vermillionth}} up the spires below the surface of central islands, the records are photographs of the travels between the caves of {_Dilitrielth_} and the deserts of {{Duomo}.
+    - Down The Vertical Canals
+    - Below The Vetetrandes Spires
+    - Moires Of Dei Dain
+    - Exosphere Sunsets(Ver’Tale)
   LINK
-    DROP : https://www.massdrop.com/mechanical-keyboards
-    REDD : https://www.reddit.com/r/MechanicalKeyboards/
+    BAND : https://aliceffekt.bandcamp.com/album/the-opal-inquisitors
 
+PORTALION
+  UNDE : Second wave
+  BREF : {{Portalion}} is the successor to {{The Opal Inquisitors}}, continuing the exploration of the central regions of {{Dinaisth}}, landing on the southernest docks of {_Laeisth_}.
+  LONG
+    & On a foggy night of the {_Sixth Season_}, embarking on one of the vessels of the {_Septechoes_} in the desert of {_Clionn_}, {{Neonev}} sails toward {_Whiinders_} to see its {{Immortal Birds}} once more.
+    - Landing in Laeisth
+    - The Sixth Season Festival
+    - Tunnel Aeroports of Clionn
+    - Moebius Lift's Ascension
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/portalion
+    
 ~ Redirects
 
 TRAUMAE

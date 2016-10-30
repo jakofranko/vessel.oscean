@@ -12,7 +12,7 @@ class CorpseHttp
       html += "<h2>#{cat.capitalize}</h2>\n"
       if con.kind_of?(Hash)
         con.each do |k,v|
-          html += "<h4>#{k}</h4>\n<p>#{v.first}</p>\n"
+          html += "<h4>#{k}</h4>\n#{v.runes}\n"
         end
       elsif con.kind_of?(Array)
         html += con.runes

@@ -17,7 +17,7 @@ class CorpseHttp
         html += "</list>"
       end
     else
-      html += "<h2>#{term.tasks.to_a} Issues</h2>\n"
+      html += "<h2>#{term.tasks.to_a.length} Issues</h2>\n"
       html += "<list>"
       term.tasks.to_a.each do |task|
         html += "#{task}<br />\n"
