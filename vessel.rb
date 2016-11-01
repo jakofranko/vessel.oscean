@@ -15,6 +15,7 @@ class VesselOscean
     @path = File.expand_path(File.join(File.dirname(__FILE__), "/"))
 
     install(:default,:serve)
+    install(:default,:find)
 
   end
 
@@ -54,6 +55,33 @@ class ActionServe
     load_any "#{@host.path}/modules", corpse.term.type
 
     return corpse.result
+
+  end
+
+end
+
+class ActionFind
+
+  include Action
+
+  def act q = "Home"
+
+    horaire = Memory_Array.new("horaire",@host.path)
+
+    array = []
+    diaries = []
+    horaire.to_a.each do |log|
+      if !log["PICT"] then next end
+      diaries.push(log["PICT"].to_i)
+    end
+    diaries = diaries.sort
+
+    i = 1
+    while i < 999
+      if !diaries.include?(i) then return i end
+      i += 1
+    end
+    return array
 
   end
 
