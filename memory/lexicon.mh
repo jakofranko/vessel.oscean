@@ -485,11 +485,10 @@ HEX HIVE NECKLACE
 
 HIVERSAIRES
   UNDE : Mobile
-  BREF : {{Hiversaires}} is a point-n-click for players who remember games where you had to draw maps. 
+  BREF : {{Hiversaires}} is a textless point-n-click for players who remember games where you had to draw maps. 
   LONG
-    & The dark world of Hiversaires features an original {{Aliceffekt}} soundtrack to lure you through its entangled corridors.
-    * Textless adventure
-    & Hiversaires is the first part in a series of textless games, that also includes the isometric adventure {{Oquonie}}. While the game has no text, there is an underlying story.
+    & Hiversaires is the first part of a series of textless games, that also includes the isometric adventure {{Oquonie}}. 
+    & The dark world of Hiversaires features an original {{Aliceffekt|https://aliceffekt.bandcamp.com/album/hiversaires-soundtrack}} soundtrack to lure you through its entangled corridors.
   LINK
     ITUN : https://itunes.apple.com/au/app/hiversaires/id630992348
     GITH : https://github.com/Echorridoors/hiversaires
