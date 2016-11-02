@@ -1551,7 +1551,7 @@ LIETAL
   UNDE : Utope
   BREF : Created in 1998, {{Lietal}} is a {{synthetic language|http://en.wikipedia.org/wiki/Constructed_language}} created by {{Devine Lu Linvega|Devine Lu Linvega}} for linguistic experiments and research. 
   LONG
-    & The Lietal language has 27 root words, each associated with a core idea - combinable and specific, to make all permutations of its alphabet possible. Written from left to right with implicit neutrality, words and groups of word are both ruled by the same grammatical logics. 
+    & The Lietal language has 27 root words, each associated with a core idea - combinable and specific, to make all permutations of its alphabet possible. 
     $ lietal serve documentation
   LINK
     GITH : https://github.com/XXIIVV/vessel.lietal
