@@ -9,7 +9,7 @@ class CorpseHttp
 
     children(term.name).each do |term|
       html += "<h2>#{term.name}</h2>\n"
-      html += "<h2>#{term.bref}</h2>\n"
+      html += "<p>#{term.bref}</p>\n"
       children(term.name).each do |term|
         html += "<h4>#{term.name}</h4>\n"
         html += "<p>#{term.bref}</p>\n"
