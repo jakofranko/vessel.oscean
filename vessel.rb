@@ -16,6 +16,7 @@ class VesselOscean
 
     install(:default,:serve)
     install(:default,:find)
+    install(:default,:complete)
 
   end
 
@@ -52,7 +53,7 @@ class ActionServe
     load_any "#{@host.path}/pages",   @query
     load_any "#{@host.path}/modules", @query
     load_any "#{@host.path}/modules", @module
-    load_any "#{@host.path}/modules", corpse.term.type
+    load_any "#{@host.path}/layouts", corpse.term.type
 
     return corpse.result
 
@@ -85,6 +86,35 @@ class ActionFind
 
   end
 
+end
+
+class ActionComplete
+
+  include Action
+
+  def act q = nil
+
+    horaire = Memory_Array.new("horaire",@host.path)
+
+    array = []
+    dates = []
+    horaire.to_a.each do |log|
+      dates.push(log['DATE'])
+    end
+    i = 0
+    while i < (365 * 10)
+      test2 = Time.now - (i * 24 * 60 * 60)
+      y = test2.to_s[0,4]
+      m = test2.to_s[5,2]
+      d = test2.to_s[8,2]
+      i += 1
+      if !dates.include?("#{y} #{m} #{d}")
+        array.push("#{y} #{m} #{d}")
+      end
+    end
+    return array
+
+  end
 end
 
 class CorpseHttp

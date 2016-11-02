@@ -3,6 +3,8 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 11 01 ! 35      Neauismetica         Writing
+2016 10 31 ! 38      Pino                 Maintenance
 2016 10 30 ! 35      Nataniev             Update
 2016 10 29 ! 34      Obliques             Writing
 2016 10 28 ! 36  221 Obliques             Writing
@@ -28,7 +30,7 @@
 2016 10 08 - 37      Nataniev             Development
 2016 10 07 - 00      America              Travel               Los Angeles
 2016 10 06 - 29      Hundred rabbits      Video
-2015 10 05 - 17      Moonman              Composition
+2016 10 05 - 17      Moonman              Composition
 2016 10 04 - 35      Pino                 Maintenance
 2016 10 03 - 35      Pino                 Maintenance
 2016 10 02 - 35      Pino                 Maintenance

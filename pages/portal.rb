@@ -5,16 +5,6 @@ class CorpseHttp
 
   def view
 
-    if @query.like("portal")
-      return "<wr>#{body_land}</wr>"
-    else
-      return "<wr>#{body_module}</wr>"
-    end
-
-  end
-
-  def body_land
-
     html = ""
 
     used = []
@@ -53,26 +43,6 @@ class CorpseHttp
     end
     html += "</ul>"
     return html
-
-  end
-
-  def body_module
-
-    html = @term.long.runes
-
-    $lexicon.to_h("term").each do |name,term|
-        if !term.unde.like(@term.name) then next end
-        if term.name.like(@term.name) then next end
-
-        photoTest = photoForTerm(term.name)
-
-        if !term.bref && !photoTest then next end
-
-        html += term.to_s
-
-      end
-
-      return html
 
   end
 

@@ -5,7 +5,7 @@ class CorpseHttp
 
   def view
 
-    return "hey"
+    return "?" # TODO
 
   end
 
