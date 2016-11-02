@@ -5,7 +5,17 @@ class CorpseHttp
 
   def view
 
-    return "?" # TODO
+    html = "" # @term.long.runes
+
+    $lexicon.filter("unde",term.name,"term").each do |name,term|
+      if !term.unde.like(@term.name) then next end
+      if term.name.like(@term.name) then next end
+
+      html += term.name
+
+    end
+
+    return html
 
   end
 
