@@ -207,12 +207,6 @@ CENOTE
     - Each time you stop, your drop speed is reseted, so the least stops the faster you reach the bottom.
     - Press R at any time to go back to the beginning.
 
-CHILDREN OF BRAMBLE
-  UNDE : Third wave
-  BREF : This short album contains two dark ambient/industrial tracks that sings of the Oasis of {{Rlionn}} and her Children. This album begins by the Oasis of {{Laeisth}} to finally reach the castle of {{Andes}} and its desertsunk structures. This single is part of the {{Neauismetica}}, and shares some narrative concepts with {{Telekinetic}}.
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/children-with-veins-of-bramble
-
 CYANOSIS FEVER
   UNDE : Desktop
   BREF : Cyanosis is a 3d abstract world of static to explore and to get lost into. 
@@ -428,14 +422,6 @@ ESCHATOLOR
     BAND : https://tevelision.bandcamp.com/album/eschatolor
     ITUN : iTunes|https://itunes.apple.com/ca/album/eschatolor/id1000241341
 
-EXTENDED SLEEP
-  UNDE : Third wave
-  BREF : {{Extended sleep}} is the sequel to {{Known Magye}}, a deeper exploration of its universes, its stories. While the album released after {{Fourth wave}} release {{Supervisitor}}, it is part of the {{Third wave}}.
-  LONG
-    & The album will be first performed at the A Maze Festival in Berlin, on April 23rd 2015.
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/extended-sleep
-
 FIRST AID LAST AID
   UNDE : First wave
   FLAG : Todo
@@ -586,15 +572,6 @@ KEYBOARD 468
   LINK
     ITUN : https://itunes.apple.com/ca/app/468-keyboard/id954698999
     GITH : https://github.com/Echorridoors/Keyboard468
-
-KNOWN MAGYE
-  UNDE : Third wave
-  BREF : {{Known Magye}} is an album and performance relying heavily on visuals. 
-  LONG
-    & Sometimes reminiscent of the compositions of {{Children of bramble}}, sometimes of the drowned sounds of {{Telekinetic}}, this single is a fair mix of ambient and breaks. 
-    & The album was recorded live from {{San Fransisco|travel}}'s {*POW POW POW*} which was controlled entirely with the {{Leap Motion|https://www.leapmotion.com}}.
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/known-magye
 
 VERT KIRLIAN THEATRE
   UNDE : First wave
@@ -1253,8 +1230,9 @@ NATANIEV CASE
 
 NEAUISMETICA
   TYPE : Archive
-  BREF : Incessantly dreamt of, the city of {{Neau}} and its radiant blue rooftops were the first to populate my dreams.
+  BREF : The {{Neauismetica}} is a collection of notes on the history of {{Dinaisth}}, the connecting thread that seepds through the works of {{Devine Lu Linvega}}.
   LONG
+    & Incessantly dreamt of, the city of {{Neau}} and its radiant blue rooftops were the first to populate my dreams.
     & Changing as I did, the horizon line didn't seem so far anymore and as I drifted away from Neau across the {{Cyan Ocean|Kanikule}} with {{Neonev}}, maybe I died of old age but she lived on.
     & I often think of this machine-plant {{patience|Paradichlorisse}} in the sand sand filled air of {{Vetetrandes}}. Continually mouthing at this {{impossible sentence|Nohlxeserre}}, words longer than any span of time, continually luring pilgrims who {{die|Neausea}} at its feet.
     & Resting my eyes, I see {{Scientists|Immortal Birds}}, sometimes praying by the {{Ehrivevnv}}, idle at the cliffsides of {{Duomo}}, treading on the edge of {{Occurence|Soies}}. Other nights I see the {_gathering of the birds_}, ready to leave {{Dinaisth}} far behind. 
@@ -1584,15 +1562,8 @@ GAMME
   LONG
     & The gamme is a platform where citizens can affect the society's aspect that interests them. The lack of {_parties_} is meant to enable better atomical resolutions and solve the issues involved with voting for legislative package-deals.
 
-~ Tools
-
-TOOLS
-  UNDE : Research
-  BREF : A list of tools that exists within {{Nataniev}}.
-  TYPE : Portal
-
 SHORTHAND
-  UNDE : Tools
+  UNDE : Utope
   BREF : Notebook and after notebook, I fill pages of notes, ideas and to-dos. When presented with {{the idea of shorthand|http://theatlantic.com/technology/archive/2014/06/yeah-i-still-use-shorthand-and-a-smartpen/373281/}}, I saw immediate practical application.
   LONG
     * The idea is simple, writing faster. 
@@ -1698,7 +1669,32 @@ PORTALION
     - Moebius Lift's Ascension
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/portalion
-    
+
+~ [TODO] Combine under a portal page
+
+CHILDREN OF BRAMBLE
+  UNDE : Third wave
+  BREF : This short album contains two dark ambient/industrial tracks that sings of the Oasis of {{Rlionn}} and her Children. This album begins by the Oasis of {{Laeisth}} to finally reach the castle of {{Andes}} and its desertsunk structures. This single is part of the {{Neauismetica}}, and shares some narrative concepts with {{Telekinetic}}.
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/children-with-veins-of-bramble
+
+KNOWN MAGYE
+  UNDE : Third wave
+  BREF : {{Known Magye}} is an album and performance relying heavily on visuals. 
+  LONG
+    & Sometimes reminiscent of the compositions of {{Children of bramble}}, sometimes of the drowned sounds of {{Telekinetic}}, this single is a fair mix of ambient and breaks. 
+    & The album was recorded live from {{San Fransisco|travel}}'s {*POW POW POW*} which was controlled entirely with the {{Leap Motion|https://www.leapmotion.com}}.
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/known-magye
+
+EXTENDED SLEEP
+  UNDE : Third wave
+  BREF : {{Extended sleep}} is the sequel to {{Known Magye}}, a deeper exploration of its universes, its stories. While the album released after {{Fourth wave}} release {{Supervisitor}}, it is part of the {{Third wave}}.
+  LONG
+    & The album will be first performed at the A Maze Festival in Berlin, on April 23rd 2015.
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/extended-sleep
+
 ~ Redirects
 
 TRAUMAE

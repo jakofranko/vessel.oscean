@@ -7,15 +7,26 @@ class CorpseHttp
 
     html = "" # @term.long.runes
 
-    $lexicon.filter("unde",term.name,"term").each do |name,term|
-      if !term.unde.like(@term.name) then next end
-      if term.name.like(@term.name) then next end
-
-      html += term.name
-
+    children(term.name).each do |term|
+      html += "<h2>#{term.name}</h2>\n"
+      html += "<h2>#{term.bref}</h2>\n"
+      children(term.name).each do |term|
+        html += "<h4>#{term.name}</h4>\n"
+        html += "<p>#{term.bref}</p>\n"
+      end
     end
-
     return html
+
+  end
+
+  def children topic
+
+    a = []
+    lexicon.to_h("term").each do |name,term|
+      if !term.unde.like(topic) then next end
+      a.push(term)
+    end
+    return a
 
   end
 
