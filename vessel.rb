@@ -157,12 +157,8 @@ class CorpseHttp
     #{term.diary ? Media.new("diary",term.diary.photo) : ""}
   </yu>
   <yu class='cr'>
-    <yu class='si'>
-      <a href='/#{term.portal}'>#{ badge = Media.new("badge",term.name) ; badge.exists ? badge : badge = Media.new("badge",term.portal) ; badge.exists ? badge : badge = Media.new("badge","nataniev") ; badge }</a>
-      <p>#{term.bref.to_s}</p>
-      <h1></h1>
-    </yu>
     <yu class='vi'>
+      #{portal}
       #{view}
       #{_links}
     </yu>
@@ -179,9 +175,16 @@ class CorpseHttp
 
   end
 
+  def portal
+
+    if term.portal.name.like(term.name) then return "" end
+    return "<yu class='si'><a href='/#{term.portal.name}'>#{ badge = Media.new("badge",term.name) ; badge.exists ? badge : badge = Media.new("badge",term.portal.name) ; badge.exists ? badge : badge = Media.new("badge","nataniev") ; badge }</a><p>#{term.portal.bref}</p></yu>"
+
+  end
+
   def view
     
-    return "<wr>#{term.long.runes.to_s}</wr>"
+    return "<wr><p>#{term.bref.to_s}</p>#{term.long.runes.to_s}</wr>"
 
   end
 

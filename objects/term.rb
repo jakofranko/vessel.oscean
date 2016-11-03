@@ -114,7 +114,7 @@ class Term
       t = t.parent
       depth += 1
     end
-    return t.name
+    return t
 
   end
 
