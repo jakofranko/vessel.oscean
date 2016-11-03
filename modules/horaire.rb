@@ -7,6 +7,7 @@ class CorpseHttp
 
     return "<style>
     yu.cr { background:black; }
+    yu.si { display:none !important}
     .horaire .task { width:140px; color:white; display:inline-block; padding:15px; }
     .horaire .task svg { width:140px; height:140px }
     .horaire .task p { border-top: 1px solid #555;font-family: 'dinregular';font-size: 11px;line-height: 15px;margin-bottom: 0px;padding-top: 14px }

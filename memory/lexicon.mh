@@ -249,10 +249,6 @@ DEW
     ITUN : https://itunes.apple.com/ca/app/dew/id954020907
     GITH : https://github.com/Echorridoors/dew
 
-DICTIONAERY
-  UNDE : Lietal
-  BREF : The {{Dictionaery}} is a generated list of all registered/coined {{Lietal}} words.
-
 DILUVIUM
   UNDE : Desktop
   BREF : Diluvium is a jam game made by {{Henk Boom|http://henk.ca}}(FRACT), {{Dominique Ferland|http://dom2d.com}}(Playpeep), {{Renaud Bedard|http://theinstructionlimit.com/}}(FEZ) and Devine Lu Linvega, made in 3 days at the Toronto Game Jam of 2012
@@ -1549,6 +1545,7 @@ DESAMBER
 
 LIETAL
   UNDE : Utope
+  TYPE : Portal
   BREF : Created in 1998, {{Lietal}} is a {{synthetic language|http://en.wikipedia.org/wiki/Constructed_language}} created by {{Devine Lu Linvega|Devine Lu Linvega}} for linguistic experiments and research. 
   LONG
     & The Lietal language has 27 root words, each associated with a core idea - combinable and specific, to make all permutations of its alphabet possible. 
@@ -1628,8 +1625,9 @@ KEYBOARD
 DEVINE LU LINVEGA
   BREF : {{Devine lu linvega}} is a composer, illustrator and programer, living aboard a {{sailboat|Hundred rabbits}} on the Pacific Ocean. 
   LONG
-    & Operating under the {{Neauoire|https://twitter.com/neauoire}} moniker, Devine is currating the {{Beldam Records}} catalog and creating {{experimental mobile projects|http://www.creativeapplications.net/openframeworks/experimental-mobile-apps-by-devine-aliceffect-lu-linvega}}. Populating {{Nataniev}} with notes on {{Language}}, {{Illustrations|Illustration}} and {{Sounds|Audio}}, Devine hopes to inspire visitors to learn and to travel.  
-    ? "To flee is life; To linger is death"
+    & Operating under the {{Neauoire|https://twitter.com/neauoire}} moniker, Devine is currating the {{Beldam Records}} catalog and creating {{experimental mobile projects|http://www.creativeapplications.net/openframeworks/experimental-mobile-apps-by-devine-aliceffect-lu-linvega}}.
+    & Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}}, Devine hopes to inspire visitors to learn and to travel.  
+    ? "To {{flee|Obliques}} is life; To linger is death"
 
 DEATH
   UNDE : Lifestyle
