@@ -109,7 +109,7 @@ class Term
     t = self
 
     while !t.parent.name.like(self.name) 
-      if depth > 5 then return "nataniev" end
+      if depth > 5 then return nil end
       if t.is_type("Portal") then t = t ; break end
       t = t.parent
       depth += 1
