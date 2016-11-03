@@ -177,14 +177,13 @@ class CorpseHttp
 
   def portal
 
-    if term.portal.name.like(term.name) then return "" end
     return "<yu class='si'><wr><a href='/#{term.portal.name}'>#{ badge = Media.new("badge",term.name) ; badge.exists ? badge : badge = Media.new("badge",term.portal.name) ; badge.exists ? badge : badge = Media.new("badge","nataniev") ; badge }</a><p>#{term.portal.bref}</p></wr></yu>"
 
   end
 
   def view
     
-    return "<wr><p>#{term.bref.to_s}</p>#{term.long.runes.to_s}</wr>"
+    return "<wr>#{term.long.runes.to_s}</wr>"
 
   end
 
