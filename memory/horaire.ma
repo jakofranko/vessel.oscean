@@ -3,6 +3,8 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 11 04 - 00      Nataniev             Tools
+2016 11 03 - 00      Hundred rabbits      Video
 2016 11 02 - 00      Mexico               Travel
 2016 11 01 - 35      Neauismetica         Writing
 2016 10 31 - 38      Pino                 Maintenance

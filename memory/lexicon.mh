@@ -6,19 +6,17 @@
 
 AUDIO
   UNDE : Home
-  BREF : Various audio related projects.
-  LONG
-    & {{Devine|Devine Lu Linvega}} originally started the {{Aliceffekt|Audio}} project to create soundscapes to complement {{illustrations|illustration}} and {{games|Interactive}}, but has since produced a wide variety of tracks, ranging from IDM, noise, industrial, and ambient - as well as music for interactive installations.
+  BREF : The {{Audio}} sector hosts all projects focusing on sound and live shows.
   TYPE : Portal
 
 VISUAL
   UNDE : Home
-  BREF : Various entries relative to interactive and design related projects.
+  BREF : The {{Visual}} sector hosts all projects focusing on to design and interaction.
   TYPE : Portal
 
 RESEARCH
   UNDE : Home
-  BREF : Various entries on topics gravitating around a philosophy of bettering through an improvement of language and informatics. These sections may contains incomplete, broken or deprecated articles.
+  BREF : The {{Research}} sector hosts all projects focusing on philosophy and linguistics. 
   TYPE : Portal
 
 ~ Automatons
@@ -30,9 +28,13 @@ AUTOMATONS
 
 THE WILL THE WISP
   UNDE : Automatons
-  BREF : {{The will the wisp}} is a twitter bot that generates short poems, once every hour. Inspired by Lewis Carroll's Jabberwocky.
+  BREF : Inspired by Lewis Carroll's Jabberwocky, {{The will the wisp}} is a twitter bot that generates short poems, once every hour.
   LONG
-    & Tweeting a word at {{@thewillthewisp|https://twitter.com/thewillthewisp}} will produce a reply that includes that word, note that it will pick the last word of a sentence if more than one word is sent. Feel free to suggest more poem templates through {_pull requests_}.
+    - Thy emperor is leery, the conjuror cheery.
+    - Immune is their tribune, commune are the fortunes.
+    - His luminary's funerary formulary.
+    - By their deathblow deadly, deafen your deathly deadlock.
+    - Our brood's good flood.
     ? It can be found in {{Paradise|Nataniev}} as a ghostly beetle, in the {_Meadow_}, on a tree.
   LINK
     TWTR : https://twitter.com/thewillthewisp
@@ -42,6 +44,11 @@ DICTIONARISM
   UNDE : Automatons
   BREF : {{Dictionarism}} is a simple twitter bot that generates {_-isms_} from every of every single word of a dictionary and tweets them.
   LONG
+    - Mirrorism
+    - Polygonism
+    - Neptunism
+    - Librarism
+    - Helplessism
     ? It can be found as writing on a blackboard, in the {{Library|Nataniev}}.
   LINK
     TWTR : https://twitter.com/dictionarism
@@ -52,20 +59,10 @@ GLOSSOLALIARIUM
   BREF : {{Glossolaliarium}} is a twitter bot that generates procedural english words by combining various prefixes and suffixes, and try to form definitions of these newly created terms.
   LONG
     - Dictcephaladelog: Speech or process of foretelling the future encephalitis.
-    - Percedecracyalgia: Pain government throughout, yield.
-    - Juvenoryocuplegia: To bring back to youthful strength or appearance relating to an eye doctor paralysis.
-    - Omniialsanive: Relating to knowing all things inclined to relating to cleanliness and health.
-    - Pentostomydermsion: Surgical pentagon state or quality elephant.
-    - Selfmortcideily: In what manner act of killing or by itself, death.
-    - Ferdynletoid: Resembling version of bear energy.
-    - Nonizepoliful: Become with no special characteristics full of metropolis.
-    - Ruptorygenine: Relating to a break in something relating to birth.
-    - Selfcyclhoodtroby: Nourishment condition for ring.
     - Gramhydrudeic: Characterized by written liquid.
     - Fidcardiboneity: Quality of sound from faith.
-    - Forpolierist: A person more completely city.
-    - Toxbytitearium: Follower poison plant.
-    - Centblastbileian: Relating to one who loves hundred primitive.
+    - Centblastbileian: Relating to one who loves the hundred primitives.
+    - Ferdynletoid: Resembling version of bear energy.
   LINK
     TWTR : https://twitter.com/Glossolaliarium
     GITH : https://github.com/XXIIVV/vessel.glossolaliarium
@@ -82,22 +79,6 @@ ADVENT V
     
 ~
 
-TO THE AEONS HELL
-  UNDE : First wave
-  BREF : This album is a sort of mixtape made of bits and pieces from songs I like.
-  LINK
-    BAND : http://aliceffekt.bandcamp.com/album/accursed-be-it-to-the-aeons-hell
-
-APPEAL
-  UNDE : Nereid
-  BREF : A new series of profiles of {{Nereid}}'s {{Beauty}} patients.
-  TYPE : Diary
-
-AGEING
-  UNDE : Nereid
-  BREF : {{Ageing}} is a special tribute to {{Jesse Kanda|http://www.jessekanda.com}}'s works, from the {{Beauty}} & {{Appeal}} series.
-  TYPE : Diary
-
 ALICEFFEKT
   UNDE : Audio
   BREF : Aliceffekt, is an explorative and narrative audio project by {{Devine Lu Linvega}}.
@@ -106,48 +87,20 @@ ALICEFFEKT
   LINK : 
     BAND : https://aliceffekt.bandcamp.com
 
-ALPHAVETIST
-  UNDE : Mobile
-  BREF : {{Alphavetist}} is a minimalist alphabet learning application for iOS.
-  LONG
-    &  Currently included are the Hebrew, Cyrillic, Korean, Inuktitut, Greek, Morse and Japanese alphabets.
+TO THE AEONS HELL
+  UNDE : First wave
+  BREF : This album is a sort of mixtape made of bits and pieces from songs I like.
   LINK
-    ITUN : https://itunes.apple.com/ca/app/hahapapa/id689193147
-    GITH : https://github.com/Echorridoors/alphavetist
+    BAND : http://aliceffekt.bandcamp.com/album/accursed-be-it-to-the-aeons-hell
 
 ANN YOZORA SAINT
   UNDE : First wave
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/ann-yozora-saint
 
-POLYGORE
-  UNDE : Nereid
-  BREF : A study of the base elements of this {{world|Nereid}}.
-  TYPE : Diary
-
-AR MOIRE
-  UNDE : Polygonoscopy
-  BREF : The {{Ar Moire}} diagrams are {{Polygonoscopic|Polygonoscopy}} sounds.
-  TYPE : Diary
-
-NERVOUS
-  UNDE : Polygonoscopy
-  BREF : Series of Vertexbrates.
-  TYPE : Diary
-
 ARTWORK
   UNDE : Illustration
   BREF : A collection of various illustrations drawn over the years, unrelated to other XXIIVV projects.
-  TYPE : Diary
-
-ASTRATAS
-  UNDE : Polygonoscopy
-  BREF : The {{Astratas}} topologic maps oscillate to {{Serventines}}'s {{Polygonoscopic|polygonoscopy}} frequencies.
-  TYPE : Diary
-
-BEAUTY
-  UNDE : Nereid
-  BREF : {{Beauty}} is a series of {{Nereid}} beauties, earlier patients to Nereid's {{Appeal}}.
   TYPE : Diary
 
 BELDAM RECORDS
@@ -157,17 +110,6 @@ BELDAM RECORDS
   LINK
     BAND : https://beldamrecords.bandcamp.com
     TWTR : https://twitter.com/beldamrecords
-
-BIFURCAN
-  UNDE : Mobile
-  BREF : Named after a Borges short of the {{same name|http://en.wikipedia.org/wiki/The_Garden_of_Forking_Paths}}, similarly to {{Entaloneralie}}, this application is a cryptic watchface for iOS. 
-  LONG
-    & Every second, the labyrinth reorganize itself to display the time with its twists and turns. It takes a little practice to be able to see the patterns in the lines. Clicking on the screen will unveil the time as seen in this {{video|https://www.youtube.com/watch?v=HzXIJpzPB6c}}. The original application was created in 30 minutes for a micro jam. 
-    & If you have a {{Pebble Watch|https://getpebble.com}}, you can download it as a {{watchface|http://www.mypebblefaces.com/apps/10183/7055/}}, the Pebble C script was written by Chase Colburn and is also available on {{Github|https://github.com/chasecolburn/line-maze}}. The screensaver version was done by {{Tekgo|http://tekgo.org}} and was also added to the source code.
-  LINK
-    ITUN : https://itunes.apple.com/ca/app/bifurcan/id737264896
-    GITH : https://github.com/Echorridoors/Bifurcan
-    PEBL : Pebble|http://www.mypebblefaces.com/apps/10183/7055/
 
 BLAM
   UNDE : First wave
@@ -185,11 +127,6 @@ BLINDFOLK
     # case attack.backward  step.leftcase default  attack.forward  turn.right  attack.backward  say yatta
   LINK
     GITH : https://github.com/XXIIVV/vessel.blindfolk
-
-BRANE
-  UNDE : Polygonoscopy
-  BREF : {{Brane}} is a series of procedurally generated prints, designed to look like like portals bubbling out of fabric. This series is part of the {{Kaleidoscope}} collection. The prints are exposed the MIGS gallery on november 10th 2014.
-  TYPE : Diary
 
 CAMILARE
   UNDE : Oquonie
@@ -229,25 +166,10 @@ DEFRACTION OPTICS
   LINK
     SITE : http://noirmirroir.com/defract
 
-DEI DAIN
-  UNDE : Second wave
-  BREF : <Written and released in Tokyo in 2013, {{Dei Dain}} is the sixth album as part of {{Aliceffekt}}'s {{Second Wave}} albums.
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/dei-dain
-
 DESKTOP
   UNDE : Interactive
   BREF : This list shows all of the desktop projects built of the last few years.
   TYPE : Portal
-
-DEW
-  UNDE : Mobile
-  BREF : {{Dew}} is a minimalist alarm app, designed to set up nap/sleeping alarms with a simple flick. 
-  LONG
-    & The application will then  wake you with a soft white noise tone that will gradually bring you back to reality.
-  LINK
-    ITUN : https://itunes.apple.com/ca/app/dew/id954020907
-    GITH : https://github.com/Echorridoors/dew
 
 DILUVIUM
   UNDE : Desktop
@@ -295,16 +217,6 @@ DOMESTIC MOIRE
   LINK
     GITH : https://github.com/neauoire/DomesticMoire
     ITCH : http://aliceffekt.itch.io/domestic-moire
-
-DONSOL
-  UNDE : Mobile
-  BREF : {{Donsol}} is a simple solitary card game, designed by {{John Eternal|https://twitter.com/johneternal}} during {{Train Jam|http://trainjam.com}}, where you must go through a series of rooms(4 cards) with the tools available.
-  LONG
-    & While the game was designed on a train, without internet connection, it seems like Donsol's gameplay accidentally ended up being a twist to Zach Gage and Kurt Bieg's {{Scoundrel|http://stfj.net/index2.php?project=art/2011/Scoundrel.pdf}}, designed in 2011. Another game, working in a similar fashion, also released this week, Card Crawl. It seems as if this game design was overdue.
-  LINK
-   ITUN : https://itunes.apple.com/us/app/donsol/id976367718?ls=1&mt=8
-   GITH : https://github.com/Echorridoors/donsol
-   HELP : Guide|http://wiki.xxiivv.com/Donsol+guide
 
 DONSOL GUIDE
   UNDE : Board
@@ -394,15 +306,6 @@ EHRIVEVNV
     & The prism mesh is porous in that it allows to be looked into. The inside of the puzzle displays a universe, where at its center, lies another Ehrivevnv, which in turn, seemingly holds a universe. With each universe that any one puzzle contains, the laws of nature grow increasingly more complex and diverse.
     & Some, believe that superior intelligences reside deep into the puzzle, others believe it to be a trap.
 
-ENTALONERALIE
-  UNDE : Mobile
-  BREF : {{Entaloneralie}} is an experimental time observation device, in the lines of {{Bifurcan}}. 
-  LONG
-    & While the old design displayed a circular layout and binary type format. The redesign explores an entirely different system of displaying minutes and is meant to be a toy, a distraction.
-  LINK
-    ITUN : https://itunes.apple.com/us/app/entaloneralie/id657224738
-    GITH : https://github.com/Echorridoors/Entaloneralie
-
 ES GULF SUNFLOWERS
   UNDE : Second wave
   BREF : {{Es Gulf Sunflowers}} tale remembers the gorgeous sunken fields of {{Es|Dinaisth}} - the underwater jump gate to {{Dinaisth}}, for its vast ocean terrace and display of sunflowers.
@@ -465,16 +368,6 @@ HEX HIVE NECKLACE
   LINK
     SITE : http://www.thingiverse.com/thing:18853
 
-HIVERSAIRES
-  UNDE : Mobile
-  BREF : {{Hiversaires}} is a textless point-n-click for players who remember games where you had to draw maps. 
-  LONG
-    & Hiversaires is the first part of a series of textless games, that also includes the isometric adventure {{Oquonie}}. 
-    & The dark world of Hiversaires features an original {{Aliceffekt|https://aliceffekt.bandcamp.com/album/hiversaires-soundtrack}} soundtrack to lure you through its entangled corridors.
-  LINK
-    ITUN : https://itunes.apple.com/au/app/hiversaires/id630992348
-    GITH : https://github.com/Echorridoors/hiversaires
-
 HOME
   UNDE : Home
   BREF : Welcome to the documentation and playground for the projects of multimedia developer {{Devine Lu Linvega}}.
@@ -514,13 +407,6 @@ GRIMGRAINS
     TWTR : https://twitter.com/grimgrains
     GITH : https://github.com/XXIIVV/vessel.grimg
 
-HYPERVOID
-  UNDE : Polygonoscopy
-  BREF : Navigating the nullplane of Dischromatic Nullcolour Anti-pigments. 
-  LONG
-    & The {{Hypervoid}} pieces were selected to be on the cover of the second volume of the {{Amaze Newspaper|http://issuu.com/independenceamazing/docs/amaze_screen}}.
-  TYPE : Diary
-
 ILLUSTRATION
   UNDE : Visual
   TYPE : Portal
@@ -536,11 +422,6 @@ FLACTALS
   TYPE : Diary
   BREF : Drawing flowers, terapeutic.
 
-PEARLS
-  UNDE : Nereid
-  TYPE : Diary
-  BREF : Looking into the infinitely veiled.
-
 VOYNICH
   UNDE : Code
   BREF : Notes on Voynich Manuscript. 
@@ -553,35 +434,10 @@ INTERACTIVE
     & The interactive project list contains various completed and unreleased experiments and games for iOS, desktop and browser.
   TYPE : Portal
 
-KALEIDOSCOPE
-  UNDE : Polygonoscopy
-  BREF : Nothing is as reassuring as looking through the {{Polygonoscope|Polygonoscopy}} and seeing everything is where you left it.
-  TYPE : Diary
-
-KEYBOARD 468
-  UNDE : Mobile
-  BREF : The {{Keyboard 468}} is a 18 keys keyboard that sorts characters by the most likely letter to follow the last input. 
-  LONG
-    & So you always only need to type using the two rows at the top, maximizing the space and allowing for big large letters. The hidden letters are accessible through the {_alt_} key, alongside symbols and numbers.
-    * Privacy Policy
-    & This policy exists to inform you that the keyboard does not record, save, harvest or send any data of any type. The application, and its keyboard extension is self contained and does not keep any data. The active {{source code|https://github.com/Echorridoors/Keyboard468}} is also available to demonstrate that the keyboard does not hold onto your content.
-  LINK
-    ITUN : https://itunes.apple.com/ca/app/468-keyboard/id954698999
-    GITH : https://github.com/Echorridoors/Keyboard468
-
 VERT KIRLIAN THEATRE
   UNDE : First wave
   BREF : This album was written entirely in the {{Yamanote line|http://en.wikipedia.org/wiki/Yamanote_Line}}, during my first trip to Tokyo, {{Japan}}.
   FLAG : Todo
-
-LEDOLIEL
-  UNDE : Mobile
-  BREF : {{Ledoliel}} is a strange dating toy for iOS.
-  LONG
-    & Procedural creatures and their bizarre customs, where you must try and figure out what topics they might want to discuss, gift they might want to receive and places they may like to be touched - based on their cryptic attributes.
-  LINK
-    ITUN : https://itunes.apple.com/us/app/ledoliel/id891693763
-    GITH : https://github.com/Echorridoors/Ledoliel
 
 LOOKING GLACE
   UNDE : Beldam records
@@ -623,11 +479,6 @@ MERVEILLES PORTABLE
   LONG
     & The game ran around 2009-2011, and was eventually shut down due to a complicated migration.
 
-METHASCOPE
-  UNDE : Polygonoscopy
-  BREF : The {{Methascopes|Methascope}} are frozen {{Polygonoscopic|Polygonoscopy}} drops, similar to snowflakes.
-  TYPE : Diary
-
 MILAVREGA
   UNDE : Unreleased
   BREF : {{Milavrega}} is an {{unreleased}} mobile game happening in someone's lost phone. 
@@ -657,6 +508,7 @@ MIRAI SEU
 MIXTAPE
   UNDE : Audio
   BREF : A collection of dj sets recorded over the years, ranging from industrial, to classical to idm.
+  TYPE : Portal
   LONG
     & Some of the tracklists were lost, feel free to contact me if you need to find the name of a specific track. The entire collection is available {{here|https://drive.google.com/folderview?id=0B24klRuG3GLNam56My1Va1RfSU0&usp=sharing}} while the individual tracklists can be seen bellow.
   LINK
@@ -732,6 +584,84 @@ MOBILE
   BREF : This collection of {{mobile}} apps constitutes a series of games, tools and experiments about interative design and linguistics. The development and patches are tracked across the {{Echorridoors|http://github.com/echorridoors/verreciel}} repositories.
   TYPE : Portal
 
+BIFURCAN
+  UNDE : Mobile
+  BREF : Named after a Borges short of the {{same name|http://en.wikipedia.org/wiki/The_Garden_of_Forking_Paths}}, similarly to {{Entaloneralie}}, this application is a cryptic watchface for iOS. 
+  LONG
+    & Every second, the labyrinth reorganize itself to display the time with its twists and turns. It takes a little practice to be able to see the patterns in the lines. Clicking on the screen will unveil the time as seen in this {{video|https://www.youtube.com/watch?v=HzXIJpzPB6c}}. The original application was created in 30 minutes for a micro jam. 
+    & If you have a {{Pebble Watch|https://getpebble.com}}, you can download it as a {{watchface|http://www.mypebblefaces.com/apps/10183/7055/}}, the Pebble C script was written by Chase Colburn and is also available on {{Github|https://github.com/chasecolburn/line-maze}}. The screensaver version was done by {{Tekgo|http://tekgo.org}} and was also added to the source code.
+  LINK
+    ITUN : https://itunes.apple.com/ca/app/bifurcan/id737264896
+    GITH : https://github.com/Echorridoors/Bifurcan
+    PEBL : Pebble|http://www.mypebblefaces.com/apps/10183/7055/
+
+LEDOLIEL
+  UNDE : Mobile
+  BREF : {{Ledoliel}} is a strange dating toy for iOS.
+  LONG
+    & Procedural creatures and their bizarre customs, where you must try and figure out what topics they might want to discuss, gift they might want to receive and places they may like to be touched - based on their cryptic attributes.
+  LINK
+    ITUN : https://itunes.apple.com/us/app/ledoliel/id891693763
+    GITH : https://github.com/Echorridoors/Ledoliel
+
+KEYBOARD 468
+  UNDE : Mobile
+  BREF : The {{Keyboard 468}} is a 18 keys keyboard that sorts characters by the most likely letter to follow the last input. 
+  LONG
+    & So you always only need to type using the two rows at the top, maximizing the space and allowing for big large letters. The hidden letters are accessible through the {_alt_} key, alongside symbols and numbers.
+    * Privacy Policy
+    & This policy exists to inform you that the keyboard does not record, save, harvest or send any data of any type. The application, and its keyboard extension is self contained and does not keep any data. The active {{source code|https://github.com/Echorridoors/Keyboard468}} is also available to demonstrate that the keyboard does not hold onto your content.
+  LINK
+    ITUN : https://itunes.apple.com/ca/app/468-keyboard/id954698999
+    GITH : https://github.com/Echorridoors/Keyboard468
+
+HIVERSAIRES
+  UNDE : Mobile
+  BREF : {{Hiversaires}} is a textless point-n-click for players who remember games where you had to draw maps. 
+  LONG
+    & Hiversaires is the first part of a series of textless games, that also includes the isometric adventure {{Oquonie}}. 
+    & The dark world of Hiversaires features an original {{Aliceffekt|https://aliceffekt.bandcamp.com/album/hiversaires-soundtrack}} soundtrack to lure you through its entangled corridors.
+  LINK
+    ITUN : https://itunes.apple.com/au/app/hiversaires/id630992348
+    GITH : https://github.com/Echorridoors/hiversaires
+
+ENTALONERALIE
+  UNDE : Mobile
+  BREF : {{Entaloneralie}} is an experimental time observation device, in the lines of {{Bifurcan}}. 
+  LONG
+    & While the old design displayed a circular layout and binary type format. The redesign explores an entirely different system of displaying minutes and is meant to be a toy, a distraction.
+  LINK
+    ITUN : https://itunes.apple.com/us/app/entaloneralie/id657224738
+    GITH : https://github.com/Echorridoors/Entaloneralie
+
+DONSOL
+  UNDE : Mobile
+  BREF : {{Donsol}} is a simple solitary card game, designed by {{John Eternal|https://twitter.com/johneternal}} during {{Train Jam|http://trainjam.com}}, where you must go through a series of rooms(4 cards) with the tools available.
+  LONG
+    & While the game was designed on a train, without internet connection, it seems like Donsol's gameplay accidentally ended up being a twist to Zach Gage and Kurt Bieg's {{Scoundrel|http://stfj.net/index2.php?project=art/2011/Scoundrel.pdf}}, designed in 2011. Another game, working in a similar fashion, also released this week, Card Crawl. It seems as if this game design was overdue.
+  LINK
+   ITUN : https://itunes.apple.com/us/app/donsol/id976367718?ls=1&mt=8
+   GITH : https://github.com/Echorridoors/donsol
+   HELP : Guide|http://wiki.xxiivv.com/Donsol+guide
+
+DEW
+  UNDE : Mobile
+  BREF : {{Dew}} is a minimalist alarm app, designed to set up nap/sleeping alarms with a simple flick. 
+  LONG
+    & The application will then  wake you with a soft white noise tone that will gradually bring you back to reality.
+  LINK
+    ITUN : https://itunes.apple.com/ca/app/dew/id954020907
+    GITH : https://github.com/Echorridoors/dew
+
+ALPHAVETIST
+  UNDE : Mobile
+  BREF : {{Alphavetist}} is a minimalist alphabet learning application for iOS.
+  LONG
+    &  Currently included are the Hebrew, Cyrillic, Korean, Inuktitut, Greek, Morse and Japanese alphabets.
+  LINK
+    ITUN : https://itunes.apple.com/ca/app/hahapapa/id689193147
+    GITH : https://github.com/Echorridoors/alphavetist
+
 MODERNISTA
   UNDE : Artwork
   BREF : {{Modernista}} is the name of a series of 5 prints inspired from American Modernism.
@@ -753,6 +683,33 @@ NEREID
     & It has but one weather, "cold", terribly slow internet reception, idyllic valleys. The soil is mostly diamonds, {_carbonado_} and the lack of atmosphere leaves the surface of the moon, mostly quiet. Were there pigments on Nereid, they would be illegal - for Nereid is strickly colourless.
     & The daily eclipse we call Night, you can have a look at my {{travel photography|Serventines}}.
   TYPE : Portal
+
+PEARLS
+  UNDE : Nereid
+  TYPE : Diary
+  BREF : Looking into the infinitely veiled.
+
+BEAUTY
+  UNDE : Nereid
+  BREF : {{Beauty}} is a series of {{Nereid}} beauties, earlier patients to Nereid's {{Appeal}}.
+  TYPE : Diary
+
+APPEAL
+  UNDE : Nereid
+  BREF : A new series of profiles of {{Nereid}}'s {{Beauty}} patients.
+  TYPE : Diary
+
+AGEING
+  UNDE : Nereid
+  BREF : {{Ageing}} is a special tribute to {{Jesse Kanda|http://www.jessekanda.com}}'s works, from the {{Beauty}} & {{Appeal}} series.
+  TYPE : Diary
+  
+POLYGORE
+  UNDE : Nereid
+  BREF : A study of the base elements of this {{world|Nereid}}.
+  TYPE : Diary
+  
+~ 
 
 NETHER ESPER INSERTS
   UNDE : First wave
@@ -931,6 +888,43 @@ POLYGONOSCOPY
   UNDE : Illustration
   BREF : {{Polygonoscopy}} is a series of illustration made with the {{Kaleidoscope}} along with better lenses, allowing me to zoom into reflections and visit spaces that would normally be impossible to explore. This, in some ways, pleases my curiosity in explorating the {_Simulacra_}.
   TYPE : Portal
+
+METHASCOPE
+  UNDE : Polygonoscopy
+  BREF : The {{Methascopes|Methascope}} are frozen {{Polygonoscopic|Polygonoscopy}} drops, similar to snowflakes.
+  TYPE : Diary
+
+KALEIDOSCOPE
+  UNDE : Polygonoscopy
+  BREF : Nothing is as reassuring as looking through the {{Polygonoscope|Polygonoscopy}} and seeing everything is where you left it.
+  TYPE : Diary
+
+HYPERVOID
+  UNDE : Polygonoscopy
+  BREF : Navigating the nullplane of Dischromatic Nullcolour Anti-pigments. 
+  LONG
+    & The {{Hypervoid}} pieces were selected to be on the cover of the second volume of the {{Amaze Newspaper|http://issuu.com/independenceamazing/docs/amaze_screen}}.
+  TYPE : Diary
+
+BRANE
+  UNDE : Polygonoscopy
+  BREF : {{Brane}} is a series of procedurally generated prints, designed to look like like portals bubbling out of fabric. This series is part of the {{Kaleidoscope}} collection. The prints are exposed the MIGS gallery on november 10th 2014.
+  TYPE : Diary
+
+ASTRATAS
+  UNDE : Polygonoscopy
+  BREF : The {{Astratas}} topologic maps oscillate to {{Serventines}}'s {{Polygonoscopic|polygonoscopy}} frequencies.
+  TYPE : Diary
+
+AR MOIRE
+  UNDE : Polygonoscopy
+  BREF : The {{Ar Moire}} diagrams are {{Polygonoscopic|Polygonoscopy}} sounds.
+  TYPE : Diary
+
+NERVOUS
+  UNDE : Polygonoscopy
+  BREF : Series of Vertexbrates.
+  TYPE : Diary
 
 PURGATEUS
   UNDE : Desktop
@@ -1668,6 +1662,12 @@ PORTALION
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/portalion
 
+DEI DAIN
+  UNDE : Second wave
+  BREF : Written and released in Tokyo in 2013, {{Dei Dain}} is the sixth album as part of {{Aliceffekt}}'s {{Second Wave}} albums.
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/dei-dain
+
 ~ [TODO] Combine under a portal page
 
 CHILDREN OF BRAMBLE
@@ -1678,7 +1678,7 @@ CHILDREN OF BRAMBLE
 
 KNOWN MAGYE
   UNDE : Third wave
-  BREF : {{Known Magye}} is an album and performance relying heavily on visuals. 
+  BREF : {{Aliceffekt}}'s {{Known Magye}} is an album and live performance relying heavily on visuals. 
   LONG
     & Sometimes reminiscent of the compositions of {{Children of bramble}}, sometimes of the drowned sounds of {{Telekinetic}}, this single is a fair mix of ambient and breaks. 
     & The album was recorded live from {{San Fransisco|travel}}'s {*POW POW POW*} which was controlled entirely with the {{Leap Motion|https://www.leapmotion.com}}.

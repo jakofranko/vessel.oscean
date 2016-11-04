@@ -11,16 +11,16 @@ class Term
   attr_accessor :long
   attr_accessor :logs
 
-  def initialize name = "Unknown", content = {}
+  def initialize name = "Unknown", data = {}
 
-    content = content ? content : { "UNDE" => "HOME", "TYPE" => "Missing" }
+    data = data ? data : { "UNDE" => "HOME", "TYPE" => "Missing" }
 
     @name = "#{name}".downcase.capitalize
-    @unde = content["UNDE"] ? content["UNDE"].downcase.capitalize : "Home"
-    @type = content["TYPE"] ? content["TYPE"] : nil
-    @link = content["LINK"]
-    @bref = content["BREF"] ? content["BREF"].markup : nil
-    @long = content["LONG"] ? content["LONG"] : []
+    @unde = data["UNDE"] ? data["UNDE"].downcase.capitalize : "Home"
+    @type = data["TYPE"] ? data["TYPE"] : nil
+    @link = data["LINK"]
+    @bref = data["BREF"] ? data["BREF"].markup : nil
+    @long = data["LONG"] ? data["LONG"] : []
 
     @logs = nil
 
