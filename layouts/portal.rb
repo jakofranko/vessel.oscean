@@ -19,7 +19,7 @@ class CorpseHttp
 
     end
 
-    return html
+    return "<wr>#{html}</wr>"
 
   end
 

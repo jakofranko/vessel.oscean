@@ -15,7 +15,7 @@ class CorpseHttp
         html += "<p>#{term.bref}</p>\n"
       end
     end
-    return html
+    return "<wr>#{html}</wr>"
 
   end
 
