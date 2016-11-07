@@ -128,6 +128,15 @@ BLINDFOLK
   LINK
     GITH : https://github.com/XXIIVV/vessel.blindfolk
 
+BABELIUM
+  UNDE : Online
+  BREF : {{Babelium}} is a roguelike set in the Borges' Library of Babel and played within the limitation of its books.
+  LONG
+    & Begin by finding the {_guide_} in every second hexagon, the guide will tell you things to look for.
+    & If you find yourself to be walking rather slowly, find the closet in which you can sleep standing up.
+  LINK
+    GITH : https://github.com/Echorridoors/Babelium
+
 CAMILARE
   UNDE : Oquonie
   BREF : Language spoken in {{Oquonie}} containing a little over 20 glyphs. The language is spoken in segments of 3 letters. This sentence will often be encountered when trying to enter a locked door with the wrong character. This sentence should be read as {_The door is locked unless nemedique_}.
