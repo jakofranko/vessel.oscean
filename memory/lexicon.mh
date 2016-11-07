@@ -132,9 +132,12 @@ BABELIUM
   UNDE : Online
   BREF : {{Babelium}} is a roguelike set in the Borges' Library of Babel and played within the limitation of its books.
   LONG
-    & Begin by finding the {_guide_} in every second hexagon, the guide will tell you things to look for.
+    & {{Babelium}} is a roguelike set in the Borges' Library of Babel and played within the limitation of its books.
+    & Begin by finding the {_guide_}(displayed as the character {*g*}) in every second hexagon, the guide will tell you things to look for.
     & If you find yourself to be walking rather slowly, find the closet in which you can sleep standing up.
+    ? The game is currently in open beta, if you find any issue, add it to the github repository below.
   LINK
+    SITE : http://100r.co/projects/babelium/index.html
     GITH : https://github.com/Echorridoors/Babelium
 
 CAMILARE
