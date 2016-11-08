@@ -55,7 +55,7 @@ class CorpseHttp
     add_meta("viewport","width=device-width, initial-scale=1, maximum-scale=1")
     add_meta("apple-mobile-web-app-capable","yes")
 
-    add_link("https://fonts.googleapis.com/css?family=Playfair+Display")
+    add_link("https://fonts.googleapis.com/css?family=Playfair+Display|PT+Serif")
     
     add_link("style.reset.css")
     add_link("style.main.css")
@@ -81,7 +81,6 @@ class CorpseHttp
   </yu>
   <yu class='cr'>
     <yu class='vi'>
-      #{portal}
       #{view}
       #{_links}
     </yu>
@@ -89,6 +88,7 @@ class CorpseHttp
   </yu>
   <yu class='ft'>
     <wr>
+      <a href='/#{term.portal.name}'>#{ badge = Media.new("badge",term.name) ; badge.exists ? badge : badge = Media.new("badge",term.portal.name) ; badge.exists ? badge : badge = Media.new("badge","nataniev") ; badge }</a>
       <ln><a href='/Nataniev'>#{Media.new("interface","icon.oscean")}</a><a href='https://github.com/neauoire' target='_blank'>#{Media.new("interface","icon.github")}</a><a href='https://twitter.com/neauoire' target='_blank'>#{Media.new("interface","icon.twitter")}</a></ln>
       <ln><a href='/Devine+Lu+Linvega'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year} <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank' style='color:#aaa'>BY-NC-SA 4.0</a></ln>
       <ln>Currently indexing #{$lexicon.length} projects, built over #{$horaire.length} days.</ln>
@@ -98,16 +98,9 @@ class CorpseHttp
 
   end
 
-  def portal
-
-    if !term.portal then return "" end
-    return "<yu class='si'><wr><a href='/#{term.portal.name}'>#{ badge = Media.new("badge",term.name) ; badge.exists ? badge : badge = Media.new("badge",term.portal.name) ; badge.exists ? badge : badge = Media.new("badge","nataniev") ; badge }</a><p>#{term.portal.bref}</p></wr></yu>"
-
-  end
-
   def view
     
-    return "<wr>#{term.long.runes.to_s}</wr>"
+    return "<wr><p>#{term.bref}</p>#{term.long.runes.to_s}</wr>"
 
   end
 
