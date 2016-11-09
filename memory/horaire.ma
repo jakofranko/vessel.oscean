@@ -272,7 +272,7 @@
 2016 02 17 - 26      Hundred rabbits      Video
 2016 02 16 - 15      Hundred rabbits      Composition
 2016 02 15 - 36  493 Hundred rabbits                           The Workstation
-2016 02 14 ! 00      Hundred rabbits                           Moving on the sailbo
+2016 02 14 ! 00      Hundred rabbits                           Moving aboard
 2016 02 13 - 15      Verreciel            Composition
 2016 02 12 - 15      Verreciel            Composition
 2016 02 11 - 25      Verreciel            Design
@@ -452,21 +452,21 @@
 2015 08 21 - 34      Nataniev             Update               4.1
 2015 08 20 - 27    2 Kaleidoscope         Illustration         Chrestasebeia
 2015 08 19 - 35      Desamber             Update               0.1
-2015 08 18 - 25  448 Sailing              Photography          Living aboard experi
-2015 08 17 - 25  447 Sailing              Photography          Living aboard experi
-2015 08 16 - 25  446 Sailing              Photography          Living aboard experi
-2015 08 15 ! 25  445 Sailing              Photography          Living aboard experi
-2015 08 14 - 25  444 Sailing              Photography          Living aboard experi
-2015 08 13 - 25  443 Sailing              Photography          Living aboard experi
-2015 08 12 - 25  442 Sailing              Photography          Living aboard experi
-2015 08 11 - 25  441 Sailing              Photography          Living aboard experi
-2015 08 10 - 25  440 Sailing              Photography          Living aboard experi
+2015 08 18 - 25  448 Sailing              Photography          
+2015 08 17 - 25  447 Sailing              Photography          
+2015 08 16 - 25  446 Sailing              Photography          
+2015 08 15 ! 25  445 Sailing              Photography          
+2015 08 14 - 25  444 Sailing              Photography          
+2015 08 13 - 25  443 Sailing              Photography          
+2015 08 12 - 25  442 Sailing              Photography          
+2015 08 11 - 25  441 Sailing              Photography          
+2015 08 10 - 25  440 Sailing              Photography          
 2015 08 09 ! 25  439 Sailing              Photography          Learn sailing
 2015 08 08 - 26      Dew                  Update               1.5
 2015 08 07 - 37      Eakout               Update               1.0
 2015 08 06 - 37  438 Eakout               Release              Prototype
 2015 08 05 ! 26  437 Infrared             Photography          Habitat 67
-2015 08 04 - 35  435 Sailing              Writing              Thinking about livin
+2015 08 04 - 35  435 Sailing              Writing              Living aboard
 2015 08 03 - 36      Advent v             Update               0.1
 2015 08 02 - 36      Nataniev             Update               1.0
 2015 08 01 ! 26  436 Infrared             Photography          Graveyard
@@ -541,7 +541,7 @@
 2015 05 24 - 36      Donsol               Update               1.4
 2015 05 23 - 37      Dew                  Update               1.4
 2015 05 22 - 37      Vocavularist         Update               2.4
-2015 05 21 - 19  430 Eschatolor           Release              Tevelision - Eschato
+2015 05 21 - 19  430 Eschatolor           Release              Tevelision
 2015 05 20 - 32      Bifurcan             Update               1.4
 2015 05 19 - 32      Alphavetist          Update               3.6
 2015 05 18 - 32      Ledoliel             Update               2.3
@@ -569,7 +569,7 @@
 2015 04 26
 2015 04 25 - 25  112 Flactals             Illustration         Torazine
 2015 04 24 - 18      Extended sleep       Live
-2015 04 23 - 39  386 Talk                 Live                 Frameworks for Mysti  The full talk can be watched on {{Vimeo|https://vimeo.com/129368249}}, the slides can be downloaded from {{Github|https://github.com/neauoire/Talk-Amaze}}.
+2015 04 23 - 39  386 Talk                 Live                 Frameworks            The full talk can be watched on {{Vimeo|https://vimeo.com/129368249}}, the slides can be downloaded from {{Github|https://github.com/neauoire/Talk-Amaze}}.
 2015 04 22 - 25  111 Flactals             Illustration         Nestorine
 2015 04 21 - 25  107 Flactals             Illustration         Coraline
 2015 04 20 - 28      Time alloy           Illustration
@@ -667,7 +667,7 @@
 2015 01 18 - 35      Hiversaires          Update               3.2
 2015 01 17 - 35      Noirca               Update               4.0
 2015 01 16 - 35      Dew                  Update               1.1
-2015 01 15 ! 18  199 Ramiel               Release              Villa Moirai - Ramie
+2015 01 15 ! 18  199 Ramiel               Release              Villa Moirai
 2015 01 14 - 18      Ramiel               Composition
 2015 01 13 - 18      Ramiel               Composition
 2015 01 12 - 18      Ramiel               Composition
@@ -682,9 +682,9 @@
 2015 01 03 - 18      Miniscopie           Composition
 2015 01 02 - 35      Noirca               Update               3.5
 2015 01 01 - 35      Entaloneralie        Update               2.1
-2014 12 31 ! 17  282 Beldam records       Branding             Founded Beldam recor
+2014 12 31 ! 17  282 Beldam records       Branding             Founded Beldam
 2014 12 30 - 35      Noirca               Tools
-2014 12 29 - 34  260 Keyboard 468         Design               Preparing for the re
+2014 12 29 - 34  260 Keyboard 468         Design               Untitled
 2014 12 28 - 34      Keyboard 468         Tools
 2014 12 27 - 34      Keyboard 468         Tools
 2014 12 26 - 34      Keyboard 468         Prototype
@@ -716,7 +716,7 @@
 2014 11 30 - 17      Supervisitor         Composition
 2014 11 29 - 17      Supervisitor         Composition
 2014 11 28 - 17      Supervisitor         Composition
-2014 11 27 ! 25  284 Defraction optics    Design               Vast's writter's Sec
+2014 11 27 ! 25  284 Defraction optics    Design               II
 2014 11 26 - 25  283 Oquonie              Branding             Walkthrough
 2014 11 25 - 25      Defraction optics    Design
 2014 11 24 - 25      Defraction optics    Design
@@ -815,7 +815,7 @@
 2014 08 23 - 29      Alphavetist
 2014 08 22 ! 29  237 Bifurcan             Update               1.2
 2014 08 21 - 38  233 Ledoliel             Update               2.0
-2014 08 20 - 26      Kaleidoscope         Illustration         Warpnest of Polygono  Nest of the {{Polygonoscopal|Polygonoscopy}} Echoes.
+2014 08 20 - 26      Kaleidoscope         Illustration         Nexted                Nest of the {{Polygonoscopal|Polygonoscopy}} Echoes.
 2014 08 19 ! 26  156 Kaleidoscope         Illustration         Ode, The Perfect Bei
 2014 08 18 - 35      Lietal               Linguistics
 2014 08 17 - 35      Lietal               Linguistics
@@ -970,7 +970,7 @@
 2014 03 21
 2014 03 20
 2014 03 19 ! 19  388 Known magye          Release              Release
-2014 03 18 - 19  382 Known magye          Live                 Pow Pow Pow - San Fr
+2014 03 18 - 19  382 Known magye          Live                 Pow Pow Pow
 2014 03 17
 2014 03 16
 2014 03 15 ! 00      America              Travel               San Fancisco
@@ -1247,7 +1247,7 @@
 2013 06 17 - 28  240 Nataniev             Design               Trailer Release
 2013 06 16 - 25  239 Macro                Photography          Macro Set 1
 2013 06 15 - 28  238 Nataniev             Design               Release Imminent
-2013 06 14 - 19      Dei dain             Live                 KIDDING vol.6 - Toky
+2013 06 14 - 19      Dei dain             Live                 KIDDING vol.6
 2013 06 13 - 19      Dei dain             Composition
 2013 06 12 - 19      Dei dain             Composition          Dei Dain Release
 2013 06 11 - 19      Dei dain             Composition
@@ -1365,7 +1365,7 @@
 2013 02 19 - 25  187 Australia            Photography          Day 5
 2013 02 18 - 25  186 Australia            Photography          Day 4
 2013 02 17 ! 25  185 Australia            Photography          Day 3
-2013 02 16 - 19  218 Ehrivevnv Studies    Live                 Square Sound - Melbo
+2013 02 16 - 19  218 Ehrivevnv Studies    Live                 Square Sound
 2013 02 15 - 25  184 Australia            Photography          Day 2
 2013 02 14 ! 25  183 Australia            Photography          Melbourne
 2013 02 13 - 25  182 Hiversaires          Design               Devlog 9
