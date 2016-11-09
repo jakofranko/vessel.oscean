@@ -3,6 +3,7 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 11 09 - 27      Nataniev             Design
 2016 11 08 ! 26  222 Grimgrains           Design               Bamboo Charcoal       Updated the {{Grimgrains}} website layout.
 2016 11 07 - 39  168 Babelium             Development          Thy Hexagons          Uploaded a first version of the {{Library Of Babel roguelike|Babelium}}.
 2016 11 06 - 39      Babelium             Development
@@ -27,7 +28,7 @@
 2016 10 18 - 37      The will the wisp    Update
 2016 10 17 - 37      Markle               Migration
 2016 10 16 - 36      Markle               Migration
-2016 10 15 ! 25  162 Nervous              Modeling             Woulg                 Cover for {{Woulg|https://www.facebook.com/woulg.music/}}'s Dragged album on {{Methlab Agency|http://methlab-agency.com}}.
+2016 10 15 - 25  162 Nervous              Modeling             Woulg                 Cover for {{Woulg|https://www.facebook.com/woulg.music/}}'s Dragged album on {{Methlab Agency|http://methlab-agency.com}}.
 2016 10 14 - 24      Nataniev             Design
 2016 10 13 - 23      Nataniev             Design
 2016 10 12 - 28      Lietal               Typography
@@ -82,7 +83,7 @@
 2016 08 24 - 39      Nataniev             Tools
 2016 08 23 - 26   77 America              Photography          San Francisco         First picture taken upon sailing to San Francisco from Vancouver.
 2016 08 22 - 35      Nataniev             Development
-2016 08 21 ! 25   75 Nervous              Modeling             Exhibit C
+2016 08 21 - 25   75 Nervous              Modeling             Exhibit C
 2016 08 20 - 35      Blindfolk            Linguistics
 2016 08 19 - 00
 2016 08 18 - 29   90 Sailing              Photography
@@ -126,7 +127,7 @@
 2016 07 11 - 39      Sailing              Writing
 2016 07 10
 2016 07 09 - 29      Sailing              Photography
-2016 07 08 - 25  113 Voynich              Illustration
+2016 07 08 - 25  113 Sketchbook           Illustration
 2016 07 07 - 25  143 Pearls               Modeling
 2016 07 06 - 15      Moonman              Composition
 2016 07 05 - 25  144 Pearls               Modeling
@@ -227,7 +228,7 @@
 2016 04 01 - 24      Verreciel            Design
 2016 03 31 - 25      Verreciel            Design
 2016 03 30
-2016 03 29 - 27   37 Nervous              Modeling             Exhibit B
+2016 03 29 ! 27   37 Nervous              Modeling             Exhibit B
 2016 03 28 - 27   41 Nervous              Modeling             Exhibit A
 2016 03 27 - 17      Moonman              Composition
 2016 03 26
@@ -304,8 +305,8 @@
 2016 01 15 - 16      Hundred rabbits      Composition
 2016 01 14 - 16      Portalion            Composition
 2016 01 13 ! 00      Canada               Travel               Vancouver
-2016 01 12 - 28  490 Ageing               Illustration         02
-2016 01 11 ! 28  487 Ageing               Illustration         01
+2016 01 12 - 28  490 Beauty               Illustration         02                    A special tribute to {{Jesse Kanda|http://www.jessekanda.com}}'s works.
+2016 01 11 ! 28  487 Beauty               Illustration         01
 2016 01 10 - 35      Verreciel            Development
 2016 01 09 - 37      Verreciel            Tools
 2016 01 08 - 37      Verreciel            Tools
@@ -443,10 +444,10 @@
 2015 08 29 - 19      Looking glace        Composition
 2015 08 28 - 19      Looking glace        Composition
 2015 08 27 - 19      Looking glace        Composition
-2015 08 26 ! 24  456 Appeal               Illustration         Mytresial
-2015 08 25 - 24  455 Appeal               Illustration         Genoviral
-2015 08 24 - 24  454 Appeal               Illustration         Vatoxoinal
-2015 08 23 - 24  453 Appeal               Illustration         Hydreviral
+2015 08 26 ! 24  456 Beauty               Illustration         Mytresial
+2015 08 25 - 24  455 Beauty               Illustration         Genoviral
+2015 08 24 - 24  454 Beauty               Illustration         Vatoxoinal
+2015 08 23 - 24  453 Beauty               Illustration         Hydreviral
 2015 08 22 - 27  452 Keyboard 468         Update               1.3
 2015 08 21 - 34      Nataniev             Update               4.1
 2015 08 20 - 27    2 Kaleidoscope         Illustration         Chrestasebeia
@@ -784,9 +785,9 @@
 2014 09 22 - 35      Noirca               Update               3.0
 2014 09 21 - 19      Ten axitecture                            Band Saga
 2014 09 20 ! 25  261 Brane                Illustration         III
-2014 09 19 ! 25  258 Renl moons           Illustration         Cirelle-2
-2014 09 18 ! 25  257 Renl moons           Illustration         Veneq
-2014 09 17 ! 25  253 Renl moons           Illustration         Clij
+2014 09 19 ! 25      Polygonoscopy        Illustration
+2014 09 18 ! 25      Polygonoscopy        Illustration
+2014 09 17 ! 25      Polygonoscopy        Illustration
 2014 09 16 ! 25  250 Serventines          Modeling             Jenen
 2014 09 15 - 35      Nataniev             Update               Inner Haven
 2014 09 14
@@ -898,7 +899,7 @@
 2014 05 31 - 35      Nataniev             Tools
 2014 05 30 - 34      Lietal               Tools
 2014 05 29 - 34      Lietal               Tools
-2014 05 28 - 29      Serventines          Modeling             Perce                 One of the more memorable shores of {{Serventines}}, a smaller hill had its core eaten.
+2014 05 28 - 29      Serventines          Modeling
 2014 05 27 - 29  248 Serventines          Modeling             Snailden
 2014 05 26 - 25      Brane                Illustration
 2014 05 25 - 35  127 Nataniev             Development          Update
@@ -913,7 +914,7 @@
 2014 05 16 - 37      Verreciel            Development
 2014 05 15 - 37      Verreciel            Prototype
 2014 05 14 - 37      Verreciel            Prototype
-2014 05 13 - 29      Serventines          Modeling             Hermetudes            We sail further with hopes of finding the {{Kaleidoscope}}
+2014 05 13 - 29      Serventines          Modeling
 2014 05 12 - 25      Brane                Illustration
 2014 05 11 - 25      Verreciel            Prototype
 2014 05 10 - 25  277 Nereid               Modeling             The Habitat
@@ -1113,7 +1114,7 @@
 2013 10 28 - 34      Nataniev             Development
 2013 10 27 - 34      Nataniev             Development
 2013 10 26 - 19      Known magye          Composition
-2013 10 25 - 36      Voynich              Prototype
+2013 10 25 - 36      Sketchbook           Prototype
 2013 10 24 - 34      Nataniev             Development
 2013 10 23 - 34      Nataniev             Refactoring
 2013 10 22 - 34      Nataniev             Development
@@ -1202,8 +1203,8 @@
 2013 07 31
 2013 07 30 - 35      Milavrega            Design
 2013 07 29 - 25      Milavrega            Design
-2013 07 28 - 27  351 Mirai seu            Typography           Mirai Seu
-2013 07 27 - 29  352 Milavregarian        Typography           Milavregarian
+2013 07 28 - 27  351 Typography           Typography           Mirai Seu
+2013 07 27 - 29  352 Typography           Typography           Milavregarian
 2013 07 26 - 25      Milavrega
 2013 07 25 - 35      Vocavularist         Prototype
 2013 07 24 - 35      Milavrega            Design
@@ -1220,10 +1221,10 @@
 2013 07 13 - 25  342 Japan                Photography          Climbing Mt. Fuji Pa
 2013 07 12 - 34      Dictionaery          Refactoring
 2013 07 11 - 25      Infrared             Photography
-2013 07 10 - 29  341 Septambres           Typography           Septambres Fune
-2013 07 09 - 39      Septambres           Typography
-2013 07 08 - 25      Septambres           Typography
-2013 07 07 - 25      Septambres           Typography
+2013 07 10 - 29  341 Typography           Typography           Septambres Fune
+2013 07 09 - 39      Typography           Typography
+2013 07 08 - 25      Typography           Typography
+2013 07 07 - 25      Typography           Typography
 2013 07 06 - 25      Nataniev             Analytics
 2013 07 05 - 25      Nataniev             Analytics
 2013 07 04 - 36      Nataniev             Refactoring
@@ -1237,10 +1238,10 @@
 2013 06 26
 2013 06 25 ! 19  338 Dei dain             Release              Dei Dain
 2013 06 24 - 27  336 Infrared             Photography          Infrared Set 2
-2013 06 23 - 39  337 Voynich              Prototype            Number Study
-2013 06 22 - 39      Voynich              Prototype
-2013 06 21 - 39      Voynich              Prototype
-2013 06 20 - 39      Voynich              Prototype
+2013 06 23 - 39      Sketchbook           Prototype            Number Study
+2013 06 22 - 39      Sketchbook           Prototype
+2013 06 21 - 39      Sketchbook           Prototype
+2013 06 20 - 39      Sketchbook           Prototype
 2013 06 19 - 19  335 Dei dain             Live                 Mega Ran Tour - Toky
 2013 06 18 - 39      Nataniev             Design
 2013 06 17 - 28  240 Nataniev             Design               Trailer Release
@@ -1797,7 +1798,7 @@
 2011 12 14 - 35      Lietal               Linguistics
 2011 12 13 - 19      Collected works      Composition
 2011 12 12 - 25      Artwork              Illustration
-2011 12 11 - 25   94 Septambres           Typography           Septambres Mini
+2011 12 11 - 25   94 Typography           Typography           Septambres Mini
 2011 12 10 - 35      Lietal               Linguistics
 2011 12 09 - 35      Lietal               Linguistics
 2011 12 08 - 35      Lietal               Linguistics
@@ -1907,7 +1908,7 @@
 2011 08 26 - 25   17 Aliceffekt           Illustration         Aliceffekt Shirt I
 2011 08 25 - 35      Nataniev             Development
 2011 08 24 - 35      Neauismetica         Writing
-2011 08 23 - 35   14 Septambres           Typography           Septambres Lith
+2011 08 23 ! 35   14 Typography           Typography           Septambres Lith
 2011 08 22 - 35      Nataniev             Development
 2011 08 21 - 35      Nataniev             Tools
 2011 08 20 - 35      Nataniev             Design
@@ -2083,7 +2084,7 @@
 2011 03 03 - 25   53 Czech                Photography
 2011 03 02 - 25   51 Czech                Photography
 2011 03 01
-2011 02 28 - 25   58 Septambres           Typography           Septambres Neau
+2011 02 28 - 25   58 Typography           Typography           Septambres Neau
 2011 02 27 - 25      Lietal               Typography
 2011 02 26 - 25      Lietal               Typography
 2011 02 25 - 35      Nataniev             Design
@@ -2676,7 +2677,7 @@
 2009 07 18
 2009 07 17
 2009 07 16
-2009 07 15 - 39   16 Septambres           Typography           Septambres Recit
+2009 07 15 - 39   16 Typography           Typography           Septambres Recit
 2009 07 14
 2009 07 13
 2009 07 12 - 15   13 Gaii                 Release              バイナリダンプ一０。

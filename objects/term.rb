@@ -122,8 +122,8 @@ class Term
 
     return "
     <yu>
-      #{diary ? diary.media : ""}
-      #{diary && diary.name ? "<h2><a href='/#{name}'>#{name}</a></h2><hs>Updated "+logs.first.offset+"</hs>" : "" }
+      #{diary ? "<a href='/#{name}'>"+diary.media.to_s+"</a>" : ""}
+      <h2><a href='/#{name}'>#{name}</a></h2>
       <p>#{bref}</p>
     </yu>"
 

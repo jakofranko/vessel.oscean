@@ -421,7 +421,7 @@ GRIMGRAINS
 ILLUSTRATION
   UNDE : Visual
   TYPE : Portal
-  BREF : A collection of illustrated works.
+  BREF : A collection of illustrated projects.
 
 SKETCHBOOK
   UNDE : Illustration
@@ -497,24 +497,12 @@ MILAVREGA
     & You must try and find your way through the folders, emails and contacts to decypher the enigma of the phone's owner.
   FLAG : Todo
 
-MILAVREGARIAN
-  UNDE : Typography
-  BREF : Pixel font family used in {{Milavrega}}, contains all letters and numbers.
-  LINK
-    GITH : https://github.com/neauoire/Font-Collection
-
 MINISCOPIE
   UNDE : Beldam records
   BREF : {{Miniscopie}} is the second release on the {{Beldam Records}} catalog. Written by {{Reine|http://noirmirroir.com}}, this album combines ambient and deep IDM flavoured sounds. The album is the first music release from Elodie, who also created the {{Vast}} book.
   LINK
     BAND : https://beldamrecords.bandcamp.com/album/miniscopie
     ITUN : https://itunes.apple.com/us/album/miniscopie-ep/id956624857
-
-MIRAI SEU
-  UNDE : Typography
-  BREF : New font inspired from {{Milavregarian}}, contains all letters and numbers.
-  LINK
-    GITH : https://github.com/neauoire/Font-Collection
 
 MIXTAPE
   UNDE : Audio
@@ -689,10 +677,10 @@ ABLETON
 
 NEREID
   UNDE : Illustration
-  BREF : {{Nereid}} is one of Neptune's {{moon|http://en.wikipedia.org/wiki/Nereid_(moon)}}. 
+  BREF : {{Nereid}} is one of Neptune's {{moon|http://en.wikipedia.org/wiki/Nereid_(moon)}}. It has but one weather "cold", terribly slow internet reception and idyllic valleys.
   LONG
-    & It has but one weather, "cold", terribly slow internet reception, idyllic valleys. The soil is mostly diamonds, {_carbonado_} and the lack of atmosphere leaves the surface of the moon, mostly quiet. Were there pigments on Nereid, they would be illegal - for Nereid is strickly colourless.
-    & The daily eclipse we call Night, you can have a look at my {{travel photography|Serventines}}.
+    & The soil is mostly diamonds, {_carbonado_} and the lack of atmosphere leaves the surface of the moon, mostly quiet. Pigments, illegal. Learn more through the {{Serventines}} travel diaries.
+    & 
   TYPE : Portal
 
 PEARLS
@@ -703,16 +691,6 @@ PEARLS
 BEAUTY
   UNDE : Nereid
   BREF : {{Beauty}} is a series of {{Nereid}} beauties, earlier patients to Nereid's {{Appeal}}.
-  TYPE : Diary
-
-APPEAL
-  UNDE : Nereid
-  BREF : A new series of profiles of {{Nereid}}'s {{Beauty}} patients.
-  TYPE : Diary
-
-AGEING
-  UNDE : Nereid
-  BREF : {{Ageing}} is a special tribute to {{Jesse Kanda|http://www.jessekanda.com}}'s works, from the {{Beauty}} & {{Appeal}} series.
   TYPE : Diary
   
 POLYGORE
@@ -897,17 +875,19 @@ PICO BATTLE
 
 POLYGONOSCOPY
   UNDE : Illustration
-  BREF : {{Polygonoscopy}} is a series of illustration made with the {{Kaleidoscope}} along with better lenses, allowing me to zoom into reflections and visit spaces that would normally be impossible to explore. This, in some ways, pleases my curiosity in explorating the {_Simulacra_}.
+  BREF : {{Polygonoscopy}} is a series of abstract videographies, recorded with the {{Kaleidoscope}}.
   TYPE : Portal
 
 METHASCOPE
   UNDE : Polygonoscopy
-  BREF : The {{Methascopes|Methascope}} are frozen {{Polygonoscopic|Polygonoscopy}} drops, similar to snowflakes.
+  BREF : Frozen {{Polygonoscopic|Polygonoscopy}} drops, similar to snowflakes.
   TYPE : Diary
 
 KALEIDOSCOPE
   UNDE : Polygonoscopy
-  BREF : Nothing is as reassuring as looking through the {{Polygonoscope|Polygonoscopy}} and seeing everything is where you left it.
+  BREF : The {{Polygonoscopic|Polygonoscopy}} {{Kaleidoscope}} records the intersection of overlapping structures, our reality's z-fighting.
+  LONG
+    & Nothing is as reassuring as looking through the {{Polygonoscope|Polygonoscopy}} and seeing everything is where you left it.
   TYPE : Diary
 
 HYPERVOID
@@ -919,7 +899,9 @@ HYPERVOID
 
 BRANE
   UNDE : Polygonoscopy
-  BREF : {{Brane}} is a series of procedurally generated prints, designed to look like like portals bubbling out of fabric. This series is part of the {{Kaleidoscope}} collection. The prints are exposed the MIGS gallery on november 10th 2014.
+  BREF : {{Branes|Brane}} are digital fabrics.
+  LONG
+    &  exposed the MIGS gallery on november 10th 2014.
   TYPE : Diary
 
 ASTRATAS
@@ -934,7 +916,7 @@ AR MOIRE
 
 NERVOUS
   UNDE : Polygonoscopy
-  BREF : Series of Vertexbrates.
+  BREF : {{Nervous}} is a eries of {_Vertexbrates_}.
   TYPE : Diary
 
 PURGATEUS
@@ -992,12 +974,6 @@ REMIX
     - {* Does it really matter (Aliceffekt Remix) *} <br /> Stray - Devalued and Discarded (2009) 
     - {* Bad Girls (Aliceffekt Remix) *} <br /> Perfection Plastic - Échec De La Matière (2009)
 
-RENL MOONS
-  UNDE : Nereid
-  BREF : There are four orbiting moons above {{Serventines}}.
-  TYPE : Diary
-  FLAG : Todo
-
 RING OF SCALES
   UNDE : Physical
   BREF : A large ring I made to learn about 3d printing.
@@ -1008,12 +984,6 @@ SECOND WAVE
   UNDE : Aliceffekt
   TYPE : Portal
   FLAG : Todo
-
-SEPTAMBRES
-  UNDE : Typography
-  BREF : Septambres is the original {{Lietal}} form, or 3x3x3 grid mapping. The font also includes the base 10 vedic numbers.
-  LINK
-    GITH : https://github.com/neauoire/Font-Collection
 
 SERVENTINES
   UNDE : Nereid
@@ -1106,7 +1076,9 @@ TRAPEZOID
 TYPOGRAPHY
   UNDE : Illustration
   BREF : Some of the {{typographies|Typography}} I have created over time, feel free to use them as want.
-  TYPE : Portal
+  TYPE : Diary
+  LINK
+    GITH : https://github.com/neauoire/Font-Collection
 
 UNRELEASED
   UNDE : Interactive
@@ -1480,6 +1452,7 @@ PAPER SCISSORS
 
 NOTES
   UNDE : Research
+  TYPE : Archive
   BREF : Various notes written as stories.
 
 THE SARTRE MECHANISM
@@ -1628,11 +1601,12 @@ KEYBOARD
     REDD : https://www.reddit.com/r/MechanicalKeyboards/
 
 DEVINE LU LINVEGA
-  BREF : {{Devine lu linvega}} is a composer, illustrator and programer, living aboard a {{sailboat|Hundred rabbits}} on the Pacific Ocean. 
+  BREF : {{Devine lu linvega}} is a developer and biohacker, living aboard a {{sailboat|Hundred rabbits}} on the Pacific Ocean. 
+  TYPE : Portal
   LONG
-    & Operating under the {{Neauoire|https://twitter.com/neauoire}} moniker, Devine is currating the {{Beldam Records}} catalog and creating {{experimental mobile projects|http://www.creativeapplications.net/openframeworks/experimental-mobile-apps-by-devine-aliceffect-lu-linvega}}.
-    & Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}}, Devine hopes to inspire visitors to learn and to travel.  
-    ? "To {{flee|Obliques}} is life; To linger is death"
+    & Operating under the {{Neauoire|https://twitter.com/neauoire}} moniker, Devine is currating the {{Beldam Records}} catalog, creating {{experimental mobile projects|http://www.creativeapplications.net/openframeworks/experimental-mobile-apps-by-devine-aliceffect-lu-linvega}} and documenting their {{life at sea|https://www.youtube.com/playlist?list=PLV-JXZPiMUdtBGYfvbp9M7N0Tc15GMqy1}}.
+    & Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}} — Devine hope to inspire visitors to learn and to travel.  
+    ? To {{flee|Obliques}} is life,<br /> To linger is {{Death}}.
 
 DEATH
   UNDE : Lifestyle

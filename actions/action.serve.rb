@@ -24,6 +24,7 @@ class ActionServe
 
     corpse         = CorpseHttp.new(@host,@query)      
     corpse.term    = diary ? $lexicon.filter("term",diary.topic,"term") : $lexicon.filter("term",@query,"term")
+    corpse.module  = @module
     corpse.horaire = $horaire
     corpse.lexicon = $lexicon
     corpse.desktop = $desktop
@@ -44,6 +45,7 @@ class CorpseHttp
 
   attr_accessor :path
   attr_accessor :term
+  attr_accessor :module
   attr_accessor :horaire
   attr_accessor :lexicon
   attr_accessor :desktop

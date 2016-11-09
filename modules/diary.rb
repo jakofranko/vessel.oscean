@@ -32,8 +32,9 @@ class CorpseHttp
       i += 1
     end
 
-    if term.name.like("home")
-      html += "<p><a href='/Diary:#{(page+1)}' style='background: #ddd;padding: 15px;font-size: 12px;display: block;border-radius: 100px;text-align: center'>Page #{page+1}</a></p>"
+    if term.name.like("home") || term.name.like("diary")
+      html += "<div style='background:white; height:1px'><div style='background:black; height:1px; width:#{((page.to_f/term.diaries.length.to_f)*1000)}%'></div></div>"
+      html += "<p><a href='/Diary:#{(page+1)}' style='font-family:\"dinregular\";font-weight: normal;text-align: center;display: block;border-radius: 3px;font-size:14px;padding: 15px'>Continue to page #{page+1} of #{(term.diaries.length/perPage).to_i+1}</a></p>"
     end
     return html
 

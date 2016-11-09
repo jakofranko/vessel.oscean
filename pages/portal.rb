@@ -12,7 +12,7 @@ class CorpseHttp
 
     terms.each do |parent,term|
       if !term.type then next end
-      if !term.type.to_s.like("portal") then next end
+      if !term.type.to_s.like("portal") && !term.type.to_s.like("archive") then next end
 
       html += "#{media = Media.new("badge",term.name.downcase) ; media.set_style('width:100px;height:100px;margin-left:30px') ; media}"
       html += "<h2><a href='/#{term.name}'>#{term.name}</a></h2>"
@@ -42,7 +42,7 @@ class CorpseHttp
       html += "<li style='font-size:16px'><a href='/#{term.name}'>#{(term.type.to_s.like("portal")) ? "<b>"+term.name+"</b>" : term.name}</a></li>"
     end
     html += "</ul>"
-    return html
+    return "<wr>#{html}</wr>"
 
   end
 
