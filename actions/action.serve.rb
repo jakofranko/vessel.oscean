@@ -88,7 +88,7 @@ class CorpseHttp
   </yu>
   <yu class='ft'>
     <wr>
-      <a href='/#{term.portal.name}'>#{ badge = Media.new("badge",term.name) ; badge.exists ? badge : badge = Media.new("badge",term.portal.name) ; badge.exists ? badge : badge = Media.new("badge","nataniev") ; badge }</a>
+      #{_portal}
       <ln><a href='/Nataniev'>#{Media.new("interface","icon.oscean")}</a><a href='https://github.com/neauoire' target='_blank'>#{Media.new("interface","icon.github")}</a><a href='https://twitter.com/neauoire' target='_blank'>#{Media.new("interface","icon.twitter")}</a></ln>
       <ln><a href='/Devine+Lu+Linvega'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year} <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank' style='color:#aaa'>BY-NC-SA 4.0</a></ln>
       <ln>Currently indexing #{$lexicon.length} projects, built over #{$horaire.length} days.</ln>
@@ -101,6 +101,12 @@ class CorpseHttp
   def view
     
     return "<wr><p>#{term.bref}</p>#{term.long.runes.to_s}</wr>"
+
+  end
+
+  def _portal
+
+    return "<a href='/#{term.portal}'>#{ badge = Media.new("badge",term.name) ; badge.exists ? badge : badge = Media.new("badge",term.portal) ; badge.exists ? badge : badge = Media.new("badge","nataniev") ; badge }</a>"
 
   end
 
