@@ -3,6 +3,9 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 11 12 - 25      Ry                   Design
+2016 11 11 - 36      Ry                   Tools
+2016 11 10 - 39      Ry                   Tools
 2016 11 09 - 27      Nataniev             Design
 2016 11 08 ! 26  222 Grimgrains           Design               Bamboo Charcoal       Updated the {{Grimgrains}} website layout.
 2016 11 07 - 39  168 Babelium             Development          Thy Hexagons          Uploaded a first version of the {{Library Of Babel roguelike|Babelium}}.
