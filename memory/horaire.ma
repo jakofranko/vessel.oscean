@@ -3,6 +3,9 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 11 15 - 39      Ronin                Development
+2016 11 14 - 38      Ronin                Development
+2016 11 13 - 25      Ronin                Design
 2016 11 12 - 25      Ronin                Design
 2016 11 11 - 36      Ronin                Tools
 2016 11 10 - 39      Ronin                Tools
@@ -69,7 +72,7 @@
 2016 09 10 - 15      Hundred rabbits      Composition
 2016 09 09 - 38      Pino                 Maintenance
 2016 09 08 - 37      Pino                 Maintenance
-2016 09 07 - 00 
+2016 09 07 - 00
 2016 09 06 - 37      Pino                 Maintenance
 2016 09 05 - 15      Moonman              Composition
 2016 09 04 - 24   96 Markle               Design
@@ -174,7 +177,7 @@
 2016 05 28 - 36      Verreciel            Update               1.2
 2016 05 27
 2016 05 26 - 33      Nataniev             Development
-2016 05 25 - 24      Serventines          Modeling    
+2016 05 25 - 24      Serventines          Modeling
 2016 05 24
 2016 05 23 - 33      Nataniev             Development
 2016 05 22
@@ -455,15 +458,15 @@
 2015 08 21 - 34      Nataniev             Update               4.1
 2015 08 20 - 27    2 Kaleidoscope         Illustration         Chrestasebeia
 2015 08 19 - 35      Desamber             Update               0.1
-2015 08 18 - 25  448 Sailing              Photography          
-2015 08 17 - 25  447 Sailing              Photography          
-2015 08 16 - 25  446 Sailing              Photography          
-2015 08 15 ! 25  445 Sailing              Photography          
-2015 08 14 - 25  444 Sailing              Photography          
-2015 08 13 - 25  443 Sailing              Photography          
-2015 08 12 - 25  442 Sailing              Photography          
-2015 08 11 - 25  441 Sailing              Photography          
-2015 08 10 - 25  440 Sailing              Photography          
+2015 08 18 - 25  448 Sailing              Photography
+2015 08 17 - 25  447 Sailing              Photography
+2015 08 16 - 25  446 Sailing              Photography
+2015 08 15 ! 25  445 Sailing              Photography
+2015 08 14 - 25  444 Sailing              Photography
+2015 08 13 - 25  443 Sailing              Photography
+2015 08 12 - 25  442 Sailing              Photography
+2015 08 11 - 25  441 Sailing              Photography
+2015 08 10 - 25  440 Sailing              Photography
 2015 08 09 ! 25  439 Sailing              Photography          Learn sailing
 2015 08 08 - 26      Dew                  Update               1.5
 2015 08 07 - 37      Eakout               Update               1.0
@@ -615,7 +618,7 @@
 2015 03 14 - 29  378 Donsol guide         Design               Guide
 2015 03 13 - 25  362 Lard shader          Illustration         Study B
 2015 03 12 - 25  318 Lard shader          Illustration         Study A
-2015 03 11 - 25      Lard shader          Illustration         
+2015 03 11 - 25      Lard shader          Illustration
 2015 03 10 - 36      Donsol               Development          0
 2015 03 09 - 36      Donsol               Development          0
 2015 03 08 - 35      Donsol               Development          0
@@ -1388,7 +1391,7 @@
 2013 01 30 - 29  172 Wallpaper            Prototype            Uzumaki
 2013 01 29 - 27      Wallpaper            Illustration
 2013 01 28 - 35      Nataniev             Refactoring
-2013 01 27 - 17  167 Nor let the fools    Release              Nor let the fools   
+2013 01 27 - 17  167 Nor let the fools    Release              Nor let the fools
 2013 01 26 - 19  164 Ehrivevnv Studies    Live                 Cheapbeats - Tokyo,
 2013 01 25 - 16      Nor let the fools    Composition
 2013 01 24 - 16      Nor let the fools    Composition
@@ -1482,7 +1485,7 @@
 2012 10 28 - 35      Nataniev             Development
 2012 10 27
 2012 10 26
-2012 10 25 ! 19  106 Ehrivevnv Studies    Release              Ehrivevnv Studies   
+2012 10 25 ! 19  106 Ehrivevnv Studies    Release              Ehrivevnv Studies
 2012 10 24 - 25      Ehrivevnv Studies    Composition
 2012 10 23 - 11      Ehrivevnv Studies    Writing
 2012 10 22
@@ -1794,7 +1797,7 @@
 2011 12 21 - 25      Merveilles portable  Testing
 2011 12 20 - 35      Merveilles portable  Testing
 2011 12 19 - 35      Lietal               Linguistics
-2011 12 18 ! 15    3 From Saharaphorest   Release              From Saharaphorest  
+2011 12 18 ! 15    3 From Saharaphorest   Release              From Saharaphorest
 2011 12 17 - 19      Es gulf sunflowers   Live                 8Bit Noel - Montreal
 2011 12 16 - 25                           Design
 2011 12 15 - 35      Lietal               Typography
@@ -1812,7 +1815,7 @@
 2011 12 03 - 19      Es gulf sunflowers   Live                 Neurodance - Toronto
 2011 12 02 - 15      From Saharaphorest   Composition
 2011 12 01 - 15      From Saharaphorest   Composition
-2011 11 30 - 29    6 From Saharaphorest   Illustration         From Saharaphorest  
+2011 11 30 - 29    6 From Saharaphorest   Illustration         From Saharaphorest
 2011 11 29
 2011 11 28
 2011 11 27 - 15      From Saharaphorest   Composition
@@ -1878,7 +1881,7 @@
 2011 09 28
 2011 09 27
 2011 09 26 - 35      Nataniev             Development
-2011 09 25 ! 15   89 The Sixth Season     Release              The Sixth Season    
+2011 09 25 ! 15   89 The Sixth Season     Release              The Sixth Season
 2011 09 24 - 19      The Sixth Season     Live                 Neu Installation - T
 2011 09 23 - 25      Lietal               Documentation
 2011 09 22 - 25      Artwork              Illustration
@@ -2150,14 +2153,14 @@
 2010 12 30
 2010 12 29 - 25  482 Death                                     Milk
 2010 12 28 - 35                           Prototype
-2010 12 27 - 35   50 Obliques             Development     
+2010 12 27 - 35   50 Obliques             Development
 2010 12 26 - 25      Artwork              Illustration
 2010 12 25
 2010 12 24
 2010 12 23 - 39      Nataniev             Development
 2010 12 22 - 39      Nataniev             Development
 2010 12 21
-2010 12 20 - 15  315 To The Aeons Hell    Release              To The Aeons Hell   
+2010 12 20 - 15  315 To The Aeons Hell    Release              To The Aeons Hell
 2010 12 19 - 35   49 Yearly               Writing              MMX
 2010 12 18 - 19      To The Aeons Hell    Live                 Toy Company - Montre
 2010 12 17 - 19      To The Aeons Hell    Rehearsal
@@ -2939,10 +2942,10 @@
 2008 11 01 - 19      Collected works      Composition
 2008 10 31
 2008 10 30 - 15    4 Vert kirlian theatre Release              Release
-2008 10 29 - 15      Vert kirlian theatre Composition          
-2008 10 28 - 15      Vert kirlian theatre Composition          
-2008 10 27 - 15      Vert kirlian theatre Composition          
-2008 10 26 
+2008 10 29 - 15      Vert kirlian theatre Composition
+2008 10 28 - 15      Vert kirlian theatre Composition
+2008 10 27 - 15      Vert kirlian theatre Composition
+2008 10 26
 2008 10 25
 2008 10 24 ! 00      Japan                Travel               Tokyo
 2008 10 23
