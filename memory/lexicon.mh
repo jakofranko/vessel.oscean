@@ -447,14 +447,6 @@ INTERACTIVE
     & The interactive project list contains various completed and unreleased experiments and games for iOS, desktop and browser.
   TYPE : Portal
 
-RONIN
-  UNDE : Interactive
-  BREF : {{Ronin}} is a visual editor created as {{Hundred Rabbits}}, designed to accomplish simple tasks with little processing power.
-  LONG
-    & The project is currently under development. More details shortly
-  LINK
-    GITH : https://github.com/hundredrabbits/Ronin
-
 VERT KIRLIAN THEATRE
   UNDE : First wave
   BREF : This album was written entirely in the {{Yamanote line|http://en.wikipedia.org/wiki/Yamanote_Line}}, during my first trip to Tokyo, {{Japan}}.
@@ -1179,21 +1171,6 @@ ZJEVENI
 
 ~ Nataniev
   
-NATANIEV
-  UNDE : Nataniev
-  BREF : {{Nataniev}} is a development engine built within a MUD-like environment. It serves this website, {{Hundred Rabbits}}, {{Grimgrains}}, as well as each {{Twitter Bot|Automatons}}.
-  LONG
-    & Initiated in 2011, this custom engine includes a CLI, formerly known as {_Paradise_}, two different flat-files database parsers and its own unique APIs syntax.
-    & Single scripts and repositories, known as vessels and instances, exist as locations in this {*Ecosystem*} and can be visited through the CLI. For example, each Automaton exist as a character that can be found within Paradise; this page exist as a page in a book, in a library that can also be entered and explored.
-    ? Deep within this virtual structure, sleeps a small office - and in it a desk, on which rests a book that translates Russian words into English.
-    & {{Horaire}} is a logbook that holds {_daily creative output entries_}, logged for each day since April 2006. This rigid lifestyle expriment is aiming at discerning and predicting the creativity patterns of {{Devine Lu Linvega}}. The latest visualisation of these logs can be seen {{here|Horaire}}.
-    * Multiplayer Operating System
-    & The Interactive Fiction client is currently being developed to allow anyone to enter, explore and build within the library. The new version will allow anyone to deploy their own instance of {{Nataniev}}, and travel from theirs, to this one seemlessly.
-    ? In a little while you will be alone in shoreless space, to wander its limitless solitudes without friend or comrade forever--for you will remain a thought, the only existent thought, and by your nature inextinguishable, indestructible.
-    & From Mark Twain's {{the mysterious Stranger|http://en.wikipedia.org/wiki/The_Mysterious_Stranger}}
-  LINK
-    GITH : https://github.com/XXIIVV/Nataniev
-
 MAEVE
   UNDE : Nataniev
   BREF : {{Maeve}} is an automated {{Nataniev}} vessel, traveling around the virtual scapes of Nataniev looking for incomplete vessels and errors.
@@ -1499,16 +1476,59 @@ TALK
   BREF : These talks were created as periodical research dumps, often gravitating around the topics of the {{hexagrammaton|Nataniev}} and {{Horaire}}.
   TYPE : Diary
 
-~ Utope
+~ Gamme
 
-UTOPE
+GAMME
   UNDE : Research
-  BREF : The {{Utope}} is a society relying on the idea that there are no higher aspirations than to bring upon the creation of art and the evolution of science; where actions are rated on their worth in achieving the acceleration of art and of science.
+  BREF : {{Gamme}} is an ecosystem of tools and systems developed to serve the {{Obliques}}.
   LONG
-    & Any act that can defend its acceleration of art and science is deemed lawful, and so any act that obstruct the Utope's goals is then unlawful.
+    * Communication
+    - Writing system, {{Shorthand}}
+    - Language, {{Lietal}}
+    * Generics
+    - Calendar System, {{Desamber}}
+    - Time System, {{Clock}}
+    * Software
+    - Time Tracking, {{Horaire}}
+    - Server Tool, {{Nataniev}}
+    - Graphic Tool, {{Ronin}}
+    ? Any act that can defend its acceleration of art and science is deemed lawful.
+
+OBLIQUES
+  UNDE : Notes
+  BREF : More is more is less.
+  TYPE : Memory
+  LINK
+    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/obliques.mh
+
+RONIN
+  UNDE : Gamme
+  BREF : {{Ronin}} is a visual editor created as {{Hundred Rabbits}}, designed to accomplish simple tasks with little processing power.
+  LONG
+    & The project is currently under development. More details shortly
+  LINK
+    GITH : https://github.com/hundredrabbits/Ronin
+
+NATANIEV
+  UNDE : Gamme
+  BREF : {{Nataniev}} is a development engine built within a MUD-like environment. It serves this website, {{Hundred Rabbits}}, {{Grimgrains}}, as well as each {{Twitter Bot|Automatons}}.
+  LONG
+    & Initiated in 2011, this custom engine includes a CLI, formerly known as {_Paradise_}, two different flat-files database parsers and its own unique APIs syntax.
+    & Single scripts and repositories, known as vessels and instances, exist as locations in this {*Ecosystem*} and can be visited through the CLI. For example, each Automaton exist as a character that can be found within Paradise; this page exist as a page in a book, in a library that can also be entered and explored.
+    ? Deep within this virtual structure, sleeps a small office - and in it a desk, on which rests a book that translates Russian words into English.
+    & {{Horaire}} is a logbook that holds {_daily creative output entries_}, logged for each day since April 2006. This rigid lifestyle expriment is aiming at discerning and predicting the creativity patterns of {{Devine Lu Linvega}}. The latest visualisation of these logs can be seen {{here|Horaire}}.
+    * Multiplayer Operating System
+    & The Interactive Fiction client is currently being developed to allow anyone to enter, explore and build within the library. The new version will allow anyone to deploy their own instance of {{Nataniev}}, and travel from theirs, to this one seemlessly.
+    ? In a little while you will be alone in shoreless space, to wander its limitless solitudes without friend or comrade forever--for you will remain a thought, the only existent thought, and by your nature inextinguishable, indestructible.
+    & From Mark Twain's {{the mysterious Stranger|http://en.wikipedia.org/wiki/The_Mysterious_Stranger}}
+  LINK
+    GITH : https://github.com/XXIIVV/Nataniev
+
+HORAIRE
+  UNDE : Gamme
 
 CLOCK
-  UNDE : Utope
+  UNDE : Gamme
   BREF : On {{XXIIVV|Nataniev}}, Time is written using a variance of the {{Internet Time|https://en.wikipedia.org/wiki/Swatch_Internet_Time}} with 4 digits instead of the Swatch Beat's 3 digits system.
   LONG
     * The current time is {{!clock}}
@@ -1517,7 +1537,7 @@ CLOCK
     GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/clock.rb
 
 DESAMBER
-  UNDE : Utope
+  UNDE : Gamme
   BREF : On {{XXIIVV|Nataniev}}, dates are written using a variance of the {{International Fixed Calendar|https://en.wikipedia.org/wiki/International_Fixed_Calendar}} and a custom convention to move the English months' names, away from those of Greek gods'.
   LONG
     * Today is {{!desamber}}
@@ -1532,7 +1552,7 @@ DESAMBER
     GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
 
 LIETAL
-  UNDE : Utope
+  UNDE : Gamme
   TYPE : Portal
   BREF : Created in 1998, {{Lietal}} is a {{synthetic language|http://en.wikipedia.org/wiki/Constructed_language}} created by {{Devine Lu Linvega|Devine Lu Linvega}} for linguistic experiments and research.
   LONG
@@ -1541,14 +1561,8 @@ LIETAL
   LINK
     GITH : https://github.com/XXIIVV/vessel.lietal
 
-GAMME
-  UNDE : Utope
-  BREF : {{Gamme}} is a political system employing no political parties, where single issues are individually voted and carried out by each issue's active members.
-  LONG
-    & The gamme is a platform where citizens can affect the society's aspect that interests them. The lack of {_parties_} is meant to enable better atomical resolutions and solve the issues involved with voting for legislative package-deals.
-
 SHORTHAND
-  UNDE : Utope
+  UNDE : Gamme
   BREF : Notebook and after notebook, I fill pages of notes, ideas and to-dos. When presented with {{the idea of shorthand|http://theatlantic.com/technology/archive/2014/06/yeah-i-still-use-shorthand-and-a-smartpen/373281/}}, I saw immediate practical application.
   LONG
     * The idea is simple, writing faster.
@@ -1564,13 +1578,6 @@ RATIONALITY
   TYPE : Memory
   LINK
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/rationality.mh
-
-OBLIQUES
-  UNDE : Notes
-  BREF : More is more is less.
-  TYPE : Memory
-  LINK
-    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/obliques.mh
 
 DIRECTORY
   UNDE : Notes
@@ -1708,9 +1715,6 @@ ABOUT
 ~ Modules
 
 DIARY
-  UNDE : Nataniev
-
-HORAIRE
   UNDE : Nataniev
 
 PORTAL
