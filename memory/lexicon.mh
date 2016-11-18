@@ -1482,12 +1482,12 @@ GAMME
   UNDE : Research
   BREF : {{Gamme}} is an ecosystem of tools and systems developed to serve the {{Obliques}}.
   LONG
-    * Communication
-    - Writing system, {{Shorthand}}
-    - Language, {{Lietal}}
     * Generics
     - Calendar System, {{Desamber}}
     - Time System, {{Clock}}
+    * Communication
+    - Writing system, {{Shorthand}}
+    - Language, {{Lietal}}
     * Software
     - Time Tracking, {{Horaire}}
     - Server Tool, {{Nataniev}}
