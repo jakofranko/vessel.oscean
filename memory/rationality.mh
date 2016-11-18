@@ -4,17 +4,17 @@
 
 Fallacies
   Bandwagon fallacy
-    Definition : Assuming that an idea has merit simply because many people believe it or practice it. 
-    Example : Most people believe in a god; therefore, it must prove true.
+    Assuming that an idea has merit simply because many people believe it or practice it.
+    {*Example*}: Most people believe in a god; therefore, it must prove true.
   Conjunction fallacy
     Assuming that specific conditions are more probable than general ones.
   Detached lever fallacy
-    Assuming that something simple for one system will be simple for others. 
+    Assuming that something simple for one system will be simple for others.
   Gambler's fallacy
     Assuming that individual random events are influenced by previous random events.
-    I've flipped heads with this coin five times consecutively, so the chance of tails coming out on the sixth flip is much greater than heads.
+    {*Example*}: I've flipped heads with this coin five times consecutively, so the chance of tails coming out on the sixth flip is much greater than heads.
   Ludic fallacy
-    Analysing chance related problems within the narrow frame of games. 
+    Analysing chance related problems within the narrow frame of games.
   Mind projection fallacy
     Thinking that the way you see the world reflects the way the world really is.
   Planning fallacy
@@ -37,7 +37,7 @@ Fallacies
     X is in a category whose archetypal member gives us a certain emotional reaction. Therefore, we should apply that emotional reaction to X, even though it is not a central category member.
   Reification fallacy
     Todo
-    IQ tests as an actual measure of intelligence; the concept of race (even though genetic attributes exist), from the chosen combination of attributes or the labeling of a group of people, come from abstract social constructs; 
+    IQ tests as an actual measure of intelligence; the concept of race (even though genetic attributes exist), from the chosen combination of attributes or the labeling of a group of people, come from abstract social constructs;
     Astrology; god(s); Jesus; Santa Claus, black race, white race, etc.
   Scales of justice fallacy
     Error of using a simple polarized scheme for deciding a complex issue/ each piece of evidence about the question is individually categorized as supporting exactly one of the two opposing positions.
@@ -251,9 +251,9 @@ Heuristics
 
 Arguments
   Arguing by analogy
-    Arguing that since things are alike in some ways, they will probably be alike in others. 
+    Arguing that since things are alike in some ways, they will probably be alike in others.
   Arguing by definition
-    Arguing that something is part of a class because it fits the definition of that class. 
+    Arguing that something is part of a class because it fits the definition of that class.
   Argument from omniscience
     An arguer would need omniscience to know about everyone's beliefs or disbeliefs or about their knowledge.
     All people believe in something. Everyone knows that.
@@ -265,7 +265,7 @@ Arguments
   Argumentum ad populum
     Argument relying on sentimental weakness rather than facts and reasons.
   Argumentum ad verecundiam(argument from authority)
-    Argument relying on the the words of an "expert" or authority as the bases of the argument instead of using the logic or evidence that supports an argument. 
+    Argument relying on the the words of an "expert" or authority as the bases of the argument instead of using the logic or evidence that supports an argument.
     Professor so-and-so believes in creation-science.
   Argumentum ex silentio(Appeal to ignorance)
     Argument relyingon ignorance as evidence for something.
@@ -276,7 +276,7 @@ Arguments
     Some religious people believe that knowledge of evolution leads to immorality, therefore evolution proves false. Even if teaching evolution did lead to immorality, it would not imply a falsehood of evolution.
   Straw man
     Creating a false or made up scenario and then attacking it. Painting your opponent with false colors only deflects the purpose of the argument.
-    Evolutionists think that everything came about by random chance. 
+    Evolutionists think that everything came about by random chance.
   Steel man
     Opposite of strawman. To steelman is to address the strongest possible variant or the most charitable interpretation of an idea, rather than the most available phrasings. Steelmanning can be especially important when the network by which phrasings are brought to your attention has a preference for propagating uncharitable/controversial phrasings.
   Fully general counterargument
@@ -324,7 +324,7 @@ Faults
 
 Rationality
   Rationality
-    The characteristic of thinking and acting optimally. 
+    The characteristic of thinking and acting optimally.
   Bounded rationality
     limits on optimization and rationality
   Costs of rationality
@@ -363,7 +363,7 @@ Theories
   Updateless decision theory
     a decision theory in which we give up the idea of doing Bayesian reasoning to obtain a posterior distribution etc. and instead just choose the action (or more generally, the probability distribution over actions) that will maximize the unconditional expected utility.
   Aumann's agreement theorem
-    Two agents acting rationally and with common knowledge of each other's beliefs cannot agree to disagree. 
+    Two agents acting rationally and with common knowledge of each other's beliefs cannot agree to disagree.
     More specifically, if two people are genuine Bayesians, share common priors, and have common knowledge of each other's current probability assignments, then they must have equal probability assignments.
   Bayes' theorem
     A law of probability that describes the proper way to incorporate new evidence into prior probabilities to form an updated probability estimate.
@@ -386,7 +386,7 @@ Evidence
 
 Beliefs
   Belief
-    the mental state in which an individual holds a proposition to be true. 
+    the mental state in which an individual holds a proposition to be true.
   Priors
     The beliefs an agent holds regarding a fact, hypothesis or consequence, before being presented with evidence.
   Belief in belief
@@ -411,7 +411,7 @@ Technique
   Shut up and multiply
     The ability to trust the math even when it feels wrong
   Rationality as martial art
-    A metaphor for rationality as the martial art of mind; training brains in the same fashion as muscles. 
+    A metaphor for rationality as the martial art of mind; training brains in the same fashion as muscles.
   Making beliefs pay rent
     Every question of belief should flow from a question of anticipation, and that question of anticipation should be the centre of the inquiry. Every guess of belief should begin by flowing to a specific guess of anticipation, and should continue to pay rent in future anticipations. If a belief turns deadbeat, evict it.
   Debiasing
@@ -466,7 +466,7 @@ Util
   Felicific calculus
     The felicific calculus is an algorithm formulated by utilitarian philosopher Jeremy Bentham (1748–1832) for calculating the degree or amount of pleasure that a specific action is likely to cause. Bentham, an ethical hedonist, believed the moral rightness or wrongness of an action to be a function of the amount of pleasure or pain that it produced. The felicific calculus could, in principle at least, determine the moral status of any considered act. The algorithm is also known as the utility calculus, the hedonistic calculus and the hedonic calculus. To be included in this calculation are several variables (or vectors), which Bentham called "circumstances". Intensity, Duration, Likelihood, Time Distance, Recurrence, Purity, Reach
   Hedons and dolors
-    The units of measurements used in the felicific calculus may be termed hedons and dolors, similar to the utilitarian posends and negends.  
+    The units of measurements used in the felicific calculus may be termed hedons and dolors, similar to the utilitarian posends and negends.
 
 Lexicon
   Akrasia
@@ -475,7 +475,7 @@ Lexicon
     An independent source of emotional reaction which can coexist with a contradictory belief.
     The fear felt when a monster jumps out of the darkness in a scary movie is based on the alief that the monster is about to attack you, even though you believe that it cannot.
   Altruism
-    Actions undertaken for the benefit of other people. 
+    Actions undertaken for the benefit of other people.
     If you do something to feel good about helping people, or even to be a better person in some spiritual sense, it isn't truly altruism.
   Anthropomorphism
     Attributing distinctly human characteristics to nonhuman processes.
@@ -497,7 +497,7 @@ Lexicon
   Consequentialism
     Ethical theory that people should choose the action that will result in the best outcome.
   Defensibility
-    Arguing that a policy is defensible rather than optimal or that it has some benefit compared to the null action rather than the best benefit of any action. 
+    Arguing that a policy is defensible rather than optimal or that it has some benefit compared to the null action rather than the best benefit of any action.
   Egalitarianism
     The idea that everyone should be considered equal. Equal in merit, equal in opportunity, equal in morality, and equal in achievement.
   Framing
@@ -511,7 +511,7 @@ Lexicon
   Incredulity
     Spending emotional energy on incredulity wastes time you could be using to update. It repeatedly throws you back into the frame of the old, wrong viewpoint. It feeds your sense of righteous indignation at reality daring to contradict you.
   Luminosity
-    Reflective awareness. A luminous mental state is one that you have and know that you have. 
+    Reflective awareness. A luminous mental state is one that you have and know that you have.
   Password
     The answer you guess instead of actually understanding the problem.
   Persistence
@@ -536,7 +536,7 @@ Lexicon
     A stimulus that engages a sensitivity more strongly than anything that existed in the evolutionary context.
     Unhealthy foods frequently contain more salt, fat and sugar than anything our ancestors ever ate. As such, humans frequently respond to the superstimulus of eating them in a way that undermines their function by eating so much unhealthy food that it lowers their reproductive fitness.
   Teleology
-    The study of things that happen for the sake of their future consequences. The fallacious meaning of it is that events are the result of future events. 
+    The study of things that happen for the sake of their future consequences. The fallacious meaning of it is that events are the result of future events.
   Anchoring
     Relying too heavily on a past reference or on one piece of information when making decisions.
   Connotation
@@ -571,7 +571,7 @@ Lexicon
   Intrinsic
     Ontologically basic entities, thoughts, beliefs, ideas, for which no justification is needed. For instance, belief that the self exists, (or that anything exists). The ability to identify "things". Fundamental directives (EG, pursuit of survival, reproduction). Much of the mind is, and aught be, fluid, self-organizing, built from a small set of axioms, an elegant core, but it's impossible to build a working agent without implanting it with a few assumptions, a few mechanisms that will just work straight away. These assumptions are the intrinsics.
   Acop / reflective protocol
-    Superrationality, but this is a terrible name which sounds like it means something really dumb, so if you use it with anyone who doesn't already know what it means they will assume you mean something really dumb and the conversation will catch on fire and collapse and you will not realize what has happened until it is too late. 
+    Superrationality, but this is a terrible name which sounds like it means something really dumb, so if you use it with anyone who doesn't already know what it means they will assume you mean something really dumb and the conversation will catch on fire and collapse and you will not realize what has happened until it is too late.
     A decisionmaking process that is acop is in some sense aware of its nature as an abstract entity shared between many minds, and makes rational decisions in light of this. Conventional rationality cannot do this, and frequently attacks itself as a result. Essentially: An acop agent will anticipate that agents with similarly sophisticated decision theories will commit to the same policies as it will, so it will choose policies that it will tolerate being reflected back at it, effectively coordinating its policy decisions (and consequent actions) with every other intelligent agent without ever needing to exchange information, without necessarily even knowing with certainty that the others exist. It is a partial antidote to moloch, making its subjects more trusting less competitive.
   Coherent Extrapolated Volition
     The choices and actions humanity would take if it knew more, thought faster, and had grown up closer together.
@@ -588,12 +588,12 @@ Lexicon
   Tectonics
     The practice of deliberately changing culture.
   Lateralus
-    An affliction, to fall for an illusion of inescapable cyclicality. Examples include 
+    An affliction, to fall for an illusion of inescapable cyclicality. Examples include
     The failure to recognize one's growth, inability to dream of unprecedented things, ceding to self-reinforcing systems, being jaded to hope, waiting for nonexistent chickens to hatch from nonexistent eggs.
   Rescue-Net
     Assuming countably-infinite, equally-real universes (which is theI ultimate conclusion of mathematical-realism and other possible Tegmark-world systems), this would effectively result in a fractal of universes-resimulating-universes-resimulating-universes; or if there is an absolute upper bound on a coherent universe's complexity, universes-merely-resimulating-plausible-minds. A cosmology that assumes the combined truth of cognitive-patternism and mathematical-realist ensemble-universes, wherein all sufficiently advanced civilizations/singletons ultimately become aware of these principles, and ultimately apply acausal-trade behaviors to said system to derive absolute moral imperatives. The most likely imperative, arguably, is the creation of a rescue-net; other specific imperatives within this system may be able to be acausally inferred, but we haven't been able to formalize them yet.
   Archipelago
-    A state of states with the sole purpose of enabling its citizens to gather with and be governed by their own. 
+    A state of states with the sole purpose of enabling its citizens to gather with and be governed by their own.
   Moral luck
     Tendency for people to ascribe greater or lesser moral standing based on the outcome of an event.
   Error of crowds
@@ -626,7 +626,7 @@ Lexicon
   Human universal
     Donald E. Brown has compiled a list of over a hundred human universals - traits found in every culture ever studied, most of them so universal that anthropologists don't even bother to note them explicitly.[TODO-Wikipedia this]
   Hyperbolic discounting
-    Tendency to have a stronger preference for more immediate payoffs relative to later payoffs, the closer to the present both payoffs are.  
+    Tendency to have a stronger preference for more immediate payoffs relative to later payoffs, the closer to the present both payoffs are.
   Inferential distance
     Gap between the background knowledge and epistemology of a person trying to explain an idea, and the background knowledge and epistemology of the person trying to understand it.
   Information cascade
