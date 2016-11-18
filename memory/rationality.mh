@@ -2,51 +2,87 @@
 ~ NOTE : That which can be destroyed by the truth should be.(P. C. Hodgell)
 ~ AUTH : Compiled by Devine Ly Linvega, from Lesswrong & Jim Walker
 
-Fallacies
-  Bandwagon fallacy
-    Assuming that an idea has merit simply because many people believe it or practice it.
-    {*Example*}: Most people believe in a god; therefore, it must prove true.
-  Conjunction fallacy
-    Assuming that specific conditions are more probable than general ones.
-  Detached lever fallacy
-    Assuming that something simple for one system will be simple for others.
-  Gambler's fallacy
-    Assuming that individual random events are influenced by previous random events.
-    {*Example*}: I've flipped heads with this coin five times consecutively, so the chance of tails coming out on the sixth flip is much greater than heads.
-  Ludic fallacy
-    Analysing chance related problems within the narrow frame of games.
-  Mind projection fallacy
-    Thinking that the way you see the world reflects the way the world really is.
-  Planning fallacy
-    Underestimating task-completion times.
-  Sunk cost fallacy
-    Letting past investments interfere with decision-making in the present.
-  Typical mind fallacy
-    Assuming that other people are more like you than they actually are.
-  Composition fallacy
-    When the conclusion of an argument depends on an erroneous characteristic from parts of something to the whole or vice versa.
-    Humans have consciousness and human bodies and brains consist of atoms; therefore, atoms have consciousness.
-    a word processor program consists of many bytes; therefore a byte forms a fraction of a word processor.
-  Giant cheesecake fallacy
-    Occurs when an argument leaps directly from capability to actuality, without considering the necessary intermediate of motive.
-    A sufficiently powerful Artificial Intelligence could overwhelm any human resistance and wipe out humanity.
-  Narrative fallacy
-    A vulnerability to over interpretation and our predilection for compact stories over raw truths.
-  Noncentral fallacy
-    A rhetorical move often used in political, philosophical, and cultural arguments.
-    X is in a category whose archetypal member gives us a certain emotional reaction. Therefore, we should apply that emotional reaction to X, even though it is not a central category member.
-  Reification fallacy
-    Todo
-    IQ tests as an actual measure of intelligence; the concept of race (even though genetic attributes exist), from the chosen combination of attributes or the labeling of a group of people, come from abstract social constructs;
-    Astrology; god(s); Jesus; Santa Claus, black race, white race, etc.
-  Scales of justice fallacy
-    Error of using a simple polarized scheme for deciding a complex issue/ each piece of evidence about the question is individually categorized as supporting exactly one of the two opposing positions.
-  Texas sharpshooter fallacy
-    Adjusting an hypothesis after the data was collected.
-  The top 1% fallacy
-    Related to not taking into account the idea that a small sample size is not always reflective of a whole population and that sample populations with certain characteristics, e.g. made up of repeat job seekers, are not reflective of the whole population.
-  Fallacy of gray
-    The false belief that because nothing is certain, everything is equally uncertain. It does not take into account that some things are more certain than others.
+Biases
+  Actor–observer bias
+    Tendency for explanations of other individuals' behaviors to overemphasize the influence of their personality and underemphasize the influence of their situation (see also Fundamental attribution error), and for explanations of one's own behaviors to do the opposite (that is, to overemphasize the influence of our situation and underemphasize the influence of our own personality).
+  Anthropic bias
+    Tendency for one's evidence to be biased by observation selection effects.
+  Attentional bias
+    Tendency to neglect relevant data when making judgments of a correlation or association.
+  Choice-supportive bias
+    In a self-justifying manner retroactively ascribing one's choices to be more informed than they were when they were made.
+  Confirmation bias
+    Tendency to search for or interpret information in a way that confirms one's preconceptions.
+  Congruence bias
+    Tendency to test hypotheses exclusively through direct testing, in contrast to tests of possible alternative hypotheses.
+  Conservatism or regressive bias
+    Tendency to remember high values and high likelihoods/probabilities/frequencies as lower than they actually were and low ones as higher than they actually were. Based on the evidence, memories are not extreme enough.
+  Egocentric bias
+    Tendency to claim more responsibility for themselves for the results of a joint action than an outside observer would. Recalling the past in a self-serving manner. {*Example*}: Remembering one's exam grades as being better than they were.
+  Exposure-suspicion bias
+    Knowledge of a subject's disease in a medical study may influence the search for causes.
+  Extrinsic incentives bias
+    An exception to the fundamental attribution error, when people view others as having (situational) extrinsic motivations and (dispositional) intrinsic motivations for oneself.
+  Fading affect bias
+    A bias in which the emotion associated with unpleasant memories fades more quickly than the emotion associated with positive events.
+  Impact bias
+    Tendency to overestimate the length or the intensity of the impact of future feeling states.
+  Information bias
+    Tendency to seek information even when it cannot affect action.
+  Modesty bias
+    Tendency to blame failures on oneself while attributing successes to situational factors. Opposite of self-serving bias.
+  Mood-congruent memory bias
+    The improved recall of information congruent with one's current mood.
+  Notational bias
+    Cultural bias in which a notation induces the appearance of a nonexistent natural law.
+  Omission bias
+    Tendency to judge harmful actions as worse, or less moral, than equally harmful omissions.
+  Self-serving bias
+    Tendency to attribute successes to internal characteristics while blaming failures on outside forces. It may also manifest itself as a tendency for people to evaluate ambiguous information in a way beneficial to their interests.
+  Shared information bias
+    Tendency for group members to spend more time and energy discussing information that all members are already familiar with (i.e., shared information), and less time and energy discussing information that only some members are aware of.
+  Status quo bias
+    Tendency to like things to stay relatively the same.
+  Stereotypical bias
+    Memory distorted towards stereotypes. {*Example*}: "black-sounding" names being misremembered as names of criminals.
+  Superiority bias(Lake Wobegon effect)
+    Tendency to overestimating one's desirable qualities, and underestimating undesirable qualities, relative to other people.
+  Survivorship bias
+    Tendency of focusing on what has survived to the present and ignoring what must have been lost.
+  Trait ascription bias
+    Tendency for people to view themselves as relatively variable in terms of personality, behavior and mood while viewing others as much more predictable.
+  Unit bias
+    Tendency to want to finish a given unit of a task or an item with strong effects on the consumption of food in particular.
+  Zero-risk bias
+    Preference for reducing a small risk to zero over a greater reduction in a larger risk.
+  Authority bias
+    Tendency to attribute greater accuracy to the opinion of an authority figure (unrelated to its content) and be more influenced by that opinion.
+  Conformity bias
+    Behaving similarly to the others in a group, even if doing so goes against your own judgment.
+  Ingroup bias
+    Giving preferential treatment to others they perceive to be members of their own groups.
+  Correspondence bias
+    Overestimating the contribution of lasting traits and dispositions, as opposed to situational effects, in determining people's behavior.
+  Obsequiousness bias
+    Altering responses in the direction they perceive desired by the investigator.
+  Unacceptability bias
+    Refusing of evading questions that may embarrass or invade privacy.
+  Projection bias
+    Assuming that others share the same or similar thoughts, beliefs, values, or positions.
+  Consistency bias
+    Incorrectly remembering one's past attitudes and behaviour as resembling present attitudes and behaviour.
+  Hindsight bias("I-knew-it-all-along" effect)
+    Seeing past events as predictable, based on knowledge of later events.
+  Optimism bias
+    Systematic tendency to be over-optimistic about the outcome of planned actions.
+  Outcome bias
+    Tendency to judge a decision by its eventual outcome instead of based on the quality of the decision at the time it was made.
+  Outgroup homogeneity bias
+    Tendecy of people see members of their own group as being relatively more varied than members of other groups.
+  Positive bias
+    Tendency to test hypotheses with positive rather than negative examples, thus risking to miss obvious disconfirming tests.
+  Positive outcome bias
+    Tendency in prediction to overestimate the probability of good things happening to them.
 
 Effects
   Ambiguity effect
@@ -67,8 +103,7 @@ Effects
   False consensus effect
     Tendency for people to overestimate the degree to which others agree with them.
   Forer effect(Barnum Effect)
-    Tendency to give high accuracy ratings to descriptions of their personality that supposedly are tailored specifically for them, but are in fact vague and general enough to apply to a wide range of people.
-    horoscopes
+    Tendency to give high accuracy ratings to descriptions of their personality that supposedly are tailored specifically for them, but are in fact vague and general enough to apply to a wide range of people. {*Example*}: Horoscopes.
   Motivated cognition
     Tendency to process information toward conclusions that suit some end or goal.
   Generation effect
@@ -147,95 +182,35 @@ Effects
   Endowment effect
     Tendency to demand much more to give up an object than they would be willing to pay to acquire it.
 
-Biases
-  Actor–observer bias
-    Tendency for explanations of other individuals' behaviors to overemphasize the influence of their personality and underemphasize the influence of their situation (see also Fundamental attribution error), and for explanations of one's own behaviors to do the opposite (that is, to overemphasize the influence of our situation and underemphasize the influence of our own personality).
-  Anthropic bias
-    Tendency for one's evidence to be biased by observation selection effects.
-  Attentional bias
-    Tendency to neglect relevant data when making judgments of a correlation or association.
-  Change bias
-    After an investment of effort in producing change, remembering one's past performance as more difficult than it actually was.
-  Choice-supportive bias
-    In a self-justifying manner retroactively ascribing one's choices to be more informed than they were when they were made.
-  Confirmation bias
-    Tendency to search for or interpret information in a way that confirms one's preconceptions.
-  Congruence bias
-    Tendency to test hypotheses exclusively through direct testing, in contrast to tests of possible alternative hypotheses.
-  Conservatism or regressive bias
-    Tendency to remember high values and high likelihoods/probabilities/frequencies as lower than they actually were and low ones as higher than they actually were. Based on the evidence, memories are not extreme enough.
-  Egocentric bias
-    Tendency to claim more responsibility for themselves for the results of a joint action than an outside observer would. Recalling the past in a self-serving manner.
-    Remembering one's exam grades as being better than they were.
-    Remembering a caught fish as being bigger than it was.
-  Exposure-suspicion bias
-    Knowledge of a subject's disease in a medical study may influence the search for causes.
-  Extrinsic incentives bias
-    An exception to the fundamental attribution error, when people view others as having (situational) extrinsic motivations and (dispositional) intrinsic motivations for oneself
-  Fading affect bias
-    A bias in which the emotion associated with unpleasant memories fades more quickly than the emotion associated with positive events.
-  Impact bias
-    Tendency to overestimate the length or the intensity of the impact of future feeling states.
-  Information bias
-    Tendency to seek information even when it cannot affect action.
-  Modesty bias
-    Tendency to blame failures on oneself while attributing successes to situational factors. Opposite of self-serving bias.
-  Mood-congruent memory bias
-    The improved recall of information congruent with one's current mood.
-  Notational bias
-    Cultural bias in which a notation induces the appearance of a nonexistent natural law.
-  Omission bias
-    Tendency to judge harmful actions as worse, or less moral, than equally harmful omissions.
-  Self-serving bias
-    Tendency to attribute successes to internal characteristics while blaming failures on outside forces. It may also manifest itself as a tendency for people to evaluate ambiguous information in a way beneficial to their interests.
-  Shared information bias
-    Tendency for group members to spend more time and energy discussing information that all members are already familiar with (i.e., shared information), and less time and energy discussing information that only some members are aware of.
-    unshared information
-  Status quo bias
-    Tendency to like things to stay relatively the same.
-  Stereotypical bias
-    Memory distorted towards stereotypes.
-    "black-sounding" names being misremembered as names of criminals.
-  Superiority bias(Lake Wobegon effect)
-    Tendency to overestimating one's desirable qualities, and underestimating undesirable qualities, relative to other people.
-  Survivorship bias
-    Tendency of focusing on what has survived to the present and ignoring what must have been lost.
-  Trait ascription bias
-    Tendency for people to view themselves as relatively variable in terms of personality, behavior and mood while viewing others as much more predictable.
-  Unit bias
-    Tendency to want to finish a given unit of a task or an item with strong effects on the consumption of food in particular.
-  Zero-risk bias
-    Preference for reducing a small risk to zero over a greater reduction in a larger risk.
-  Authority bias
-    Tendency to attribute greater accuracy to the opinion of an authority figure (unrelated to its content) and be more influenced by that opinion.
-  Conformity bias
-    Behaving similarly to the others in a group, even if doing so goes against your own judgment.
-  Ingroup bias
-    Giving preferential treatment to others they perceive to be members of their own groups.
-  Correspondence bias
-    Overestimating the contribution of lasting traits and dispositions, as opposed to situational effects, in determining people's behavior.
-  Obsequiousness bias
-    Altering responses in the direction they perceive desired by the investigator.
-  Unacceptability bias
-    Refusing of evading questions that may embarrass or invade privacy.
-  Projection bias
-    Assuming that others share the same or similar thoughts, beliefs, values, or positions.
-  Consistency bias
-    Incorrectly remembering one's past attitudes and behaviour as resembling present attitudes and behaviour.
-  Hindsight bias("I-knew-it-all-along" effect)
-    Seeing past events as predictable, based on knowledge of later events.
-  Optimism bias
-    Systematic tendency to be over-optimistic about the outcome of planned actions.
-  Outcome bias
-    Tendency to judge a decision by its eventual outcome instead of based on the quality of the decision at the time it was made.
-  Outgroup homogeneity bias
-    Tendecy of people see members of their own group as being relatively more varied than members of other groups.
-  Positive bias
-    Tendency to test hypotheses with positive rather than negative examples, thus risking to miss obvious disconfirming tests.
-  Positive outcome bias
-    Tendency in prediction to overestimate the probability of good things happening to them.
-    Wishful thinking, optimism bias and valence effect
-
+Fallacies
+  Bandwagon fallacy
+    Assuming that an idea has merit simply because many people believe it or practice it.
+  Conjunction fallacy
+    Assuming that specific conditions are more probable than general ones.
+  Detached lever fallacy
+    Assuming that something simple for one system will be simple for others.
+  Gambler's fallacy
+    Assuming that individual random events are influenced by previous random events. {*Ex*}: I've flipped heads with this coin five times consecutively, so the chance of tails coming out on the sixth flip is much greater than heads.
+  Mind projection fallacy
+    Assuming that the way you see the world reflects the way the world really is.
+  Planning fallacy
+    Underestimating task-completion times.
+  Sunk cost fallacy
+    Letting past investments interfere with decision-making in the present.
+  Typical mind fallacy
+    Assuming that other people are more like you than they actually are.
+  Giant cheesecake fallacy
+    Occurs when an argument leaps directly from capability to actuality, without considering the necessary intermediate of motive.
+  Narrative fallacy
+    A vulnerability to over-interpretation and our predilection for compact stories over raw truths.
+  Scales of justice fallacy
+    Error of using a simple polarized scheme for deciding a complex issue/ each piece of evidence about the question is individually categorized as supporting exactly one of the two opposing positions.
+  Texas sharpshooter fallacy
+    Adjusting an hypothesis after the data was collected.
+  The top 1% fallacy
+    Related to not taking into account the idea that a small sample size is not always reflective of a whole population and that sample populations with certain characteristics, e.g. made up of repeat job seekers, are not reflective of the whole population.
+  Fallacy of gray
+    The false belief that because nothing is certain, everything is equally uncertain. It does not take into account that some things are more certain than others.
 
 Heuristics
   Absurdity heuristic
