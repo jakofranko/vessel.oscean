@@ -12,9 +12,9 @@ class CorpseHttp # Module
   def view
     
     html = "\n"
-    html += "<p>This {_:talk_} page is the place to anonymously ask question, give feedback and report issues about {{Oquonie}}. Visit the {{/talk}} page for a list of all the topics.</p>\n"
+    html += "<p>This {_:talk_} page is the place to anonymously ask question, give feedback and report issues about {{#{@term.name}}}. Visit the {{/talk}} page for a list of all the topics.</p>\n"
     html += "<form><textarea placeholder='Input comment here'></textarea></form>\n<pre>Markup: {  } Link {**} Bold {__} Italic</pre>\n"
-    comments = Memory_Array.new("forum",@host.path).filter("term",@term,"comment")
+    comments = Memory_Array.new("forum",@host.path).filter("topic",@term.name,"comment")
     
     id = 1
     comments.each do |comment|

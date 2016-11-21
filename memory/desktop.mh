@@ -96,5 +96,9 @@ WILLWISP
   Fix issue with replies
 
 RONIN
-  Implement color balance
   Implement shaders
+  Center canvas
+  Add canvas width/height variables
+  Add viewport width/height variables
+  Add Sharpen
+  Add Auto Color
