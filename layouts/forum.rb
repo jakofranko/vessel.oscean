@@ -65,14 +65,14 @@ thread .activity { color:#000}
     
     topic   = nil
     reply   = nil
-    message = cmd
+    message = cmd.gsub('+',' ')
     
-    if message.split(" ").first[0,4] == "say-"
-      topic = cmd.split(" ")[0].split("-").last
+    if message.split(" ").first[0,6] == "topic-"
+      topic = message.split(" ")[0].split("-").last
       message = message.sub("say-#{topic}","").strip
     end
     
-    if message.split(" ").first[0,6] == "reply-"
+    if message.split(" ").length > 0 && message.split(" ").first[0,6] == "reply-"
       reply = message.split(" ")[0].split("-").last.to_i
       message = message.sub("reply-#{reply}","").strip
     end
@@ -87,15 +87,16 @@ thread .activity { color:#000}
     
     # Check if message already exists
     comments.to_a("comment").each do |comment|
-      if !comment.message then next end
-      if !comment.topic.like(topic) then next end
-      if comment.message.to_s.like(message) then return "<p class='error'>Your comment is a duplicate.</p>" end
+      # if !comment.message then next end
+      # if !comment.topic.to_s.like(topic) then next end
+      # if comment.message.to_s.like(message) then return "<p class='error'>Your comment is a duplicate.</p>" end
     end
     
     # Save
-    comments.append("#{Timestamp.new.to_s.append(' ',14)} #{topic.to_s.capitalize.append(' ',20)} #{reply.to_s.append(' ',4)} #{message}")
+    # Remove comment
+    # comments.append("#{Timestamp.new.to_s.append(' ',14)} #{topic.to_s.capitalize.append(' ',20)} #{reply.to_s.append(' ',4)} #{message}")
     
-    return "<p>Your comment has been saved.</p>"
+    return "<p>Your comment(#{message} / #{topic} / #{reply}) has been saved.</p>"
     
   end
   
