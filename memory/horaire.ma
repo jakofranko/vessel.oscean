@@ -3,6 +3,9 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 11 20 - 35      Nataniev             Tools
+2016 11 19 - 33      Rationality          Writing
+2016 11 18 - 32      Ronin                Development
 2016 11 17 - 23  223 Ronin                Illustration         Alpha                 Created a small graphic software called {{Ronin}}.
 2016 11 16 - 29      Ronin                Design
 2016 11 15 - 39      Ronin                Development

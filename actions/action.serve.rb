@@ -7,7 +7,7 @@ class ActionServe
 
   def act q = "Home"
 
-    @query   = q.include?(":") ? q.split(":").first.gsub("+"," ") : q.gsub("+"," ") 
+    @query   = q.include?(":") ? q.split(":").first.gsub("+"," ") : q.gsub("+"," ")
     @module  = q.include?(":") ? q.split(":").last : nil
 
     load_folder("#{@host.path}/objects/*")
@@ -22,7 +22,7 @@ class ActionServe
 
     # Corpse
 
-    corpse         = CorpseHttp.new(@host,@query)      
+    corpse         = CorpseHttp.new(@host,@query)
     corpse.term    = diary ? $lexicon.filter("term",diary.topic,"term") : $lexicon.filter("term",@query,"term")
     corpse.module  = @module
     corpse.horaire = $horaire
@@ -84,7 +84,6 @@ class CorpseHttp
   <yu class='cr'>
     <yu class='vi'>
       #{view}
-      #{_links}
     </yu>
     <hr/>
   </yu>
@@ -102,7 +101,7 @@ class CorpseHttp
 
   def view
     
-    return "<wr><p>#{term.bref}</p>#{term.long.runes.to_s}</wr>"
+    return "<wr><p>#{term.bref}</p>#{term.long.runes.to_s}</wr>#{_links}"
 
   end
 
