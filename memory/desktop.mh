@@ -32,6 +32,9 @@ DEI DAIN
 
 NATANIEV
   Documentation action
+  Make Slack client?
+  Build new Monitor
+    Show forum treads
 
 BLINDFOLK
   Get up and running
@@ -43,9 +46,10 @@ LIETAL
   Translate introduction
 
 OSCEAN
-  Add flags(TODO/STUB)
   Make old interactive projects available again
   Surperstition short
+  Template :forum pages
+  Implement :forum into home page
 
 BELDAM
   Rebuild website
@@ -54,6 +58,8 @@ BELDAM
 HUNDREDRABBITS
   Setup podcast in iTunes
   100R Business Cards
+  Make one pager
+  Add planned route
 
 GRIMGRAIN
 
@@ -77,6 +83,7 @@ PINO
   Wifi signal booster
   Bluetooth Speaker
   Get batteries for laptops
+  Download archives of SSC
 
 BABELFUCK
   Make nice
@@ -84,5 +91,9 @@ BABELFUCK
 VOYNICH
   Redo
 
-MERVEILLES
-  Lobby
+WILLWISP
+  Fix issue with replies
+
+RONIN
+  Implement color balance
+  Implement shaders
