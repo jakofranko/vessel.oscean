@@ -42,7 +42,7 @@ class Comment
     # Remove author
     text = author ? @content['MESSAGE'].split(" ")[0,@content['MESSAGE'].split(" ").length-1].join(" ") : @content['MESSAGE']
     
-    return text
+    return text.markup
     
   end
   

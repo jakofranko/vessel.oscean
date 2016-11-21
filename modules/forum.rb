@@ -26,8 +26,8 @@ $(document).on("keydown", "#commander", function(e)
 {
   if ((e.keyCode == 10 || e.keyCode == 13) && e.ctrlKey){
     var command = document.getElementById("commander").value;
-    console.log(command);
-    document.location = "http://wiki.xxiivv.com/Forum:topic-'+@term.name+' "+command;
+    command = encodeURIComponent(command.replace(/\./g, ",,"));
+    document.location = "http://wiki.xxiivv.com/Forum:topic-'+@term.name+' "+encodeURI(command);
   };
 });
 
@@ -62,8 +62,6 @@ $(".reply").on("click", function(e) {
       id += 1
     end
 
-    # Send to: forum:say-verreciel reply-0 this is a new nested comment, sometimes.
-    
     return "<wr>#{html}</wr>"+script
 
   end

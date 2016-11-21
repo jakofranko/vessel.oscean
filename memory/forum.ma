@@ -3,15 +3,15 @@
 ~ AUTH : Devine Lu Linvega
 
 @ TIMESTAMP    TOPIC                NEST MESSAGE
-20161120141609 Watever              0    This is a test. ~aliceffekt
-20161120141221 Oquonie              0    This is the main thread.
-20161120141224 Verreciel            0    This is a nested comment.
-20161120141227 Oquonie              1    This is the first nested comment.
-20161120141226 Something            0    SHOULD NOT BE SEEN
-20161120172211 Oquonie              1    this is the second nested comment.
-20161120172232 Dew                  0    this is a new nested comment, maybe.
-20171120172927 Something            0    this is a new nested comment, sometimes.
-20161120173459 Oquonie              1    this is a new nested comment, sometimes. This line is extralong to test wrapping.
-20161120174547 Verreciel            0    this is a new nested comment, sometimes.
-20161120193459 Oquonie              0    This is the second thread.
-20161121165150                           sayoquonie+this+what
+
+20161121180419 Merveilles                this is the first comment! ~neauoire
+20161121181030 Merveilles           1    and this is the first reply
+20161121181042 Merveilles                hello!
+20161121181106 Merveilles           1    second reply ~cblgh
+20161121181215 Merveilles           1    looks like its working
+20161121181243 Merveilles           2    _testing_ *lots* of {things}
+20161121181256 Merveilles           2    {**}what
+20161121181336 Merveilles           1    something is wrong with {{links}}.
+20161121181455 Merveilles                this is {*bold*}.
+20161121181512 Merveilles           3    this is {_italic_}.
+20161121181531 Merveilles                _there is no band_
