@@ -5,15 +5,22 @@ class CorpseHttp # Layout
 
   def style
     
-     return "<style></style>"
+     return "<style>
+thread { display: block;padding: 10px;font-family: monospace;font-size: 14px;line-height: 20px;}
+thread comment { display:block;}
+thread a { text-decoration:underline}
+thread .timestamp { color:#999 }
+thread .activity { color:#000}
+</style>"
      
   end
   
   def view
     
     html = "\n"
-    html += "<p>The <b>Forum</b> is a list of active topics.</p>\n"
-    
+    html += "<p>The {_/forum_} displays a collection of active topics across {{Nataniev}}.</p>\n".markup
+    html += "<p>New topics can be created by adding the suffix {_:forum_} to any search query.</p>".markup
+ 
     if @module
       html += run_command(@module)+"\n"
     end
@@ -26,19 +33,28 @@ class CorpseHttp # Layout
     comments.to_a("comment").reverse.each do |comment|
       if !topics[comment.topic]
         topics[comment.topic] = {}
-        topics[comment.topic]['threads'] = 0
-        topics[comment.topic]['replies'] = 0
+        topics[comment.topic]['threads'] = []
+        topics[comment.topic]['replies'] = []
         topics[comment.topic]['active'] = comment.timestamp
       end
       if comment.nest
-        topics[comment.topic]['replies'] += 1
+        topics[comment.topic]['replies'].push(comment)
       else
-        topics[comment.topic]['threads'] += 1
+        topics[comment.topic]['threads'].push(comment)
       end
     end
     
     topics.each do |topic,content|
-      html += "(#{content['replies']}/#{content['threads']}) #{topic} #{content['active'].ago}\n"
+      html += "<thread>"
+      html += "<span class='activity'>#{content['replies'].length.to_s.prepend('0',2)}#{content['threads'].length.to_s.prepend('0',2)}</span> <a href='/#{topic}:forum'>#{topic}</a> <span class='timestamp'>#{content['active'].ago}</span>\n"
+      
+      i = 0
+      content['threads'].each do |comment|
+        html += "<comment>#{comment.message}</comment>"
+      if i > 3 then break end  
+      i += 1
+      end
+      html += "</thread>"
     end
   
     return "<wr>#{html}</wr>"
