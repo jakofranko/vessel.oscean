@@ -15,6 +15,7 @@ class ActionServe
     $lexicon = Memory_Hash.new("lexicon",@host.path)
     $horaire = Memory_Array.new("horaire",@host.path)
     $desktop = Memory_Hash.new("desktop",@host.path)
+    $forum   = Memory_Array.new("forum",@host.path)
 
     # Diary Id
 
@@ -28,6 +29,7 @@ class ActionServe
     corpse.horaire = $horaire
     corpse.lexicon = $lexicon
     corpse.desktop = $desktop
+    corpse.forum   = $forum
     corpse.title   = "XXIIVV ∴ #{corpse.term.name}"
 
     load_any "#{@host.path}/pages",   @query
@@ -49,6 +51,7 @@ class CorpseHttp
   attr_accessor :horaire
   attr_accessor :lexicon
   attr_accessor :desktop
+  attr_accessor :forum
 
   def build
 
@@ -76,7 +79,7 @@ class CorpseHttp
       #{!term.is_diary   && term.has_diaries ? "<a class='md' href='/#{term.name}:diary'><img src='img/vectors/diary.svg'/><b>Diary</b>#{term.diaries.length} Entries</a>" : ""}
       #{!term.is_horaire && term.has_logs    ? "<a class='md' href='/#{term.name}:horaire'><img src='img/vectors/log.svg'/><b>Horaire</b>#{term.logs.length} Logs</a>" : ""}
       #{!term.is_task    && term.has_tasks   ? "<a class='md' href='/#{term.name}:issues'><img src='img/vectors/task.svg'/><b>Issues</b>#{term.tasks.length} Tasks</a>" : ""}
-      #{!term.type ? "<a class='md' href='/#{term.name}:forum'><img src='img/vectors/forum.svg'/><b>Forum</b>Ask anything</a>" : ""}
+      #{!term.type ? "<a class='md' href='/#{term.name.like("home") ? "forum" : term.name+":forum"}'><img src='img/vectors/forum.svg'/><b>Forum</b>#{term.comments.length} Comments</a>" : ""}
       #{term.diary ? "<a href='/#{term.diary.photo}' class='md li'><img src='img/vectors/source.svg'/></a>" : ""}
       <input placeholder='$ #{term.name}' class='q'/>
     </wr>

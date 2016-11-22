@@ -64,6 +64,13 @@ class Term
 
   end
 
+  def comments
+    
+    @comments = @comments ? @comments : ( name.like("home") || name.like("forum") ) ? $forum.to_a : $forum.filter("topic",name,"comment")
+    return @comments
+
+  end
+
   # Dynamo
 
   def logs
