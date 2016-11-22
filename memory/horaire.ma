@@ -3,6 +3,7 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 11 21 - 34      Nataniev             Tools
 2016 11 20 - 35      Nataniev             Tools
 2016 11 19 - 33      Rationality          Writing
 2016 11 18 - 32      Ronin                Development
