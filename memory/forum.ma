@@ -15,3 +15,5 @@
 20161121181455 Merveilles                this is {*bold*}.
 20161121181512 Merveilles           3    this is {_italic_}.
 20161121181531 Merveilles                _there is no band_
+20161121181658 Merveilles                this has a username. ~neauoire
+20161121181735 Merveilles           2    you need to use the curlies too.

@@ -42,7 +42,7 @@ $(".reply").on("click", function(e) {
     
     html = "\n"
     html += "<p>This {_:forum_} page is the place to anonymously ask question, give feedback and report issues about {{#{@term.name}}}.</p>\n".markup
-    html += "<form><textarea id='commander' placeholder='Input comment here'></textarea><pre>{  } Link {**} Bold {__} Italic ~Username <span style='float:right'>CTRL+ENTER to post</span></pre></form>\n\n"
+    html += "<form><textarea id='commander' placeholder='Input comment here'></textarea><pre>{*<b>bold</b>*} {_<i>italic</i>_} ~Username <span style='float:right'>CTRL+ENTER to post</span></pre></form>\n\n"
     comments = Memory_Array.new("forum",@host.path).filter("topic",@term.name,"comment")
     
     id = 1
