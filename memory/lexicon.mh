@@ -1577,6 +1577,7 @@ NEEDLES
   UNDE : Gamme
   BREF : The {{Needle}} numbers are a series of 10 glyphs where the stroke intersections are equal to the value of the character.
   LONG
+    & The glyphs are not used into any specific system of the {{Gamme}}, but are available here as a reference of a meaningful numeric glyph system.
     % needles
 
 ~ Notes
