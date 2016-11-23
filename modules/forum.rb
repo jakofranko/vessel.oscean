@@ -14,7 +14,6 @@ thread comment { display:block;}
 thread comment.nested { margin-left:30px}
 thread comment.nested:before { content:'>'; margin-right:10px; color:#999 }
 thread comment .timestamp { color: #999; }
-thread a.reply { background: white;color: #999;padding: 2px 5px;border-radius: 3px;line-height: 25px;}
 </style>"
      
   end
@@ -57,7 +56,6 @@ $(".reply").on("click", function(e) {
         if comment.nest != id then next end
         html += comment.to_s
       end
-      html += "<a data='#{id}' class='reply'>+ reply</a>"
       html += "</thread>"
       id += 1
     end
