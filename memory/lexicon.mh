@@ -1573,6 +1573,12 @@ SHORTHAND
     % shorthand alphabet
     & Simple enough, now most letters are transformed into a single stroke shape that flows and combines to form shorter words, that can be written faster.
 
+NEEDLES
+  UNDE : Gamme
+  BREF : The {{Needle}} numbers are a series of 10 glyphs where the stroke intersections are equal to the value of the character.
+  LONG
+    % needles
+
 ~ Notes
 
 RATIONALITY
