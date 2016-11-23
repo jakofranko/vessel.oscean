@@ -3,6 +3,8 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 11 23 - 34      Donsol               Migration
+2016 11 22 - 27      Needles              Typography
 2016 11 21 - 34      Nataniev             Tools
 2016 11 20 - 35      Nataniev             Tools
 2016 11 19 - 33      Rationality          Writing
