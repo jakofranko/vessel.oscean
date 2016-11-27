@@ -19,3 +19,10 @@
 20161121194010 Merveilles                rm -rf
 20161121194115 Merveilles           6    nice try
 20161121201115 Merveilles                good to see this is finally up! ~adamf
+20161121203532 Ronin                     could you add a sharpen filter
+20161121203546 Ronin                1    yeah, on it! ~neauoire
+20161121203642 Hiversaires               do you still have the hiversaires guide online somewhere
+20161121211728 Merveilles           2    {_hi_} ~rune
+20161121224542 Merveilles           2    hi rune ~neauoire
+20161122071703 Merveilles                scriptalerthelloscript
+20161123050022 Merveilles           8    {*nice {_one_}*}
