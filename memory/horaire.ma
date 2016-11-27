@@ -3,6 +3,12 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 11 27 - 26      Hundred rabbits      Video
+2016 11 26 - 18      Hundred rabbits      Composition
+2016 11 25 - 29      Donsol               Illustration
+2016 11 24 - 28      Donsol               Illustration
+2016 11 23 - 35      Donsol               Migration
+2016 11 22 - 27      Ronin                Design
 2016 11 21 - 34      Nataniev             Tools
 2016 11 20 - 35      Nataniev             Tools
 2016 11 19 - 33      Rationality          Writing
