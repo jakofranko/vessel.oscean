@@ -59,7 +59,7 @@ class Term
 
   def tasks
 
-    @tasks = @tasks ? @tasks : ( name.like("home") || name.like("diary") || name.like("horaire") ? $desktop.to_h : $desktop.filter("term",name,"issue"))
+    @tasks = @tasks ? @tasks : ( name.like("home") || name.like("diary") || name.like("horaire") ? $desktop.to_h("issue") : $desktop.filter("term",name,"issue"))
     return @tasks
 
   end
