@@ -5,89 +5,50 @@
 ~ Active
 
 PINO
-  Install timer for fridge
-  AIS
-  Fuel Generator
-  Storm Sail
-  Wet Suit
-  Hammock
-  Fins
-  Camera
-  Wifi signal booster
-  Bluetooth Speaker
-  Get batteries for laptops
+  Electronics
+    Install timer for fridge
+    AIS
+    Camera
+    Wifi signal booster
+    Bluetooth Speaker
+    Get batteries for laptops
+  Misc
+    Fuel Generator
+    Storm Sail
+    Wet Suit
+    Hammock
+    Fins
 
 NATANIEV
-  Documentation action
-  Build new Monitor, with forum threads
+  Actions
+    Documentation, corpse.documentation perhaps?
 
 OSCEAN
-  Make old interactive projects available again
-  Surperstition short
-  Make illustration for :forum?
+  Issues
+    Display nested issues properly
+  Forum
+    Add photo for landing page
 
 RONIN
   Implement shaders
-  Add Sharpen
-  Add Auto Color
-  Keep canvas data when resizing
-  Add 100R splash
+  Filter
+    Add auto, for auto color
+    Add sharpen
+  Canvas
+    Keep data when resizing
+    If a position is given, crop at rect
 
 DONSOL
-  Itch.io release
-  Steam Release
-  iOS Release
-  Finish character portraits
-  Menu
-  Sounds
+  Release
+    Patreon
+    Itch.io
+    Steam
+    iOS
+  Assets
+    Finish character portraits
+    Menu
+    Sounds
 
 LIETAL
   Translate introduction
-
-~ Wave 3
-
-CHILDREN OF BRAMBLE
-  New album cover
-  Combine
-
-KNOWN MAGYE
-  New album cover
-  Combine
-
-EXTENDED SLEEP
-  New album cover
-  Combine
-
-~ Wave 2
-
-THE OPAL INQUISITORS
-  Combine
-
-PORTALION
-  Combine
-
-DEI DAIN
-  New album cover
-  Combine
-
-~ Etc
-
-BLINDFOLK
-  Get up and running
-
-ADVENTV
-  Get up and running again
-
-BELDAM
-  Rebuild website
-  Migrate to HttpCorpse Class
-
-OQUONIE
-  Migrate to Javascript
-
-WILLWISP
-  Fix issue with replies
-
-GLOSS
-  Fix issue with twitter secret
-  General improvements
+  Make Dictionaery available to Oscean
