@@ -2,20 +2,61 @@
 ~ NOTE : YAML
 ~ AUTH : Devine Lu Linvega
 
-GLOSS
-  Fix issue with twitter secret
-  General improvements
+~ Active
+
+PINO
+  Install timer for fridge
+  AIS
+  Fuel Generator
+  Storm Sail
+  Wet Suit
+  Hammock
+  Fins
+  Camera
+  Wifi signal booster
+  Bluetooth Speaker
+  Get batteries for laptops
+
+NATANIEV
+  Documentation action
+  Build new Monitor, with forum threads
+
+OSCEAN
+  Make old interactive projects available again
+  Surperstition short
+  Make illustration for :forum?
+
+RONIN
+  Implement shaders
+  Add Sharpen
+  Add Auto Color
+  Keep canvas data when resizing
+  Add 100R splash
+
+DONSOL
+  Itch.io release
+  Steam Release
+  iOS Release
+  Finish character portraits
+  Menu
+  Sounds
+
+LIETAL
+  Translate introduction
 
 ~ Wave 3
 
 CHILDREN OF BRAMBLE
   New album cover
+  Combine
 
 KNOWN MAGYE
   New album cover
+  Combine
 
 EXTENDED SLEEP
   New album cover
+  Combine
 
 ~ Wave 2
 
@@ -27,13 +68,9 @@ PORTALION
 
 DEI DAIN
   New album cover
+  Combine
 
 ~ Etc
-
-NATANIEV
-  Documentation action
-  Make Slack client?
-  Build new Monitor, with foru threads
 
 BLINDFOLK
   Get up and running
@@ -41,62 +78,16 @@ BLINDFOLK
 ADVENTV
   Get up and running again
 
-LIETAL
-  Translate introduction
-
-OSCEAN
-  Make old interactive projects available again
-  Surperstition short
-  Implement :forum into home page
-  Make illustration for :forum?
-
 BELDAM
   Rebuild website
   Migrate to HttpCorpse Class
 
-HUNDREDRABBITS
-  Setup podcast in iTunes
-  100R Business Cards
-  Make one pager
-  Add planned route
-
-GRIMGRAIN
-
 OQUONIE
   Migrate to Javascript
-
-VERRECIEL
-  Fix issues in iOS10
-
-PINO
-  Install timer for fridge
-  AIS
-  Fuel Generator
-  Storm Sail
-  Wet Suit
-  Make secondary anchor accessible
-  Fizzy-water maker
-  Hammock
-  Fins
-  Camera
-  Wifi signal booster
-  Bluetooth Speaker
-  Get batteries for laptops
-  Download archives of SSC
-
-BABELFUCK
-  Make nice
-
-VOYNICH
-  Redo
 
 WILLWISP
   Fix issue with replies
 
-RONIN
-  Implement shaders
-  Center canvas
-  Add canvas width/height variables
-  Add viewport width/height variables
-  Add Sharpen
-  Add Auto Color
+GLOSS
+  Fix issue with twitter secret
+  General improvements

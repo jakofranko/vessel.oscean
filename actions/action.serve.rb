@@ -88,6 +88,7 @@ class CorpseHttp
   <yu class='cr'>
     <yu class='vi'>
       #{view}
+      #{_links}
     </yu>
     <hr/>
   </yu>
@@ -105,7 +106,7 @@ class CorpseHttp
 
   def view
     
-    return "<wr><p>#{term.bref}</p>#{term.long.runes.to_s}</wr>#{_links}"
+    return "<wr><p>#{term.bref}</p>#{term.long.runes.to_s}</wr>"
 
   end
 
