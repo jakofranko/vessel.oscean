@@ -3,6 +3,8 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 12 01 - 34      Pino                 Maintenance
+2016 11 30 - 34      Donsol               Development
 2016 11 29 - 27      Donsol               Illustration
 2016 11 28 - 26      Donsol               Illustration
 2016 11 27 - 29      Hundred rabbits      Video
