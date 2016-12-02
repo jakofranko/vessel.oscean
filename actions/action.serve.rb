@@ -5,6 +5,15 @@ class ActionServe
 
   include Action
 
+  def initialize q = nil
+
+    super
+
+    @name = "Serve"
+    @docs = "Deliver the Oscean wiki."
+
+  end
+
   def act q = "Home"
 
     @query   = q.include?(":") ? q.split(":").first.gsub("+"," ") : q.gsub("+"," ")

@@ -4,6 +4,15 @@
 class ActionDebug
 
   include Action
+  
+  def initialize q = nil
+
+    super
+
+    @name = "Debug"
+    @docs = "List missing logs and terms."
+
+  end
 
   def act q = "Home"
 
@@ -40,7 +49,7 @@ class ActionDebug
 
   end
 
-  def missing_logs    
+  def missing_logs
 
     array = []
     dates = []

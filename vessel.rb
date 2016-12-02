@@ -19,6 +19,7 @@ class VesselOscean
     install(:default,:serve)
     install(:default,:debug)
     install(:default,:complete)
+    install(:default,:help)
 
   end
 
