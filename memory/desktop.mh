@@ -5,14 +5,6 @@
 ~ Active
 
 PINO
-  Departure from Ensenada
-    Request deposit from Baja Naval
-    Check out with Port Captain
-    Inspect Windvane
-    Grocery
-    Insect float-switch
-    Laundry
-    Download Podcasts
   Electronics
     Install timer for fridge
     AIS
@@ -28,19 +20,18 @@ PINO
     Wet Suit
     Hammock
     Fins
+    Check out with Port Captain
+    Inspect Windvane
+    Insect float-switch
+    Laundry
 
 NATANIEV
-  Actions
-    Documentation, corpse.documentation perhaps?
   Invoice toolkit
-  Console
-    Fix various issues
+  Documentation should be aware of dependencies
   
 OSCEAN
   Forum
     Add photo for landing page
-  Actions
-    Install help
 
 RONIN
   Implement shaders

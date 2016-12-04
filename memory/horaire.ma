@@ -3,6 +3,9 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 12 04 - 34      Nataniev             Tools
+2016 12 03 - 00
+2016 12 02 - 00
 2016 12 01 - 34      Pino                 Maintenance
 2016 11 30 - 34      Donsol               Development
 2016 11 29 - 27      Donsol               Illustration
