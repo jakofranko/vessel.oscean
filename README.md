@@ -1,12 +1,21 @@
 # Oscean
+    
+The Oscean wiki engine toolchain.
 
-**XXIIVV** is the connecting thread between all of *Devine lu linvega*’s works, and host to the pillars and tools of the persona. Initiated in 2009, this ultrafolio’s initial purpose was to archive various narrative documentation for a series of shorts.
+## Available actions
 
-Pull requests are encouraged, make sure to leave a comment with your intent.
+```
+custom
+  Serve          | Deliver the Oscean wiki.
+  Debug          | List missing logs and terms.
+generic
+  Help           | List available commands.
+  Document       | Generate the Github documentation file.
+```
 
-##Documentation
+## Documentation
 
-Generated with [Jiin](https://github.com/XXIIVV/Jiin), on **06 August 2016**, view the [project documentation](http://wiki.xxiivv.com/OSCEAN).
+Generated with [Nataniev](http://wiki.xxiivv.com/Nataniev) on **Tridesamber 3, 2016**, read the full [project documentation](htp://google.com).
 
 ##License
 

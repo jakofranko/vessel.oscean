@@ -13,13 +13,14 @@ class VesselOscean
 
     @name = "Oscean"
     @path = File.expand_path(File.join(File.dirname(__FILE__), "/"))
+    @docs = "The Oscean wiki engine toolchain."
 
     load_folder("#{@path}/actions/*")
 
-    install(:default,:serve)
-    install(:default,:debug)
-    install(:default,:complete)
-    install(:default,:help)
+    install(:custom,:serve)
+    install(:custom,:debug)
+    install(:generic,:help)
+    install(:generic,:document)
 
   end
 
