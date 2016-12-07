@@ -3,6 +3,9 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 12 07 - 34      Lietal               Tools
+2016 12 06 - 34      Russian              Tools
+2016 12 05 - 34      Russian              Tools
 2016 12 04 - 34      Nataniev             Tools
 2016 12 03 - 00
 2016 12 02 - 00

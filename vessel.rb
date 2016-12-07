@@ -1,8 +1,6 @@
 #!/bin/env ruby
 # encoding: utf-8
 
-$nataniev.require("corpse","http")
-
 class VesselOscean
 
   include Vessel
@@ -19,8 +17,8 @@ class VesselOscean
 
     install(:custom,:serve)
     install(:custom,:debug)
-    install(:generic,:help)
     install(:generic,:document)
+    install(:generic,:help)
 
   end
 

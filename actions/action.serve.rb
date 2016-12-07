@@ -1,6 +1,8 @@
 #!/bin/env ruby
 # encoding: utf-8
 
+$nataniev.require("corpse","http")
+
 class ActionServe
 
   include Action
@@ -31,7 +33,7 @@ class ActionServe
     diary = @query.to_i > 0 ? $horaire.filter("pict",@query,"log").first : nil
 
     # Corpse
-
+    
     corpse         = CorpseHttp.new(@host,@query)
     corpse.term    = diary ? $lexicon.filter("term",diary.topic,"term") : $lexicon.filter("term",@query,"term")
     corpse.module  = @module
@@ -61,7 +63,7 @@ class CorpseHttp
   attr_accessor :lexicon
   attr_accessor :desktop
   attr_accessor :forum
-
+  
   def build
 
     add_meta("description","Works of Devine Lu Linvega")

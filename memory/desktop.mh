@@ -5,6 +5,10 @@
 ~ Active
 
 PINO
+  Patreon
+    Release Donsol
+    Progress on Markle
+    Book project?
   Electronics
     Install timer for fridge
     AIS
@@ -14,6 +18,9 @@ PINO
     Get batteries for laptops
     Buy red light for cockpit
     Get the remains of Mexico Maps
+  Engine
+    Empty Diesel tank, remove deposit
+    Change fuel filter
   Misc
     Fuel Generator
     Storm Sail
@@ -24,6 +31,17 @@ PINO
     Inspect Windvane
     Insect float-switch
     Laundry
+    Add foam under carpet
+    Cockpit light
+    V-berth walls
+    Develop films
+    Fix sails
+    Inspect mast for holes
+    Get stockings for fruits/pots
+    Make protective strip for the oil/spices doors
+    Black hockey tape
+  Paperworks
+    Renew Passports
 
 NATANIEV
   Invoice toolkit
@@ -32,17 +50,27 @@ NATANIEV
 OSCEAN
   Forum
     Add photo for landing page
+  yolo sanskrit wallpaper
 
 RONIN
-  Implement shaders
+  Add progress value during long renders(filters)
   Filter
     Add auto, for auto color
     Add sharpen
   Canvas
     Keep data when resizing
     If a position is given, crop at rect
+  Layers tool(#)
+  Text tool(&)
+  String unit
+  Create preset for album covers
 
 DONSOL
+  Death State
+  Tooltips for stats
+  Clickable Run button
+  Endgame
+  Escape restarts the game
   Release
     Patreon
     Itch.io
@@ -51,7 +79,11 @@ DONSOL
   Assets
     Menu
     Sounds
+    Icon
 
 LIETAL
   Translate introduction
   Make Dictionaery available to Oscean
+
+PARADISE
+  Create a console application
