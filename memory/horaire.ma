@@ -3,6 +3,7 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 12 08 - 34      Obliques             Writing
 2016 12 07 - 34      Lietal               Tools
 2016 12 06 - 34      Russian              Tools
 2016 12 05 - 34      Russian              Tools
@@ -101,7 +102,7 @@
 2016 09 03 - 35      Nataniev             Development
 2016 09 02 - 35      Nataniev             Tools
 2016 09 01 - 29      Hundred rabbits      Video
-2016 08 31 - 29   86 Sailing              Photography
+2016 08 31 - 29   86 Pino                 Photography
 2016 08 30 - 34      Markle               Development
 2016 08 29 - 24      Polygonoscopy        Modeling
 2016 08 28 - 38      The will the wisp    Migration
@@ -114,13 +115,13 @@
 2016 08 21 - 25   75 Nervous              Modeling             Exhibit C
 2016 08 20 - 35      Blindfolk            Linguistics
 2016 08 19 - 00
-2016 08 18 - 29   90 Sailing              Photography
+2016 08 18 - 29   90 Pino                 Photography
 2016 08 17 - 38      Nataniev             Development
 2016 08 16 - 00
 2016 08 15 - 00
 2016 08 14 - 00
 2016 08 13 - 00
-2016 08 12 - 29   91 Sailing              Photography
+2016 08 12 - 29   91 Pino                 Photography
 2016 08 11 - 00
 2016 08 10 - 00      America              Travel               San Francisco
 2016 08 09 - 35      Nataniev             Tools
@@ -134,9 +135,9 @@
 2016 08 01 - 38      Nataniev             Tools
 2016 07 31 - 38      Nataniev             Migration
 2016 07 30 - 38      Nataniev             Tools
-2016 07 29 - 35      Atari                Tools
-2016 07 28 - 23      Atari                Tools
-2016 07 27 - 17      Atari                Tools
+2016 07 29 - 35      Horaire              Tools
+2016 07 28 - 23      Horaire              Tools
+2016 07 27 - 17      Horaire              Tools
 2016 07 26 - 15      Hundred rabbits      Video
 2016 07 25 - 34      Definitist           Development
 2016 07 24 - 36      Definitist           Linguistics
@@ -151,10 +152,10 @@
 2016 07 15 - 24   18 Camera               Photography          Voigtländer Bessa
 2016 07 14 - 19   10 Collected works      Release              Cyan
 2016 07 13 - 34      The will the wisp    Development
-2016 07 12 ! 29    8 Sailing              Photography          Becalmed              Becalmed under a suffocating moonless sky, we drag deeper into the numbing gloom. Shapeless forms slither nearer and across the oily swells, cutting through flakes of luminescence, laughing at us. Attracted to the steaming light, a flock of bats circle our limp sail and the mind wanders. <br /><br />Intermittent gurgles, a pod of whales surfaces all around us. The sun didn't rise that day, the fog only turned into a lighter shade of black.
-2016 07 11 - 39      Sailing              Writing
+2016 07 12 ! 29    8 Pino                 Photography          Becalmed              Becalmed under a suffocating moonless sky, we drag deeper into the numbing gloom. Shapeless forms slither nearer and across the oily swells, cutting through flakes of luminescence, laughing at us. Attracted to the steaming light, a flock of bats circle our limp sail and the mind wanders. <br /><br />Intermittent gurgles, a pod of whales surfaces all around us. The sun didn't rise that day, the fog only turned into a lighter shade of black.
+2016 07 11 - 39      Pino                 Writing
 2016 07 10
-2016 07 09 - 29      Sailing              Photography
+2016 07 09 - 29      Pino                 Photography
 2016 07 08 - 25  113 Sketchbook           Illustration
 2016 07 07 - 25  143 Pearls               Modeling
 2016 07 06 - 15      Moonman              Composition
@@ -251,7 +252,7 @@
 2016 04 06
 2016 04 05 - 29      Verreciel            Testing
 2016 04 04 - 29      Verreciel            Refactoring
-2016 04 03 - 25      Sailing              Photography
+2016 04 03 - 25      Pino                 Photography
 2016 04 02
 2016 04 01 - 24      Verreciel            Design
 2016 03 31 - 25      Verreciel            Design
@@ -309,7 +310,7 @@
 2016 02 08 - 38      Lietal               Cryptography
 2016 02 07 - 38      Lietal               Linguistics
 2016 02 06 - 15      Verreciel            Composition
-2016 02 05 - 29  492 Flag                 Design               The Lietal Flag
+2016 02 05 - 28  492 Lietal               Design               The Lietal Flag
 2016 02 04 - 39      Blindfolk            Development
 2016 02 03 - 32      Blindfolk            Documentation
 2016 02 02 - 32      Blindfolk            Documentation
@@ -480,21 +481,21 @@
 2015 08 21 - 34      Nataniev             Update               4.1
 2015 08 20 - 27    2 Kaleidoscope         Illustration         Chrestasebeia
 2015 08 19 - 35      Desamber             Update               0.1
-2015 08 18 - 25  448 Sailing              Photography
-2015 08 17 - 25  447 Sailing              Photography
-2015 08 16 - 25  446 Sailing              Photography
-2015 08 15 ! 25  445 Sailing              Photography
-2015 08 14 - 25  444 Sailing              Photography
-2015 08 13 - 25  443 Sailing              Photography
-2015 08 12 - 25  442 Sailing              Photography
-2015 08 11 - 25  441 Sailing              Photography
-2015 08 10 - 25  440 Sailing              Photography
-2015 08 09 ! 25  439 Sailing              Photography          Learn sailing
+2015 08 18 - 25  448 Pino                 Photography
+2015 08 17 - 25  447 Pino                 Photography
+2015 08 16 - 25  446 Pino                 Photography
+2015 08 15 ! 25  445 Pino                 Photography
+2015 08 14 - 25  444 Pino                 Photography
+2015 08 13 - 25  443 Pino                 Photography
+2015 08 12 - 25  442 Pino                 Photography
+2015 08 11 - 25  441 Pino                 Photography
+2015 08 10 - 25  440 Pino                 Photography
+2015 08 09 ! 25  439 Pino                 Photography          Learn sailing
 2015 08 08 - 26      Dew                  Update               1.5
 2015 08 07 - 37      Eakout               Update               1.0
 2015 08 06 - 37  438 Eakout               Release              Prototype
 2015 08 05 ! 26  437 Infrared             Photography          Habitat 67
-2015 08 04 - 35  435 Sailing              Writing              Living aboard
+2015 08 04 - 35  435 Pino                 Writing              Living aboard
 2015 08 03 - 36      Advent v             Update               0.1
 2015 08 02 - 36      Nataniev             Update               1.0
 2015 08 01 ! 26  436 Infrared             Photography          Graveyard
@@ -553,7 +554,7 @@
 2015 06 09 - 36      Russian              Linguistics
 2015 06 08 - 36      Russian              Linguistics
 2015 06 07 - 31      Rafinograde          Update               1.4
-2015 06 06 - 36      Horaire              Development
+2015 06 06 - 36      Horaire              Tools
 2015 06 05 - 36      Nataniev             Development
 2015 06 04 - 25      Beldam records       Design
 2015 06 03 - 25      Beldam records       Design
@@ -674,7 +675,7 @@
 2015 02 08 - 37      Oquonie              Refactoring
 2015 02 07 - 37      Oquonie              Refactoring
 2015 02 06 - 37      Oquonie              Refactoring
-2015 02 05 - 39      Nataniev             Documentation
+2015 02 05 - 39      Horaire              Documentation
 2015 02 04 - 16      Gaii                 Composition
 2015 02 03 - 26  306 Hypervoid            Illustration         Nulloid
 2015 02 02 - 37      Oquonie              Refactoring
@@ -756,10 +757,10 @@
 2014 11 18 - 17      Supervisitor         Composition
 2014 11 17 - 17      Supervisitor         Composition
 2014 11 16 - 17      Supervisitor         Composition
-2014 11 15 - 39      Nataniev             Update
+2014 11 15 - 39      Horaire              Update
 2014 11 14 - 39      Nataniev             Update
 2014 11 13 - 39      Nataniev             Update
-2014 11 12 - 39      Nataniev             Update
+2014 11 12 - 39      Horaire              Update
 2014 11 11 - 39      Nataniev             Update
 2014 11 10 - 39      Nataniev             Update
 2014 11 09 - 35      Nataniev             Update               The Negative Void
@@ -822,7 +823,7 @@
 2014 09 13
 2014 09 12
 2014 09 11 ! 00      Japan                Travel               Tokyo
-2014 09 10 - 35      Nataniev             Update               Triste Le Roy
+2014 09 10 - 35      Horaire              Update               Triste Le Roy
 2014 09 09 - 17  264 Ten axitecture       Composition          Ten Axitecture
 2014 09 08 - 29  249 Serventines          Modeling             Undernest
 2014 09 07 - 29  256 Serventines          Modeling             Qairo
@@ -889,9 +890,9 @@
 2014 07 08 - 35      Alphavetist          Update               2.2
 2014 07 07 - 31      Alphavetist          Update               2.1
 2014 07 06 - 35      Nataniev             Tools
-2014 07 05 - 25      Nataniev             Update
-2014 07 04 - 25      Nataniev             Update
-2014 07 03 - 25      Nataniev             Design
+2014 07 05 - 25      Horaire              Update
+2014 07 04 - 25      Horaire              Update
+2014 07 03 - 25      Horaire              Design
 2014 07 02 - 25      Ledoliel             Update               1.1
 2014 07 01 - 29      Bifurcan             Update               1.1
 2014 06 30 - 39      Ledoliel             Design
@@ -948,15 +949,15 @@
 2014 05 10 - 25  277 Nereid               Modeling             The Habitat
 2014 05 09 - 26  278 Nereid               Modeling             The Stems
 2014 05 08 - 32      Nataniev             Development
-2014 05 07 - 39      Nataniev             Development
-2014 05 06 - 39      Nataniev             Development
+2014 05 07 - 39      Horaire              Development
+2014 05 06 - 39      Horaire              Development
 2014 05 05 - 39      Nataniev             Development
 2014 05 04
 2014 05 03
 2014 05 02 - 39      Nataniev             Development
 2014 05 01 - 35      Noirca               Prototype
 2014 04 30 - 39      Nataniev             Update
-2014 04 29 - 39      Nataniev             Update
+2014 04 29 - 39      Horaire              Update
 2014 04 28 - 26  279 Nereid               Modeling             The South
 2014 04 27 - 29      Collegiennes         Design
 2014 04 26 - 29      Collegiennes         Design
@@ -1027,9 +1028,9 @@
 2014 02 20 - 19      Known magye          Composition
 2014 02 19 ! 39  296 Oquonie              Release              Release
 2014 02 18 - 35      Notes                Writing              Month Names
-2014 02 17 - 29      Nataniev             Design
+2014 02 17 - 29      Horaire              Design
 2014 02 16 - 29      Nataniev             Design
-2014 02 15 - 29      Nataniev             Design
+2014 02 15 - 29      Horaire              Design
 2014 02 14 - 19      Known magye          Composition
 2014 02 13 - 19      Known magye          Composition
 2014 02 12 - 19      Known magye          Composition
@@ -1038,8 +1039,8 @@
 2014 02 09 - 39  381 Oquonie              Live                 Goodies
 2014 02 08 - 25  380 Japan                Photography          Tokyo Asnowed
 2014 02 07 - 35  379 Oquonie              Development          And so began testing
-2014 02 06 - 35      Nataniev             Analytics
-2014 02 05 - 35      Nataniev             Update
+2014 02 06 - 35      Horaire              Analytics
+2014 02 05 - 35      Horaire              Update
 2014 02 04 - 39      Oquonie              Tools
 2014 02 03 - 34  377 Nataniev             Development
 2014 02 02 - 29      Wallpaper            Illustration
@@ -1111,7 +1112,7 @@
 2013 11 28 - 36      Lietal               Development
 2013 11 27 - 36      Lietal               Cryptography
 2013 11 26 - 36      Nataniev             Testing
-2013 11 25 - 36      Nataniev             Testing
+2013 11 25 - 36      Horaire              Testing
 2013 11 24 - 39      Nataniev             Update
 2013 11 23 - 28      Nataniev             Prototype
 2013 11 22 - 28      Nataniev             Prototype
@@ -1119,10 +1120,10 @@
 2013 11 20 - 25      Verreciel            Prototype
 2013 11 19 - 25      Verreciel            Prototype
 2013 11 18
-2013 11 17 - 39      Nataniev             Tools
-2013 11 16 - 39      Nataniev             Tools
+2013 11 17 - 39      Horaire              Tools
+2013 11 16 - 39      Horaire              Tools
 2013 11 15 - 39      Nataniev             Tools
-2013 11 14 - 39      Nataniev             Tools
+2013 11 14 - 39      Horaire              Tools
 2013 11 13 - 39      Nataniev             Development
 2013 11 12 - 39      Nataniev             Development
 2013 11 11 - 39      Nataniev             Development
@@ -1136,16 +1137,16 @@
 2013 11 03 - 25      Collegiennes         Design               Update
 2013 11 02 - 29      Bifurcan             Release              Release
 2013 11 01 - 34      Nataniev             Development
-2013 10 31 - 34      Nataniev             Development
+2013 10 31 - 34      Horaire              Development
 2013 10 30 - 34      Nataniev             Development
-2013 10 29 - 34      Nataniev             Development
+2013 10 29 - 34      Horaire              Development
 2013 10 28 - 34      Nataniev             Development
 2013 10 27 - 34      Nataniev             Development
 2013 10 26 - 19      Known magye          Composition
 2013 10 25 - 36      Sketchbook           Prototype
 2013 10 24 - 34      Nataniev             Development
 2013 10 23 - 34      Nataniev             Refactoring
-2013 10 22 - 34      Nataniev             Development
+2013 10 22 - 34      Horaire              Development
 2013 10 21 - 36      Lietal               Documentation
 2013 10 20 - 36      Nataniev             Refactoring
 2013 10 19 - 36      Nataniev             Refactoring
@@ -1286,7 +1287,7 @@
 2013 06 06 - 35      Nataniev             Design
 2013 06 05 - 35      Nataniev             Tools
 2013 06 04 - 35      Nataniev             Design
-2013 06 03 - 35      Nataniev             Design
+2013 06 03 - 35      Horaire              Design
 2013 06 02 - 29  236 Entaloneralie        Release              Release
 2013 06 01 - 38      Entaloneralie
 2013 05 31
@@ -1295,7 +1296,7 @@
 2013 05 28 - 29      Nataniev             Design
 2013 05 27 - 29      Nataniev             Design
 2013 05 26 - 29      Nataniev             Design
-2013 05 25 - 29      Nataniev             Design
+2013 05 25 - 29      Horaire              Design
 2013 05 24 - 29      Nataniev             Design
 2013 05 23 - 29      Nataniev             Design
 2013 05 22 - 37      Melady antres        Design
@@ -1342,7 +1343,7 @@
 2013 04 11 - 25      Melady antres        Prototype
 2013 04 10 - 25      Nataniev             Development
 2013 04 09 - 36      Melady antres
-2013 04 08 - 35      Nataniev             Refactoring
+2013 04 08 - 35      Horaire              Refactoring
 2013 04 07 - 27      Hiversaires          Release              Release
 2013 04 06 - 35      Hiversaires          Prototype
 2013 04 05 - 29  216 Hiversaires          Live                 Picotachi
@@ -1444,7 +1445,7 @@
 2012 12 30 - 39      Lietal               Linguistics
 2012 12 29 - 27      Lietal               Linguistics
 2012 12 28 - 39      Lietal               Linguistics
-2012 12 27 - 39      Nataniev             Tools
+2012 12 27 - 39      Horaire              Tools
 2012 12 26
 2012 12 25
 2012 12 24
@@ -1473,7 +1474,7 @@
 2012 12 01 - 38      Nataniev             Development
 2012 11 30
 2012 11 29
-2012 11 28 - 39      Nataniev             Prototype
+2012 11 28 - 39      Horaire              Prototype
 2012 11 27 - 28  109 Infrared             Photography          Tokyo Infrared
 2012 11 26 - 39      Nataniev             Prototype
 2012 11 25
@@ -1494,7 +1495,7 @@
 2012 11 10
 2012 11 09 - 25      Nataniev             Design
 2012 11 08 - 25      Audio                Writing
-2012 11 07 - 35      Nataniev             Prototype
+2012 11 07 - 35      Horaire              Prototype
 2012 11 06 - 35      Nataniev             Prototype
 2012 11 05 - 35      Nataniev             Prototype
 2012 11 04
@@ -1504,7 +1505,7 @@
 2012 10 31 - 38      Nataniev             Development
 2012 10 30 - 38      Nataniev             Development          For the Horsemen of   The air cracked and, from nullspace, the Library of Sand emerged.
 2012 10 29 - 38      Nataniev             Tools
-2012 10 28 - 35      Nataniev             Development
+2012 10 28 - 35      Horaire              Development
 2012 10 27
 2012 10 26
 2012 10 25 ! 19  106 Ehrivevnv Studies    Release              Ehrivevnv Studies
@@ -1516,7 +1517,7 @@
 2012 10 19
 2012 10 18
 2012 10 17 ! 00      Japan                Travel               Tokyo
-2012 10 16 - 38      Nataniev             Development
+2012 10 16 - 38      Horaire              Development
 2012 10 15 - 17      To The Aeons Hell    Composition
 2012 10 14 - 17      To The Aeons Hell    Composition
 2012 10 13 - 17      To The Aeons Hell    Composition
@@ -1581,7 +1582,7 @@
 2012 08 15 - 39      Lietal               Linguistics
 2012 08 14 - 39      Lietal               Cryptography
 2012 08 13 - 39      Lietal               Linguistics
-2012 08 12 - 32      Nataniev             Development
+2012 08 12 - 32      Horaire              Development
 2012 08 11 - 32      Nataniev             Development
 2012 08 10 - 32      Nataniev             Development
 2012 08 09 - 35      Nataniev             Development
@@ -1609,7 +1610,7 @@
 2012 07 18 - 37      Nataniev             Design
 2012 07 17
 2012 07 16 - 37      Nataniev             Development
-2012 07 15 - 32      Nataniev             Development
+2012 07 15 - 32      Horaire              Development
 2012 07 14 - 32      Nataniev             Development
 2012 07 13 - 32      Nataniev             Development
 2012 07 12 - 32      Nataniev             Development
@@ -1658,7 +1659,7 @@
 2012 05 30
 2012 05 29
 2012 05 28
-2012 05 27 - 35      Nataniev             Development
+2012 05 27 - 35      Horaire              Development
 2012 05 26 - 35      Nataniev             Development
 2012 05 25 - 35      Nataniev             Development
 2012 05 24 - 35      Neauismetica         Writing
@@ -1792,7 +1793,7 @@
 2012 01 17 - 15      Es gulf sunflowers   Composition
 2012 01 16
 2012 01 15 - 25   20 Mobile               Development          Character Builder
-2012 01 14 - 35      Nataniev             Development
+2012 01 14 - 35      Horaire              Development
 2012 01 13 - 35   19 Obliques             Tools                Extra
 2012 01 12
 2012 01 11
@@ -1842,10 +1843,10 @@
 2011 11 28
 2011 11 27 - 15      From Saharaphorest   Composition
 2011 11 26 - 35      Neauismetica                              Nanowrimo
-2011 11 25 - 35      Nataniev             Development
+2011 11 25 - 35      Horaire              Development
 2011 11 24 - 35      Lietal               Documentation
-2011 11 23 - 35      Nataniev             Development
-2011 11 22 - 35      Nataniev             Development
+2011 11 23 - 35      Horaire              Development
+2011 11 22 - 35      Horaire              Development
 2011 11 21 - 35      Lietal               Documentation
 2011 11 20 - 35      Lietal               Documentation
 2011 11 19 - 35      Lietal               Documentation
@@ -1931,7 +1932,7 @@
 2011 08 31
 2011 08 30
 2011 08 29
-2011 08 28 - 35      Nataniev             Development
+2011 08 28 - 35      Horaire              Development
 2011 08 27 - 35      Nataniev             Tools
 2011 08 26 - 25   17 Aliceffekt           Illustration         Aliceffekt Shirt I
 2011 08 25 - 35      Nataniev             Development
@@ -1990,8 +1991,8 @@
 2011 07 03 - 35      Nataniev             Development
 2011 07 02 - 35      Nataniev             Development
 2011 07 01 - 35      Nataniev             Development
-2011 06 30 - 35      Nataniev             Design
-2011 06 29 - 35      Nataniev             Development
+2011 06 30 - 35      Horaire              Design
+2011 06 29 - 35      Horaire              Development
 2011 06 28 - 35      Neauismetica         Writing
 2011 06 27 - 35      Neauismetica         Writing
 2011 06 26 - 35      Neauismetica         Writing
@@ -2081,9 +2082,9 @@
 2011 04 03 - 15      To The Aeons Hell    Composition
 2011 04 02 - 35      Nataniev             Design
 2011 04 01 - 35      Nataniev             Design
-2011 03 31 - 35      Nataniev             Design
+2011 03 31 - 35      Horaire              Design
 2011 03 30 - 35      Nataniev             Design
-2011 03 29 - 29      Nataniev             Design
+2011 03 29 - 29      Horaire              Design
 2011 03 28 - 35      Nataniev             Design
 2011 03 27 - 35      Nataniev             Design
 2011 03 26 - 39      Nataniev             Design
@@ -2158,7 +2159,7 @@
 2011 01 16 - 25      Lietal               Typography
 2011 01 15 - 15      To The Aeons Hell    Composition
 2011 01 14 - 35      Nataniev             Development
-2011 01 13 - 35      Nataniev             Development
+2011 01 13 - 35      Horaire              Development
 2011 01 12 - 15      To The Aeons Hell    Composition
 2011 01 11 - 19      Mixtape              Mixing               visual
 2011 01 10 - 15      To The Aeons Hell    Composition
@@ -2274,7 +2275,7 @@
 2010 09 22 - 25      Artwork              Illustration
 2010 09 21 - 15      To The Aeons Hell    Composition
 2010 09 20
-2010 09 19 - 35      Nataniev             Development
+2010 09 19 - 35      Horaire              Development
 2010 09 18
 2010 09 17 - 35      Nataniev             Development
 2010 09 16 - 25                           Design

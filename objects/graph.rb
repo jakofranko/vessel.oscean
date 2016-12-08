@@ -18,17 +18,17 @@ class Graph
     i = 0
     while i < 28
       memory[i] = {}
-      memory[i]["audio"] = 0
-      memory[i]["visual"] = 0
-      memory[i]["research"] = 0
-      memory[i]["misc"] = 0
+      memory[i][:audio] = 0
+      memory[i][:visual] = 0
+      memory[i][:research] = 0
+      memory[i][:misc] = 0
       i += 1
     end
     return memory
 
   end
 
-  def equalSegments 
+  def equalSegments
 
     segments = segmentMemory
 
@@ -54,10 +54,10 @@ class Graph
 
     highest = 1
     @segments.each do |values|
-      if values["audio"] > highest then highest = values["audio"]end
-      if values["visual"] > highest then highest = values["visual"]end
-      if values["research"] > highest then highest = values["research"]end
-      @sumHours += values["audio"] + values["visual"] + values["research"]
+      if values[:audio] > highest then highest = values[:audio]end
+      if values[:visual] > highest then highest = values[:visual]end
+      if values[:research] > highest then highest = values[:research]end
+      @sumHours += values[:audio] + values[:visual] + values[:research]
     end
     return highest
 
@@ -80,16 +80,16 @@ class Graph
 
     count = 0
     @segments.reverse.each do |values|
-      value = height - ((values["audio"]/highestValue) * height)
+      value = height - ((values[:audio]/highestValue) * height)
       lineAudio_html += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(value).to_i} "
       lineAudio_html += "#{(count * lineWidth + (segmentWidth * 3) - segmentWidth)},#{(value).to_i} "
-      value = height - (values["visual"]/highestValue * height)
+      value = height - (values[:visual]/highestValue * height)
       lineVisual_html += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(value).to_i} "
       lineVisual_html += "#{(count * lineWidth + (segmentWidth * 3) - segmentWidth)},#{(value).to_i} "
-      value = height - (values["research"]/highestValue * height)
+      value = height - (values[:research]/highestValue * height)
       lineResearch_html += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(value).to_i} "
       lineResearch_html += "#{(count * lineWidth + (segmentWidth * 3) - segmentWidth)},#{(value).to_i} "
-      value = height - (((values["audio"] + values["visual"] + values["research"])/3)/highestValue * height)
+      value = height - (((values[:audio] + values[:visual] + values[:research])/3)/highestValue * height)
       lineAverage_html += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(value).to_i} "
       lineAverage_html += "#{(count * lineWidth + (segmentWidth * 3) - segmentWidth)},#{(value).to_i} "
       count += 1

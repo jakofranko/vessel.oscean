@@ -85,14 +85,16 @@ class Log
   end
 
   def sector
+    
     if verb.to_i == 1
-      return "audio"
+      return :audio
     elsif verb == 2
-      return "visual"
+      return :visual
     elsif verb == 3
-      return "research"
+      return :research
     end
-    return "misc"
+    return :misc
+    
   end
 
   def isFeatured

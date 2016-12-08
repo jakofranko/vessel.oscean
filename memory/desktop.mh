@@ -57,9 +57,6 @@ RONIN
   Filter
     Add auto, for auto color
     Add sharpen
-  Canvas
-    Keep data when resizing
-    If a position is given, crop at rect
   Layers tool(#)
   Text tool(&)
   String unit
