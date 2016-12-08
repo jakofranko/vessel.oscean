@@ -1596,19 +1596,19 @@ DIRECTORY
   LINK
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/directory.mh
 
-~ Gear
+~ Equipment
 
-GEAR
-  UNDE : Visual
+INVENTORY
+  UNDE : Inventory
   BREF : Detailed collection of various pieces of equipment used in the creation of {{XXIIVV|Nataniev}}.
-  TYPE : Portal
+  TYPE : Portal full
 
 CAMERA
-  UNDE : Gear
+  UNDE : Inventory
   BREF : The photography on {{XXIIVV|Nataniev}} is mainly done with a now deceased Leica M8, and an old Nikon D90 camera. A few other cameras are used, below is a list {{Devine|Devine lu linvega}}'s principal camera equipment.
   LONG
     - {*Film*}
-    - {{Bessa R3M 250 Jahre|https://www.cameraquest.com/voigt_250.htm}}, Voigtlander
+    - {{Voigtländer Bessa R3M 250 Jahre|https://www.cameraquest.com/voigt_250.htm}}, Voigtlander
     - {{Super wide heliar 15mm f4.5|http://www.kenrockwell.com/voigtlander/15mm.htm}}, Voigtlander
     - {{Ultron 28mm f2|http://www.kenrockwell.com/voigtlander/28mm-f2.htm}}, Voigtlander
     - {*Infrared*}
@@ -1619,7 +1619,7 @@ CAMERA
     - {{28mm Soligor f2.8|http://cannonfastreviews.com/soligor-28mm-f2-8-wide-auto/}}, Soligor
 
 KEYBOARD
-  UNDE : Gear
+  UNDE : Inventory
   BREF : My {{mechanical keyboard|Keyboard}} is the {{Vortex Poker II PBT Mechanical Keyboard|https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=458}} with {{Blank Mint PBT caps|https://www.massdrop.com/buy/npkc-blank-pbt-keycaps}}. It's also connected, to my Macbook, through a {{90 degrees angle USB wire|http://www.amazon.ca/gp/product/B004YD6LW0?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00}}.
   LONG
     & The color choice is inspired from the {{Nataniev}} interface colors. I have red Cherry MX switches installed, with {{sound dampening o-rings|http://www.amazon.ca/gp/product/B00VHXHP6Q?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00}}. This cheers me up.
@@ -1757,4 +1757,7 @@ FORUM
 
 2016
   TYPE : Chapter
+  BREF : Typing..
+  LONG
+    & Typing..
 

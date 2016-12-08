@@ -15,7 +15,7 @@ class CorpseHttp
 
       if !term.bref && !photoTest then next end
 
-      html += term.to_s
+      html += term.to_s(:long)
 
     end
 

@@ -46,7 +46,7 @@ class Term
 
     if !@type then return nil end
     if !@type.include?(" ") then return nil end
-    return @type.sub(type,"").strip.downcase.capitalize
+    return @type.sub(type,"").strip.downcase.to_sym
 
   end
 
@@ -115,7 +115,7 @@ class Term
     depth = 0
     t = self
 
-    while !t.parent.name.like(self.name) 
+    while !t.parent.name.like(self.name)
       if depth > 5 then return "nataniev" end
       if t.is_type("Portal") then t = t ; break end
       t = t.parent
@@ -125,13 +125,14 @@ class Term
 
   end
 
-  def to_s
+  def to_s full = nil
 
     return "
     <yu>
       #{diary ? "<a href='/#{name}'>"+diary.media.to_s+"</a>" : ""}
       <h2><a href='/#{name}'>#{name}</a></h2>
       <p>#{bref}</p>
+      #{full == :long ? @long.runes : ""}
     </yu>"
 
   end

@@ -14,55 +14,15 @@ class CorpseHttp
     @tasks    = [0,0]
     @project_index  = {}
     @task_index  = {}
+    @events = []
     
     generate
     
-    html = "
-
-<horaire graph>
-
-Summary
-
-Sectors
-Hours            : #{format_val(@hours,"hours")}
-Audio            : #{format_val(@audio,"hours")}
-Visual           : #{format_val(@visual,"hours")}
-Research         : #{format_val(@research,"hours")}
-
-Multitasking
-Projects         : #{format_val(@projects,"projects")}
-Tasks            : #{format_val(@tasks,"tasks")}
-Hours/Projects   : #{format_val([@hours[0]/@projects[0].to_f,(@hours[1]/@projects[1].to_f)],"hours")}
-Hours/Tasks      : #{format_val([@hours[0]/@tasks[0].to_f,(@hours[1]/@tasks[1].to_f)],"hours")}
-"
+    html = !@term.bref ? "" : "<p>"+@term.bref+"</p>"+@term.long.runes
     
-    html  += "\n"
-    html  += "Projects\n"
-    
-    # Projects Index
-    count = 0
-    sum = 0
-    @project_index.sort_by {|_key, value| value}.reverse.each do |project,val|
-      if count > 10 then break end
-      html += "#{project.append(' ',16)} : #{val.first} hours, #{val[0].to_f.percent_of(@hours[0])}%\n"
-      sum += val[0]
-      count += 1
-    end
-    if @hours[0]-sum > 0 then html += "#{"Other Projects".append(' ',16)} : #{@hours[0]-sum} hours\n" end
-    
-    html  += "\n"
-    html  += "Tasks\n"
-    
-    # Tasks Index
-    count = 0
-    sum = 0
-    @task_index.sort_by {|_key, value| value}.reverse.each do |task,val|
-      if count > 10 then break end
-      html += "#{task.append(' ',16)} : #{val.first} hours #{val[0].to_f.percent_of(@hours[0])}%\n"
-      sum += val[0]
-      count += 1
-    end
-    if @hours[0]-sum > 0 then html += "#{"Other Tasks".append(' ',16)} : #{@hours[0]-sum} hours\n" end
+    html += view_summary
+    html += view_indexes
+    html += view_events
 
     return "<wr>#{html}</wr>"
 
@@ -97,6 +57,8 @@ Hours/Tasks      : #{format_val([@hours[0]/@tasks[0].to_f,(@hours[1]/@tasks[1].t
         
       if log.year == @query.to_i then @project_index[log.topic][0] += log.value else @project_index[log.topic][1] += log.value end
       if log.year == @query.to_i then @task_index[log.task][0] += log.value else @task_index[log.task][1] += log.value end
+        
+      if log.year == @query.to_i && log.task.like("event") then @events.push(log) end
     end
     
     @hours[1] = @hours[1]/(@years.to_f-1)
@@ -108,12 +70,81 @@ Hours/Tasks      : #{format_val([@hours[0]/@tasks[0].to_f,(@hours[1]/@tasks[1].t
     @tasks = [tasks.first.length,tasks.last.length/(@years.to_f-1)]
     
   end
-  
+
   def format_val val,unit
   
     offset  = (100 - val.first.to_f.percent_of(val.last.to_f)) * -1
     symbol  = offset > 0 ? "+" : ""
     return "#{val.first.to_i} #{unit} #{symbol}#{offset}%"
+    
+  end
+  
+  def view_summary
+    
+    return "
+Summary
+
+Sectors
+Hours            : #{format_val(@hours,"hours")}
+Audio            : #{format_val(@audio,"hours")}
+Visual           : #{format_val(@visual,"hours")}
+Research         : #{format_val(@research,"hours")}
+
+Multitasking
+Projects         : #{format_val(@projects,"projects")}
+Tasks            : #{format_val(@tasks,"tasks")}
+Hours/Projects   : #{format_val([@hours[0]/@projects[0].to_f,(@hours[1]/@projects[1].to_f)],"hours")}
+Hours/Tasks      : #{format_val([@hours[0]/@tasks[0].to_f,(@hours[1]/@tasks[1].to_f)],"hours")}
+
+"
+    
+  end
+  
+  def view_indexes
+    
+    html  = "Projects\n"
+    
+    # Projects Index
+    count = 0
+    sum = 0
+    @project_index.sort_by {|_key, value| value}.reverse.each do |project,val|
+      if count > 10 then break end
+      html += "#{project.append(' ',16)} : #{val.first} hours, #{val[0].to_f.percent_of(@hours[0])}%\n"
+      sum += val[0]
+      count += 1
+    end
+    if @hours[0]-sum > 0 then html += "#{"Other Projects".append(' ',16)} : #{@hours[0]-sum} hours\n" end
+    
+    html  += "\n"
+    html  += "Tasks\n"
+    
+    # Tasks Index
+    count = 0
+    sum = 0
+    @task_index.sort_by {|_key, value| value}.reverse.each do |task,val|
+      if count > 10 then break end
+      html += "#{task.append(' ',16)} : #{val.first} hours #{val[0].to_f.percent_of(@hours[0])}%\n"
+      sum += val[0]
+      count += 1
+    end
+    if @hours[0]-sum > 0 then html += "#{"Other Tasks".append(' ',16)} : #{@hours[0]-sum} hours\n" end
+  
+    html  += "\n"
+    return html
+
+  end
+  
+  def view_events
+    
+    html = "Highlights\n"
+    
+    @events.each do |log|
+      html += log.name.append(' ',26)+"(#{log.full}) : "+log.date.to_s+"\n"
+    end
+    
+    html  += "\n"
+    
+    return html
     
   end
   

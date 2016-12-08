@@ -39,7 +39,7 @@
 2016 11 05 - 38      Babelium             Development
 2016 11 04 - 32      Nataniev             Tools
 2016 11 03 - 29      Hundred rabbits      Video
-2016 11 02 - 00      Mexico               Travel
+2016 11 02 - 00      Mexico               Event                Sail to Mexico        700nm sail to La Paz
 2016 11 01 - 35      Neauismetica         Writing
 2016 10 31 - 38      Pino                 Maintenance
 2016 10 30 - 35      Nataniev             Update
@@ -149,13 +149,13 @@
 2016 07 18 - 32      Nataniev             AI
 2016 07 17 - 34      Nataniev             AI
 2016 07 16 - 38      Nataniev             Tools
-2016 07 15 - 24   18 Camera               Photography          Voigtländer Bessa
+2016 07 15 - 24   18 Camera               Event                Learn Film Photo      Aquired Voigtländer Bessa
 2016 07 14 - 19   10 Collected works      Release              Cyan
 2016 07 13 - 34      The will the wisp    Development
 2016 07 12 ! 29    8 Pino                 Photography          Becalmed              Becalmed under a suffocating moonless sky, we drag deeper into the numbing gloom. Shapeless forms slither nearer and across the oily swells, cutting through flakes of luminescence, laughing at us. Attracted to the steaming light, a flock of bats circle our limp sail and the mind wanders. <br /><br />Intermittent gurgles, a pod of whales surfaces all around us. The sun didn't rise that day, the fog only turned into a lighter shade of black.
 2016 07 11 - 39      Pino                 Writing
 2016 07 10
-2016 07 09 - 29      Pino                 Photography
+2016 07 09 - 29      Pino                 Event                Sail to America       1250nm sail to San Diego
 2016 07 08 - 25  113 Sketchbook           Illustration
 2016 07 07 - 25  143 Pearls               Modeling
 2016 07 06 - 15      Moonman              Composition
@@ -191,7 +191,7 @@
 2016 06 06 - 34      Verreciel            Update               1.3
 2016 06 05 - 35      Donsol               Update               1.7
 2016 06 04 - 36      Advent v             Update               The Necropolis
-2016 06 03 - 36      Nataniev             Update               Nataniev
+2016 06 03 - 36      Nataniev             Update
 2016 06 02 - 24      Hundred rabbits      Video
 2016 06 01
 2016 05 31 - 39      Pino                 Maintenance
@@ -271,7 +271,7 @@
 2016 03 18
 2016 03 17 - 15      Hundred rabbits      Composition
 2016 03 16
-2016 03 15 - 19      Portalion            Live
+2016 03 15 - 19      Portalion            Event                Live show             DNA Lounge, in San Francisco
 2016 03 14 - 17      Moonman              Composition
 2016 03 13
 2016 03 12 - 34      Verreciel            Development
@@ -287,7 +287,7 @@
 2016 03 02 - 19      Portalion            Composition
 2016 03 01 - 19      Portalion            Composition
 2016 02 29 - 19      Portalion            Composition
-2016 02 28 - 39      Pino                 Maintenance
+2016 02 28 - 39      Pino                 Event                Learn sailing         Trial by fire
 2016 02 27 - 19      Portalion            Composition
 2016 02 26 - 19      Portalion            Composition
 2016 02 25 - 19      Portalion            Composition
@@ -301,7 +301,7 @@
 2016 02 17 - 26      Hundred rabbits      Video
 2016 02 16 - 15      Hundred rabbits      Composition
 2016 02 15 - 36  493 Hundred rabbits                           The Workstation
-2016 02 14 ! 00      Hundred rabbits                           Moving aboard
+2016 02 14 ! 00      Pino                 Event                Aquire sailboat       Bought a 33 foot Yamaha sailboat
 2016 02 13 - 15      Verreciel            Composition
 2016 02 12 - 15      Verreciel            Composition
 2016 02 11 - 25      Verreciel            Design
@@ -333,7 +333,7 @@
 2016 01 16 - 24      Verreciel            Design
 2016 01 15 - 16      Hundred rabbits      Composition
 2016 01 14 - 16      Portalion            Composition
-2016 01 13 ! 00      Canada               Travel               Vancouver
+2016 01 13 ! 00      Canada               Event                Move to Vancouver     Looking for a sailboat on the west coast
 2016 01 12 - 28  490 Beauty               Illustration         02                    A special tribute to {{Jesse Kanda|http://www.jessekanda.com}}'s works.
 2016 01 11 ! 28  487 Beauty               Illustration         01
 2016 01 10 - 35      Verreciel            Development
@@ -394,7 +394,7 @@
 2015 11 16 - 19      Grot                 Mixing
 2015 11 15 - 27      Nataniev             Update               1.2
 2015 11 14 - 29      Hundred rabbits      Live
-2015 11 13 ! 29  475 Hundred rabbits      Branding             Begin
+2015 11 13 ! 29  475 Hundred rabbits      Event                Founded 100R
 2015 11 12 - 37      Oquonie              Refactoring
 2015 11 11 - 29      Hundred rabbits      Branding
 2015 11 10 - 37      Oquonie              Refactoring
@@ -490,7 +490,7 @@
 2015 08 12 - 25  442 Pino                 Photography
 2015 08 11 - 25  441 Pino                 Photography
 2015 08 10 - 25  440 Pino                 Photography
-2015 08 09 ! 25  439 Pino                 Photography          Learn sailing
+2015 08 09 ! 25  439 Pino                 Photography
 2015 08 08 - 26      Dew                  Update               1.5
 2015 08 07 - 37      Eakout               Update               1.0
 2015 08 06 - 37  438 Eakout               Release              Prototype
@@ -796,7 +796,7 @@
 2014 10 10 - 29  396 Modernista           Design               02
 2014 10 09 - 29  395 Modernista           Design               01
 2014 10 08 - 26      Verreciel            Design
-2014 10 07 ! 30      Russian              Linguistics          Learn Russian
+2014 10 07 ! 30      Russian              Event                Learn Russian
 2014 10 06 - 26      Verreciel            Design
 2014 10 05 - 26      Verreciel            Design
 2014 10 04 - 26      Verreciel            Design
@@ -2358,7 +2358,7 @@
 2010 07 01
 2010 06 30 - 35      Nataniev             Development
 2010 06 29 - 25   74 Drownspire           Development          Our Studio
-2010 06 28 ! 39      Research             Development          Learn Programming
+2010 06 28 ! 39      Research             Event                Learn Programming
 2010 06 27 - 15      To The Aeons Hell    Composition
 2010 06 26 - 19      Mixtape              Mixing               Suilen
 2010 06 25 - 25      Pico                 Design
@@ -3147,7 +3147,7 @@
 2008 05 03
 2008 05 02 - 29      Artwork              Illustration         When
 2008 05 01 - 29  325 Artwork              Illustration         Time Stands Still
-2008 04 30 ! 30      Japanese             Linguistics          Learn Japanese
+2008 04 30 ! 30      Japanese             Event                Learn Japanese
 2008 04 29
 2008 04 28
 2008 04 27
@@ -3457,7 +3457,7 @@
 2007 06 28
 2007 06 27
 2007 06 26
-2007 06 25 ! 27      Artwork              Illustration         Learn Illustration
+2007 06 25 ! 27      Artwork              Event                Learn Illustration
 2007 06 24
 2007 06 23
 2007 06 22
@@ -3792,7 +3792,7 @@
 2006 07 28
 2006 07 27
 2006 07 26
-2006 07 25 ! 15      Audio                Composition          Learn Music Composit
+2006 07 25 ! 15      Audio                Event                Learn Music Composit
 2006 07 24
 2006 07 23
 2006 07 22
