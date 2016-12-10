@@ -90,7 +90,6 @@ class CorpseHttp
 <h2>Summary</h2>
 <p>The values are compared against the previous 5 years averages.</p>
 <table>
-<tr><th colspan='2'>Sectors</th><th colspan='2'>Focus</th></tr>
 <tr>
   <th>Hours</th>
   <td>#{format_val(@hours,"hours")}</td>
@@ -129,11 +128,11 @@ class CorpseHttp
     sum = 0
     @project_index.sort_by {|_key, value| value}.reverse.each do |project,val|
       if count > 10 then break end
-      html += "<a href='/project'>#{project.append(' ',16)}</a> #{val.first} hours, #{val[0].to_f.percent_of(@hours[0])}%<br />\n"
+      html += "<a href='/project'>#{project}</a> #{val.first} hours, #{val[0].to_f.percent_of(@hours[0])}%<br />\n"
       sum += val[0]
       count += 1
     end
-    if @hours[0]-sum > 0 then html += "#{"Other Projects".append(' ',16)} : #{@hours[0]-sum} hours<br />\n" end
+    if @hours[0]-sum > 0 then html += "#{"Other Projects"} #{@hours[0]-sum} hours<br />\n" end
     
     html  += "</list>\n"
     html  += "<h2>Tasks</h2>\n"
@@ -147,7 +146,7 @@ class CorpseHttp
       sum += val[0]
       count += 1
     end
-    if @hours[0]-sum > 0 then html += "#{"Other Tasks".append(' ',16)} : #{@hours[0]-sum} hours<br />\n" end
+    if @hours[0]-sum > 0 then html += "#{"Other Tasks"} : #{@hours[0]-sum} hours<br />\n" end
   
     html  += "</list>\n"
     return html
@@ -159,7 +158,7 @@ class CorpseHttp
     html = "<h2>Highlights</h2>\n"
     html += "<list>"
     @events.each do |log|
-      html += "<a href='/#{log.topic}'>"+log.name.append(' ',26)+"</a>, #{log.full} "+log.date.to_s+"<br />\n"
+      html += "<a href='/#{log.topic}'>"+log.name+"</a>, #{log.full} "+log.date.to_s+"<br />\n"
     end
     html  += "</list>\n"
     
