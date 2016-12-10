@@ -80,7 +80,7 @@ class CorpseHttp
   
     offset  = (100 - val.first.to_f.percent_of(val.last.to_f)) * -1
     symbol  = offset > 0 ? "+" : ""
-    return "#{val.first.to_i} #{unit} <span style='font-size: 11px;font-weight: bold;#{(offset < 0 ? "color:red" : "color:#777")}'>#{symbol}#{offset}%</span>"
+    return "#{val.first.to_i} #{unit} <span style='font-size: 11px;font-weight: bold;#{(offset < 0 ? "color:red" : "color:#72dec2")}'>#{symbol}#{offset}%</span>"
     
   end
   
@@ -88,31 +88,31 @@ class CorpseHttp
     
     return "
 <h2>Summary</h2>
-<p>Values compared against the previous 5 years average.</p>
+<p>The values are compared against the previous 5 years averages.</p>
 <table>
 <tr><th colspan='2'>Sectors</th><th colspan='2'>Focus</th></tr>
 <tr>
-  <td>Hours</td>
+  <th>Hours</th>
   <td>#{format_val(@hours,"hours")}</td>
-  <td>Projects</td>
+  <th>Projects</th>
   <td>#{format_val(@projects,"projects")}</td>
 </tr>
 <tr>
-  <td>Audio</td>
+  <th>Audio</th>
   <td>#{format_val(@audio,"hours")}</td>
-  <td>Tasks</td>
+  <th>Tasks</th>
   <td>#{format_val(@tasks,"tasks")}</td>
 </tr>
 <tr>
-  <td>Visual</td>
+  <th>Visual</th>
   <td>#{format_val(@visual,"hours")}</td>
-  <td>Hours/Projects</td>
+  <th>Hours/Projects</th>
   <td>#{format_val([@hours[0]/@projects[0].to_f,(@hours[1]/@projects[1].to_f)],"hours")}</td>
 </tr>
 <tr>
-  <td>Research</td>
+  <th>Research</th>
   <td>#{format_val(@research,"hours")}</td>
-  <td>Hours/Tasks</td>
+  <th>Hours/Tasks</th>
   <td>#{format_val([@hours[0]/@tasks[0].to_f,(@hours[1]/@tasks[1].to_f)],"hours")}</td>
 </tr>
 </table>
