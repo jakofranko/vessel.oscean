@@ -80,7 +80,7 @@ class CorpseHttp
   
     offset  = (100 - val.first.to_f.percent_of(val.last.to_f)) * -1
     symbol  = offset > 0 ? "+" : ""
-    return "#{val.first.to_i} #{unit} <span style='font-size: 11px;font-weight: bold;#{(offset < 0 ? "color:red" : "color:#72dec2")}'>#{symbol}#{offset}%</span>"
+    return "#{val.first.to_i} #{unit} <span style='font-size: 11px;font-weight: bold;#{(offset < 0 ? "color:red" : "color:#05946f")}'>#{symbol}#{offset}%</span>"
     
   end
   
