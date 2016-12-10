@@ -87,20 +87,34 @@ class CorpseHttp
   def view_summary
     
     return "
-Summary
-
-Sectors
-Hours            : #{format_val(@hours,"hours")}
-Audio            : #{format_val(@audio,"hours")}
-Visual           : #{format_val(@visual,"hours")}
-Research         : #{format_val(@research,"hours")}
-
-Multitasking
-Projects         : #{format_val(@projects,"projects")}
-Tasks            : #{format_val(@tasks,"tasks")}
-Hours/Projects   : #{format_val([@hours[0]/@projects[0].to_f,(@hours[1]/@projects[1].to_f)],"hours")}
-Hours/Tasks      : #{format_val([@hours[0]/@tasks[0].to_f,(@hours[1]/@tasks[1].to_f)],"hours")}
-
+<h2>Summary</h2>
+<table>
+<tr><th colspan='2'>Sectors</th><th colspan='2'>Focus</th></tr>
+<tr>
+  <td>Hours</td>
+  <td>#{format_val(@hours,"hours")}</td>
+  <td>Projects</td>
+  <td>#{format_val(@projects,"projects")}</td>
+</tr>
+<tr>
+  <td>Audio</td>
+  <td>#{format_val(@audio,"hours")}</td>
+  <td>Tasks</td>
+  <td>#{format_val(@tasks,"tasks")}</td>
+</tr>
+<tr>
+  <td>Visual</td>
+  <td>#{format_val(@visual,"hours")}</td>
+  <td>Hours/Projects</td>
+  <td>#{format_val([@hours[0]/@projects[0].to_f,(@hours[1]/@projects[1].to_f)],"hours")}</td>
+</tr>
+<tr>
+  <td>Research</td>
+  <td>#{format_val(@research,"hours")}</td>
+  <td>Hours/Tasks</td>
+  <td>#{format_val([@hours[0]/@tasks[0].to_f,(@hours[1]/@tasks[1].to_f)],"hours")}</td>
+</tr>
+</table>
 "
     
   end
