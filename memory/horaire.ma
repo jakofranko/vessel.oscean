@@ -3,6 +3,7 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 12 09 - 39      Ronin                Update
 2016 12 08 - 34      Obliques             Writing
 2016 12 07 - 34      Lietal               Tools
 2016 12 06 - 34      Russian              Tools

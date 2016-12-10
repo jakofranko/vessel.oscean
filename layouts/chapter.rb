@@ -15,10 +15,13 @@ class CorpseHttp
     @project_index  = {}
     @task_index  = {}
     @events = []
+    @graph_logs = []
     
     generate
     
-    html = !@term.bref ? "" : "<p>"+@term.bref+"</p>"+@term.long.runes
+    html = !@term.bref ? "" : "<p>"+@term.bref+"</p>"+@term.long.runes+"\n"
+    
+    html += Graph.new(@graph_logs).to_s
     
     html += view_summary
     html += view_indexes
@@ -59,6 +62,8 @@ class CorpseHttp
       if log.year == @query.to_i then @task_index[log.task][0] += log.value else @task_index[log.task][1] += log.value end
         
       if log.year == @query.to_i && log.task.like("event") then @events.push(log) end
+        
+      if log.year == @query.to_i then @graph_logs.push(log) end
     end
     
     @hours[1] = @hours[1]/(@years.to_f-1)

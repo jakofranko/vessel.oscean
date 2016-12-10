@@ -5,17 +5,17 @@ The Oscean wiki engine toolchain.
 ## Available actions
 
 ```
-custom
+Custom
   Serve          | Deliver the Oscean wiki.
   Debug          | List missing logs and terms.
-generic
+Generic
   Document       | Generate the Github documentation file.
   Help           | List available commands.
 ```
 
 ## Documentation
 
-Generated with [Nataniev](http://wiki.xxiivv.com/Nataniev) on **Tridesamber 4, 2016**, read the full [project documentation](htp://google.com).
+Generated with [Nataniev](http://wiki.xxiivv.com/Nataniev) on **Tridesamber 8, 2016**, view the [project site](http://wiki.xxiivv.com).
 
 ##License
 

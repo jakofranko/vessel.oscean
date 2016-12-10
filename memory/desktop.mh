@@ -16,7 +16,7 @@ PINO
     Wifi signal booster
     Bluetooth Speaker
     Get batteries for laptops
-    Buy red light for cockpit
+    Fix satellite phone API
     Get the remains of Mexico Maps
   Engine
     Empty Diesel tank, remove deposit
@@ -31,17 +31,19 @@ PINO
     Inspect Windvane
     Insect float-switch
     Laundry
-    Add foam under carpet
-    Cockpit light
-    V-berth walls
     Develop films
     Fix sails
     Inspect mast for holes
     Get stockings for fruits/pots
     Make protective strip for the oil/spices doors
-    Black hockey tape
   Paperworks
     Renew Passports
+  Hardware Store
+    Black hockey tape
+    Cockpit light
+    V-berth walls
+    Add foam under carpet
+    Support for Life-raft
 
 NATANIEV
   Invoice toolkit
@@ -51,23 +53,31 @@ OSCEAN
   Forum
     Add photo for landing page
   yolo sanskrit wallpaper
+  Write 2016 year post
+  Add On Philosophy on the Obliques
+
+HUNDRED RABBITS
+  Make single pager
+  Add timeline filters
+  Add animated logo
 
 RONIN
-  Add progress value during long renders(filters)
+  Show progress during long renders(filters)
   Filter
     Add auto, for auto color
     Add sharpen
-  Layers tool(#)
+    Display fast filter preview in overlay
+    Improve inline documentation
+  Layers tool, or worklayer
+  Sticky keys for things like space+click
   Text tool(&)
-  String unit
   Create preset for album covers
+  Trace straight line with cursor+shift
 
 DONSOL
   Death State
   Tooltips for stats
-  Clickable Run button
   Endgame
-  Escape restarts the game
   Release
     Patreon
     Itch.io
@@ -81,6 +91,7 @@ DONSOL
 LIETAL
   Translate introduction
   Make Dictionaery available to Oscean
+  Translate Lietal Riding Hood
 
 PARADISE
   Create a console application
