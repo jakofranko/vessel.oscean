@@ -122,13 +122,13 @@ class CorpseHttp
   def view_indexes
     
     html  = "<h2>Projects</h2>\n"
-    html += "<list>"
+    html += "<list style='column-count:2'>"
     # Projects Index
     count = 0
     sum = 0
     @project_index.sort_by {|_key, value| value}.reverse.each do |project,val|
       if count > 10 then break end
-      html += "#{project.append(' ',16)} : #{val.first} hours, #{val[0].to_f.percent_of(@hours[0])}%<br />\n"
+      html += "<a href='/project'>#{project.append(' ',16)}</a> #{val.first} hours, #{val[0].to_f.percent_of(@hours[0])}%<br />\n"
       sum += val[0]
       count += 1
     end
@@ -136,13 +136,13 @@ class CorpseHttp
     
     html  += "</list>\n"
     html  += "<h2>Tasks</h2>\n"
-    html += "<list>"
+    html += "<list style='column-count:2'>"
     # Tasks Index
     count = 0
     sum = 0
     @task_index.sort_by {|_key, value| value}.reverse.each do |task,val|
       if count > 10 then break end
-      html += "#{task.append(' ',16)} : #{val.first} hours #{val[0].to_f.percent_of(@hours[0])}%<br />\n"
+      html += "<b>#{task.append(' ',16)}</b> #{val.first} hours #{val[0].to_f.percent_of(@hours[0])}%<br />\n"
       sum += val[0]
       count += 1
     end
@@ -158,7 +158,7 @@ class CorpseHttp
     html = "<h2>Highlights</h2>\n"
     html += "<list>"
     @events.each do |log|
-      html += log.name.append(' ',26)+"(#{log.full}) : "+log.date.to_s+"<br />\n"
+      html += "<a href='/#{log.topic}'>"+log.name.append(' ',26)+"(#{log.full}) : "+log.date.to_s+"<br />\n"
     end
     html  += "</list>\n"
     
