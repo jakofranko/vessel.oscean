@@ -121,47 +121,46 @@ class CorpseHttp
   
   def view_indexes
     
-    html  = "Projects\n"
-    
+    html  = "<h2>Projects</h2>\n"
+    html += "<list>"
     # Projects Index
     count = 0
     sum = 0
     @project_index.sort_by {|_key, value| value}.reverse.each do |project,val|
       if count > 10 then break end
-      html += "#{project.append(' ',16)} : #{val.first} hours, #{val[0].to_f.percent_of(@hours[0])}%\n"
+      html += "#{project.append(' ',16)} : #{val.first} hours, #{val[0].to_f.percent_of(@hours[0])}%<br />\n"
       sum += val[0]
       count += 1
     end
-    if @hours[0]-sum > 0 then html += "#{"Other Projects".append(' ',16)} : #{@hours[0]-sum} hours\n" end
+    if @hours[0]-sum > 0 then html += "#{"Other Projects".append(' ',16)} : #{@hours[0]-sum} hours<br />\n" end
     
-    html  += "\n"
-    html  += "Tasks\n"
-    
+    html  += "</list>\n"
+    html  += "<h2>Tasks</h2>\n"
+    html += "<list>"
     # Tasks Index
     count = 0
     sum = 0
     @task_index.sort_by {|_key, value| value}.reverse.each do |task,val|
       if count > 10 then break end
-      html += "#{task.append(' ',16)} : #{val.first} hours #{val[0].to_f.percent_of(@hours[0])}%\n"
+      html += "#{task.append(' ',16)} : #{val.first} hours #{val[0].to_f.percent_of(@hours[0])}%<br />\n"
       sum += val[0]
       count += 1
     end
-    if @hours[0]-sum > 0 then html += "#{"Other Tasks".append(' ',16)} : #{@hours[0]-sum} hours\n" end
+    if @hours[0]-sum > 0 then html += "#{"Other Tasks".append(' ',16)} : #{@hours[0]-sum} hours<br />\n" end
   
-    html  += "\n"
+    html  += "</list>\n"
     return html
 
   end
   
   def view_events
     
-    html = "Highlights\n"
-    
+    html = "<h2>Highlights</h2>\n"
+    html += "<list>"
     @events.each do |log|
-      html += log.name.append(' ',26)+"(#{log.full}) : "+log.date.to_s+"\n"
+      html += log.name.append(' ',26)+"(#{log.full}) : "+log.date.to_s+"<br />\n"
     end
-    
-    html  += "\n"
+    html  += "</list>\n"
     
     return html
     
