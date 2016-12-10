@@ -80,7 +80,7 @@ class CorpseHttp
   
     offset  = (100 - val.first.to_f.percent_of(val.last.to_f)) * -1
     symbol  = offset > 0 ? "+" : ""
-    return "#{val.first.to_i} #{unit} #{symbol}#{offset}%"
+    return "#{val.first.to_i} #{unit} <span style='#{(offset < 0 ? "color:red" : "color:#72dec2")}'>#{symbol}#{offset}%</span>"
     
   end
   
@@ -142,7 +142,7 @@ class CorpseHttp
     sum = 0
     @task_index.sort_by {|_key, value| value}.reverse.each do |task,val|
       if count > 10 then break end
-      html += "<b>#{task.append(' ',16)}</b> #{val.first} hours #{val[0].to_f.percent_of(@hours[0])}%<br />\n"
+      html += "<i>#{task.append(' ',16)}</i> #{val.first} hours #{val[0].to_f.percent_of(@hours[0])}%<br />\n"
       sum += val[0]
       count += 1
     end
@@ -158,7 +158,7 @@ class CorpseHttp
     html = "<h2>Highlights</h2>\n"
     html += "<list>"
     @events.each do |log|
-      html += "<a href='/#{log.topic}'>"+log.name.append(' ',26)+"(#{log.full}) : "+log.date.to_s+"<br />\n"
+      html += "<a href='/#{log.topic}'>"+log.name.append(' ',26)+"(#{log.full})</a> "+log.date.to_s+"<br />\n"
     end
     html  += "</list>\n"
     

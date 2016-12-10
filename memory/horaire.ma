@@ -68,13 +68,13 @@
 2016 10 08 - 37      Nataniev             Development
 2016 10 07 - 00      America              Travel               Los Angeles
 2016 10 06 - 29      Hundred rabbits      Video
-2016 10 05 - 17      Moonman              Composition
+2016 10 05 - 17      Portalion            Composition
 2016 10 04 - 35      Pino                 Maintenance
 2016 10 03 - 35      Pino                 Maintenance
 2016 10 02 - 35      Pino                 Maintenance
-2016 10 01 - 14      Moonman              Composition
-2016 09 30 - 16      Moonman              Composition
-2016 09 29 - 14      Moonman              Composition
+2016 10 01 - 14      Portalion            Composition
+2016 09 30 - 16      Portalion            Composition
+2016 09 29 - 14      Portalion            Composition
 2016 09 28 - 39      Nataniev             Tools
 2016 09 27 - 21      Polygonoscopy        Modeling
 2016 09 26 - 21      Polygonoscopy        Modeling
@@ -98,7 +98,7 @@
 2016 09 08 - 37      Pino                 Maintenance
 2016 09 07 - 00
 2016 09 06 - 37      Pino                 Maintenance
-2016 09 05 - 15      Moonman              Composition
+2016 09 05 - 15      Portalion            Composition
 2016 09 04 - 24   96 Markle               Design
 2016 09 03 - 35      Nataniev             Development
 2016 09 02 - 35      Nataniev             Tools
@@ -159,7 +159,7 @@
 2016 07 09 - 29      Pino                 Event                Sail to America       1250nm sail to San Diego
 2016 07 08 - 25  113 Sketchbook           Illustration
 2016 07 07 - 25  143 Pearls               Modeling
-2016 07 06 - 15      Moonman              Composition
+2016 07 06 - 15      Portalion            Composition
 2016 07 05 - 25  144 Pearls               Modeling
 2016 07 04 - 39      Pino                 Maintenance
 2016 07 03 - 38      Nataniev             Analytics
@@ -210,14 +210,14 @@
 2016 05 19 - 32      Nataniev             Development
 2016 05 18 - 34      Verreciel            Update               1.1
 2016 05 17 - 32      Verreciel            Development
-2016 05 16   16      Moonman              Composition
+2016 05 16   16      Portalion            Composition
 2016 05 15 - 37      Nataniev             Development
 2016 05 14 - 39      Nataniev             Development
 2016 05 13 - 37      Verreciel            Development
 2016 05 12 - 37      Verreciel            Development
 2016 05 11 - 37      Verreciel            Analytics
 2016 05 10 - 19  171 Verreciel ost        Release              Verreciel Soundtrack
-2016 05 09 - 16      Moonman              Composition
+2016 05 09 - 16      Portalion            Composition
 2016 05 08 - 14      Verreciel ost        Composition
 2016 05 07 - 19      Verreciel ost        Composition
 2016 05 06 - 29      Pino                 Branding
@@ -244,7 +244,7 @@
 2016 04 15 - 32      Lietal               Linguistics
 2016 04 14 - 38      Verreciel            Refactoring
 2016 04 13 ! 27   32 Polygore             Modeling             Trigore
-2016 04 12 - 16      Moonman              Composition
+2016 04 12 - 16      Portalion            Composition
 2016 04 11 - 38      Verreciel            Refactoring
 2016 04 10 - 19      Verreciel ost        Composition
 2016 04 09 - 18      Hundred rabbits      Composition
@@ -260,7 +260,7 @@
 2016 03 30
 2016 03 29 ! 27   37 Nervous              Modeling             Exhibit B
 2016 03 28 - 27   41 Nervous              Modeling             Exhibit A
-2016 03 27 - 17      Moonman              Composition
+2016 03 27 - 17      Portalion            Composition
 2016 03 26
 2016 03 25 ! 26  495 Verreciel            Design               Eminence
 2016 03 24 - 18      Verreciel ost        Composition
@@ -273,7 +273,7 @@
 2016 03 17 - 15      Hundred rabbits      Composition
 2016 03 16
 2016 03 15 - 19      Portalion            Event                Live show             DNA Lounge, in San Francisco
-2016 03 14 - 17      Moonman              Composition
+2016 03 14 - 17      Portalion            Composition
 2016 03 13
 2016 03 12 - 34      Verreciel            Development
 2016 03 11 - 29      Verreciel            Development
