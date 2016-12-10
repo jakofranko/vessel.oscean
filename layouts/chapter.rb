@@ -80,7 +80,7 @@ class CorpseHttp
   
     offset  = (100 - val.first.to_f.percent_of(val.last.to_f)) * -1
     symbol  = offset > 0 ? "+" : ""
-    return "#{val.first.to_i} #{unit} <span style='#{(offset < 0 ? "color:red" : "color:#72dec2")}'>#{symbol}#{offset}%</span>"
+    return "#{val.first.to_i} #{unit} <span style='font-size: 11px;font-weight: bold;#{(offset < 0 ? "color:red" : "color:#777")}'>#{symbol}#{offset}%</span>"
     
   end
   
@@ -88,6 +88,7 @@ class CorpseHttp
     
     return "
 <h2>Summary</h2>
+<p>Values compared against the previous 5 years average.</p>
 <table>
 <tr><th colspan='2'>Sectors</th><th colspan='2'>Focus</th></tr>
 <tr>
@@ -158,7 +159,7 @@ class CorpseHttp
     html = "<h2>Highlights</h2>\n"
     html += "<list>"
     @events.each do |log|
-      html += "<a href='/#{log.topic}'>"+log.name.append(' ',26)+"(#{log.full})</a> "+log.date.to_s+"<br />\n"
+      html += "<a href='/#{log.topic}'>"+log.name.append(' ',26)+"</a>, #{log.full} "+log.date.to_s+"<br />\n"
     end
     html  += "</list>\n"
     
