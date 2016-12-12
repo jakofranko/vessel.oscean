@@ -10,8 +10,8 @@ class CorpseHttp
     yu.si { display:none !important}
     .horaire .task { width:140px; color:white; display:inline-block; padding:15px; }
     .horaire .task svg { width:140px; height:140px }
-    .horaire .task p { border-top: 1px solid #555;font-family: 'dinregular';font-size: 11px;line-height: 15px;margin-bottom: 0px;padding-top: 14px }
-    .horaire .task p b { font-family:'dinbold'; font-weight:normal; text-transform: uppercase; }
+    .horaire .task p { border-top: 1px solid #555;font-family: 'din_regular';font-size: 11px;line-height: 15px;margin-bottom: 0px;padding-top: 14px }
+    .horaire .task p b { font-family:'din_bold'; font-weight:normal; text-transform: uppercase; }
     .horaire circle.audio { fill:#72dec2 }
     .horaire circle.visual { fill:red }
     .horaire circle.research { fill:#ccc }
@@ -26,7 +26,7 @@ class CorpseHttp
 
     html = ""
 
-    if term.logs.length > 0 
+    if term.logs.length > 0
       html += Graph.new(term.logs).to_s
       html += tasks
     else

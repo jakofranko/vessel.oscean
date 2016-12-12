@@ -7,8 +7,8 @@ class CorpseHttp
 
     return "<style>
     wr.horaire yu { display: inline-block;width: 340px;min-width: 300px;margin-bottom: 30px}
-    wr.horaire yu ln { font-family: 'dinregular';font-size: 14px;line-height: 22px}
-    wr.horaire yu ln .tp { font-family:'dinbold'}
+    wr.horaire yu ln { font-family: 'din_regular';font-size: 14px;line-height: 22px}
+    wr.horaire yu ln .tp { font-family:'din_bold'}
     wr.horaire yu ln .tp:hover { text-decoration:underline}
     wr.horaire yu ln .tl { text-decoration:underline}
     wr.horaire yu ln .dt { color:#aaa}

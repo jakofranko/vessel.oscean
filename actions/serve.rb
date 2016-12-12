@@ -70,10 +70,9 @@ class CorpseHttp
     add_meta("keywords","aliceffekt, traumae, devine lu linvega")
     add_meta("viewport","width=device-width, initial-scale=1, maximum-scale=1")
     add_meta("apple-mobile-web-app-capable","yes")
-
-    add_link("https://fonts.googleapis.com/css?family=Playfair+Display|PT+Serif")
     
     add_link("style.reset.css")
+    add_link("style.fonts.css")
     add_link("style.main.css")
 
     add_script("jquery.core.js")
@@ -86,12 +85,12 @@ class CorpseHttp
     return "
   <yu class='hd'>
     <wr>
-      <a href='/' class='lg'><img src='img/vectors/logo.svg'/></a>
-      #{!term.is_diary   && term.has_diaries ? "<a class='md' href='/#{term.name}:diary'><img src='img/vectors/diary.svg'/><b>Diary</b>#{term.diaries.length} Entries</a>" : ""}
-      #{!term.is_horaire && term.has_logs    ? "<a class='md' href='/#{term.name}:horaire'><img src='img/vectors/log.svg'/><b>Horaire</b>#{term.logs.length} Logs</a>" : ""}
-      #{!term.is_task    && term.has_tasks   ? "<a class='md' href='/#{term.name}:issues'><img src='img/vectors/task.svg'/><b>Issues</b>#{term.tasks.length} Tasks</a>" : ""}
-      #{!term.type ? "<a class='md' href='/#{term.name.like("home") ? "forum" : term.name+":forum"}'><img src='img/vectors/forum.svg'/><b>Forum</b>#{term.comments.length} Comments</a>" : ""}
-      #{term.diary ? "<a href='/#{term.diary.photo}' class='md li'><img src='img/vectors/source.svg'/></a>" : ""}
+      <a href='/Home' class='lg'><img src='media/vectors/logo.svg'/></a>
+      #{!term.is_diary   && term.has_diaries ? "<a class='md' href='/#{term.name}:diary'><img src='media/vectors/diary.svg'/><b>Diary</b>#{term.diaries.length} Entries</a>" : ""}
+      #{!term.is_horaire && term.has_logs    ? "<a class='md' href='/#{term.name}:horaire'><img src='media/vectors/log.svg'/><b>Horaire</b>#{term.logs.length} Logs</a>" : ""}
+      #{!term.is_task    && term.has_tasks   ? "<a class='md' href='/#{term.name}:issues'><img src='media/vectors/task.svg'/><b>Issues</b>#{term.tasks.length} Tasks</a>" : ""}
+      #{!term.type ? "<a class='md' href='/#{term.name.like("home") ? "forum" : term.name+":forum"}'><img src='media/vectors/forum.svg'/><b>Forum</b>#{term.comments.length} Comments</a>" : ""}
+      #{term.diary ? "<a href='/#{term.diary.photo}' class='md li'><img src='media/vectors/source.svg'/></a>" : ""}
       <input placeholder='$ #{term.name}' class='q'/>
     </wr>
     #{term.diary ? Media.new("diary",term.diary.photo) : ""}
