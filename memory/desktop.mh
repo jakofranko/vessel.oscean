@@ -17,7 +17,6 @@ PINO
     Bluetooth Speaker
     Get batteries for laptops
     Fix satellite phone API
-    Get the remains of Mexico Maps
   Engine
     Empty Diesel tank, remove deposit
     Change fuel filter
@@ -34,8 +33,6 @@ PINO
     Develop films
     Fix sails
     Inspect mast for holes
-    Get stockings for fruits/pots
-    Make protective strip for the oil/spices doors
   Paperworks
     Renew Passports
   Hardware Store
@@ -44,6 +41,8 @@ PINO
     V-berth walls
     Add foam under carpet
     Support for Life-raft
+    Dry Berth material
+    Velcro straps
 
 NATANIEV
   Documentation should be aware of dependencies
@@ -52,7 +51,6 @@ NATANIEV
 THE WILL THE WISP
   Create long-form poems
   
-
 OSCEAN
   Forum
     Add photo for landing page
@@ -64,6 +62,7 @@ HUNDRED RABBITS
   Make single pager
   Add timeline filters
   Add animated logo
+  Migrate to Sinatra
 
 RONIN
   Show progress during long renders(filters)
@@ -77,6 +76,7 @@ RONIN
   Text tool(&)
   Create preset for album covers
   Trace straight line with cursor+shift
+  Get drag to work with holding space
 
 DONSOL
   Death State

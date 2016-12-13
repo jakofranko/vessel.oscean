@@ -21,7 +21,7 @@ class CorpseHttp
     html = "
     <p>#{@term.bref}</p>
     #{@term.long.runes.to_s}
-    #{Graph.new(graphViewData)}
+    #{Graph_Timeline.new(graphViewData)}
     #{recentEdits}
     #{latestUpdates}"
 

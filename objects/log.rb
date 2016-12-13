@@ -111,7 +111,7 @@ class Log
 
   def media
 
-    return Media.new("diary",photo)
+    return Media.new(@host,"diary",photo)
     
   end
 

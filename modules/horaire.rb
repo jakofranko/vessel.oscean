@@ -27,7 +27,7 @@ class CorpseHttp
     html = ""
 
     if term.logs.length > 0
-      html += Graph.new(term.logs).to_s
+      html += Graph_Timeline.new(term.logs).to_s
       html += tasks
     else
       html += "<p>The lexicon entry {{@query}} does not contain any {{Horaire}} log.</p>"

@@ -3,10 +3,11 @@
 
 class Link
 
-  def initialize(name,url)
-
-      @name = name
-      @url = url.to_s
+  def initialize(host,name,url)
+    
+    @host = host
+    @name = name
+    @url = url.to_s
 
   end
 
@@ -50,7 +51,7 @@ class Link
 
   def to_s
     
-    return "<a href='#{@url}' target='_blank' class='lk'>#{Media.new("interface","icon."+domain.downcase)}<b>#{name}</b><i>#{domain.capitalize}</i></a>"
+    return "<a href='#{@url}' target='_blank' class='lk'>#{Media.new(@host,"interface","icon."+domain.downcase)}<b>#{name}</b><i>#{domain.capitalize}</i></a>"
 
   end
 

@@ -73,7 +73,7 @@ class CorpseHttp
     
     add_link("style.reset.css")
     add_link("style.fonts.css")
-    add_link("style.main.css")
+    add_link("style.main.css?v=#{Clock.new}")
 
     add_script("jquery.core.js")
     add_script("jquery.main.js")
@@ -85,15 +85,15 @@ class CorpseHttp
     return "
   <yu class='hd'>
     <wr>
-      <a href='/Home' class='lg'><img src='media/vectors/logo.svg'/></a>
-      #{!term.is_diary   && term.has_diaries ? "<a class='md' href='/#{term.name}:diary'><img src='media/vectors/diary.svg'/><b>Diary</b>#{term.diaries.length} Entries</a>" : ""}
-      #{!term.is_horaire && term.has_logs    ? "<a class='md' href='/#{term.name}:horaire'><img src='media/vectors/log.svg'/><b>Horaire</b>#{term.logs.length} Logs</a>" : ""}
-      #{!term.is_task    && term.has_tasks   ? "<a class='md' href='/#{term.name}:issues'><img src='media/vectors/task.svg'/><b>Issues</b>#{term.tasks.length} Tasks</a>" : ""}
-      #{!term.type ? "<a class='md' href='/#{term.name.like("home") ? "forum" : term.name+":forum"}'><img src='media/vectors/forum.svg'/><b>Forum</b>#{term.comments.length} Comments</a>" : ""}
-      #{term.diary ? "<a href='/#{term.diary.photo}' class='md li'><img src='media/vectors/source.svg'/></a>" : ""}
+      <a href='/Home' class='lg'>#{Media.new(@host,"vectors","logo")}</a>
+      #{!term.is_diary   && term.has_diaries ? "<a class='md' href='/#{term.name}:diary'>#{Media.new(@host,"vectors","diary")}<b>Diary</b>#{term.diaries.length} Entries</a>" : ""}
+      #{!term.is_horaire && term.has_logs    ? "<a class='md' href='/#{term.name}:horaire'>#{Media.new(@host,"vectors","log")}<b>Horaire</b>#{term.logs.length} Logs</a>" : ""}
+      #{!term.is_task    && term.has_tasks   ? "<a class='md' href='/#{term.name}:issues'>#{Media.new(@host,"vectors","task")}<b>Issues</b>#{term.tasks.length} Tasks</a>" : ""}
+      #{!term.type ? "<a class='md' href='/#{term.name.like("home") ? "forum" : term.name+":forum"}'>#{Media.new(@host,"vectors","forum")}<b>Forum</b>#{term.comments.length} Comments</a>" : ""}
+      #{term.diary ? "<a href='/#{term.diary.photo}' class='md li'>#{Media.new(@host,"vectors","source")}</a>" : ""}
       <input placeholder='$ #{term.name}' class='q'/>
     </wr>
-    #{term.diary ? Media.new("diary",term.diary.photo) : ""}
+    #{term.diary ? (photo = Media.new(@host,"diary",term.diary.photo); photo.set_class("photo") ; photo.to_s) : ""}
   </yu>
   <yu class='cr'>
     <yu class='vi'>
@@ -105,7 +105,7 @@ class CorpseHttp
   <yu class='ft'>
     <wr>
       #{_portal}
-      <ln><a href='/Nataniev'>#{Media.new("interface","icon.oscean")}</a><a href='https://github.com/neauoire' target='_blank'>#{Media.new("interface","icon.github")}</a><a href='https://twitter.com/neauoire' target='_blank'>#{Media.new("interface","icon.twitter")}</a></ln>
+      <ln><a href='/Nataniev'>#{Media.new(@host,"interface","icon.oscean")}</a><a href='https://github.com/neauoire' target='_blank'>#{Media.new(@host,"interface","icon.github")}</a><a href='https://twitter.com/neauoire' target='_blank'>#{Media.new(@host,"interface","icon.twitter")}</a></ln>
       <ln><a href='/Devine+Lu+Linvega'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year} <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank' style='color:#aaa'>BY-NC-SA 4.0</a></ln>
       <ln>Currently indexing #{$lexicon.length} projects, built over #{$horaire.length} days.</ln>
       <ln><a href='/Diary'>Diary</a> &bull; <a href='/Horaire'>Horaire</a> &bull; <a href='/Desamber' class='date'>#{Desamber.new}</a><br /><a href='Clock'>#{Clock.new}</a> "+((Time.new - $nataniev.time) * 1000).to_i.to_s+"ms</ln>
@@ -122,7 +122,7 @@ class CorpseHttp
 
   def _portal
 
-    return "<a href='/#{term.portal}'>#{ badge = Media.new("badge",term.name) ; badge.exists ? badge : badge = Media.new("badge",term.portal) ; badge.exists ? badge : badge = Media.new("badge","nataniev") ; badge }</a>"
+    return "<a href='/#{term.portal}'>#{ badge = Media.new(@host,"badge",term.name) ; badge.exists ? badge : badge = Media.new(@host,"badge",term.portal) ; badge.exists ? badge : badge = Media.new(@host,"badge","nataniev") ; badge }</a>"
 
   end
 
@@ -132,7 +132,7 @@ class CorpseHttp
 
     html = ""
     term.link.each do |link|
-      html += Link.new(link.first,link.last).to_s
+      html += Link.new(@host,link.first,link.last).to_s
     end
     return "<wr>"+html+"</wr>"
 

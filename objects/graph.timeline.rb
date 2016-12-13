@@ -1,7 +1,7 @@
 #!/bin/env ruby
 # encoding: utf-8
 
-class Graph
+class Graph_Timeline
 
   def initialize(logs)
     
