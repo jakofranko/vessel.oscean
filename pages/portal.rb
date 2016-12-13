@@ -14,7 +14,7 @@ class CorpseHttp
       if !term.type then next end
       if !term.type.to_s.like("portal") && !term.type.to_s.like("archive") then next end
 
-      html += "#{media = Media.new(@host,"badge",term.name.downcase) ; media.set_style('width:100px;height:100px;margin-left:30px') ; media}"
+      html += "#{media = Media.new("badge",term.name.downcase) ; media.set_style('width:100px;height:100px;margin-left:30px') ; media}"
       html += "<h2><a href='/#{term.name}'>#{term.name}</a></h2>"
       terms.each do |name,term|
         if !term.unde.like(parent) then next end

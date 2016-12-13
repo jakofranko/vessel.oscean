@@ -51,7 +51,7 @@ class Link
 
   def to_s
     
-    return "<a href='#{@url}' target='_blank' class='lk'>#{Media.new(@host,"interface","icon."+domain.downcase)}<b>#{name}</b><i>#{domain.capitalize}</i></a>"
+    return "<a href='#{@url}' target='_blank' class='lk'>#{Media.new("interface","icon."+domain.downcase)}<b>#{name}</b><i>#{domain.capitalize}</i></a>"
 
   end
 
