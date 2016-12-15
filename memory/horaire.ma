@@ -3,7 +3,10 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
-2016 12 12 - 38      Nataniev             Writing
+2016 12 15 - 38      Nataniev             Writing
+2016 12 14 - 28      Nataniev             Layout
+2016 12 13 - 27      Nataniev             Design
+2016 12 12 - 28      Nataniev             Design
 2016 12 11 - 28      Nataniev             Design
 2016 12 10 - 38      Nataniev             Writing
 2016 12 09 - 39      Ronin                Update
