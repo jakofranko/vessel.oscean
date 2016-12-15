@@ -90,21 +90,18 @@ class CorpseHttp
       #{!term.is_horaire && term.has_logs    ? "<a class='md' href='/#{term.name}:horaire'>#{Media.new("vectors","log")}<b>Horaire</b>#{term.logs.length} Logs</a>" : ""}
       #{!term.is_task    && term.has_tasks   ? "<a class='md' href='/#{term.name}:issues'>#{Media.new("vectors","task")}<b>Issues</b>#{term.tasks.length} Tasks</a>" : ""}
       #{!term.type ? "<a class='md' href='/#{term.name.like("home") ? "forum" : term.name+":forum"}'>#{Media.new("vectors","forum")}<b>Forum</b>#{term.comments.length} Comments</a>" : ""}
-      #{term.diary ? "<a href='/#{term.diary.photo}' class='md li'>#{Media.new("vectors","source")}</a>" : ""}
-      <input placeholder='$ #{term.name}' class='q'/>
+      <input placeholder='#{term.name}' class='q'/>
     </wr>
     #{term.diary ? (photo = Media.new("diary",term.diary.photo); photo.set_class("photo") ; photo.to_s) : ""}
   </yu>
   <yu class='cr'>
     <yu class='vi'>
-      #{view}
-      #{_links}
+      #{interface}
     </yu>
     <hr/>
   </yu>
   <yu class='ft'>
     <wr>
-      #{_portal}
       <ln><a href='/Nataniev'>#{Media.new("interface","icon.oscean")}</a><a href='https://github.com/neauoire' target='_blank'>#{Media.new("interface","icon.github")}</a><a href='https://twitter.com/neauoire' target='_blank'>#{Media.new("interface","icon.twitter")}</a></ln>
       <ln><a href='/Devine+Lu+Linvega'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year} <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank' style='color:#aaa'>BY-NC-SA 4.0</a></ln>
       <ln>Currently indexing #{$lexicon.length} projects, built over #{$horaire.length} days.</ln>
@@ -113,6 +110,25 @@ class CorpseHttp
   </yu>"
 
   end
+  
+  def interface
+    
+    return "
+    <yu class='in'>
+      <wr>
+        <bv class='sb'>
+          <ht>Portal</ht>
+          <a href='/#{term.portal}'>#{ badge = Media.new("badge",term.name) ; badge.exists ? badge : badge = Media.new("badge",term.portal) ; badge.exists ? badge : badge = Media.new("badge","nataniev") ; badge.set_class("portal") ; badge }</a>
+          #{(term.link ? "<ht>Links</ht>#{_links}" : "" )}
+        </bv>
+        <bv class='cr'>
+          <ht>Context</ht>
+          #{view}
+        </bv>
+      </wr>
+    </yu>"
+    
+  end
 
   def view
     
@@ -120,21 +136,15 @@ class CorpseHttp
 
   end
 
-  def _portal
-
-    return "<a href='/#{term.portal}'>#{ badge = Media.new("badge",term.name) ; badge.exists ? badge : badge = Media.new("badge",term.portal) ; badge.exists ? badge : badge = Media.new("badge","nataniev") ; badge }</a>"
-
-  end
-
   def _links
-
+  
     if !term.link then return "" end
 
     html = ""
     term.link.each do |link|
       html += Link.new(link.first,link.last).to_s
     end
-    return "<wr>"+html+"</wr>"
+    return html
 
   end
 

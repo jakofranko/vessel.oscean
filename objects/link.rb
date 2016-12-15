@@ -3,33 +3,11 @@
 
 class Link
 
-  def initialize(host,name,url)
+  def initialize(name,url)
     
-    @host = host
     @name = name
     @url = url.to_s
 
-  end
-
-  def name
-
-    case @name
-    when "GITH"
-      return "Source Files"
-    when "ITUN"
-      return "iTunes Store"
-    when "TWTR"
-      return "Twitter"
-    when "PATR"
-      return "Patreon"
-    when "BAND"
-      return "Bandcamp"
-    when "DRIV"
-      return "Download File"
-    else
-      return @name
-    end
-      
   end
 
   def domain
@@ -51,7 +29,7 @@ class Link
 
   def to_s
     
-    return "<a href='#{@url}' target='_blank' class='lk'>#{Media.new("interface","icon."+domain.downcase)}<b>#{name}</b><i>#{domain.capitalize}</i></a>"
+    return "<a href='#{@url}' target='_blank' class='lk'>#{Media.new("interface","icon."+domain.downcase)}</a>"
 
   end
 

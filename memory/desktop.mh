@@ -16,7 +16,6 @@ PINO
     Wifi signal booster
     Bluetooth Speaker
     Get batteries for laptops
-    Fix satellite phone API
   Engine
     Empty Diesel tank, remove deposit
     Change fuel filter
@@ -26,7 +25,6 @@ PINO
     Wet Suit
     Hammock
     Fins
-    Check out with Port Captain
     Inspect Windvane
     Insect float-switch
     Laundry
@@ -40,13 +38,12 @@ PINO
     Cockpit light
     V-berth walls
     Add foam under carpet
-    Support for Life-raft
     Dry Berth material
     Velcro straps
+    Can opener
 
 NATANIEV
   Documentation should be aware of dependencies
-  Make the Chapter Graph(Hex RPG-like stats thingy)
   
 THE WILL THE WISP
   Create long-form poems
@@ -55,14 +52,12 @@ OSCEAN
   Forum
     Add photo for landing page
   yolo sanskrit wallpaper
-  Write 2016 year post
-  Add On Philosophy on the Obliques
-
-HUNDRED RABBITS
-  Make single pager
-  Add timeline filters
-  Add animated logo
-  Migrate to Sinatra
+  Migrate Branding SVG icons
+  Sinatra Migration
+    Download PT Font
+    Write 2016 year post
+    Add On Philosophy on the Obliques
+    Make the Chapter Graph(Hex RPG-like stats thingy)
 
 RONIN
   Show progress during long renders(filters)
@@ -99,3 +94,15 @@ LIETAL
 
 PARADISE
   Create a console application
+
+GRIMGRAINS
+  Migrate to sinatra
+  Download font Abel
+  Download font Amatic SC
+
+HUNDRED RABBITS
+  Make single pager
+  Add timeline filters
+  Add animated logo
+  Migrate to Sinatra
+  Fix satellite phone API
