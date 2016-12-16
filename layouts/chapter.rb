@@ -21,9 +21,10 @@ class CorpseHttp
     
     html = !@term.bref ? "" : "<p>"+@term.bref+"</p>"+@term.long.runes+"\n"
     
+    html += view_summary
+    
     html += Graph_Timeline.new(@graph_logs).to_s
     
-    html += view_summary
     html += view_indexes
     html += view_events
 
