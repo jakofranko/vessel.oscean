@@ -3,6 +3,12 @@
 
 class CorpseHttp
 
+  def style
+    
+    return ""
+    
+  end
+  
   def view
 
     html = ""

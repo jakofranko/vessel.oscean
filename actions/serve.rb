@@ -129,6 +129,12 @@ class CorpseHttp
     </yu>"
     
   end
+  
+  def style
+    
+    return ""
+    
+  end
 
   def view
     

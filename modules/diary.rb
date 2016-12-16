@@ -2,6 +2,12 @@
 # encoding: utf-8
 
 class CorpseHttp
+  
+  def style
+    
+    return ""
+    
+  end
 
   def view
 
