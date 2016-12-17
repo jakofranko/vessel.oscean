@@ -11,7 +11,7 @@ class CorpseHttp
     term.diaries.each do |log|
       html += log.to_s
     end
-    return "<wr>#{html}</wr>"
+    return html
 
   end
   

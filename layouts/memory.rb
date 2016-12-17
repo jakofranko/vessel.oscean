@@ -26,7 +26,7 @@ class CorpseHttp
       end
     end
 
-    return "<wr>#{html}</wr>".markup
+    return html.markup
 
   end
 

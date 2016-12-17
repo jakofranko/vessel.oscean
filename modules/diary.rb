@@ -19,7 +19,7 @@ class CorpseHttp
       html += "<p>There are no diaries for #{term.name}.</p>"
     end
 
-    return "<wr>#{html}</wr>"
+    return html
 
   end
 

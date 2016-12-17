@@ -33,7 +33,7 @@ class CorpseHttp
       html += "<p>The lexicon entry {{@query}} does not contain any {{Horaire}} log.</p>"
     end
     
-    return "<wr class='horaire'>#{html}</wr>"
+    return "<div class='horaire'>#{html}</div>"
 
   end
 

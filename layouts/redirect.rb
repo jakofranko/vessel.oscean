@@ -12,7 +12,7 @@ class CorpseHttp
   	html = "<wr><p>Redirecting..</p></wr>
     <meta http-equiv='refresh' content='0; url=/#{target.gsub(' ','+')}' />"
 
-  	return "<wr>#{html}</wr>"
+  	return html
 
   end
   

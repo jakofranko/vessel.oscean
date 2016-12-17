@@ -28,7 +28,7 @@ class CorpseHttp
     html += view_indexes
     html += view_events
 
-    return "<wr>#{html}</wr>"
+    return html
 
   end
   

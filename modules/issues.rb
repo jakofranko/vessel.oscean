@@ -23,7 +23,7 @@ class CorpseHttp
       html += term.tasks.to_s
     end
     
-    return "<wr>#{html}</wr>".markup
+    return html.markup
 
   end
   

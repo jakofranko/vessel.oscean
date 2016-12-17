@@ -60,7 +60,7 @@ $(".reply").on("click", function(e) {
       id += 1
     end
 
-    return "<wr>#{html}</wr>"+script
+    return html+script
 
   end
   

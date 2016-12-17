@@ -36,7 +36,7 @@ class CorpseHttp
       html += "<hr/>"
       year += 1
     end
-    return "<wr class='death'><p>#{@term.bref.to_s}</p>#{@term.long.runes.to_s}<yu>#{html}</yu></wr>"
+    return "<div class='death'><p>#{@term.bref.to_s}</p>#{@term.long.runes.to_s}<yu>#{html}</yu></div>"
 
   end
 

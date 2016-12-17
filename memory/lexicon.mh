@@ -768,10 +768,11 @@ ONLINE
 
 OQUONIE
   UNDE : Mobile
-  BREF : {{Oquonie}} is a textless puzzle game for iPad and iPhone created in collaboration with illustrator {{Rekka Bellum|http://kokorobot.ca}} where you must find your way across an intertwined megastructure.
+  BREF : {{Oquonie}} is a textless puzzle game created in collaboration with illustrator {{Rekka Bellum|http://kokorobot.ca}}.
   LONG
     & You will not be alone, your incarnations will have the help of {_bizaroid_} characters speaking {{an obscure language|Camilare}}.
     & Oquonie features an original {{Aliceffekt}} soundtrack that is now available on {{Bandcamp|https://aliceffekt.bandcamp.com/album/short-stories-in-impossible-spaces}}. The game was best described as {_{{Animal Crossing in a K-Hole|http://killscreendaily.com/articles/oquonie-maze-worth-entering/}}_}.
+    ? Find your way across an intertwined megastructure.
   LINK
     ITUN : https://itunes.apple.com/us/app/oquonie/id819777958
     GITH : https://github.com/hundredrabbits/Oquonie

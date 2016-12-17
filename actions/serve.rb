@@ -95,9 +95,10 @@ class CorpseHttp
     #{term.diary ? (photo = Media.new("diary",term.diary.photo); photo.set_class("photo") ; photo.to_s) : ""}
   </yu>
   <yu class='cr'>
-    <yu class='vi'>
-      #{interface}
-    </yu>
+    <wr>
+      #{_portal}
+      <yu class='vi'>#{view}</yu>
+    </wr>
     <hr/>
   </yu>
   <yu class='ft'>
@@ -111,22 +112,9 @@ class CorpseHttp
 
   end
   
-  def interface
+  def _portal
     
-    return "
-    <yu class='in'>
-      <wr>
-        <bv class='sb'>
-          <ht>Portal</ht>
-          <a href='/#{term.portal}'>#{ badge = Media.new("badge",term.name) ; badge.exists ? badge : badge = Media.new("badge",term.portal) ; badge.exists ? badge : badge = Media.new("badge","nataniev") ; badge.set_class("portal") ; badge }</a>
-          #{(term.link ? "<ht>Links</ht>#{_links}" : "" )}
-        </bv>
-        <bv class='cr'>
-          <ht>Context</ht>
-          #{view}
-        </bv>
-      </wr>
-    </yu>"
+    return "<yu class='portal'><a href='/#{term.portal}' class='portal'>#{ badge = Media.new("badge",term.name) ; badge.exists ? badge : badge = Media.new("badge",term.portal) ; badge.exists ? badge : badge = Media.new("badge","nataniev") ; badge.set_class("portal") ; badge }</a>#{_links}</yu>"
     
   end
   
@@ -138,7 +126,7 @@ class CorpseHttp
 
   def view
     
-    return "<wr><p>#{term.bref}</p>#{term.long.runes.to_s}</wr>"
+    return "<p>#{term.bref}</p>#{term.long.runes.to_s}"
 
   end
 
@@ -150,7 +138,7 @@ class CorpseHttp
     term.link.each do |link|
       html += Link.new(link.first,link.last).to_s
     end
-    return html
+    return "<yu class='lk'>"+html+"</yu>"
 
   end
 

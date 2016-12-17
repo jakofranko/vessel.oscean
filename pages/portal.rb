@@ -42,7 +42,7 @@ class CorpseHttp
       html += "<li style='font-size:16px'><a href='/#{term.name}'>#{(term.type.to_s.like("portal")) ? "<b>"+term.name+"</b>" : term.name}</a></li>"
     end
     html += "</ul>"
-    return "<wr>#{html}</wr>"
+    return html
 
   end
 

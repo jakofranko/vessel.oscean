@@ -52,7 +52,7 @@ p.success { background:#72dec2}
       html += "</thread>"
     end
   
-    return "<wr>#{html}</wr>"
+    return html
 
   end
   
@@ -72,7 +72,7 @@ p.success { background:#72dec2}
       message = message.sub("reply-#{reply}","").strip
     end
     
-    comments = Memory_Array.new("forum",@host.path)    
+    comments = Memory_Array.new("forum",@host.path)
 
     # Check if topic exists
     if topic.to_s == "" || message.to_s == "" then return "<p class='error'>Something went wrong with the topic attached.</p>" end
