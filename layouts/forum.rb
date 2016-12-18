@@ -91,6 +91,9 @@ p.success { background:#72dec2}
       if !comment.topic.to_s.like(topic) then next end
       if comment.message.to_s.downcase.gsub(/[^a-z0-9\s]/i, '').like(message.downcase.gsub(/[^a-z0-9\s]/i, '')) then return "<p class='error'>Your comment is a duplicate.</p>" end
     end
+    
+    message = message.strip
+    message = message.gsub(/[^A-Za-z0-9\,\.\s\{\}\*\_\-\~]/i, '')
 
     # Save
     comments.append("#{Timestamp.new.to_s.append(' ',14)} #{topic.to_s.capitalize.append(' ',20)} #{reply.to_s.append(' ',4)} #{message}")

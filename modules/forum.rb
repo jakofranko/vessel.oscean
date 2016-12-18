@@ -25,8 +25,7 @@ $(document).on("keydown", "#commander", function(e)
 {
   if ((e.keyCode == 10 || e.keyCode == 13) && e.ctrlKey){
     var command = document.getElementById("commander").value;
-    command = encodeURIComponent(command.replace(/\./g, ",,"));
-    document.location = "http://wiki.xxiivv.com/Forum:topic-'+@term.name+' "+encodeURI(command);
+    document.location = "/Forum:topic-'+@term.name+' "+(command);
   };
 });
 
