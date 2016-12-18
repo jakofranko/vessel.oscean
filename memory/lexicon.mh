@@ -231,39 +231,40 @@ DOMESTIC MOIRE
 
 DONSOL GUIDE
   UNDE : Board
-  BREF : {{Donsol}}, designed by {{John Eternal|https://twitter.com/johneternal}}, is a game about exploring a dungeon using nothing but what you find.You play with a standard 54 poker card set, Jokers included.
+  BREF : {{Donsol}}, designed by {{John Eternal|https://twitter.com/johneternal}}, is a card game about exploring a dungeon made of a standard 54 poker card set.
   LONG
-    & Shuffle the deck and draw 4 cards, equip a shield, slay all monsters, heal yourself with potions and exit the deck alive.
-    - ♦Diamonds are shields
-    - ♥︎Hearts are potions
-    - ♠Spades are monsters
-    - ♣︎Clubs and Jokers are also monsters
-    * Red Cards
-    & Red number cards equal their value and face cards(J,Q,K,A) equal 11
-    * ♥︎ Potions
-    & You begin with a max of 21 health points and can never go above. You can only drink one health potion per room.
-    * ♦ Shield Cards
-    & You can fight a monster without shield, but suffer full damage. Equipping a shield allows you to absorb the damage difference from the monster value. {_If you have an 8 shield equipped, by attacking a 9 monster you suffer 1 damage._}
-    & Shields can only defend monsters in descending value and if you use a shield on a monster with higher or equal value to the previous, it will break. Broken shields leave you unarmored, and you take full damage.
-    * Black Cards
-    & Black number cards equal their value and face cards are as follows J is 11, Q is 13, K is 15, A is 17 and Jokers are both equal to 21.
-    * ♠ Monster Cards
-    & Once you have dealt with at least 3 cards, you can move onto the next room(set of 4 cards), moving the remainder card to the bottom of the deck.
-    & Running away from the room moves the cards to the bottom of the deck. You can run away from a room you have not interacted with, once in a row.
+    & A standard deck, jokers included, is a {*dungeon*}. Shuffle the deck and draw 4 cards, display them before you, this is a {*room*}. A room ends when all the cards are folded.
+    - ♦ Diamonds are {*shields*}
+    - ♥ ︎Hearts are{*potions*}
+    - ♠ Spades are {*monsters*}
+    - ♣ ︎Clubs and Jokers are also {*monsters*}
+    * <span style='color:red'>♥︎ Potions</span>
+    & You begin with a max of {*21 health points*} and can never go above. You can {*only drink one potion per room*}. Potions are equal to their value and face cards(J,Q,K,A) each are equal to 11.
+    * <span style='color:red'>♦ Shield Cards</span>
+    & Equipping a shield allows you to absorb the damage difference from a monster value. Shields can {*only defend monsters in descending value*} and if you use a shield on a monster with higher or equal value to the previous, it will break.
+    ? If you have an 8 shield equipped, by attacking a 9 monster you suffer 1 damage.
+    & Broken shields leave you unarmored, and you take full damage. A shield card will replace a previously folded shield card. Shields are equal to their value and face cards(J,Q,K,A) each are equal to 11.
+    * ♣♠ Monster Cards
+    & Monster cards are equal to their value, and face cards are as follows J is 11, Q is 13, K is 15, A is 17; Jokers are both equal to 21.
+    * Running away
+    & Once you have dealt with at least 3 cards, you can move onto the next room(set of 4 cards), moving the remainder card to the bottom of the deck. You can run away from a room you have not interacted with, once in a row.
     * Example Play
-    - Open the door (Shuffle the deck and draw 4 cards)
-    - The room contains a 7♦, Q♥︎, 10♠, J♣︎
-    - Equip the 7♦ shield, and battle the J♣︎ (11-7=4 lost HP)
-    - Battle the 10♠ (10-7=3 lost HP), drink the Q♥︎ and heal 11 HP up to max 21.
-    - With the room empty we sneak into the next room.
-    - The room contains A♦, K♦, K♣︎, 9♥︎
-    - Equip the K♦ (replacing the 7♦), battle the K♣︎ (15-11=4 lost HP)
-    - Drink the 9♥︎ and heal 9 HP up to max 21.
-    - Moving to the next room places the A♦ at the bottom of the deck.
-    - The room contains A♣︎, J♣︎, 10♦, 6♠.
-    - Continue making your way through the dungeon (deck) until all enemies are defeated.
+    # {*Room 1*} 7♦ Q♥︎ 10♠ J♣︎
+    # _  Equip the 7♦ shield.
+    # _  Battle the J♣              ; 11-7  = 4 lost HP
+    # _  Battle the 10♠             ; 10-7  = 3 lost HP
+    # _  Drink the Q♥︎               ; 14+11 = 21 max HP
+    # {*Room 2*} A♦ K♦ K♣︎ 9♥︎
+    # _ Equip the K♦, replacing 7♦
+    # _ Battle the K♣︎               ; 15-11 = 4 lost HP
+    # _ Drink the 9♥︎                ; 17+9  = 21 max HP
+    # _ Run away, return A♦
+    # {*Room 3*} A♣︎ J♣︎ 10♦ 6♠
+    # _ Continue making your way through the deck
+    # _ until all cards used, and all enemies defeated.
   LINK
     ITUN : https://itunes.apple.com/us/app/donsol/id976367718
+    SITE : /Donsol
 
 DOMINE
   UNDE : Board
@@ -643,7 +644,7 @@ DONSOL
   LINK
    ITUN : https://itunes.apple.com/us/app/donsol/id976367718?ls=1&mt=8
    GITH : https://github.com/Echorridoors/donsol
-   SITE : Guide|http://wiki.xxiivv.com/Donsol+guide
+   SITE : /Donsol+guide
 
 DEW
   UNDE : Mobile

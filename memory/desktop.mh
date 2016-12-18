@@ -27,9 +27,7 @@ PINO
     Fins
     Inspect Windvane
     Insect float-switch
-    Laundry
     Develop films
-    Fix sails
     Inspect mast for holes
   Paperworks
     Renew Passports
@@ -40,7 +38,6 @@ PINO
     Add foam under carpet
     Dry Berth material
     Velcro straps
-    Can opener
 
 NATANIEV
   Documentation should be aware of dependencies
@@ -53,11 +50,6 @@ OSCEAN
     Add photo for landing page
   yolo sanskrit wallpaper
   Migrate Branding SVG icons
-  Sinatra Migration
-    Download PT Font
-    Write 2016 year post
-    Add On Philosophy on the Obliques
-    Make the Chapter Graph(Hex RPG-like stats thingy)
 
 RONIN
   Show progress during long renders(filters)
@@ -96,13 +88,9 @@ PARADISE
   Create a console application
 
 GRIMGRAINS
-  Migrate to sinatra
   Download font Abel
   Download font Amatic SC
 
 HUNDRED RABBITS
-  Make single pager
   Add timeline filters
-  Add animated logo
-  Migrate to Sinatra
   Fix satellite phone API
