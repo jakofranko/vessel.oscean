@@ -48,36 +48,32 @@ THE WILL THE WISP
 OSCEAN
   Forum
     Add photo for landing page
-  yolo sanskrit wallpaper
   Migrate Branding SVG icons
+  Update layout for Portal page
 
 RONIN
   Show progress during long renders(filters)
   Filter
     Add auto, for auto color
     Add sharpen
-    Display fast filter preview in overlay
     Improve inline documentation
-  Layers tool, or worklayer
-  Sticky keys for things like space+click
+    :Transform FlipX/Y/Rotation
   Text tool(&)
-  Create preset for album covers
   Trace straight line with cursor+shift
-  Get drag to work with holding space
-
+  Bring back cursors
+  Overlay guides lines for small rect values
+  Worklayer Paint
+  Sketchlayer Paint
+  Worklayer Eraser
+  Sketchlayer Eraser
+  Document cursor modes
+  
 DONSOL
-  Death State
-  Tooltips for stats
-  Endgame
   Release
     Patreon
     Itch.io
     Steam
     iOS
-  Assets
-    Menu
-    Sounds
-    Icon
 
 LIETAL
   Translate introduction
@@ -93,4 +89,3 @@ GRIMGRAINS
 
 HUNDRED RABBITS
   Add timeline filters
-  Fix satellite phone API

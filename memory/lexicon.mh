@@ -230,7 +230,7 @@ DOMESTIC MOIRE
     ITCH : http://aliceffekt.itch.io/domestic-moire
 
 DONSOL GUIDE
-  UNDE : Board
+  UNDE : Donsol
   BREF : {{Donsol}}, designed by {{John Eternal|https://twitter.com/johneternal}}, is a card game about exploring a dungeon made of a standard 54 poker card set.
   LONG
     & A standard deck, jokers included, is a {*dungeon*}. Shuffle the deck and draw 4 cards, display them before you, this is a {*room*}. A room ends when all the cards are folded.
@@ -267,7 +267,7 @@ DONSOL GUIDE
     SITE : /Donsol
 
 DOMINE
-  UNDE : Board
+  UNDE : Interactive
   BREF : {{Domine}} is a simple game to play with dominoes designed by {{Hundred Rabbits}}.
   LONG
     & Every domino has 2 values, which we will call Attack/Defence. So a domino with both 6 and 2 values, can be used as both 6/2 and 2/6.
@@ -392,7 +392,7 @@ HOWLS VIRGIL SYSTEMS
   FLAG : Todo
 
 HUNDRED RABBITS
-  UNDE : Hundred rabbits
+  UNDE : Devine lu linvega
   BREF : {{Hundred Rabbits}}, is a nomad design studio founded by {{Rekka Bellum|http://kokorobo.ca}} and {{Devine Lu Linvega|Devine Lu Linvega}} aboard a {{sailboat|https://github.com/hundredrabbits/Pino}}.
   LONG
     & Somewhere on the shores of the Pacific Ocean.
@@ -435,9 +435,8 @@ FLACTALS
   BREF : Drawing flowers, terapeutic.
 
 VOYNICH
-  UNDE : Code
+  UNDE : Language
   BREF : Notes on Voynich Manuscript.
-  FLAG : Todo
 
 ~ Interactive
 
@@ -480,9 +479,10 @@ COLLECTED WORKS
     BAND : https://gaii.bandcamp.com/
 
 MERVEILLES
-  UNDE : Merveilles
-  BREF : {{Merveilles}} is a small online community founded, around 2010. Its original purpose was to allow {{Merveilles Portable}}, from which it took its name, players to communicate with eachother. Since then, it has evolved to host various discussion about programming, art, game dev, music, AI and trans-humanism.
+  UNDE : Devine lu linvega
+  BREF : {{Merveilles}} is a small online community founded, around 2010.
   LONG
+    & Its original purpose was to allow {{Merveilles Portable}}, from which it took its name, players to communicate with eachother. Since then, it has evolved to host various discussion about programming, art, game dev, music, AI and trans-humanism.
     & While the original gatherings mainly existed on IRC, it has since migrated onto {_Slack_} where it has became a private room that invites new members selectively.
   LINK
     GITH : https://github.com/merveilles
@@ -720,12 +720,7 @@ NOR LET THE FOOLS
     BAND : http://aliceffekt.bandcamp.com/album/nor-let-the-fools-mistake-love
 
 CODE
-  UNDE : Code
-  BREF : This is a collection of linguistic and programming projects.
-  FLAG : TODO
-
-RUBY RIDING HOOD
-  UNDE : Code
+  UNDE : Language
   BREF : Inspired by a talk with a friend about Steven Pinker's {{The Language Instincs|http://en.wikipedia.org/wiki/The_Language_Instinct}}, I decided to try and translate Leanne Guenther's {{Little Red Riding Hood|http://www.dltk-teach.com/rhymes/littlered/story.htm}} into {{Ruby|http://en.wikipedia.org/wiki/Ruby_(programming_language)}}.
   LONG
     & The idea was simple, how much meaning can I extrude from the original text and parse into a computer language, as it turns out, a lot of it can.
@@ -733,8 +728,8 @@ RUBY RIDING HOOD
   LINK
     GITH : https://gist.github.com/neauoire/9beee5e555615e0003d194548c158979
 
-NUMERALS
-  UNDE : Code
+NUMBERS
+  UNDE : Language
   BREF : {{Numerals}}, is a script that generates the name of numbers with 50'000 characters and beyond.
   LONG
     & It uses various extensions of the short word form, and ISQ inspired names, to create the names of numbers which have never previously been catalogued.
@@ -791,11 +786,7 @@ OQUONIE GUIDE
     & Once your have turned into {{Nemedique|Oquonie universe}}, you will be able to open a locked door by the owl, and collect the second pillar.
     & Good luck.
     % oquonie pillar
-
-OQUONIE UNIVERSE
-  UNDE : Oquonie
-  BREF : The game {{Oquonie}} has no name, but we still created them some names to help us talk about it.
-  LONG
+    & The game {{Oquonie}} has no name, but we still created them some names to help us talk about it.
     * Playable
     ? Necomedre
     % oquonie.char1
@@ -1320,6 +1311,11 @@ NEONEV
     & Neonev met with {{Andes}} at his arrival in the northern part of Dinais and again as Evelyn before he met with {{Paradichlorisse}} in the last season. While they lived apart, they corresponded and established {{Neon Hermetism}} to solve the dimensional puzzle {{Ehrivevnv}}.
 
 ~ Photography
+
+PHOTOGRAPH
+  UNDE : Visual
+  BREF : Photography Portal.
+  TYPE : Portal
   
 MACRO
   UNDE : Photograph
@@ -1344,7 +1340,7 @@ FILM
 ~ Travel
 
 TRAVEL
-  UNDE : Misc
+  UNDE : Photograph
   BREF : Photoblog from around the world, I highlighted some of my favourite trips in the list below.
   TYPE : Portal
 
@@ -1406,7 +1402,7 @@ GERMANY
 ~ Drownspire
 
 DROWNSPIRE
-  UNDE : Drownspire
+  UNDE : Devine lu linvega
   BREF : {{Drownspire}} was the name of an online store founded with Rekka Bellum, back in 2009. We distributed the {{Vambits}} designer toys and published the {{Merure}} books.
 
 MERURE
@@ -1415,7 +1411,7 @@ MERURE
   TYPE : Diary
 
 VAMBITS
-  UNDE : Physical
+  UNDE : Drownspire
   BREF : {{Vambits}} are small DIY desktoys designed to be laser cutted in acrylic. The product was initially created with {{Ponoko|https://www.ponoko.com}}.
   LONG
     & The design was eventually ripped and sold by various resellers on Esty and in stores in Australia. The design templates are now available on Github for anyone to download and customize.
@@ -1577,7 +1573,7 @@ SHORTHAND
     & Simple enough, now most letters are transformed into a single stroke shape that flows and combines to form shorter words, that can be written faster.
 
 NEEDLES
-  UNDE : Gamme
+  UNDE : Language
   BREF : The {{Needle}} numbers are a series of 10 glyphs where the stroke intersections are equal to the value of the character.
   LONG
     & The glyphs are not used into any specific system of the {{Gamme}}, but are available here as a reference of a meaningful numeric glyph system.
@@ -1601,8 +1597,16 @@ DIRECTORY
 
 ~ Equipment
 
+DEVINE LU LINVEGA
+  BREF : {{Devine lu linvega}} is a developer and biohacker, living aboard a {{sailboat|Hundred rabbits}} on the Pacific Ocean.
+  TYPE : Portal
+  LONG
+    & Operating under the {{Neauoire|https://twitter.com/neauoire}} moniker, Devine is currating the {{Beldam Records}} catalog, creating {{experimental mobile projects|http://www.creativeapplications.net/openframeworks/experimental-mobile-apps-by-devine-aliceffect-lu-linvega}} and documenting their {{life at sea|https://www.youtube.com/playlist?list=PLV-JXZPiMUdtBGYfvbp9M7N0Tc15GMqy1}}.
+    & Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}} — Devine hope to inspire visitors to learn and to travel.
+    ? To {{flee|Obliques}} is life,<br /> To linger is {{Death}}.
+
 INVENTORY
-  UNDE : Inventory
+  UNDE : Devine lu linvega
   BREF : Detailed collection of various pieces of equipment used in the creation of {{XXIIVV|Nataniev}}.
   TYPE : Portal full
 
@@ -1630,26 +1634,18 @@ KEYBOARD
     DROP : https://www.massdrop.com/mechanical-keyboards
     REDD : https://www.reddit.com/r/MechanicalKeyboards/
 
-DEVINE LU LINVEGA
-  BREF : {{Devine lu linvega}} is a developer and biohacker, living aboard a {{sailboat|Hundred rabbits}} on the Pacific Ocean.
-  TYPE : Portal
-  LONG
-    & Operating under the {{Neauoire|https://twitter.com/neauoire}} moniker, Devine is currating the {{Beldam Records}} catalog, creating {{experimental mobile projects|http://www.creativeapplications.net/openframeworks/experimental-mobile-apps-by-devine-aliceffect-lu-linvega}} and documenting their {{life at sea|https://www.youtube.com/playlist?list=PLV-JXZPiMUdtBGYfvbp9M7N0Tc15GMqy1}}.
-    & Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}} — Devine hope to inspire visitors to learn and to travel.
-    ? To {{flee|Obliques}} is life,<br /> To linger is {{Death}}.
-
-DEATH
-  UNDE : Lifestyle
-  BREF : Inspired from Chris Crawford's Jars, these cells shows my life span with a cell for each week.
-
-NOOTROPICS
-  UNDE : Lifestyle
+LIFESTYLE
+  UNDE : Inventory
   BREF : {{Nootropics|https://en.wikipedia.org/wiki/Nootropic}} are {_smart drugs_}. They can help with focus and attention, or simply serve as a weak stimulant - not unlike coffee. I started using them out of curiosity and they grew on me as an extra tool to help with concentration.
   LONG
     & There are a variety of Nootropics out there, and I have only tried but the combination, {_stack_}, of Noopept and Citicoline, as per suggested by a friend back in Tokyo. I order my supplements from {{Intellimeds|https://www.intellimeds.co.uk}}, shipping to Canada. I take this stack every day for a {*sequence of 30 days, then stop for a week*} as it seems to make the effect stronger when I start again at the end of the week.
     - {{20mg Noopept|https://www.intellimeds.co.uk/noopept-powder}}, powder
     - {{150mg Citicoline|https://www.intellimeds.co.uk/citicoline/citicoline-powder}}, powder
     & It feels a bit like coffee, but with a light {_tunnel vision_}, the immediate effect is that of tuning out the voices in your head for a moment. When cycling on Noopept, it feels a bit like seeing wider. When coding, it feels a bit like things need to get done. I have been taking it for more than a year and I have yet to feel any negative effect. Noopept can be distracting at times, I heard that Racetams are weaker and might be more what you are looking for - I have yet to try them.
+
+DEATH
+  UNDE : Devine lu linvega
+  BREF : Inspired from {{Chris Crawford|https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer)}}'s Jars, every week a cell goes dark.
 
 ~ [TODO] Combine under a portal page
 
@@ -1736,6 +1732,7 @@ PORTAL
 ~ Forums
 
 FORUM
+  UNDE : Nataniev
   TYPE : Forum
 
 ~ Chapters

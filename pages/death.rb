@@ -9,7 +9,6 @@ class CorpseHttp
     .death yu { line-height: 0px }
     .death cell { display: inline-block;width: calc(1.9% - 4px);height: 2px;margin: 1px 0px 0px 1px;border-radius: 10px;border: 1px solid #000;}
     .death cell.black { background:black }
-    .death small.divider { display: block;font-family: 'dinbold';font-size: 11px;line-height: 30px;color: #000; }
     </style>"
     
   end
@@ -23,7 +22,7 @@ class CorpseHttp
     time1 = Time.new
     year = 1
     while year < 60
-      html += year % 10 == 0 ? "<small class='divider'>#{year}</small>" : ""
+      html += year % 10 == 0 ? "<h2 style='padding-top: 30px;'>#{year}</h2>" : ""
       week = 0
       while week < 52
         if (year * 52)+week < (daysAgo/7)-4

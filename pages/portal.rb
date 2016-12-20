@@ -7,55 +7,67 @@ class CorpseHttp
 
     html = ""
 
-    used = []
-    terms = $lexicon.to_h("term")
-
-    terms.each do |parent,term|
-      if !term.type then next end
-      if !term.type.to_s.like("portal") && !term.type.to_s.like("archive") then next end
-
-      html += "#{media = Media.new("badge",term.name.downcase) ; media.set_style('width:100px;height:100px;margin-left:30px') ; media}"
-      html += "<h2><a href='/#{term.name}'>#{term.name}</a></h2>"
-      terms.each do |name,term|
-        if !term.unde.like(parent) then next end
-        html += "<li style='display:inline-block; width:150px'><a href='/#{name}'>#{name.capitalize}</a></li>"
-        used.push(name.downcase)
-        terms.each do |child,term|
-          if !term.unde.like(name) then next end
-          if used.include?(child.downcase) then next end
-          html += "<li style='display:inline-block; width:150px'><a href='/#{child}'>#{child.capitalize}</a></li>"
-          used.push(child.downcase)
-        end
-      end
-      html += "<br /><br /></td></tr>"
-      used.push(parent.downcase)
-    end
+    @used = []
+    @terms = $lexicon.to_h("term")
+    @terms_logs = find_logs
     
-    lastLetter = "4"
-    html += "<ul style='column-count:3'>"
-    terms.each do |topic,term|
-      if used.include?(topic.downcase) then next end
-      if term.name[0,1].downcase != lastLetter.downcase
-        lastLetter = term.name[0,1]
-        html += "<h2 style='font-size: 30px;line-height: 50px;margin: 0px;'>#{lastLetter}</h2>"
-      end
-      html += "<li style='font-size:16px'><a href='/#{term.name}'>#{(term.type.to_s.like("portal")) ? "<b>"+term.name+"</b>" : term.name}</a></li>"
-    end
-    html += "</ul>"
+    @used.push("home")
+    
+    html += "<code>"
+    html += find_children(@terms["AUDIO"],0)+"\n"             ; @used.push("audio")
+    html += find_children(@terms["VISUAL"],0)+"\n"            ; @used.push("visual")
+    html += find_children(@terms["RESEARCH"],0)+"\n"          ; @used.push("research")
+    html += find_children(@terms["NEAUISMETICA"],0)+"\n"      ; @used.push("neauismetica")
+    html += find_children(@terms["DEVINE LU LINVEGA"],0)+"\n" ; @used.push("devine lu linvega")
+    
+    html += find_lost_children+"\n"
+    html += "</code>"
+    
     return html
 
   end
-
-  def photoForTerm term
-
-    $horaire.to_a("log").each do |log|
-      if !log.topic.like(term) then next end
-      if log.photo < 1 then next end
-      return log.photo
+  
+  def find_children target, depth
+    
+    html = ""
+    html += "<a href='/#{target.name}'><span style='padding-left:#{depth*15}px'>#{target.name}</span></a> #{@terms_logs[target.name] ? "<comment style='position:absolute; left:300px; color:#777'>#{@terms_logs[target.name][:offset]}</comment>" : ""}\n"
+    
+    @terms.each do |name,term|
+      if depth > 5 then break end
+      if !term.unde.like(target.name) then next end
+      html += find_children(term,depth+1)
+      @used.push(name.downcase)
     end
-
-    return nil
-
+    
+    return html
+    
+  end
+  
+  def find_lost_children
+    
+    html = "Lost\n"
+    
+    @terms.each do |name,term|
+      if @used.include?(name.downcase) then next end
+      if term.type.to_s.like("chapter") then next end
+      if term.type.to_s.like("redirect") then next end
+      html += "  "+name.capitalize+"\n"
+    end
+    
+    return html
+    
+  end
+  
+  def find_logs
+    
+    h = {}
+    $horaire.to_a(:log).reverse.each do |log|
+      if !h[log.topic] then h[log.topic] = {:logs => 0, :diaries => 0, :offset => ""} end
+      h[log.topic][:logs] += 1
+      h[log.topic][:offset] = log.offset
+    end
+    return h
+    
   end
 
 end

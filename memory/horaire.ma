@@ -3,7 +3,8 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
-2016 12 18 - 34      Ronin                Tools
+2016 12 19 - 25      Ronin                Design
+2016 12 18 - 39      Ronin                Tools
 2016 12 17 ! 26  225 Donsol               Update
 2016 12 16 - 24      Donsol               Illustration
 2016 12 15 - 38      Nataniev             Writing
