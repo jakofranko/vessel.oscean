@@ -60,7 +60,6 @@ RONIN
     :Transform FlipX/Y/Rotation
   Text tool(&)
   Trace straight line with cursor+shift
-  Bring back cursors
   Overlay guides lines for small rect values
   Worklayer Paint
   Sketchlayer Paint

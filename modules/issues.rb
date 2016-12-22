@@ -13,7 +13,8 @@ class CorpseHttp
 
     html = ""
 
-    if term.name.like("home") || term.name.like("issues")
+    if term.name.like("home") || term.name.like("issues") || term.name.like("horaire")
+      html += "<p>This page lists the issues for all projects.</p>"
       term.tasks.to_a.each do |topic,task|
         html += "<h2><a href='/#{topic}:issues'>#{topic}</a></h2>\n"
         html += task.to_s

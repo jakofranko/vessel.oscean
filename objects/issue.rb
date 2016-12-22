@@ -26,20 +26,22 @@ class Issue
     
     html = ""
     if @content.is_a?(Hash)
-      html += "<code>"
+      html += "<table>"
       @content.each do |name,tasks|
-        html += "#{name}\n"
+        html += "<tr><th rowspan='#{tasks.length}'>#{name}</th><td>#{tasks.first}</td></tr>\n"
+        tasks.shift
         tasks.each do |task|
-          html += "- #{task}<br />"
+          html += "<tr><td>#{task}</td></tr>"
         end
       end
-      html += "</code>"
+      html += "</table>"
     elsif @content.length > 0
-      html += "<code>"
+      html += "<table>"
+      html += "<tr><th>General Tasks</th></tr>\n"
       @content.each do |task|
-        html += "- #{task}\n"
+        html += "<tr><td>#{task}</td></tr>\n"
       end
-      html += "</code>"
+      html += "</table>"
     end
     return html
 

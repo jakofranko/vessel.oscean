@@ -76,7 +76,7 @@ class CorpseHttp
     add_link("style.main.css?v=#{Clock.new}")
 
     add_script("jquery.core.js")
-    add_script("jquery.main.js")
+    add_script("jquery.main.js?v=11")
 
   end
 
