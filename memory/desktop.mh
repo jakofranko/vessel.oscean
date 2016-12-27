@@ -52,20 +52,34 @@ OSCEAN
   Update layout for Portal page
 
 RONIN
-  Show progress during long renders(filters)
+  Help
+    ..
+  Widget
+    Position on window resize
   Filter
     Add auto, for auto color
     Add sharpen
-    Improve inline documentation
+    Generate Markup documentation
     :Transform FlipX/Y/Rotation
   Text tool(&)
-  Trace straight line with cursor+shift
-  Overlay guides lines for small rect values
-  Worklayer Paint
-  Sketchlayer Paint
-  Worklayer Eraser
-  Sketchlayer Eraser
-  Document cursor modes
+    ..
+  Brush
+    Trace straight line with cursor+shift
+    Texture paint
+  Overlay
+    Guides lines for small rect values
+    Fill tool
+  Surface
+    Center on zoom
+    cmd.value = layer opacity
+    Move layer up/down
+  Eraser
+    ..
+  Save
+    ..
+  History
+    Undo shortcut
+    Track widget
   
 DONSOL
   Release
