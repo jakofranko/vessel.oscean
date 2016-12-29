@@ -20,7 +20,6 @@ PINO
     Empty Diesel tank, remove deposit
     Change fuel filter
   Misc
-    Fuel Generator
     Storm Sail
     Wet Suit
     Hammock
@@ -33,7 +32,7 @@ PINO
     Renew Passports
   Hardware Store
     Black hockey tape
-    Cockpit light
+    Install Cockpit light
     V-berth walls
     Add foam under carpet
     Dry Berth material
@@ -61,6 +60,7 @@ RONIN
     Add sharpen
     Generate Markup documentation
     :Transform FlipX/Y/Rotation
+    Display a list of available filters
   Text tool(&)
     ..
   Brush

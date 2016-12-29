@@ -1451,6 +1451,17 @@ THE SARTRE MECHANISM
     & The machine was indeed truly perfect.
     & {_Originally written by {{Voidshaper|https://twitter.com/voidshaper}}, <br />Edited by {{Devine Lu Linvega}}_}
 
+THE DISMISSAL
+  UNDE : Notes
+  BREF : It's possible that I expect too much of technology, of the product of like-minded folks, that my friction threshold has diminished akin to my patience with electronics. 
+  LONG
+    & Despite having grown a skin thick enough to fend the hydra that was Objective C, by heart learnt the fiery hoops that were the management of certificate & identities; a few weeks ago I have left the coal mine that is native iOS development.
+    & I've always seen myself as the resilient one, the one that can take a beating. For a moment then, I thought that Swift was going pull us from the Abyss. It beamed of a blinding luminosity and brilliance to my darkness accustomed eyes. Swift was going to save us. 
+    * The Four Builds Rule
+    & I never saw myself as superstitious, but my daily interactions with iTunes Connect were imbued with witchcraft. Push four builds. The first one, would not find its way into the list of queued builds. The second would, but then never leave the queue, the third one my hopes rested upon. The last one, was just in case, but would more often than not, find never its way into the list. Looking back, I can't figure what was that I had, that I have lost, that would allow me to pull through such abuse.
+    & I felt, surely not looked it, clever injecting fake operating system values into my build files. Need I not remind myself that a developer making applications for an upcoming OS may not,from that same development computer, also publish builds. Here I was sneaking around walls built against developer-kin. I never saw myself as superstitious, but when a build actually went through and live onto the App Store, I felt like I had beaten the system. A system, my system.
+    & I think that, that was the feeling with which I decided to leave iOS development.
+
 ~ Language
 
 LANGUAGE
