@@ -3,6 +3,10 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 12 30 - 24      Hundred rabbits      Frontend
+2016 12 29 - 34      Ronin                Development
+2016 12 28 - 35      Ronin                Development
+2016 12 27 - 35      Ronin                Development
 2016 12 26 - 28      Ronin                Design
 2016 12 25 - 29      Hundred rabbits      Video
 2016 12 24 - 19      Hundred rabbits      Composition
@@ -79,7 +83,7 @@
 2016 10 14 - 24      Nataniev             Design
 2016 10 13 - 23      Nataniev             Design
 2016 10 12 - 28      Lietal               Typography
-2016 10 11 - 35      Nataniev             Development
+2016 10 11 - 35      Nataniev             Frontend
 2016 10 10 - 34      Pino                 Maintenance
 2016 10 09 - 38      Lietal               Linguistics
 2016 10 08 - 37      Nataniev             Development

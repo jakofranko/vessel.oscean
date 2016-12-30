@@ -59,7 +59,7 @@ RONIN
     Add auto, for auto color
     Add sharpen
     Generate Markup documentation
-    :Transform FlipX/Y/Rotation
+    :Transform Mirror
     Display a list of available filters
   Text tool(&)
     ..
