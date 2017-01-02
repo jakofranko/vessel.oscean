@@ -10,7 +10,7 @@ HOME
     & If this is your first time around, the {{Introduction|Nataniev}} is a good place to begin your exploration. If you wish to stay updated on the development of the latest projects, follow {{@Neauoire|http://twitter.com/neauoire}}. A {{Portal}} and a {{Timeline|Horaire}} are also maintained daily as part of {{XXIIVV|Nataniev}}.
   LINK
     SITE : /Horaire
-    
+
 ~ Sectors
 
 AUDIO
@@ -1518,9 +1518,11 @@ OBLIQUES
 
 RONIN
   UNDE : Gamme
-  BREF : {{Ronin}} is a visual editor created as {{Hundred Rabbits}}, designed to accomplish simple tasks with little processing power.
+  BREF : {{Ronin}} is a text-based visual editor designed to draw and automate graphical tasks.
   LONG
-    & The project is currently under development. More details shortly
+    & The application is a cross-over between Vim and Photoshop, where every change to the canvas is inputed as a command.
+    & It is meant to replace the use of Photoshop for simple repetitive tasks, basic illustration jobs and the creation of grid based designs.
+    & It used alongside {{Dotgrid|https://github.com/hundredrabbits/Dotgrid}}.
   LINK
     GITH : https://github.com/hundredrabbits/Ronin
 
