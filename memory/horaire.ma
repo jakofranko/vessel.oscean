@@ -3,6 +3,9 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 01 02 - 26      Donsol               Design
+2016 01 01 - 27      Nataniev             Design
+2016 12 31 - 34      Dotgrid              Frontend
 2016 12 30 - 24      Hundred rabbits      Frontend
 2016 12 29 - 34      Ronin                Development
 2016 12 28 - 35      Ronin                Development

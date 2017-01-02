@@ -2,6 +2,15 @@
 ~ NOTE : Project archive
 ~ AUTH : Devine Lu Linvega
 
+HOME
+  UNDE : Home
+  BREF : This wiki provides narrative context for the {{Audio}}, {{Visual}} and {{Research}} projects.
+  LONG
+    & Welcome to the documentation and playground for the projects of multimedia developer {{Devine Lu Linvega}}.
+    & If this is your first time around, the {{Introduction|Nataniev}} is a good place to begin your exploration. If you wish to stay updated on the development of the latest projects, follow {{@Neauoire|http://twitter.com/neauoire}}. A {{Portal}} and a {{Timeline|Horaire}} are also maintained daily as part of {{XXIIVV|Nataniev}}.
+  LINK
+    SITE : /Horaire
+    
 ~ Sectors
 
 AUDIO
@@ -379,13 +388,6 @@ HEX HIVE NECKLACE
   BREF : A small design necklace, looks great in black.
   LINK
     SITE : http://www.thingiverse.com/thing:18853
-
-HOME
-  UNDE : Home
-  BREF : This wiki provides narrative context for the {{Audio}}, {{Visual}} and {{Research}} projects.
-  LONG
-    & Welcome to the documentation and playground for the projects of multimedia developer {{Devine Lu Linvega}}.
-    & If this is your first time around, the {{Introduction|Nataniev}} is a good place to begin your exploration. If you wish to stay updated on the development of the latest projects, follow {{@Neauoire|http://twitter.com/neauoire}}. A {{Portal}} and a {{Timeline|Horaire}} are also maintained daily as part of {{XXIIVV|Nataniev}}.
 
 HOWLS VIRGIL SYSTEMS
   UNDE : First wave
