@@ -3,6 +3,7 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 01 03 - 23      Nataniev             Design
 2016 01 02 - 26      Donsol               Design
 2016 01 01 - 27      Nataniev             Design
 2016 12 31 - 34      Dotgrid              Frontend

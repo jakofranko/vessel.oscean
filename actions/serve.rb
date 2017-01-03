@@ -97,18 +97,19 @@ class CorpseHttp
   <yu class='cr'>
     <wr>
       #{_portal}
-      <yu class='vi'>#{view}</yu>
+      <yu class='vi'>
+        #{view}
+        <yu class='ft'>
+          <span class='right'><a href='/Nataniev'>#{Media.new("interface","icon.oscean")}</a><a href='https://github.com/neauoire' target='_blank'>#{Media.new("interface","icon.github")}</a><a href='https://twitter.com/neauoire' target='_blank'>#{Media.new("interface","icon.twitter")}</a></span>
+          <a href='/Devine+Lu+Linvega'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year} <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank' style='color:#aaa; margin-left:15px'>BY-NC-SA 4.0</a> <span style='color:#efefef; margin-left:15px'>"+((Time.new - $nataniev.time) * 1000).to_i.to_s+"ms</span>
+        </yu>
+      </yu>    
     </wr>
     <hr/>
-  </yu>
-  <yu class='ft'>
-    <wr>
-      <ln><a href='/Nataniev'>#{Media.new("interface","icon.oscean")}</a><a href='https://github.com/neauoire' target='_blank'>#{Media.new("interface","icon.github")}</a><a href='https://twitter.com/neauoire' target='_blank'>#{Media.new("interface","icon.twitter")}</a></ln>
-      <ln><a href='/Devine+Lu+Linvega'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year} <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank' style='color:#aaa'>BY-NC-SA 4.0</a></ln>
-      <ln>Currently indexing #{$lexicon.length} projects, built over #{$horaire.length} days.</ln>
-      <ln><a href='/Diary'>Diary</a> &bull; <a href='/Horaire'>Horaire</a> &bull; <a href='/Desamber' class='date'>#{Desamber.new}</a><br /><a href='Clock'>#{Clock.new}</a> "+((Time.new - $nataniev.time) * 1000).to_i.to_s+"ms</ln>
-    </wr>
   </yu>"
+
+      # <ln>Currently indexing #{$lexicon.length} projects, built over #{$horaire.length} days.</ln>
+    
 
   end
   
