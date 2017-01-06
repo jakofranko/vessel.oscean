@@ -640,12 +640,15 @@ ENTALONERALIE
 
 DONSOL
   UNDE : Mobile
-  BREF : {{Donsol}} is a solitary card game, designed by {{John Eternal|https://twitter.com/johneternal}} during {{Train Jam|http://trainjam.com}}, where you must go through the deck in a series 4 cards.
+  BREF : {{Donsol}} is a solitary card game, designed by {{John Eternal|https://twitter.com/johneternal}} in which you must go through the deck in sequences of 4 cards.
   LONG
-    & While the game was designed on a train, without internet connection, it seems like Donsol's gameplay accidentally ended up being a twist to Zach Gage and Kurt Bieg's {{Scoundrel|http://stfj.net/index2.php?project=art/2011/Scoundrel.pdf}}, designed in 2011.
+    & The Donsol rules to play with a standard deck of cards can be found {{here|Donsol+guide}}, and a gameplay video tutorial {{here|https://youtu.be/GNoZrr56GqA}}.
+    * Release
+    & The game was released for {{Mobile}} back in 2016, and released for {{Desktop}} in 2017. While the game was designed on a train, without internet connection, it seems like Donsol's gameplay accidentally ended up being a twist to Zach Gage and Kurt Bieg's {{Scoundrel|http://stfj.net/index2.php?project=art/2011/Scoundrel.pdf}}, designed in 2011.
   LINK
    ITUN : https://itunes.apple.com/us/app/donsol/id976367718?ls=1&mt=8
-   GITH : https://github.com/Echorridoors/donsol
+   GITH : https://github.com/hundredrabbits/Donsol
+   ITCH : 
    SITE : /Donsol+guide
 
 DEW

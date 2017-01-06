@@ -8,26 +8,19 @@ PINO
   Patreon
     Release Donsol
     Progress on Markle
-    Book project?
   Electronics
     Install timer for fridge
     AIS
-    Camera
-    Wifi signal booster
     Bluetooth Speaker
-    Get batteries for laptops
   Engine
     Empty Diesel tank, remove deposit
-    Change fuel filter
   Misc
-    Storm Sail
-    Wet Suit
-    Hammock
     Fins
     Inspect Windvane
     Insect float-switch
-    Develop films
     Inspect mast for holes
+    Fix the jib
+    Inspect sails
   Paperworks
     Renew Passports
   Hardware Store
@@ -36,7 +29,8 @@ PINO
     V-berth walls
     Add foam under carpet
     Dry Berth material
-    Velcro straps
+    Protect locker drain hole
+    Dinghy pump
 
 NATANIEV
   Documentation should be aware of dependencies
@@ -47,20 +41,15 @@ THE WILL THE WISP
 OSCEAN
   Forum
     Add photo for landing page
-  Migrate Branding SVG icons
-  Update layout for Portal page
 
 RONIN
   Help
     ..
   Widget
-    Position on window resize
+  ..
   Filter
     Add auto, for auto color
     Add sharpen
-    Generate Markup documentation
-    :Transform Mirror
-    Display a list of available filters
   Text tool(&)
     ..
   Brush
@@ -70,8 +59,6 @@ RONIN
     Guides lines for small rect values
     Fill tool
   Surface
-    Center on zoom
-    cmd.value = layer opacity
     Move layer up/down
   Eraser
     ..
@@ -82,6 +69,9 @@ RONIN
     Track widget
   
 DONSOL
+  Sort builds
+  Update icon
+  Upload Video
   Release
     Patreon
     Itch.io
