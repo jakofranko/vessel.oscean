@@ -3,6 +3,9 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 01 06 - 38      Donsol               Release
+2016 01 05 - 36      Donsol               Development
+2016 01 04 - 26      Donsol               Design
 2016 01 03 - 23      Nataniev             Design
 2016 01 02 - 26      Donsol               Design
 2016 01 01 - 27      Nataniev             Design
