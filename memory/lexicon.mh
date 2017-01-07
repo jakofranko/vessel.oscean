@@ -244,19 +244,19 @@ DONSOL GUIDE
   LONG
     & A standard deck, jokers included, is a {*dungeon*}. Shuffle the deck and draw 4 cards, display them before you, this is a {*room*}. A room ends when all the cards are folded.
     - ♦ Diamonds are {*shields*}
-    - ♥ ︎Hearts are{*potions*}
+    - ♥ ︎Hearts are {*potions*}
     - ♠ Spades are {*monsters*}
     - ♣ ︎Clubs and Jokers are also {*monsters*}
     * <span style='color:red'>♥︎ Potions</span>
-    & You begin with a max of {*21 health points*} and can never go above. You can {*only drink one potion per room*}. Potions are equal to their value and face cards(J,Q,K,A) each are equal to 11.
+    & You begin with a max of {*21 health points*} and can never go above. You can {*only drink one potion per room*}. Potions are equal to their value and face cards (J,Q,K,A) each are equal to 11.
     * <span style='color:red'>♦ Shield Cards</span>
     & Equipping a shield allows you to absorb the damage difference from a monster value. Shields can {*only defend monsters in descending value*} and if you use a shield on a monster with higher or equal value to the previous, it will break.
     ? If you have an 8 shield equipped, by attacking a 9 monster you suffer 1 damage.
-    & Broken shields leave you unarmored, and you take full damage. A shield card will replace a previously folded shield card. Shields are equal to their value and face cards(J,Q,K,A) each are equal to 11.
+    & Broken shields leave you unarmored, and you take full damage. A shield card will replace a previously folded shield card. Shields are equal to their value and face cards (J,Q,K,A) each are equal to 11.
     * ♣♠ Monster Cards
     & Monster cards are equal to their value, and face cards are as follows J is 11, Q is 13, K is 15, A is 17; Jokers are both equal to 21.
     * Running away
-    & Once you have dealt with at least 3 cards, you can move onto the next room(set of 4 cards), moving the remainder card to the bottom of the deck. You can run away from a room you have not interacted with, once in a row.
+    & Once you have dealt with at least 3 cards, you can move onto the next room (set of 4 cards), moving the remainder card to the bottom of the deck. You can run away from a room you have not interacted with, once in a row.
     * Example Play
     # {*Room 1*} 7♦ Q♥︎ 10♠ J♣︎
     # _  Equip the 7♦ shield.
