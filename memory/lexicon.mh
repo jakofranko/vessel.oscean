@@ -256,7 +256,7 @@ DONSOL GUIDE
     * ♣♠ Monster Cards
     & Monster cards are equal to their value, and face cards are as follows J is 11, Q is 13, K is 15, A is 17; Jokers are both equal to 21.
     * Running away
-    & You may escape a room, if you have escape the previous room or have handled all the monsters in the current one. When escaping, the remaining cards are shuffled back to the bottom of the deck. 
+    & You may escape a room, if you have {*not escaped the previous one*} or {*have handled all the monsters*} in the current room. When escaping, the remaining cards are shuffled back to the bottom of the deck. 
     * Example Play
     # {*Room 1*} 7♦ Q♥︎ 10♠ J♣︎
     # _  Equip the 7♦ shield.
