@@ -2,11 +2,8 @@
 ~ NOTE : YAML
 ~ AUTH : Devine Lu Linvega
 
-~ Active
-
 PINO
   Patreon
-    Release Donsol
     Progress on Markle
   Electronics
     Install timer for fridge
@@ -14,6 +11,7 @@ PINO
     Bluetooth Speaker
   Engine
     Empty Diesel tank, remove deposit
+    Buy extra diesel jug
   Misc
     Fins
     Inspect Windvane
@@ -21,6 +19,7 @@ PINO
     Inspect mast for holes
     Fix the jib
     Inspect sails
+    Replace propane
   Paperworks
     Renew Passports
   Hardware Store
@@ -31,6 +30,10 @@ PINO
     Dry Berth material
     Protect locker drain hole
     Dinghy pump
+  Deck
+    Disasemble Windlass
+    Clean furler bearlings
+    Inspect fridge
 
 NATANIEV
   Documentation should be aware of dependencies
@@ -50,6 +53,7 @@ RONIN
   Filter
     Add auto, for auto color
     Add sharpen
+    Preview layer should be displayed in Surface
   Text tool(&)
     ..
   Brush
@@ -58,6 +62,7 @@ RONIN
   Overlay
     Guides lines for small rect values
     Fill tool
+    Layer should be displayed in Surface
   Surface
     Move layer up/down
   Eraser
@@ -70,11 +75,7 @@ RONIN
   
 DONSOL
   Sort builds
-  Update icon
-  Upload Video
   Release
-    Patreon
-    Itch.io
     Steam
     iOS
 
@@ -85,10 +86,6 @@ LIETAL
 
 PARADISE
   Create a console application
-
-GRIMGRAINS
-  Download font Abel
-  Download font Amatic SC
 
 HUNDRED RABBITS
   Add timeline filters
