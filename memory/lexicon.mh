@@ -1582,12 +1582,6 @@ LIETAL
   LINK
     GITH : https://github.com/XXIIVV/vessel.lietal
 
-LIETAL TYPE
-  UNDE : Lietal
-  BREF : Work in progress
-  LONG
-    $ lietal serve type
-
 SHORTHAND
   UNDE : Gamme
   BREF : Notebook and after notebook, I fill pages of notes, ideas and to-dos. When presented with {{the idea of shorthand|http://theatlantic.com/technology/archive/2014/06/yeah-i-still-use-shorthand-and-a-smartpen/373281/}}, I saw immediate practical application.

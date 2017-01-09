@@ -3,6 +3,7 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 01 08 - 27      Lietal               Typography
 2016 01 07 - 32      Donsol               Development
 2016 01 06 - 38      Donsol               Release
 2016 01 05 - 36      Donsol               Development
