@@ -276,7 +276,7 @@ DONSOL GUIDE
     ITCH : https://hundredrabbits.itch.io/donsol/community
     SITE : /Donsol
 
-DOMINE
+DOMINE GUIDE
   UNDE : Interactive
   BREF : {{Domine}} is a simple game to play with dominoes designed by {{Hundred Rabbits}}.
   LONG
@@ -305,6 +305,8 @@ DOMINE
     & The DP tile counter-attacks with 5.
     & The AP tile is killed by the DP tile. (5 > 4)
     & The DP wins the turn, the AP tile is flipped.
+  LINK
+    YOUT : https://www.youtube.com/watch?v=fjZb190qn00
 
 DOWNTEMPERATURE
   UNDE : First wave
@@ -1577,7 +1579,6 @@ LIETAL
   TYPE : Portal
   BREF : Created in 1998, {{Lietal}} is a {{synthetic language|http://en.wikipedia.org/wiki/Constructed_language}} created by {{Devine Lu Linvega|Devine Lu Linvega}} for linguistic experiments and research.
   LONG
-    & The Lietal language has 27 root words, each associated with a core idea - combinable and specific, to make all permutations of its alphabet possible.
     $ lietal serve documentation
   LINK
     GITH : https://github.com/XXIIVV/vessel.lietal
