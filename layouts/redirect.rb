@@ -7,10 +7,10 @@ class CorpseHttp
 
     if !term.type_value then return "<wr><p>Redirection error, sorry.</p></wr>" end
     
-    target = term.type_value.like("random") ? lexicon.to_h("term").to_a.sample.first.downcase : term.type_value
+    target = term.type_value.to_s.like("random") ? lexicon.to_h("term").to_a.sample.first.downcase : term.type_value
 
   	html = "<wr><p>Redirecting..</p></wr>
-    <meta http-equiv='refresh' content='0; url=/#{target.gsub(' ','+')}' />"
+    <meta http-equiv='refresh' content='0; url=/#{target.to_s.gsub(' ','+')}' />"
 
   	return html
 
