@@ -3,19 +3,19 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
-2016 01 13 - 26      Donsol               Design
-2016 01 12 - 37      Ronin                Tools
-2016 01 11 - 35      Ronin                Tools
-2016 01 10 - 38      Lietal               Linguistics
-2016 01 09 - 38      Lietal               Linguistics
-2016 01 08 - 27      Lietal               Typography
-2016 01 07 - 32      Donsol               Development
-2016 01 06 - 38      Donsol               Release
-2016 01 05 - 36      Donsol               Development
-2016 01 04 - 26      Donsol               Design
-2016 01 03 - 23      Nataniev             Design
-2016 01 02 - 26      Donsol               Design
-2016 01 01 - 27      Nataniev             Design
+2017 01 13 ! 26  227 Donsol               Design
+2017 01 12 - 37      Ronin                Tools
+2017 01 11 - 35      Ronin                Tools
+2017 01 10 - 38      Lietal               Linguistics
+2017 01 09 - 38      Lietal               Linguistics
+2017 01 08 - 27      Lietal               Typography
+2017 01 07 - 32      Donsol               Development
+2017 01 06 - 38      Donsol               Release
+2017 01 05 - 36      Donsol               Development
+2017 01 04 - 26      Donsol               Design
+2017 01 03 - 23      Nataniev             Design
+2017 01 02 - 26      Donsol               Design
+2017 01 01 - 27      Nataniev             Design
 2016 12 31 - 34      Dotgrid              Frontend
 2016 12 30 - 24      Hundred rabbits      Frontend
 2016 12 29 - 34      Ronin                Development
