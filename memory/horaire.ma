@@ -3,6 +3,7 @@
 ~ AUTH : Devine Lu Linvega
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2016 01 13 - 26      Donsol               Design
 2016 01 12 - 37      Ronin                Tools
 2016 01 11 - 35      Ronin                Tools
 2016 01 10 - 38      Lietal               Linguistics
