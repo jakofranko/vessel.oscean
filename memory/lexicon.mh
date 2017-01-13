@@ -248,7 +248,7 @@ DONSOL GUIDE
     - ♠ Spades are {*monsters*}
     - ♣ ︎Clubs and Jokers are also {*monsters*}
     * <span style='color:red'>♥︎ Potions</span>
-    & You begin with a max of {*21 health points*} and can never go above. You cannot {*only drink two in a row*}, taking a second potion will make you sick and result in no extra healing. Potions are equal to their value and face cards (J,Q,K,A) each are equal to 11.
+    & You begin with a max of {*21 health points*} and can never go above. You can {*only drink one potion at a time*}, taking another will make you sick and result in no extra healing. Potions are equal to their value and face cards (J,Q,K,A) each are equal to 11.
     * <span style='color:red'>♦ Shield Cards</span>
     & Equipping a shield allows you to absorb the damage difference from a monster value. Shields can {*only defend monsters in descending value*} and if you use a shield on a monster with higher or equal value to the previous, it will break.
     ? If you have an 8 shield equipped, by attacking a 9 monster you suffer 1 damage.
