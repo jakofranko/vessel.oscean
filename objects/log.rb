@@ -131,7 +131,6 @@ class Log
     <ln>
       <a class='tp #{sector}' href='/#{topic}'>#{topic}</a>
       <t class='tk'>#{task}</t>
-      <a class='tl' href='/#{topic}:diary'>#{name}</a>
       <t class='date'>#{offset}</t>
     </ln>"
 
