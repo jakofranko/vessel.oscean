@@ -22,7 +22,7 @@
 2016 12 29 - 34      Ronin                Development
 2016 12 28 - 35      Ronin                Development
 2016 12 27 - 35      Ronin                Development
-2016 12 26 - 28      Ronin                Design
+2016 12 26 ! 28  168 Ronin                Design               Ronin Stencils        Updated {{Ronin}} with built in composition stencils.
 2016 12 25 - 29      Hundred rabbits      Video
 2016 12 24 - 19      Hundred rabbits      Composition
 2016 12 23 - 35  226 Domine guide         Development          A new board game      At {{Hundred Rabbits}}, we have created a simple game playable with Dominos. Here's how to play!
