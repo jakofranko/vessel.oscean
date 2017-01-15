@@ -86,7 +86,7 @@ class Term
 
     @diaries = []
     logs.each do |log|
-      if log.photo < 1 && log.full.to_s == "" then next end
+      if log.photo < 1 then next end
       @diaries.push(log)
     end
     return @diaries

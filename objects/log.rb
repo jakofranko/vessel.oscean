@@ -59,7 +59,6 @@ class Log
     if timeDiff == -1 then return "tomorrow" end
     if timeDiff == 0 then return "today" end
     if timeDiff == 1 then return "yesterday" end
-    if timeDiff == 7 then return "a week ago" end
     if timeDiff > 740 then return (timeDiff/30/12).to_s+" years ago" end
     if timeDiff > 60 then return (timeDiff/30).to_s+" months ago" end
     if timeDiff > 30 then return "a month ago" end
@@ -133,7 +132,7 @@ class Log
       <a class='tp #{sector}' href='/#{topic}'>#{topic}</a>
       <t class='tk'>#{task}</t>
       <a class='tl' href='/#{topic}:diary'>#{name}</a>
-      <t class='dt'>#{offset}</t>
+      <t class='date'>#{offset}</t>
     </ln>"
 
   end

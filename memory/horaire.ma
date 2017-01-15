@@ -1,9 +1,10 @@
 ~ NAME : Horaire
 ~ NOTE : Output logs
 ~ AUTH : Devine Lu Linvega
+~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
-2017 01 13 ! 26  227 Donsol               Design
+2017 01 13 ! 26  227 Donsol               Design               Redesign              Released a new {{Donsol}} build, with improved UI and entirely redesigned vector graphics working on all platforms.
 2017 01 12 - 37      Ronin                Tools
 2017 01 11 - 35      Ronin                Tools
 2017 01 10 - 38      Lietal               Linguistics
@@ -24,13 +25,13 @@
 2016 12 26 - 28      Ronin                Design
 2016 12 25 - 29      Hundred rabbits      Video
 2016 12 24 - 19      Hundred rabbits      Composition
-2016 12 23 - 35  226 Domine guide         Development
+2016 12 23 - 35  226 Domine guide         Development          A new board game      At {{Hundred Rabbits}}, we have created a simple game playable with Dominos. Here's how to play!
 2016 12 22 - 35      Domine guide         Development
 2016 12 21 - 25      Domine guide         Design
 2016 12 20 - 15      Hundred rabbits      Composition
 2016 12 19 - 25      Ronin                Design
 2016 12 18 - 39      Ronin                Tools
-2016 12 17 ! 26  225 Donsol               Update
+2016 12 17 ! 26  225 Donsol               Design               Progress on Donsol    Here's the upcoming {{Donsol}} build running on iPhone.
 2016 12 16 - 24      Donsol               Illustration
 2016 12 15 - 38      Nataniev             Writing
 2016 12 14 - 28      Nataniev             Layout
@@ -60,7 +61,7 @@
 2016 11 20 - 35      Nataniev             Tools
 2016 11 19 - 33      Rationality          Writing
 2016 11 18 - 32      Ronin                Development
-2016 11 17 - 23  223 Ronin                Illustration         Alpha                 Created a small graphic software called {{Ronin}}.
+2016 11 17 - 23  223 Ronin                Illustration         Ronin Alpha           Created a small graphic software called {{Ronin}}.
 2016 11 16 - 29      Ronin                Design
 2016 11 15 - 39      Ronin                Development
 2016 11 14 - 38      Ronin                Development
@@ -70,7 +71,7 @@
 2016 11 10 - 39      Ronin                Tools
 2016 11 09 - 27      Nataniev             Design
 2016 11 08 ! 26  222 Grimgrains           Design               Bamboo Charcoal       Updated the {{Grimgrains}} website layout.
-2016 11 07 - 39  168 Babelium             Development          Thy Hexagons          Uploaded a first version of the {{Library Of Babel roguelike|Babelium}}.
+2016 11 07 - 39      Babelium             Development
 2016 11 06 - 39      Babelium             Development
 2016 11 05 - 38      Babelium             Development
 2016 11 04 - 32      Nataniev             Tools
@@ -80,7 +81,7 @@
 2016 10 31 - 38      Pino                 Maintenance
 2016 10 30 - 35      Nataniev             Update
 2016 10 29 - 34      Obliques             Writing
-2016 10 28 ! 36  221 Obliques             Writing
+2016 10 28 ! 36  221 Obliques             Writing              A Digest              I began keeping some general notes on my creative process.
 2016 10 27 - 36      Markle               Design
 2016 10 26 - 26      Markle               Design
 2016 10 25 - 27      Markle               Design
@@ -134,7 +135,7 @@
 2016 09 07 - 00
 2016 09 06 - 37      Pino                 Maintenance
 2016 09 05 - 15      Portalion            Composition
-2016 09 04 - 24   96 Markle               Design
+2016 09 04 - 24   96 Markle               Design               First draft           Here's a screenshot for {{Hundred Rabbits}}' upcoming game.
 2016 09 03 - 35      Nataniev             Development
 2016 09 02 - 35      Nataniev             Tools
 2016 09 01 - 29      Hundred rabbits      Video

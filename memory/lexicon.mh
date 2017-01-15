@@ -4,10 +4,9 @@
 
 HOME
   UNDE : Home
-  BREF : This wiki provides narrative context for the {{Audio}}, {{Visual}} and {{Research}} projects.
+  BREF : Welcome to the playground for the projects of multimedia developer {{Devine Lu Linvega}}.
   LONG
-    & Welcome to the documentation and playground for the projects of multimedia developer {{Devine Lu Linvega}}.
-    & If this is your first time around, the {{Introduction|Nataniev}} is a good place to begin your exploration. If you wish to stay updated on the development of the latest projects, follow {{@Neauoire|http://twitter.com/neauoire}}. A {{Portal}} and a {{Timeline|Horaire}} are also maintained daily as part of {{XXIIVV|Nataniev}}.
+    & This wiki provides narrative context for the {{Audio}}, {{Visual}} and {{Research}} projects. If this is your first time around, the {{Introduction|Nataniev}} is a good place to begin your exploration. A {{Portal}} and a {{Diary}} are also maintained daily.
   LINK
     SITE : /Horaire
 
@@ -1560,11 +1559,11 @@ CLOCK
 
 DESAMBER
   UNDE : Gamme
-  BREF : On {{XXIIVV|Nataniev}}, dates are written using a variance of the {{International Fixed Calendar|https://en.wikipedia.org/wiki/International_Fixed_Calendar}} and a custom convention to move the English months' names, away from those of Greek gods'.
+  BREF : On {{XXIIVV|Nataniev}}, dates are written using a variance of the {{International Fixed Calendar|https://en.wikipedia.org/wiki/International_Fixed_Calendar}}.
   LONG
-    * Today is {{!desamber}}
-    & The {_Equal Month calendar_} format has 13 months and so the number of each of these months are flected into their names.
-    & {*Every month is exactly 28 days long*}, and the 365th day of the year is the {_Year Day_}, followed by the {_Leap Day_} on leap years.
+    & The {_Equal Month calendar_} format has 13 months and so the number of each of these months are reflected into their names.
+    ? Today is {{!desamber}}
+    & Every month is {*28 days long*}, and the 365th day of the year is the {_Year Day_}, followed by the {_Leap Day_} on leap years.
     # 01 Unesamber      02 Dutesamber     03 Trisesamber
     # 04 Tetresamber    05 Pentesamber    06 Hexesamber
     # 07 Sevesamber     08 Octesamber     09 Novesamber
