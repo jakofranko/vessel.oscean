@@ -3,8 +3,6 @@
 ~ AUTH : Devine Lu Linvega
 
 PINO
-  Patreon
-    Progress on Markle
   Electronics
     Install timer for fridge
     AIS
@@ -17,7 +15,6 @@ PINO
     Inspect Windvane
     Insect float-switch
     Inspect mast for holes
-    Fix the jib
     Inspect sails
     Replace propane
   Paperworks
@@ -29,7 +26,6 @@ PINO
     Add foam under carpet
     Dry Berth material
     Protect locker drain hole
-    Dinghy pump
   Deck
     Disasemble Windlass
     Clean furler bearlings
@@ -53,8 +49,7 @@ RONIN
   Filter
     Add auto, for auto color
     Add sharpen
-    Preview layer should be displayed in Surface
-  Text tool(&)
+  Text tool
     ..
   Brush
     Trace straight line with cursor+shift
@@ -62,19 +57,19 @@ RONIN
   Overlay
     Guides lines for small rect values
     Fill tool
-    Layer should be displayed in Surface
   Surface
     Move layer up/down
+    Layers permissions
+  Eye
+    Rect -> average colors
   Eraser
-    ..
+    Rect -> Erase section
   Save
-    ..
+    Merge
   History
     Undo shortcut
-    Track widget
   
 DONSOL
-  Sort builds
   Release
     Steam
     iOS

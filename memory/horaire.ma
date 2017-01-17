@@ -4,6 +4,10 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 01 17 - 29      Ronin                Design
+2017 01 16 - 35      Markle               Design
+2017 01 15 - 35      Ronin                Tools
+2017 01 14 - 37      Ronin                Tools
 2017 01 13 ! 26  227 Donsol               Design               Redesign              Released a new {{Donsol}} build, with improved UI and entirely redesigned vector graphics working on all platforms.
 2017 01 12 - 37      Ronin                Tools
 2017 01 11 - 35      Ronin                Tools
