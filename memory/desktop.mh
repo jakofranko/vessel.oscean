@@ -39,36 +39,41 @@ THE WILL THE WISP
   
 OSCEAN
   Forum
-    Add photo for landing page
+    Improve design
 
 RONIN
   Help
+    markup=true         ~ github README.md
     ..
   Widget
-  ..
-  Filter
-    Add auto, for auto color
-    Add sharpen
+    ..
+  Render
+    % balance auto=true ~ auto color
+    % balance 0.8       ~ equal RGB balance
+    % sharpen 0.5       ~ Add filter
   Text tool
     ..
   Brush
-    Trace straight line with cursor+shift
     Texture paint
   Overlay
-    Guides lines for small rect values
     Fill tool
   Surface
     Move layer up/down
     Layers permissions
+    Hide inactive managed layers
   Eye
-    Rect -> average colors
+    * 10,10 200x200     ~ Average colors
   Eraser
-    Rect -> Erase section
+    . 10,10 200x200     ~ Erase section
   Save
-    Merge
+    $ 1280x800          ~ Export with size
   History
     Undo shortcut
   
+MARKLE
+  Animate
+  Implement JQuery
+
 DONSOL
   Release
     Steam
