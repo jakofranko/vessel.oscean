@@ -4,6 +4,7 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 01 19 - 37  229 Nomads               Writing
 2017 01 18 - 37      Ronin                Tools
 2017 01 17 - 29      Ronin                Design
 2017 01 16 - 35      Markle               Design
