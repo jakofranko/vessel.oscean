@@ -4,10 +4,11 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 01 20 - 25      Markl                Design
 2017 01 19 - 37  229 Nomads               Writing              Fulcanelli            Some thoughts on travel.
 2017 01 18 - 37      Ronin                Tools
 2017 01 17 - 29      Ronin                Design
-2017 01 16 - 35      Markle               Design
+2017 01 16 - 35      Markl                Design
 2017 01 15 - 35      Ronin                Tools
 2017 01 14 - 37      Ronin                Tools
 2017 01 13 ! 26  227 Donsol               Design               Redesign              Released a new {{Donsol}} build, with improved UI and entirely redesigned vector graphics working on all platforms.
@@ -23,7 +24,7 @@
 2017 01 03 - 23      Nataniev             Design
 2017 01 02 - 26      Donsol               Design
 2017 01 01 - 27      Nataniev             Design
-2016 12 31 - 34      Dotgrid              Frontend
+2016 12 31 - 34      Ronin                Frontend
 2016 12 30 - 24      Hundred rabbits      Frontend
 2016 12 29 - 34      Ronin                Development
 2016 12 28 - 35      Ronin                Development
@@ -88,18 +89,18 @@
 2016 10 30 - 35      Nataniev             Update
 2016 10 29 - 34      Obliques             Writing
 2016 10 28 ! 36  221 Obliques             Writing              A Digest              I began keeping some general notes on my creative process.
-2016 10 27 - 36      Markle               Design
-2016 10 26 - 26      Markle               Design
-2016 10 25 - 27      Markle               Design
-2016 10 24 - 34      Markle               Development
-2016 10 23 - 37      Markle               Migration
+2016 10 27 - 36      Markl                Design
+2016 10 26 - 26      Markl                Design
+2016 10 25 - 27      Markl                Design
+2016 10 24 - 34      Markl                Development
+2016 10 23 - 37      Markl                Migration
 2016 10 22 - 29      Hundred rabbits      Design
 2016 10 21 - 24      Hundred rabbits      Design
-2016 10 20 - 37      Markle               Migration
+2016 10 20 - 37      Markl                Migration
 2016 10 19 - 37      Nataniev             Tools
 2016 10 18 - 37      The will the wisp    Update
-2016 10 17 - 37      Markle               Migration
-2016 10 16 - 36      Markle               Migration
+2016 10 17 - 37      Markl                Migration
+2016 10 16 - 36      Markl                Migration
 2016 10 15 - 25  162 Nervous              Modeling             Woulg                 Cover for {{Woulg|https://www.facebook.com/woulg.music/}}'s Dragged album on {{Methlab Agency|http://methlab-agency.com}}.
 2016 10 14 - 24      Nataniev             Design
 2016 10 13 - 23      Nataniev             Design
@@ -141,12 +142,12 @@
 2016 09 07 - 00
 2016 09 06 - 37      Pino                 Maintenance
 2016 09 05 - 15      Portalion            Composition
-2016 09 04 - 24   96 Markle               Design               First draft           Here's a screenshot for {{Hundred Rabbits}}' upcoming game.
+2016 09 04 - 24   96 Markl                Design               First draft           Here's a screenshot for {{Hundred Rabbits}}' upcoming game.
 2016 09 03 - 35      Nataniev             Development
 2016 09 02 - 35      Nataniev             Tools
 2016 09 01 - 29      Hundred rabbits      Video
 2016 08 31 - 29   86 Pino                 Photography
-2016 08 30 - 34      Markle               Development
+2016 08 30 - 34      Markl                Development
 2016 08 29 - 24      Polygonoscopy        Modeling
 2016 08 28 - 38      The will the wisp    Migration
 2016 08 27 - 27      Nataniev             Design
@@ -174,7 +175,7 @@
 2016 08 05 - 32      Nataniev             Tools
 2016 08 04 - 38      Nataniev             Tools
 2016 08 03 - 38      Nataniev             Tools
-2016 08 02 - 28      Markle               Design
+2016 08 02 - 28      Markl                Design
 2016 08 01 - 38      Nataniev             Tools
 2016 07 31 - 38      Nataniev             Migration
 2016 07 30 - 38      Nataniev             Tools
@@ -184,8 +185,8 @@
 2016 07 26 - 15      Hundred rabbits      Video
 2016 07 25 - 34      Definitist           Development
 2016 07 24 - 36      Definitist           Linguistics
-2016 07 23 - 35      Markle               Prototype
-2016 07 22 - 36      Markle               Prototype
+2016 07 23 - 35      Markl                Prototype
+2016 07 22 - 36      Markl                Prototype
 2016 07 21 - 34      Nataniev             Development
 2016 07 20 - 34      Nataniev             AI
 2016 07 19 - 34      Nataniev             AI
@@ -334,7 +335,7 @@
 2016 02 27 - 19      Portalion            Composition
 2016 02 26 - 19      Portalion            Composition
 2016 02 25 - 19      Portalion            Composition
-2016 02 24 - 36      Markle               Prototype
+2016 02 24 - 36      Markl                Prototype
 2016 02 23 - 23      Hundred rabbits      Branding
 2016 02 22 - 37      Grimgrains           Development
 2016 02 21 - 37      Grimgrains           Development
@@ -467,7 +468,7 @@
 2015 10 17 - 25      Verreciel            Documentation
 2015 10 16 - 36      Verreciel            Development
 2015 10 15 - 27  473 Nataniev             Design               The New Ghost
-2015 10 14 - 34      Markle               Prototype
+2015 10 14 - 34      Markl                Prototype
 2015 10 13 - 32      Verreciel            Development
 2015 10 12 - 32      Verreciel            Development
 2015 10 11 - 32      Verreciel            Development
