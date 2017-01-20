@@ -21,7 +21,7 @@
 2017 01 06 - 38      Donsol               Release
 2017 01 05 - 36      Donsol               Development
 2017 01 04 - 26      Donsol               Design
-2017 01 03 - 23      Nataniev             Design
+2017 01 03 - 23  230 Directory            Photography
 2017 01 02 - 26      Donsol               Design
 2017 01 01 - 27      Nataniev             Design
 2016 12 31 - 34      Ronin                Frontend
