@@ -34,4 +34,28 @@
 20161214234247 Merveilles           9    Thanks man ~neauoire
 20161215184759 Merveilles                mhmm%0A
 20161215184814 Babelium             1    Glad to hear! ~Neauoire
-20161218182157 Hiversaires               can you post a key for what traumae symbols in hiversaires go to each construct. Also what is with the blue girl from what i can gather(from the info off github) she is one of nine illusions in the game. How can i find  the other, is the normal ending(that all walkthroughs use) not the only ending.
+20161218182157 Hiversaires               can you post a key for what traumae symbols in hiversaires go to each construct. Also what is with the blue girl from what i can gather(from the info off github) she is one of nine illusions in the game. How can i find  the other, is the normal ending(that all walkthroughs use) not the only ending.20161218192502 Death                     This is a test
+20161220112411 Hiversaires          2    Got back to your through email. ~ neauoire
+20161220224829 Death                     This is a test
+20161225134329 Death                     this is a test ~test
+20161226144113 Death                2    give feedback and report issues about Death. ~neauoire
+20161229130940 Death                     what happens when Death
+20161229172642 Death                3    Total AR ~neauoire
+20161229221850 Nataniev                  i like memes
+20161229221859 Nataniev                  rick was here
+20161230093121 The                       dismissal So what is the alternative
+20170102212154 Horaire                   i dont know programming but i want make tool like this. what should i do or is it possible
+20170103195707 Hiversaires               this seems the best spot to post this, sorry if it is not.lietal. I figured it out after months of searching and piecing things together, but there are multiple charts i found for the aeths translations. one from back when xa wasnt counted as an aethlets call it traum, one that works with hiversairestraumae,and one on this wiki right nowlietal. what are your plans for the conlang
+20170104165027 Cyanosis                  fever where do i go to download this
+20170106121317 Hiversaires          3    Right now, I would like to complete the divieths and then use Lietal across the XXIIVV ecosystems. ~neauoire
+20170109003233 Devine                    lu linvega Awesome work man
+20170113233340 Nataniev                  *braaaaap*
+20170113233417 Devine                    lu linvega looks like a fag
+20170114144453 Oquonie                   Hi Ive purchased Oquonie for MacOS on hundredrabbits.itch.io. However, the game wont run as the certificates have been revoked. Can you have a look into this please
+20170115073459 Ronin                     *youre my inspiration* -a fan
+20170115105115 Oquonie              1    I will Sorry about that. ~neauoire
+20170116161135 Oquonie                   neauoire Just let me know here when it is fixed, it will be faster than redownloading and testing. Thanks
+20170119134149 Oquonie              2    Will do. Can you send me a message through itch. I will send you some things to keep you busy in the meantime
+20170119220001 Oquonie                   Hi neauoire, Ive searched the itch website high and low to find a way to contact you, but did not find any address. Can you tell me at which address I may reach you
+20170120025209 Horaire                   What is the type of information that you log each day in Horaires
+20170121105105 Horaire              2    You can have a look at this file, its the maintained list of logs.
