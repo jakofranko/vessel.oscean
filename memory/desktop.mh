@@ -69,15 +69,22 @@ RONIN
     $ 1280x800          ~ Export with size
   History
     Undo shortcut
+  Cursor
+    Snapping to grid
+  Vector
+    Integrate DotGrid-like tools
   
 MARKL
-  Animate
-  Implement JQuery
+  Attack
+  Block
+  Knockback
+  Death state
+  Endgame
+  Time's up
 
 DONSOL
   Release
-    Steam
-    iOS
+    Windows 32Bit builds
 
 LIETAL
   Translate introduction
