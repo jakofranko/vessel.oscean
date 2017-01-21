@@ -48,7 +48,8 @@ class Comment
   
   def to_s
     
-    return "<comment "+(nest ? "class='nested'" : "")+">"+(message ? message : "This comment has been deleted.")+" <span class='timestamp reply' data='#{nest ? nest : id}'>#{timestamp.ago}</span>"+(author ? " by ~#{author}" : "")+"</comment>\n"
+    return "<comment "+(nest ? "class='nested'" : "")+">
+    <div class='key'><span class='timestamp reply' data='#{nest ? nest : id}'>#{timestamp.ago}</span> <span class='author #{(author && author == "neauoire" ? "admin" : "")}'>#{(author ? "~#{author}" : "~Anonymous")}</span></div> <span class='message'>"+(message ? message : "This comment has been deleted.")+"</span></comment>\n"
     
   end
   

@@ -6,14 +6,21 @@ class CorpseHttp # Module
   def style
     
      return "<style>
-form { background: #ddd; border-radius: 4px; margin-bottom:30px }
-form textarea {display: block; width: calc(100% - 20px); padding: 10px; border-radius: 3px;}
-form pre { font-family: monospace;font-size: 12px;padding: 10px;color: #555;}
-thread { display: block;padding: 10px;font-family: monospace;font-size: 14px;line-height: 20px; border-top:1px solid #ccc}
-thread comment { display:block;}
-thread comment.nested { margin-left:30px}
-thread comment.nested:before { content:'>'; margin-right:10px; color:#999 }
-thread comment .timestamp { color: #999; }
+vi.forum form { background: #000; color:white; margin-bottom:30px }
+vi.forum form textarea {display: block; width: calc(100% - 20px); padding: 10px; color:#000;font-family: 'input_mono_medium',monospace;font-size: 12px;}
+vi.forum form pre { font-family: 'input_mono_medium',monospace;font-size: 12px;padding: 10px;color: #fff;}
+vi.forum thread { display: block;font-family: 'input_mono_medium',monospace;font-size: 12px;line-height: 20px;margin-bottom: 30px;border-bottom: 1px solid #ccc;padding-bottom: 30px }
+vi.forum thread comment { display:block; }
+vi.forum thread comment.nested .message { padding-left:30px;display: block; background:none}
+vi.forum thread comment.nested .message:before { content:'>'; margin-right:10px; color:#999 }
+vi.forum thread comment .key { float:left}
+vi.forum thread comment .timestamp { color: #999; }
+vi.forum thread comment .timestamp:hover { text-decoration:underline; cursor:pointer}
+vi.forum thread comment .author { font-family:'input_mono_regular'; padding:10px 0px; display:inline-block}
+vi.forum thread comment .message { margin-left:200px;display: block; background:white; padding:10px}
+vi.forum thread comment .message a { text-decoration:underline}
+vi.forum thread comment .message b { font-family:'input_mono_regular'; font-weight:normal}
+vi.forum thread comment .author.admin:after { content:'*'; color:#72dec2}
 </style>"
      
   end
@@ -39,7 +46,7 @@ $(".reply").on("click", function(e) {
   def view
     
     html = "\n"
-    html += "<p>This {_:forum_} page is the place to anonymously ask question, give feedback and report issues about {{#{@term.name}}}.</p>\n".markup
+    html += "<p>Anonymously ask questions, give feedback and report issues about {{#{@term.name}}}.</p>\n".markup
     html += "<form><textarea id='commander' placeholder='Input comment here'></textarea><pre>{*<b>bold</b>*} {_<i>italic</i>_} ~Username <span style='float:right'>CTRL+ENTER to post</span></pre></form>\n\n"
     comments = Memory_Array.new("forum",@host.path).filter("topic",@term.name,"comment")
     
@@ -59,7 +66,7 @@ $(".reply").on("click", function(e) {
       id += 1
     end
 
-    return html+script
+    return "<vi class='forum'>"+html+script+"<p>Return to the <a href='/Forum'>forum index</a>.</p></vi>"
 
   end
   

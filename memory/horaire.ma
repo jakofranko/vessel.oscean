@@ -4,6 +4,7 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 01 21 - 25      Nataniev             Tools
 2017 01 20 - 25      Markl                Design
 2017 01 19 - 37  229 Nomads               Writing              Fulcanelli            Some thoughts on travel.
 2017 01 18 - 37      Ronin                Tools
@@ -52,7 +53,7 @@
 2016 12 06 - 34      Russian              Tools
 2016 12 05 - 34      Russian              Tools
 2016 12 04 - 34      Nataniev             Tools
-2016 12 03 - 00
+2016 12 03 - 24  232 Forum                Design
 2016 12 02 - 00
 2016 12 01 - 34      Pino                 Maintenance
 2016 11 30 - 34      Donsol               Development

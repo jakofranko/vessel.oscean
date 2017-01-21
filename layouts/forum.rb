@@ -6,13 +6,18 @@ class CorpseHttp # Layout
   def style
     
      return "<style>
-thread { display: block;font-family: monospace;font-size: 14px;line-height: 30px;border-top: 1px solid #ccc;}
-thread comment { display:block;}
-thread a { text-decoration:underline}
-thread .timestamp { color:#999 }
-thread .activity { color:#000}
-p.error { background:red; color:white}
-p.success { background:#72dec2}
+vi.forum { margin-bottom:30px; display:block;}
+vi.forum thread { display: block;font-family:'input_mono_medium',monospace;font-size: 12px;line-height: 30px; color:#999; padding:0px 10px}
+vi.forum thread.active { background:#72dec2; color:#fff}
+vi.forum thread:hover { background:white; color:#000}
+vi.forum thread b { font-family:'din_bold'; font-weight:normal}
+vi.forum thread comment { display:block;}
+vi.forum thread a { color:#000}
+vi.forum thread a:hover { text-decoration:underline;}
+vi.forum thread .activity { color:#000; font-family:'din_bold'}
+vi.forum p.error { background:red; color:white; font-family:'din_bold'; font-size:14px; padding:0px 10px}
+vi.forum p.success { background:#fff; color:000; font-family:'din_bold'; font-size:14px; padding:0px 10px}
+vi.forum p.success a {color:000; font-family:'din_bold'; text-decoration:underline}
 </style>"
      
   end
@@ -20,15 +25,23 @@ p.success { background:#72dec2}
   def view
     
     html = "\n"
-    html += "<p>The {_/forum_} displays a collection of active topics across {{Nataniev}}.</p>\n".markup
-    html += "<p>New topics can be created by adding the suffix {_:forum_} to any search query.</p>".markup
+    html += "<p>Welcome to the {_:forums_}.</p>\n".markup
+    html += "<p>This :forum page is the place to anonymously ask question, give feedback and report issues. New topics can be created by adding the suffix {_:forum_} to any existing term.</p>".markup
  
     if @module
       html += run_command(@module)+"\n"
     end
     
-    # List topics
+    html += "<div style='column-count:2'>#{main_list}</div>"
     
+    return "<vi class='forum'>#{html}</vi>"
+
+  end
+
+  def main_list
+
+    html = ""
+
     comments = Memory_Array.new("forum",@host.path)
     
     topics = {}
@@ -47,9 +60,12 @@ p.success { background:#72dec2}
     end
     
     topics.each do |topic,content|
-      html += "<thread>"
-      html += "<span class='activity'>#{content['replies'].length.to_s.prepend('0',2)}#{content['threads'].length.to_s.prepend('0',2)}</span> <a href='/#{topic}:forum'>#{topic}</a> <span class='timestamp'>#{content['active'].ago}</span>\n"
-      html += "</thread>"
+      html += "
+      <thread class='#{content['active'].elapsed < 10000 ? "active" : ""}'>
+        <span class='activity'>#{content['replies'].length.to_s.prepend('0',2)}#{content['threads'].length.to_s.prepend('0',2)}</span>
+        #{@lexicon.filter("term",topic,"term").unde}/<a href='/#{topic}:forum'>#{topic}</a>   
+        <span class='timestamp'>#{content['active'].ago}</span>\n
+      </thread>"
     end
   
     return html
@@ -93,12 +109,12 @@ p.success { background:#72dec2}
     end
     
     message = message.strip
-    message = message.gsub(/[^A-Za-z0-9\,\.\s\{\}\*\_\-\~]/i, '')
+    message = message.gsub(/[^A-Za-z0-9\,\!\.\s\{\}\*\_\-\~]/i, '')
 
     # Save
     comments.append("#{Timestamp.new.to_s.append(' ',14)} #{topic.to_s.capitalize.append(' ',20)} #{reply.to_s.append(' ',4)} #{message}")
     
-    return "<p>Your comment on <a href='/#{topic}:forum'>#{topic}</a> has been saved.</p>"
+    return "<p class='success'>Your comment on <a href='/#{topic}:forum'>#{topic}</a> has been saved.</p>"
     
   end
   
