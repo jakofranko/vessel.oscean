@@ -4,6 +4,7 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 01 22 - 29      Ronin                Tools
 2017 01 21 - 25      Nataniev             Tools
 2017 01 20 - 25      Markl                Design
 2017 01 19 - 37  229 Nomads               Writing              Fulcanelli            Some thoughts on travel.

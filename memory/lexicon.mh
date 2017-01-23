@@ -1532,7 +1532,6 @@ RONIN
   LONG
     & The application is a cross-over between Vim and Photoshop, where every change to the canvas is inputed as a command.
     & It is meant to replace the use of Photoshop for simple repetitive tasks, basic illustration jobs and the creation of grid based designs.
-    & It used alongside {{Dotgrid|https://github.com/hundredrabbits/Dotgrid}}.
   LINK
     GITH : https://github.com/hundredrabbits/Ronin
 
