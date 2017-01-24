@@ -3,34 +3,44 @@
 ~ AUTH : Devine Lu Linvega
 
 PINO
+  Inspection
+    Windvane
+    Float-switch
+    mast for holes
+    sails
+    Windlass
+    Furler bearlings
+    Fridge
   Electronics
     Install timer for fridge
-    AIS
-    Bluetooth Speaker
+    Install LEDs
   Engine
-    Empty Diesel tank, remove deposit
     Buy extra diesel jug
   Misc
     Fins
-    Inspect Windvane
-    Insect float-switch
-    Inspect mast for holes
-    Inspect sails
     Replace propane
     Get waterpump
-  Paperworks
-    Renew Passports
   Hardware Store
-    Black hockey tape
-    Install Cockpit light
     V-berth walls
     Add foam under carpet
     Dry Berth material
     Protect locker drain hole
-  Deck
-    Disasemble Windlass
-    Clean furler bearlings
-    Inspect fridge
+  Canada Run
+    Bluetooth Speaker
+    Camera
+    Film developed
+    Renew Passports
+    Pilot charts printing
+    Maple Sirup
+    Nutritional yeast
+    Junji Ito
+  Short Term
+    Laundry
+    Wash Bimini
+    Fix windvane
+    Pick up packages?
+    Install LEDs
+    Take down sail
 
 NATANIEV
   Documentation should be aware of dependencies
@@ -59,6 +69,7 @@ RONIN
     Move layer up/down
     Layers permissions
     Hide inactive managed layers
+    Switch to @ instead of #
   Eye
     * 10,10 200x200     ~ Average colors
   Save
@@ -68,15 +79,11 @@ RONIN
   
 MARKL
   Attack
-  Block
   Knockback
   Death state
   Endgame
   Time's up
-
-DONSOL
-  Release
-    Windows 32Bit builds
+  Spritesheet/DOM Objects
 
 LIETAL
   Translate introduction
