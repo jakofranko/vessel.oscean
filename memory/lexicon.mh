@@ -87,14 +87,6 @@ ADVENT V
     
 ~
 
-ALICEFFEKT
-  UNDE : Audio
-  BREF : Aliceffekt, is an explorative and narrative audio project by {{Devine Lu Linvega}}.
-  LONG
-    &  A travel across the fictional worlds of the {{Neauismetica}} where every album is a sort of travel diary across the {{Dinaisth}} landscape.
-  LINK :
-    BAND : https://aliceffekt.bandcamp.com
-
 TO THE AEONS HELL
   UNDE : First wave
   BREF : This album is a sort of mixtape made of bits and pieces from songs I like.
@@ -154,13 +146,13 @@ CAMILARE
     * Dictionary
     & This is a list of the most commonly used characters in {{Oquonie}}.
     > <table id='camilare'>
-    > <tr><td><img src='public.oscean/media/generic/camilare.nemedique.png'/></td><td>Nestorine</td>                              <td><img src='public.oscean/media/generic/camilare.Nephtaline.png'/></td><td>Nephtaline<br/></td>                           <td><img src='public.oscean/media/generic/camilare.Necomedre.png'/></td><td>Necomedre</td></tr>
-    > <tr><td><img src='public.oscean/media/generic/camilare.Neomine.png'/></td><td>Neomine</td>	                                <td><img src='public.oscean/media/generic/camilare.Door.png'/></td><td>Dialocie<br/><small>Door</small></td>                <td></td><td>Paradiacie<br/><small>Door Special</small></td></tr>
-    > <tr><td><img src='public.oscean/media/generic/camilare.Teleport.png'/></td><td>Zolenie<br/><small>Teleport</small></td>	    <td><img src='public.oscean/media/generic/camilare.Correct.png'/></td><td>Hoathiste<br/><small>Correct/Yes</small></td>	    <td><img src='public.oscean/media/generic/camilare.Incorrect.png'/></td><td>Gemaniste<br/><small>Incorrect/No</small></td></tr>
-    > <tr><td><img src='public.oscean/media/generic/camilare.Unlocked.png'/></td><td>Ecrine<br/><small>Unlocked</small></td>	    <td><img src='public.oscean/media/generic/camilare.Locked.png'/></td><td>Ednasene<br/><small>Locked</small></td>	          <td><img src='public.oscean/media/generic/camilare.Help.png'/></td><td>Celpadmale<br/><small>Help</small></td></tr>
-    > <tr><td><img src='public.oscean/media/generic/camilare.Sound.png'/></td><td>Aohzaille<br/><small>Sound</small></td>	        <td><img src='public.oscean/media/generic/camilare.Guide.png'/></td><td>Mikethale<br/><small>Guide</small></td>	            <td><img src='public.oscean/media/generic/camilare.Inside.png'/></td><td>Casarmate<br/><small>Inside</small></td></tr>
-    > <tr><td><img src='public.oscean/media/generic/camilare.Outside.png'/></td><td>Carmate<br/><small>Outside</small></td>	      <td><img src='public.oscean/media/generic/camilare.Key.png'/></td><td>Emetegisenete<br/><small>Key</small></td>	            <td><img src='public.oscean/media/generic/camilare.Friend.png'/></td><td>Zorgiene<br/><small>Friend</small></td></tr>
-    > <tr><td><img src='public.oscean/media/generic/camilare.Foe.png'/></td><td>Oquonie<br/><small>Foe</small></td>	              <td><img src='public.oscean/media/generic/camilare.Pillar.png'/></td><td>Den<br/><small>Pillar</small></td>	                <td><img src='public.oscean/media/generic/camilare.Nemedique.png'/></td><td>Nemedique<br/><small>Nemedique</small></td></tr>
+    > <tr><td><img src='public.oscean/media/generic/camilare.nemedique.png'/></td><td>Nestorine</td>                              <td><img src='public.oscean/media/generic/camilare.nephtaline.png'/></td><td>Nephtaline<br/></td>                           <td><img src='public.oscean/media/generic/camilare.necomedre.png'/></td><td>Necomedre</td></tr>
+    > <tr><td><img src='public.oscean/media/generic/camilare.neomine.png'/></td><td>Neomine</td>	                                <td><img src='public.oscean/media/generic/camilare.door.png'/></td><td>Dialocie<br/><small>Door</small></td>                <td></td><td>Paradiacie<br/><small>Door Special</small></td></tr>
+    > <tr><td><img src='public.oscean/media/generic/camilare.teleport.png'/></td><td>Zolenie<br/><small>Teleport</small></td>	    <td><img src='public.oscean/media/generic/camilare.correct.png'/></td><td>Hoathiste<br/><small>Correct/Yes</small></td>	    <td><img src='public.oscean/media/generic/camilare.incorrect.png'/></td><td>Gemaniste<br/><small>Incorrect/No</small></td></tr>
+    > <tr><td><img src='public.oscean/media/generic/camilare.unlocked.png'/></td><td>Ecrine<br/><small>Unlocked</small></td>	    <td><img src='public.oscean/media/generic/camilare.locked.png'/></td><td>Ednasene<br/><small>Locked</small></td>	          <td><img src='public.oscean/media/generic/camilare.help.png'/></td><td>Celpadmale<br/><small>Help</small></td></tr>
+    > <tr><td><img src='public.oscean/media/generic/camilare.sound.png'/></td><td>Aohzaille<br/><small>Sound</small></td>	        <td><img src='public.oscean/media/generic/camilare.guide.png'/></td><td>Mikethale<br/><small>Guide</small></td>	            <td><img src='public.oscean/media/generic/camilare.inside.png'/></td><td>Casarmate<br/><small>Inside</small></td></tr>
+    > <tr><td><img src='public.oscean/media/generic/camilare.outside.png'/></td><td>Carmate<br/><small>Outside</small></td>	      <td><img src='public.oscean/media/generic/camilare.key.png'/></td><td>Emetegisenete<br/><small>Key</small></td>	            <td><img src='public.oscean/media/generic/camilare.friend.png'/></td><td>Zorgiene<br/><small>Friend</small></td></tr>
+    > <tr><td><img src='public.oscean/media/generic/camilare.foe.png'/></td><td>Oquonie<br/><small>Foe</small></td>	              <td><img src='public.oscean/media/generic/camilare.pillar.png'/></td><td>Den<br/><small>Pillar</small></td>	                <td><img src='public.oscean/media/generic/camilare.nemedique.png'/></td><td>Nemedique<br/><small>Nemedique</small></td></tr>
     > </table>
 
 CENOTE
@@ -1179,14 +1171,6 @@ ZJEVENI
 
 ~ Nataniev
   
-MAEVE
-  UNDE : Nataniev
-  BREF : {{Maeve}} is an automated {{Nataniev}} vessel, traveling around the virtual scapes of Nataniev looking for incomplete vessels and errors.
-  LONG
-    Rating each vessel with an index, it deletes redundant vessels and move vessels outside of the void.
-  LINK
-    GITH : https://github.com/XXIIVV/Nataniev/blob/master/vessels/maeve.rb
-
 NATANIEV CASE
   UNDE : Physical
   BREF : I could not find a slick black case so I designed myself an iPhone 5S case with Society6. The print contains the name of my favourite 3 chapters of the {{Vast}} book: "{_Jlhadeaai, Huqrea & Jahaoghad_}".
@@ -1286,24 +1270,20 @@ Whiinders
   UNDE : Dinaisth
   FLAG : TODO
 
-~ IMMORTAL BIRDS
+~ CHARACTERS
 
-IMMORTAL BIRDS
+CHARACTERS
   UNDE : Neauismetica
   BREF : {{Immortal Birds}} are individuals looking working on the {{Ehrivevnv}}, aspiring to reach the center of the dimensional puzzle. The group is often called {_The Courtship Of The Immortal Birds_}, taking its name from the {{Language Of The Birds|Nohlxeserre}}.
 
 YAJNEV
-  UNDE : Immortal birds
+  UNDE : Characters
   BREF : {{Yajnev}} who's death triggered the {{first season|Feu}}, often referred to as the "Yajnev Collapse". The event engulfed Vetetrandes in a "loss of time", opaque and impenetrable.
   LONG
     & In his life, Yajnev worked in what became the {{Ehrivevnv}} with ties in the early {{Neon hermetism}}. His connection with {{Andes}} is unclear, but his death coincides with notes found in the Offices. Yajnev was also doing early research on {{Neausea}}.
 
-LUDIVINE
-  UNDE : Immortal birds
-  BREF : {{Ludivine}} is a system that guides the research and study of the {{Neon Hermetism}} in the space surrounding {{Dinaisth}}, not much else is known.
-  
 RLIONN
-  UNDE : Immortal birds
+  UNDE : Characters
   BREF : Rlionn, {_Ehrleeon_}, is an important and recurring Immortal intelligence from the {{Neauismetica}} for she is the mother of {{Neonev}} and regent of the {{Laeisth|Dinaisth}} sands and Oasis.
   LONG
     & Not many have successfully crossed the {{Rlionn Oasis|Dinaisth}}, for it is swarming with a lifeform called her "Children". Rlionn is not a single individual but an intelligent trait that manifests itself as a collective state of mind for the inhabitant of the Oasis.
@@ -1312,7 +1292,7 @@ RLIONN
     & Spoken-of in tales and songs, the story of her children are sung in the album {{Children of bramble}} and illustrated in the {{The Rlionn Oasis|Laeisth}} short.
 
 ANDES
-  UNDE : Immortal birds
+  UNDE : Characters
   BREF : Andes, immortal, who slipped into {{Dinaisth}}'s {{timeline|Soies}} shortly before the {{first season|Feu}}.
   LONG
     & The role of Andes in the {{Yajnev Collapse|Yajnev}} is unknown, but his arrival coincides with the destruction of Vetetrandes.
@@ -1320,11 +1300,34 @@ ANDES
     & Not much is known about Andes besides that his existance in Dinaisth was made possible by exploiting a flaw in the protections systems of {{Soies}}, the called is now commonly known as "The rope of maeve" and is used by the {{Neon Hemetists|Neon Hermetism}} to travel through timelines, see {{The rule of maeve|Soies}}.
 
 NEONEV
-  UNDE : Immortal birds
+  UNDE : Characters
   BREF : {{Neonev}} is the protagonist of the {{Neauismetica}}. She traveled {{Dinaisth}} for a long time. She appeared on the raft in {{Kanikule}} during the {{first season|feu}} and is a {_Daughter of {{Rlionn}}_}, Immortal.
   LONG
     & Throughout her long life, she wore many names. Neonev, while she crossed {{Kanikule}} from {{Neau}}. Neonev, by the meeting with {{Andes}} in {{Dinaisth}}. Evelyn, when meeting with {{Aliceffekt}} in {{Es|Dinaisth}}.
     & Neonev met with {{Andes}} at his arrival in the northern part of Dinais and again as Evelyn before he met with {{Paradichlorisse}} in the last season. While they lived apart, they corresponded and established {{Neon Hermetism}} to solve the dimensional puzzle {{Ehrivevnv}}.
+
+DEVINE LU LINVEGA
+  BREF : {{Devine lu linvega}} is a developer living aboard a {{sailboat|Hundred rabbits}} on the Pacific Ocean.
+  UNDE : Characters
+  LONG
+    & Operating under the {{Neauoire|https://twitter.com/neauoire}} moniker, Devine is currating the {{Beldam Records}} catalog, creating {{experimental mobile projects|http://www.creativeapplications.net/openframeworks/experimental-mobile-apps-by-devine-aliceffect-lu-linvega}} and documenting their {{life at sea|https://www.youtube.com/playlist?list=PLV-JXZPiMUdtBGYfvbp9M7N0Tc15GMqy1}}.
+    & Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}} — Devine hope to inspire visitors to learn and to travel.
+    ? To {{flee|Obliques}} is life,<br /> To linger is {{Death}}.
+
+MAEVE
+  UNDE : Characters
+  BREF : {{Maeve}} is an automated vessel, traveling around the virtual scapes of {{Nataniev}} looking for incomplete vessels and errors.
+  LONG
+    & Rating each vessel with an index, it deletes redundant vessels and move vessels outside of the void.
+
+ALICEFFEKT
+  UNDE : Characters
+  BREF : {{Aliceffekt}}, is a traveler.
+  LONG
+    &  A travel across the fictional worlds of the {{Neauismetica}} where every album is a sort of travel diary across the {{Dinaisth}} landscape.
+  LINK :
+    BAND : https://aliceffekt.bandcamp.com
+
 
 ~ Photography
 
@@ -1621,14 +1624,6 @@ NEEDLES
     % needles
 
 ~ Equipment
-
-DEVINE LU LINVEGA
-  BREF : {{Devine lu linvega}} is a developer living aboard a {{sailboat|Hundred rabbits}} on the Pacific Ocean.
-  UNDE : Characters
-  LONG
-    & Operating under the {{Neauoire|https://twitter.com/neauoire}} moniker, Devine is currating the {{Beldam Records}} catalog, creating {{experimental mobile projects|http://www.creativeapplications.net/openframeworks/experimental-mobile-apps-by-devine-aliceffect-lu-linvega}} and documenting their {{life at sea|https://www.youtube.com/playlist?list=PLV-JXZPiMUdtBGYfvbp9M7N0Tc15GMqy1}}.
-    & Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}} — Devine hope to inspire visitors to learn and to travel.
-    ? To {{flee|Obliques}} is life,<br /> To linger is {{Death}}.
 
 INVENTORY
   UNDE : Devine lu linvega
