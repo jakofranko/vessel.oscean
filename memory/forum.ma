@@ -52,3 +52,12 @@
 20170121105105 Horaire              2    You can have a look at {{this file|https://github.com/XXIIVV/vessel.oscean/blob/master/memory/horaire.ma}}, its the maintained list of logs. ~neauoire
 20170121085907 Oquonie              3    sure my gmail is aliceffekt. Send me an email. ~neauoire
 20170121103303 Horaire              1    It is {*possible*}, i would be happy to help.
+20170121202118 Oquonie                   Email Sent -just for followup-
+20170121222920 Merveilles                o_o ~floatvoid
+20170122114528 Merveilles                SUGOOOOOOOOOOOOOIIII!!!!!
+20170123082907 Donsol                    guide is it allowed to NOT use a shield
+20170123082957 Donsol                    is it allowed to NOT use a shield
+20170123184639 Donsol               1    Its allowed to not use a shield, but you will get full damage in your face.
+20170124122131 Nataniev                  blue wafflesearch it
+20170125083131 Oquonie                   ~Anonymouse Wen du wi git a seaquill tu this grate pease uf art
+20170126174723 Oquonie              4    Got it! Thank you.
