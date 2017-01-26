@@ -115,7 +115,11 @@ class CorpseHttp
   
   def _portal
     
-    return "<yu class='portal'><a href='/#{term.portal}' class='portal'>#{ badge = Media.new("badge",term.name) ; badge.exists ? badge : badge = Media.new("badge",term.portal) ; badge.exists ? badge : badge = Media.new("badge","nataniev") ; badge.set_class("portal") ; badge }</a>#{_links}</yu>"
+    t = ""
+    term.siblings.each do |sibling|
+      t += sibling.name.like(term.name) ? "<b>"+sibling.name+"</b> " : "<a href='/#{sibling.name}'>#{sibling.name}</a> "
+    end
+    return "<yu class='portal'><a href='/#{term.portal}' class='portal'>#{term.badge}</a><list>#{t}</list>#{_links}</yu>"
     
   end
   

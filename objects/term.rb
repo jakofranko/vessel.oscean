@@ -42,6 +42,35 @@ class Term
 
   end
 
+  def children
+
+    if @children then return @children end
+
+    a = []
+    $lexicon.to_h("term").each do |name,term|
+      if !term.unde.like(name) then next end
+      a.push(term)
+    end
+    @children = a
+    return a
+
+  end
+
+  def siblings
+
+    if @siblings then return @siblings end
+      
+    a = []
+    $lexicon.to_h("term").each do |name,term|
+      if !term.unde then next end
+      if !term.unde.like(unde) then next end
+      a.push(term)
+    end
+    @siblings = a
+    return a
+
+  end
+
   def type_value
 
     if !@type then return nil end
@@ -125,11 +154,28 @@ class Term
 
   end
 
-  def to_s full = nil
+  def badge
+
+    b = 
+    if Media.new("badge",name).exists
+      b = Media.new("badge",name)
+    elsif Media.new("badge",unde).exists
+      b = Media.new("badge",unde)
+    elsif Media.new("badge",type).exists
+      b = Media.new("badge",type)
+    else
+      b = Media.new("badge","nataniev")
+    end
+    b.set_class("portal")
+    return b
+
+  end
+
+  def to_s full = nil, display_photo = true
 
     return "
     <yu>
-      #{diary ? "<a href='/#{name}'>"+diary.media.to_s+"</a>" : ""}
+      #{display_photo == true && diary ? "<a href='/#{name}'>"+diary.media.to_s+"</a>" : ""}
       <h2><a href='/#{name}'>#{name}</a></h2>
       <p>#{bref}</p>
       #{full == :long ? @long.runes : ""}

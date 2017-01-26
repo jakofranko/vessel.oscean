@@ -11,27 +11,13 @@ class CorpseHttp
       if !term.unde.like(@term.name) then next end
       if term.name.like(@term.name) then next end
 
-      photoTest = photoForTerm(term.name)
+      if !term.bref then next end
 
-      if !term.bref && !photoTest then next end
-
-      html += term.to_s(:long)
+      html += term.to_s(@term.type_value ? @term.type_value : :long)
 
     end
 
     return html
-
-  end
-
-  def photoForTerm term
-
-    $horaire.to_a("log").each do |log|
-      if !log.topic.like(term) then next end
-      if log.photo < 1 then next end
-      return log.photo
-    end
-
-    return nil
 
   end
 

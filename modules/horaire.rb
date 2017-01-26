@@ -18,6 +18,8 @@ class CorpseHttp
     .horaire content.storage a { background:white }
     .horaire { margin-bottom:30px }
     .horaire p { color:white}
+    .portal { color:white}
+    .ft { color:white}
     </style>"
 
   end

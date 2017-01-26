@@ -15,17 +15,17 @@ HOME
 AUDIO
   UNDE : Home
   BREF : The {{Audio}} sector hosts all projects focusing on sound and live shows.
-  TYPE : Portal
+  TYPE : Portal bref
 
 VISUAL
   UNDE : Home
   BREF : The {{Visual}} sector hosts all projects focusing on to design and interaction.
-  TYPE : Portal
+  TYPE : Portal bref
 
 RESEARCH
   UNDE : Home
   BREF : The {{Research}} sector hosts all projects focusing on philosophy and linguistics.
-  TYPE : Portal
+  TYPE : Portal bref
 
 ~ Automatons
 
@@ -149,11 +149,19 @@ BABELIUM
 
 CAMILARE
   UNDE : Oquonie
-  BREF : Language spoken in {{Oquonie}} containing a little over 20 glyphs. The language is spoken in segments of 3 letters. This sentence will often be encountered when trying to enter a locked door with the wrong character. This sentence should be read as {_The door is locked unless nemedique_}.
+  BREF : Language spoken in {{Oquonie}} containing a little over 20 glyphs, spoken in segments of 3 letters. 
   LONG
     * Dictionary
     & This is a list of the most commonly used characters in {{Oquonie}}.
-    & <style>#camilare { border:0px}#camilare td { padding:0px 15px; vertical-align:middle; border:0px; font-size:18px;}#camilare img { margin:0px; width:100px;}</style><table id='camilare'><tr>	<td><img src='content/lexicon/camilare.Nestorine.png'/></td><td>Nestorine<br/><small>Nestorine</small></td>	<td><img src='content/lexicon/camilare.Nephtaline.png'/></td><td>Nephtaline<br/><small>Nephtaline</small></td>	<td><img src='content/lexicon/camilare.Necomedre.png'/></td><td>Necomedre<br/><small>Necomedre</small></td></tr><tr>	<td><<img src='content/lexicon/camilare.Neomine.png'/></td><td>Neomine<br/><small>Neomine</small></td>	<td><img src='content/lexicon/camilare.Door.png'/></td><td>Dialocie<br/><small>Door</small></td>	<td><img src='content/lexicon/camilare.Special.png'/></td><td>Paradiacie<br/><small>Door Special</small></td></tr><tr>	<td><img src='content/lexicon/camilare.Teleport.png'/></td><td>Zolenie<br/><small>Teleport</small></td>	<td><img src='content/lexicon/camilare.Correct.png'/></td><td>Hoathiste<br/><small>Correct/Yes</small></td>	<td><img src='content/lexicon/camilare.Incorrect.png'/></td><td>Gemaniste<br/><small>Incorrect/No</small></td></tr><tr>	<td><img src='content/lexicon/camilare.Unlocked.png'/></td><td>Ecrine<br/><small>Unlocked</small></td>	<td><img src='content/lexicon/camilare.Locked.png'/></td><td>Ednasene<br/><small>Locked</small></td>	<td><img src='content/lexicon/camilare.Help.png'/></td><td>Celpadmale<br/><small>Help</small></td></tr><tr>	<td><img src='content/lexicon/camilare.Sound.png'/></td><td>Aohzaille<br/><small>Sound</small></td>	<td><img src='content/lexicon/camilare.Guide.png'/></td><td>Mikethale<br/><small>Guide</small></td>	<td><img src='content/lexicon/camilare.Inside.png'/></td><td>Casarmate<br/><small>Inside</small></td></tr><tr>	<td><img src='content/lexicon/camilare.Outside.png'/></td><td>Carmate<br/><small>Outside</small></td>	<td><img src='content/lexicon/camilare.Key.png'/></td><td>Emetegisenete<br/><small>Key</small></td>	<td><img src='content/lexicon/camilare.Friend.png'/></td><td>Zorgiene<br/><small>Friend</small></td></tr><tr>	<td><img src='content/lexicon/camilare.Foe.png'/></td><td>Oquonie<br/><small>Foe</small></td>	<td><img src='content/lexicon/camilare.Pillar.png'/></td><td>Den<br/><small>Pillar</small></td>	<td><img src='content/lexicon/camilare.Nemedique.png'/></td><td>Nemedique<br/><small>Nemedique</small></td></tr></table>
+    > <table id='camilare'>
+    > <tr><td><img src='public.oscean/media/generic/camilare.nemedique.png'/></td><td>Nestorine</td>                              <td><img src='public.oscean/media/generic/camilare.Nephtaline.png'/></td><td>Nephtaline<br/></td>                           <td><img src='public.oscean/media/generic/camilare.Necomedre.png'/></td><td>Necomedre</td></tr>
+    > <tr><td><img src='public.oscean/media/generic/camilare.Neomine.png'/></td><td>Neomine</td>	                                <td><img src='public.oscean/media/generic/camilare.Door.png'/></td><td>Dialocie<br/><small>Door</small></td>                <td></td><td>Paradiacie<br/><small>Door Special</small></td></tr>
+    > <tr><td><img src='public.oscean/media/generic/camilare.Teleport.png'/></td><td>Zolenie<br/><small>Teleport</small></td>	    <td><img src='public.oscean/media/generic/camilare.Correct.png'/></td><td>Hoathiste<br/><small>Correct/Yes</small></td>	    <td><img src='public.oscean/media/generic/camilare.Incorrect.png'/></td><td>Gemaniste<br/><small>Incorrect/No</small></td></tr>
+    > <tr><td><img src='public.oscean/media/generic/camilare.Unlocked.png'/></td><td>Ecrine<br/><small>Unlocked</small></td>	    <td><img src='public.oscean/media/generic/camilare.Locked.png'/></td><td>Ednasene<br/><small>Locked</small></td>	          <td><img src='public.oscean/media/generic/camilare.Help.png'/></td><td>Celpadmale<br/><small>Help</small></td></tr>
+    > <tr><td><img src='public.oscean/media/generic/camilare.Sound.png'/></td><td>Aohzaille<br/><small>Sound</small></td>	        <td><img src='public.oscean/media/generic/camilare.Guide.png'/></td><td>Mikethale<br/><small>Guide</small></td>	            <td><img src='public.oscean/media/generic/camilare.Inside.png'/></td><td>Casarmate<br/><small>Inside</small></td></tr>
+    > <tr><td><img src='public.oscean/media/generic/camilare.Outside.png'/></td><td>Carmate<br/><small>Outside</small></td>	      <td><img src='public.oscean/media/generic/camilare.Key.png'/></td><td>Emetegisenete<br/><small>Key</small></td>	            <td><img src='public.oscean/media/generic/camilare.Friend.png'/></td><td>Zorgiene<br/><small>Friend</small></td></tr>
+    > <tr><td><img src='public.oscean/media/generic/camilare.Foe.png'/></td><td>Oquonie<br/><small>Foe</small></td>	              <td><img src='public.oscean/media/generic/camilare.Pillar.png'/></td><td>Den<br/><small>Pillar</small></td>	                <td><img src='public.oscean/media/generic/camilare.Nemedique.png'/></td><td>Nemedique<br/><small>Nemedique</small></td></tr>
+    > </table>
 
 CENOTE
   UNDE : Desktop
@@ -715,7 +723,9 @@ NETHER ESPER INSERTS
 
 NOIRCA
   UNDE : Mobile
-  BREF : {{Noirca}} is a minimalist Black & White camera application for iOS that launches instantly, without prompts and without social connects - simple, clean. The app has one purpose, to launch quickly and render the photos with a softly washed out B&W film quality.
+  BREF : {{Noirca}} is a minimalist Black & White camera application for iOS that launches instantly, without prompts and without social connects - simple, clean. 
+  LONG
+    & The app has one purpose, to launch quickly and render the photos with a softly washed out B&W film quality.
   LINK
     ITUN : https://itunes.apple.com/us/app/noirca/id893715212
     GITH : https://github.com/Echorridoors/noirca
@@ -1109,7 +1119,7 @@ VERMILLIONTH
 
 VERRECIEL
   UNDE : Mobile
-  BREF : {{Verreciel}} is a virtual space exploration project in which you must learn to use your {_Glass Ship_}'s consoles, route them into one-another, and navigate the surrounding universes aboard its fragile habitat.
+  BREF : {{Verreciel}} is a virtual space exploration project in which you must learn to use your {_Glass Ship_}'s consoles, and find your way aboard this fragile habitat.
   LONG
     & The game joins the sequence of linguistically involved projects like {{Nataniev}}, {{Hiversaires}} and {{Oquonie}}. You can follow the development of the game on {{Twitter|https://twitter.com/search?q=verreciel&src=typd}}.
   LINK
@@ -1187,6 +1197,7 @@ NATANIEV CASE
 ~ Neauismetica
 
 NEAUISMETICA
+  UNDE : World
   TYPE : Archive
   BREF : The {{Neauismetica}} is a collection of notes on the history of {{Dinaisth}}, the connecting thread that seepds through the works of {{Devine Lu Linvega}}.
   LONG
@@ -1327,11 +1338,6 @@ MACRO
   BREF : Various macro shots.
   TYPE : Diary
 
-SAILING
-  UNDE : Photograph
-  BREF : Who haven't dreamt of living on a sailboat.<br/>{_What if I tried_}.
-  TYPE : Diary
-  
 INFRARED
   UNDE : Photograph
   BREF : This album contains various {{infrared}} photographs taken with a modified Nikon D3000 camera.
@@ -1367,11 +1373,6 @@ AUSTRIA
 AMERICA
   UNDE : Travel
   BREF : Landscapes taken around America, taken during a 52 hours train ride during {{Train Jam|http://trainjam.com}} in 2015, from Chicago to San Francisco.
-  TYPE : Diary
-
-CANADA
-  UNDE : Travel
-  BREF : Pictures taken from January 2016.
   TYPE : Diary
 
 FRANCE
@@ -1447,13 +1448,13 @@ NOTES
 
 THE SARTRE MECHANISM
   UNDE : Notes
-  BREF : It was just three days before Christmas when my friend invited me to his workshop to witness the completion of his latest project, sold to me as a {_perfection of design_}.
+  BREF : It was just three days before Christmas when my friend invited me to his workshop to witness the completion of his latest project.
   LONG
     & Crouched over a small heap of cogs, he did not look over as I hung my snow-covered coat on something that, by the look of it, might very well be a time machine. His gaze turned for a moment, perhaps to make sure that I did not break anything as I navigated the hoarded studio.
-    & What I first perceived as a pile of junk from afar, turned out to be an upmost beautiful clock, but where the needles would have been, a small hand rested at the tip of a short metallic arm.
-    & Its maker held a minuscule weight above the tiny hand, before carefully laying it onto the opened palm. Whirring and clicking into life, a second arm emerged and plucked a gear out of its entrails and laid it back into the toolbox at its side. In controlled gestures, activated by the weight, tiny arms dismantled bolts and screws, while carefully putting them in that toolbox, gradually taking the casing of the mechanism apart, leaving its core exposed.
-    & I started in silent awe, to the busy mechanical concerto, playing its requiem. The arms eventually began to reach inside the mechanism, unbuilding its core, growing weaker as it dismantled the heavier components and moved them back into the toolbox. This obscene ritual of disembowelment and exposé on pointlessness ended as the tiny arms and the weight had fallen back into the toolbox.
-    & The machine was indeed truly perfect.
+    & What I first perceived as a pile of junk turned out to be a beautiful clock; where the needles would have been, a small hand rested at the tip of a short metallic arm.
+    & My friend held a minuscule weight above the tiny hand, before carefully laying it onto the opened palm. Whirring and clicking, a second arm emerged and plucked a gear out of its entrails and laid it back into the toolbox at its side. In controlled gestures, activated by the weight, tiny arms dismantled bolts and screws, while carefully putting them in that toolbox, gradually taking the casing of the mechanism apart, leaving its core exposed.
+    ? Perfect, in every way.
+    & I stared in silent awe, at the busy mechanical concerto playing its own requiem. The arms eventually began to reach inside the mechanism, unbuilding its core, growing weaker as it dismantled the heavier components and moved them back into the toolbox. This obscene ritual of disembowelment and exposé on pointlessness ended as the tiny arms and the weight had fallen back into the toolbox.
     & {_Originally written by {{Voidshaper|https://twitter.com/voidshaper}}, <br />Edited by {{Devine Lu Linvega}}_}
 
 THE DISMISSAL
@@ -1490,41 +1491,53 @@ TALK
   BREF : These talks were created as periodical research dumps, often gravitating around the topics of the {{hexagrammaton|Nataniev}} and {{Horaire}}.
   TYPE : Diary
 
-~ Gamme
-
-GAMME
-  UNDE : Research
-  BREF : {{Gamme}} is an ecosystem of tools and systems developed to serve the {{Obliques}}.
-  LONG
-    * Generics
-    - Calendar System, {{Desamber}}
-    - Time System, {{Clock}}
-    * Communication
-    - Writing system, {{Shorthand}}
-    - Syntetic Language, {{Lietal}}
-    - Programming Language
-    * Software
-    - Time Tracking, {{Horaire}}
-    - Server Tool, {{Nataniev}}
-    - Graphic Tool, {{Ronin}}
-    - Compostion Tool
-    - Operating System
-    ? Any act that can defend its acceleration of art and science is deemed lawful.
-  TYPE : Portal
+~ Obliques
 
 OBLIQUES
-  UNDE : Gamme
+  UNDE : Obliques
   BREF : More is more is less.
   TYPE : Memory
   LINK
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/obliques.mh
 
 NOMADS
-  UNDE : Gamme
+  UNDE : Obliques
   BREF : More is more is less.
   TYPE : Memory
   LINK
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/nomads.mh
+
+RATIONALITY
+  UNDE : Obliques
+  BREF : A list of compiled falacies, effects and biases.
+  TYPE : Memory
+  LINK
+    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/rationality.mh
+
+DIRECTORY
+  UNDE : Obliques
+  BREF : A list of timeless art that I often refer to.
+  TYPE : Memory
+  LINK
+    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/directory.mh
+
+~ Gamme
+
+GAMME
+  UNDE : Research
+  BREF : {{Gamme}} is an ecosystem of tools and systems developed to serve the {{Obliques}}.
+  LONG
+    & Any act that can defend its acceleration of art and science is deemed lawful. This list contains the current tools and planned projects.
+    - Calendar System, {{Desamber}}
+    - Time System, {{Clock}}
+    - Writing system, {{Shorthand}}
+    - Syntetic Language, {{Lietal}}
+    - Time Tracking, {{Horaire}}
+    - Server Tool, {{Nataniev}}
+    - Graphic Tool, {{Ronin}}
+    - Programming Language
+    - Compostion Tool
+    - Operating System
 
 RONIN
   UNDE : Gamme
@@ -1532,14 +1545,19 @@ RONIN
   LONG
     & The application is a cross-over between Vim and Photoshop, where every change to the canvas is inputed as a command.
     & It is meant to replace the use of Photoshop for simple repetitive tasks, basic illustration jobs and the creation of grid based designs.
+    = Draw a vector flower
+    # @ 300x300 #AAAAAA ; 
+    # . 15x15 4,4 ; 
+    # + M60,60 A1,1 0 0,0 240,60 A1,1 0 0,0 240,240 ;
+    # + M240,240 A1,1 0 0,0 60,240 A1,1 0 0,0 60,60 ;
   LINK
     GITH : https://github.com/hundredrabbits/Ronin
 
 NATANIEV
   UNDE : Gamme
-  BREF : {{Nataniev}} is a development engine built within a MUD-like environment. It serves this website, {{Hundred Rabbits}}, {{Grimgrains}}, as well as each {{Twitter Bot|Automatons}}.
+  BREF : {{Nataniev}} is a development engine built within a MUD environment. 
   LONG
-    & Initiated in 2011, this custom engine includes a CLI, formerly known as {_Paradise_}, two different flat-files database parsers and its own unique APIs syntax.
+    & Initiated in 2011, this custom engine includes a CLI, formerly known as {_Paradise_}, two different flat-files database parsers and its own unique APIs syntax. It serves this website, {{Hundred Rabbits}}, {{Grimgrains}}, as well as {{Twitter Bots|Automatons}}.
     & Single scripts and repositories, known as vessels and instances, exist as locations in this {*Ecosystem*} and can be visited through the CLI. For example, each Automaton exist as a character that can be found within Paradise; this page exist as a page in a book, in a library that can also be entered and explored.
     ? Deep within this virtual structure, sleeps a small office - and in it a desk, on which rests a book that translates Russian words into English.
     & {{Horaire}} is a logbook that holds {_daily creative output entries_}, logged for each day since April 2006. This rigid lifestyle expriment is aiming at discerning and predicting the creativity patterns of {{Devine Lu Linvega}}. The latest visualisation of these logs can be seen {{here|Horaire}}.
@@ -1602,26 +1620,11 @@ NEEDLES
     & The glyphs are not used into any specific system of the {{Gamme}}, but are available here as a reference of a meaningful numeric glyph system.
     % needles
 
-~ Notes
-
-RATIONALITY
-  UNDE : Notes
-  BREF : A list of compiled falacies, effects and biases.
-  TYPE : Memory
-  LINK
-    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/rationality.mh
-
-DIRECTORY
-  UNDE : Notes
-  BREF : A list of timeless art that I often refer to.
-  TYPE : Memory
-  LINK
-    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/directory.mh
-
 ~ Equipment
 
 DEVINE LU LINVEGA
-  BREF : {{Devine lu linvega}} is a developer and biohacker, living aboard a {{sailboat|Hundred rabbits}} on the Pacific Ocean.
+  BREF : {{Devine lu linvega}} is a developer living aboard a {{sailboat|Hundred rabbits}} on the Pacific Ocean.
+  UNDE : Characters
   LONG
     & Operating under the {{Neauoire|https://twitter.com/neauoire}} moniker, Devine is currating the {{Beldam Records}} catalog, creating {{experimental mobile projects|http://www.creativeapplications.net/openframeworks/experimental-mobile-apps-by-devine-aliceffect-lu-linvega}} and documenting their {{life at sea|https://www.youtube.com/playlist?list=PLV-JXZPiMUdtBGYfvbp9M7N0Tc15GMqy1}}.
     & Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}} — Devine hope to inspire visitors to learn and to travel.
@@ -1634,8 +1637,9 @@ INVENTORY
 
 CAMERA
   UNDE : Inventory
-  BREF : The photography on {{XXIIVV|Nataniev}} is mainly done with a now deceased Leica M8, and an old Nikon D90 camera. A few other cameras are used, below is a list {{Devine|Devine lu linvega}}'s principal camera equipment.
+  BREF : The photography on {{XXIIVV|Nataniev}} was mainly done with a now deceased Leica M8, and an old Nikon D90 camera. 
   LONG
+    & A few other cameras are used, below is a list of the principal camera equipment.
     - {*Film*}
     - {{Voigtländer Bessa R3M 250 Jahre|https://www.cameraquest.com/voigt_250.htm}}, Voigtlander
     - {{Super wide heliar 15mm f4.5|http://www.kenrockwell.com/voigtlander/15mm.htm}}, Voigtlander
@@ -1650,7 +1654,7 @@ KEYBOARD
   UNDE : Inventory
   BREF : My {{mechanical keyboard|Keyboard}} is the {{Vortex Poker II PBT Mechanical Keyboard|https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=458}} with {{Blank Mint PBT caps|https://www.massdrop.com/buy/npkc-blank-pbt-keycaps}}. 
   LONG
-    & The color choice is inspired from the {{Nataniev}} interface colors. I have red Cherry MX switches installed, with {{sound dampening o-rings|http://www.amazon.ca/gp/product/B00VHXHP6Q?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00}}.
+    & The color choice is inspired from the {{Verreciel}} interface colors. I have red Cherry MX switches installed, with {{sound dampening o-rings|http://www.amazon.ca/gp/product/B00VHXHP6Q?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00}}.
     & It's also connected, with a braided {{90 degrees angle USB wire|http://www.amazon.ca/gp/product/B004YD6LW0?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00}}.
     ? This cheers me up.
   LINK
@@ -1730,18 +1734,23 @@ EXTENDED SLEEP
 ~ Redirects
 
 TRAUMAE
+  UNDE : Null
   TYPE : Redirect Lietal
 
 FRACTALS
+  UNDE : Null
   TYPE : Redirect Flactals
 
 RANDOM
+  UNDE : Null
   TYPE : Redirect Random
 
 GAMES
+  UNDE : Null
   TYPE : Redirect Interactive
 
 ABOUT
+  UNDE : Null
   TYPE : Redirect Nataniev
 
 ~ Modules

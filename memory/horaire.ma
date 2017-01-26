@@ -5,10 +5,10 @@
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
 2017 01 26 - 27      Ronin                Tools
-2017 01 25 - 25      Ronin                Design
+2017 01 25 - 29      Hundred rabbits      Video
 2017 01 24 - 38      Markl                Design
 2017 01 23 - 25      Ronin                Tools
-2017 01 22 - 29      Ronin                Tools
+2017 01 22 - 19      Hundred rabbits      Composition
 2017 01 21 - 25      Nataniev             Tools
 2017 01 20 - 25      Markl                Design
 2017 01 19 - 37  229 Nomads               Writing              Fulcanelli            Some thoughts on travel.
@@ -35,7 +35,7 @@
 2016 12 29 - 34      Ronin                Development
 2016 12 28 - 35      Ronin                Development
 2016 12 27 - 35      Ronin                Development
-2016 12 26 ! 28  168 Ronin                Design               Ronin Stencils        Updated {{Ronin}} with built in composition stencils.
+2016 12 26 ! 28  168 Ronin                Design               Ronin Vectors         Updated {{Ronin}} with built in composition stencils and vector tools.
 2016 12 25 - 29      Hundred rabbits      Video
 2016 12 24 - 19      Hundred rabbits      Composition
 2016 12 23 - 35  226 Domine guide         Development          A new board game      At {{Hundred Rabbits}}, we have created a simple game playable with Dominos. Here's how to play!
@@ -129,7 +129,7 @@
 2016 09 26 - 21      Polygonoscopy        Modeling
 2016 09 25 - 27      Nataniev             Design
 2016 09 24 - 35      Pino                 Maintenance
-2016 09 23 - 36      Nataniev             Tools
+2016 09 23 ! 36  253 Devine lu Linvega    Photography          Ensenada Tempers
 2016 09 22 - 39      Nataniev             Migration
 2016 09 21 ! 29  102 Wallpaper            Design               Shinji                Get in the fucking robot!
 2016 09 20 ! 24   98 Lard shader          Illustration         Study C
@@ -1331,7 +1331,7 @@
 2013 06 12 - 19      Dei dain             Composition          Dei Dain Release
 2013 06 11 - 19      Dei dain             Composition
 2013 06 10 - 19      Dei dain             Composition
-2013 06 09 ! 29  339 Macro                Photography          Macro DIY iPhone
+2013 06 09 ! 29  339 Macro                Photography          Macro DIY iPhone      Built a small iPhone macro lens from an old DVD drive.
 2013 06 08 - 35      Hiversaires          Refactoring
 2013 06 07 - 35      Hiversaires          Refactoring
 2013 06 06 - 35      Nataniev             Design
@@ -1460,7 +1460,7 @@
 2013 02 03 - 35      Hiversaires          Prototype
 2013 02 02 - 35      Hiversaires          Prototype
 2013 02 01 - 27  173 Macro                Photography          Building a telescope
-2013 01 31
+2013 01 31 - 25  243 Devine lu Linvega    Photography          Osaka Tempers
 2013 01 30 - 29  172 Wallpaper            Prototype            Uzumaki
 2013 01 29 - 27      Wallpaper            Illustration
 2013 01 28 - 35      Nataniev             Refactoring
@@ -1637,7 +1637,7 @@
 2012 08 10 - 32      Nataniev             Development
 2012 08 09 - 35      Nataniev             Development
 2012 08 08 - 29   39 Infrared             Writing              Wereda
-2012 08 07
+2012 08 07 - 25  257 Devine lu Linvega    Photography          Tokyo Tempers
 2012 08 06
 2012 08 05 - 32      Nataniev             Development
 2012 08 04
@@ -3933,4 +3933,4 @@
 2006 04 28
 2006 04 27
 2006 04 26 ! 36      Horaire              Development          Started Horaire
-2006 04 26 ! 36    1 Devine Lu Linvega                         Birth
+2006 04 26 - 36    1 Devine Lu Linvega                         Nakano Tempers
