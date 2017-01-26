@@ -13,12 +13,10 @@ PINO
     Fridge
   Electronics
     Install timer for fridge
-    Install LEDs
   Engine
     Buy extra diesel jug
   Misc
     Fins
-    Replace propane
     Get waterpump
   Hardware Store
     V-berth walls
@@ -34,13 +32,12 @@ PINO
     Maple Sirup
     Nutritional yeast
     Junji Ito
+    Update Medicine pack
   Short Term
-    Laundry
     Wash Bimini
     Fix windvane
     Pick up packages?
-    Install LEDs
-    Take down sail
+    Replace propane
 
 NATANIEV
   Documentation should be aware of dependencies
@@ -67,9 +64,6 @@ RONIN
     Fill tool
   Surface
     Move layer up/down
-    Layers permissions
-    Hide inactive managed layers
-    Switch to @ instead of #
   Eye
     * 10,10 200x200     ~ Average colors
   Save

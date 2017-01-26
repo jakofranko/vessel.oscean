@@ -4,6 +4,10 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 01 26 - 27      Ronin                Tools
+2017 01 25 - 25      Ronin                Design
+2017 01 24 - 38      Markl                Design
+2017 01 23 - 25      Ronin                Tools
 2017 01 22 - 29      Ronin                Tools
 2017 01 21 - 25      Nataniev             Tools
 2017 01 20 - 25      Markl                Design
