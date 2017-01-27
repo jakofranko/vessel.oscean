@@ -73,10 +73,10 @@ class CorpseHttp
     
     add_link("style.reset.css")
     add_link("style.fonts.css")
-    add_link("style.main.css?v=#{Clock.new}")
+    add_link("style.main.css")
 
     add_script("jquery.core.js")
-    add_script("jquery.main.js?v=11")
+    add_script("jquery.main.js")
 
   end
 
