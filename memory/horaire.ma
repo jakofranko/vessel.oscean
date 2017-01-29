@@ -94,7 +94,7 @@
 2016 11 02 - 00      Mexico               Event                Sail to Mexico        700nm sail to La Paz
 2016 11 01 - 35      Neauismetica         Writing
 2016 10 31 - 38      Pino                 Maintenance
-2016 10 30 - 35      Nataniev             Update
+2016 10 30 - 35      Paradise             Update
 2016 10 29 - 34      Obliques             Writing
 2016 10 28 ! 36  221 Obliques             Writing              A Digest              I began keeping some general notes on my creative process.
 2016 10 27 - 36      Markl                Design
@@ -105,18 +105,18 @@
 2016 10 22 - 29      Hundred rabbits      Design
 2016 10 21 - 24      Hundred rabbits      Design
 2016 10 20 - 37      Markl                Migration
-2016 10 19 - 37      Nataniev             Tools
+2016 10 19 - 37      Paradise             Tools
 2016 10 18 - 37      The will the wisp    Update
 2016 10 17 - 37      Markl                Migration
 2016 10 16 - 36      Markl                Migration
 2016 10 15 - 25  162 Nervous              Modeling             Woulg                 Cover for {{Woulg|https://www.facebook.com/woulg.music/}}'s Dragged album on {{Methlab Agency|http://methlab-agency.com}}.
-2016 10 14 - 24      Nataniev             Design
-2016 10 13 - 23      Nataniev             Design
+2016 10 14 - 24      Paradise             Design
+2016 10 13 - 23      Paradise             Design
 2016 10 12 - 28      Lietal               Typography
-2016 10 11 - 35      Nataniev             Frontend
+2016 10 11 - 35      Paradise             Frontend
 2016 10 10 - 34      Pino                 Maintenance
 2016 10 09 - 38      Lietal               Linguistics
-2016 10 08 - 37      Nataniev             Development
+2016 10 08 - 37      Paradise             Development
 2016 10 07 - 00      America              Travel               Los Angeles
 2016 10 06 - 29      Hundred rabbits      Video
 2016 10 05 - 17      Portalion            Composition
@@ -126,22 +126,22 @@
 2016 10 01 - 14      Portalion            Composition
 2016 09 30 - 16      Portalion            Composition
 2016 09 29 - 14      Portalion            Composition
-2016 09 28 - 39      Nataniev             Tools
+2016 09 28 - 39      Paradise             Tools
 2016 09 27 - 21      Polygonoscopy        Modeling
 2016 09 26 - 21      Polygonoscopy        Modeling
-2016 09 25 - 27      Nataniev             Design
+2016 09 25 - 27      Paradise             Design
 2016 09 24 - 35      Pino                 Maintenance
 2016 09 23 ! 36  253 Devine lu Linvega    Photography          Ensenada Tempers
-2016 09 22 - 39      Nataniev             Migration
+2016 09 22 - 39      Paradise             Migration
 2016 09 21 ! 29  102 Wallpaper            Design               Shinji                Get in the fucking robot!
 2016 09 20 ! 24   98 Lard shader          Illustration         Study C
 2016 09 19 - 38      Oquonie              Update               4.2
 2016 09 18 - 34      Vocavularist         Update               2.6
-2016 09 17 - 28      Nataniev             Design
+2016 09 17 - 28      Paradise             Design
 2016 09 16 - 34      Hundred rabbits      Migration
 2016 09 15 - 34      Hundred rabbits      Tools
-2016 09 14 - 38      Nataniev             Maintenance
-2016 09 13 - 34      Nataniev             Migration
+2016 09 14 - 38      Paradise             Maintenance
+2016 09 13 - 34      Paradise             Migration
 2016 09 12 - 35      Pino                 Maintenance
 2016 09 11 - 24      Hundred rabbits      Video
 2016 09 10 - 15      Hundred rabbits      Composition
@@ -151,24 +151,24 @@
 2016 09 06 - 37      Pino                 Maintenance
 2016 09 05 - 15      Portalion            Composition
 2016 09 04 - 24   96 Markl                Design               First draft           Here's a screenshot for {{Hundred Rabbits}}' upcoming game.
-2016 09 03 - 35      Nataniev             Development
-2016 09 02 - 35      Nataniev             Tools
+2016 09 03 - 35      Paradise             Development
+2016 09 02 - 35      Paradise             Tools
 2016 09 01 - 29      Hundred rabbits      Video
 2016 08 31 - 29   86 Pino                 Photography
 2016 08 30 - 34      Markl                Development
 2016 08 29 - 24      Polygonoscopy        Modeling
 2016 08 28 - 38      The will the wisp    Migration
-2016 08 27 - 27      Nataniev             Design
+2016 08 27 - 27      Paradise             Design
 2016 08 26 - 00
-2016 08 25 - 39      Nataniev             Tools
-2016 08 24 - 39      Nataniev             Tools
+2016 08 25 - 39      Paradise             Tools
+2016 08 24 - 39      Paradise             Tools
 2016 08 23 - 26   77 America              Photography          San Francisco         First picture taken upon sailing to San Francisco from Vancouver.
-2016 08 22 - 35      Nataniev             Development
+2016 08 22 - 35      Paradise             Development
 2016 08 21 - 25   75 Nervous              Modeling             Exhibit C
 2016 08 20 - 35      Blindfolk            Linguistics
 2016 08 19 - 00
 2016 08 18 - 29   90 Pino                 Photography
-2016 08 17 - 38      Nataniev             Development
+2016 08 17 - 38      Paradise             Development
 2016 08 16 - 00
 2016 08 15 - 00
 2016 08 14 - 00
@@ -176,17 +176,17 @@
 2016 08 12 - 29   91 Pino                 Photography
 2016 08 11 - 00
 2016 08 10 - 00      America              Travel               San Francisco
-2016 08 09 - 35      Nataniev             Tools
+2016 08 09 - 35      Paradise             Tools
 2016 08 08 ! 29   44 Polygonoscopy        Modeling             Scan
-2016 08 07 - 35      Nataniev             Tools
+2016 08 07 - 35      Paradise             Tools
 2016 08 06 - 19      Hundred rabbits      Composition
-2016 08 05 - 32      Nataniev             Tools
-2016 08 04 - 38      Nataniev             Tools
-2016 08 03 - 38      Nataniev             Tools
+2016 08 05 - 32      Paradise             Tools
+2016 08 04 - 38      Paradise             Tools
+2016 08 03 - 38      Paradise             Tools
 2016 08 02 - 28      Markl                Design
-2016 08 01 - 38      Nataniev             Tools
-2016 07 31 - 38      Nataniev             Migration
-2016 07 30 - 38      Nataniev             Tools
+2016 08 01 - 38      Paradise             Tools
+2016 07 31 - 38      Paradise             Migration
+2016 07 30 - 38      Paradise             Tools
 2016 07 29 - 35      Horaire              Tools
 2016 07 28 - 23      Horaire              Tools
 2016 07 27 - 17      Horaire              Tools
@@ -195,12 +195,12 @@
 2016 07 24 - 36      Definitist           Linguistics
 2016 07 23 - 35      Markl                Prototype
 2016 07 22 - 36      Markl                Prototype
-2016 07 21 - 34      Nataniev             Development
-2016 07 20 - 34      Nataniev             AI
-2016 07 19 - 34      Nataniev             AI
-2016 07 18 - 32      Nataniev             AI
-2016 07 17 - 34      Nataniev             AI
-2016 07 16 - 38      Nataniev             Tools
+2016 07 21 - 34      Paradise             Development
+2016 07 20 - 34      Paradise             AI
+2016 07 19 - 34      Paradise             AI
+2016 07 18 - 32      Paradise             AI
+2016 07 17 - 34      Paradise             AI
+2016 07 16 - 38      Paradise             Tools
 2016 07 15 - 24   18 Camera               Event                Learn Film Photo      Aquired Voigtländer Bessa
 2016 07 14 - 19   10 Collected works      Release              Cyan
 2016 07 13 - 34      The will the wisp    Development
@@ -213,9 +213,9 @@
 2016 07 06 - 15      Portalion            Composition
 2016 07 05 - 25  144 Pearls               Modeling
 2016 07 04 - 39      Pino                 Maintenance
-2016 07 03 - 38      Nataniev             Analytics
+2016 07 03 - 38      Paradise             Analytics
 2016 07 02 - 39      Pino                 Maintenance
-2016 07 01 - 35      Nataniev             Development
+2016 07 01 - 35      Paradise             Development
 2016 06 30 - 39      Pino                 Maintenance
 2016 06 29 - 39      Pino                 Maintenance
 2016 06 28 - 39      Pino                 Maintenance
@@ -223,47 +223,47 @@
 2016 06 26 - 39      Pino                 Maintenance
 2016 06 25 - 39      Pino                 Maintenance
 2016 06 24 - 24      Hundred rabbits      Video
-2016 06 23 - 34      Nataniev             Migration
-2016 06 22 - 34      Nataniev             Migration
-2016 06 21 - 34      Nataniev             Migration
-2016 06 20 - 35      Nataniev             Migration
+2016 06 23 - 34      Paradise             Migration
+2016 06 22 - 34      Paradise             Migration
+2016 06 21 - 34      Paradise             Migration
+2016 06 20 - 35      Paradise             Migration
 2016 06 19 - 26      Nereid               Modeling
-2016 06 18 - 34      Nataniev             Migration
-2016 06 17 - 34      Nataniev             Migration
+2016 06 18 - 34      Paradise             Migration
+2016 06 17 - 34      Paradise             Migration
 2016 06 16 - 34      Advent v             Migration
-2016 06 15 - 37      Nataniev             Migration
+2016 06 15 - 37      Paradise             Migration
 2016 06 14 - 32      Grimgrains           Migration
 2016 06 13 - 26      Nereid               Modeling
 2016 06 12 - 34      Grimgrains           Migration
 2016 06 11 - 36      Grimgrains           Migration
-2016 06 10 - 36      Nataniev             Migration
+2016 06 10 - 36      Paradise             Migration
 2016 06 09 - 36      Grimgrains           Migration
 2016 06 08 - 36      The will the wisp    Migration
 2016 06 07 - 36      Dictionarism         Migration
 2016 06 06 - 34      Verreciel            Update               1.3
 2016 06 05 - 35      Donsol               Update               1.7
 2016 06 04 - 36      Advent v             Update               The Necropolis
-2016 06 03 - 36      Nataniev             Update
+2016 06 03 - 36      Paradise             Update
 2016 06 02 - 24      Hundred rabbits      Video
 2016 06 01
 2016 05 31 - 39      Pino                 Maintenance
-2016 05 30 - 34      Nataniev             Migration
+2016 05 30 - 34      Paradise             Migration
 2016 05 29
 2016 05 28 - 36      Verreciel            Update               1.2
 2016 05 27
-2016 05 26 - 33      Nataniev             Development
+2016 05 26 - 33      Paradise             Development
 2016 05 25 - 24      Serventines          Modeling
 2016 05 24
-2016 05 23 - 33      Nataniev             Development
+2016 05 23 - 33      Paradise             Development
 2016 05 22
-2016 05 21 - 24      Nataniev             Tools
-2016 05 20 - 32      Nataniev             Analytics
-2016 05 19 - 32      Nataniev             Development
+2016 05 21 - 24      Paradise             Tools
+2016 05 20 - 32      Paradise             Analytics
+2016 05 19 - 32      Paradise             Development
 2016 05 18 - 34      Verreciel            Update               1.1
 2016 05 17 - 32      Verreciel            Development
 2016 05 16   16      Portalion            Composition
-2016 05 15 - 37      Nataniev             Development
-2016 05 14 - 39      Nataniev             Development
+2016 05 15 - 37      Paradise             Development
+2016 05 14 - 39      Paradise             Development
 2016 05 13 - 37      Verreciel            Development
 2016 05 12 - 37      Verreciel            Development
 2016 05 11 - 37      Verreciel            Analytics
@@ -333,7 +333,7 @@
 2016 03 08 - 19      Verreciel            Composition
 2016 03 07 - 37      Verreciel            Design
 2016 03 06 - 25   38 Hundred rabbits      Photography          The Lair
-2016 03 05 - 35      Nataniev             AI
+2016 03 05 - 35      Paradise             AI
 2016 03 04 - 35      Neauismetica         Writing
 2016 03 03 - 27  494 Portalion            Illustration         Portalion Cover
 2016 03 02 - 19      Portalion            Composition
@@ -392,22 +392,22 @@
 2016 01 09 - 37      Verreciel            Tools
 2016 01 08 - 37      Verreciel            Tools
 2016 01 07 - 37      Verreciel            Tools
-2016 01 06 - 32      Nataniev             Development
+2016 01 06 - 32      Paradise             Development
 2016 01 05 - 32      Verreciel            Development
 2016 01 04 - 23  483 Bifurcan                                  Bifurcan Die
 2016 01 03 - 25  484 Keyboard             Photography          Setup
 2016 01 02 - 26  481 Domestic moire       Design               Pre release
 2016 01 01 - 26      Domestic moire       Design
 2015 12 31 ! 00  104 Yearly                                    MMVX
-2015 12 30 - 38      Nataniev             Tools
-2015 12 29 - 35      Nataniev             Analytics
+2015 12 30 - 38      Paradise             Tools
+2015 12 29 - 35      Paradise             Analytics
 2015 12 28 - 32      Den                  Prototype
 2015 12 27 - 34      Hundred rabbits      Development
 2015 12 26 - 32      Den                  Prototype
 2015 12 25 - 32      Den                  Prototype
-2015 12 24 - 32      Nataniev             Refactoring
-2015 12 23 - 35      Nataniev             Refactoring
-2015 12 22 - 35      Nataniev             Tools
+2015 12 24 - 32      Paradise             Refactoring
+2015 12 23 - 35      Paradise             Refactoring
+2015 12 22 - 35      Paradise             Tools
 2015 12 21 - 38      Grimgrains           Tools
 2015 12 20 - 28      Hundred rabbits      Branding
 2015 12 19 - 37      Verreciel            Development
@@ -424,27 +424,27 @@
 2015 12 08 - 25      Verreciel            Development
 2015 12 07 - 35      Noirca               Update               4.1
 2015 12 06 - 25  477 Hundred rabbits      Branding             Origami
-2015 12 05 - 32      Nataniev             Refactoring
+2015 12 05 - 32      Paradise             Refactoring
 2015 12 04 ! 25  478 Keyboard 468         Update               1.4
 2015 12 03 - 21      Oquonie              Branding
 2015 12 02 - 28      Hundred rabbits      Design
 2015 12 01 - 28      Hundred rabbits      Design
 2015 11 30 - 28      Oquonie              Testing
 2015 11 29 - 28      Oquonie              Testing
-2015 11 28 - 26      Nataniev             Analytics
+2015 11 28 - 26      Paradise             Analytics
 2015 11 27 - 28      Oquonie              Design
 2015 11 26 - 28      Oquonie              Design
-2015 11 25 - 37      Nataniev             Testing
-2015 11 24 - 35      Nataniev             Testing
+2015 11 25 - 37      Paradise             Testing
+2015 11 24 - 35      Paradise             Testing
 2015 11 23 - 35      Oquonie              Refactoring
-2015 11 22 - 25      Nataniev             Testing
+2015 11 22 - 25      Paradise             Testing
 2015 11 21 - 34      Alphavetist          Update               3.8
 2015 11 20 ! 29  476 Keyboard             Photography          All blank keycaps
-2015 11 19 - 29      Nataniev             Design
+2015 11 19 - 29      Paradise             Design
 2015 11 18 - 37      Oquonie              Refactoring
 2015 11 17 - 34      Alphavetist          Update               3.7
 2015 11 16 - 19      Grot                 Mixing
-2015 11 15 - 27      Nataniev             Update               1.2
+2015 11 15 - 27      Paradise             Update               1.2
 2015 11 14 - 29      Hundred rabbits      Live
 2015 11 13 ! 29  475 Hundred rabbits      Event                Founded 100R
 2015 11 12 - 37      Oquonie              Refactoring
@@ -475,21 +475,21 @@
 2015 10 18 - 25      Verreciel            Documentation
 2015 10 17 - 25      Verreciel            Documentation
 2015 10 16 - 36      Verreciel            Development
-2015 10 15 - 27  473 Nataniev             Design               The New Ghost
+2015 10 15 - 27      Paradise             Design               The New Ghost
 2015 10 14 - 34      Markl                Prototype
 2015 10 13 - 32      Verreciel            Development
 2015 10 12 - 32      Verreciel            Development
 2015 10 11 - 32      Verreciel            Development
 2015 10 10 - 34      Verreciel            Development
-2015 10 09 - 34      Nataniev             Update               1.1
+2015 10 09 - 34      Paradise             Update               1.1
 2015 10 08 - 36      Verreciel            Development
 2015 10 07 - 39      Verreciel            Development
 2015 10 06 - 36      Verreciel            Development
 2015 10 05 - 35      The will the wisp    Update               0.1
-2015 10 04 - 25      Nataniev             Design
+2015 10 04 - 25      Paradise             Design
 2015 10 03 - 19      The opal inquisitors Live                 Toy Company
 2015 10 02 - 26      Donsol               Update               1.6
-2015 10 01 - 26      Nataniev             Design
+2015 10 01 - 26      Paradise             Design
 2015 09 30 - 32      Verreciel            Tools
 2015 09 29 - 25  470 Verreciel            Design               Prototype
 2015 09 28 - 36      Verreciel            Development
@@ -507,7 +507,7 @@
 2015 09 16 - 19      The opal inquisitors Live                 AMP - Passwort, Mont
 2015 09 15 ! 29  469 The opal inquisitors Illustration         Ludivine's Banquet
 2015 09 14 - 19      The opal inquisitors Rehearsal
-2015 09 13 - 35      Nataniev             AI
+2015 09 13 - 35      Paradise             AI
 2015 09 12 - 25  468 Austria              Photography          Heading Out
 2015 09 11 - 25  467 Austria              Photography          Streets Like Amadeus
 2015 09 10 - 25  466 Austria              Photography          Vienna
@@ -530,7 +530,7 @@
 2015 08 24 - 24  454 Beauty               Illustration         Vatoxoinal
 2015 08 23 - 24  453 Beauty               Illustration         Hydreviral
 2015 08 22 - 27  452 Keyboard 468         Update               1.3
-2015 08 21 - 34      Nataniev             Update               4.1
+2015 08 21 - 34      Paradise             Update               4.1
 2015 08 20 - 27    2 Kaleidoscope         Illustration         Chrestasebeia
 2015 08 19 - 35      Desamber             Update               0.1
 2015 08 18 - 25  448 Pino                 Photography
@@ -549,17 +549,17 @@
 2015 08 05 ! 26  437 Infrared             Photography          Habitat 67
 2015 08 04 - 35  435 Pino                 Writing              Living aboard
 2015 08 03 - 36      Advent v             Update               0.1
-2015 08 02 - 36      Nataniev             Update               1.0
+2015 08 02 - 36      Paradise             Update               1.0
 2015 08 01 ! 26  436 Infrared             Photography          Graveyard
-2015 07 31 - 36      Nataniev             Update               4.0
+2015 07 31 - 36      Paradise             Update               4.0
 2015 07 30 - 25      Donsol               Update               1.5
 2015 07 29 - 14      Trapezoid            Update               Reissue
 2015 07 28 ! 19  434 Trapezoid            Release              Release
-2015 07 27 - 39      Nataniev             Development
-2015 07 26 - 39      Nataniev             Tools
-2015 07 25 - 39      Nataniev             Refactoring
-2015 07 24 - 39      Nataniev             Development
-2015 07 23 - 26      Nataniev             Design
+2015 07 27 - 39      Paradise             Development
+2015 07 26 - 39      Paradise             Tools
+2015 07 25 - 39      Paradise             Refactoring
+2015 07 24 - 39      Paradise             Development
+2015 07 23 - 26      Paradise             Design
 2015 07 22 - 19      Trapezoid            Live
 2015 07 21 - 34      Den                  Tools
 2015 07 20 - 34      Den                  Tools
@@ -588,7 +588,7 @@
 2015 06 27 - 35      Definitist           Development
 2015 06 26 - 35      Definitist           Development
 2015 06 25 - 35      Definitist           Development
-2015 06 24 - 35      Nataniev             Update               3.9
+2015 06 24 - 35      Paradise             Update               3.9
 2015 06 23 - 19      Trapezoid            Composition
 2015 06 22 ! 34  297 Vocavularist         Update               2.5
 2015 06 21 - 28      Verreciel            Design
@@ -607,7 +607,7 @@
 2015 06 08 - 36      Russian              Linguistics
 2015 06 07 - 31      Rafinograde          Update               1.4
 2015 06 06 - 36      Horaire              Tools
-2015 06 05 - 36      Nataniev             Development
+2015 06 05 - 36      Paradise             Development
 2015 06 04 - 25      Beldam records       Design
 2015 06 03 - 25      Beldam records       Design
 2015 06 02 - 35      Beldam records       Tools
@@ -675,18 +675,18 @@
 2015 04 01 - 36      Donsol               Development
 2015 03 31 - 38      Ludivine             Analytics
 2015 03 30 - 38      Ludivine             Development
-2015 03 29 - 35      Nataniev             Refactoring
-2015 03 28 - 35      Nataniev             AI
-2015 03 27 - 35      Nataniev             Refactoring
+2015 03 29 - 35      Paradise             Refactoring
+2015 03 28 - 35      Paradise             AI
+2015 03 27 - 35      Paradise             Refactoring
 2015 03 26 - 17      Eschatolor           Composition
 2015 03 25 - 17      Eschatolor           Composition
-2015 03 24 - 35      Nataniev             Development
+2015 03 24 - 35      Paradise             Development
 2015 03 23 - 36      Lyken                Development
 2015 03 22 - 36      Donsol               Development
 2015 03 21 - 27      Donsol               Release
 2015 03 20 - 26      Physical             Prototype
 2015 03 19 - 29      Physical             Prototype
-2015 03 18 - 36      Nataniev             Update
+2015 03 18 - 36      Paradise             Update
 2015 03 17 - 36      Neon hermetism       Writing
 2015 03 16 - 25      Alphavetist          Update               3.4
 2015 03 15 - 36      Neon hermetism       Writing
@@ -712,7 +712,7 @@
 2015 02 23 ! 25  311 Hypervoid            Illustration         Dischromatic
 2015 02 22 - 29      Nereid               Modeling
 2015 02 21 - 24      Nereid               Modeling
-2015 02 20 - 35      Nataniev             Update               Presskit
+2015 02 20 - 35      Paradise             Update               Presskit
 2015 02 19 - 25      Nereid               Modeling
 2015 02 18 - 25      Nereid               Modeling
 2015 02 17 - 24      Nereid               Modeling
@@ -738,12 +738,12 @@
 2015 01 28 - 37      Oquonie              Refactoring
 2015 01 27 - 37      Oquonie              Refactoring
 2015 01 26 ! 35      Alphavetist          Update               3.2
-2015 01 25 ! 35      Nataniev             Update               0.9
+2015 01 25 ! 35      Paradise             Update               0.9
 2015 01 24 ! 35  295 Alphavetist          Update               3.0
 2015 01 23 - 33      Dew                  Update               1.3
 2015 01 22 - 33      Bifurcan             Update               1.3
 2015 01 21 - 37  294 Ledoliel             Update               2.1
-2015 01 20 - 37      Nataniev             Update               Issue Tracker
+2015 01 20 - 37      Paradise             Update               Issue Tracker
 2015 01 19 ! 37  292 Oquonie              Update               3.0
 2015 01 18 - 35      Hiversaires          Update               3.2
 2015 01 17 - 35      Noirca               Update               4.0
@@ -775,8 +775,8 @@
 2014 12 22 - 35      Lyken                Development
 2014 12 21 - 35      Lyken                Prototype
 2014 12 20 - 34      Dew                  Tools
-2014 12 19 - 34      Nataniev             Development
-2014 12 18 - 37      Nataniev             Update               Automate
+2014 12 19 - 34      Paradise             Development
+2014 12 18 - 37      Paradise             Update               Automate
 2014 12 17 - 37  259 Dew                  Release              Release
 2014 12 16 - 37      Dew                  Development
 2014 12 15 - 25  291 Rafinograde          Release              Release
@@ -801,22 +801,22 @@
 2014 11 26 - 25  283 Oquonie              Branding             Walkthrough
 2014 11 25 - 25      Defraction optics    Design
 2014 11 24 - 25      Defraction optics    Design
-2014 11 23 - 36      Nataniev             Update
+2014 11 23 - 36      Paradise             Update
 2014 11 22 - 28  165 The sartre mechanism Illustration         Ultravoid
-2014 11 21 - 35      Nataniev             Update
-2014 11 20 - 34      Nataniev             Update
-2014 11 19 - 39  424 Nataniev             Update               The Techgnostic Orde
+2014 11 21 - 35      Paradise             Update
+2014 11 20 - 34      Paradise             Update
+2014 11 19 - 39  424 Paradise             Update               The Techgnostic Orde
 2014 11 18 - 17      Supervisitor         Composition
 2014 11 17 - 17      Supervisitor         Composition
 2014 11 16 - 17      Supervisitor         Composition
 2014 11 15 - 39      Horaire              Update
-2014 11 14 - 39      Nataniev             Update
-2014 11 13 - 39      Nataniev             Update
+2014 11 14 - 39      Paradise             Update
+2014 11 13 - 39      Paradise             Update
 2014 11 12 - 39      Horaire              Update
-2014 11 11 - 39      Nataniev             Update
-2014 11 10 - 39      Nataniev             Update
-2014 11 09 - 35      Nataniev             Update               The Negative Void
-2014 11 08 - 39      Nataniev             Update
+2014 11 11 - 39      Paradise             Update
+2014 11 10 - 39      Paradise             Update
+2014 11 09 - 35      Paradise             Update               The Negative Void
+2014 11 08 - 39      Paradise             Update
 2014 11 07 - 17      Supervisitor         Composition
 2014 11 06 - 17      Supervisitor         Composition
 2014 11 05 - 17      Supervisitor         Composition
@@ -870,7 +870,7 @@
 2014 09 18 ! 25      Polygonoscopy        Illustration
 2014 09 17 ! 25      Polygonoscopy        Illustration
 2014 09 16 ! 25  250 Serventines          Modeling             Jenen
-2014 09 15 - 35      Nataniev             Update               Inner Haven
+2014 09 15 - 35      Paradise             Update               Inner Haven
 2014 09 14
 2014 09 13
 2014 09 12
@@ -913,15 +913,15 @@
 2014 08 06 - 25  139 Advent v             Branding             Release
 2014 08 05 - 29      Advent v             Live
 2014 08 04 - 38      Advent v             Development
-2014 08 03 - 35      Nataniev             Update               Quiet Hell
+2014 08 03 - 35      Paradise             Update               Quiet Hell
 2014 08 02 - 38      Advent v             Development
 2014 08 01 - 38      Advent v             Development
 2014 07 31
 2014 07 30
 2014 07 29 - 16  129 Ledoliel             Update               1.2
 2014 07 28 - 35  128 Bifurcan             Update               Screensaver
-2014 07 27 - 38      Nataniev             Update               Ten Axis
-2014 07 26 - 31      Nataniev             Update               Inner Haven
+2014 07 27 - 38      Paradise             Update               Ten Axis
+2014 07 26 - 31      Paradise             Update               Inner Haven
 2014 07 25
 2014 07 24
 2014 07 23
@@ -932,16 +932,16 @@
 2014 07 18 - 39      Neauismetica         Writing
 2014 07 17 - 28  149 Kaleidoscope         Illustration         Diagolite I
 2014 07 16 - 29  247 Duomo                Illustration         Mount Duomo
-2014 07 15 - 35      Nataniev             Analytics
-2014 07 14 - 35      Nataniev             Analytics
-2014 07 13 - 35      Nataniev             Analytics
-2014 07 12 - 35      Nataniev             Update
-2014 07 11 - 35      Nataniev             Update               Analytics
+2014 07 15 - 35      Paradise             Analytics
+2014 07 14 - 35      Paradise             Analytics
+2014 07 13 - 35      Paradise             Analytics
+2014 07 12 - 35      Paradise             Update
+2014 07 11 - 35      Paradise             Update               Analytics
 2014 07 10 - 35      Oquonie              Update               2.2
 2014 07 09 - 35      Vocavularist         Update               2.2
 2014 07 08 - 35      Alphavetist          Update               2.2
 2014 07 07 - 31      Alphavetist          Update               2.1
-2014 07 06 - 35      Nataniev             Tools
+2014 07 06 - 35      Paradise             Tools
 2014 07 05 - 25      Horaire              Update
 2014 07 04 - 25      Horaire              Update
 2014 07 03 - 25      Horaire              Design
@@ -969,22 +969,22 @@
 2014 06 11 - 35      Ledoliel
 2014 06 10 - 26      Ledoliel             Release              Release
 2014 06 09 - 35      Ledoliel
-2014 06 08 - 35      Nataniev             Development
-2014 06 07 - 35      Nataniev             Tools
+2014 06 08 - 35      Paradise             Development
+2014 06 07 - 35      Paradise             Tools
 2014 06 06 - 35      Ledoliel
 2014 06 05 - 35      Ledoliel
 2014 06 04 - 35      Ledoliel
 2014 06 03 - 35  118 Ledoliel                                  Space friends
 2014 06 02 - 35  117 Ledoliel                                  Strange Diplomacy
-2014 06 01 - 35      Nataniev             Development
-2014 05 31 - 35      Nataniev             Tools
+2014 06 01 - 35      Paradise             Development
+2014 05 31 - 35      Paradise             Tools
 2014 05 30 - 34      Lietal               Tools
 2014 05 29 - 34      Lietal               Tools
 2014 05 28 - 29      Serventines          Modeling
 2014 05 27 - 29  248 Serventines          Modeling             Snailden
 2014 05 26 - 25      Brane                Illustration
-2014 05 25 - 35  127 Nataniev             Development          Update
-2014 05 24 - 35      Nataniev             Development
+2014 05 25 - 35  127 Paradise             Development          Update
+2014 05 24 - 35      Paradise             Development
 2014 05 23 - 19  116 Purgateus            Composition          Autumn
 2014 05 22 - 35      Purgateus            Composition          Release
 2014 05 21 - 19   36 Purgateus            Composition          Summer Landing
@@ -1000,28 +1000,28 @@
 2014 05 11 - 25      Verreciel            Prototype
 2014 05 10 - 25  277 Nereid               Modeling             The Habitat
 2014 05 09 - 26  278 Nereid               Modeling             The Stems
-2014 05 08 - 32      Nataniev             Development
+2014 05 08 - 32      Paradise             Development
 2014 05 07 - 39      Horaire              Development
 2014 05 06 - 39      Horaire              Development
-2014 05 05 - 39      Nataniev             Development
+2014 05 05 - 39      Paradise             Development
 2014 05 04
 2014 05 03
-2014 05 02 - 39      Nataniev             Development
+2014 05 02 - 39      Paradise             Development
 2014 05 01 - 35      Noirca               Prototype
-2014 04 30 - 39      Nataniev             Update
+2014 04 30 - 39      Paradise             Update
 2014 04 29 - 39      Horaire              Update
 2014 04 28 - 26  279 Nereid               Modeling             The South
 2014 04 27 - 29      Collegiennes         Design
 2014 04 26 - 29      Collegiennes         Design
 2014 04 25 - 29      Collegiennes         Design
 2014 04 24 - 25  280 Nereid               Modeling             The Highways
-2014 04 23 - 35      Nataniev             Update
-2014 04 22 - 35      Nataniev             Update
-2014 04 21 - 35      Nataniev             Update
-2014 04 20 - 35      Nataniev             Refactoring
+2014 04 23 - 35      Paradise             Update
+2014 04 22 - 35      Paradise             Update
+2014 04 21 - 35      Paradise             Update
+2014 04 20 - 35      Paradise             Refactoring
 2014 04 19 - 25      Kaleidoscope         Illustration
-2014 04 18 - 37      Nataniev             Update
-2014 04 17 - 28  169 Nataniev case        Design               First print
+2014 04 18 - 37      Paradise             Update
+2014 04 17 - 28  169 Paradise case        Design               First print
 2014 04 16
 2014 04 15 - 28  137 Monoyse              Design               Synthesis Programmin
 2014 04 14 - 37      Monoyse
@@ -1031,12 +1031,12 @@
 2014 04 10 - 27      Artwork              Illustration
 2014 04 09 - 25      Vast                 Branding
 2014 04 08 ! 29  241 Vast                 Release              Epreuve
-2014 04 07 - 35      Nataniev             Layout
+2014 04 07 - 35      Paradise             Layout
 2014 04 06 - 25      Kaleidoscope         Illustration
 2014 04 05 - 29  302 Kaleidoscope         Illustration         Gorgeous Leon
 2014 04 04 - 27      Artwork              Illustration
 2014 04 03 - 29      Vast                 Design
-2014 04 02 - 25      Nataniev             Layout
+2014 04 02 - 25      Paradise             Layout
 2014 04 01 - 27      Artwork              Illustration
 2014 03 31 - 27      Artwork              Illustration
 2014 03 30 - 29  242 Vast                 Illustration         Prototype
@@ -1055,7 +1055,7 @@
 2014 03 17
 2014 03 16
 2014 03 15 ! 00      America              Travel               San Fancisco
-2014 03 14 - 36      Nataniev             Update
+2014 03 14 - 36      Paradise             Update
 2014 03 13
 2014 03 12 - 29      Artwork              Illustration
 2014 03 11 - 19      Known magye          Live
@@ -1081,7 +1081,7 @@
 2014 02 19 ! 39  296 Oquonie              Release              Release
 2014 02 18 - 35      Notes                Writing              Month Names
 2014 02 17 - 29      Horaire              Design
-2014 02 16 - 29      Nataniev             Design
+2014 02 16 - 29      Paradise             Design
 2014 02 15 - 29      Horaire              Design
 2014 02 14 - 19      Known magye          Composition
 2014 02 13 - 19      Known magye          Composition
@@ -1094,9 +1094,9 @@
 2014 02 06 - 35      Horaire              Analytics
 2014 02 05 - 35      Horaire              Update
 2014 02 04 - 39      Oquonie              Tools
-2014 02 03 - 34  377 Nataniev             Development
+2014 02 03 - 34  377 Paradise             Development
 2014 02 02 - 29      Wallpaper            Illustration
-2014 02 01 - 39      Nataniev             Update
+2014 02 01 - 39      Paradise             Update
 2014 01 31 - 29  383 Flowers              Illustration         Nestorine
 2014 01 30 - 29  384 Flowers              Illustration         Qraxia
 2014 01 29 - 27      Artwork              Illustration
@@ -1131,7 +1131,7 @@
 2013 12 31 ! 25      Thailand             Photography          Thailand
 2013 12 30 - 29      Oquonie              Design
 2013 12 29 - 29      Oquonie              Design
-2013 12 28 - 29      Nataniev             Design
+2013 12 28 - 29      Paradise             Design
 2013 12 27
 2013 12 26
 2013 12 25 - 39      Lietal               Linguistics
@@ -1139,73 +1139,73 @@
 2013 12 23 - 25      Oquonie              Design
 2013 12 22 - 25      Oquonie              Design
 2013 12 21 - 34      Lietal               Linguistics
-2013 12 20 - 34      Nataniev             Update
+2013 12 20 - 34      Paradise             Update
 2013 12 19 - 34      Oquonie              Development
 2013 12 18 - 34      Lietal               Linguistics
 2013 12 17 - 34      Lietal               Linguistics
 2013 12 16 - 34      Lietal               Linguistics
 2013 12 15 - 34      Oquonie              Development
-2013 12 14 - 34      Nataniev             Update
+2013 12 14 - 34      Paradise             Update
 2013 12 13
 2013 12 12 - 00  366 Yearly               Writing              MMXXIII
-2013 12 11 - 34      Nataniev             Update
-2013 12 10 - 34      Nataniev             Update
+2013 12 11 - 34      Paradise             Update
+2013 12 10 - 34      Paradise             Update
 2013 12 09
 2013 12 08 - 34      Oquonie              Design
 2013 12 07 - 34      Oquonie              Design
 2013 12 06 - 34      Oquonie              Design
 2013 12 05 - 39      Mute                 Tools
 2013 12 04 - 39      Mute                 Development
-2013 12 03 - 28      Nataniev             Update
+2013 12 03 - 28      Paradise             Update
 2013 12 02 - 36      Lietal               Linguistics
 2013 12 01 - 36      Lietal               Linguistics
-2013 11 30 - 36      Nataniev             Testing
-2013 11 29 - 36      Nataniev             Testing
+2013 11 30 - 36      Paradise             Testing
+2013 11 29 - 36      Paradise             Testing
 2013 11 28 - 36      Lietal               Development
 2013 11 27 - 36      Lietal               Cryptography
-2013 11 26 - 36      Nataniev             Testing
+2013 11 26 - 36      Paradise             Testing
 2013 11 25 - 36      Horaire              Testing
-2013 11 24 - 39      Nataniev             Update
-2013 11 23 - 28      Nataniev             Prototype
-2013 11 22 - 28      Nataniev             Prototype
+2013 11 24 - 39      Paradise             Update
+2013 11 23 - 28      Paradise             Prototype
+2013 11 22 - 28      Paradise             Prototype
 2013 11 21 - 25  190 Wallpaper            Design               Motto
 2013 11 20 - 25      Verreciel            Prototype
 2013 11 19 - 25      Verreciel            Prototype
 2013 11 18
 2013 11 17 - 39      Horaire              Tools
 2013 11 16 - 39      Horaire              Tools
-2013 11 15 - 39      Nataniev             Tools
+2013 11 15 - 39      Paradise             Tools
 2013 11 14 - 39      Horaire              Tools
-2013 11 13 - 39      Nataniev             Development
-2013 11 12 - 39      Nataniev             Development
-2013 11 11 - 39      Nataniev             Development
-2013 11 10 - 39      Nataniev             Development
+2013 11 13 - 39      Paradise             Development
+2013 11 12 - 39      Paradise             Development
+2013 11 11 - 39      Paradise             Development
+2013 11 10 - 39      Paradise             Development
 2013 11 09 - 36      Dictionaery          Development
-2013 11 08 - 36      Nataniev             Prototype
-2013 11 07 - 25      Nataniev             Development
+2013 11 08 - 36      Paradise             Prototype
+2013 11 07 - 25      Paradise             Development
 2013 11 06 - 34      Dictionaery
 2013 11 05 - 34      Dictionaery
 2013 11 04 - 34      Dictionaery
 2013 11 03 - 25      Collegiennes         Design               Update
 2013 11 02 - 29      Bifurcan             Release              Release
-2013 11 01 - 34      Nataniev             Development
+2013 11 01 - 34      Paradise             Development
 2013 10 31 - 34      Horaire              Development
-2013 10 30 - 34      Nataniev             Development
+2013 10 30 - 34      Paradise             Development
 2013 10 29 - 34      Horaire              Development
-2013 10 28 - 34      Nataniev             Development
-2013 10 27 - 34      Nataniev             Development
+2013 10 28 - 34      Paradise             Development
+2013 10 27 - 34      Paradise             Development
 2013 10 26 - 19      Known magye          Composition
 2013 10 25 - 36      Sketchbook           Prototype
-2013 10 24 - 34      Nataniev             Development
-2013 10 23 - 34      Nataniev             Refactoring
+2013 10 24 - 34      Paradise             Development
+2013 10 23 - 34      Paradise             Refactoring
 2013 10 22 - 34      Horaire              Development
 2013 10 21 - 36      Lietal               Documentation
-2013 10 20 - 36      Nataniev             Refactoring
-2013 10 19 - 36      Nataniev             Refactoring
+2013 10 20 - 36      Paradise             Refactoring
+2013 10 19 - 36      Paradise             Refactoring
 2013 10 18 - 27      Oquonie              Design
-2013 10 17 - 39      Nataniev             Refactoring
-2013 10 16 - 39      Nataniev             Refactoring
-2013 10 15 - 37      Nataniev             Development
+2013 10 17 - 39      Paradise             Refactoring
+2013 10 16 - 39      Paradise             Refactoring
+2013 10 15 - 37      Paradise             Development
 2013 10 14 - 37      Oquonie              Development
 2013 10 13 - 37      Oquonie              Design
 2013 10 12 - 37      Oquonie              Development
@@ -1217,16 +1217,16 @@
 2013 10 06 - 26      Oquonie              Design
 2013 10 05 - 26  361 Oquonie              Design               Contest
 2013 10 04 - 36  360 Dictionaery          Refactoring          iOS7 Patch
-2013 10 03 - 36      Nataniev             Refactoring
+2013 10 03 - 36      Paradise             Refactoring
 2013 10 02 ! 19  359 Telekinetic          Release              Album Release
 2013 10 01 - 29      Telekinetic          Illustration
 2013 09 30 - 19      Telekinetic          Live                 Square Sound - Tokyo
 2013 09 29 - 29      Telekinetic          Illustration
-2013 09 28 - 36      Nataniev             Refactoring
+2013 09 28 - 36      Paradise             Refactoring
 2013 09 27 - 15      Telekinetic          Composition
-2013 09 26 - 36      Nataniev             Refactoring
-2013 09 25 - 36      Nataniev             Development
-2013 09 24 - 36      Nataniev             Tools
+2013 09 26 - 36      Paradise             Refactoring
+2013 09 25 - 36      Paradise             Development
+2013 09 24 - 36      Paradise             Tools
 2013 09 23 - 18      Telekinetic          Composition
 2013 09 22 - 19      Telekinetic          Live                 Indie Dance Party -
 2013 09 21 - 18  358 Telekinetic          Composition          Leap Motion Controll
@@ -1261,7 +1261,7 @@
 2013 08 23
 2013 08 22
 2013 08 21
-2013 08 20 - 37      Nataniev             Update
+2013 08 20 - 37      Paradise             Update
 2013 08 19
 2013 08 18
 2013 08 17 - 37      Alphavetist          Development
@@ -1296,7 +1296,7 @@
 2013 07 19 - 25      Milavrega            Design
 2013 07 18 - 28      Milavrega            Writing
 2013 07 17 - 28      Typography           Typography
-2013 07 16 - 25      Nataniev             Analytics
+2013 07 16 - 25      Paradise             Analytics
 2013 07 15 - 25  344 Japan                Photography          Climbing Mt. Fuji Pa
 2013 07 14 - 25  343 Japan                Photography          Climbing Mt. Fuji Pa
 2013 07 13 - 25  342 Japan                Photography          Climbing Mt. Fuji Pa
@@ -1306,10 +1306,10 @@
 2013 07 09 - 39      Typography           Typography
 2013 07 08 - 25      Typography           Typography
 2013 07 07 - 25      Typography           Typography
-2013 07 06 - 25      Nataniev             Analytics
-2013 07 05 - 25      Nataniev             Analytics
-2013 07 04 - 36      Nataniev             Refactoring
-2013 07 03 - 19      Nataniev             Composition          Soundtrack Release
+2013 07 06 - 25      Paradise             Analytics
+2013 07 05 - 25      Paradise             Analytics
+2013 07 04 - 36      Paradise             Refactoring
+2013 07 03 - 19      Paradise             Composition          Soundtrack Release
 2013 07 02 - 25      Infrared             Photography
 2013 07 01 - 25      Infrared             Photography
 2013 06 30 - 38      Dictionaery          Development
@@ -1324,10 +1324,10 @@
 2013 06 21 - 39      Sketchbook           Prototype
 2013 06 20 - 39      Sketchbook           Prototype
 2013 06 19 - 19  335 Dei dain             Live                 Mega Ran Tour - Toky
-2013 06 18 - 39      Nataniev             Design
-2013 06 17 - 28  240 Nataniev             Design               Trailer Release
+2013 06 18 - 39      Paradise             Design
+2013 06 17 - 28  240 Paradise             Design               Trailer Release
 2013 06 16 - 25  239 Macro                Photography          Macro Set 1
-2013 06 15 - 28  238 Nataniev             Design               Release Imminent
+2013 06 15 - 28  238 Paradise             Design               Release Imminent
 2013 06 14 - 19      Dei dain             Live                 KIDDING vol.6
 2013 06 13 - 19      Dei dain             Composition
 2013 06 12 - 19      Dei dain             Composition          Dei Dain Release
@@ -1336,24 +1336,24 @@
 2013 06 09 ! 29  339 Macro                Photography          Macro DIY iPhone      Built a small iPhone macro lens from an old DVD drive.
 2013 06 08 - 35      Hiversaires          Refactoring
 2013 06 07 - 35      Hiversaires          Refactoring
-2013 06 06 - 35      Nataniev             Design
-2013 06 05 - 35      Nataniev             Tools
-2013 06 04 - 35      Nataniev             Design
+2013 06 06 - 35      Paradise             Design
+2013 06 05 - 35      Paradise             Tools
+2013 06 04 - 35      Paradise             Design
 2013 06 03 - 35      Horaire              Design
 2013 06 02 - 29  236 Entaloneralie        Release              Release
 2013 06 01 - 38      Entaloneralie
 2013 05 31
-2013 05 30 - 29  235 Nataniev             Design               Teaser
-2013 05 29 - 29      Nataniev             Design
-2013 05 28 - 29      Nataniev             Design
-2013 05 27 - 29      Nataniev             Design
-2013 05 26 - 29      Nataniev             Design
+2013 05 30 - 29  235 Paradise             Design               Teaser
+2013 05 29 - 29      Paradise             Design
+2013 05 28 - 29      Paradise             Design
+2013 05 27 - 29      Paradise             Design
+2013 05 26 - 29      Paradise             Design
 2013 05 25 - 29      Horaire              Design
-2013 05 24 - 29      Nataniev             Design
-2013 05 23 - 29      Nataniev             Design
+2013 05 24 - 29      Paradise             Design
+2013 05 23 - 29      Paradise             Design
 2013 05 22 - 37      Melady antres        Design
 2013 05 21 - 19      Remix                                     Comaduster - Winter
-2013 05 20 - 38      Nataniev             AI
+2013 05 20 - 38      Paradise             AI
 2013 05 19 - 25      Melady antres        Design
 2013 05 18 - 25      Entaloneralie        Prototype
 2013 05 17 - 28      Melady antres        Design
@@ -1387,22 +1387,22 @@
 2013 04 19
 2013 04 18 - 25      Melady antres
 2013 04 17 - 27      Waiting for horus    Testing
-2013 04 16 - 35      Nataniev             Development
+2013 04 16 - 35      Paradise             Development
 2013 04 15 - 18      Dei dain             Composition
-2013 04 14 - 27      Nataniev             Design
+2013 04 14 - 27      Paradise             Design
 2013 04 13 - 36      Waiting for horus    Testing
 2013 04 12 - 25      Melady antres        Prototype
 2013 04 11 - 25      Melady antres        Prototype
-2013 04 10 - 25      Nataniev             Development
+2013 04 10 - 25      Paradise             Development
 2013 04 09 - 36      Melady antres
 2013 04 08 - 35      Horaire              Refactoring
 2013 04 07 - 27      Hiversaires          Release              Release
 2013 04 06 - 35      Hiversaires          Prototype
 2013 04 05 - 29  216 Hiversaires          Live                 Picotachi
 2013 04 04
-2013 04 03 - 35      Nataniev             Development
-2013 04 02 - 35      Nataniev             Refactoring
-2013 04 01 - 35      Nataniev             Development
+2013 04 03 - 35      Paradise             Development
+2013 04 02 - 35      Paradise             Refactoring
+2013 04 01 - 35      Paradise             Development
 2013 03 31 - 35      Hiversaires          Prototype
 2013 03 30 - 35      Hiversaires          Prototype
 2013 03 29 - 28      Hiversaires          Illustration
@@ -1410,7 +1410,7 @@
 2013 03 27 - 38  215 Hiversaires          Testing              Devlog 25
 2013 03 26 - 29      Hiversaires          Design
 2013 03 25 - 37      Dictionaery          Tools
-2013 03 24 - 37      Nataniev             Design
+2013 03 24 - 37      Paradise             Design
 2013 03 23 - 19      Hiversaires          Composition
 2013 03 22 - 17      Hiversaires          Composition
 2013 03 21 - 38      Hiversaires          Testing
@@ -1424,7 +1424,7 @@
 2013 03 13 - 36      Hiversaires          Testing
 2013 03 12 - 33  213 Hiversaires          Testing              Devlog 23
 2013 03 11 - 35  212 Hiversaires          Testing              Devlog 22
-2013 03 10 - 38      Nataniev             Tools
+2013 03 10 - 38      Paradise             Tools
 2013 03 09 - 23  211 Japan                Photography          Sand Storm in Tokyo
 2013 03 08 - 28  210 Hiversaires          Design               Devlog 21
 2013 03 07 - 28  200 Hiversaires          Design               Devlog 20
@@ -1454,7 +1454,7 @@
 2013 02 11 - 28  180 Hiversaires          Design               Devlog 7
 2013 02 10 - 39  179 Hiversaires          Design               Devlog 6
 2013 02 09 - 28  178 Hiversaires          Design               Devlog 5
-2013 02 08 - 34      Nataniev             Refactoring
+2013 02 08 - 34      Paradise             Refactoring
 2013 02 07 - 27  177 Hiversaires          Prototype            Devlog 4
 2013 02 06 - 38  176 Hiversaires          Prototype            Devlog 3
 2013 02 05 - 35  175 Hiversaires          Prototype            Devlog 2
@@ -1465,7 +1465,7 @@
 2013 01 31 - 25  243 Devine lu Linvega    Photography          Osaka Tempers
 2013 01 30 - 29  172 Wallpaper            Prototype            Uzumaki
 2013 01 29 - 27      Wallpaper            Illustration
-2013 01 28 - 35      Nataniev             Refactoring
+2013 01 28 - 35      Paradise             Refactoring
 2013 01 27 - 17  167 Nor let the fools    Release              Nor let the fools
 2013 01 26 - 19  164 Ehrivevnv Studies    Live                 Cheapbeats - Tokyo,
 2013 01 25 - 16      Nor let the fools    Composition
@@ -1493,7 +1493,7 @@
 2013 01 03 - 35      Lietal               Tools
 2013 01 02 - 34      Lietal               Tools
 2013 01 01 - 27  163 Infrared             Photography          Tokyo Infrared II
-2012 12 31 - 39      Nataniev             Development
+2012 12 31 - 39      Paradise             Development
 2012 12 30 - 39      Lietal               Linguistics
 2012 12 29 - 27      Lietal               Linguistics
 2012 12 28 - 39      Lietal               Linguistics
@@ -1501,9 +1501,9 @@
 2012 12 26
 2012 12 25
 2012 12 24
-2012 12 23 - 35      Nataniev             Design
-2012 12 22 - 35      Nataniev             Tools
-2012 12 21 - 35      Nataniev             Development
+2012 12 23 - 35      Paradise             Design
+2012 12 22 - 35      Paradise             Tools
+2012 12 21 - 35      Paradise             Development
 2012 12 20 - 39      Lietal               Documentation
 2012 12 19 - 39      Lietal               Cryptography
 2012 12 18 - 39      Lietal               Documentation
@@ -1511,7 +1511,7 @@
 2012 12 16 - 25      Merveilles portable  Layout
 2012 12 15
 2012 12 14
-2012 12 13 - 35      Nataniev             Development
+2012 12 13 - 35      Paradise             Development
 2012 12 12
 2012 12 11 - 35  110 Yearly               Writing              MMXII
 2012 12 10
@@ -1523,40 +1523,40 @@
 2012 12 04 - 35      Lietal               Cryptography
 2012 12 03
 2012 12 02
-2012 12 01 - 38      Nataniev             Development
+2012 12 01 - 38      Paradise             Development
 2012 11 30
 2012 11 29
 2012 11 28 - 39      Horaire              Prototype
 2012 11 27 - 28  109 Infrared             Photography          Tokyo Infrared
-2012 11 26 - 39      Nataniev             Prototype
+2012 11 26 - 39      Paradise             Prototype
 2012 11 25
 2012 11 24 - 25  108 Japan                Photography          Ramen Museum
 2012 11 23
-2012 11 22 - 39      Nataniev             Design
+2012 11 22 - 39      Paradise             Design
 2012 11 21
 2012 11 20
 2012 11 19 - 19      Mixtape              Mixing               Ghosts
 2012 11 18
-2012 11 17 - 39      Nataniev             Prototype
-2012 11 16 - 39      Nataniev             Prototype
-2012 11 15 - 39      Nataniev             Prototype
-2012 11 14 - 35      Nataniev             Prototype
+2012 11 17 - 39      Paradise             Prototype
+2012 11 16 - 39      Paradise             Prototype
+2012 11 15 - 39      Paradise             Prototype
+2012 11 14 - 35      Paradise             Prototype
 2012 11 13
 2012 11 12
 2012 11 11
 2012 11 10
-2012 11 09 - 25      Nataniev             Design
+2012 11 09 - 25      Paradise             Design
 2012 11 08 - 25      Audio                Writing
 2012 11 07 - 35      Horaire              Prototype
-2012 11 06 - 35      Nataniev             Prototype
-2012 11 05 - 35      Nataniev             Prototype
+2012 11 06 - 35      Paradise             Prototype
+2012 11 05 - 35      Paradise             Prototype
 2012 11 04
-2012 11 03 - 35      Nataniev             Development
-2012 11 02 - 39      Nataniev             Development
-2012 11 01 - 36      Nataniev             Design
-2012 10 31 - 38      Nataniev             Development
-2012 10 30 - 38      Nataniev             Development          For the Horsemen of   The air cracked and, from nullspace, the Library of Sand emerged.
-2012 10 29 - 38      Nataniev             Tools
+2012 11 03 - 35      Paradise             Development
+2012 11 02 - 39      Paradise             Development
+2012 11 01 - 36      Paradise             Design
+2012 10 31 - 38      Paradise             Development
+2012 10 30 - 38      Paradise             Development          For the Horsemen of   The air cracked and, from nullspace, the Library of Sand emerged.
+2012 10 29 - 38      Paradise             Tools
 2012 10 28 - 35      Horaire              Development
 2012 10 27
 2012 10 26
@@ -1593,33 +1593,33 @@
 2012 09 25 - 35      Neauismetica         Writing
 2012 09 24
 2012 09 23 - 17      To The Aeons Hell    Composition
-2012 09 22 - 37      Nataniev             Development
-2012 09 21 - 37      Nataniev             Development
-2012 09 20 - 32      Nataniev             Tools
-2012 09 19 - 37      Nataniev             Tools
+2012 09 22 - 37      Paradise             Development
+2012 09 21 - 37      Paradise             Development
+2012 09 20 - 32      Paradise             Tools
+2012 09 19 - 37      Paradise             Tools
 2012 09 18 - 28      Ehrivevnv Studies    Composition
 2012 09 17 - 35      Ehrivevnv Studies    Composition
 2012 09 16 - 35      Ehrivevnv Studies    Composition
 2012 09 15 - 19      Collected works      Composition
 2012 09 14 - 19      Collected works      Composition
 2012 09 13 - 18      To The Aeons Hell    Composition
-2012 09 12 - 38      Nataniev             Tools
+2012 09 12 - 38      Paradise             Tools
 2012 09 11
 2012 09 10 - 25      Waiting for horus    Design
 2012 09 09
 2012 09 08
-2012 09 07 - 37      Nataniev             Development
-2012 09 06 - 37      Nataniev             Tools
-2012 09 05 - 37      Nataniev             Tools
-2012 09 04 - 37      Nataniev             Development
+2012 09 07 - 37      Paradise             Development
+2012 09 06 - 37      Paradise             Tools
+2012 09 05 - 37      Paradise             Tools
+2012 09 04 - 37      Paradise             Development
 2012 09 03 - 35      Waiting for horus    Design
 2012 09 02 - 37      Waiting for horus    Design
-2012 09 01 - 37      Nataniev             Development
+2012 09 01 - 37      Paradise             Development
 2012 08 31
 2012 08 30 - 25      Waiting for horus    Design
-2012 08 29 - 35      Nataniev             Development
+2012 08 29 - 35      Paradise             Development
 2012 08 28
-2012 08 27 - 35      Nataniev             Development
+2012 08 27 - 35      Paradise             Development
 2012 08 26 - 25      Waiting for horus    Design
 2012 08 25 - 15      Waiting for horus    Composition
 2012 08 24 - 16      Waiting for horus    Composition
@@ -1635,20 +1635,20 @@
 2012 08 14 - 39      Lietal               Cryptography
 2012 08 13 - 39      Lietal               Linguistics
 2012 08 12 - 32      Horaire              Development
-2012 08 11 - 32      Nataniev             Development
-2012 08 10 - 32      Nataniev             Development
-2012 08 09 - 35      Nataniev             Development
+2012 08 11 - 32      Paradise             Development
+2012 08 10 - 32      Paradise             Development
+2012 08 09 - 35      Paradise             Development
 2012 08 08 - 29   39 Infrared             Writing              Wereda
 2012 08 07 - 25  257 Devine lu Linvega    Photography          Tokyo Tempers
 2012 08 06
-2012 08 05 - 32      Nataniev             Development
+2012 08 05 - 32      Paradise             Development
 2012 08 04
 2012 08 03 - 28   26 Artwork              Illustration         Neoneve Afloat Revis
-2012 08 02 - 32      Nataniev             Tools
-2012 08 01 - 39      Nataniev             Development
-2012 07 31 - 35      Nataniev             Tools
-2012 07 30 - 35      Nataniev             Tools
-2012 07 29 - 26      Nataniev             Development
+2012 08 02 - 32      Paradise             Tools
+2012 08 01 - 39      Paradise             Development
+2012 07 31 - 35      Paradise             Tools
+2012 07 30 - 35      Paradise             Tools
+2012 07 29 - 26      Paradise             Development
 2012 07 28 - 19      Mixtape              Mixing               Alife
 2012 07 27
 2012 07 26
@@ -1659,23 +1659,23 @@
 2012 07 21 - 25      Infrared             Photography
 2012 07 20
 2012 07 19
-2012 07 18 - 37      Nataniev             Design
+2012 07 18 - 37      Paradise             Design
 2012 07 17
-2012 07 16 - 37      Nataniev             Development
+2012 07 16 - 37      Paradise             Development
 2012 07 15 - 32      Horaire              Development
-2012 07 14 - 32      Nataniev             Development
-2012 07 13 - 32      Nataniev             Development
-2012 07 12 - 32      Nataniev             Development
-2012 07 11 - 32      Nataniev             Development
+2012 07 14 - 32      Paradise             Development
+2012 07 13 - 32      Paradise             Development
+2012 07 12 - 32      Paradise             Development
+2012 07 11 - 32      Paradise             Development
 2012 07 10 ! 19  161 Vetetrandes lettres  Release              Vetetrandes, Lettres
 2012 07 09 - 19    5 Vetetrandes lettres  Live                 iVardensphere Tour -
-2012 07 08 - 39      Nataniev             Development
+2012 07 08 - 39      Paradise             Development
 2012 07 07 - 17      To The Aeons Hell    Composition
 2012 07 06 - 17      To The Aeons Hell    Composition
-2012 07 05 - 35      Nataniev             Design
+2012 07 05 - 35      Paradise             Design
 2012 07 04 - 19      To The Aeons Hell    Composition
-2012 07 03 - 39      Nataniev             Design
-2012 07 02 - 38      Nataniev             Tools
+2012 07 03 - 39      Paradise             Design
+2012 07 02 - 38      Paradise             Tools
 2012 07 01 - 35      Pico battle          Refactoring          Pico Battle Update
 2012 06 30
 2012 06 29
@@ -1684,7 +1684,7 @@
 2012 06 26 - 18      To The Aeons Hell    Composition
 2012 06 25 - 17      Vetetrandes lettres  Illustration
 2012 06 24
-2012 06 23 - 35      Nataniev             Tools
+2012 06 23 - 35      Paradise             Tools
 2012 06 22 - 18      To The Aeons Hell    Composition
 2012 06 21 - 18      To The Aeons Hell    Composition
 2012 06 20 - 25      Pico battle          Design
@@ -1700,7 +1700,7 @@
 2012 06 10 - 15      To The Aeons Hell    Composition
 2012 06 09 - 19      To The Aeons Hell    Composition
 2012 06 08 - 35      Lietal               Documentation
-2012 06 07 - 39      Nataniev             Development
+2012 06 07 - 39      Paradise             Development
 2012 06 06 - 25      Pico battle          Design
 2012 06 05 - 35      Lietal               Documentation
 2012 06 04 - 25  150 Artwork              Illustration         Hydro74 Remix
@@ -1712,8 +1712,8 @@
 2012 05 29
 2012 05 28
 2012 05 27 - 35      Horaire              Development
-2012 05 26 - 35      Nataniev             Development
-2012 05 25 - 35      Nataniev             Development
+2012 05 26 - 35      Paradise             Development
+2012 05 25 - 35      Paradise             Development
 2012 05 24 - 35      Neauismetica         Writing
 2012 05 23
 2012 05 22
@@ -1724,7 +1724,7 @@
 2012 05 17 - 35      Neauismetica         Writing
 2012 05 16
 2012 05 15
-2012 05 14 - 35      Nataniev             Development
+2012 05 14 - 35      Paradise             Development
 2012 05 13 - 29  147 Collegiennes         Design               Toronto Game Jam 201
 2012 05 12 - 29      Collegiennes         Design
 2012 05 11 - 29      Collegiennes         Design
@@ -1741,7 +1741,7 @@
 2012 04 30 - 28      Interactive
 2012 04 29 - 25      Waiting for horus    Design
 2012 04 28
-2012 04 27 - 35      Nataniev             Development
+2012 04 27 - 35      Paradise             Development
 2012 04 26
 2012 04 25
 2012 04 24
@@ -1752,7 +1752,7 @@
 2012 04 19 - 15  266 Sombre               Mixing               New Mixtape
 2012 04 18 - 35      Lietal               Cryptography
 2012 04 17 - 35      Lietal               Cryptography
-2012 04 16 - 35      Nataniev             Development
+2012 04 16 - 35      Paradise             Development
 2012 04 15
 2012 04 14 - 25      Waiting for horus    Design
 2012 04 13 - 34      Lietal               Linguistics
@@ -1794,12 +1794,12 @@
 2012 03 08 - 25   31 Spool holder         Design               PP3DP 1kg Spool Hold
 2012 03 07 - 35      Lietal               Documentation
 2012 03 06 - 25   30 Spagettini scale     Design               Spagettini Scale
-2012 03 05 - 29   68 Nataniev             Development          A Ghost in Paradise
-2012 03 04 - 35  100 Nataniev             Illustration         Lost in Paradise
-2012 03 03 - 35      Nataniev             Release
+2012 03 05 - 29   68 Paradise             Development          A Ghost in Paradise
+2012 03 04 - 35  100 Paradise             Illustration         Lost in Paradise
+2012 03 03 - 35      Paradise             Release
 2012 03 02 - 35      Paradise
 2012 03 01 - 25   29 Waiting for horus    Design               Waiting for Horus
-2012 02 29 - 35      Nataniev             Design
+2012 02 29 - 35      Paradise             Design
 2012 02 28
 2012 02 27 - 25      Waiting for horus    Design
 2012 02 26 - 25      Waiting for horus    Design
@@ -1807,7 +1807,7 @@
 2012 02 24 - 25      Waiting for horus    Design
 2012 02 23 - 25      Waiting for horus    Design
 2012 02 22 - 25  219 Waiting for horus    Design               Rah
-2012 02 21 - 35      Nataniev             Development
+2012 02 21 - 35      Paradise             Development
 2012 02 20 - 25      Waiting for horus    Design
 2012 02 19 - 25      Waiting for horus    Design
 2012 02 18 - 25      Waiting for horus    Design
@@ -1815,7 +1815,7 @@
 2012 02 16 - 25      Waiting for horus    Design
 2012 02 15 - 25      Waiting for horus    Design
 2012 02 14 - 25      Lietal               Typography
-2012 02 13 - 35      Nataniev             Tools
+2012 02 13 - 35      Paradise             Tools
 2012 02 12 ! 17   27 Es gulf sunflowers   Release              Es Gulfs'Sunflowers
 2012 02 11 - 19      Es gulf sunflowers   Live                 Toy Company - Jack &
 2012 02 10 - 15      Mixtape              Mixing               Ghosts
@@ -1826,7 +1826,7 @@
 2012 02 05 - 15      Es gulf sunflowers   Composition
 2012 02 04 - 15      Es gulf sunflowers   Composition
 2012 02 03 - 25      Volkenessen          Refactoring
-2012 02 02 - 35      Nataniev             Design
+2012 02 02 - 35      Paradise             Design
 2012 02 01
 2012 01 31
 2012 01 30 - 25   25 Volkenessen          Release              Volkenessen
@@ -1834,11 +1834,11 @@
 2012 01 28 - 25      Collegiennes         Design
 2012 01 27 - 25      Collegiennes         Design
 2012 01 26
-2012 01 25 - 35      Nataniev             Tools
+2012 01 25 - 35      Paradise             Tools
 2012 01 24
 2012 01 23 - 25   24 Artwork              Illustration         Veins of brambles
 2012 01 22 - 15      Es gulf sunflowers   Composition
-2012 01 21 - 25      Nataniev             Development
+2012 01 21 - 25      Paradise             Development
 2012 01 20 - 15      Es gulf sunflowers   Composition
 2012 01 19
 2012 01 18 - 35      Neauismetica         Writing              Veins of Brambles     I dreamt.
@@ -1849,15 +1849,15 @@
 2012 01 13 - 35   19 Obliques             Tools                Extra
 2012 01 12
 2012 01 11
-2012 01 10 - 25  999 Nataniev             Development          Oscean Eye
-2012 01 09 - 35      Nataniev             Development
+2012 01 10 - 25  999 Paradise             Development          Oscean Eye
+2012 01 09 - 35      Paradise             Development
 2012 01 08
-2012 01 07 - 35      Nataniev             Development
-2012 01 06 - 25      Nataniev             Development
-2012 01 05 - 25      Nataniev             Development
-2012 01 04 - 35      Nataniev             Development
-2012 01 03 - 35      Nataniev             Development
-2012 01 02 - 35      Nataniev             Design
+2012 01 07 - 35      Paradise             Development
+2012 01 06 - 25      Paradise             Development
+2012 01 05 - 25      Paradise             Development
+2012 01 04 - 35      Paradise             Development
+2012 01 03 - 35      Paradise             Development
+2012 01 02 - 35      Paradise             Design
 2012 01 01 - 25      Physical             Prototype
 2011 12 31 - 35    9 Yearly               Writing              MMXI
 2011 12 30 - 15      Remix                                     iVardensphere - Ghos
@@ -1921,7 +1921,7 @@
 2011 11 02 - 29  202 Collegiennes                              Prince of the Arcade
 2011 11 01 - 35  201 Notes                Writing              Part I
 2011 10 31 - 25      Merveilles portable  Layout
-2011 10 30 - 35      Nataniev             Development
+2011 10 30 - 35      Paradise             Development
 2011 10 29
 2011 10 28
 2011 10 27
@@ -1929,12 +1929,12 @@
 2011 10 25 - 35      Neauismetica         Writing
 2011 10 24
 2011 10 23 - 25      Artwork                                   Vj Session 1
-2011 10 22 - 35      Nataniev             Development
-2011 10 21 - 35      Nataniev             Tools
+2011 10 22 - 35      Paradise             Development
+2011 10 21 - 35      Paradise             Tools
 2011 10 20
 2011 10 19
 2011 10 18
-2011 10 17 - 35      Nataniev             Design
+2011 10 17 - 35      Paradise             Design
 2011 10 16 - 35      Lietal               Documentation
 2011 10 15 - 25      Lietal               Design
 2011 10 14 - 35      Lietal               Documentation
@@ -1948,20 +1948,20 @@
 2011 10 06 - 35      Lietal               Documentation
 2011 10 05 - 35      Lietal               Documentation
 2011 10 04 - 15      From Saharaphorest   Composition
-2011 10 03 - 39   81 Nataniev             Development          Started Modules
+2011 10 03 - 39   81 Paradise             Development          Started Modules
 2011 10 02 - 25
 2011 10 01 - 25
 2011 09 30
 2011 09 29
 2011 09 28
 2011 09 27
-2011 09 26 - 35      Nataniev             Development
+2011 09 26 - 35      Paradise             Development
 2011 09 25 ! 15   89 The Sixth Season     Release              The Sixth Season
 2011 09 24 - 19      The Sixth Season     Live                 Neu Installation - T
 2011 09 23 - 25      Lietal               Documentation
 2011 09 22 - 25      Artwork              Illustration
 2011 09 21 - 25      Artwork              Illustration
-2011 09 20 - 35      Nataniev             Tools
+2011 09 20 - 35      Paradise             Tools
 2011 09 19 - 19
 2011 09 18 - 15      The Sixth Season     Composition
 2011 09 17 - 15      The Sixth Season     Composition
@@ -1976,7 +1976,7 @@
 2011 09 08
 2011 09 07
 2011 09 06 - 15      The Sixth Season     Composition
-2011 09 05 - 35      Nataniev             Development
+2011 09 05 - 35      Paradise             Development
 2011 09 04
 2011 09 03
 2011 09 02
@@ -1985,14 +1985,14 @@
 2011 08 30
 2011 08 29
 2011 08 28 - 35      Horaire              Development
-2011 08 27 - 35      Nataniev             Tools
+2011 08 27 - 35      Paradise             Tools
 2011 08 26 - 25   17 Aliceffekt           Illustration         Aliceffekt Shirt I
-2011 08 25 - 35      Nataniev             Development
+2011 08 25 - 35      Paradise             Development
 2011 08 24 - 35      Neauismetica         Writing
 2011 08 23 ! 35   14 Typography           Typography           Septambres Lith
-2011 08 22 - 35      Nataniev             Development
-2011 08 21 - 35      Nataniev             Tools
-2011 08 20 - 35      Nataniev             Design
+2011 08 22 - 35      Paradise             Development
+2011 08 21 - 35      Paradise             Tools
+2011 08 20 - 35      Paradise             Design
 2011 08 19
 2011 08 18 - 35      Merveilles portable  Design
 2011 08 17 - 35      Merveilles portable  Design
@@ -2028,28 +2028,28 @@
 2011 07 18 - 39   82 Yajnev                                    Yajnav's Thoughts
 2011 07 17 - 25      Artwork              Illustration
 2011 07 16 - 25      Artwork              Illustration
-2011 07 15 - 35      Nataniev             Design
-2011 07 14 - 35      Nataniev             Development
+2011 07 15 - 35      Paradise             Design
+2011 07 14 - 35      Paradise             Development
 2011 07 13 - 15      Blam                 Composition
-2011 07 12 - 35      Nataniev             Development
-2011 07 11 - 35      Nataniev             Development
+2011 07 12 - 35      Paradise             Development
+2011 07 11 - 35      Paradise             Development
 2011 07 10 - 15      Blam                 Composition
 2011 07 09
 2011 07 08
 2011 07 07 - 15      Blam                 Composition
-2011 07 06 - 35      Nataniev             Development
+2011 07 06 - 35      Paradise             Development
 2011 07 05 - 15      Mixtape              Mixing               Easter
 2011 07 04
-2011 07 03 - 35      Nataniev             Development
-2011 07 02 - 35      Nataniev             Development
-2011 07 01 - 35      Nataniev             Development
+2011 07 03 - 35      Paradise             Development
+2011 07 02 - 35      Paradise             Development
+2011 07 01 - 35      Paradise             Development
 2011 06 30 - 35      Horaire              Design
 2011 06 29 - 35      Horaire              Development
 2011 06 28 - 35      Neauismetica         Writing
 2011 06 27 - 35      Neauismetica         Writing
 2011 06 26 - 35      Neauismetica         Writing
 2011 06 25 - 35      Neauismetica         Writing
-2011 06 24 - 35      Nataniev             Development
+2011 06 24 - 35      Paradise             Development
 2011 06 23 - 35      Neauismetica
 2011 06 22 - 25      Artwork              Illustration
 2011 06 21 - 35      Neauismetica         Writing
@@ -2064,10 +2064,10 @@
 2011 06 12
 2011 06 11 - 19      Mixtape              Mixing               Wave
 2011 06 10
-2011 06 09 - 35      Nataniev             Development
-2011 06 08 - 35      Nataniev             Design
-2011 06 07 - 35      Nataniev             Development
-2011 06 06 - 35      Nataniev             Design
+2011 06 09 - 35      Paradise             Development
+2011 06 08 - 35      Paradise             Design
+2011 06 07 - 35      Paradise             Development
+2011 06 06 - 35      Paradise             Design
 2011 06 05
 2011 06 04
 2011 06 03
@@ -2096,14 +2096,14 @@
 2011 05 11 - 19      Vermillionth         Rehearsal
 2011 05 10 - 35      Lietal               Documentation
 2011 05 09 - 19      Vermillionth         Composition
-2011 05 08 - 35      Nataniev             Tools
+2011 05 08 - 35      Paradise             Tools
 2011 05 07
-2011 05 06 - 35      Nataniev             Tools
+2011 05 06 - 35      Paradise             Tools
 2011 05 05
-2011 05 04 - 35      Nataniev             Tools
-2011 05 03 - 35      Nataniev             Development
-2011 05 02 - 35      Nataniev             Design
-2011 05 01 - 35      Nataniev             Tools
+2011 05 04 - 35      Paradise             Tools
+2011 05 03 - 35      Paradise             Development
+2011 05 02 - 35      Paradise             Design
+2011 05 01 - 35      Paradise             Tools
 2011 04 30 - 35      Paradise
 2011 04 29 - 15      To The Aeons Hell    Composition
 2011 04 28 - 35      Paradise
@@ -2112,16 +2112,16 @@
 2011 04 25 - 25      Drownspire
 2011 04 24 - 29                           Development
 2011 04 23 - 15      To The Aeons Hell    Composition
-2011 04 22 - 35      Nataniev             Development
-2011 04 21 - 35      Nataniev             Development
-2011 04 20 - 35      Nataniev             Design
+2011 04 22 - 35      Paradise             Development
+2011 04 21 - 35      Paradise             Development
+2011 04 20 - 35      Paradise             Design
 2011 04 19 - 19      The Sixth Season     Live                 OCDJ - Montreal, Pas
 2011 04 18
 2011 04 17 - 15      To The Aeons Hell    Rehearsal
 2011 04 16 - 15      To The Aeons Hell    Composition
 2011 04 15
 2011 04 14
-2011 04 13 - 35      Nataniev             Development
+2011 04 13 - 35      Paradise             Development
 2011 04 12
 2011 04 11
 2011 04 10 - 15      To The Aeons Hell    Composition
@@ -2132,25 +2132,25 @@
 2011 04 05 - 25      Paradise
 2011 04 04
 2011 04 03 - 15      To The Aeons Hell    Composition
-2011 04 02 - 35      Nataniev             Design
-2011 04 01 - 35      Nataniev             Design
+2011 04 02 - 35      Paradise             Design
+2011 04 01 - 35      Paradise             Design
 2011 03 31 - 35      Horaire              Design
-2011 03 30 - 35      Nataniev             Design
+2011 03 30 - 35      Paradise             Design
 2011 03 29 - 29      Horaire              Design
-2011 03 28 - 35      Nataniev             Design
-2011 03 27 - 35      Nataniev             Design
-2011 03 26 - 39      Nataniev             Design
+2011 03 28 - 35      Paradise             Design
+2011 03 27 - 35      Paradise             Design
+2011 03 26 - 39      Paradise             Design
 2011 03 25 - 25      Drownspire
 2011 03 24 - 35      Lietal               Documentation
 2011 03 23
 2011 03 22 ! 17  370 Aliceffekt           Writing              Photo Shoot
 2011 03 21 - 25      Merveilles portable  Design
-2011 03 20 - 35      Nataniev             Development
+2011 03 20 - 35      Paradise             Development
 2011 03 19 - 15      To The Aeons Hell    Composition
 2011 03 18 - 25      Merveilles portable  Design
 2011 03 17 - 25      Merveilles portable  Design
 2011 03 16 - 15      To The Aeons Hell    Composition
-2011 03 15 - 35      Nataniev             Development
+2011 03 15 - 35      Paradise             Development
 2011 03 14
 2011 03 13
 2011 03 12 - 25   47 Czech                Photography
@@ -2168,11 +2168,11 @@
 2011 02 28 - 25   58 Typography           Typography           Septambres Neau
 2011 02 27 - 25      Lietal               Typography
 2011 02 26 - 25      Lietal               Typography
-2011 02 25 - 35      Nataniev             Design
+2011 02 25 - 35      Paradise             Design
 2011 02 24 - 25      Merveilles portable  Design
 2011 02 23 - 25      Merveilles portable  Design
 2011 02 22 - 19      Mixtape              Mixing               Easter
-2011 02 21 - 35      Nataniev             Development
+2011 02 21 - 35      Paradise             Development
 2011 02 20 - 25      Merveilles portable  Design
 2011 02 19 - 35      Merveilles portable  Design
 2011 02 18 - 35      Merveilles portable
@@ -2183,14 +2183,14 @@
 2011 02 13 - 29   57 Merveilles portable                       Merveilles Portable
 2011 02 12 - 25      Merveilles portable
 2011 02 11 - 25      Merveilles portable
-2011 02 10 - 35      Nataniev             Design
+2011 02 10 - 35      Paradise             Design
 2011 02 09
-2011 02 08 - 35      Nataniev             AI
+2011 02 08 - 35      Paradise             AI
 2011 02 07
 2011 02 06 - 29   56 Siseon               Design               Siseon
 2011 02 05 - 25      Siseon               Design
 2011 02 04 - 25      Siseon               Design
-2011 02 03 - 35      Nataniev             Development
+2011 02 03 - 35      Paradise             Development
 2011 02 02
 2011 02 01 - 29      Artwork              Illustration
 2011 01 31 - 25      Siseon               Design
@@ -2206,11 +2206,11 @@
 2011 01 21 - 15      To The Aeons Hell    Composition
 2011 01 20 - 15      To The Aeons Hell    Composition
 2011 01 19 - 15      Mixtape              Mixing               Tunnel
-2011 01 18 - 35      Nataniev             Design
-2011 01 17 - 25      Nataniev             Design
+2011 01 18 - 35      Paradise             Design
+2011 01 17 - 25      Paradise             Design
 2011 01 16 - 25      Lietal               Typography
 2011 01 15 - 15      To The Aeons Hell    Composition
-2011 01 14 - 35      Nataniev             Development
+2011 01 14 - 35      Paradise             Development
 2011 01 13 - 35      Horaire              Development
 2011 01 12 - 15      To The Aeons Hell    Composition
 2011 01 11 - 19      Mixtape              Mixing               visual
@@ -2220,11 +2220,11 @@
 2011 01 07
 2011 01 06 - 15      To The Aeons Hell    Composition
 2011 01 05 - 15      To The Aeons Hell    Rehearsal
-2011 01 04 - 35      Nataniev             Release
-2011 01 03 - 39      Nataniev             Development
+2011 01 04 - 35      Paradise             Release
+2011 01 03 - 39      Paradise             Development
 2011 01 02
 2011 01 01
-2010 12 31 - 35      Nataniev             Development
+2010 12 31 - 35      Paradise             Development
 2010 12 30
 2010 12 29 - 25  482 Death                                     Milk
 2010 12 28 - 35                           Prototype
@@ -2232,17 +2232,17 @@
 2010 12 26 - 25      Artwork              Illustration
 2010 12 25
 2010 12 24
-2010 12 23 - 39      Nataniev             Development
-2010 12 22 - 39      Nataniev             Development
+2010 12 23 - 39      Paradise             Development
+2010 12 22 - 39      Paradise             Development
 2010 12 21
 2010 12 20 - 15  315 To The Aeons Hell    Release              To The Aeons Hell
 2010 12 19 - 35   49 Yearly               Writing              MMX
 2010 12 18 - 19      To The Aeons Hell    Live                 Toy Company - Montre
 2010 12 17 - 19      To The Aeons Hell    Rehearsal
-2010 12 16 - 39      Nataniev             Tools
-2010 12 15 - 39      Nataniev             Tools
-2010 12 14 - 39      Nataniev             Tools
-2010 12 13 - 26      Nataniev             Prototype
+2010 12 16 - 39      Paradise             Tools
+2010 12 15 - 39      Paradise             Tools
+2010 12 14 - 39      Paradise             Tools
+2010 12 13 - 26      Paradise             Prototype
 2010 12 12
 2010 12 11 - 25   93 Vambits              Design               Vambits, Last Gen
 2010 12 10
@@ -2257,27 +2257,27 @@
 2010 12 01
 2010 11 30 - 25      Artwork              Illustration
 2010 11 29 - 29   48 Artwork              Illustration         Tools to creative
-2010 11 28 - 35      Nataniev             Development
+2010 11 28 - 35      Paradise             Development
 2010 11 27
 2010 11 26
 2010 11 25
-2010 11 24 - 35      Nataniev             Design
-2010 11 23 - 35      Nataniev             Development
+2010 11 24 - 35      Paradise             Design
+2010 11 23 - 35      Paradise             Development
 2010 11 22
 2010 11 21 - 35                           Prototype
 2010 11 20 - 25      Lietal               Typography
 2010 11 19
-2010 11 18 - 35      Nataniev             Development
+2010 11 18 - 35      Paradise             Development
 2010 11 17
-2010 11 16 - 25      Nataniev             Prototype
+2010 11 16 - 25      Paradise             Prototype
 2010 11 15
-2010 11 14 - 35      Nataniev             Development
+2010 11 14 - 35      Paradise             Development
 2010 11 13
-2010 11 12 - 25      Nataniev             Design
-2010 11 11 - 25      Nataniev             Development
-2010 11 10 - 25      Nataniev             Development
+2010 11 12 - 25      Paradise             Design
+2010 11 11 - 25      Paradise             Development
+2010 11 10 - 25      Paradise             Development
 2010 11 09 - 29   45 Collegiennes         Live                 Prince Of The Arcade
-2010 11 08 - 35      Nataniev             Development
+2010 11 08 - 35      Paradise             Development
 2010 11 07 - 29      Collegiennes         Design
 2010 11 06
 2010 11 05
@@ -2287,10 +2287,10 @@
 2010 11 01
 2010 10 31 - 25   22 Interface            Design               Android Nexus S Them
 2010 10 30 - 25
-2010 10 29 - 35      Nataniev             Development
+2010 10 29 - 35      Paradise             Development
 2010 10 28 - 25      Siseon
 2010 10 27
-2010 10 26 - 35      Nataniev             Tools
+2010 10 26 - 35      Paradise             Tools
 2010 10 25 - 35      Pico                 Design
 2010 10 24 - 25      Pico                 Design
 2010 10 23 - 29
@@ -2314,22 +2314,22 @@
 2010 10 05 - 25      Merure               Design
 2010 10 04
 2010 10 03
-2010 10 02 - 25      Nataniev             Development
+2010 10 02 - 25      Paradise             Development
 2010 10 01 - 15      To The Aeons Hell    Composition
 2010 09 30 - 25   88 Vambits              Design               Vambits, Gen II
 2010 09 29
 2010 09 28
-2010 09 27 - 35      Nataniev             Development
-2010 09 26 - 35      Nataniev             Development
-2010 09 25 - 35      Nataniev             Development
-2010 09 24 - 25      Nataniev             Design
+2010 09 27 - 35      Paradise             Development
+2010 09 26 - 35      Paradise             Development
+2010 09 25 - 35      Paradise             Development
+2010 09 24 - 25      Paradise             Design
 2010 09 23
 2010 09 22 - 25      Artwork              Illustration
 2010 09 21 - 15      To The Aeons Hell    Composition
 2010 09 20
 2010 09 19 - 35      Horaire              Development
 2010 09 18
-2010 09 17 - 35      Nataniev             Development
+2010 09 17 - 35      Paradise             Development
 2010 09 16 - 25                           Design
 2010 09 15 - 25      Artwork              Illustration
 2010 09 14 - 25      Drownspire
@@ -2349,12 +2349,12 @@
 2010 08 31
 2010 08 30 - 35      Artwork              Illustration
 2010 08 29 - 15      Mixtape              Mixing               Wave
-2010 08 28 - 25      Nataniev             Development
+2010 08 28 - 25      Paradise             Development
 2010 08 27
-2010 08 26 - 35      Nataniev             Tools
-2010 08 25 - 35      Nataniev             Tools
+2010 08 26 - 35      Paradise             Tools
+2010 08 25 - 35      Paradise             Tools
 2010 08 24 - 25      Merure               Design
-2010 08 23 - 35      Nataniev             Design
+2010 08 23 - 35      Paradise             Design
 2010 08 22 - 25      Pico
 2010 08 21 - 19    7 To The Aeons Hell    Live                 Toy Company - Montre
 2010 08 20 - 25      Drownspire
@@ -2374,7 +2374,7 @@
 2010 08 06 - 29      Collegiennes         Design               Bivouac Urbain
 2010 08 05 - 29      Collegiennes         Design               Bivouac Urbain
 2010 08 04 - 25  451 Hypervoid            Illustration         Noirescent
-2010 08 03 - 35      Nataniev             Design
+2010 08 03 - 35      Paradise             Design
 2010 08 02 - 15      To The Aeons Hell    Composition
 2010 08 01 - 25  450 Hypervoid            Illustration         Infraviolet
 2010 07 31 - 25  449 Hypervoid            Illustration         Dilesion
@@ -2382,7 +2382,7 @@
 2010 07 29 - 25      Pico
 2010 07 28 - 25      Drownspire
 2010 07 27
-2010 07 26 - 35      Nataniev             Development
+2010 07 26 - 35      Paradise             Development
 2010 07 25 - 25      Pico
 2010 07 24
 2010 07 23 - 19      Genesis miners       Live                 Badass - Montreal, K
@@ -2395,20 +2395,20 @@
 2010 07 16 - 19      Genesis miners       Live                 Komor Kommando - Ott
 2010 07 15
 2010 07 14 - 25   15 Ableton              Design               Ableton Live Theme
-2010 07 13 - 35      Nataniev             Development
+2010 07 13 - 35      Paradise             Development
 2010 07 12 - 25      To The Aeons Hell    Composition
 2010 07 11 - 25      Artwork              Illustration
 2010 07 10 - 25      Artwork              Illustration
 2010 07 09 - 25      Artwork              Illustration
-2010 07 08 - 35      Nataniev             Development
+2010 07 08 - 35      Paradise             Development
 2010 07 07 - 25      Drownspire
 2010 07 06 - 25      Drownspire                                Drownspire
 2010 07 05 - 19      Mixtape              Mixing               Suilen
 2010 07 04
 2010 07 03 ! 35   92 Nataniev             Writing              Oscean Graph
-2010 07 02 - 35      Nataniev             Development
+2010 07 02 - 35      Paradise             Development
 2010 07 01
-2010 06 30 - 35      Nataniev             Development
+2010 06 30 - 35      Paradise             Development
 2010 06 29 - 25   74 Drownspire           Development          Our Studio
 2010 06 28 ! 39      Research             Event                Learn Programming
 2010 06 27 - 15      To The Aeons Hell    Composition
@@ -2417,11 +2417,11 @@
 2010 06 24 - 25      Pico                 Design
 2010 06 23 - 29   73 Drownspire                                Founded Drownspire
 2010 06 22 - 25      Pico                 Design
-2010 06 21 - 35      Nataniev             Development
+2010 06 21 - 35      Paradise             Development
 2010 06 20 - 35      Pico                 Design
 2010 06 19 - 29  308 Zjeveni              Design               Zjeveni
 2010 06 18 - 25      Zjeveni              Design
-2010 06 17 - 35      Nataniev             Prototype
+2010 06 17 - 35      Paradise             Prototype
 2010 06 16 - 35      Zjeveni              Design
 2010 06 15 - 35      Zjeveni              Design
 2010 06 14 - 35      Lietal               Documentation
@@ -3128,7 +3128,7 @@
 2008 07 13
 2008 07 12
 2008 07 11
-2008 07 10 ! 25      Nataniev             Branding             Founded XXIIVV
+2008 07 10 ! 25      Paradise             Branding             Founded XXIIVV
 2008 07 09
 2008 07 08
 2008 07 07

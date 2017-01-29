@@ -1565,11 +1565,30 @@ NATANIEV
     ? Deep within this virtual structure, sleeps a small office - and in it a desk, on which rests a book that translates Russian words into English.
     & {{Horaire}} is a logbook that holds {_daily creative output entries_}, logged for each day since April 2006. This rigid lifestyle expriment is aiming at discerning and predicting the creativity patterns of {{Devine Lu Linvega}}. The latest visualisation of these logs can be seen {{here|Horaire}}.
     * Multiplayer Operating System
-    & The Interactive Fiction client is currently being developed to allow anyone to enter, explore and build within the library. The new version will allow anyone to deploy their own instance of {{Nataniev}}, and travel from theirs, to this one seemlessly.
-    ? In a little while you will be alone in shoreless space, to wander its limitless solitudes without friend or comrade forever--for you will remain a thought, the only existent thought, and by your nature inextinguishable, indestructible.
-    & From Mark Twain's {{the mysterious Stranger|http://en.wikipedia.org/wiki/The_Mysterious_Stranger}}
+    & The {{Interactive Fiction client|Paradise}} is currently being developed to allow anyone to enter, explore and build within the library. The new version will allow anyone to deploy their own instance of {{Nataniev}}, and travel from theirs, to this one seemlessly.
   LINK
     GITH : https://github.com/XXIIVV/Nataniev
+
+PARADISE
+  UNDE : Gamme
+  BREF : {{Paradise}} is a multiplayer playground that lives within {{Nataniev}}. 
+  LONG
+    & In this little anonymous world you can create anything; you can build a world inside a {_teapot_}. Anyone who finds your teapot will be able to traverse this hidden universe and add to it.
+    * Guide
+    & You can type {_help_} to see a list of the commands, alternatively, you can ask other players to show you around.
+    # help
+    # ask please, I am new here, can anyone help me
+    * Programs
+    & You can program a vessel to automate an action from the player. Typing the following commands will enter a visible vessel named {*apple*} and make it useable. Using this vessel will warp the player to the vessel with the warp id #34.
+    # enter the apple
+    # program warp to 34
+    # leave
+    # use the apple
+    & {_In a little while you will be alone in shoreless space, to wander its limitless solitudes without friend or comrade forever--for you will remain a thought, the only existent thought, and by your nature inextinguishable, indestructible._}
+    & From Mark Twain's {{the mysterious Stranger|http://en.wikipedia.org/wiki/The_Mysterious_Stranger}}
+  LINK
+    SITE : http://paradise.xxiivv.com
+    GITH : https://github.com/XXIIVV/vessel.paradise
 
 HORAIRE
   UNDE : Gamme
