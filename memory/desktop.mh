@@ -85,7 +85,12 @@ LIETAL
   Translate Lietal Riding Hood
 
 PARADISE
-  Create a console application
+  Actions
+    Lock/Unlock
+    Show/Hide
+    Call
+  Guide
+  Implement Badwords
 
 HUNDRED RABBITS
   Add timeline filters

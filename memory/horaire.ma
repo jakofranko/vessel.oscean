@@ -4,6 +4,8 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 01 28 - 39      Paradise             Development
+2017 01 27 - 29      Paradise             Design
 2017 01 26 - 27      Ronin                Tools
 2017 01 25 - 29      Hundred rabbits      Video
 2017 01 24 - 38      Markl                Design
