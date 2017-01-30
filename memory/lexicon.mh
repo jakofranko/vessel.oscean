@@ -1585,24 +1585,26 @@ PARADISE
 
 PARADISE GUIDE
   UNDE : Paradise
-  BREF : The {{Paradise}} guide explains the physics of the world and a few example programs.
+  BREF : This {{Paradise}} Guide will explains the physics of the world and give a few example programs.
   LONG
-    & Upon connecting, you are assigned an available {_vessel_}, or a vessel that was created without a {_note_}, and without a {_program_}.
+    & Upon entering the {_Library_}, you are assigned an available {_Vessel_} and a {_Warp Id_}.
+    * The Warp Id
+    & Your vessel's {*Warp Id*} which can be found by typing "inspect", or looking at the number in the URL. By adding a bookmark to your browser, you are making sure to be able to return to your previous vessel.
     * Changing your name
-    & To change your vessel name, you need to know your vessel's {*Warp Id*} which can be found by typing "inspect". If, for instance, your Warp Id is 30 and you wish to become a red book, type:
+    & To change your vessel name, you need to know your {*Warp Id*}. If, for instance, you are ≡30, and your wish is to become {_a red book_}.
     # warp to 30
     # transmute into a book
     # make red
     * Programs
-    & You can program a vessel to automate an action from the player. Typing the following commands will enter a visible vessel named {*apple*} and make it useable. Using this vessel will warp the player to the vessel with the warp id #34.
+    & You can program a vessel to automate an action from the player. If, for instance, you want to create a vessel that warps a player to ≡50.
     # enter the apple
-    # program warp to 34
+    # program warp to 50
     # leave
     # use the apple
     * Wildcards
-    & Widlcards are inline scripts that can be used in notes and programs, creating more dynamic content. The only current active widlcard is (random)
+    & Widlcards are inline scripts that can be used in notes and programs, creating more dynamic content. If, for instance, you want to create a vessel that makes a player say a random color.
     # enter the apple
-    # program say my favourite colour is (random red cyan).
+    # program say (random red cyan).
     # leave
     # use the apple
   TAGS : Guide
