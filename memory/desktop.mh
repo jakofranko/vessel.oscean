@@ -2,6 +2,19 @@
 ~ NOTE : YAML
 ~ AUTH : Devine Lu Linvega
 
+PARADISE
+  General
+    Program limit 150
+    Note linebreaks
+    Custom usage words
+  Actions
+    Lock Unlock
+    Show Hide
+    Call
+    Warp Random
+    Destroy
+    Search
+
 PINO
   Inspection
     Windvane
@@ -78,18 +91,6 @@ LIETAL
   Translate introduction
   Make Dictionaery available to Oscean
   Translate Lietal Riding Hood
-
-PARADISE
-  Actions
-    Lock/Unlock
-    Show/Hide
-    Call
-    Warp Random
-    Destroy
-    Search
-  Program limit 150
-  Note linebreaks
-  Custom usage words
 
 HUNDRED RABBITS
   Add timeline filters
