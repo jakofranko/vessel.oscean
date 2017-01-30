@@ -273,6 +273,7 @@ DONSOL GUIDE
     ITUN : https://itunes.apple.com/us/app/donsol/id976367718
     ITCH : https://hundredrabbits.itch.io/donsol/community
     SITE : /Donsol
+  TAGS : Guide
 
 DOMINE GUIDE
   UNDE : Interactive
@@ -305,6 +306,7 @@ DOMINE GUIDE
     - The DP tile counter-attacks with 5.
     - The AP tile is killed by the DP tile. (5 > 4)
     - The DP wins the turn, the AP tile is flipped.
+  TAGS : Guide
 
 DOWNTEMPERATURE
   UNDE : First wave
@@ -1573,18 +1575,37 @@ PARADISE
   UNDE : Gamme
   BREF : {{Paradise}} is a multiplayer playground that lives within {{Nataniev}}. 
   LONG
-    & In this anonymous world you can create anything that you can imagine and traverse the various player-created universes of Paradise. 
+    & Paradise plays like a MUD, an ever-changing world where players interact with eachother by modying the universe itself.
+    & In this anonymous world you can create anything that you can imagine and traverse the various {{player-created universes|Paradise Guide}} of Paradise. 
+    ? In a little while you will be alone in shoreless space, to wander its limitless solitudes without friend or comrade forever--for you will remain a thought, the only existent thought, and by your nature inextinguishable, indestructible.
+    & From Mark Twain's {{the mysterious Stranger|http://en.wikipedia.org/wiki/The_Mysterious_Stranger}}
+  LINK
+    SITE : http://paradise.xxiivv.com
+    GITH : https://github.com/XXIIVV/vessel.paradise
+
+PARADISE GUIDE
+  UNDE : Paradise
+  BREF : The {{Paradise}} guide explains the physics of the world and a few example programs.
+  LONG
+    & Upon connecting, you are assigned an available {_vessel_}, or a vessel that was created without a {_note_}, and without a {_program_}.
+    * Changing your name
+    & To change your vessel name, you need to know your vessel's {*Warp Id*} which can be found by typing "inspect". If, for instance, your Warp Id is 30 and you wish to become a red book, type:
+    # warp to 30
+    # transmute into a book
+    # make red
     * Programs
     & You can program a vessel to automate an action from the player. Typing the following commands will enter a visible vessel named {*apple*} and make it useable. Using this vessel will warp the player to the vessel with the warp id #34.
     # enter the apple
     # program warp to 34
     # leave
     # use the apple
-    & {_In a little while you will be alone in shoreless space, to wander its limitless solitudes without friend or comrade forever--for you will remain a thought, the only existent thought, and by your nature inextinguishable, indestructible._}
-    & From Mark Twain's {{the mysterious Stranger|http://en.wikipedia.org/wiki/The_Mysterious_Stranger}}
-  LINK
-    SITE : http://paradise.xxiivv.com
-    GITH : https://github.com/XXIIVV/vessel.paradise
+    * Wildcards
+    & Widlcards are inline scripts that can be used in notes and programs, creating more dynamic content. The only current active widlcard is (random)
+    # enter the apple
+    # program say my favourite colour is (random red cyan).
+    # leave
+    # use the apple
+  TAGS : Guide
 
 HORAIRE
   UNDE : Gamme

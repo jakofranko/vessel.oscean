@@ -4,6 +4,7 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 01 30 - 38      Paradise             Documentation
 2017 01 29 - 38      Paradise             Development
 2017 01 28 - 39      Paradise             Development
 2017 01 27 - 29      Paradise             Design
