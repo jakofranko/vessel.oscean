@@ -1573,11 +1573,7 @@ PARADISE
   UNDE : Gamme
   BREF : {{Paradise}} is a multiplayer playground that lives within {{Nataniev}}. 
   LONG
-    & In this little anonymous world you can create anything; you can build a world inside a {_teapot_}. Anyone who finds your teapot will be able to traverse this hidden universe and add to it.
-    * Guide
-    & You can type {_help_} to see a list of the commands, alternatively, you can ask other players to show you around.
-    # help
-    # ask please, I am new here, can anyone help me
+    & In this anonymous world you can create anything that you can imagine and traverse the various player-created universes of Paradise. 
     * Programs
     & You can program a vessel to automate an action from the player. Typing the following commands will enter a visible vessel named {*apple*} and make it useable. Using this vessel will warp the player to the vessel with the warp id #34.
     # enter the apple

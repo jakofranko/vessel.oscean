@@ -7,7 +7,6 @@ PINO
     Windvane
     Float-switch
     mast for holes
-    sails
     Windlass
     Furler bearlings
     Fridge
@@ -18,26 +17,22 @@ PINO
   Misc
     Fins
     Get waterpump
+    Update Medicine pack
   Hardware Store
     V-berth walls
     Add foam under carpet
     Dry Berth material
-    Protect locker drain hole
   Canada Run
     Bluetooth Speaker
     Camera
     Film developed
     Renew Passports
     Pilot charts printing
-    Maple Sirup
     Nutritional yeast
     Junji Ito
-    Update Medicine pack
   Short Term
     Wash Bimini
     Fix windvane
-    Pick up packages?
-    Replace propane
 
 NATANIEV
   Documentation should be aware of dependencies
@@ -89,8 +84,12 @@ PARADISE
     Lock/Unlock
     Show/Hide
     Call
-  Guide
-  Implement Badwords
+    Warp Random
+    Destroy
+    Search
+  Program limit 150
+  Note linebreaks
+  Custom usage words
 
 HUNDRED RABBITS
   Add timeline filters
