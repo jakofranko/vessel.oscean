@@ -8,7 +8,9 @@ class CorpseHttp
     return "
 <style>
   .activity { column-count:3; }
-  .activity .date { float:right; font-size:12px; color:#555 }
+  .activity .value { color:#555; margin-left:10px; font-size:14px }
+  .activity .progress { width:50px; background:#ccc; height:5px; float:right; border-radius:3px; overflow:hidden; margin-top:10px}
+  .activity .progress .bar { height:5px; background:#fff}
 </style>"
 
   end
@@ -29,11 +31,20 @@ class CorpseHttp
 
     html = ""
 
+    @topics = {}
+
     count = 0
     @term.logs.each do |log|
-      if count == 10 then break end
-      html += log.preview
+      if count == 60 then break end
+      @topics[log.topic] = @topics[log.topic].to_i + log.value
       count += 1
+    end
+
+    h = @topics.sort_by {|_key, value| value}.reverse
+    max = h.first.last.to_f
+
+    h.each do |name,val|
+      html += "<div><a href='/#{name}'>#{name}</a><span class='value'>#{val}h</span><div class='progress'><div class='bar' style='width:#{(val/max)*100}%'></div></div><hr/></div>"
     end
 
     return "<h2>Recent Activity</h2><list class='activity'>#{html}</list>"

@@ -22,7 +22,6 @@ PINO
     Windvane
     Float-switch
     mast for holes
-    Windlass
     Furler bearlings
     Fridge
   Electronics
@@ -33,6 +32,12 @@ PINO
     Fins
     Get waterpump
     Update Medicine pack
+    Get grease
+    Write Diesel on jugs
+    Get bungees
+    Wash Bimini
+    Fix windvane
+    Wash Gennaker
   Hardware Store
     V-berth walls
     Add foam under carpet
@@ -45,12 +50,16 @@ PINO
     Pilot charts printing
     Nutritional yeast
     Junji Ito
-  Short Term
-    Wash Bimini
-    Fix windvane
+    Baseball glove
+    Maple Syrup
+    Get boat papers/registration
+    Ship Patreon letters
 
 NATANIEV
-  Documentation should be aware of dependencies
+  General
+    Documentation should be aware of dependencies
+  Console
+    Hold vessels across replies
   
 THE WILL THE WISP
   Create long-form poems
@@ -93,6 +102,7 @@ LIETAL
   Translate introduction
   Make Dictionaery available to Oscean
   Translate Lietal Riding Hood
+  Complete new draft
 
 HUNDRED RABBITS
   Add timeline filters
