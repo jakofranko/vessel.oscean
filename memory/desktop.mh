@@ -91,18 +91,17 @@ RONIN
     Undo shortcut
   
 MARKL
-  Attack
-  Knockback
-  Death state
-  Endgame
-  Time's up
-  Spritesheet/DOM Objects
+  Actions
+    Attack
+    Knockback
+  Frontend
+    Time's up
+    Spritesheet/DOM Objects
 
 LIETAL
-  Translate introduction
-  Make Dictionaery available to Oscean
-  Translate Lietal Riding Hood
-  Complete new draft
-
-HUNDRED RABBITS
-  Add timeline filters
+  Translation
+    Translate introduction
+    Translate Lietal Riding Hood
+  Tools
+    Make Dictionaery available to Oscean
+    Complete new draft
