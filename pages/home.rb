@@ -7,9 +7,10 @@ class CorpseHttp
 
     return "
 <style>
-  .activity { column-count:3; }
+  .activity { }
+  .activity .entry { width:33%; min-width:200px; display:inline-block; height:25px;overflow: hidden}
   .activity .value { color:#555; margin-left:10px; font-size:14px }
-  .activity .progress { width:50px; background:#ccc; height:5px; float:right; border-radius:3px; overflow:hidden; margin-top:10px}
+  .activity .progress { max-width:50px; width:20%; background:#ccc; height:5px; float:right; border-radius:3px; overflow:hidden; margin-top:10px; margin-right:10px}
   .activity .progress .bar { height:5px; background:#fff}
 </style>"
 
@@ -44,7 +45,7 @@ class CorpseHttp
     max = h.first.last.to_f
 
     h.each do |name,val|
-      html += "<div><a href='/#{name}'>#{name}</a><span class='value'>#{val}h</span><div class='progress'><div class='bar' style='width:#{(val/max)*100}%'></div></div><hr/></div>"
+      html += "<div class='entry'><a href='/#{name}'>#{name}</a><span class='value'>#{val}h</span><div class='progress'><div class='bar' style='width:#{(val/max)*100}%'></div></div><hr/></div>"
     end
 
     return "<h2>Recent Activity</h2><list class='activity'>#{html}</list>"
