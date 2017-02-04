@@ -10,8 +10,8 @@ class CorpseHttp
   .activity { }
   .activity .entry { width:33%; min-width:200px; display:inline-block; height:25px;overflow: hidden}
   .activity .value { color:#555; margin-left:10px; font-size:14px }
-  .activity .progress { max-width:50px; width:20%; background:#ccc; height:5px; float:right; border-radius:3px; overflow:hidden; margin-top:10px; margin-right:10px}
-  .activity .progress .bar { height:5px; background:#fff}
+  .activity .progress { max-width:50px; width:20%; background:#fff; height:5px; float:right; border-radius:3px; overflow:hidden; margin-top:10px; margin-right:15px}
+  .activity .progress .bar { height:5px; background:#000}
 </style>"
 
   end

@@ -163,6 +163,10 @@ class Term
       b = Media.new("badge",unde)
     elsif Media.new("badge",type).exists
       b = Media.new("badge",type)
+    elsif Media.new("badge",parent.name).exists
+      b = Media.new("badge",parent.name)
+    elsif Media.new("badge",parent.parent.name).exists
+      b = Media.new("badge",parent.parent.name)
     else
       b = Media.new("badge","nataniev")
     end

@@ -4,6 +4,10 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 02 04 - 25      Nataniev             Design
+2017 02 03 - 
+2017 02 02 - 
+2017 02 01 - 27      Nataniev             Design
 2017 01 31 - 38      Paradise             Development
 2017 01 30 - 38      Paradise             Documentation
 2017 01 29 - 38      Paradise             Development
