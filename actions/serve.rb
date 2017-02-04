@@ -90,7 +90,6 @@ class CorpseHttp
       #{!term.is_horaire && term.has_logs    ? "<a class='md' href='/#{term.name}:horaire'>#{Media.new("vectors","log")}<b>Horaire</b>#{term.logs.length} Logs</a>" : ""}
       #{!term.is_task    && term.has_tasks   ? "<a class='md' href='/#{term.name}:issues'>#{Media.new("vectors","task")}<b>Issues</b>#{term.tasks.length} Tasks</a>" : ""}
       #{!term.type ? "<a class='md' href='/#{term.name.like("home") ? "forum" : term.name+":forum"}'>#{Media.new("vectors","forum")}<b>Forum</b>#{term.comments.length} Comments</a>" : ""}
-      <input placeholder='#{term.name}' class='q'/>
     </wr>
     #{term.diary ? (photo = Media.new("diary",term.diary.photo); photo.set_class("photo") ; photo.to_s) : ""}
   </yu>
@@ -116,10 +115,21 @@ class CorpseHttp
   def _portal
     
     t = ""
+
+    siblings = ""
     term.siblings.each do |sibling|
-      t += sibling.name.like(term.name) ? "<b>"+sibling.name+"</b> " : "<a href='/#{sibling.name}'>#{sibling.name}</a> "
+      siblings += sibling.name.like(term.name) ? "<b>"+sibling.name+"</b> " : "<a href='/#{sibling.name}'>#{sibling.name}</a> "
     end
-    return "<yu class='portal'><a href='/#{term.portal}' class='portal'>#{term.badge}</a><list>#{t}</list>#{_links}</yu>"
+    if !term.name.like(term.unde)
+      children = ""
+      term.children.each do |child|
+        children += child.name.like(term.name) ? "<b>"+child.name+"</b> " : "<a href='/#{child.name}'>#{child.name}</a> "
+      end
+    end
+
+    input = !term.name.like(term.unde) ? "<input placeholder='#{term.name}' value='#{term.name}' class='q'/>" : "<br />"
+    
+    return "<yu class='portal'><a href='/#{term.portal}' class='portal'>#{term.badge}</a><h2>#{term.unde}</h2>#{input}<list>#{siblings}#{children}</list>#{_links}</yu>"
     
   end
   

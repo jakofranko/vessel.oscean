@@ -47,9 +47,10 @@ class Term
     if @children then return @children end
 
     a = []
-    $lexicon.to_h("term").each do |name,term|
-      if !term.unde.like(name) then next end
-      a.push(term)
+    $lexicon.to_h("term").each do |t_name,t_term|
+      if !t_term.unde.like(name) then next end
+
+      a.push(t_term)
     end
     @children = a
     return a
