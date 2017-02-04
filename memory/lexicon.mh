@@ -1436,14 +1436,15 @@ VAMBITS
 SEGMENT
   UNDE : Research
   BREF : Various notes written as shorts.
+  TYPE : Portal
 
 LANGUAGE OF THE BIRDS
   UNDE : Segment
-  BREF : Immortals speak not with words<br />But wait for things to happen<br />And merely points at them.
+  BREF : Immortals speak not with words but wait for things to happen, and merely points at them.
 
 PAPER SCISSORS
   UNDE : Segment
-  BREF : Our most soffisticated Artificial Intelligence plays a million games of Rock Paper Sissors, against itself. <br />It soon develops a framework for complex speech, and begins lying.
+  BREF : Our program plays games of Rock Paper Sissors against itself and soon develops a framework for complex speech.
 
 ~ Shorts
 
