@@ -127,9 +127,9 @@ class CorpseHttp
       end
     end
 
-    input = !term.name.like(term.unde) ? "<input placeholder='#{term.name}' value='#{term.name}' class='q'/>" : "<br />"
+    input = !term.name.like(term.unde) ? "<input placeholder='#{term.name}' value='#{term.name}' class='q'/>" : "<input placeholder='Search' class='q'/>"
     
-    return "<yu class='portal'><a href='/#{term.portal}' class='portal'>#{term.badge}</a><h2>#{term.unde}</h2>#{input}<list>#{siblings}#{children}</list>#{_links}</yu>"
+    return "<yu class='portal'><a href='/#{term.portal}' class='portal'>#{term.badge}</a><h2 class='#{term.unde.length > 8 ? "small" : "default"}'>#{term.unde}</h2>#{input}<list>#{siblings}#{children}</list>#{_links}</yu>"
     
   end
   
