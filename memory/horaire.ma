@@ -5,7 +5,7 @@
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
 2017 02 04 - 25      Nataniev             Design
-2017 02 03 - 
+2017 02 03 - 33      Nataniev             Maintenance
 2017 02 02 - 
 2017 02 01 - 27      Nataniev             Design
 2017 01 31 - 38      Paradise             Development

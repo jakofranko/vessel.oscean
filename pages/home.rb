@@ -37,6 +37,7 @@ class CorpseHttp
     count = 0
     @term.logs.each do |log|
       if count == 60 then break end
+      if log.topic.to_s == "" then next end
       @topics[log.topic] = @topics[log.topic].to_i + log.value
       count += 1
     end

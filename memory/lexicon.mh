@@ -1137,7 +1137,9 @@ VETETRANDES LETTRES
 
 VOCAVULARIST
   UNDE : Mobile
-  BREF : {{Vocavularist}}, is a Japanese, Russian & Korean vocabulary review program for iOS. It contains the 600 first kanji, 600 simple Russian words and 800 simple korean expressions.
+  BREF : {{Vocavularist}}, is a Japanese, Russian & Korean vocabulary review program for iOS. 
+  LONG
+    & It contains the 600 first kanji, 600 simple Russian words and 800 simple korean expressions.
   LINK
     ITUN : https://itunes.apple.com/us/app/nijuniju/id686266543
     GITH : https://github.com/Echorridoors/Vocavularist
