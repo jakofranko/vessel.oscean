@@ -18,7 +18,7 @@ class CorpseHttp
 
   def view
 
-    html = !@term.bref ? "" : "<p>"+@term.bref+"</p>"+@term.long.runes+"\n"
+    html = "<p>#{@term.bref}</p>#{@term.long.runes}\n"
 
     html += recent
 

@@ -5,7 +5,7 @@ class CorpseHttp
 
   def view
 
-    html = "<p>"+@term.bref+"</p>"+@term.long.runes
+    html = "<p>#{@term.bref}</p>#{@term.long.runes}\n"
 
     $lexicon.to_h("term").each do |name,term|
       if !term.unde.like(@term.name) then next end
