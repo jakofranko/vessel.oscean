@@ -119,8 +119,8 @@ class CorpseHttp
         <a href='https://twitter.com/neauoire' target='_blank'>Twitter Account</a><br />
         <a href='https://github.com/neauoire' target='_blank'>Github Sources</a><br />
       </span>
-      <hr />
       <span>
+        <b>Active</b>
         <a href='/Nataniev'>#{Media.new("badge","Nataniev")}</a>
         <a href='/Ronin'>#{Media.new("badge","Ronin")}</a>
       </span>
