@@ -98,17 +98,34 @@ class CorpseHttp
       #{_portal}
       <yu class='vi'>
         #{view}
-        <yu class='ft'>
-          <span class='right'><a href='/Nataniev'>#{Media.new("interface","icon.oscean")}</a><a href='https://github.com/neauoire' target='_blank'>#{Media.new("interface","icon.github")}</a><a href='https://twitter.com/neauoire' target='_blank'>#{Media.new("interface","icon.twitter")}</a></span>
-          <a href='/Devine+Lu+Linvega'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year} <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank' style='color:#aaa; margin-left:15px'>BY-NC-SA 4.0</a> <span style='color:#efefef; margin-left:15px'>"+((Time.new - $nataniev.time) * 1000).to_i.to_s+"ms</span>
-        </yu>
-      </yu>    
+      </yu>
     </wr>
     <hr/>
+  </yu>
+  <yu class='ft'>
+    <wr>
+      <span>
+        <a href='/Devine+Lu+Linvega' style='margin-right:5px'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year}<br />
+        <a href='/portal'>#{$lexicon.length} Projects</a>, over <a href='/horaire'>#{$horaire.length} Days</a><br />
+        <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>BY-NC-SA 4.0</a><br />
+      </span>
+      <span>
+        <b>#{Desamber.new}</b> <br />
+        Updated #{Log.new($horaire.render.first).offset}<br />
+        Render "+((Time.new - $nataniev.time) * 1000).to_i.to_s+"ms<br />        
+      </span>
+      <span>
+        <b>Social</b><br />
+        <a href='https://twitter.com/neauoire' target='_blank'>Twitter Account</a><br />
+        <a href='https://github.com/neauoire' target='_blank'>Github Sources</a><br />
+      </span>
+      <hr />
+      <span>
+        <a href='/Nataniev'>#{Media.new("badge","Nataniev")}</a>
+        <a href='/Ronin'>#{Media.new("badge","Ronin")}</a>
+      </span>
+    </wr>
   </yu>"
-
-      # <ln>Currently indexing #{$lexicon.length} projects, built over #{$horaire.length} days.</ln>
-    
 
   end
   
