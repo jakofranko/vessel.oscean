@@ -120,7 +120,7 @@ class CorpseHttp
         <a href='https://github.com/neauoire' target='_blank'>Github Sources</a><br />
       </span>
       <span>
-        <b>Active</b>
+        <b>Active</b><br />
         <a href='/Nataniev'>#{Media.new("badge","Nataniev")}</a>
         <a href='/Ronin'>#{Media.new("badge","Ronin")}</a>
       </span>
