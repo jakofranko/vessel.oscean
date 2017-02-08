@@ -1184,7 +1184,7 @@ NATANIEV CASE
 ~ Neauismetica
 
 NEAUISMETICA
-  UNDE : World
+  UNDE : Research
   TYPE : Archive
   BREF : The {{Neauismetica}} is a collection of notes on the history of {{Dinaisth}}, the connecting thread that seepds through the works of {{Devine Lu Linvega}}.
   LONG
@@ -1230,7 +1230,7 @@ FEU
   BREF : {{Feu}}, or {_The End Of Science_}, is the moment when the happening is happening too fast for one to grasp.
 
 PARADICHLORISSE
-  UNDE : Immortal birds
+  UNDE : Characters
   BREF : Not much is known about this lifeform, besides that it appeared around the {{Yajnev Collapse|Yajnev}}, speaking a dialect of {{Nohlxeserre}}.
   LONG
     & {{Paradichlorisse}} is located on the south-east shore of {{Vetetrandes}}, near {{Yajnev}}.
@@ -1310,8 +1310,8 @@ NEONEV
     & Neonev met with {{Andes}} at his arrival in the northern part of Dinais and again as Evelyn before he met with {{Paradichlorisse}} in the last season. While they lived apart, they corresponded and established {{Neon Hermetism}} to solve the dimensional puzzle {{Ehrivevnv}}.
 
 DEVINE LU LINVEGA
-  BREF : {{Devine lu linvega}} is a developer living aboard a {{sailboat|Hundred rabbits}} on the Pacific Ocean.
   UNDE : Characters
+  BREF : {{Devine lu linvega}} is a developer living aboard a {{sailboat|Hundred rabbits}} on the Pacific Ocean.
   LONG
     & Operating under the {{Neauoire|https://twitter.com/neauoire}} moniker, Devine is currating the {{Beldam Records}} catalog, creating {{experimental mobile projects|http://www.creativeapplications.net/openframeworks/experimental-mobile-apps-by-devine-aliceffect-lu-linvega}} and documenting their {{life at sea|https://www.youtube.com/playlist?list=PLV-JXZPiMUdtBGYfvbp9M7N0Tc15GMqy1}}.
     & Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}} — Devine hope to inspire visitors to learn and to travel.
@@ -1324,7 +1324,7 @@ MAEVE
     & Rating each vessel with an index, it deletes redundant vessels and move vessels outside of the void.
 
 ALICEFFEKT
-  UNDE : Characters
+  UNDE : Audio
   BREF : {{Aliceffekt}}, is a traveler.
   LONG
     &  A travel across the fictional worlds of the {{Neauismetica}} where every album is a sort of travel diary across the {{Dinaisth}} landscape.
@@ -1501,7 +1501,7 @@ TALK
 ~ Obliques
 
 OBLIQUES
-  UNDE : Obliques
+  UNDE : Devine lu linvega
   BREF : More is more is less.
   TYPE : Memory
   LINK

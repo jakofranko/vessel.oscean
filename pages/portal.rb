@@ -17,8 +17,6 @@ class CorpseHttp
     html += find_children(@terms["AUDIO"],0)+"\n"             ; @used.push("audio")
     html += find_children(@terms["VISUAL"],0)+"\n"            ; @used.push("visual")
     html += find_children(@terms["RESEARCH"],0)+"\n"          ; @used.push("research")
-    html += find_children(@terms["NEAUISMETICA"],0)+"\n"      ; @used.push("neauismetica")
-    html += find_children(@terms["DEVINE LU LINVEGA"],0)+"\n" ; @used.push("devine lu linvega")
     
     html += find_lost_children+"\n"
     html += "</code>"
