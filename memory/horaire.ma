@@ -4,7 +4,11 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
-2017 02 04 - 25      Nataniev             Design
+2017 02 08 - 37      Oquonie              Migration
+2017 02 07 - 35      Oquonie              Migration
+2017 02 06 - 25      Nataniev             Design
+2017 02 05 - 
+2017 02 04 - 28      Nataniev             Design
 2017 02 03 - 33      Nataniev             Maintenance
 2017 02 02 - 
 2017 02 01 - 27      Nataniev             Design
