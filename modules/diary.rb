@@ -11,7 +11,7 @@ class CorpseHttp
 
   def view
 
-    html = term.name.like("home") ? "" : term.long.runes
+    html = term.name.like("home") ? "" : "<p>#{@term.bref}</p>"+@term.long.runes
     
     if term.diaries.count > 0
       html += diary_list
