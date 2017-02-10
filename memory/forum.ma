@@ -54,5 +54,3 @@
 20170129004318 Donsol                    Can you add an indicator on screen somewhere to show if your last action like in the previous room was a potion so you know not to drink another one in this room
 20170129140045 Donsol               2    Your health indicator becomes red when you have just drank. I will make it so it remains active even when you skip the room.
 20170129141900 Donsol               2    Thank you!
-
-20170209162045 00207 00123 the library has been put back in its proper place

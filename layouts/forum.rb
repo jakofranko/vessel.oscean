@@ -46,6 +46,7 @@ vi.forum p.success a {color:000; font-family:'din_bold'; text-decoration:underli
     
     topics = {}
     comments.to_a("comment").reverse.each do |comment|
+      if comment.topic.to_s.strip == "" then next end
       if !topics[comment.topic]
         topics[comment.topic] = {}
         topics[comment.topic]['threads'] = []
