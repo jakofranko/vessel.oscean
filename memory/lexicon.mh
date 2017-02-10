@@ -1352,7 +1352,16 @@ INFRARED
 
 FILM
   UNDE : Photograph
-  BREF : This album contains various {{film}} photographs.
+  BREF : Color film photography diary of the life aboard {{Pino}}.
+  LONG
+    & This album will be updated periodically, shot with the Voightlander {{250 Jaher|Camera}}. A {{black}} & white album is also maintained.
+  TYPE : Diary
+
+BLACK
+  UNDE : Film
+  BREF : Black & White film photography diary of the life aboard {{Pino}}.
+  LONG
+    & This album will be updated periodically, shot with the Voightlander {{250 Jaher|Camera}}.
   TYPE : Diary
 
 ~ Travel

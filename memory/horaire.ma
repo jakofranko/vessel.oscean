@@ -4,7 +4,7 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
-2017 02 10 ! 27  258 Film                 Photography          Mount Espiritu Santo  A camera box lies on the top of the mountain, Isla del Espiritu Santo. Mexico.
+2017 02 10 ! 25  357 Black                Photography
 2017 02 09 - 23      Nataniev             Design
 2017 02 08 - 37      Oquonie              Migration
 2017 02 07 - 35      Oquonie              Migration
@@ -63,9 +63,9 @@
 2016 12 16 - 24      Donsol               Illustration
 2016 12 15 - 38      Nataniev             Writing
 2016 12 14 - 28      Nataniev             Layout
-2016 12 13 - 27      Nataniev             Design
+2016 12 13 - 25  347 Film                 Photography
 2016 12 12 - 28      Nataniev             Design
-2016 12 11 - 28      Nataniev             Design
+2016 12 11 - 25  346 Film                 Photography
 2016 12 10 - 38      Nataniev             Writing
 2016 12 09 - 39      Ronin                Update
 2016 12 08 - 34      Obliques             Writing
@@ -74,7 +74,7 @@
 2016 12 05 - 34      Russian              Tools
 2016 12 04 - 34      Nataniev             Tools
 2016 12 03 - 24  232 Forum                Design
-2016 12 02 - 00
+2016 12 02 - 25  345 Film                 Photography
 2016 12 01 - 34      Pino                 Maintenance
 2016 11 30 - 34      Donsol               Development
 2016 11 29 - 27      Donsol               Illustration
@@ -93,7 +93,7 @@
 2016 11 16 - 29      Ronin                Design
 2016 11 15 - 39      Ronin                Development
 2016 11 14 - 38      Ronin                Development
-2016 11 13 - 25      Ronin                Design
+2016 11 13 - 25  354 Black                Photography
 2016 11 12 - 25      Ronin                Design
 2016 11 11 - 36      Ronin                Tools
 2016 11 10 - 39      Ronin                Tools
@@ -106,7 +106,7 @@
 2016 11 03 - 29      Hundred rabbits      Video
 2016 11 02 - 00      Mexico               Event                Sail to Mexico        700nm sail to La Paz
 2016 11 01 - 35      Neauismetica         Writing
-2016 10 31 - 38      Pino                 Maintenance
+2016 10 31 - 25  353 Black                Photography
 2016 10 30 - 35      Paradise             Update
 2016 10 29 - 34      Obliques             Writing
 2016 10 28 ! 36  221 Obliques             Writing              A Digest              I began keeping some general notes on my creative process.
@@ -114,7 +114,7 @@
 2016 10 26 - 26      Markl                Design
 2016 10 25 - 27      Markl                Design
 2016 10 24 - 34      Markl                Development
-2016 10 23 - 37      Markl                Migration
+2016 10 23 - 25  350 Black                Photography
 2016 10 22 - 29      Hundred rabbits      Design
 2016 10 21 - 24      Hundred rabbits      Design
 2016 10 20 - 37      Markl                Migration
@@ -142,7 +142,7 @@
 2016 09 28 - 39      Paradise             Tools
 2016 09 27 - 21      Polygonoscopy        Modeling
 2016 09 26 - 21      Polygonoscopy        Modeling
-2016 09 25 - 27      Paradise             Design
+2016 09 25 - 25  349 Black                Photography
 2016 09 24 - 35      Pino                 Maintenance
 2016 09 23 ! 36  253 Devine lu Linvega    Photography          Ensenada Tempers
 2016 09 22 - 39      Paradise             Migration
@@ -160,14 +160,14 @@
 2016 09 10 - 15      Hundred rabbits      Composition
 2016 09 09 - 38      Pino                 Maintenance
 2016 09 08 - 37      Pino                 Maintenance
-2016 09 07 - 00
+2016 09 07 - 25  258 Black                Photography
 2016 09 06 - 37      Pino                 Maintenance
 2016 09 05 - 15      Portalion            Composition
 2016 09 04 - 24   96 Markl                Design               First draft           Here's a screenshot for {{Hundred Rabbits}}' upcoming game.
 2016 09 03 - 35      Paradise             Development
 2016 09 02 - 35      Paradise             Tools
 2016 09 01 - 29      Hundred rabbits      Video
-2016 08 31 - 29   86 Pino                 Photography
+2016 08 31 - 29   86 Film                 Photography
 2016 08 30 - 34      Markl                Development
 2016 08 29 - 24      Polygonoscopy        Modeling
 2016 08 28 - 38      The will the wisp    Migration
@@ -179,15 +179,15 @@
 2016 08 22 - 35      Paradise             Development
 2016 08 21 - 25   75 Nervous              Modeling             Exhibit C
 2016 08 20 - 35      Blindfolk            Linguistics
-2016 08 19 - 00
-2016 08 18 - 29   90 Pino                 Photography
+2016 08 19 - 00  337 Film                 Photography
+2016 08 18 - 29   90 Film                 Photography
 2016 08 17 - 38      Paradise             Development
-2016 08 16 - 00
-2016 08 15 - 00
-2016 08 14 - 00
+2016 08 16 - 00  274 Film                 Photography
+2016 08 15 - 22  334 Film                 Photography
+2016 08 14 - 25  314 Film                 Photography
 2016 08 13 - 00
-2016 08 12 - 29   91 Pino                 Photography
-2016 08 11 - 00
+2016 08 12 - 29   91 Film                 Photography
+2016 08 11 - 00  265 Film                 Photography
 2016 08 10 - 00      America              Travel               San Francisco
 2016 08 09 - 35      Paradise             Tools
 2016 08 08 ! 29   44 Polygonoscopy        Modeling             Scan
