@@ -50,3 +50,9 @@
 20170123184639 Donsol               1    Its allowed to not use a shield, but you will get full damage in your face.
 20170125083131 Oquonie                   ~Anonymouse Wen du wi git a seaquill tu this grate pease uf art
 20170126174723 Oquonie              4    Got it! Thank you. ~neauoire
+20170129004223 Donsol               1    If you have a shield and you attack a monster the shield will get used.
+20170129004318 Donsol                    Can you add an indicator on screen somewhere to show if your last action like in the previous room was a potion so you know not to drink another one in this room
+20170129140045 Donsol               2    Your health indicator becomes red when you have just drank. I will make it so it remains active even when you skip the room.
+20170129141900 Donsol               2    Thank you!
+
+20170209162045 00207 00123 the library has been put back in its proper place
