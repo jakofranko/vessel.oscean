@@ -131,7 +131,7 @@ class Term
     @diary = diaries.first
 
     diaries.each do |log|
-      if log.isFeatured
+      if log.is_featured && @name.like("home") || log.is_highlight
         @diary = log
         break
       end

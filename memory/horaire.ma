@@ -144,7 +144,7 @@
 2016 09 26 - 21      Polygonoscopy        Modeling
 2016 09 25 - 25  349 Black                Photography
 2016 09 24 - 35      Pino                 Maintenance
-2016 09 23 ! 36  253 Devine lu Linvega    Photography          Ensenada Tempers
+2016 09 23 - 36  253 Devine lu Linvega    Photography          Ensenada Tempers
 2016 09 22 - 39      Paradise             Migration
 2016 09 21 ! 29  102 Wallpaper            Design               Shinji                Get in the fucking robot!
 2016 09 20 ! 24   98 Lard shader          Illustration         Study C
@@ -400,7 +400,7 @@
 2016 01 14 - 16      Portalion            Composition
 2016 01 13 ! 00      Canada               Event                Move to Vancouver     Looking for a sailboat on the west coast
 2016 01 12 - 28  490 Beauty               Illustration         02                    A special tribute to {{Jesse Kanda|http://www.jessekanda.com}}'s works.
-2016 01 11 ! 28  487 Beauty               Illustration         01
+2016 01 11 @ 28  487 Beauty               Illustration         01
 2016 01 10 - 35      Verreciel            Development
 2016 01 09 - 37      Verreciel            Tools
 2016 01 08 - 37      Verreciel            Tools
@@ -3948,4 +3948,4 @@
 2006 04 28
 2006 04 27
 2006 04 26 ! 36      Horaire              Development          Started Horaire
-2006 04 26 - 36    1 Devine Lu Linvega                         Nakano Tempers
+2006 04 26 ! 36    1 Devine Lu Linvega                         Nakano Tempers

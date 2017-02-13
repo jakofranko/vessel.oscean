@@ -96,9 +96,15 @@ class Log
     
   end
 
-  def isFeatured
+  def is_featured
     
-    return rune == "!" ? true : nil
+    return rune == "@" ? true : nil
+
+  end
+
+  def is_highlight
+    
+    return rune == "!" || rune == "@" ? true : nil
 
   end
 

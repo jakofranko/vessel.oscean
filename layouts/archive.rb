@@ -5,7 +5,7 @@ class CorpseHttp
 
   def view
 
-    html = "" # @term.long.runes
+    html = "<p>#{@term.bref}</p>#{@term.long.runes}\n"
 
     children(term.name).each do |term|
       html += "<h2><a href='/#{term.name}'>#{term.name}</a></h2>\n"

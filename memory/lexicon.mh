@@ -105,7 +105,9 @@ ARTWORK
 
 BELDAM RECORDS
   UNDE : Audio
-  BREF : Created in collaboration with {{Elodie Lareine|http://noirmirroir.com}}, {{Beldam Records}} is a small label focusing on pop idm and experimental techno music. Each release is 4 tracks long, and includes an animation video version of the album art.
+  BREF : Created in collaboration with {{Elodie Lareine|http://noirmirroir.com}}, {{Beldam Records}} is a label focusing on pop idm and experimental dance music. 
+  LONG
+    & Each release is 4 tracks long, and includes an animation video version of the album art.
   TYPE : Portal
   LINK
     BAND : https://beldamrecords.bandcamp.com
@@ -397,7 +399,7 @@ HOWLS VIRGIL SYSTEMS
   FLAG : Todo
 
 HUNDRED RABBITS
-  UNDE : Devine lu linvega
+  UNDE : Visual
   BREF : {{Hundred Rabbits}}, is a nomad design studio founded by {{Rekka Bellum|http://kokorobo.ca}} and {{Devine Lu Linvega|Devine Lu Linvega}} aboard a {{sailboat|https://github.com/hundredrabbits/Pino}}.
   LONG
     & Somewhere on the shores of the Pacific Ocean.
@@ -1424,8 +1426,10 @@ GERMANY
 ~ Drownspire
 
 DROWNSPIRE
-  UNDE : Devine lu linvega
-  BREF : {{Drownspire}} was the name of an online store founded with Rekka Bellum, back in 2009. We distributed the {{Vambits}} designer toys and published the {{Merure}} books.
+  UNDE : Hundred rabbits
+  BREF : {{Drownspire}} was the name of an online store founded with Rekka Bellum, back in 2009. 
+  LONG
+    & Our goals then, fueled what is now {{Hundred rabbits}}. We distributed the {{Vambits}} designer toys and published the {{Merure}} books.
 
 MERURE
   UNDE : Drownspire
@@ -1440,21 +1444,6 @@ VAMBITS
   TYPE : Diary
   LINK
     GITH : https://github.com/hundredrabbits/Vambits
-
-~ Segments
-
-SEGMENT
-  UNDE : Research
-  BREF : Various notes written as shorts.
-  TYPE : Portal
-
-LANGUAGE OF THE BIRDS
-  UNDE : Segment
-  BREF : Immortals speak not with words but wait for things to happen, and merely points at them.
-
-PAPER SCISSORS
-  UNDE : Segment
-  BREF : Our program plays games of Rock Paper Sissors against itself and soon develops a framework for complex speech.
 
 ~ Shorts
 
@@ -1485,6 +1474,14 @@ THE DISMISSAL
     & I felt, surely not looked it, clever injecting fake operating system values into my build files. Need I remind myself that a developer making applications for an upcoming OS may not, from that same development computer, also publish builds. Here I was sneaking around walls built against developer-kin. I never saw myself as superstitious, but when a build actually went through and live onto the App Store, I felt like I had beaten the system. A system, my system.
     & I think that, that was the feeling that drove me to leave iOS development.
 
+LANGUAGE OF THE BIRDS
+  UNDE : Notes
+  BREF : Immortals speak not with words but wait for things to happen, and merely points at them.
+
+PAPER SCISSORS
+  UNDE : Notes
+  BREF : Our program plays games of Rock Paper Sissors against itself and soon develops a framework for complex speech.
+
 ~ Language
 
 LANGUAGE
@@ -1512,31 +1509,31 @@ TALK
 
 OBLIQUES
   UNDE : Devine lu linvega
-  BREF : More is more is less.
+  TYPE : Archive
+  BREF : Longform answers to questions regarding travel, {{lifestyle}} and optimisation. 
+
+MAXIMALISTS
+  UNDE : Obliques
+  BREF : The goal of this document is to answer recurring questions on productivity optimizations and techniques, advised from daily logs recorded over a period of many years.. It is less a personal guideline than the results of side-effects.
   TYPE : Memory
   LINK
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/obliques.mh
 
 NOMADS
   UNDE : Obliques
-  BREF : More is more is less.
+  BREF : The following thoughts are reflexions on travel, and the dream of a nomadic life, compiled after a year of living on a sailboat along the Pacific coast.
   TYPE : Memory
   LINK
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/nomads.mh
 
 RATIONALITY
-  UNDE : Obliques
+  UNDE : Gamme
   BREF : A list of compiled falacies, effects and biases.
+  LONG
+    & The list was compiled from {{LessWrong|https://wiki.lesswrong.com/wiki/Less_Wrong_Canon_on_Rationality}} as well as personal notes, collected from the Philosopher's Toolkit.
   TYPE : Memory
   LINK
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/rationality.mh
-
-DIRECTORY
-  UNDE : Obliques
-  BREF : A list of timeless art that I often refer to.
-  TYPE : Memory
-  LINK
-    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/directory.mh
 
 ~ Gamme
 
@@ -1699,9 +1696,7 @@ KEYBOARD
   UNDE : Inventory
   BREF : My {{mechanical keyboard|Keyboard}} is the {{Vortex Poker II PBT Mechanical Keyboard|https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=458}} with {{Blank Mint PBT caps|https://www.massdrop.com/buy/npkc-blank-pbt-keycaps}}. 
   LONG
-    & The color choice is inspired from the {{Verreciel}} interface colors. I have red Cherry MX switches installed, with {{sound dampening o-rings|http://www.amazon.ca/gp/product/B00VHXHP6Q?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00}}.
-    & It's also connected, with a braided {{90 degrees angle USB wire|http://www.amazon.ca/gp/product/B004YD6LW0?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00}}.
-    ? This cheers me up.
+    & The color choice is inspired from the {{Verreciel}} interface colors. I have red Cherry MX switches installed, with {{sound dampening o-rings|http://www.amazon.ca/gp/product/B00VHXHP6Q?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00}}. It's also connected, with a braided {{90 degrees angle USB wire|http://www.amazon.ca/gp/product/B004YD6LW0?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00}}.
   LINK
     DROP : https://www.massdrop.com/mechanical-keyboards
     REDD : https://www.reddit.com/r/MechanicalKeyboards/
@@ -1715,8 +1710,17 @@ LIFESTYLE
     - {{150mg Citicoline|https://www.intellimeds.co.uk/citicoline/citicoline-powder}}, powder
     & It feels a bit like coffee, but with a light {_tunnel vision_}, the immediate effect is that of tuning out the voices in your head for a moment. When cycling on Noopept, it feels a bit like seeing wider. When coding, it feels a bit like things need to get done. I have been taking it for more than a year and I have yet to feel any negative effect. Noopept can be distracting at times, I heard that Racetams are weaker and might be more what you are looking for - I have yet to try them.
 
+DIRECTORY
+  UNDE : Inventory
+  BREF : A list of timeless art that I often refer to.
+  LONG
+    & Nothing to see here.
+  TYPE : Memory
+  LINK
+    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/directory.mh
+
 DEATH
-  UNDE : Devine lu linvega
+  UNDE : Gamme
   BREF : Inspired from {{Chris Crawford|https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer)}}'s Jars, every week a cell goes dark.
 
 ~ [TODO] Combine under a portal page

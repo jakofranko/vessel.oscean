@@ -30,7 +30,7 @@ class Link
 
   def to_s
     
-    return "<a href='#{@url}' target='_blank' class='lk'>#{Media.new("interface","icon."+domain.downcase)}</a>"
+    return "<a href='#{@url}' target='_blank' class='lk'>#{Media.new("icon",domain.downcase)}</a>"
 
   end
 

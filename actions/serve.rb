@@ -85,11 +85,11 @@ class CorpseHttp
     return "
   <yu class='hd'>
     <wr>
-      <a href='/Home' class='lg'>#{Media.new("vectors","logo")}</a>
-      #{!term.is_diary   && term.has_diaries ? "<a class='md' href='/#{term.name}:diary'>#{Media.new("vectors","diary")}<b>Diary</b>#{term.diaries.length} Entries</a>" : ""}
-      #{!term.is_horaire && term.has_logs    ? "<a class='md' href='/#{term.name}:horaire'>#{Media.new("vectors","log")}<b>Horaire</b>#{term.logs.length} Logs</a>" : ""}
-      #{!term.is_task    && term.has_tasks   ? "<a class='md' href='/#{term.name}:issues'>#{Media.new("vectors","task")}<b>Issues</b>#{term.tasks.length} Tasks</a>" : ""}
-      #{!term.type ? "<a class='md' href='/#{term.name.like("home") ? "forum" : term.name+":forum"}'>#{Media.new("vectors","forum")}<b>Forum</b>#{term.comments.length} Comments</a>" : ""}
+      <a href='/Home' class='lg'>#{Media.new("icon","logo")}</a>
+      #{!term.is_diary   && term.has_diaries ? "<a class='md' href='/#{term.name}:diary'>#{Media.new("icon","diary")}<b>Diary</b>#{term.diaries.length} Entries</a>" : ""}
+      #{!term.is_horaire && term.has_logs    ? "<a class='md' href='/#{term.name}:horaire'>#{Media.new("icon","log")}<b>Horaire</b>#{term.logs.length} Logs</a>" : ""}
+      #{!term.is_task    && term.has_tasks   ? "<a class='md' href='/#{term.name}:issues'>#{Media.new("icon","task")}<b>Issues</b>#{term.tasks.length} Tasks</a>" : ""}
+      #{!term.type ? "<a class='md' href='/#{term.name.like("home") ? "forum" : term.name+":forum"}'>#{Media.new("icon","forum")}<b>Forum</b>#{term.comments.length} Comments</a>" : ""}
     </wr>
     #{term.diary ? (photo = Media.new("diary",term.diary.photo); photo.set_class("photo") ; photo.to_s) : ""}
   </yu>
@@ -110,15 +110,16 @@ class CorpseHttp
         <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>BY-NC-SA 4.0</a><br />
       </span>
       <span>
-        <b>#{Desamber.new}</b> <br />
+        <a href='/Desamber'><b>#{Desamber.new}</b></a> <br />
         Updated #{Log.new($horaire.render.first).offset}<br />
-        Render "+((Time.new - $nataniev.time) * 1000).to_i.to_s+"ms<br />        
+        <a href='/Nataniev'>Render "+((Time.new - $nataniev.time) * 1000).to_i.to_s+"ms</a><br /> 
       </span>
       <span>
         <b>Social</b><br />
         <a href='https://twitter.com/neauoire' target='_blank'>Twitter Account</a><br />
         <a href='https://github.com/neauoire' target='_blank'>Github Sources</a><br />
       </span>
+      <hr />
       <span>
         <a href='/Nataniev'>#{Media.new("badge","Nataniev")}</a>
         <a href='/Ronin'>#{Media.new("badge","Ronin")}</a>
@@ -145,7 +146,7 @@ class CorpseHttp
 
     input = !term.name.like(term.unde) ? "<input placeholder='#{term.name}' value='#{term.name}' class='q'/>" : "<input placeholder='Search' class='q'/>"
     
-    return "<yu class='portal'><a href='/#{term.portal}' class='portal'>#{term.badge}</a><h2 class='#{term.unde.length > 8 ? "small" : "default"}'>#{term.unde}</h2>#{input}<list>#{siblings}#{children}</list>#{_links}</yu>"
+    return "<yu class='portal'><a href='/#{term.portal}' class='portal'>#{term.badge}</a><h2 class='#{term.unde.length > 8 ? "small" : "default"}'><a href='/#{term.unde}'>#{term.unde}</a></h2>#{input}<list>#{siblings}#{children}</list>#{_links}</yu>"
     
   end
   
