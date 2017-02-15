@@ -4,6 +4,11 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 02 15 - 35      Oquonie              Tools
+2017 02 14 - 25      Nataniev             Design
+2017 02 13 - 36      Pino                 Maintenance
+2017 02 12 - 36      Pino                 Maintenance
+2017 02 11 - 33      Oquonie              Migration
 2017 02 10 ! 25  357 Black                Photography
 2017 02 09 - 23      Nataniev             Design
 2017 02 08 - 37      Oquonie              Migration
