@@ -4,6 +4,10 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 02 19 - 35      Oquonie              Migration
+2017 02 18 - 37      Oquonie              Migration
+2017 02 17 - 35      Oquonie              Migration
+2016 02 16 - 33      The will the wisp    Writing
 2017 02 15 - 35      Oquonie              Tools
 2017 02 14 - 25      Nataniev             Design
 2017 02 13 - 36      Pino                 Maintenance
