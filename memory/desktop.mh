@@ -2,6 +2,13 @@
 ~ NOTE : YAML
 ~ AUTH : Devine Lu Linvega
 
+HUNDRED RABBITS
+  General
+    Fix tracker for ocean crossing
+    Download south pacific maps
+    Download Predict Wind
+    Download Google Maps
+
 PARADISE
   General
     Program limit 150
@@ -10,8 +17,8 @@ PARADISE
     Vessel Wildcard
     Random Visible Wildcard
     Show local activity
+    Statistics vessel
   Actions
-    Lock Unlock
     Show Hide
     Call
     Warp Random
@@ -23,7 +30,6 @@ PINO
     Windvane
     Float-switch
     Mast for holes
-    Furler bearlings
     Fridge
   Electronics
     Install timer for fridge
@@ -36,16 +42,12 @@ PINO
     Get grease
     Write Diesel on jugs
     Get bungees
-    Wash Bimini
     Fix windvane
-    Wash Gennaker
+    Varnish windvane
   Hardware Store
     V-berth walls
     Add foam under carpet
     Dry Berth material
-  Canada Run
-    Bluetooth Speaker
-    Maple Syrup
 
 NATANIEV
   General
@@ -83,6 +85,7 @@ RONIN
     * 10,10 200x200     ~ Average colors
   Save
     $ 1280x800          ~ Export with size
+    $                   ~ Export within canvas
   History
     Undo shortcut
   
