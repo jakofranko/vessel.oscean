@@ -4,6 +4,7 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 02 22 - 38      Ronin                Tools
 2017 02 21 - 38      Oquonie              Migration
 2017 02 20 - 35      Oquonie              Tools
 2017 02 19 - 35      Oquonie              Tools
@@ -12,7 +13,7 @@
 2016 02 16 - 33      The will the wisp    Writing
 2017 02 15 - 35      Oquonie              Tools
 2017 02 14 - 25      Nataniev             Design
-2017 02 13 - 36      Pino                 Maintenance
+2017 02 13 - 36  497 Pino                 Maintenance
 2017 02 12 - 36      Pino                 Maintenance
 2017 02 11 - 33      Oquonie              Migration
 2017 02 10 ! 25  357 Black                Photography
@@ -20,10 +21,10 @@
 2017 02 08 - 37      Oquonie              Migration
 2017 02 07 - 35      Oquonie              Migration
 2017 02 06 - 25      Nataniev             Design
-2017 02 05 - 
+2017 02 05 - 25  365 Black                Photography     
 2017 02 04 - 28      Nataniev             Design
 2017 02 03 - 33      Nataniev             Maintenance
-2017 02 02 - 
+2017 02 02 - 25  387 Black                Photography   
 2017 02 01 - 27      Nataniev             Design
 2017 01 31 - 38      Paradise             Development
 2017 01 30 - 38      Paradise             Documentation
@@ -93,7 +94,7 @@
 2016 11 27 - 29      Hundred rabbits      Video
 2016 11 26 - 18      Hundred rabbits      Composition
 2016 11 25 - 29      Donsol               Illustration
-2016 11 24 - 28      Donsol               Illustration
+2016 11 24 - 25  473 Black                Photography   
 2016 11 23 - 34      Donsol               Migration
 2016 11 22 - 27      Needles              Typography
 2016 11 21 - 34      Nataniev             Tools
@@ -183,7 +184,7 @@
 2016 08 29 - 24      Polygonoscopy        Modeling
 2016 08 28 - 38      The will the wisp    Migration
 2016 08 27 - 27      Paradise             Design
-2016 08 26 - 00
+2016 08 26 - 25  485 Black                Photography   
 2016 08 25 - 39      Paradise             Tools
 2016 08 24 - 39      Paradise             Tools
 2016 08 23 - 26   77 America              Photography          San Francisco         First picture taken upon sailing to San Francisco from Vancouver.
@@ -196,7 +197,7 @@
 2016 08 16 - 00  274 Film                 Photography
 2016 08 15 - 22  334 Film                 Photography
 2016 08 14 - 25  314 Film                 Photography
-2016 08 13 - 00
+2016 08 13 
 2016 08 12 - 29   91 Film                 Photography
 2016 08 11 - 00  265 Film                 Photography
 2016 08 10 - 00      America              Travel               San Francisco
@@ -412,7 +413,7 @@
 2016 01 13 ! 00      Canada               Event                Move to Vancouver     Looking for a sailboat on the west coast
 2016 01 12 - 28  490 Beauty               Illustration         02                    A special tribute to {{Jesse Kanda|http://www.jessekanda.com}}'s works.
 2016 01 11 @ 28  487 Beauty               Illustration         01
-2016 01 10 - 35      Verreciel            Development
+2016 01 10 - 25  488 Beauty               Illustration
 2016 01 09 - 37      Verreciel            Tools
 2016 01 08 - 37      Verreciel            Tools
 2016 01 07 - 37      Verreciel            Tools
@@ -671,7 +672,7 @@
 2015 04 29 - 17      Gaii                 Rehearsal
 2015 04 28 - 17      Gaii                 Composition
 2015 04 27 - 17      Gaii                 Composition
-2015 04 26
+2015 04 26 - 25  496 Black                Photography   
 2015 04 25 - 25  112 Flactals             Illustration         Torazine
 2015 04 24 - 18      Extended sleep       Live
 2015 04 23 - 39  386 Talk                 Live                 Frameworks            The full talk can be watched on {{Vimeo|https://vimeo.com/129368249}}, the slides can be downloaded from {{Github|https://github.com/neauoire/Talk-Amaze}}.
@@ -847,7 +848,7 @@
 2014 11 04 - 17      Supervisitor         Composition
 2014 11 03 - 26      Oquonie              Modeling
 2014 11 02 - 26      Brane                Modeling
-2014 11 01 - 26      Beauty               Modeling
+2014 11 01 - 26  489 Beauty               Modeling
 2014 10 31 - 26      Brane                Modeling
 2014 10 30 - 26  276 Tarpophobia          Modeling             Eyes
 2014 10 29 - 26      Tarpophobia          Modeling
@@ -1123,7 +1124,7 @@
 2014 02 01 - 39      Paradise             Update
 2014 01 31 - 29  383 Flowers              Illustration         Nestorine
 2014 01 30 - 29  384 Flowers              Illustration         Qraxia
-2014 01 29 - 27      Artwork              Illustration
+2014 01 29 - 27  385 Flowers              Illustration
 2014 01 28 - 35      Russian              Linguistics
 2014 01 27 - 35      Oquonie              Design
 2014 01 26 - 35      Oquonie              Design

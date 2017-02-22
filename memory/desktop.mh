@@ -71,8 +71,6 @@ RONIN
   Render
     % balance auto=true ~ auto color
     % balance 0.8       ~ equal RGB balance
-    % sharpen 0.5       ~ Add filter
-    % desaturate        ~ Instead of saturate
   Text tool
     ..
   Brush
@@ -104,7 +102,4 @@ LIETAL
   Tools
     Make Dictionaery available to Oscean
     Complete new draft
-
-OSCEAN
-  Update the 100R Badge for SVG
   
