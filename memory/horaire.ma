@@ -126,7 +126,7 @@
 2016 10 26 - 26      Markl                Design
 2016 10 25 - 27      Markl                Design
 2016 10 24 - 34      Markl                Development
-2016 10 23 - 25  350 Black                Photography
+2016 10 23 - 
 2016 10 22 - 29      Hundred rabbits      Design
 2016 10 21 - 24      Hundred rabbits      Design
 2016 10 20 - 37      Markl                Migration
