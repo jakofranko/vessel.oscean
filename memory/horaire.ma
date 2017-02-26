@@ -4,7 +4,12 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
-2017 02 22 - 38      Ronin                Tools
+2017 02 27 - 39      Oquonie              Migration
+2017 02 26 - 32      Oquonie              Migration
+2017 02 25 - 35      Oquonie              Migration
+2017 02 24 - 36      Oquonie              Migration
+2017 02 23 - 37      Oquonie              Migration
+2017 02 22 - 32      Ronin                Tools
 2017 02 21 - 38      Oquonie              Migration
 2017 02 20 - 35      Oquonie              Tools
 2017 02 19 - 35      Oquonie              Tools
