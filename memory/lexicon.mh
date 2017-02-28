@@ -781,47 +781,23 @@ OQUONIE
   LONG
     & You will not be alone, your incarnations will have the help of {_bizaroid_} characters speaking {{an obscure language|Camilare}}.
     & Oquonie features an original {{Aliceffekt}} soundtrack that is now available on {{Bandcamp|https://aliceffekt.bandcamp.com/album/short-stories-in-impossible-spaces}}. The game was best described as {_{{Animal Crossing in a K-Hole|http://killscreendaily.com/articles/oquonie-maze-worth-entering/}}_}.
-    ? Find your way across an intertwined megastructure.
+    ? Find your way across an {{intertwined|Oquonie Guide}} megastructure.
   LINK
+    ITCH : https://hundredrabbits.itch.io/oquonie
     ITUN : https://itunes.apple.com/us/app/oquonie/id819777958
     GITH : https://github.com/hundredrabbits/Oquonie
 
 OQUONIE GUIDE
   UNDE : Oquonie
-  BREF : I noticed that a few people get stuck after finding the first red pillar.
+  BREF : Where the hell do I go after finding the first red pillar?
   LONG
-    & This guide is meant to be a spoiler-free list of tips to help you proceed through {{Oquonie}}. So if you have not yet found the first pillar, this is {*not*} for you, so keep playing, for your only task at the moment would be to find three matching tokens.
-    * That darn shark
-    & You have found a locked red door, {*a red pillar thing*} appeared next to one of the town's gates, you have been turned back into the first character, {{Necomedre|Oquonie universe}}. What do?
-    % oquonie guide
-    ? Many doors, across the worlds, were locked. You have gone through the levels without paying any mind to them but now you will need to find each world's {{Red Pillar|Oquonie universe}} to unlock the door. My guess would be that you are in town and do not know where to proceed next. So this is my tip to you.
-    & The simplest pillar, if you are {{Necomedre|Oquonie universe}}, is found in the second world, {{Nephtaline|Oquonie universe}}. You need 3 {{tokens|Oquonie universe}}, one can be found in the {{Necomedre World|Oquonie universe}}, the second, in town by the {{ramen guy|Oquonie universe}} near the landing, and the third, within the {{Nephtaline World|Oquonie universe}}.
-    & Once your have turned into {{Nemedique|Oquonie universe}}, you will be able to open a locked door by the owl, and collect the second pillar.
+    & This guide is meant to be a spoiler-free list of tips to help you proceed through {{Oquonie}}. So if you have not yet found the first pillar, this is {*not*} for you, so keep playing, for your only task at the moment is to find three matching tokens.
+    & You have found a locked red door, {*a red pillar thing*} appeared next to one of the town's gates, you have been turned back into the first character, {*Necomedre*}. What do?
+    * The Ramen Guy
+    & In your travels, you have met a small spiky ramen-eating character, speaking to him will have spawn in town and give you a {*token*}. You need his help, so make sure that you have found him in each of the worlds.
+    * The Shark
+    & Many doors, across the worlds, were locked. You have gone through the levels without paying any mind to them but now you will need to find each world's {*Red Pillar*} to unlock the door. My guess would be that you are in town and do not know where to proceed next. So this is my tip to you.
     & Good luck.
-    % oquonie pillar
-    & The game {{Oquonie}} has no name, but we still created them some names to help us talk about it.
-    * Playable
-    ? Necomedre
-    % oquonie.char1
-    ? Nephtaline
-    % oquonie.char2.png
-    ? Neomine
-    % oquonie.char3.png
-    ? Nestorine
-    % oquonie.char4
-    ? Nemedique
-    % oquonie.char5
-    * NPCs
-    ? Owl
-    % oquonie.guide
-    ? Ramen
-    % oquonie.ramen
-    ? Shark
-    % oquonie.shark
-    ? Audio
-    % oquonie.audio
-    ? Pillar
-    % oquonie.pillar
 
 MARKL
   UNDE : Mobile

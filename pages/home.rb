@@ -28,6 +28,12 @@ class CorpseHttp
 
   end
 
+  def event
+
+    return "<p style='font-family:din_regular; font-size:16px; line-height:26px; background:#fff; padding:15px 20px; border-radius:3px'>I am currently {{sailing|Hundred rabbits}} across the Pacific Ocean toward New Zealand. My access to internet is limited and will not be able to reply to the {{forum}} as frequently, or answer emails. I will get back to you upon landfall. You can track our sail {{here|http://100r.co/map}}.</p>".markup
+
+  end
+
   def recent
 
     html = ""
@@ -49,7 +55,7 @@ class CorpseHttp
       html += "<div class='entry'><a href='/#{name}'>#{name}</a><span class='value'>#{val}h</span><div class='progress'><div class='bar' style='width:#{(val/max)*100}%'></div></div><hr/></div>"
     end
 
-    return "<h2>Recent Activity</h2><list class='activity'>#{html}</list>"
+    return "<h2>Recent Activity</h2>#{event}<list class='activity'>#{html}</list>"
 
   end
 
