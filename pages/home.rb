@@ -30,7 +30,7 @@ class CorpseHttp
 
   def event
 
-    return "<p style='font-family:din_regular; font-size:16px; line-height:26px; background:#fff; padding:15px 20px; border-radius:3px'>I am currently {{sailing|Hundred rabbits}} across the Pacific Ocean toward New Zealand. My access to internet is limited and will not be able to reply to the {{forum}} as frequently, or answer emails. I will get back to you upon landfall. You can track our sail {{here|http://100r.co/map}}.</p>".markup
+    return "<p style='font-family:din_regular; font-size:16px; line-height:26px; background:#fff; padding:15px 20px; border-radius:3px'>I am currently {{sailing|Hundred rabbits}} across the Pacific Ocean toward New Zealand. My access to internet is limited and will not be able to reply to the {{forum}} as frequently, or answer emails. I will get back to you upon landfall. You can track our sail {{here|http://100r.co/#map}}.</p>".markup
 
   end
 

@@ -4,6 +4,9 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 03 04 -         Pino                 Event                Pacific Crossing      
+2017 03 02 - 29      Hundred rabbits      Video
+2017 03 01 - 15      Hundred rabbits      Composition
 2017 02 28 - 38      Oquonie              Release
 2017 02 27 - 39      Oquonie              Migration
 2017 02 26 - 32      Oquonie              Migration
@@ -178,7 +181,7 @@
 2016 09 10 - 15      Hundred rabbits      Composition
 2016 09 09 - 38      Pino                 Maintenance
 2016 09 08 - 37      Pino                 Maintenance
-2016 09 07 - 25  258 Black                Photography
+2016 09 07 @ 25  258 Black                Photography
 2016 09 06 - 37      Pino                 Maintenance
 2016 09 05 - 15      Portalion            Composition
 2016 09 04 - 24   96 Markl                Design               First draft           Here's a screenshot for {{Hundred Rabbits}}' upcoming game.
