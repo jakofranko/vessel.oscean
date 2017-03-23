@@ -4,6 +4,33 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 03 31
+2017 03 30
+2017 03 29
+2017 03 28
+2017 03 27
+2017 03 26
+2017 03 25
+2017 03 24
+2017 03 23 - 23      Ronin                Design
+2017 03 22 - 22      Ronin                Design
+2017 03 21
+2017 03 20 - 21      Ronin                Design
+2017 03 19
+2017 03 18
+2017 03 17
+2017 03 16
+2017 03 15 - 24      Hundred rabbits      Photography
+2017 03 14 - 25      Ronin                Design
+2017 03 13
+2017 03 12 - 34      Neauismetica         Writing
+2017 03 11
+2017 03 10
+2017 03 09 - 24      Hundred rabbits      Photography
+2017 03 08 - 34      Ronin                Tools
+2017 03 07 - 34      Neauismetica         Writing
+2017 03 06
+2017 03 05
 2017 03 04 -         Pino                 Event                Pacific Crossing      
 2017 03 02 - 29      Hundred rabbits      Video
 2017 03 01 - 15      Hundred rabbits      Composition
@@ -366,7 +393,7 @@
 2016 03 09 - 37      Verreciel            Design
 2016 03 08 - 19      Verreciel            Composition
 2016 03 07 - 37      Verreciel            Design
-2016 03 06 - 25   38 Hundred rabbits      Photography          The Lair
+2016 03 06 - 25   38 Pino                 Photography          The Lair
 2016 03 05 - 35      Paradise             AI
 2016 03 04 - 35      Neauismetica         Writing
 2016 03 03 - 27  494 Portalion            Illustration         Portalion Cover
@@ -386,7 +413,7 @@
 2016 02 18 - 26      Hundred rabbits      Video
 2016 02 17 - 26      Hundred rabbits      Video
 2016 02 16 - 15      Hundred rabbits      Composition
-2016 02 15 - 36  493 Hundred rabbits                           The Workstation
+2016 02 15 - 36  493 Hundred rabbits                           Our Workstations      This is a picture of my workstation on {{Pino}}, next to the breaker panel and below the rardar.
 2016 02 14 ! 00      Pino                 Event                Aquire sailboat       Bought a 33 foot Yamaha sailboat
 2016 02 13 - 15      Verreciel            Composition
 2016 02 12 - 15      Verreciel            Composition
@@ -457,7 +484,7 @@
 2015 12 09 - 25      Verreciel            Design
 2015 12 08 - 25      Verreciel            Development
 2015 12 07 - 35      Noirca               Update               4.1
-2015 12 06 - 25  477 Hundred rabbits      Branding             Origami
+2015 12 06 - 25  477 Hundred rabbits      Branding             Rabbits               The name comes from the sailboat's name in the Japanese show Ergo Proxy.
 2015 12 05 - 32      Paradise             Refactoring
 2015 12 04 ! 25  478 Keyboard 468         Update               1.4
 2015 12 03 - 21      Oquonie              Branding
@@ -601,7 +628,7 @@
 2015 07 18 - 38      Verreciel            Development
 2015 07 17 - 36      Verreciel            Development
 2015 07 16 - 36      Verreciel            Tools
-2015 07 15 - 25  433 Lifestyle            Photography          Everyday Carry
+2015 07 15 - 25  433 Inventory            Photography          Everyday Carry
 2015 07 14 - 34      Verreciel            Tools
 2015 07 13 - 32  432 Unifit               Design               Jam day 3
 2015 07 12 - 39  431 Unifit               Design               Jam day 2
