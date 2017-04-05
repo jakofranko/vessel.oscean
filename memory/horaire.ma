@@ -4,33 +4,37 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
-2017 03 31
-2017 03 30
+2017 04 04
+2017 04 03 - 18      Superworker          Composition
+2017 04 02 - 21      Ronin                Tools
+2017 04 01 - 14      Superworker          Composition
+2017 03 31 - 12      Superworker          Composition
+2017 03 30 - 12      Superworker          Composition
 2017 03 29
-2017 03 28
-2017 03 27
+2017 03 28 - 21      Ronin                Tools
+2017 03 27 - 12      Superworker          Composition
 2017 03 26
-2017 03 25
-2017 03 24
+2017 03 25 - 21      Ronin                Tools
+2017 03 24 - 21      Ronin                Tools
 2017 03 23 - 23      Ronin                Design
 2017 03 22 - 22      Ronin                Design
 2017 03 21
 2017 03 20 - 21      Ronin                Design
 2017 03 19
 2017 03 18
-2017 03 17
-2017 03 16
+2017 03 17 - 12      Superworker          Composition
+2017 03 16 - 12      Superworker          Composition
 2017 03 15 - 24      Hundred rabbits      Photography
 2017 03 14 - 25      Ronin                Design
-2017 03 13
+2017 03 13 - 12      Superworker          Composition
 2017 03 12 - 34      Neauismetica         Writing
 2017 03 11
-2017 03 10
+2017 03 10 - 12      Superworker          Composition
 2017 03 09 - 24      Hundred rabbits      Photography
 2017 03 08 - 34      Ronin                Tools
 2017 03 07 - 34      Neauismetica         Writing
 2017 03 06
-2017 03 05
+2017 03 05 - 12      Superworker          Composition
 2017 03 04 -         Pino                 Event                Pacific Crossing      
 2017 03 02 - 29      Hundred rabbits      Video
 2017 03 01 - 15      Hundred rabbits      Composition
