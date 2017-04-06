@@ -4,7 +4,9 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
-2017 04 04
+2017 04 06 - 29      Hundred rabbits      Video
+2017 04 05 @ 18  350 Superworker          Release
+2017 04 04 - 15  498 Superworker          Composition          Pocket Operator       The album was recorded and mastered while crossing the Pacific Ocean onboard {{Pino}}.
 2017 04 03 - 18      Superworker          Composition
 2017 04 02 - 21      Ronin                Tools
 2017 04 01 - 14      Superworker          Composition
@@ -36,6 +38,7 @@
 2017 03 06
 2017 03 05 - 12      Superworker          Composition
 2017 03 04 -         Pino                 Event                Pacific Crossing      
+2017 03 03 - 15      Hundred rabbits      Composition
 2017 03 02 - 29      Hundred rabbits      Video
 2017 03 01 - 15      Hundred rabbits      Composition
 2017 02 28 - 38      Oquonie              Release
@@ -49,6 +52,7 @@
 2017 02 20 - 35      Oquonie              Tools
 2017 02 19 - 35      Oquonie              Tools
 2017 02 18 - 37      Oquonie              Tools
+2017 02 16
 2017 02 17 - 35      Oquonie              Migration
 2016 02 16 - 33      The will the wisp    Writing
 2017 02 15 - 35      Oquonie              Tools

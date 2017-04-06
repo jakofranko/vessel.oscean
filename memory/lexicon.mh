@@ -279,7 +279,7 @@ DONSOL GUIDE
 
 DOMINE GUIDE
   UNDE : Interactive
-  BREF : {{Domine}} is a simple game to play with dominoes designed by {{Hundred Rabbits}}.
+  BREF : {*Domine*} is a simple game to play with dominoes designed by {{Hundred Rabbits}}.
   LONG
     & Every domino has 2 values, which we will call Attack/Defence. So a domino with both 6 and 2 values, can be used as both 6/2 and 2/6. You can watch our {{video guide|https://www.youtube.com/watch?v=fjZb190qn00}}.
     * Setup
@@ -649,7 +649,7 @@ DONSOL
   UNDE : Mobile
   BREF : {{Donsol}} is a solitary card game, designed by {{John Eternal|https://twitter.com/johneternal}} in which you must go through the deck in sequences of 4 cards.
   LONG
-    & The Donsol rules to play with a standard deck of cards can be found {{here|Donsol+guide}}, and a gameplay video tutorial {{here|https://youtu.be/GNoZrr56GqA}}.
+    & The Donsol rules to play with a standard deck of cards can be found {{here|Donsol guide}}, and a gameplay video tutorial {{here|https://youtu.be/GNoZrr56GqA}}.
     * Release
     & The game was released for {{Mobile}} back in 2016, and re-released for {{Desktop}} in 2017 as {{Hundred Rabbits}}. While the game was designed on a train, without internet connection, it seems like Donsol's gameplay accidentally ended up being a twist to Zach Gage and Kurt Bieg's {{Scoundrel|http://stfj.net/index2.php?project=art/2011/Scoundrel.pdf}}, designed in 2011.
   LINK
@@ -705,7 +705,7 @@ PEARLS
 
 BEAUTY
   UNDE : Nereid
-  BREF : {{Beauty}} is a series of {{Nereid}} beauties, earlier patients to Nereid's {{Appeal}}.
+  BREF : {{Beauty}} is a series of {{Nereid}} beauties, earlier patients to Nereid's {_Appeal_}.
   TYPE : Diary
   
 POLYGORE
@@ -971,7 +971,7 @@ SECOND WAVE
 
 SERVENTINES
   UNDE : Nereid
-  BREF : {{Serventines}} is a travel diary documenting travels across {{Nereid}}'s various regions, the small planet's skies and {{gravitating objects|Renl moons}}.
+  BREF : {{Serventines}} is a travel diary documenting travels across {{Nereid}}'s various regions, the small planet's skies and {_gravitating objects_}.
   TYPE : Diary
 
 SHIKANOKOA VS 1H1D
@@ -1055,6 +1055,17 @@ TRAPEZOID
   BREF : {{Trapezoid}} is {{Aliceffekt}}'s second release produced on Arturia's MicroBrute - making it a sort of sequel to {{Supervisitor}}. The album was recorded live at the {{Ghost Train|https://www.facebook.com/events/380649788812746/}} party, on July 22nd 2015.
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/trapezoid
+
+SUPERWORKER
+  UNDE : Demo
+  BREF : {{Superworker}} is a concept album created entirely with {{Teenage Engineering's PO24|https://www.teenageengineering.com/products/po}}.
+  LONG
+    & The album contains 3 tracks created from {_over 80 sessions_}, arranged into chiptune experiments.
+    & Due to the lack of power during the 4 weeks long ocean crossing, the pocket battery powered synth proved to be the perfect composition tool.
+    ? The tracks also include spoken words from Alan Watts.
+  TYPE : Diary
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/superworker
 
 TYPOGRAPHY
   UNDE : Illustration

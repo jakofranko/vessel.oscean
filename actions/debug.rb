@@ -21,9 +21,15 @@ class ActionDebug
     @horaire = Memory_Array.new("horaire",@host.path)
     @lexicon = Memory_Hash.new("lexicon",@host.path)
 
-    text =  "Next Available Diary  : #{next_available_diary}\n"
-    text += "Missing Horaire Logs  : #{missing_logs.first}\n"
-    text += "Missing Lexicon Terms : #{missing_terms.first}\n"
+    text = "REVIEW\n"
+    text += "========================\n"
+    text =  "AVAILABLE #{next_available_diary}\n"
+    text += "========================\n"
+    text += missing_logs
+    text += "========================\n"
+    text += missing_terms
+    text += "========================\n"
+    text += broken_links
 
     return text
 
@@ -67,7 +73,12 @@ class ActionDebug
         array.push("#{y} #{m} #{d}")
       end
     end
-    return array
+
+    text = "MISSING LOGS #{array.length}\n"
+    array.each do |log|
+      text += "- #{log}\n"
+    end
+    return text
 
   end
 
@@ -80,7 +91,46 @@ class ActionDebug
       array.push(log.topic)
     end
     
-    return array.uniq
+    text = "MISSING TERMS #{array.uniq.length}\n"
+    array.uniq.each do |term|
+      text += "- #{term.upcase}\n"
+    end
+
+    return text
+
+  end
+
+  def broken_links
+
+    links = {}
+
+    @lexicon.render.each do |name,hash|
+      links[name] = hash["BREF"].to_s.scan(/(?:\{\{)([\w\W]*?)(?=\}\})/) 
+      links[name] += hash["LONG"].to_s.scan(/(?:\{\{)([\w\W]*?)(?=\}\})/) 
+    end
+
+    missing = {}
+    count = 0
+    count_missing = 0
+    links.each do |source,links|
+      links.each do |link|
+        if link.first.include?("http") then next end
+        link = link.first.include?("|") ? link.first.split("|").last : link.first
+        count += 1
+        if @lexicon.render[link.upcase] then next end
+        if !missing[source] then missing[source] = [] end
+        missing[source].push(link)
+        count_missing += 1
+      end
+    end
+
+    text = "BROKEN LINKS #{count_missing}/#{count}\n"
+
+    missing.each do |source,links|
+      text += "- #{source}(#{links.length}) #{links.first}\n"
+    end
+
+    return "#{text}"
 
   end
 
