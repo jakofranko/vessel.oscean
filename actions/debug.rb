@@ -27,6 +27,8 @@ class ActionDebug
     text += "========================\n"
     text += missing_logs
     text += "========================\n"
+    text += empty_logs
+    text += "========================\n"
     text += missing_terms
     text += "========================\n"
     text += broken_links
@@ -131,6 +133,25 @@ class ActionDebug
     end
 
     return "#{text}"
+
+  end
+
+  def empty_logs
+
+    a = []
+
+    @horaire.to_a.each do |log|
+      if !log["CODE"] then next end
+      if log["CODE"][2,2].to_i > 0 && !log["TERM"] then a.push(log) end
+    end
+
+    text = "EMPTY LOGS #{a.length}\n"
+
+    a.each do |log|
+      text += "- #{log["DATE"]}\n"
+    end
+
+    return text
 
   end
 

@@ -733,7 +733,7 @@ NOR LET THE FOOLS
   LINK
     BAND : http://aliceffekt.bandcamp.com/album/nor-let-the-fools-mistake-love
 
-CODE
+RUBY RIDING HOOD
   UNDE : Language
   BREF : Inspired by a talk with a friend about Steven Pinker's {{The Language Instincs|http://en.wikipedia.org/wiki/The_Language_Instinct}}, I decided to try and translate Leanne Guenther's {{Little Red Riding Hood|http://www.dltk-teach.com/rhymes/littlered/story.htm}} into {{Ruby|http://en.wikipedia.org/wiki/Ruby_(programming_language)}}.
   LONG
@@ -744,7 +744,7 @@ CODE
 
 NUMBERS
   UNDE : Language
-  BREF : {{Numerals}}, is a script that generates the name of numbers with 50'000 characters and beyond.
+  BREF : {{Numbers}}, is a script that generates the name of numbers with 50'000 characters and beyond.
   LONG
     & It uses various extensions of the short word form, and ISQ inspired names, to create the names of numbers which have never previously been catalogued.
     - One Million 6 zeros
@@ -1163,15 +1163,6 @@ ZJEVENI
   BREF : {{Zjeveni}} is one of my earliest experimental Unity games. This third person exploration game is simply about climbing to the high points of the structure.
   FLAG : Todo
 
-~ Nataniev
-  
-NATANIEV CASE
-  UNDE : Physical
-  BREF : I could not find a slick black case so I designed myself an iPhone 5S case with Society6. The print contains the name of my favourite 3 chapters of the {{Vast}} book: "{_Jlhadeaai, Huqrea & Jahaoghad_}".
-  LINK
-    SITE : http://society6.com/aliceffekt/Nataniev-iPhone-Cover_iPhone-Case
-    DRIV : https://drive.google.com/open?id=0B24klRuG3GLNaE5SSC1fLTJKM00
-
 ~ Neauismetica
 
 NEAUISMETICA
@@ -1182,14 +1173,14 @@ NEAUISMETICA
     & Incessantly dreamt of, the city of {{Neau}} and its radiant blue rooftops were the first to populate my dreams.
     & Changing as I did, the horizon line didn't seem so far anymore and as I drifted away from Neau across the {{Cyan Ocean|Kanikule}} with {{Neonev}}, maybe I died of old age but she lived on.
     & I often think of this machine-plant {{patience|Paradichlorisse}} in the sand sand filled air of {{Vetetrandes}}. Continually mouthing at this {{impossible sentence|Nohlxeserre}}, words longer than any span of time, continually luring pilgrims who {{die|Neausea}} at its feet.
-    & Resting my eyes, I see {{Scientists|Immortal Birds}}, sometimes praying by the {{Ehrivevnv}}, idle at the cliffsides of {{Duomo}}, treading on the edge of {{Occurence|Soies}}. Other nights I see the {_gathering of the birds_}, ready to leave {{Dinaisth}} far behind.
+    & Resting my eyes, I see {_Scientists_}, sometimes praying by the {{Ehrivevnv}}, idle at the cliffsides of {{Duomo}}, treading on the edge of {{Occurence|Soies}}. Other nights I see the {_gathering of the birds_}, ready to leave {{Dinaisth}} far behind.
     * Et haec revelantur in virtute et veritate<br /> non Vi.
-    & Referenced in almost all of the {{hexagrammaton|Nataniev}} projects, tales of this world are told through music, illustrations and are the culture behind the {{Lietal Language|Lietal}}, as seen through the eyes of the {{Immortal Birds}} traveling across seasons of {{Dinaisth}}.
+    & Referenced in almost all of the {{hexagrammaton|Nataniev}} projects, tales of this world are told through music, illustrations and are the culture behind the {{Lietal Language|Lietal}}, as seen through the eyes of the {_Immortal Birds_} traveling across seasons of {{Dinaisth}}.
     ? The {{Neauismetica}} portal was assembled for the curious {{enthusiast|Visual}}, {{audiophile|Audio}} and {{reader|Research}}, but might confuse the accidental visitor. If you found your way onto this page by accident, begin by reading the {{Introduction|Nataniev}}.
 
 NEON HERMETISM
   UNDE : Neauismetica
-  BREF : {{Neon Hermetism}} is a collection of experiments by scientists, operating as the {{Immortal Birds}}, involved in the creation of machines to study time.
+  BREF : {{Neon Hermetism}} is a collection of experiments by scientists, operating as the {_Immortal Birds_}, involved in the creation of machines to study time.
   LONG
     & The company was launched upon the discovery of the {{Ehrivevnv}}, an impossible structure and dimensional puzzle/game existing in occuring space. It is believed to be a gathering place for more advanced beings.
     ? {_Beyond the first curvature where the computing beautiful, sleeps<br />a new languages of possibly unsustainable meanings awakes._}
@@ -1198,8 +1189,8 @@ SOIES
   UNDE : Neon hermetism
   BREF : {{Soies}}, {_The Size of Impossibilities_}, is a core concept used by the {{Neon Hermetism}} to traverse the occuring, possible and impossible spaces.
   LONG
-    & The Soies model simulates the first numbers to exist beyond the limit of the current system, or computeable dimension. The impossible events are then caught by systems operating in {_The Rules of Maeve}.
-    * The Rules of Maeve
+    & The Soies model simulates the first numbers to exist beyond the limit of the current system, or computeable dimension. The impossible events are then caught by systems operating in {_The Rules of Ludivine}.
+    * The Rules of Ludivine
     & Invoking an impossible event will store the happening possible timeline in a pocket of impossible space, accessible by the machines of the {{Neon Hermetism}}.
     ? In the plausible case where an impossible event would {{wish|Nohlxeserre}} itself possible, it would not make it so.
     
@@ -1212,7 +1203,7 @@ NEAUSEA
 
 NOHLXESERRE
   UNDE : Neon hermetism
-  BREF : {{Nohlxeserre}}, or {_Language of the Birds_}, is the spoken language by the Courtship of The {{Immortal Birds}}. It is said that the language spilled out from the {{Ehrivevnv}}.
+  BREF : {{Nohlxeserre}}, or {_Language of the Birds_}, is the spoken language by the Courtship of The {_Immortal Birds_}. It is said that the language spilled out from the {{Ehrivevnv}}.
   LONG
     & The richness and detail of experiencing an event, pales in comparison to have it recited with the infinite words of this {{Neauseatic|Neausea}} language, see {{Paradichlorisse}}.
 
@@ -1232,7 +1223,7 @@ PARADICHLORISSE
 
 DINAISTH
   UNDE : Neauismetica
-  BREF : {{Dinaisth}} is both the name of a {_marble_}, and that of the continent arbouring the Offices of the {{Immortal Birds}} in the {{Neauismetica}}.
+  BREF : {{Dinaisth}} is both the name of a {_marble_}, and that of the continent arbouring the Offices of the {_Immortal Birds_} in the {{Neauismetica}}.
   FLAG : Todo
 
 NEAU
@@ -1247,12 +1238,12 @@ KANIKULE
 
 LAEISTH
   UNDE : Dinaisth
-  BREF : The warm desert of {_Dinaisth_} is host to the {{Rlionn|Immortal Birds}} Oasis, a blackened ditch home to the mortal clones of its violent host.
+  BREF : The warm desert of {_Dinaisth_} is host to the Rlionn Oasis, a blackened ditch home to the mortal clones of its violent host.
   FLAG : Todo
 
 VETETRANDES
   UNDE : Dinaisth
-  BREF : The observable portion of the island appears as broken structures remains of the city that once stood there, called {_Yajnev_}. As you would approach the epicenter of the bound city, time is unmoving. It is said that, at its center, one can find the corpse of an ancient {{Immortal Birds}}, who's head was filled with void and so it is believed that the Neauismetican universe exists within its mind and that the space within its skull is the only true dimension.
+  BREF : The observable portion of the island appears as broken structures remains of the city that once stood there, called {_Yajnev_}. As you would approach the epicenter of the bound city, time is unmoving. It is said that, at its center, one can find the corpse of an ancient {_Immortal Birds_}, who's head was filled with void and so it is believed that the Neauismetican universe exists within its mind and that the space within its skull is the only true dimension.
   FLAG : Todo
 
 DUOMO
@@ -1268,7 +1259,7 @@ Whiinders
 
 CHARACTERS
   UNDE : Neauismetica
-  BREF : {{Immortal Birds}} are individuals looking working on the {{Ehrivevnv}}, aspiring to reach the center of the dimensional puzzle. The group is often called {_The Courtship Of The Immortal Birds_}, taking its name from the {{Language Of The Birds|Nohlxeserre}}.
+  BREF : {_Immortal Birds_} are individuals looking working on the {{Ehrivevnv}}, aspiring to reach the center of the dimensional puzzle. The group is often called {_The Courtship Of The Immortal Birds_}, taking its name from the {{Language Of The Birds|Nohlxeserre}}.
 
 YAJNEV
   UNDE : Characters
@@ -1291,7 +1282,7 @@ ANDES
   LONG
     & The role of Andes in the {{Yajnev Collapse|Yajnev}} is unknown, but his arrival coincides with the destruction of Vetetrandes.
     & His existance is explored through notes journals scattered across his abandoned offices in Dinaisth.
-    & Not much is known about Andes besides that his existance in Dinaisth was made possible by exploiting a flaw in the protections systems of {{Soies}}, the called is now commonly known as "The rope of maeve" and is used by the {{Neon Hemetists|Neon Hermetism}} to travel through timelines, see {{The rule of maeve|Soies}}.
+    & Not much is known about Andes besides that his existance in Dinaisth was made possible by exploiting a flaw in the protections systems of {{Soies}}, the called is now commonly known as "The rope of Ludivine" and is used by the {{Neon Hemetists|Neon Hermetism}} to travel through timelines, see {{The rule of Ludivine|Soies}}.
 
 NEONEV
   UNDE : Characters
@@ -1308,9 +1299,9 @@ DEVINE LU LINVEGA
     & Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}} — Devine hope to inspire visitors to learn and to travel.
     ? To {{flee|Obliques}} is life,<br /> To linger is {{Death}}.
 
-MAEVE
+LUDIVINE
   UNDE : Characters
-  BREF : {{Maeve}} is an automated vessel, traveling around the virtual scapes of {{Nataniev}} looking for incomplete vessels and errors.
+  BREF : {{Ludivine}} is an automated vessel, traveling around the virtual scapes of {{Nataniev}} looking for incomplete vessels and errors.
   LONG
     & Rating each vessel with an index, it deletes redundant vessels and move vessels outside of the void.
 
@@ -1660,7 +1651,7 @@ SHORTHAND
 
 NEEDLES
   UNDE : Language
-  BREF : The {{Needle}} numbers are a series of 10 glyphs where the stroke intersections are equal to the value of the character.
+  BREF : The {{Needles}} are a series of 10 glyphs where the stroke intersections are equal to the value of the character.
   LONG
     & The glyphs are not used into any specific system of the {{Gamme}}, but are available here as a reference of a meaningful numeric glyph system.
     % needles
@@ -1736,7 +1727,7 @@ PORTALION
   UNDE : Second wave
   BREF : {{Portalion}} is the successor to {{The Opal Inquisitors}}, continuing the exploration of the central regions of {{Dinaisth}}, landing on the southernest docks of {_Laeisth_}.
   LONG
-    & On a foggy night of the {_Sixth Season_}, embarking on one of the vessels of the {_Septechoes_} in the desert of {_Clionn_}, {{Neonev}} sails toward {_Whiinders_} to see its {{Immortal Birds}} once more.
+    & On a foggy night of the {_Sixth Season_}, embarking on one of the vessels of the {_Septechoes_} in the desert of {_Clionn_}, {{Neonev}} sails toward {_Whiinders_} to see its {_Immortal Birds_} once more.
     - Landing in Laeisth
     - The Sixth Season Festival
     - Tunnel Aeroports of Clionn

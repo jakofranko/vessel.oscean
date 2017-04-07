@@ -4,6 +4,7 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 04 07 - 21      Nataniev             Maintenance
 2017 04 06 - 29      Hundred rabbits      Video
 2017 04 05 @ 18  350 Superworker          Release
 2017 04 04 - 15  498 Superworker          Composition          Pocket Operator       The album was recorded and mastered while crossing the Pacific Ocean onboard {{Pino}}.
@@ -527,7 +528,7 @@
 2015 11 04 - 39      The will the wisp    Refactoring
 2015 11 03 - 39      The will the wisp    Refactoring
 2015 11 02 - 26  472 Dictionarism         Design               Diarism
-2015 11 01 ! 32  471 Code                 Linguistics          The Useless
+2015 11 01
 2015 10 31 - 32      Code                 Linguistics
 2015 10 30 - 36      Verreciel            Tools
 2015 10 29 - 38      Verreciel            Tools
@@ -1090,7 +1091,7 @@
 2014 04 20 - 35      Paradise             Refactoring
 2014 04 19 - 25      Kaleidoscope         Illustration
 2014 04 18 - 37      Paradise             Update
-2014 04 17 - 28  169 Paradise case        Design               First print
+2014 04 17 - 28
 2014 04 16
 2014 04 15 - 28  137 Monoyse              Design               Synthesis Programmin
 2014 04 14 - 37      Monoyse
@@ -2733,7 +2734,7 @@
 2009 10 20
 2009 10 19
 2009 10 18
-2009 10 17 - 29  323 Maeve                Illustration         First Ludivine
+2009 10 17 - 29  323 Ludivine             Illustration         First Ludivine
 2009 10 16
 2009 10 15
 2009 10 14
