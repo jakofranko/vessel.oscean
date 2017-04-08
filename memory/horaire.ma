@@ -4,6 +4,7 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 04 08 - 25      Supervisitor         Design
 2017 04 07 - 21      Nataniev             Maintenance
 2017 04 06 - 29      Hundred rabbits      Video
 2017 04 05 @ 18  350 Superworker          Release
@@ -854,7 +855,7 @@
 2014 12 13 - 37      Rafinograde          Development
 2014 12 12 ! 34  289 Notes                Writing              The sartre mechanism
 2014 12 11 - 35      Noirca               Update               3.4
-2014 12 10 - 17  288 Supervisitor         Live
+2014 12 10 - 17  288 Supervisitor         Live                 Dodecae               It was performed live at the {{Dodecae}} event in Toronto on December 6th.
 2014 12 09 - 17  287 Supervisitor         Live
 2014 12 08 ! 17  286 Supervisitor         Release              Release
 2014 12 07 - 26  285 Oquonie              Live                 Bit Bazaar
@@ -1981,13 +1982,13 @@
 2011 11 12 - 25      Merveilles portable  Layout
 2011 11 11 - 25      Merveilles portable  Layout
 2011 11 10 - 25      Merveilles portable  Layout
-2011 11 09 - 35  209 Notes                Writing              Part IX
-2011 11 08 - 35  208 Notes                Writing              Part VIII
-2011 11 07 - 35  207 Notes                Writing              Part VII
-2011 11 06 - 35  206 Notes                Writing              Part VI
-2011 11 05 - 35  205 Notes                Writing              Part V
-2011 11 04 - 35  204 Notes                Writing              Part IV
-2011 11 03 - 35  203 Notes                Writing              Part III
+2011 11 09 - 35      Notes                Writing
+2011 11 08 - 35      Notes                Writing
+2011 11 07 - 35      Notes                Writing
+2011 11 06 - 35      Notes                Writing
+2011 11 05 - 35      Notes                Writing
+2011 11 04 - 35      Notes                Writing
+2011 11 03 - 35      Notes                Writing
 2011 11 02 - 29  202 Collegiennes                              Prince of the Arcade
 2011 11 01 - 35  201 Notes                Writing              Part I
 2011 10 31 - 25      Merveilles portable  Layout

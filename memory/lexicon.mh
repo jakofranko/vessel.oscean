@@ -228,7 +228,9 @@ DILUVIUM
 
 DODECAE
   UNDE : Supervisitor
-  BREF : In collaboration with the <a href=‘https://bentomiso.com’>BentoMiso</a> coworking space, {{XXIIVV|http://xxiivv.com}} will present live experimental music performances from {{Adversary|http://tympanikaudio.com/releases/ta025}}, {{Ilkae|https://ilkae.bandcamp.com}}, {{Dualryan|https://dualryan.bandcamp.com}} and {{Aliceffekt|https://aliceffekt.bandcamp.com}} alongside the visualists {{Nonante|http://theinstructionlimit.com}} and {{Melesul3|http://www.pocaille.com}}, following the yearly <a href=‘https://bentomiso.com/bit-bazaar-winter-market-2014/’>Bit Bazzar</a> market on {_December 6th, 2014_}.
+  BREF : Collaboration with the {{BentoMiso|https://bentomiso.com}} coworking space.
+  LONG
+    & {{XXIIVV|http://xxiivv.com}} will present live experimental music performances from {{Adversary|http://tympanikaudio.com/releases/ta025}}, {{Ilkae|https://ilkae.bandcamp.com}}, {{Dualryan|https://dualryan.bandcamp.com}} and {{Aliceffekt|https://aliceffekt.bandcamp.com}} alongside the visualists {{Nonante|http://theinstructionlimit.com}} and {{Melesul3|http://www.pocaille.com}}, following the yearly <a href=‘https://bentomiso.com/bit-bazaar-winter-market-2014/’>Bit Bazzar</a> market on {_December 6th, 2014_}.
   LINK
     FCBK : Event|https://www.facebook.com/events/558238014277230/?fref=ts
 
@@ -995,13 +997,6 @@ SPOOL HOLDER
     SITE : http://www.thingiverse.com/thing:18833
   FLAG : Todo
 
-SUPERVISITOR
-  UNDE : Fourth wave
-  BREF : {{Supervisitor}} is the third album of {{Aliceffekt}}'s {{Fourth wave}}. It was performed live at the {{Dodecae}} event in Toronto on December 6th, and was written for {{Arturia|http://arturia.com}}'s analog and monophonic {{Microbrute|http://www.arturia.com/microbrute-se/overview}} synthetiser. The album navigates between dark electro, idm and even hard trance at times.
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/supervisitor
-    ITUN : iTunes|https://itunes.apple.com/ca/album/supervisitor-ep/id951144870
-
 TARPOPHOBIA
   UNDE : Polygonoscopy
   BREF : {{Tarpophobia}} is the fear of seeing yourself fractalized onto reflective surfaces, especially onto eyes.
@@ -1056,16 +1051,28 @@ TRAPEZOID
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/trapezoid
 
+DEMO
+  UNDE : Audio
+  BREF : The {{Demos|Demo}} are concept albums created with specific pieces of hardwares.
+  TYPE : Portal
+
 SUPERWORKER
   UNDE : Demo
+  TYPE : Diary
   BREF : {{Superworker}} is a concept album created entirely with {{Teenage Engineering's PO24|https://www.teenageengineering.com/products/po}}.
   LONG
     & The album contains 3 tracks created from {_over 80 sessions_}, arranged into chiptune experiments.
-    & Due to the lack of power during the 4 weeks long ocean crossing, the pocket battery powered synth proved to be the perfect composition tool.
-    ? The tracks also include spoken words from Alan Watts.
-  TYPE : Diary
+    & Due to the lack of power during the 4 weeks long ocean crossing, the pocket battery powered synth proved to be the perfect composition tool. The tracks also include spoken words from Alan Watts.
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/superworker
+
+SUPERVISITOR
+  UNDE : Demo
+  TYPE : Diary
+  BREF : {{Supervisitor}} is a concept album created with {{Arturia|http://arturia.com}}'s analog and monophonic {{Microbrute|http://www.arturia.com/microbrute-se/overview}} synthetiser.
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/supervisitor
+    ITUN : iTunes|https://itunes.apple.com/ca/album/supervisitor-ep/id951144870
 
 TYPOGRAPHY
   UNDE : Illustration
@@ -1546,10 +1553,11 @@ RONIN
     & The application is a cross-over between Vim and Photoshop, where every change to the canvas is inputed as a command.
     & It is meant to replace the use of Photoshop for simple repetitive tasks, basic illustration jobs and the creation of grid based designs.
     = Draw a vector flower
-    # @ 300x300 #AAAAAA ; 
-    # . 15x15 4,4 ; 
-    # + M60,60 A1,1 0 0,0 240,60 A1,1 0 0,0 240,240 ;
-    # + M240,240 A1,1 0 0,0 60,240 A1,1 0 0,0 60,60 ;
+    # surface.resize 300x300 ; 
+    # layer.fill #AAAAAA ;
+    # magnet.grid 15x15 4,4 ; 
+    # path.stroke M60,60 A1,1 0 0,0 240,60 A1,1 0 0,0 240,240 ;
+    # path.stroke M240,240 A1,1 0 0,0 60,240 A1,1 0 0,0 60,60 ;
   LINK
     GITH : https://github.com/hundredrabbits/Ronin
 
