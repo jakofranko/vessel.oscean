@@ -4,6 +4,7 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 04 09 - 25      Thousand rooms       Design
 2017 04 08 - 25      Supervisitor         Design
 2017 04 07 - 21      Nataniev             Maintenance
 2017 04 06 - 29      Hundred rabbits      Video
@@ -162,7 +163,7 @@
 2016 11 05 - 38      Babelium             Development
 2016 11 04 - 32      Nataniev             Tools
 2016 11 03 - 29      Hundred rabbits      Video
-2016 11 02 - 00      Mexico               Event                Sail to Mexico        700nm sail to La Paz
+2016 11 02
 2016 11 01 - 35      Neauismetica         Writing
 2016 10 31 - 25  353 Black                Photography
 2016 10 30 - 35      Paradise             Update
@@ -262,8 +263,8 @@
 2016 07 28 - 23      Horaire              Tools
 2016 07 27 - 17      Horaire              Tools
 2016 07 26 - 15      Hundred rabbits      Video
-2016 07 25 - 34      Definitist           Development
-2016 07 24 - 36      Definitist           Linguistics
+2016 07 25 - 34      The will the wisp    Development
+2016 07 24 - 36      The will the wisp    Linguistics
 2016 07 23 - 35      Markl                Prototype
 2016 07 22 - 36      Markl                Prototype
 2016 07 21 - 34      Paradise             Development
@@ -446,7 +447,7 @@
 2016 01 26 - 15      Portalion            Composition
 2016 01 25 - 15      Portalion            Composition
 2016 01 24 - 26  486 Hypervoid            Illustration         Pandischopic
-2016 01 23 - 25      Canada               Photography
+2016 01 23
 2016 01 22 - 25      Domestic Moire       Release
 2016 01 21 - 37      Verreciel            Design
 2016 01 20 - 37      Verreciel            Design
@@ -456,7 +457,7 @@
 2016 01 16 - 24      Verreciel            Design
 2016 01 15 - 16      Hundred rabbits      Composition
 2016 01 14 - 16      Portalion            Composition
-2016 01 13 ! 00      Canada               Event                Move to Vancouver     Looking for a sailboat on the west coast
+2016 01 13 ! 00
 2016 01 12 - 28  490 Beauty               Illustration         02                    A special tribute to {{Jesse Kanda|http://www.jessekanda.com}}'s works.
 2016 01 11 @ 28  487 Beauty               Illustration         01
 2016 01 10 - 25  488 Beauty               Illustration
@@ -469,13 +470,13 @@
 2016 01 03 - 25  484 Keyboard             Photography          Setup
 2016 01 02 - 26  481 Domestic moire       Design               Pre release
 2016 01 01 - 26      Domestic moire       Design
-2015 12 31 ! 00  104 Yearly                                    MMVX
+2015 12 31
 2015 12 30 - 38      Paradise             Tools
 2015 12 29 - 35      Paradise             Analytics
-2015 12 28 - 32      Den                  Prototype
+2015 12 28 - 32      Mute                 Prototype
 2015 12 27 - 34      Hundred rabbits      Development
-2015 12 26 - 32      Den                  Prototype
-2015 12 25 - 32      Den                  Prototype
+2015 12 26 - 32      Mute                 Prototype
+2015 12 25 - 32      Mute                 Prototype
 2015 12 24 - 32      Paradise             Refactoring
 2015 12 23 - 35      Paradise             Refactoring
 2015 12 22 - 35      Paradise             Tools
@@ -530,7 +531,7 @@
 2015 11 03 - 39      The will the wisp    Refactoring
 2015 11 02 - 26  472 Dictionarism         Design               Diarism
 2015 11 01
-2015 10 31 - 32      Code                 Linguistics
+2015 10 31 - 32      Mobile               Linguistics
 2015 10 30 - 36      Verreciel            Tools
 2015 10 29 - 38      Verreciel            Tools
 2015 10 28 - 39      Verreciel            Development
@@ -632,8 +633,8 @@
 2015 07 24 - 39      Paradise             Development
 2015 07 23 - 26      Paradise             Design
 2015 07 22 - 19      Trapezoid            Live
-2015 07 21 - 34      Den                  Tools
-2015 07 20 - 34      Den                  Tools
+2015 07 21 - 34      Mute                 Tools
+2015 07 20 - 34      Mute                 Tools
 2015 07 19 - 34      Lietal               Linguistics
 2015 07 18 - 38      Verreciel            Development
 2015 07 17 - 36      Verreciel            Development
@@ -656,9 +657,9 @@
 2015 06 30
 2015 06 29
 2015 06 28
-2015 06 27 - 35      Definitist           Development
-2015 06 26 - 35      Definitist           Development
-2015 06 25 - 35      Definitist           Development
+2015 06 27 - 35      The will the wisp    Development
+2015 06 26 - 35      The will the wisp    Development
+2015 06 25 - 35      The will the wisp    Development
 2015 06 24 - 35      Paradise             Update               3.9
 2015 06 23 - 19      Trapezoid            Composition
 2015 06 22 ! 34  297 Vocavularist         Update               2.5
@@ -740,8 +741,8 @@
 2015 04 07 - 38      Ludivine             AI
 2015 04 06 - 17      Gaii                 Composition
 2015 04 05 - 36      Donsol               Update               1.3
-2015 04 04 - 38      Lyken                Development
-2015 04 03 - 36      Lyken                Development
+2015 04 04 - 38      Mobile               Development
+2015 04 03 - 36      Mobile               Development
 2015 04 02 ! 36  391 Donsol               Update               1.2
 2015 04 01 - 36      Donsol               Development
 2015 03 31 - 38      Ludivine             Analytics
@@ -752,7 +753,7 @@
 2015 03 26 - 17      Eschatolor           Composition
 2015 03 25 - 17      Eschatolor           Composition
 2015 03 24 - 35      Paradise             Development
-2015 03 23 - 36      Lyken                Development
+2015 03 23 - 36      Mobile               Development
 2015 03 22 - 36      Donsol               Development
 2015 03 21 - 27      Donsol               Release
 2015 03 20 - 26      Physical             Prototype
@@ -841,10 +842,10 @@
 2014 12 27 - 34      Keyboard 468         Tools
 2014 12 26 - 34      Keyboard 468         Prototype
 2014 12 25 - 25  299 Hypervoid            Illustration         Antipigment
-2014 12 24 - 35      Lyken                Development
-2014 12 23 - 35      Lyken                Tools
-2014 12 22 - 35      Lyken                Development
-2014 12 21 - 35      Lyken                Prototype
+2014 12 24 - 35      Mobile               Development
+2014 12 23 - 35      Mobile               Tools
+2014 12 22 - 35      Mobile               Development
+2014 12 21 - 35      Mobile               Prototype
 2014 12 20 - 34      Dew                  Tools
 2014 12 19 - 34      Paradise             Development
 2014 12 18 - 37      Paradise             Update               Automate
@@ -1092,10 +1093,10 @@
 2014 04 20 - 35      Paradise             Refactoring
 2014 04 19 - 25      Kaleidoscope         Illustration
 2014 04 18 - 37      Paradise             Update
-2014 04 17 - 28
+2014 04 17
 2014 04 16
-2014 04 15 - 28  137 Monoyse              Design               Synthesis Programmin
-2014 04 14 - 37      Monoyse
+2014 04 15 - 28  137 Mobile               Design               Synthesis Programmin
+2014 04 14 - 37      Mobile 
 2014 04 13 - 28  115 Methascope           Illustration         20x
 2014 04 12 - 28   69 Methascope           Illustration         200x
 2014 04 11 - 28   46 Methascope           Illustration         2000x
@@ -1115,7 +1116,7 @@
 2014 03 28 - 35      Vast                 Prototype
 2014 03 27 - 35      Vast                 Prototype
 2014 03 26 - 35      Vast                 Prototype
-2014 03 25 ! 00      Canada               Travel               Montreal
+2014 03 25
 2014 03 24 - 35      Rafinograde          Prototype
 2014 03 23 - 25  389 America              Photography          Muir Woods
 2014 03 22 - 25  390 America              Photography          Muir Beach
@@ -1218,7 +1219,7 @@
 2013 12 15 - 34      Oquonie              Development
 2013 12 14 - 34      Paradise             Update
 2013 12 13
-2013 12 12 - 00  366 Yearly               Writing              MMXXIII
+2013 12 12
 2013 12 11 - 34      Paradise             Update
 2013 12 10 - 34      Paradise             Update
 2013 12 09
@@ -1281,8 +1282,8 @@
 2013 10 13 - 37      Oquonie              Design
 2013 10 12 - 37      Oquonie              Development
 2013 10 11 - 36      Mute                 Development
-2013 10 10 - 36      Code                 Cryptography
-2013 10 09 - 36      Code                 Cryptography
+2013 10 10 - 36      Mobile               Cryptography
+2013 10 09 - 36      Mobile               Cryptography
 2013 10 08 - 26      Oquonie              Development
 2013 10 07 - 37      Oquonie              Development
 2013 10 06 - 26      Oquonie              Design
@@ -1584,7 +1585,7 @@
 2012 12 14
 2012 12 13 - 35      Paradise             Development
 2012 12 12
-2012 12 11 - 35  110 Yearly               Writing              MMXII
+2012 12 11
 2012 12 10
 2012 12 09
 2012 12 08 - 35      Lietal               Documentation
@@ -1930,22 +1931,22 @@
 2012 01 03 - 35      Paradise             Development
 2012 01 02 - 35      Paradise             Design
 2012 01 01 - 25      Physical             Prototype
-2011 12 31 - 35    9 Yearly               Writing              MMXI
+2011 12 31
 2011 12 30 - 15      Remix                                     iVardensphere - Ghos
 2011 12 29 - 25      Physical             Prototype
 2011 12 28 - 25      Merveilles portable  Layout
 2011 12 27 - 25      Merveilles portable  Testing
 2011 12 26
 2011 12 25
-2011 12 24 - 25                           Prototype
-2011 12 23 - 25                           Prototype
-2011 12 22 - 25                           Design
+2011 12 24
+2011 12 23 - 25      Physical             Prototype
+2011 12 22
 2011 12 21 - 25      Merveilles portable  Testing
 2011 12 20 - 35      Merveilles portable  Testing
 2011 12 19 - 35      Lietal               Linguistics
 2011 12 18 ! 15    3 From Saharaphorest   Release              From Saharaphorest
 2011 12 17 - 19      Es gulf sunflowers   Live                 8Bit Noel - Montreal
-2011 12 16 - 25                           Design
+2011 12 16
 2011 12 15 - 35      Lietal               Typography
 2011 12 14 - 35      Lietal               Linguistics
 2011 12 13 - 19      Collected works      Composition
@@ -2020,8 +2021,8 @@
 2011 10 05 - 35      Lietal               Documentation
 2011 10 04 - 15      From Saharaphorest   Composition
 2011 10 03 - 39   81 Paradise             Development          Started Modules
-2011 10 02 - 25
-2011 10 01 - 25
+2011 10 02
+2011 10 01
 2011 09 30
 2011 09 29
 2011 09 28
@@ -2033,7 +2034,7 @@
 2011 09 22 - 25      Artwork              Illustration
 2011 09 21 - 25      Artwork              Illustration
 2011 09 20 - 35      Paradise             Tools
-2011 09 19 - 19
+2011 09 19 - 19      The Sixth Season     Composition
 2011 09 18 - 15      The Sixth Season     Composition
 2011 09 17 - 15      The Sixth Season     Composition
 2011 09 16 - 19      Mixtape              Mixing               Span
@@ -2161,7 +2162,7 @@
 2011 05 17 - 15      To The Aeons Hell    Composition
 2011 05 16 - 19      Vermillionth         Composition
 2011 05 15 - 29      Collegiennes         Design
-2011 05 14 - 29                           Illustration
+2011 05 14 - 29      Artwork              Illustration
 2011 05 13 - 29      Collegiennes         Design
 2011 05 12 - 19      Vermillionth         Rehearsal
 2011 05 11 - 19      Vermillionth         Rehearsal
@@ -2181,7 +2182,7 @@
 2011 04 27 - 35      Paradise
 2011 04 26
 2011 04 25 - 25      Drownspire
-2011 04 24 - 29                           Development
+2011 04 24
 2011 04 23 - 15      To The Aeons Hell    Composition
 2011 04 22 - 35      Paradise             Development
 2011 04 21 - 35      Paradise             Development
@@ -2298,7 +2299,7 @@
 2010 12 31 - 35      Paradise             Development
 2010 12 30
 2010 12 29 - 25  482 Death                                     Milk
-2010 12 28 - 35                           Prototype
+2010 12 28
 2010 12 27 - 35   50 Obliques             Development
 2010 12 26 - 25      Artwork              Illustration
 2010 12 25
@@ -2307,7 +2308,7 @@
 2010 12 22 - 39      Paradise             Development
 2010 12 21
 2010 12 20 - 15  315 To The Aeons Hell    Release              To The Aeons Hell
-2010 12 19 - 35   49 Yearly               Writing              MMX
+2010 12 19
 2010 12 18 - 19      To The Aeons Hell    Live                 Toy Company - Montre
 2010 12 17 - 19      To The Aeons Hell    Rehearsal
 2010 12 16 - 39      Paradise             Tools
@@ -2335,7 +2336,7 @@
 2010 11 24 - 35      Paradise             Design
 2010 11 23 - 35      Paradise             Development
 2010 11 22
-2010 11 21 - 35                           Prototype
+2010 11 21
 2010 11 20 - 25      Lietal               Typography
 2010 11 19
 2010 11 18 - 35      Paradise             Development
@@ -2356,15 +2357,15 @@
 2010 11 03
 2010 11 02 - 15      To The Aeons Hell    Composition
 2010 11 01
-2010 10 31 - 25   22 Interface            Design               Android Nexus S Them
-2010 10 30 - 25
+2010 10 31
+2010 10 30
 2010 10 29 - 35      Paradise             Development
 2010 10 28 - 25      Siseon
 2010 10 27
 2010 10 26 - 35      Paradise             Tools
 2010 10 25 - 35      Pico                 Design
 2010 10 24 - 25      Pico                 Design
-2010 10 23 - 29
+2010 10 23
 2010 10 22 - 29      Merure               Design
 2010 10 21
 2010 10 20 - 25      Drownspire
@@ -2401,7 +2402,7 @@
 2010 09 19 - 35      Horaire              Development
 2010 09 18
 2010 09 17 - 35      Paradise             Development
-2010 09 16 - 25                           Design
+2010 09 16
 2010 09 15 - 25      Artwork              Illustration
 2010 09 14 - 25      Drownspire
 2010 09 13

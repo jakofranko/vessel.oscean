@@ -21,17 +21,13 @@ class ActionDebug
     @horaire = Memory_Array.new("horaire",@host.path)
     @lexicon = Memory_Hash.new("lexicon",@host.path)
 
-    text = "REVIEW\n"
-    text += "========================\n"
-    text =  "AVAILABLE #{next_available_diary}\n"
-    text += "========================\n"
+    text = "\nREVIEW\n"
+    text += next_available_diary
     text += missing_logs
-    text += "========================\n"
     text += empty_logs
-    text += "========================\n"
     text += missing_terms
-    text += "========================\n"
     text += broken_links
+    text += "\n\n"
 
     return text
 
@@ -50,7 +46,7 @@ class ActionDebug
 
     i = 1
     while i < 9999
-      if !diaries.include?(i) then return i end
+      if !diaries.include?(i) then return "AVAILABLE #{i}\n" end
       i += 1
     end
     return nil
@@ -90,12 +86,13 @@ class ActionDebug
 
     @horaire.to_a("log").each do |log|
       if !@lexicon.filter("term",log.topic,"term").type.to_s.like("missing") then next end
+      if log.topic.to_s == "" then next end
       array.push(log.topic)
     end
     
     text = "MISSING TERMS #{array.uniq.length}\n"
     array.uniq.each do |term|
-      text += "- #{term.upcase}\n"
+      text += "  #{term.upcase}\n"
     end
 
     return text
@@ -120,6 +117,7 @@ class ActionDebug
         link = link.first.include?("|") ? link.first.split("|").last : link.first
         count += 1
         if @lexicon.render[link.upcase] then next end
+        if link[0,1] == "!" then next end
         if !missing[source] then missing[source] = [] end
         missing[source].push(link)
         count_missing += 1
