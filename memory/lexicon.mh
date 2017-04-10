@@ -1696,19 +1696,20 @@ KEYBOARD
     REDD : https://www.reddit.com/r/MechanicalKeyboards/
 
 LIFESTYLE
-  UNDE : Inventory
-  BREF : {{Nootropics|https://en.wikipedia.org/wiki/Nootropic}} are {_smart drugs_}. They can help with focus and attention, or simply serve as a weak stimulant - not unlike coffee. I started using them out of curiosity and they grew on me as an extra tool to help with concentration.
+  UNDE : Obliques
+  BREF : A few of the lifestyle choices that I have made and their reasons.
   LONG
-    & There are a variety of Nootropics out there, and I have only tried but the combination, {_stack_}, of Noopept and Citicoline, as per suggested by a friend back in Tokyo. I order my supplements from {{Intellimeds|https://www.intellimeds.co.uk}}, shipping to Canada. I take this stack every day for a {*sequence of 30 days, then stop for a week*} as it seems to make the effect stronger when I start again at the end of the week.
-    - {{20mg Noopept|https://www.intellimeds.co.uk/noopept-powder}}, powder
-    - {{150mg Citicoline|https://www.intellimeds.co.uk/citicoline/citicoline-powder}}, powder
-    & It feels a bit like coffee, but with a light {_tunnel vision_}, the immediate effect is that of tuning out the voices in your head for a moment. When cycling on Noopept, it feels a bit like seeing wider. When coding, it feels a bit like things need to get done. I have been taking it for more than a year and I have yet to feel any negative effect. Noopept can be distracting at times, I heard that Racetams are weaker and might be more what you are looking for - I have yet to try them.
+    * Veganism
+    & There are a few things in life that are as transformative and transhumanistic as food consumption, not eating meat, eggs and dairy aligns with my pragmatic views of life-prolonging aspirations.
+    * Nootropics
+    & {{Nootropics|https://en.wikipedia.org/wiki/Nootropic}} are {_smart drugs_}. They can help with focus and attention, or simply serve as a weak stimulant - not unlike coffee. I started using them out of curiosity and they grew on me as an extra tool to help with concentration.
+    & I take the Noopept(20mg) and Citicoline(150mg) stack every day for a {*sequence of 30 days, then stop for a week*}.
 
 DIRECTORY
   UNDE : Inventory
   BREF : A list of timeless art that I often refer to.
   LONG
-    & Nothing to see here.
+    & This collection is updated once in a while.
   TYPE : Memory
   LINK
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/directory.mh
