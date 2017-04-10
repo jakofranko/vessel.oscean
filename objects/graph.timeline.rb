@@ -6,6 +6,7 @@ class Graph_Timeline
   def initialize(logs)
     
     @logs = logs
+    @sums = {}
     @segments = equalSegments
     @sumHours = 0
 
@@ -43,6 +44,9 @@ class Graph_Timeline
       distributePrev = progressNext - progressFloat
       distributeNext = 1 - distributePrev
 
+      if !@sums[log.sector] then @sums[log.sector] = 0 end
+      @sums[log.sector] += log.value
+
       if segments[progressPrev] then segments[progressPrev][log.sector] += log.value * distributePrev end
       if segments[progressNext] then segments[progressNext][log.sector] += log.value * distributeNext end
     end
@@ -69,7 +73,7 @@ class Graph_Timeline
     width = 640
     height = 150
     lineWidth = 660/28
-    segmentWidth = lineWidth/3
+    segmentWidth = lineWidth/10
     highestValue = findHighestValue
     width += segmentWidth
 
@@ -107,10 +111,10 @@ class Graph_Timeline
     markers += "<span style='position:absolute; top:15px;left:30px; color:grey'>#{@logs.last.offset}</span>"
     markers += "<span style='position:absolute; top:15px;right:30px; text-align:right; color:grey'>#{@logs.first.offset}</span>"
 
-    markers += "<span style='position:absolute; bottom:15px;left:30px'><tt style='color:#72dec2; padding-right:5px'>— </tt> Audio</span>"
-    markers += "<span style='position:absolute; bottom:15px;left:110px'><tt style='color:red; padding-right:5px'>— </tt> Visual</span>"
-    markers += "<span style='position:absolute; bottom:15px;left:190px'><tt style='color:white; padding-right:5px'>— </tt> Research</span>"
-    markers += "<span style='position:absolute; bottom:15px;right:30px'><a href='/Horaire'>#{@sumHours.to_i} hours</a></span>"
+    markers += "<span style='position:absolute; bottom:15px;left:30px'><tt style='color:#72dec2; padding-right:5px'>— </tt> Audio <span style='color:#999'>#{((@sums[:audio]/@sumHours.to_f)*100).to_i}%</span></span>"
+    markers += "<span style='position:absolute; bottom:15px;left:130px'><tt style='color:red; padding-right:5px'>— </tt> Visual <span style='color:#999'>#{((@sums[:visual]/@sumHours.to_f)*100).to_i}%</span></span>"
+    markers += "<span style='position:absolute; bottom:15px;left:230px'><tt style='color:white; padding-right:5px'>— </tt> Research <span style='color:#999'>#{((@sums[:research]/@sumHours.to_f)*100).to_i}%</span></span>"
+    markers += "<span style='position:absolute; bottom:15px;right:30px'><a href='/Horaire'><b style='font-family:\"din_medium\"; font-weight:normal; color:#999'>#{@sumHours.to_i} hours</b></a></span>"
 
     return "<vz><svg style='width:#{width}px; height:#{height}px; background:black; overflow: visible'>"+html+"<svg>#{markers}</vz>"
 

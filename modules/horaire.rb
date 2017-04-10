@@ -6,7 +6,7 @@ class CorpseHttp
   def style
 
     return "<style>
-    yu.cr { background:black; }
+    .horaire { background:black; border-radius:3px}
     yu.si { display:none !important}
     .horaire .task { width:140px; color:white; display:inline-block; padding:15px; }
     .horaire .task svg { width:140px; height:140px }
@@ -18,8 +18,6 @@ class CorpseHttp
     .horaire content.storage a { background:white }
     .horaire { margin-bottom:30px }
     .horaire p { color:white}
-    .portal { color:white}
-    .ft { color:white}
     </style>"
 
   end

@@ -2,6 +2,15 @@
 ~ NOTE : YAML
 ~ AUTH : Devine Lu Linvega
 
+DONSOL
+  General
+    Port to Ionic
+
+OQUONIE
+  General
+    Port to Ionic
+    Release Linux build
+
 ALICEFFEKT
   General
   Updates
@@ -25,19 +34,6 @@ PARADISE
     Destroy
     Search
 
-PINO
-  Electronics
-    Install timer for fridge
-  Misc
-    Fins
-    Get waterpump
-    Update Medicine pack
-    Get bungees
-  Hardware Store
-    V-berth walls
-    Add foam under carpet
-    Dry Berth material
-
 NATANIEV
   General
     Documentation should be aware of dependencies
@@ -53,12 +49,7 @@ NATANIEV
 THE WILL THE WISP
   Create long-form poems
   Word similarity index
-  Titan Poem
-  Simple Poem
   Snow Corn Poem
-
-DICTIONARISM
-  Redesign icon
   
 MARKL
   Actions
@@ -78,7 +69,6 @@ LIETAL
 
 OSCEAN
   Horaire
-    Redesign
     Forecast
   Neauismetica
     Complete draft of Two Mansion

@@ -4,30 +4,31 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
-2017 04 09 - 25      Thousand rooms       Design
+2017 04 10 - 25      Thousand rooms       Writing
+2017 04 09 - 35      Thousand rooms       Tools
 2017 04 08 - 25      Supervisitor         Design
-2017 04 07 - 21      Nataniev             Maintenance
+2017 04 07 - 31      Nataniev             Maintenance
 2017 04 06 - 29      Hundred rabbits      Video
 2017 04 05 @ 18  350 Superworker          Release
 2017 04 04 - 15  498 Superworker          Composition          Pocket Operator       The album was recorded and mastered while crossing the Pacific Ocean onboard {{Pino}}.
 2017 04 03 - 18      Superworker          Composition
-2017 04 02 - 21      Ronin                Tools
+2017 04 02 - 31      Ronin                Tools
 2017 04 01 - 14      Superworker          Composition
 2017 03 31 - 12      Superworker          Composition
-2017 03 30 - 12      Superworker          Composition
-2017 03 29
-2017 03 28 - 21      Ronin                Tools
+2017 03 30 - 16      Superworker          Composition
+2017 03 29 - 25      Aliceffekt           Branding
+2017 03 28 - 31      Ronin                Tools
 2017 03 27 - 12      Superworker          Composition
 2017 03 26
-2017 03 25 - 21      Ronin                Tools
-2017 03 24 - 21      Ronin                Tools
+2017 03 25 - 31      Ronin                Tools
+2017 03 24 - 31      Ronin                Tools
 2017 03 23 - 23      Ronin                Design
 2017 03 22 - 22      Ronin                Design
 2017 03 21
 2017 03 20 - 21      Ronin                Design
 2017 03 19
 2017 03 18
-2017 03 17 - 12      Superworker          Composition
+2017 03 17 - 18      Superworker          Composition
 2017 03 16 - 12      Superworker          Composition
 2017 03 15 - 24      Hundred rabbits      Photography
 2017 03 14 - 25      Ronin                Design
@@ -104,8 +105,8 @@
 2017 01 03 - 23  230 Directory            Photography
 2017 01 02 - 26      Donsol               Design
 2017 01 01 - 27      Nataniev             Design
-2016 12 31 - 34      Ronin                Frontend
-2016 12 30 - 24      Hundred rabbits      Frontend
+2016 12 31 - 24      Ronin                Design
+2016 12 30 - 24      Hundred rabbits      Design
 2016 12 29 - 34      Ronin                Development
 2016 12 28 - 35      Ronin                Development
 2016 12 27 - 35      Ronin                Development
@@ -185,7 +186,7 @@
 2016 10 14 - 24      Paradise             Design
 2016 10 13 - 23      Paradise             Design
 2016 10 12 - 28      Lietal               Typography
-2016 10 11 - 35      Paradise             Frontend
+2016 10 11 - 25      Paradise             Design
 2016 10 10 - 34      Pino                 Maintenance
 2016 10 09 - 38      Lietal               Linguistics
 2016 10 08 - 37      Paradise             Development
@@ -207,8 +208,8 @@
 2016 09 22 - 39      Paradise             Migration
 2016 09 21 ! 29  102 Wallpaper            Design               Shinji                Get in the fucking robot!
 2016 09 20 ! 24   98 Lard shader          Illustration         Study C
-2016 09 19 - 38      Oquonie              Update               4.2
-2016 09 18 - 34      Vocavularist         Update               2.6
+2016 09 19 - 38      Oquonie              Maintenance          4.2
+2016 09 18 - 34      Vocavularist         Maintenance          2.6
 2016 09 17 - 28      Paradise             Design
 2016 09 16 - 34      Hundred rabbits      Migration
 2016 09 15 - 34      Hundred rabbits      Tools
@@ -312,16 +313,16 @@
 2016 06 09 - 36      Grimgrains           Migration
 2016 06 08 - 36      The will the wisp    Migration
 2016 06 07 - 36      Dictionarism         Migration
-2016 06 06 - 34      Verreciel            Update               1.3
-2016 06 05 - 35      Donsol               Update               1.7
-2016 06 04 - 36      Advent v             Update               The Necropolis
+2016 06 06 - 34      Verreciel            Maintenance          1.3
+2016 06 05 - 35      Donsol               Maintenance          1.7
+2016 06 04 - 36      Advent v             Maintenance          The Necropolis
 2016 06 03 - 36      Paradise             Update
 2016 06 02 - 24      Hundred rabbits      Video
 2016 06 01
 2016 05 31 - 39      Pino                 Maintenance
 2016 05 30 - 34      Paradise             Migration
 2016 05 29
-2016 05 28 - 36      Verreciel            Update               1.2
+2016 05 28 - 36      Verreciel            Maintenance          1.2
 2016 05 27
 2016 05 26 - 33      Paradise             Development
 2016 05 25 - 24      Serventines          Modeling
@@ -331,7 +332,7 @@
 2016 05 21 - 24      Paradise             Tools
 2016 05 20 - 32      Paradise             Analytics
 2016 05 19 - 32      Paradise             Development
-2016 05 18 - 34      Verreciel            Update               1.1
+2016 05 18 - 34      Verreciel            Maintenance          1.1
 2016 05 17 - 32      Verreciel            Development
 2016 05 16   16      Portalion            Composition
 2016 05 15 - 37      Paradise             Development
@@ -365,17 +366,17 @@
 2016 04 17 - 25      Hundred rabbits      Video
 2016 04 16 - 37      Lietal               Linguistics
 2016 04 15 - 32      Lietal               Linguistics
-2016 04 14 - 38      Verreciel            Refactoring
+2016 04 14 - 38      Verreciel            Maintenance
 2016 04 13 ! 27   32 Polygore             Modeling             Trigore
 2016 04 12 - 16      Portalion            Composition
-2016 04 11 - 38      Verreciel            Refactoring
+2016 04 11 - 38      Verreciel            Maintenance
 2016 04 10 - 19      Verreciel ost        Composition
 2016 04 09 - 18      Hundred rabbits      Composition
 2016 04 08 - 18      Hundred rabbits      Composition
 2016 04 07 - 35      Hundred rabbits      Tools
 2016 04 06
 2016 04 05 - 29      Verreciel            Testing
-2016 04 04 - 29      Verreciel            Refactoring
+2016 04 04 - 29      Verreciel            Maintenance
 2016 04 03 - 25      Pino                 Photography
 2016 04 02
 2016 04 01 - 24      Verreciel            Design
@@ -477,8 +478,8 @@
 2015 12 27 - 34      Hundred rabbits      Development
 2015 12 26 - 32      Mute                 Prototype
 2015 12 25 - 32      Mute                 Prototype
-2015 12 24 - 32      Paradise             Refactoring
-2015 12 23 - 35      Paradise             Refactoring
+2015 12 24 - 32      Paradise             Maintenance
+2015 12 23 - 35      Paradise             Maintenance
 2015 12 22 - 35      Paradise             Tools
 2015 12 21 - 38      Grimgrains           Tools
 2015 12 20 - 28      Hundred rabbits      Branding
@@ -494,10 +495,10 @@
 2015 12 10 - 25  479 Verreciel            Design               Further
 2015 12 09 - 25      Verreciel            Design
 2015 12 08 - 25      Verreciel            Development
-2015 12 07 - 35      Noirca               Update               4.1
+2015 12 07 - 35      Noirca               Maintenance          4.1
 2015 12 06 - 25  477 Hundred rabbits      Branding             Rabbits               The name comes from the sailboat's name in the Japanese show Ergo Proxy.
-2015 12 05 - 32      Paradise             Refactoring
-2015 12 04 ! 25  478 Keyboard 468         Update               1.4
+2015 12 05 - 32      Paradise             Maintenance
+2015 12 04 ! 25  478 Keyboard 468         Maintenance          1.4
 2015 12 03 - 21      Oquonie              Branding
 2015 12 02 - 28      Hundred rabbits      Design
 2015 12 01 - 28      Hundred rabbits      Design
@@ -508,27 +509,27 @@
 2015 11 26 - 28      Oquonie              Design
 2015 11 25 - 37      Paradise             Testing
 2015 11 24 - 35      Paradise             Testing
-2015 11 23 - 35      Oquonie              Refactoring
+2015 11 23 - 35      Oquonie              Maintenance
 2015 11 22 - 25      Paradise             Testing
-2015 11 21 - 34      Alphavetist          Update               3.8
+2015 11 21 - 34      Alphavetist          Maintenance          3.8
 2015 11 20 ! 29  476 Keyboard             Photography          All blank keycaps
 2015 11 19 - 29      Paradise             Design
-2015 11 18 - 37      Oquonie              Refactoring
-2015 11 17 - 34      Alphavetist          Update               3.7
+2015 11 18 - 37      Oquonie              Maintenance
+2015 11 17 - 34      Alphavetist          Maintenance          3.7
 2015 11 16 - 19      Grot                 Mixing
-2015 11 15 - 27      Paradise             Update               1.2
+2015 11 15 - 27      Paradise             Maintenance          1.2
 2015 11 14 - 29      Hundred rabbits      Live
 2015 11 13 ! 29  475 Hundred rabbits      Event                Founded 100R
-2015 11 12 - 37      Oquonie              Refactoring
+2015 11 12 - 37      Oquonie              Maintenance
 2015 11 11 - 29      Hundred rabbits      Branding
-2015 11 10 - 37      Oquonie              Refactoring
+2015 11 10 - 37      Oquonie              Maintenance
 2015 11 09 - 37      Oquonie              Testing
 2015 11 08 - 37      Oquonie              Testing
-2015 11 07 - 32      Oquonie              Refactoring
+2015 11 07 - 32      Oquonie              Maintenance
 2015 11 06 - 39      Verreciel            Development
 2015 11 05 - 39      Verreciel            Development
-2015 11 04 - 39      The will the wisp    Refactoring
-2015 11 03 - 39      The will the wisp    Refactoring
+2015 11 04 - 39      The will the wisp    Maintenance
+2015 11 03 - 39      The will the wisp    Maintenance
 2015 11 02 - 26  472 Dictionarism         Design               Diarism
 2015 11 01
 2015 10 31 - 32      Mobile               Linguistics
@@ -553,14 +554,14 @@
 2015 10 12 - 32      Verreciel            Development
 2015 10 11 - 32      Verreciel            Development
 2015 10 10 - 34      Verreciel            Development
-2015 10 09 - 34      Paradise             Update               1.1
+2015 10 09 - 34      Paradise             Maintenance          1.1
 2015 10 08 - 36      Verreciel            Development
 2015 10 07 - 39      Verreciel            Development
 2015 10 06 - 36      Verreciel            Development
-2015 10 05 - 35      The will the wisp    Update               0.1
+2015 10 05 - 35      The will the wisp    Maintenance          0.1
 2015 10 04 - 25      Paradise             Design
 2015 10 03 - 19      The opal inquisitors Live                 Toy Company
-2015 10 02 - 26      Donsol               Update               1.6
+2015 10 02 - 26      Donsol               Maintenance          1.6
 2015 10 01 - 26      Paradise             Design
 2015 09 30 - 32      Verreciel            Tools
 2015 09 29 - 25  470 Verreciel            Design               Prototype
@@ -574,7 +575,7 @@
 2015 09 21 - 36      Verreciel            Development
 2015 09 20 - 36      Verreciel            Development
 2015 09 19 - 36      Verreciel            Development
-2015 09 18 - 32      Verreciel            Refactoring
+2015 09 18 - 32      Verreciel            Maintenance
 2015 09 17 - 19      The opal inquisitors Composition
 2015 09 16 - 19      The opal inquisitors Live                 AMP - Passwort, Mont
 2015 09 15 ! 29  469 The opal inquisitors Illustration         Ludivine's Banquet
@@ -601,10 +602,10 @@
 2015 08 25 - 24  455 Beauty               Illustration         Genoviral
 2015 08 24 - 24  454 Beauty               Illustration         Vatoxoinal
 2015 08 23 - 24  453 Beauty               Illustration         Hydreviral
-2015 08 22 - 27  452 Keyboard 468         Update               1.3
-2015 08 21 - 34      Paradise             Update               4.1
+2015 08 22 - 27  452 Keyboard 468         Maintenance          1.3
+2015 08 21 - 34      Paradise             Maintenance          4.1
 2015 08 20 - 27    2 Kaleidoscope         Illustration         Chrestasebeia
-2015 08 19 - 35      Desamber             Update               0.1
+2015 08 19 - 35      Desamber             Maintenance          0.1
 2015 08 18 - 25  448 Pino                 Photography
 2015 08 17 - 25  447 Pino                 Photography
 2015 08 16 - 25  446 Pino                 Photography
@@ -615,21 +616,21 @@
 2015 08 11 - 25  441 Pino                 Photography
 2015 08 10 - 25  440 Pino                 Photography
 2015 08 09 ! 25  439 Pino                 Photography
-2015 08 08 - 26      Dew                  Update               1.5
-2015 08 07 - 37      Eakout               Update               1.0
+2015 08 08 - 26      Dew                  Maintenance          1.5
+2015 08 07 - 37      Eakout               Maintenance          1.0
 2015 08 06 - 37  438 Eakout               Release              Prototype
 2015 08 05 ! 26  437 Infrared             Photography          Habitat 67
 2015 08 04 - 35  435 Pino                 Writing              Living aboard
-2015 08 03 - 36      Advent v             Update               0.1
-2015 08 02 - 36      Paradise             Update               1.0
+2015 08 03 - 36      Advent v             Maintenance          0.1
+2015 08 02 - 36      Paradise             Maintenance          1.0
 2015 08 01 ! 26  436 Infrared             Photography          Graveyard
-2015 07 31 - 36      Paradise             Update               4.0
-2015 07 30 - 25      Donsol               Update               1.5
-2015 07 29 - 14      Trapezoid            Update               Reissue
+2015 07 31 - 36      Paradise             Maintenance          4.0
+2015 07 30 - 25      Donsol               Maintenance          1.5
+2015 07 29 - 14      Trapezoid            Maintenance          Reissue
 2015 07 28 ! 19  434 Trapezoid            Release              Release
 2015 07 27 - 39      Paradise             Development
 2015 07 26 - 39      Paradise             Tools
-2015 07 25 - 39      Paradise             Refactoring
+2015 07 25 - 39      Paradise             Maintenance
 2015 07 24 - 39      Paradise             Development
 2015 07 23 - 26      Paradise             Design
 2015 07 22 - 19      Trapezoid            Live
@@ -651,18 +652,18 @@
 2015 07 06 - 19      Trapezoid            Rehearsal
 2015 07 05 - 19      Trapezoid            Rehearsal
 2015 07 04 - 35      Verreciel            Prototype
-2015 07 03 - 31      Hiversaires          Update               3.4
+2015 07 03 - 31      Hiversaires          Maintenance          3.4
 2015 07 02 - 19      Trapezoid            Composition
-2015 07 01 - 35      Ruby Riding Hood     Update               0.1
+2015 07 01 - 35      Ruby Riding Hood     Maintenance          0.1
 2015 06 30
 2015 06 29
 2015 06 28
 2015 06 27 - 35      The will the wisp    Development
 2015 06 26 - 35      The will the wisp    Development
 2015 06 25 - 35      The will the wisp    Development
-2015 06 24 - 35      Paradise             Update               3.9
+2015 06 24 - 35      Paradise             Maintenance          3.9
 2015 06 23 - 19      Trapezoid            Composition
-2015 06 22 ! 34  297 Vocavularist         Update               2.5
+2015 06 22 ! 34  297 Vocavularist         Maintenance          2.5
 2015 06 21 - 28      Verreciel            Design
 2015 06 20 - 26      Verreciel            Design
 2015 06 19 - 24      Verreciel            Design
@@ -673,11 +674,11 @@
 2015 06 14 - 35      Advent v             Development
 2015 06 13 - 35      The will the wisp    Development
 2015 06 12 ! 35  170 The will the wisp    Tools                Twitter Bot Birth
-2015 06 11 - 26      Rafinograde          Update               1.3
+2015 06 11 - 26      Rafinograde          Maintenance          1.3
 2015 06 10 - 36  142 Ruby Riding Hood     Writing              Graphic
 2015 06 09 - 36      Russian              Linguistics
 2015 06 08 - 36      Russian              Linguistics
-2015 06 07 - 31      Rafinograde          Update               1.4
+2015 06 07 - 31      Rafinograde          Maintenance          1.4
 2015 06 06 - 36      Horaire              Tools
 2015 06 05 - 36      Paradise             Development
 2015 06 04 - 25      Beldam records       Design
@@ -689,15 +690,15 @@
 2015 05 29 - 36      Rafinograde          Tools
 2015 05 28 - 36      Rafinograde          Tools
 2015 05 27 - 35      Russian              Linguistics
-2015 05 26 - 32      Entaloneralie        Update               2.3
-2015 05 25 - 36      Hiversaires          Update               3.3
-2015 05 24 - 36      Donsol               Update               1.4
-2015 05 23 - 37      Dew                  Update               1.4
-2015 05 22 - 37      Vocavularist         Update               2.4
+2015 05 26 - 32      Entaloneralie        Maintenance          2.3
+2015 05 25 - 36      Hiversaires          Maintenance          3.3
+2015 05 24 - 36      Donsol               Maintenance          1.4
+2015 05 23 - 37      Dew                  Maintenance          1.4
+2015 05 22 - 37      Vocavularist         Maintenance          2.4
 2015 05 21 - 19  430 Eschatolor           Release              Tevelision
-2015 05 20 - 32      Bifurcan             Update               1.4
-2015 05 19 - 32      Alphavetist          Update               3.6
-2015 05 18 - 32      Ledoliel             Update               2.3
+2015 05 20 - 32      Bifurcan             Maintenance          1.4
+2015 05 19 - 32      Alphavetist          Maintenance          3.6
+2015 05 18 - 32      Ledoliel             Maintenance          2.3
 2015 05 17 - 25  480 Netherlands          Photography          Amsterdam
 2015 05 16 ! 25  429 Netherlands          Photography          Utrecht
 2015 05 15 ! 25  428 Netherlands          Photography          Amsterdam
@@ -711,8 +712,8 @@
 2015 05 07 ! 27  394 Time alloy           Illustration         Vertaline
 2015 05 06 - 27  393 Time alloy           Illustration         Opaline
 2015 05 05 - 27  392 Time alloy           Illustration         Slyverline
-2015 05 04 - 35      Bifurcan             Update               1.4
-2015 05 03 - 35      Alphavetist          Update               3.5
+2015 05 04 - 35      Bifurcan             Maintenance          1.4
+2015 05 03 - 35      Alphavetist          Maintenance          3.5
 2015 05 02 - 27  426 Astratas             Illustration         Lines C
 2015 05 01 ! 26  159 Extended sleep       Release              Album Cover
 2015 04 30 - 17      Gaii                 Composition
@@ -740,16 +741,16 @@
 2015 04 08 - 38      Ludivine             AI
 2015 04 07 - 38      Ludivine             AI
 2015 04 06 - 17      Gaii                 Composition
-2015 04 05 - 36      Donsol               Update               1.3
+2015 04 05 - 36      Donsol               Maintenance          1.3
 2015 04 04 - 38      Mobile               Development
 2015 04 03 - 36      Mobile               Development
-2015 04 02 ! 36  391 Donsol               Update               1.2
+2015 04 02 ! 36  391 Donsol               Maintenance          1.2
 2015 04 01 - 36      Donsol               Development
 2015 03 31 - 38      Ludivine             Analytics
 2015 03 30 - 38      Ludivine             Development
-2015 03 29 - 35      Paradise             Refactoring
+2015 03 29 - 35      Paradise             Maintenance
 2015 03 28 - 35      Paradise             AI
-2015 03 27 - 35      Paradise             Refactoring
+2015 03 27 - 35      Paradise             Maintenance
 2015 03 26 - 17      Eschatolor           Composition
 2015 03 25 - 17      Eschatolor           Composition
 2015 03 24 - 35      Paradise             Development
@@ -760,7 +761,7 @@
 2015 03 19 - 29      Physical             Prototype
 2015 03 18 - 36      Paradise             Update
 2015 03 17 - 36      Neon hermetism       Writing
-2015 03 16 - 25      Alphavetist          Update               3.4
+2015 03 16 - 25      Alphavetist          Maintenance          3.4
 2015 03 15 - 36      Neon hermetism       Writing
 2015 03 14 - 29  378 Donsol guide         Design               Guide
 2015 03 13 - 25  362 Lard shader          Illustration         Study B
@@ -770,7 +771,7 @@
 2015 03 09 - 36      Donsol               Development          0
 2015 03 08 - 35      Donsol               Development          0
 2015 03 07 - 35  369 Donsol               Design               Prototype
-2015 03 06 - 35      Alphavetist          Update               3.3
+2015 03 06 - 35      Alphavetist          Maintenance          3.3
 2015 03 05 - 35      Donsol               Design
 2015 03 04 - 26  368 Oquonie              Live                 IGF2015
 2015 03 03 - 35      Donsol               Design
@@ -784,47 +785,47 @@
 2015 02 23 ! 25  311 Hypervoid            Illustration         Dischromatic
 2015 02 22 - 29      Nereid               Modeling
 2015 02 21 - 24      Nereid               Modeling
-2015 02 20 - 35      Paradise             Update               Presskit
+2015 02 20 - 35      Paradise             Maintenance          Presskit
 2015 02 19 - 25      Nereid               Modeling
 2015 02 18 - 25      Nereid               Modeling
 2015 02 17 - 24      Nereid               Modeling
-2015 02 16 - 32      Oquonie              Refactoring
-2015 02 15 - 35      Oquonie              Refactoring
-2015 02 14 - 32      Oquonie              Refactoring
+2015 02 16 - 32      Oquonie              Maintenance
+2015 02 15 - 35      Oquonie              Maintenance
+2015 02 14 - 32      Oquonie              Maintenance
 2015 02 13 - 16      Eschatolor           Composition
-2015 02 12 - 34      Ledoliel             Update               2.2
+2015 02 12 - 34      Ledoliel             Maintenance          2.2
 2015 02 11 - 18      Eschatolor           Composition
-2015 02 10 - 35      Oquonie              Refactoring
-2015 02 09 - 37      Oquonie              Refactoring
-2015 02 08 - 37      Oquonie              Refactoring
-2015 02 07 - 37      Oquonie              Refactoring
-2015 02 06 - 37      Oquonie              Refactoring
+2015 02 10 - 35      Oquonie              Maintenance
+2015 02 09 - 37      Oquonie              Maintenance
+2015 02 08 - 37      Oquonie              Maintenance
+2015 02 07 - 37      Oquonie              Maintenance
+2015 02 06 - 37      Oquonie              Maintenance
 2015 02 05 - 39      Horaire              Documentation
 2015 02 04 - 16      Gaii                 Composition
 2015 02 03 - 26  306 Hypervoid            Illustration         Nulloid
-2015 02 02 - 37      Oquonie              Refactoring
-2015 02 01 - 37      Oquonie              Refactoring
-2015 01 31 - 37      Oquonie              Refactoring
-2015 01 30 - 37      Oquonie              Refactoring
-2015 01 29 - 37      Oquonie              Refactoring
-2015 01 28 - 37      Oquonie              Refactoring
-2015 01 27 - 37      Oquonie              Refactoring
-2015 01 26 ! 35      Alphavetist          Update               3.2
-2015 01 25 ! 35      Paradise             Update               0.9
-2015 01 24 ! 35  295 Alphavetist          Update               3.0
-2015 01 23 - 33      Dew                  Update               1.3
-2015 01 22 - 33      Bifurcan             Update               1.3
-2015 01 21 - 37  294 Ledoliel             Update               2.1
-2015 01 20 - 37      Paradise             Update               Issue Tracker
-2015 01 19 ! 37  292 Oquonie              Update               3.0
-2015 01 18 - 35      Hiversaires          Update               3.2
-2015 01 17 - 35      Noirca               Update               4.0
-2015 01 16 - 35      Dew                  Update               1.1
+2015 02 02 - 37      Oquonie              Maintenance
+2015 02 01 - 37      Oquonie              Maintenance
+2015 01 31 - 37      Oquonie              Maintenance
+2015 01 30 - 37      Oquonie              Maintenance
+2015 01 29 - 37      Oquonie              Maintenance
+2015 01 28 - 37      Oquonie              Maintenance
+2015 01 27 - 37      Oquonie              Maintenance
+2015 01 26 ! 35      Alphavetist          Maintenance          3.2
+2015 01 25 ! 35      Paradise             Maintenance          0.9
+2015 01 24 ! 35  295 Alphavetist          Maintenance          3.0
+2015 01 23 - 33      Dew                  Maintenance          1.3
+2015 01 22 - 33      Bifurcan             Maintenance          1.3
+2015 01 21 - 37  294 Ledoliel             Maintenance          2.1
+2015 01 20 - 37      Paradise             Maintenance          Issue Tracker
+2015 01 19 ! 37  292 Oquonie              Maintenance          3.0
+2015 01 18 - 35      Hiversaires          Maintenance          3.2
+2015 01 17 - 35      Noirca               Maintenance          4.0
+2015 01 16 - 35      Dew                  Maintenance          1.1
 2015 01 15 ! 18  199 Ramiel               Release              Villa Moirai
 2015 01 14 - 18      Ramiel               Composition
 2015 01 13 - 18      Ramiel               Composition
 2015 01 12 - 18      Ramiel               Composition
-2015 01 11 - 35      Keyboard 468         Update               1.2
+2015 01 11 - 35      Keyboard 468         Maintenance          1.2
 2015 01 10 - 18  272 Miniscopie           Release              Reine - Miniscopie
 2015 01 09 - 18      Miniscopie           Composition
 2015 01 08 - 18      Miniscopie           Composition
@@ -833,8 +834,8 @@
 2015 01 05 - 18      Miniscopie           Composition
 2015 01 04 - 18      Miniscopie           Composition
 2015 01 03 - 18      Miniscopie           Composition
-2015 01 02 - 35      Noirca               Update               3.5
-2015 01 01 - 35      Entaloneralie        Update               2.1
+2015 01 02 - 35      Noirca               Maintenance          3.5
+2015 01 01 - 35      Entaloneralie        Maintenance          2.1
 2014 12 31 ! 17  282 Beldam records       Branding             Founded Beldam
 2014 12 30 - 35      Noirca               Tools
 2014 12 29 - 34  260 Keyboard 468         Design               Untitled
@@ -848,14 +849,14 @@
 2014 12 21 - 35      Mobile               Prototype
 2014 12 20 - 34      Dew                  Tools
 2014 12 19 - 34      Paradise             Development
-2014 12 18 - 37      Paradise             Update               Automate
+2014 12 18 - 37      Paradise             Maintenance          Automate
 2014 12 17 - 37  259 Dew                  Release              Release
 2014 12 16 - 37      Dew                  Development
 2014 12 15 - 25  291 Rafinograde          Release              Release
 2014 12 14 - 37  290 Trimetrique          Development          Release
 2014 12 13 - 37      Rafinograde          Development
 2014 12 12 ! 34  289 Notes                Writing              The sartre mechanism
-2014 12 11 - 35      Noirca               Update               3.4
+2014 12 11 - 35      Noirca               Maintenance          3.4
 2014 12 10 - 17  288 Supervisitor         Live                 Dodecae               It was performed live at the {{Dodecae}} event in Toronto on December 6th.
 2014 12 09 - 17  287 Supervisitor         Live
 2014 12 08 ! 17  286 Supervisitor         Release              Release
@@ -877,7 +878,7 @@
 2014 11 22 - 28  165 The sartre mechanism Illustration         Ultravoid
 2014 11 21 - 35      Paradise             Update
 2014 11 20 - 34      Paradise             Update
-2014 11 19 - 39  424 Paradise             Update               The Techgnostic Orde
+2014 11 19 - 39  424 Paradise             Maintenance          The Techgnostic Orde
 2014 11 18 - 17      Supervisitor         Composition
 2014 11 17 - 17      Supervisitor         Composition
 2014 11 16 - 17      Supervisitor         Composition
@@ -887,7 +888,7 @@
 2014 11 12 - 39      Horaire              Update
 2014 11 11 - 39      Paradise             Update
 2014 11 10 - 39      Paradise             Update
-2014 11 09 - 35      Paradise             Update               The Negative Void
+2014 11 09 - 35      Paradise             Maintenance          The Negative Void
 2014 11 08 - 39      Paradise             Update
 2014 11 07 - 17      Supervisitor         Composition
 2014 11 06 - 17      Supervisitor         Composition
@@ -912,7 +913,7 @@
 2014 10 18 ! 39  273 Telekinesis          Live                 Leap
 2014 10 17 - 19      Ten axitecture       Live                 8Static
 2014 10 16 - 39      Horaire              Development
-2014 10 15 - 35      Noirca               Update               3.2
+2014 10 15 - 35      Noirca               Maintenance          3.2
 2014 10 14 - 29      Modernista           Design               Expo
 2014 10 13 ! 29  399 Modernista           Design               05
 2014 10 12 - 29  398 Modernista           Design               04
@@ -932,22 +933,22 @@
 2014 09 28 ! 25  262 Brane                Illustration         IIII
 2014 09 27 - 17      Ten axitecture       Composition
 2014 09 26 - 17      Ten axitecture       Composition
-2014 09 25 - 35      Noirca               Update               3.1
+2014 09 25 - 35      Noirca               Maintenance          3.1
 2014 09 24 - 34      Verreciel            Prototype
 2014 09 23 - 34      Verreciel            Prototype
-2014 09 22 - 35      Noirca               Update               3.0
+2014 09 22 - 35      Noirca               Maintenance          3.0
 2014 09 21 - 19      Ten axitecture                            Band Saga
 2014 09 20 ! 25  261 Brane                Illustration         III
 2014 09 19 ! 25      Polygonoscopy        Illustration
 2014 09 18 ! 25      Polygonoscopy        Illustration
 2014 09 17 ! 25      Polygonoscopy        Illustration
 2014 09 16 ! 25  250 Serventines          Modeling             Jenen
-2014 09 15 - 35      Paradise             Update               Inner Haven
+2014 09 15 - 35      Paradise             Maintenance          Inner Haven
 2014 09 14
 2014 09 13
 2014 09 12
 2014 09 11 ! 00      Japan                Travel               Tokyo
-2014 09 10 - 35      Horaire              Update               Triste Le Roy
+2014 09 10 - 35      Horaire              Maintenance          Triste Le Roy
 2014 09 09 - 17  264 Ten axitecture       Composition          Ten Axitecture
 2014 09 08 - 29  249 Serventines          Modeling             Undernest
 2014 09 07 - 29  256 Serventines          Modeling             Qairo
@@ -964,10 +965,10 @@
 2014 08 27 - 19      Damoiseau canalx     Composition
 2014 08 26 - 16      Damoiseau canalx     Composition
 2014 08 25 - 16      Damoiseau canalx     Composition
-2014 08 24 ! 29  244 Entaloneralie        Update               2.0
+2014 08 24 ! 29  244 Entaloneralie        Maintenance          2.0
 2014 08 23 - 29      Alphavetist
-2014 08 22 ! 29  237 Bifurcan             Update               1.2
-2014 08 21 - 38  233 Ledoliel             Update               2.0
+2014 08 22 ! 29  237 Bifurcan             Maintenance          1.2
+2014 08 21 - 38  233 Ledoliel             Maintenance          2.0
 2014 08 20 - 26      Kaleidoscope         Illustration         Nexted                Nest of the {{Polygonoscopal|Polygonoscopy}} Echoes.
 2014 08 19 ! 26  156 Kaleidoscope         Illustration         Ode, The Perfect Bei
 2014 08 18 - 35      Lietal               Linguistics
@@ -975,7 +976,7 @@
 2014 08 16 - 26      Rafinograde          Development
 2014 08 15 - 26      Rafinograde          Development
 2014 08 14 - 26      Rafinograde          Development
-2014 08 13 - 35      Noirca               Update               2.0
+2014 08 13 - 35      Noirca               Maintenance          2.0
 2014 08 12 - 27  155 Kaleidoscope         Illustration         Lineggen
 2014 08 11 - 35      Advent v             Update
 2014 08 10 - 27  151 Kaleidoscope         Illustration         Diagolite I
@@ -985,15 +986,15 @@
 2014 08 06 - 25  139 Advent v             Branding             Release
 2014 08 05 - 29      Advent v             Live
 2014 08 04 - 38      Advent v             Development
-2014 08 03 - 35      Paradise             Update               Quiet Hell
+2014 08 03 - 35      Paradise             Maintenance          Quiet Hell
 2014 08 02 - 38      Advent v             Development
 2014 08 01 - 38      Advent v             Development
 2014 07 31
 2014 07 30
-2014 07 29 - 16  129 Ledoliel             Update               1.2
-2014 07 28 - 35  128 Bifurcan             Update               Screensaver
-2014 07 27 - 38      Paradise             Update               Ten Axis
-2014 07 26 - 31      Paradise             Update               Inner Haven
+2014 07 29 - 16  129 Ledoliel             Maintenance          1.2
+2014 07 28 - 35  128 Bifurcan             Maintenance          Screensaver
+2014 07 27 - 38      Paradise             Maintenance          Ten Axis
+2014 07 26 - 31      Paradise             Maintenance          Inner Haven
 2014 07 25
 2014 07 24
 2014 07 23
@@ -1008,33 +1009,33 @@
 2014 07 14 - 35      Paradise             Analytics
 2014 07 13 - 35      Paradise             Analytics
 2014 07 12 - 35      Paradise             Update
-2014 07 11 - 35      Paradise             Update               Analytics
-2014 07 10 - 35      Oquonie              Update               2.2
-2014 07 09 - 35      Vocavularist         Update               2.2
-2014 07 08 - 35      Alphavetist          Update               2.2
-2014 07 07 - 31      Alphavetist          Update               2.1
+2014 07 11 - 35      Paradise             Maintenance          Analytics
+2014 07 10 - 35      Oquonie              Maintenance          2.2
+2014 07 09 - 35      Vocavularist         Maintenance          2.2
+2014 07 08 - 35      Alphavetist          Maintenance          2.2
+2014 07 07 - 31      Alphavetist          Maintenance          2.1
 2014 07 06 - 35      Paradise             Tools
 2014 07 05 - 25      Horaire              Update
 2014 07 04 - 25      Horaire              Update
 2014 07 03 - 25      Horaire              Design
-2014 07 02 - 25      Ledoliel             Update               1.1
-2014 07 01 - 29      Bifurcan             Update               1.1
+2014 07 02 - 25      Ledoliel             Maintenance          1.1
+2014 07 01 - 29      Bifurcan             Maintenance          1.1
 2014 06 30 - 39      Ledoliel             Design
-2014 06 29 - 39  123 Noirca               Update               1.1
+2014 06 29 - 39  123 Noirca               Maintenance          1.1
 2014 06 28 - 39      Noirca               Release              Release
 2014 06 27 ! 39  124 Noirca                                    Prototype
 2014 06 26 - 29  122 Shorthand            Writing              Cover
 2014 06 25 - 32      Mute                 Update
 2014 06 24 - 35  121 Alphavetist          Release              Release
-2014 06 23 - 28  120 Vocavularist         Update               2.0
+2014 06 23 - 28  120 Vocavularist         Maintenance          2.0
 2014 06 22 - 38      Mute                 Update
 2014 06 21 - 38      Mute                 Update
-2014 06 20 - 19  119 Bifurcan             Update               Update
+2014 06 20 - 19  119 Bifurcan             Maintenance          Update
 2014 06 19 - 37      Ledoliel             Development
 2014 06 18 - 29      Ledoliel             Design
 2014 06 17 - 29      Ledoliel             Design
 2014 06 16 - 29      Ledoliel             Design
-2014 06 15 ! 35  293 Oquonie              Update               Nastazie
+2014 06 15 ! 35  293 Oquonie              Maintenance          Nastazie
 2014 06 14 - 35      Oquonie              Tools
 2014 06 13 - 35      Paradise
 2014 06 12 - 35      Ledoliel
@@ -1090,7 +1091,7 @@
 2014 04 23 - 35      Paradise             Update
 2014 04 22 - 35      Paradise             Update
 2014 04 21 - 35      Paradise             Update
-2014 04 20 - 35      Paradise             Refactoring
+2014 04 20 - 35      Paradise             Maintenance
 2014 04 19 - 25      Kaleidoscope         Illustration
 2014 04 18 - 37      Paradise             Update
 2014 04 17
@@ -1269,14 +1270,14 @@
 2013 10 26 - 19      Known magye          Composition
 2013 10 25 - 36      Sketchbook           Prototype
 2013 10 24 - 34      Paradise             Development
-2013 10 23 - 34      Paradise             Refactoring
+2013 10 23 - 34      Paradise             Maintenance
 2013 10 22 - 34      Horaire              Development
 2013 10 21 - 36      Lietal               Documentation
-2013 10 20 - 36      Paradise             Refactoring
-2013 10 19 - 36      Paradise             Refactoring
+2013 10 20 - 36      Paradise             Maintenance
+2013 10 19 - 36      Paradise             Maintenance
 2013 10 18 - 27      Oquonie              Design
-2013 10 17 - 39      Paradise             Refactoring
-2013 10 16 - 39      Paradise             Refactoring
+2013 10 17 - 39      Paradise             Maintenance
+2013 10 16 - 39      Paradise             Maintenance
 2013 10 15 - 37      Paradise             Development
 2013 10 14 - 37      Oquonie              Development
 2013 10 13 - 37      Oquonie              Design
@@ -1288,15 +1289,15 @@
 2013 10 07 - 37      Oquonie              Development
 2013 10 06 - 26      Oquonie              Design
 2013 10 05 - 26  361 Oquonie              Design               Contest
-2013 10 04 - 36  360 Dictionaery          Refactoring          iOS7 Patch
-2013 10 03 - 36      Paradise             Refactoring
+2013 10 04 - 36  360 Dictionaery          Maintenance          iOS7 Patch
+2013 10 03 - 36      Paradise             Maintenance
 2013 10 02 ! 19  359 Telekinetic          Release              Album Release
 2013 10 01 - 29      Telekinetic          Illustration
 2013 09 30 - 19      Telekinetic          Live                 Square Sound - Tokyo
 2013 09 29 - 29      Telekinetic          Illustration
-2013 09 28 - 36      Paradise             Refactoring
+2013 09 28 - 36      Paradise             Maintenance
 2013 09 27 - 15      Telekinetic          Composition
-2013 09 26 - 36      Paradise             Refactoring
+2013 09 26 - 36      Paradise             Maintenance
 2013 09 25 - 36      Paradise             Development
 2013 09 24 - 36      Paradise             Tools
 2013 09 23 - 18      Telekinetic          Composition
@@ -1372,7 +1373,7 @@
 2013 07 15 - 25  344 Japan                Photography          Climbing Mt. Fuji Pa
 2013 07 14 - 25  343 Japan                Photography          Climbing Mt. Fuji Pa
 2013 07 13 - 25  342 Japan                Photography          Climbing Mt. Fuji Pa
-2013 07 12 - 34      Dictionaery          Refactoring
+2013 07 12 - 34      Dictionaery          Maintenance
 2013 07 11 - 25      Infrared             Photography
 2013 07 10 - 29  341 Typography           Typography           Septambres Fune
 2013 07 09 - 39      Typography           Typography
@@ -1380,7 +1381,7 @@
 2013 07 07 - 25      Typography           Typography
 2013 07 06 - 25      Paradise             Analytics
 2013 07 05 - 25      Paradise             Analytics
-2013 07 04 - 36      Paradise             Refactoring
+2013 07 04 - 36      Paradise             Maintenance
 2013 07 03 - 19      Paradise             Composition          Soundtrack Release
 2013 07 02 - 25      Infrared             Photography
 2013 07 01 - 25      Infrared             Photography
@@ -1406,8 +1407,8 @@
 2013 06 11 - 19      Dei dain             Composition
 2013 06 10 - 19      Dei dain             Composition
 2013 06 09 ! 29  339 Macro                Photography          Macro DIY iPhone      Built a small iPhone macro lens from an old DVD drive.
-2013 06 08 - 35      Hiversaires          Refactoring
-2013 06 07 - 35      Hiversaires          Refactoring
+2013 06 08 - 35      Hiversaires          Maintenance
+2013 06 07 - 35      Hiversaires          Maintenance
 2013 06 06 - 35      Paradise             Design
 2013 06 05 - 35      Paradise             Tools
 2013 06 04 - 35      Paradise             Design
@@ -1454,7 +1455,7 @@
 2013 04 24 - 32      Melady antres        Prototype
 2013 04 23 - 19      Remix
 2013 04 22 - 29      Waiting for horus    Testing
-2013 04 21 - 38      Hiversaires          Refactoring
+2013 04 21 - 38      Hiversaires          Maintenance
 2013 04 20 - 19      Hiversaires          Composition          Soundtrack Release
 2013 04 19
 2013 04 18 - 25      Melady antres
@@ -1467,13 +1468,13 @@
 2013 04 11 - 25      Melady antres        Prototype
 2013 04 10 - 25      Paradise             Development
 2013 04 09 - 36      Melady antres
-2013 04 08 - 35      Horaire              Refactoring
+2013 04 08 - 35      Horaire              Maintenance
 2013 04 07 - 27      Hiversaires          Release              Release
 2013 04 06 - 35      Hiversaires          Prototype
 2013 04 05 - 29  216 Hiversaires          Live                 Picotachi
 2013 04 04
 2013 04 03 - 35      Paradise             Development
-2013 04 02 - 35      Paradise             Refactoring
+2013 04 02 - 35      Paradise             Maintenance
 2013 04 01 - 35      Paradise             Development
 2013 03 31 - 35      Hiversaires          Prototype
 2013 03 30 - 35      Hiversaires          Prototype
@@ -1526,7 +1527,7 @@
 2013 02 11 - 28  180 Hiversaires          Design               Devlog 7
 2013 02 10 - 39  179 Hiversaires          Design               Devlog 6
 2013 02 09 - 28  178 Hiversaires          Design               Devlog 5
-2013 02 08 - 34      Paradise             Refactoring
+2013 02 08 - 34      Paradise             Maintenance
 2013 02 07 - 27  177 Hiversaires          Prototype            Devlog 4
 2013 02 06 - 38  176 Hiversaires          Prototype            Devlog 3
 2013 02 05 - 35  175 Hiversaires          Prototype            Devlog 2
@@ -1537,7 +1538,7 @@
 2013 01 31 - 25  243 Devine lu Linvega    Photography          Osaka Tempers
 2013 01 30 - 29  172 Wallpaper            Prototype            Uzumaki
 2013 01 29 - 27      Wallpaper            Illustration
-2013 01 28 - 35      Paradise             Refactoring
+2013 01 28 - 35      Paradise             Maintenance
 2013 01 27 - 17  167 Nor let the fools    Release              Nor let the fools
 2013 01 26 - 19  164 Ehrivevnv Studies    Live                 Cheapbeats - Tokyo,
 2013 01 25 - 16      Nor let the fools    Composition
@@ -1748,8 +1749,8 @@
 2012 07 04 - 19      To The Aeons Hell    Composition
 2012 07 03 - 39      Paradise             Design
 2012 07 02 - 38      Paradise             Tools
-2012 07 01 - 35      Pico battle          Refactoring          Pico Battle Update
-2012 06 30
+2012 07 01 - 35      Pico battle          Maintenance          Pico Battle Update
+2012 06 30                                
 2012 06 29
 2012 06 28 - 29  160 Pico battle          Design               Pico Battle
 2012 06 27
@@ -1897,7 +1898,7 @@
 2012 02 06 - 15      Es gulf sunflowers   Composition
 2012 02 05 - 15      Es gulf sunflowers   Composition
 2012 02 04 - 15      Es gulf sunflowers   Composition
-2012 02 03 - 25      Volkenessen          Refactoring
+2012 02 03 - 25      Volkenessen          Maintenance
 2012 02 02 - 35      Paradise             Design
 2012 02 01
 2012 01 31
