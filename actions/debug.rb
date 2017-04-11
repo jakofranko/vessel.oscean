@@ -27,6 +27,7 @@ class ActionDebug
     text += empty_logs
     text += missing_terms
     text += broken_links
+    text += misformatted
     text += "\n\n"
 
     return text
@@ -147,6 +148,25 @@ class ActionDebug
 
     a.each do |log|
       text += "- #{log["DATE"]}\n"
+    end
+
+    return text
+
+  end
+
+  def misformatted
+
+    h = {}
+
+    @lexicon.render.each do |name,hash|
+      if !hash["BREF"] then h[name] = "Missing BREF" end
+      if hash["BREF"].to_s.length > 150 then h[name] = "BREF is too long(#{hash["BREF"].to_s.length} characters)" end
+    end
+
+    text = "MISFORMATTED #{h.length}\n"
+
+    h.each do |name,issue|
+      text += " #{name}: #{issue}\n"
     end
 
     return text

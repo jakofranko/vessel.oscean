@@ -317,11 +317,9 @@ DOWNTEMPERATURE
 
 DRYPOINT
   UNDE : Desktop
-  BREF : {{Drypoint is a very hard platformer game for keyboard cowboys. See if you can get to the blue door. Read about Drypoint on the {{TIGSource forum tread|http://forums.tigsource.com/index.php?topic=8241}}.
+  BREF : {{Drypoint}} is a very hard platformer game for keyboard cowboys. 
   LONG
-    - There are a few different paths to get to the end.
-    - The game is based on complex jumping techniques.
-    - This is {*nearly*} impossible.
+    & See if you can get to the blue door. Read about Drypoint on the {{TIGSource forum tread|http://forums.tigsource.com/index.php?topic=8241}}.
 
 EFLI
   UNDE : Eschatolor
@@ -783,7 +781,7 @@ OQUONIE
   BREF : {{Oquonie}} is a textless puzzle game created in collaboration with illustrator {{Rekka Bellum|http://kokorobot.ca}}.
   LONG
     & You will not be alone, your incarnations will have the help of {_bizaroid_} characters speaking {{an obscure language|Camilare}}.
-    & Oquonie features an original {{Aliceffekt}} soundtrack that is now available on {{Bandcamp|https://aliceffekt.bandcamp.com/album/short-stories-in-impossible-spaces}}. The game was best described as {_{{Animal Crossing in a K-Hole|http://killscreendaily.com/articles/oquonie-maze-worth-entering/}}_}.
+    & Oquonie features an original {{Aliceffekt}} soundtrack and was best described as {_{{Animal Crossing in a K-Hole|http://killscreendaily.com/articles/oquonie-maze-worth-entering/}}_}.
     ? Find your way across an {{intertwined|Oquonie Guide}} megastructure.
   LINK
     ITCH : https://hundredrabbits.itch.io/oquonie
@@ -1230,6 +1228,7 @@ PARADICHLORISSE
 
 DINAISTH
   UNDE : Neauismetica
+  TYPE : Portal
   BREF : {{Dinaisth}} is both the name of a {_marble_}, and that of the continent arbouring the Offices of the {_Immortal Birds_} in the {{Neauismetica}}.
   FLAG : Todo
 
@@ -1250,12 +1249,16 @@ LAEISTH
 
 VETETRANDES
   UNDE : Dinaisth
-  BREF : The observable portion of the island appears as broken structures remains of the city that once stood there, called {_Yajnev_}. As you would approach the epicenter of the bound city, time is unmoving. It is said that, at its center, one can find the corpse of an ancient {_Immortal Birds_}, who's head was filled with void and so it is believed that the Neauismetican universe exists within its mind and that the space within its skull is the only true dimension.
+  BREF : The observable portion of the island appears as broken structures remains of the city that once stood there, called {_Yajnev_}. 
+  LONG
+    & As you would approach the epicenter of the bound city, time is unmoving. It is said that, at its center, one can find the corpse of an ancient {_Immortal Birds_}, who's head was filled with void and so it is believed that the Neauismetican universe exists within its mind and that the space within its skull is the only true dimension.
   FLAG : Todo
 
 DUOMO
   UNDE : Dinaisth
-  BREF : The {{Duomo}} plateau rises far above the lightest atmosphere of Dinaisth. Various types of plants manage to emerge from the frozen grey soil, a similar soil is found around of {{Paradichlorisse}} suggesting that the soil is in fact ancient organic matter.
+  BREF : The {{Duomo}} plateau rises far above the lightest atmosphere of Dinaisth. 
+  LONG
+    & Various types of plants manage to emerge from the frozen grey soil, a similar soil is found around of {{Paradichlorisse}} suggesting that the soil is in fact ancient organic matter.
   FLAG : Todo
 
 Whiinders
@@ -1514,13 +1517,13 @@ MAXIMALISTS
 
 NOMADS
   UNDE : Obliques
-  BREF : The following thoughts are reflexions on travel, and the dream of a nomadic life, compiled after a year of living on a sailboat along the Pacific coast.
+  BREF : Reflexions on travel, and the dream of a nomadic life.
   TYPE : Memory
   LINK
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/nomads.mh
 
 RATIONALITY
-  UNDE : Gamme
+  UNDE : Obliques
   BREF : A list of compiled falacies, effects and biases.
   LONG
     & The list was compiled from {{LessWrong|https://wiki.lesswrong.com/wiki/Less_Wrong_Canon_on_Rationality}} as well as personal notes, collected from the Philosopher's Toolkit.
@@ -1534,17 +1537,17 @@ GAMME
   UNDE : Research
   BREF : {{Gamme}} is an ecosystem of tools and systems developed to serve the {{Obliques}}.
   LONG
-    & Any act that can defend its acceleration of art and science is deemed lawful. This list contains the current tools and planned projects.
-    - Calendar System, {{Desamber}}
-    - Time System, {{Clock}}
+    & Any act that can defend its acceleration of art and science is deemed lawful. 
+    * Projects
+    & This list contains the current tools and planned projects.
+    - Calendar System, {{Desamber}}/{{Clock}}
     - Writing system, {{Shorthand}}
     - Syntetic Language, {{Lietal}}
     - Time Tracking, {{Horaire}}
-    - Server Tool, {{Nataniev}}
     - Graphic Tool, {{Ronin}}
+    - Operating System, {{Nataniev}}
     - Programming Language
     - Compostion Tool
-    - Operating System
 
 RONIN
   UNDE : Gamme
@@ -1563,14 +1566,13 @@ RONIN
 
 NATANIEV
   UNDE : Gamme
-  BREF : {{Nataniev}} is a development engine built within a MUD environment. 
+  BREF : {{Nataniev}} is a tool platform built within a MUD environment. 
   LONG
     & Initiated in 2011, this custom engine includes a CLI, formerly known as {_Paradise_}, two different flat-files database parsers and its own unique APIs syntax. It serves this website, {{Hundred Rabbits}}, {{Grimgrains}}, as well as {{Twitter Bots|Automatons}}.
     & Single scripts and repositories, known as vessels and instances, exist as locations in this {*Ecosystem*} and can be visited through the CLI. For example, each Automaton exist as a character that can be found within Paradise; this page exist as a page in a book, in a library that can also be entered and explored.
     ? Deep within this virtual structure, sleeps a small office - and in it a desk, on which rests a book that translates Russian words into English.
-    & {{Horaire}} is a logbook that holds {_daily creative output entries_}, logged for each day since April 2006. This rigid lifestyle expriment is aiming at discerning and predicting the creativity patterns of {{Devine Lu Linvega}}. The latest visualisation of these logs can be seen {{here|Horaire}}.
-    * Multiplayer Operating System
-    & The {{Interactive Fiction client|Paradise}} is currently being developed to allow anyone to enter, explore and build within the library. The new version will allow anyone to deploy their own instance of {{Nataniev}}, and travel from theirs, to this one seemlessly.
+    * Keeping Logs
+    & {{Horaire}} is a logbook that holds {_daily creative output entries_}, logged each day since April 2006. This rigid lifestyle expriment is aiming at discerning and predicting the creativity patterns of {{Devine Lu Linvega}}.
   LINK
     GITH : https://github.com/XXIIVV/Nataniev
 
@@ -1699,14 +1701,14 @@ LIFESTYLE
   UNDE : Obliques
   BREF : A few of the lifestyle choices that I have made and their reasons.
   LONG
-    * Veganism
+    * Plant-Based Diet
     & There are a few things in life that are as transformative and transhumanistic as food consumption, not eating meat, eggs and dairy aligns with my pragmatic views of life-prolonging aspirations.
     * Nootropics
     & {{Nootropics|https://en.wikipedia.org/wiki/Nootropic}} are {_smart drugs_}. They can help with focus and attention, or simply serve as a weak stimulant - not unlike coffee. I started using them out of curiosity and they grew on me as an extra tool to help with concentration.
     & I take the Noopept(20mg) and Citicoline(150mg) stack every day for a {*sequence of 30 days, then stop for a week*}.
 
 DIRECTORY
-  UNDE : Inventory
+  UNDE : Obliques
   BREF : A list of timeless art that I often refer to.
   LONG
     & This collection is updated once in a while.

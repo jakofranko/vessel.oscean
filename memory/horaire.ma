@@ -432,8 +432,8 @@
 2016 02 11 - 25      Verreciel            Design
 2016 02 10 - 25      Verreciel            Design
 2016 02 09 - 25      Verreciel            Design
-2016 02 08 - 38      Lietal               Cryptography
-2016 02 07 - 38      Lietal               Linguistics
+2016 02 08 - 38      Lietal               Linguistics 
+2016 02 07 - 38      Lietal               Linguistics 
 2016 02 06 - 15      Verreciel            Composition
 2016 02 05 - 28  492 Lietal               Design               The Lietal Flag
 2016 02 04 - 39      Blindfolk            Development
@@ -950,11 +950,11 @@
 2014 09 11 ! 00      Japan                Travel               Tokyo
 2014 09 10 - 35      Horaire              Maintenance          Triste Le Roy
 2014 09 09 - 17  264 Ten axitecture       Composition          Ten Axitecture
-2014 09 08 - 29  249 Serventines          Modeling             Undernest
-2014 09 07 - 29  256 Serventines          Modeling             Qairo
-2014 09 06 ! 29  255 Serventines          Modeling             Ano Pass
-2014 09 05 - 29  254 Serventines          Modeling             Mil Reaf
-2014 09 04 - 29  252 Serventines          Modeling             Qoledone
+2014 09 08 - 29  249 Serventines          Modeling             Untenest
+2014 09 07 - 29  256 Serventines          Modeling             Qaro
+2014 09 06 ! 29  255 Serventines          Modeling             Anopass
+2014 09 05 - 29  254 Serventines          Modeling             Milreaf
+2014 09 04 - 29  252 Serventines          Modeling             Qovledon
 2014 09 03 ! 29  251 Serventines          Modeling             Gaspse
 2014 09 02 - 36      Trimetrique          Development
 2014 09 01 - 37  246 Trimetrique          Development          Beta
@@ -1004,7 +1004,7 @@
 2014 07 19 - 29      Nereid               Modeling
 2014 07 18 - 39      Neauismetica         Writing
 2014 07 17 - 28  149 Kaleidoscope         Illustration         Diagolite I
-2014 07 16 - 29  247 Duomo                Illustration         Mount Duomo
+2014 07 16 - 29  247 Serventines          Illustration         Mount Duomo
 2014 07 15 - 35      Paradise             Analytics
 2014 07 14 - 35      Paradise             Analytics
 2014 07 13 - 35      Paradise             Analytics
@@ -1235,7 +1235,7 @@
 2013 11 30 - 36      Paradise             Testing
 2013 11 29 - 36      Paradise             Testing
 2013 11 28 - 36      Lietal               Development
-2013 11 27 - 36      Lietal               Cryptography
+2013 11 27 - 36      Lietal               Linguistics 
 2013 11 26 - 36      Paradise             Testing
 2013 11 25 - 36      Horaire              Testing
 2013 11 24 - 39      Paradise             Update
@@ -1283,8 +1283,8 @@
 2013 10 13 - 37      Oquonie              Design
 2013 10 12 - 37      Oquonie              Development
 2013 10 11 - 36      Mute                 Development
-2013 10 10 - 36      Mobile               Cryptography
-2013 10 09 - 36      Mobile               Cryptography
+2013 10 10 - 36      Mobile               Linguistics 
+2013 10 09 - 36      Mobile               Linguistics 
 2013 10 08 - 26      Oquonie              Development
 2013 10 07 - 37      Oquonie              Development
 2013 10 06 - 26      Oquonie              Design
@@ -1578,7 +1578,7 @@
 2012 12 22 - 35      Paradise             Tools
 2012 12 21 - 35      Paradise             Development
 2012 12 20 - 39      Lietal               Documentation
-2012 12 19 - 39      Lietal               Cryptography
+2012 12 19 - 39      Lietal               Linguistics 
 2012 12 18 - 39      Lietal               Documentation
 2012 12 17 - 25      Merveilles portable  Layout
 2012 12 16 - 25      Merveilles portable  Layout
@@ -1590,10 +1590,10 @@
 2012 12 10
 2012 12 09
 2012 12 08 - 35      Lietal               Documentation
-2012 12 07 - 35      Lietal               Cryptography
+2012 12 07 - 35      Lietal               Linguistics 
 2012 12 06
 2012 12 05 - 35      Lietal               Documentation
-2012 12 04 - 35      Lietal               Cryptography
+2012 12 04 - 35      Lietal               Linguistics 
 2012 12 03
 2012 12 02
 2012 12 01 - 38      Paradise             Development
@@ -1705,7 +1705,7 @@
 2012 08 17 - 15      Sombre               Mixing               Sombre
 2012 08 16 - 39      Lietal               Linguistics
 2012 08 15 - 39      Lietal               Linguistics
-2012 08 14 - 39      Lietal               Cryptography
+2012 08 14 - 39      Lietal               Linguistics 
 2012 08 13 - 39      Lietal               Linguistics
 2012 08 12 - 32      Horaire              Development
 2012 08 11 - 32      Paradise             Development
@@ -1778,7 +1778,7 @@
 2012 06 05 - 35      Lietal               Documentation
 2012 06 04 - 25  150 Artwork              Illustration         Hydro74 Remix
 2012 06 03 - 25      Pico battle          Design
-2012 06 02 - 25      Lietal               Cryptography
+2012 06 02 - 25      Lietal               Linguistics 
 2012 06 01 - 25      Diluvium             Design
 2012 05 31 - 25      Artwork              Illustration
 2012 05 30
@@ -1823,8 +1823,8 @@
 2012 04 21 - 35      Lietal               Linguistics
 2012 04 20 - 35      Lietal               Linguistics
 2012 04 19 - 15  266 Sombre               Mixing               New Mixtape
-2012 04 18 - 35      Lietal               Cryptography
-2012 04 17 - 35      Lietal               Cryptography
+2012 04 18 - 35      Lietal               Linguistics 
+2012 04 17 - 35      Lietal               Linguistics 
 2012 04 16 - 35      Paradise             Development
 2012 04 15
 2012 04 14 - 25      Waiting for horus    Design

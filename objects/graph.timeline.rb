@@ -111,9 +111,9 @@ class Graph_Timeline
     markers += "<span style='position:absolute; top:15px;left:30px; color:grey'>#{@logs.last.offset}</span>"
     markers += "<span style='position:absolute; top:15px;right:30px; text-align:right; color:grey'>#{@logs.first.offset}</span>"
 
-    markers += "<span style='position:absolute; bottom:15px;left:30px'><tt style='color:#72dec2; padding-right:5px'>— </tt> Audio <span style='color:#999'>#{((@sums[:audio]/@sumHours.to_f)*100).to_i}%</span></span>"
-    markers += "<span style='position:absolute; bottom:15px;left:130px'><tt style='color:red; padding-right:5px'>— </tt> Visual <span style='color:#999'>#{((@sums[:visual]/@sumHours.to_f)*100).to_i}%</span></span>"
-    markers += "<span style='position:absolute; bottom:15px;left:230px'><tt style='color:white; padding-right:5px'>— </tt> Research <span style='color:#999'>#{((@sums[:research]/@sumHours.to_f)*100).to_i}%</span></span>"
+    markers += "<span style='position:absolute; bottom:15px;left:30px'><tt style='color:#72dec2; padding-right:5px'>— </tt> Audio <span style='color:#999'>#{((@sums[:audio].to_i/@sumHours.to_f)*100).to_i}%</span></span>"
+    markers += "<span style='position:absolute; bottom:15px;left:130px'><tt style='color:red; padding-right:5px'>— </tt> Visual <span style='color:#999'>#{((@sums[:visual].to_i/@sumHours.to_f)*100).to_i}%</span></span>"
+    markers += "<span style='position:absolute; bottom:15px;left:230px'><tt style='color:white; padding-right:5px'>— </tt> Research <span style='color:#999'>#{((@sums[:research].to_i/@sumHours.to_f)*100).to_i}%</span></span>"
     markers += "<span style='position:absolute; bottom:15px;right:30px'><a href='/Horaire'><b style='font-family:\"din_medium\"; font-weight:normal; color:#999'>#{@sumHours.to_i} hours</b></a></span>"
 
     return "<vz><svg style='width:#{width}px; height:#{height}px; background:black; overflow: visible'>"+html+"<svg>#{markers}</vz>"

@@ -3,23 +3,22 @@
 ~ AUTH : Devine Lu Linvega
 
 DONSOL
-  General
+  Generic
     Port to Ionic
 
 OQUONIE
-  General
+  Generic
     Port to Ionic
     Release Linux build
 
 ALICEFFEKT
-  General
   Updates
     Known Magye album cover
     Extended Sleep album cover
     Remove First wave entirely..
 
 PARADISE
-  General
+  Generic
     Program limit 150
     Note linebreaks
     Custom usage words
@@ -35,7 +34,7 @@ PARADISE
     Search
 
 NATANIEV
-  General
+  Generic
     Documentation should be aware of dependencies
   Console
     Hold vessels across replies
@@ -47,9 +46,10 @@ NATANIEV
     Twitter bot
   
 THE WILL THE WISP
-  Create long-form poems
-  Word similarity index
-  Snow Corn Poem
+  Generic
+    Create long-form poems
+    Word similarity index
+    Snow Corn Poem
   
 MARKL
   Actions
@@ -68,8 +68,23 @@ LIETAL
     Complete new draft
 
 OSCEAN
+  Generic
+    Display tags below pages
   Horaire
     Forecast
   Neauismetica
     Complete draft of Two Mansion
-    Complete draft of A Thousand Rooms
+
+THOUSAND ROOMS
+  Generic
+    Complete texts
+    Basic Layout
+    Title Page
+
+PINO
+  Computer
+    Learn Raspberry Pi
+    Setup GPS
+    Setup display
+    Setup auto-boot
+    Install aboard
