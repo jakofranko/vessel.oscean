@@ -4,6 +4,9 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 04 13 - 35      Lietal               Tools
+2017 04 12 - 38      Lietal               Linguistics
+2017 04 11 - 35      Lietal               Linguistics
 2017 04 10 - 25      Thousand rooms       Writing
 2017 04 09 - 35      Thousand rooms       Tools
 2017 04 08 - 25      Supervisitor         Design
