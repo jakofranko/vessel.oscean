@@ -73,7 +73,9 @@ OSCEAN
     Display tags below pages
   Horaire
     Forecast
-  Neauismetica
+
+NEAUISMETICA
+  Generic
     Complete draft of Two Mansion
 
 THOUSAND ROOMS
@@ -82,10 +84,14 @@ THOUSAND ROOMS
     Basic Layout
     Title Page
 
-PINO
-  Computer
-    Learn Raspberry Pi
-    Setup GPS
-    Setup display
-    Setup auto-boot
-    Install aboard
+INSTRUMENT
+  Generics
+    Display Position
+    Display Course
+    Display Speed(knots)
+    Display Orientation
+    Display Keeling
+  Features
+    Night mode
+    Display battery warning
+    Set Anchor mode
