@@ -4,6 +4,7 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 04 14 - 37      Lietal               Tools
 2017 04 13 - 35      Lietal               Tools
 2017 04 12 - 38      Lietal               Linguistics
 2017 04 11 - 35      Lietal               Linguistics
@@ -3680,7 +3681,7 @@
 2007 03 25
 2007 03 24
 2007 03 23
-2007 03 22 - 35   76 Lietal               Documentation        Composing Words
+2007 03 22 ! 35   76 Lietal               Documentation        Composing Words
 2007 03 21
 2007 03 20
 2007 03 19
