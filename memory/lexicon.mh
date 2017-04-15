@@ -1475,6 +1475,7 @@ PAPER SCISSORS
 
 LANGUAGE
   UNDE : Research
+  TYPE : Portal
   BREF : This is a collecting notes on a few natural languages and on my constructed logical languages research.
   LONG
     & Some of the tasks at hand might involve translating the wiki into {{English Prime|http://en.wikipedia.org/wiki/E-Prime}}, E′. Also see correspondances between {{Lietal}} against {{Tractatus Logico-Philosophicus|https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus}}. In another order of ideas, the analysis of the {{Logopandecteision|http://en.wikipedia.org/wiki/Logopandecteision}} sounds like a fun project. I should compare {{Lietal}} against the rules of {{Neaudethaumata|http://penelope.uchicago.edu/urquhart/index.html}}.
@@ -1485,6 +1486,13 @@ LANGUAGE
     - {{Dodecahedron|https://en.wikipedia.org/wiki/Dodecahedron}}, in English
     - {{Oyasumi|https://en.wiktionary.org/wiki/お休み}}, in Japanese
     - {{Betwixt|https://en.wikipedia.org/wiki/Betwixt}}, in English
+
+NEEDLES
+  UNDE : Language
+  BREF : The {{Needles}} are a series of 10 glyphs where the stroke intersections are equal to the value of the character.
+  LONG
+    & The glyphs are not used into any specific system of the {{Gamme}}, but are available here as a reference of a meaningful numeric glyph system.
+    % needles
 
 JAPANESE
   UNDE : Language
@@ -1535,19 +1543,22 @@ RATIONALITY
 
 GAMME
   UNDE : Research
+  TYPE : Portal short
   BREF : {{Gamme}} is an ecosystem of tools and systems developed to serve the {{Obliques}}.
   LONG
-    & Any act that can defend its acceleration of art and science is deemed lawful. 
-    * Projects
-    & This list contains the current tools and planned projects.
-    - Calendar System, {{Desamber}}/{{Clock}}
-    - Writing system, {{Shorthand}}
-    - Syntetic Language, {{Lietal}}
-    - Time Tracking, {{Horaire}}
-    - Graphic Tool, {{Ronin}}
-    - Operating System, {{Nataniev}}
-    - Programming Language
-    - Compostion Tool
+    & Upcoming projects include a {_Programming Language_} and a {_music composition tool_}.
+
+NATANIEV
+  UNDE : Gamme
+  BREF : {{Nataniev}} is a platform to serve web apps and tools such as {{Horaire}} and {{Paradise}}.
+  LONG
+    & Initiated in 2011, this custom engine includes a CLI, formerly known as {_Paradise_}, two different flat-files database parsers and its own unique APIs syntax. It serves this website, {{Hundred Rabbits}}, {{Grimgrains}}, as well as {{Twitter Bots|Automatons}}.
+    & Single scripts and repositories, known as vessels and instances, exist as locations in this {*Ecosystem*} and can be visited through the CLI. For example, each Automaton exist as a character that can be found within Paradise; this page exist as a page in a book, in a library that can also be entered and explored.
+    ? Deep within this virtual structure, sleeps a small office - and in it a desk, on which rests a book that translates Russian words into English.
+    * Keeping Logs
+    & {{Horaire}} is a logbook that holds {_daily creative output entries_}, logged each day since April 2006. This rigid lifestyle expriment is aiming at discerning and predicting the creativity patterns of {{Devine Lu Linvega}}.
+  LINK
+    GITH : https://github.com/XXIIVV/Nataniev
 
 RONIN
   UNDE : Gamme
@@ -1564,20 +1575,8 @@ RONIN
   LINK
     GITH : https://github.com/hundredrabbits/Ronin
 
-NATANIEV
-  UNDE : Gamme
-  BREF : {{Nataniev}} is a tool platform built within a MUD environment. 
-  LONG
-    & Initiated in 2011, this custom engine includes a CLI, formerly known as {_Paradise_}, two different flat-files database parsers and its own unique APIs syntax. It serves this website, {{Hundred Rabbits}}, {{Grimgrains}}, as well as {{Twitter Bots|Automatons}}.
-    & Single scripts and repositories, known as vessels and instances, exist as locations in this {*Ecosystem*} and can be visited through the CLI. For example, each Automaton exist as a character that can be found within Paradise; this page exist as a page in a book, in a library that can also be entered and explored.
-    ? Deep within this virtual structure, sleeps a small office - and in it a desk, on which rests a book that translates Russian words into English.
-    * Keeping Logs
-    & {{Horaire}} is a logbook that holds {_daily creative output entries_}, logged each day since April 2006. This rigid lifestyle expriment is aiming at discerning and predicting the creativity patterns of {{Devine Lu Linvega}}.
-  LINK
-    GITH : https://github.com/XXIIVV/Nataniev
-
 PARADISE
-  UNDE : Gamme
+  UNDE : Nataniev
   BREF : {{Paradise}} is a multiplayer playground that lives within {{Nataniev}}. 
   LONG
     & Paradise plays like a MUD, an ever-changing world where players interact with eachother by modying the universe itself.
@@ -1616,30 +1615,7 @@ PARADISE GUIDE
 
 HORAIRE
   UNDE : Gamme
-
-CLOCK
-  UNDE : Gamme
-  BREF : On {{XXIIVV|Nataniev}}, Time is written using a variance of the {{Internet Time|https://en.wikipedia.org/wiki/Swatch_Internet_Time}} with 4 digits instead of the Swatch Beat's 3 digits system.
-  LONG
-    * The current time is {{!clock}}
-    & The system has no timezone and no daylight saving-time. Read more on {{Desamber}}.
-  LINK
-    GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/clock.rb
-
-DESAMBER
-  UNDE : Gamme
-  BREF : On {{XXIIVV|Nataniev}}, dates are written using a variance of the {{International Fixed Calendar|https://en.wikipedia.org/wiki/International_Fixed_Calendar}}.
-  LONG
-    & The {_Equal Month calendar_} format has 13 months and so the number of each of these months are reflected into their names.
-    ? Today is {{!desamber}}
-    & Every month is {*28 days long*}, and the 365th day of the year is the {_Year Day_}, followed by the {_Leap Day_} on leap years.
-    # 01 Unesamber      02 Dutesamber     03 Trisesamber
-    # 04 Tetresamber    05 Pentesamber    06 Hexesamber
-    # 07 Sevesamber     08 Octesamber     09 Novesamber
-    # 10 Desamber       11 Undesamber     12 Dodesamber
-    # 13 Tridesamber
-  LINK
-    GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
+  BREF : {{Horaire}} is a time-tracking tool.
 
 LIETAL
   UNDE : Gamme
@@ -1650,21 +1626,39 @@ LIETAL
   LINK
     GITH : https://github.com/XXIIVV/vessel.lietal
 
+DICTIONAERY
+  UNDE : Lietal
+  BREF : The {{Dictionaery}} is a list of all the known {{Lietal}} words.
+  LONG
+    $ lietal serve dictionaery
+
 SHORTHAND
   UNDE : Gamme
-  BREF : Notebook and after notebook, I fill pages of notes, ideas and to-dos. When presented with {{the idea of shorthand|http://theatlantic.com/technology/archive/2014/06/yeah-i-still-use-shorthand-and-a-smartpen/373281/}}, I saw immediate practical application.
+  BREF : {{Shorthand}} is a calligraphy style developed to take faster notes.
   LONG
     * The idea is simple, writing faster.
     & I played with different ideas and this is the system that worked best for me, it’s an inspiration and a mixture of already existing shorthand systems that fits my writing style.
-    % shorthand alphabet
+    % shorthand.alphabet fit
     & Simple enough, now most letters are transformed into a single stroke shape that flows and combines to form shorter words, that can be written faster.
 
-NEEDLES
-  UNDE : Language
-  BREF : The {{Needles}} are a series of 10 glyphs where the stroke intersections are equal to the value of the character.
+DESAMBER
+  UNDE : Gamme
+  BREF : On {{XXIIVV|Nataniev}}, dates are written using a variance of the {{International Fixed Calendar|https://en.wikipedia.org/wiki/International_Fixed_Calendar}}.
   LONG
-    & The glyphs are not used into any specific system of the {{Gamme}}, but are available here as a reference of a meaningful numeric glyph system.
-    % needles
+    & The {_Equal Month calendar_} format has 13 months and so the number of each of these months are reflected into their names.
+    ? Today is {{!desamber}} <br /><small>The current time is {{!clock}}</small>
+    & Time is written using a variance of the {{Internet Time|https://en.wikipedia.org/wiki/Swatch_Internet_Time}} with 4 digits instead of the Swatch Beat's 3 digits system. The system has no timezone and no daylight saving-time. Read more on {{Desamber}}.
+  LINK
+    GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/clock.rb
+    & Every month is {*28 days long*}, and the 365th day of the year is the {_Year Day_}, followed by the {_Leap Day_} on leap years.
+    # 01 Unesamber      02 Dutesamber     03 Trisesamber
+    # 04 Tetresamber    05 Pentesamber    06 Hexesamber
+    # 07 Sevesamber     08 Octesamber     09 Novesamber
+    # 10 Desamber       11 Undesamber     12 Dodesamber
+    # 13 Tridesamber
+  LINK
+    GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
+
 
 ~ Equipment
 
@@ -1717,7 +1711,7 @@ DIRECTORY
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/directory.mh
 
 DEATH
-  UNDE : Gamme
+  UNDE : Devine lu linvega
   BREF : Inspired from {{Chris Crawford|https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer)}}'s Jars, every week a cell goes dark.
 
 ~ [TODO] Combine under a portal page

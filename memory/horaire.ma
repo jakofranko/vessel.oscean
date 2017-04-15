@@ -4,6 +4,7 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 04 15 - 26  999 Gamme                Design
 2017 04 14 - 37      Lietal               Tools
 2017 04 13 - 35      Lietal               Tools
 2017 04 12 - 38      Lietal               Linguistics
@@ -439,7 +440,7 @@
 2016 02 08 - 38      Lietal               Linguistics 
 2016 02 07 - 38      Lietal               Linguistics 
 2016 02 06 - 15      Verreciel            Composition
-2016 02 05 - 28  492 Lietal               Design               The Lietal Flag
+2016 02 05 - 28  492 Dictionaery          Design               The Lietal Flag
 2016 02 04 - 39      Blindfolk            Development
 2016 02 03 - 32      Blindfolk            Documentation
 2016 02 02 - 32      Blindfolk            Documentation
@@ -1922,11 +1923,11 @@
 2012 01 17 - 15      Es gulf sunflowers   Composition
 2012 01 16
 2012 01 15 - 25   20 Mobile               Development          Character Builder
-2012 01 14 - 35      Horaire              Development
-2012 01 13 - 35   19 Obliques             Tools                Extra
+2012 01 14 - 35   50 Horaire              Development
+2012 01 13 - 35      Obliques             Tools                Extra
 2012 01 12
 2012 01 11
-2012 01 10 - 25  999 Paradise             Development          Oscean Eye
+2012 01 10 - 25      Paradise             Development          Oscean Eye
 2012 01 09 - 35      Paradise             Development
 2012 01 08
 2012 01 07 - 35      Paradise             Development

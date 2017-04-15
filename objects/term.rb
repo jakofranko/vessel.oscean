@@ -89,7 +89,7 @@ class Term
 
   def tasks
 
-    @tasks = @tasks ? @tasks : ( name.like("home") || name.like("diary") || name.like("horaire") ? $desktop.to_h("issue") : $desktop.filter("term",name,"issue"))
+    @tasks = @tasks ? @tasks : ( name.like("home") || name.like("diary") ? $desktop.to_h("issue") : $desktop.filter("term",name,"issue"))
     return @tasks
 
   end
@@ -105,7 +105,7 @@ class Term
 
   def logs
 
-    @logs = @logs ? @logs : ( name.like("home") || name.like("diary") || name.like("horaire") ? $horaire.filter("term","*","log") : $horaire.filter("term",name,"log"))
+    @logs = @logs ? @logs : ( name.like("home") || name.like("diary") ? $horaire.filter("term","*","log") : $horaire.filter("term",name,"log"))
     return @logs
 
   end
