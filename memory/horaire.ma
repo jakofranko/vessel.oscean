@@ -4,6 +4,7 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 04 16 - 39      Lietal               Linguistics
 2017 04 15 - 26  999 Gamme                Design
 2017 04 14 - 37      Lietal               Tools
 2017 04 13 - 35      Lietal               Tools
