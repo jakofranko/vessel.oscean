@@ -4,6 +4,8 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 04 20 - 34      Ronin                Maintenance
+2017 04 19
 2017 04 18 - 27      Ronin                Design
 2017 04 17 - 23      Ronin                Design
 2017 04 16 - 39      Lietal               Linguistics
