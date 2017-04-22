@@ -25,7 +25,6 @@ PARADISE
     Custom usage words
     Vessel Wildcard
     Random Visible Wildcard
-    Show local activity
     Statistics vessel
   Actions
     Show Hide
@@ -33,6 +32,7 @@ PARADISE
     Warp Random
     Destroy
     Search
+    Benchmark tool
 
 NATANIEV
   Generic
@@ -79,7 +79,7 @@ THOUSAND ROOMS
     Title Page
 
 INSTRUMENT
-  Generics
+  Generic
     Display Position
     Display Course
     Display Speed(knots)
@@ -89,3 +89,8 @@ INSTRUMENT
     Night mode
     Display battery warning
     Set Anchor mode
+
+CORTEGE
+  Generic
+    Make splash website, with glyph "wait"
+    Make logo, with glyph( je serais moins dans 'promenade fleuve montage' or dans le positif, et plus critique, genre mélanger en un seul glyph 'humain' 'objet'...)
