@@ -4,7 +4,16 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
-2017 04 21 - 39      Paradise             Update
+2017 04 30 - 39      Paradise             Development
+2017 04 29 - 39      Paradise             Tools
+2017 04 28 - 39      Paradise             Tools
+2017 04 27 - 38      Paradise             Tools
+2017 04 26 - 37      Paradise             Tools
+2017 04 25 - 37      Paradise             Development
+2017 04 24 - 37      Paradise             Development
+2017 04 23 - 36      Paradise             Tools
+2017 04 22 - 36      Paradise             Maintenance
+2017 04 21 - 39      Paradise             Development
 2017 04 20 - 34      Ronin                Maintenance
 2017 04 19 - 29      Paradise             Design
 2017 04 18 - 27      Ronin                Design

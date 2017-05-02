@@ -20,19 +20,14 @@ ALICEFFEKT
 
 PARADISE
   Generic
-    Program limit 150
     Note linebreaks
     Custom usage words
-    Vessel Wildcard
-    Random Visible Wildcard
     Statistics vessel
   Actions
-    Show Hide
-    Call
     Warp Random
-    Destroy
     Search
     Benchmark tool
+    IO Values
 
 NATANIEV
   Generic
