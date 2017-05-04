@@ -4,6 +4,9 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 05 03 - 39      Thousand rooms       Translation
+2017 05 02 - 29      Thousand rooms       Design
+2017 05 01 @ 39    9 Thousand rooms       Writing
 2017 04 30 - 39      Paradise             Development
 2017 04 29 - 39      Paradise             Tools
 2017 04 28 - 39      Paradise             Tools
@@ -39,15 +42,15 @@
 2017 03 29 - 25      Aliceffekt           Branding
 2017 03 28 - 31      Ronin                Tools
 2017 03 27 - 12      Superworker          Composition
-2017 03 26
+2017 03 26 - 24      Thousand rooms       Design
 2017 03 25 - 31      Ronin                Tools
 2017 03 24 - 31      Ronin                Tools
 2017 03 23 - 23      Ronin                Design
 2017 03 22 - 22      Ronin                Design
-2017 03 21
+2017 03 21 - 24      Thousand rooms       Design
 2017 03 20 - 21      Ronin                Design
 2017 03 19
-2017 03 18
+2017 03 18 - 36      Thousand rooms       Writing
 2017 03 17 - 18      Superworker          Composition
 2017 03 16 - 12      Superworker          Composition
 2017 03 15 - 24      Hundred rabbits      Photography
