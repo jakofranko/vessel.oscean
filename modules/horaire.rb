@@ -26,11 +26,11 @@ class CorpseHttp
 
     html = ""
 
-    if term.logs.length > 0
+    if term.logs.length > 2
       html += Graph_Timeline.new(term.logs).to_s
       html += tasks
     else
-      html += "<p>The lexicon entry {{@query}} does not contain any {{Horaire}} log.</p>"
+      return "<p>The {{#{@query}}} entry does not contain enough {{Horaire}} logs.</p>".markup
     end
     
     return "<div class='horaire'>#{html}</div>"

@@ -4,6 +4,9 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 05 06
+2017 05 05
+2017 05 04 - 39      Thousand rooms       Translation
 2017 05 03 - 39      Thousand rooms       Translation
 2017 05 02 - 29      Thousand rooms       Design
 2017 05 01 @ 39    9 Thousand rooms       Writing
@@ -2322,7 +2325,7 @@
 2011 01 01
 2010 12 31 - 35      Paradise             Development
 2010 12 30
-2010 12 29 - 25  482 Death                                     Milk
+2010 12 29 - 25  482 Death                Photography          Milk
 2010 12 28
 2010 12 27 - 35   50 Obliques             Development
 2010 12 26 - 25      Artwork              Illustration
