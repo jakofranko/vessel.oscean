@@ -181,12 +181,6 @@ DAMOISEAU CANALX
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/damoiseau-canalx
 
-DEFRACTION OPTICS
-  UNDE : Physical
-  BREF : {{Defraction Optics}} is the second book of {{Elodie Lareine|http://noirmirroir.com/}}, a manual of procedural imagery, in the fashion of {{Vast}}.
-  LINK
-    SITE : http://noirmirroir.com/defract
-
 DESKTOP
   UNDE : Interactive
   BREF : This list shows all of the desktop projects built of the last few years.
@@ -404,9 +398,7 @@ HUNDRED RABBITS
   TYPE : Diary
   LONG
     & This partnership is host to interactive projects like {{Oquonie}}, {{Grimgrains|http://grimgrains.com}} and travel diaries. A {{Patreon page|https://www.patreon.com/100}} is available to help fund the production of monthly videos and liveaboard documentation.
-    & Living on a {{sailboat|Hundred rabbits}} might be quite foreign for most people, as it once was for us. This selection of questions and answers will try to address the recurring requests. If you want to add to this list, ask your questions as comments {{here|https://www.patreon.com/posts/4421599}}.
   LINK
-    GITH : https://github.com/hundredrabbits
     PATR : https://patreon.com/100
     TWTR : https://twitter.com/hundredrabbits
 
@@ -454,7 +446,7 @@ INTERACTIVE
   BREF : The {{Interactive}} Portal contains all the released interactive applications.
   LONG
     & The interactive project list contains various completed and unreleased experiments and games for iOS, desktop and browser.
-  TYPE : Portal
+  TYPE : Portal false
 
 VERT KIRLIAN THEATRE
   UNDE : First wave
@@ -593,7 +585,7 @@ SOMBRE
 MOBILE
   UNDE : Interactive
   BREF : This collection of {{mobile}} apps constitutes a series of games, tools and experiments about interative design and linguistics. The development and patches are tracked across the {{Echorridoors|http://github.com/echorridoors/verreciel}} repositories.
-  TYPE : Portal
+  TYPE : Portal false
 
 BIFURCAN
   UNDE : Mobile
@@ -1094,11 +1086,20 @@ VALENTINEL HOPES
 
 VAST
   UNDE : Physical
-  BREF : I recently found myself illustrating {{Elodie|http://noirmirroir.com}}'s abstract book "{{Vast - the perfect, the circular, the subjugated|http://noirmirroir.com/vast}}". A strangely perfect nonsensical coffee table curiosity that grabbed me from the moment I heard of its ties with some of the same Borgesian concepts that have also been exploring lately.
+  BREF : {{Vast}} is the first book of {{Elodie Lareine|http://noirmirroir.com/}}, a manual of procedural imagery.
+  TYPE : Diary
   LONG
-    & I have created a series of ink fractals to ornate the book’s preface, table of content and cover. The book is a unique piece of cryptography that is somehow narrative in its unintelligibleness.
+    & I recently found myself illustrating {{Elodie|http://noirmirroir.com}}'s abstract book "{{Vast - the perfect, the circular, the subjugated|http://noirmirroir.com/vast}}". A strangely perfect nonsensical coffee table curiosity that grabbed me from the moment I heard of its ties with some of the same Borgesian concepts that have also been exploring lately.
+    & I have created a series of ink fractals to ornate the book’s preface, table of content and cover. 
   LINK
-   SITE : http://noirmirroir.com/vast
+    SITE : http://noirmirroir.com/vast
+
+DEFRACTION OPTICS
+  UNDE : Physical
+  BREF : {{Defraction Optics}} is the second book of {{Elodie Lareine|http://noirmirroir.com/}}, a manual of procedural imagery, in the fashion of {{Vast}}.
+  TYPE : Diary
+  LINK
+    SITE : http://noirmirroir.com/defract
 
 THOUSAND ROOMS
   UNDE : Physical
@@ -1106,8 +1107,6 @@ THOUSAND ROOMS
   LONG
     & I have written this book with the hopes of creating a sort of {_Borges for children_}, in which the reader follows a bat, a cat, an owl and a fox who try and make sense of a simple system. 
     & The book also encourages to try and understand the rules, and plan other unsuggested avenues. We are releasing the book in English, French, Russian and Japanese.
-  LINK
-   SITE : http://noirmirroir.com/vast
 
 VERMILLIONTH
   UNDE : First wave
@@ -1527,7 +1526,7 @@ OBLIQUES
 
 MAXIMALISTS
   UNDE : Obliques
-  BREF : The goal of this document is to answer recurring questions on productivity optimizations and techniques, advised from daily logs recorded over a period of many years.. It is less a personal guideline than the results of side-effects.
+  BREF : Answers to recurring questions on productivity, optimizations and techniques, advised from daily logs recorded over many years.
   TYPE : Memory
   LINK
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/obliques.mh
@@ -1535,6 +1534,13 @@ MAXIMALISTS
 NOMADS
   UNDE : Obliques
   BREF : Reflexions on travel, and the dream of a nomadic life.
+  TYPE : Memory
+  LINK
+    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/nomads.mh
+
+LIFESTYLE
+  UNDE : Obliques
+  BREF : Explanations for some of my lifestyle choices.
   TYPE : Memory
   LINK
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/nomads.mh
@@ -1563,9 +1569,7 @@ NATANIEV
   LONG
     & Initiated in 2011, this custom engine includes a CLI, formerly known as {_Paradise_}, two different flat-files database parsers and its own unique APIs syntax. It serves this website, {{Hundred Rabbits}}, {{Grimgrains}}, as well as {{Twitter Bots|Automatons}}.
     & Single scripts and repositories, known as vessels and instances, exist as locations in this {*Ecosystem*} and can be visited through the CLI. For example, each Automaton exist as a character that can be found within Paradise; this page exist as a page in a book, in a library that can also be entered and explored.
-    ? Deep within this virtual structure, sleeps a small office - and in it a desk, on which rests a book that translates Russian words into English.
-    * Keeping Logs
-    & {{Horaire}} is a logbook that holds {_daily creative output entries_}, logged each day since April 2006. This rigid lifestyle expriment is aiming at discerning and predicting the creativity patterns of {{Devine Lu Linvega}}.
+    ? Deep within this virtual structure, sleeps a {{small beetle|The Will The Wisp}} - that, when touched, recites a generated poem.
   LINK
     GITH : https://github.com/XXIIVV/Nataniev
 
@@ -1586,46 +1590,21 @@ RONIN
     GITH : https://github.com/hundredrabbits/Ronin
 
 PARADISE
-  UNDE : Nataniev
-  BREF : {{Paradise}} is a multiplayer playground that lives within {{Nataniev}}. 
+  UNDE : Gamme
+  BREF : {{Paradise}} is a multiplayer playground that lives within the {{Nataniev}} toolchain. 
   LONG
-    & Paradise plays like a MUD, an ever-changing world where players interact with eachother by modying the universe itself.
-    & In this anonymous world you can create anything that you can imagine and traverse the various {{player-created universes|Paradise Guide}} of Paradise. 
-    ? In a little while you will be alone in shoreless space, to wander its limitless solitudes without friend or comrade forever--for you will remain a thought, the only existent thought, and by your nature inextinguishable, indestructible.
+    & Paradise plays like a MUD, in an ever-changing world where players are not avatars, but places, and objects, and puns, words - moving around and into each other, reordering this chaotic space.
+    & In this anonymous world you can create anything, traverse the various player-created universes and explore {_conceptspace_}. 
+    * No.44
+    & In a little while you will be alone in shoreless space, to wander its limitless solitudes without friend or comrade forever - for you will remain a thought, the only existent thought, and by your nature inextinguishable, indestructible.
     & From Mark Twain's {{the mysterious Stranger|http://en.wikipedia.org/wiki/The_Mysterious_Stranger}}
   LINK
     SITE : http://paradise.xxiivv.com
     GITH : https://github.com/XXIIVV/vessel.paradise
 
-PARADISE GUIDE
-  UNDE : Paradise
-  BREF : This {{Paradise}} Guide will explains the physics of the world and give a few example programs.
-  LONG
-    & Upon entering the {_Library_}, you are assigned an available {_Vessel_} and a {_Warp Id_}.
-    * The Warp Id
-    & Your vessel's {*Warp Id*} which can be found by typing "inspect", or looking at the number in the URL. By adding a bookmark to your browser, you are making sure to be able to return to your previous vessel.
-    * Changing your name
-    & To change your vessel name, you need to know your {*Warp Id*}. If, for instance, you are ≡30, and your wish is to become {_a red book_}.
-    # warp to 30
-    # transmute into a book
-    # make red
-    * Programs
-    & You can program a vessel to automate an action from the player. If, for instance, you want to create a vessel that warps a player to ≡50.
-    # enter the apple
-    # program warp to 50
-    # leave
-    # use the apple
-    * Wildcards
-    & Widlcards are inline scripts that can be used in notes and programs, creating more dynamic content. If, for instance, you want to create a vessel that makes a player say a random color.
-    # enter the apple
-    # program say (random red cyan).
-    # leave
-    # use the apple
-  TAGS : Guide
-
 HORAIRE
   UNDE : Gamme
-  BREF : {{Horaire}} is a time-tracking tool.
+  BREF : {{Horaire}} is a time tracking tool that compiles daily logs into creativity forecasts.
 
 LIETAL
   UNDE : Gamme
@@ -1654,17 +1633,9 @@ DESAMBER
   UNDE : Gamme
   BREF : On {{XXIIVV|Nataniev}}, dates are written using a variance of the {{International Fixed Calendar|https://en.wikipedia.org/wiki/International_Fixed_Calendar}}.
   LONG
-    & The {_Equal Month calendar_} format has 13 months and so the number of each of these months are reflected into their names.
+    & The {_Equal Month calendar_} format has 13 months and so the number of each of these months are reflected into their names. Every month is {*28 days long*}, and the 365th day of the year is the {_Year Day_}, followed by the {_Leap Day_} on leap years.
     ? Today is {{!desamber}} <br /><small>The current time is {{!clock}}</small>
-    & Time is written using a variance of the {{Internet Time|https://en.wikipedia.org/wiki/Swatch_Internet_Time}} with 4 digits instead of the Swatch Beat's 3 digits system. The system has no timezone and no daylight saving-time. Read more on {{Desamber}}.
-  LINK
-    GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/clock.rb
-    & Every month is {*28 days long*}, and the 365th day of the year is the {_Year Day_}, followed by the {_Leap Day_} on leap years.
-    # 01 Unesamber      02 Dutesamber     03 Trisesamber
-    # 04 Tetresamber    05 Pentesamber    06 Hexesamber
-    # 07 Sevesamber     08 Octesamber     09 Novesamber
-    # 10 Desamber       11 Undesamber     12 Dodesamber
-    # 13 Tridesamber
+    & Time is written using a variance of the {{Internet Time|https://en.wikipedia.org/wiki/Swatch_Internet_Time}} with 4 digits instead of the Swatch Beat's 3 digits system. The system has no timezone and no daylight saving-time.
   LINK
     GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
 
@@ -1699,16 +1670,6 @@ KEYBOARD
   LINK
     DROP : https://www.massdrop.com/mechanical-keyboards
     REDD : https://www.reddit.com/r/MechanicalKeyboards/
-
-LIFESTYLE
-  UNDE : Obliques
-  BREF : A few of the lifestyle choices that I have made and their reasons.
-  LONG
-    * Plant-Based Diet
-    & There are a few things in life that are as transformative and transhumanistic as food consumption, not eating meat, eggs and dairy aligns with my pragmatic views of life-prolonging aspirations.
-    * Nootropics
-    & {{Nootropics|https://en.wikipedia.org/wiki/Nootropic}} are {_smart drugs_}. They can help with focus and attention, or simply serve as a weak stimulant - not unlike coffee. I started using them out of curiosity and they grew on me as an extra tool to help with concentration.
-    & I take the Noopept(20mg) and Citicoline(150mg) stack every day for a {*sequence of 30 days, then stop for a week*}.
 
 DIRECTORY
   UNDE : Obliques

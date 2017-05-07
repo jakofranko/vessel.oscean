@@ -9,7 +9,7 @@
 2017 05 04 - 39      Thousand rooms       Translation
 2017 05 03 - 39      Thousand rooms       Translation
 2017 05 02 - 29      Thousand rooms       Design
-2017 05 01 @ 39    9 Thousand rooms       Writing
+2017 05 01 @ 39    9 Thousand rooms       Writing              Cat has a visitor.    Today we completed the first draft of our upcoming book {{Thousand Rooms}}.
 2017 04 30 - 39      Paradise             Development
 2017 04 29 - 39      Paradise             Tools
 2017 04 28 - 39      Paradise             Tools
@@ -25,7 +25,7 @@
 2017 04 18 - 27      Ronin                Design
 2017 04 17 - 23      Ronin                Design
 2017 04 16 - 39      Lietal               Linguistics
-2017 04 15 - 26  999 Gamme                Design
+2017 04 15 - 26      Gamme                Design
 2017 04 14 - 37      Lietal               Tools
 2017 04 13 - 35      Lietal               Tools
 2017 04 12 - 38      Lietal               Linguistics
@@ -98,7 +98,7 @@
 2017 02 05 - 25  365 Black                Photography     
 2017 02 04 - 28      Nataniev             Design
 2017 02 03 - 33      Nataniev             Maintenance
-2017 02 02 - 25  387 Black                Photography   
+2017 02 02 - 25  387 Black                Photography          Ensenada, Mexico
 2017 02 01 - 27      Nataniev             Design
 2017 01 31 - 38      Paradise             Development
 2017 01 30 - 38      Paradise             Documentation
@@ -118,7 +118,7 @@
 2017 01 16 - 35      Markl                Design
 2017 01 15 - 35      Ronin                Tools
 2017 01 14 - 37      Ronin                Tools
-2017 01 13 ! 26  227 Donsol               Design               Redesign              Released a new {{Donsol}} build, with improved UI and entirely redesigned vector graphics working on all platforms.
+2017 01 13 ! 26  227 Donsol               Design               Desktop Donsol        Released a new {{Donsol}} build, with improved UI and entirely redesigned vector graphics working on all platforms.
 2017 01 12 - 37      Ronin                Tools
 2017 01 11 - 35      Ronin                Tools
 2017 01 10 - 38      Lietal               Linguistics
@@ -1122,7 +1122,7 @@
 2014 04 18 - 37      Paradise             Update
 2014 04 17
 2014 04 16
-2014 04 15 - 28  137 Mobile               Design               Synthesis Programmin
+2014 04 15 - 28      Mobile               Design               Synthesis Programmin
 2014 04 14 - 37      Mobile 
 2014 04 13 - 28  115 Methascope           Illustration         20x
 2014 04 12 - 28   69 Methascope           Illustration         200x
@@ -1138,7 +1138,7 @@
 2014 04 02 - 25      Paradise             Layout
 2014 04 01 - 27      Artwork              Illustration
 2014 03 31 - 27      Artwork              Illustration
-2014 03 30 - 29  242 Vast                 Illustration         Prototype
+2014 03 30 - 29  242 Vast                 Illustration         Preview               The book is a unique piece of cryptography that is somehow narrative in its unintelligibleness.
 2014 03 29 - 35      Vast                 Prototype
 2014 03 28 - 35      Vast                 Prototype
 2014 03 27 - 35      Vast                 Prototype
