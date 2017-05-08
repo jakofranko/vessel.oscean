@@ -135,12 +135,12 @@ class CorpseHttp
 
     siblings = ""
     term.siblings.each do |sibling|
-      siblings += sibling.name.like(term.name) ? "<b>"+sibling.name+"</b> " : "<a href='/#{sibling.name}'>#{sibling.name}</a> "
+      siblings += sibling.name.like(term.name) ? "<b>"+sibling.name+"</b> " : "<a href='/#{sibling.name}' class='sibling'>#{sibling.name}</a> "
     end
     if !term.name.like(term.unde)
       children = ""
       term.children.each do |child|
-        children += child.name.like(term.name) ? "<b>"+child.name+"</b> " : "<a href='/#{child.name}'>#{child.name}</a> "
+        children += child.name.like(term.name) ? "<b>"+child.name+"</b> " : "<a href='/#{child.name}' class='child'>#{child.name}</a> "
       end
     end
 

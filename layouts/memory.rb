@@ -9,13 +9,7 @@ class CorpseHttp
 
     ladder = Memory_Hash.new(term.name,@host.path).to_h
     
-    counter = 1
-    html += "<ul class='index'>"
-    ladder.each do |cat,con|    
-      html += "<li><span class='counter'>#{counter}</span> <a href='##{cat.downcase.gsub(' ','_')}'>#{cat.capitalize}</a></li>"
-      counter += 1
-    end
-    html += "</ul>"
+    html += indexes(ladder)
 
     ladder.each do |cat,con|
       html += "<h2 id='#{cat.downcase.gsub(' ','_')}'>#{cat.capitalize}</h2>\n"
@@ -34,6 +28,21 @@ class CorpseHttp
     end
 
     return html.markup
+
+  end
+
+  def indexes ladder
+
+    html = ""
+    counter = 1
+    html += "<ul class='index'>"
+    ladder.each do |cat,con|    
+      html += "<li><span class='counter'>#{counter}</span> <a href='##{cat.downcase.gsub(' ','_')}'>#{cat.capitalize}</a></li>"
+      counter += 1
+    end
+    html += "</ul>"
+
+    return html
 
   end
 

@@ -18,28 +18,11 @@ ALICEFFEKT
     Extended Sleep album cover
     Remove First wave entirely..
 
-PARADISE
-  Generic
-    Note linebreaks
-    Custom usage words
-    Statistics vessel
-  Actions
-    Warp Random
-    Search
-    Benchmark tool
-    IO Values
-
 NATANIEV
   Generic
     Documentation should be aware of dependencies
-  Console
-    Hold vessels across replies
   Runes
     | Create | Tables |
-  API
-    Voice Application
-    Email bot
-    Twitter bot
   
 THE WILL THE WISP
   Generic
@@ -55,23 +38,16 @@ MARKL
     Time's up
     Spritesheet/DOM Objects
 
-LIETAL
-
 OSCEAN
   Generic
     Display tags below pages
+    Improve search page
   Horaire
     Forecast
 
 NEAUISMETICA
   Generic
     Complete draft of Two Mansion
-
-THOUSAND ROOMS
-  Generic
-    Complete texts
-    Basic Layout
-    Title Page
 
 INSTRUMENT
   Generic
@@ -84,8 +60,3 @@ INSTRUMENT
     Night mode
     Display battery warning
     Set Anchor mode
-
-CORTEGE
-  Generic
-    Make splash website, with glyph "wait"
-    Make logo, with glyph( je serais moins dans 'promenade fleuve montage' or dans le positif, et plus critique, genre mélanger en un seul glyph 'humain' 'objet'...)

@@ -157,21 +157,6 @@ CAMILARE
     > <tr><td><img src='public.oscean/media/generic/camilare.foe.png'/></td><td>Oquonie<br/><small>Foe</small></td>	              <td><img src='public.oscean/media/generic/camilare.pillar.png'/></td><td>Den<br/><small>Pillar</small></td>	                <td><img src='public.oscean/media/generic/camilare.nemedique.png'/></td><td>Nemedique<br/><small>Nemedique</small></td></tr>
     > </table>
 
-CENOTE
-  UNDE : Desktop
-  BREF : Cenote is an experimental platformer inspired by {{Underwater Base Jumping|http://www.youtube.com/watch?v=uQITWbAaDx0}}. The goal is to reach a small red planet with the highest amount of points left. Cenote is the spiritual prequel of {{Zjeveni}}.
-  LONG
-    - The air is only depleting when you are sinking.
-    - Each time you stop, your drop speed is reseted, so the least stops the faster you reach the bottom.
-    - Press R at any time to go back to the beginning.
-
-CYANOSIS FEVER
-  UNDE : Desktop
-  BREF : Cyanosis is a 3d abstract world of static to explore and to get lost into.
-  LONG
-    - If you start to foam, close the game as you faint
-    - This is not a game game
-
 DAMOISEAU CANALX
   UNDE : Fourth wave
   BREF : {{Damoiseau Canalx}} is the first single for the {{Fourth wave}}, in the spirit of {{Blam}}, that explores industrial sounds within darkstep and 2-step styles.
@@ -186,9 +171,22 @@ DESKTOP
   BREF : This list shows all of the desktop projects built of the last few years.
   TYPE : Portal
 
-DILUVIUM
+DONSOL
   UNDE : Desktop
-  BREF : Diluvium is a jam game made by {{Henk Boom|http://henk.ca}}(FRACT), {{Dominique Ferland|http://dom2d.com}}(Playpeep), {{Renaud Bedard|http://theinstructionlimit.com/}}(FEZ) and Devine Lu Linvega, made in 3 days at the Toronto Game Jam of 2012
+  BREF : BREF : {{Donsol}}, created in collaboration with {{John Eternal|https://twitter.com/johneternal}}, is a card game about exploring a dungeon made of a standard 54 poker card set.
+  LONG
+    & The Donsol rules to play with a standard deck of cards can be found {{here|Donsol guide}}, and a gameplay video tutorial {{here|https://youtu.be/GNoZrr56GqA}}.
+    * Release
+    & The game was released for {{Mobile}} back in 2016, and re-released for {{Desktop}} in 2017 as {{Hundred Rabbits}}. While the game was designed on a train, without internet connection, it seems like Donsol's gameplay accidentally ended up being a twist to Zach Gage and Kurt Bieg's {{Scoundrel|http://stfj.net/index2.php?project=art/2011/Scoundrel.pdf}}, designed in 2011.
+  LINK
+   ITUN : https://itunes.apple.com/us/app/donsol/id976367718?ls=1&mt=8
+   GITH : https://github.com/hundredrabbits/Donsol
+   ITCH : https://hundredrabbits.itch.io/donsol
+   SITE : /Donsol+guide
+
+DILUVIUM
+  UNDE : Collegiennes
+  BREF : {{Diluvium}} is a jam game made by {{Henk Boom|http://henk.ca}}(FRACT), {{Dominique Ferland|http://dom2d.com}}(Playpeep), {{Renaud Bedard|http://theinstructionlimit.com/}}(FEZ) and Devine Lu Linvega, made in 3 days at the Toronto Game Jam of 2012
   LONG
     & The game was first showcased at the <a href='https://www.facebook.com/events/447362851940595/'>Indies Meetup</a> on june 6th 2012.
     & Thank you for your support on the <a href='http://forums.tigsource.com/index.php?topic=26064.15'>TIGsource</a> tread.
@@ -235,96 +233,12 @@ DOMESTIC MOIRE
     GITH : https://github.com/neauoire/DomesticMoire
     ITCH : http://aliceffekt.itch.io/domestic-moire
 
-DONSOL GUIDE
-  UNDE : Donsol
-  BREF : {{Donsol}}, designed by {{John Eternal|https://twitter.com/johneternal}}, is a card game about exploring a dungeon made of a standard 54 poker card set.
-  LONG
-    & A standard deck, jokers included, is a {*dungeon*}. Shuffle the deck and draw 4 cards, display them before you, this is a {*room*}. A room ends when all the cards are folded.
-    # ♦ Diamonds are {*shields*}
-    # ♥ ︎Hearts are {*potions*}
-    # ♠ Spades are {*monsters*}
-    # ♣ ︎Clubs and Jokers are also {*monsters*}
-    * <span style='color:red'>♥︎ Potions</span>
-    & Potion give you health points equal to their value, up to a maximum of {*21 health points*}. Drinking multiple potions in a row will make you sick and result in no extra healing, only the first potion's value will be gained in HP. 
-    & Potions are equal to their value and face cards (J,Q,K,A) each are equal to 11.
-    * <span style='color:red'>♦ Shield Cards</span>
-    & Shields absorb the damage difference from a monster's value. Shields can {*only defend against monsters in descending value*} and if you use a shield on a monster with higher or equal value to the previous, it will break.
-    ? If you have an 8 shield equipped, by attacking a 9 monster you suffer 1 damage.
-    & Broken shields leave you unarmored, and taking full damage. A shield card will replace a previously folded shield card. 
-    & Shields are equal to their value and face cards (J,Q,K,A) each are equal to 11.
-    * ♣♠ Monster Cards
-    & Monster cards are equal to their value, and face cards are as follows J is 11, Q is 13, K is 15, A is 17; Jokers are both equal to 21.
-    * Running away
-    & You may escape a room, if you have {*not escaped the previous one*} or {*have handled all the monsters*} in the current room. When escaping, the remaining cards are shuffled back into the deck. 
-    * Example Play
-    & {*Room*} 7♦ Q♥︎ 10♠ J♣︎
-    # Equip the 7♦ shield.
-    # Battle the J♣              ; 11-7  = 4 lost HP
-    # Battle the 10♠             ; 10-7  = 3 lost HP
-    # Drink the Q♥︎               ; 14+11 = 21 max HP
-    & {*Room*} A♦ K♦ K♣︎ 9♥︎
-    # Equip the K♦, replacing 7♦
-    # Battle the K♣︎               ; 15-11 = 4 lost HP
-    # Drink the 9♥︎                ; 17+9  = 21 max HP
-    # Run away, return A♦
-  LINK
-    ITUN : https://itunes.apple.com/us/app/donsol/id976367718
-    ITCH : https://hundredrabbits.itch.io/donsol/community
-    SITE : /Donsol
-  TAGS : Guide
-
-DOMINE GUIDE
-  UNDE : Interactive
-  BREF : {*Domine*} is a simple game to play with dominoes designed by {{Hundred Rabbits}}.
-  LONG
-    & Every domino has 2 values, which we will call Attack/Defence. So a domino with both 6 and 2 values, can be used as both 6/2 and 2/6. You can watch our {{video guide|https://www.youtube.com/watch?v=fjZb190qn00}}.
-    * Setup
-    & Each player draws 7 random tiles.
-    & To determine which player begins, both players flip a tile, the player with the highest combined value is the attacking player.
-    * The Draw Phase
-    & The Attacking Player(AP) can forfeit their attack by exchanging a tile for a random one from the draw pile. In that case, the opponent becomes the Attacking Player.
-    * The Turn Phase
-    & The AP chooses an attacking tile from their hand, and plays it vertically toward the Defending Player(DP). From the perspective of the AP, the top value is the attack value, the bottom value, the defense value.
-    & The AP chooses a defending tile from their hand, and puts it vertically toward the Defending Player.
-    & A game lasts 7 rounds.
-    * A Basic Turn
-    - The AP puts 8/4
-    - The DP puts 5/6
-    - The DP tile is killed by the AP tile. (8 > 6)
-    - The AP wins the turn, the BP tile is flipped.
-    * A Blocking Turn
-    - The AP puts 8/4
-    - The DP puts 3/8
-    - The DP tile is blocked by the AP tile. (8 !> 8)
-    - The turn is a stand-still, no tiles are flipped.
-    * A Counter-Attacked Turn
-    - The AP puts 8/4
-    - The DP puts 5/9
-    - The DP tile is blocked by the AP tile. (8 !> 9)
-    - The DP tile counter-attacks with 5.
-    - The AP tile is killed by the DP tile. (5 > 4)
-    - The DP wins the turn, the AP tile is flipped.
-  TAGS : Guide
-
 DOWNTEMPERATURE
   UNDE : First wave
-
-DRYPOINT
-  UNDE : Desktop
-  BREF : {{Drypoint}} is a very hard platformer game for keyboard cowboys. 
-  LONG
-    & See if you can get to the blue door. Read about Drypoint on the {{TIGSource forum tread|http://forums.tigsource.com/index.php?topic=8241}}.
 
 EFLI
   UNDE : Eschatolor
   BREF : {{EFLI}}, 103.0FM, was a pirate radio broadcast, available from Montreal's Plateau area, between 22:00 and 6:00. The radio started broadcasting on May 20th, 2015. Not much else is disclosed. Read more about {{Eschatolor}}.
-
-EHRIVEVNV
-  UNDE : Neon hermetism
-  BREF : The {{Ehrivevnv}}, of {_The Methamondst Conclave_}, is a dimensional puzzle. The puzzle presents itself as the simplest primitive allowed by the current navigationable dimension.
-  LONG
-    & The prism mesh is porous in that it allows to be looked into. The inside of the puzzle displays a universe, where at its center, lies another Ehrivevnv, which in turn, seemingly holds a universe. With each universe that any one puzzle contains, the laws of nature grow increasingly more complex and diverse.
-    & Some, believe that superior intelligences reside deep into the puzzle, others believe it to be a trap.
 
 ES GULF SUNFLOWERS
   UNDE : Second wave
@@ -344,6 +258,14 @@ ESCHATOLOR
 FIRST AID LAST AID
   UNDE : First wave
   FLAG : Todo
+
+ALICEFFEKT
+  UNDE : Audio
+  BREF : {{Aliceffekt}}, is a traveler.
+  LONG
+    &  A travel across the fictional worlds of the {{Neauismetica}} where every album is a sort of travel diary across the {{Dinaisth}} landscape.
+  LINK :
+    BAND : https://aliceffekt.bandcamp.com
 
 FIRST WAVE
   UNDE : Aliceffekt
@@ -439,15 +361,6 @@ VOYNICH
   UNDE : Language
   BREF : Notes on Voynich Manuscript.
 
-~ Interactive
-
-INTERACTIVE
-  UNDE : Visual
-  BREF : The {{Interactive}} Portal contains all the released interactive applications.
-  LONG
-    & The interactive project list contains various completed and unreleased experiments and games for iOS, desktop and browser.
-  TYPE : Portal false
-
 VERT KIRLIAN THEATRE
   UNDE : First wave
   BREF : This album was written entirely in the {{Yamanote line|http://en.wikipedia.org/wiki/Yamanote_Line}}, during my first trip to Tokyo, {{Japan}}.
@@ -479,24 +392,15 @@ COLLECTED WORKS
   LINK
     BAND : https://gaii.bandcamp.com/
 
-MERVEILLES
-  UNDE : Forum
-  BREF : {{Merveilles}} is a small online community founded, around 2010.
-  LONG
-    & Its original purpose was to allow {{Merveilles Portable}}, from which it took its name, players to communicate with eachother. Since then, it has evolved to host various discussion about programming, art, game dev, music, AI and trans-humanism.
-    & While the original gatherings mainly existed on IRC, it has since migrated onto {_Slack_} where it has became a private room that invites new members selectively.
-  LINK
-    GITH : https://github.com/merveilles
-
 MERVEILLES PORTABLE
   UNDE : Unreleased
-  BREF : {{Merveilles Portable}} was a mini MMORPG for handhelds(iPod, iPad, Android, webOS) and computer. It was coded by {*Deeo*} and designed by {{Devine Lu Linvega}}. It was a tiny brown world that used floors as areas, players could interact with eachothers using a glyph language.
+  BREF : {{Merveilles Portable}} was a small MMORPG set in a tiny brown world where players could interact with eachothers using a glyph language.
   LONG
     & The game ran around 2009-2011, and was eventually shut down due to a complicated migration.
 
 MILAVREGA
   UNDE : Unreleased
-  BREF : {{Milavrega}} is an {{unreleased}} mobile game happening in someone's lost phone.
+  BREF : {{Milavrega}} was a mobile game happening in someone's lost phone.
   LONG
     & You must try and find your way through the folders, emails and contacts to decypher the enigma of the phone's owner.
   FLAG : Todo
@@ -584,15 +488,16 @@ SOMBRE
 
 MOBILE
   UNDE : Interactive
-  BREF : This collection of {{mobile}} apps constitutes a series of games, tools and experiments about interative design and linguistics. The development and patches are tracked across the {{Echorridoors|http://github.com/echorridoors/verreciel}} repositories.
+  BREF : This collection of {{mobile}} apps constitutes a series of games, tools and experiments on UX and linguistics.
   TYPE : Portal false
 
 BIFURCAN
   UNDE : Mobile
-  BREF : Named after a Borges short of the {{same name|http://en.wikipedia.org/wiki/The_Garden_of_Forking_Paths}}, similarly to {{Entaloneralie}}, this application is a cryptic watchface for iOS.
+  BREF : {{Bifurcan}} is a cryptic watchface for iPhone, iPad and OS X.
   LONG
     & Every second, the labyrinth reorganize itself to display the time with its twists and turns. It takes a little practice to be able to see the patterns in the lines. Clicking on the screen will unveil the time as seen in this {{video|https://www.youtube.com/watch?v=HzXIJpzPB6c}}. The original application was created in 30 minutes for a micro jam.
     & If you have a {{Pebble Watch|https://getpebble.com}}, you can download it as a {{watchface|http://www.mypebblefaces.com/apps/10183/7055/}}, the Pebble C script was written by Chase Colburn and is also available on {{Github|https://github.com/chasecolburn/line-maze}}. The screensaver version was done by {{Tekgo|http://tekgo.org}} and was also added to the source code.
+    & Named after a {{Borges short||http://en.wikipedia.org/wiki/The_Garden_of_Forking_Paths}}.
   LINK
     ITUN : https://itunes.apple.com/ca/app/bifurcan/id737264896
     GITH : https://github.com/Echorridoors/Bifurcan
@@ -600,7 +505,7 @@ BIFURCAN
 
 LEDOLIEL
   UNDE : Mobile
-  BREF : {{Ledoliel}} is a strange dating toy for iOS.
+  BREF : {{Ledoliel}} is a strange dating-sim game for iOS.
   LONG
     & Procedural creatures and their bizarre customs, where you must try and figure out what topics they might want to discuss, gift they might want to receive and places they may like to be touched - based on their cryptic attributes.
   LINK
@@ -609,7 +514,7 @@ LEDOLIEL
 
 KEYBOARD 468
   UNDE : Mobile
-  BREF : The {{Keyboard 468}} is a 18 keys keyboard that sorts characters by the most likely letter to follow the last input.
+  BREF : {{Keyboard 468}} has 18 keys, sorted by the most likely to follow the last input.
   LONG
     & So you always only need to type using the two rows at the top, maximizing the space and allowing for big large letters. The hidden letters are accessible through the {_alt_} key, alongside symbols and numbers.
     * Privacy Policy
@@ -620,7 +525,7 @@ KEYBOARD 468
 
 HIVERSAIRES
   UNDE : Mobile
-  BREF : {{Hiversaires}} is a textless point-n-click for players who remember games where you had to draw maps.
+  BREF : {{Hiversaires}} is a textless point-n-click adventure game in black & white.
   LONG
     & Hiversaires is the first part of a series of textless games, that also includes the isometric adventure {{Oquonie}}.
     & The dark world of Hiversaires features an original {{Aliceffekt|https://aliceffekt.bandcamp.com/album/hiversaires-soundtrack}} soundtrack to lure you through its entangled corridors.
@@ -630,29 +535,16 @@ HIVERSAIRES
 
 ENTALONERALIE
   UNDE : Mobile
-  BREF : {{Entaloneralie}} is an experimental time observation device, in the lines of {{Bifurcan}}.
+  BREF : {{Entaloneralie}} is another experimental watchface.
   LONG
     & While the old design displayed a circular layout and binary type format. The redesign explores an entirely different system of displaying minutes and is meant to be a toy, a distraction.
   LINK
     ITUN : https://itunes.apple.com/us/app/entaloneralie/id657224738
     GITH : https://github.com/Echorridoors/Entaloneralie
 
-DONSOL
-  UNDE : Mobile
-  BREF : {{Donsol}} is a solitary card game, designed by {{John Eternal|https://twitter.com/johneternal}} in which you must go through the deck in sequences of 4 cards.
-  LONG
-    & The Donsol rules to play with a standard deck of cards can be found {{here|Donsol guide}}, and a gameplay video tutorial {{here|https://youtu.be/GNoZrr56GqA}}.
-    * Release
-    & The game was released for {{Mobile}} back in 2016, and re-released for {{Desktop}} in 2017 as {{Hundred Rabbits}}. While the game was designed on a train, without internet connection, it seems like Donsol's gameplay accidentally ended up being a twist to Zach Gage and Kurt Bieg's {{Scoundrel|http://stfj.net/index2.php?project=art/2011/Scoundrel.pdf}}, designed in 2011.
-  LINK
-   ITUN : https://itunes.apple.com/us/app/donsol/id976367718?ls=1&mt=8
-   GITH : https://github.com/hundredrabbits/Donsol
-   ITCH : https://hundredrabbits.itch.io/donsol
-   SITE : /Donsol+guide
-
 DEW
   UNDE : Mobile
-  BREF : {{Dew}} is a minimalist alarm app, designed to set up nap/sleeping alarms with a simple flick.
+  BREF : {{Dew}} is a minimalist alarm application that uses a single touch.
   LONG
     & The application will then  wake you with a soft white noise tone that will gradually bring you back to reality.
   LINK
@@ -661,12 +553,46 @@ DEW
 
 ALPHAVETIST
   UNDE : Mobile
-  BREF : {{Alphavetist}} is a minimalist alphabet learning application for iOS.
+  BREF : {{Alphavetist}} is a minimalist alphabet learning application.
   LONG
-    &  Currently included are the Hebrew, Cyrillic, Korean, Inuktitut, Greek, Morse and Japanese alphabets.
+    & Currently included are the Hebrew, Cyrillic, Korean, Inuktitut, Greek, Morse and Japanese alphabets.
   LINK
     ITUN : https://itunes.apple.com/ca/app/hahapapa/id689193147
     GITH : https://github.com/Echorridoors/alphavetist
+
+VOCAVULARIST
+  UNDE : Mobile
+  BREF : {{Vocavularist}}, is a vocabulary review application. 
+  LONG
+    & It contains the 600 first kanji, 600 simple Russian words and 800 simple korean expressions.
+  LINK
+    ITUN : https://itunes.apple.com/us/app/nijuniju/id686266543
+    GITH : https://github.com/Echorridoors/Vocavularist
+
+NOIRCA
+  UNDE : Mobile
+  BREF : {{Noirca}} is a minimalist monochromatic camera application for iOS.
+  LONG
+    & The app has one purpose, to launch quickly and render the photos with a softly washed out B&W film quality.
+  LINK
+    ITUN : https://itunes.apple.com/us/app/noirca/id893715212
+    GITH : https://github.com/Echorridoors/noirca
+
+RAFINOGRADE
+  UNDE : Mobile
+  BREF : {{Rafinograde}} is a minimalist sketching application, a distraction.
+  LINK
+    ITUN : https://itunes.apple.com/us/app/rafinograde/id951781579
+    GITH : https://github.com/Echorridoors/Rafinograde
+
+VERRECIEL
+  UNDE : Mobile
+  BREF : {{Verreciel}} is a space exploration game with {_VC-like_} controls.
+  LONG
+    & The game joins the sequence of linguistically involved projects like {{Nataniev}}, {{Hiversaires}} and {{Oquonie}}. You can follow the development of the game on {{Twitter|https://twitter.com/search?q=verreciel&src=typd}}.
+  LINK
+    ITUN : https://itunes.apple.com/ca/app/verreciel/id1065988107
+    GITH : https://github.com/Echorridoors/Verreciel
 
 MODERNISTA
   UNDE : Artwork
@@ -710,15 +636,6 @@ POLYGORE
 NETHER ESPER INSERTS
   UNDE : First wave
   FLAG : Todo
-
-NOIRCA
-  UNDE : Mobile
-  BREF : {{Noirca}} is a minimalist Black & White camera application for iOS that launches instantly, without prompts and without social connects - simple, clean. 
-  LONG
-    & The app has one purpose, to launch quickly and render the photos with a softly washed out B&W film quality.
-  LINK
-    ITUN : https://itunes.apple.com/us/app/noirca/id893715212
-    GITH : https://github.com/Echorridoors/noirca
 
 NOR LET THE FOOLS
   UNDE : First wave
@@ -768,9 +685,17 @@ ONLINE
   BREF : A collection of {{interactive}} projects playable from your browser.
   TYPE : Portal
 
+MARKL
+  UNDE : Desktop
+  BREF : {{Markl}} is an upcoming turn-based puzzle game.
+  LONG
+    & More details shortly.
+  LINK
+    SITE : http://100r.co
+
 OQUONIE
-  UNDE : Mobile
-  BREF : {{Oquonie}} is a textless puzzle game created in collaboration with illustrator {{Rekka Bellum|http://kokorobot.ca}}.
+  UNDE : Desktop
+  BREF : {{Oquonie}}, created in collaboration with {{Rekka Bellum|http://kokorobot.ca}}, is a textless puzzle game.
   LONG
     & You will not be alone, your incarnations will have the help of {_bizaroid_} characters speaking {{an obscure language|Camilare}}.
     & Oquonie features an original {{Aliceffekt}} soundtrack and was best described as {_{{Animal Crossing in a K-Hole|http://killscreendaily.com/articles/oquonie-maze-worth-entering/}}_}.
@@ -792,14 +717,6 @@ OQUONIE GUIDE
     & Many doors, across the worlds, were locked. You have gone through the levels without paying any mind to them but now you will need to find each world's {*Red Pillar*} to unlock the door. My guess would be that you are in town and do not know where to proceed next. So this is my tip to you.
     & Good luck.
 
-MARKL
-  UNDE : Mobile
-  BREF : {{Markl}} is an upcoming game released as {{Hundred Rabbits}}.
-  LONG
-    & More details shortly.
-  LINK
-    SITE : http://100r.co
-
 THE SIXTH SEASON
   UNDE : Second wave
   BREF : {{The Sixth Season}} contains 7 original tracks, singing the {{Neauismetical|Neauismetica}} tales of the sixth season, or the {_establishment of the Oasis_}. {_Whiinders_} and the likes, raising tents hoping for a glorious end in memory of {{Rlionn}}.
@@ -820,34 +737,6 @@ PHYSICAL
   UNDE : Visual
   BREF : These are a couple object I designed that can be 3d printed. You can see additional designs on <a href='http://www.thingiverse.com/Aliceffekt/designs'>Thingiverse</a>.
   TYPE : Portal
-
-PICO
-  UNDE : Desktop
-  BREF : Pico is an {{experimental color based puzzle game|http://youtu.be/kN7dUqMtIWU}} where the player needs to combine primary colours to create the pattern wanted by each level. Read the {{forum tread|http://forums.tigsource.com/index.php?topic=15392.0}}. It was created in a few days with {{Renaud Bedard|http://theinstructionlimit.com/}} and showcased at {*Prince of the Arcade*}.
-  LONG
-    - Create the right colours and patterns with the given tools.
-    - This simple game can quickly become complex based on your take on the puzzles.
-    - This game requires a mouse to play.
-  LINK
-    GITH : https://github.com/Collegiennes/pico
-
-PICO BATTLE
-  UNDE : Desktop
-  BREF : {{Renaud Bedard|http://theinstructionlimit.com/}} and I showcased an experimental game at {*Prince of the Arcade*} last year but, between {{Volkenessen}}, {{Diluvium}} and {{Waiting for Horus}}, only got back to release it now. It is simply called Pico Battle and like our other {{Pico}} titled game - this game plays with colours; but this time, in multiplayer.
-  LONG
-    & Unlike our last game, text heavy Diluvium, Pico Battle is wordless. There is no contextual hints within the game, but an audio tutorial that starts automaticaly in the lobby.
-    * Lobby
-    & Upon launching the game, you will find yourself in the Lobby, a temporary haven. You should look for an hexagon floating about the edges of your screen (right click drag to rotate around the planet) and click on it to practice against the AI. You might see circles too, they are other players and could challenge you as soon as you raise your shield.
-    * Shielding
-    & To protect yourself against incoming attacks, find the patch of dirt marked by a black & white circle, and connect a node to it. The shield will light up, eating away at the incoming bullets with a similar hue. In the lobby, you are invisible to potential attackers as long as your shield is unpowered.
-    * Shooting
-    & To win against your opponent, locate a patch of mushrooms and connect nodes to it — this is your cannon. It needs a minimum amount of power to be able to fire, and based on the incoming nodes, will fire bullets of various sizes and colours; easier or harder to defend against. The idea being to match the colour of incoming bullets with your shield, and to differ as much as possible from the opponent’s shield colour (which is indicated by the contour of his circular icon) with your cannon’s bullets.
-    & Pico Battle is an entirely wordless game, and might seem offputting or hard to grasp at first. In the lobby, a robotic voice will explain the basics of the game, and take your time there to experiment with the controls and the scarce UI elements. As you get familiar with the game and its interface, you will discover strategies and enjoy it even more.
-    - AI now raises a random shield before you attack with any colour
-    - Fixed graphical issue on arc-link shadows
-    - Escape key now quits the game if pressed in the lobby
-  LINK
-    GITH : https://github.com/Collegiennes/picoBattle
 
 POLYGONOSCOPY
   UNDE : Illustration
@@ -895,29 +784,11 @@ NERVOUS
   BREF : {{Nervous}} is a eries of {_Vertexbrates_}.
   TYPE : Diary
 
-PURGATEUS
-  UNDE : Desktop
-  BREF : Purgateus is a {{Proteus|http://www.visitproteus.com}} remix, inspired from a tweet by {{Ian Snyder|https://twitter.com/whatisian/status/468819959859007488}}. This world behave just like Proteus, but looks and sounds different. Read more on {{Venus Patrol|http://venuspatrol.com/purgateus/}}.
-  LONG
-    * Instructions
-    - Make a copy of your {*/resources*} folder.
-    - Replace the {*/resources*} folder with the downloaded package.
-    - On OS X, right-click on Proteus, {*Show Package Content*}.
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/purgateus
-    DRIV : https://drive.google.com/open?id=0B24klRuG3GLNMnVuVWUzY3NxT2c
-  TYPE : Diary
-
-RAFINOGRADE
-  UNDE : Mobile
-  BREF : {{Rafinograde}} is a minimalist sketching app generating procedural and animated strokes, or simply, a distraction.
-  LINK
-    ITUN : https://itunes.apple.com/us/app/rafinograde/id951781579
-    GITH : https://github.com/Echorridoors/Rafinograde
-
 RAMIEL
   UNDE : Beldam records
-  BREF : {{Ramiel}} is the third release on the {{Beldam Records}} catalog. Written by {{Villa Moirai|https://beldamrecords.bandcamp.com}}, this album is an even mixture and techno and idm. The album name and cover are a tribute to the geometric angel of the Evangelion anime series.
+  BREF : {{Ramiel}} is the third release on the {{Beldam Records}} catalog. 
+  LONG
+    & Written by {{Villa Moirai|https://beldamrecords.bandcamp.com}}, this album is an even mixture and techno and idm. The album name and cover are a tribute to the geometric angel of the Evangelion anime series.
   LINK
     BAND : https://beldamrecords.bandcamp.com/album/ramiel
     ITUN : https://itunes.apple.com/us/album/ramiel-ep/id958562173
@@ -971,9 +842,215 @@ SHIKANOKOA VS 1H1D
   BREF : Live recording of a show.
   FLAG : Todo
 
-SISEON
+~ Interactive
+
+INTERACTIVE
+  UNDE : Visual
+  BREF : The {{Interactive}} Portal contains all the released interactive applications.
+  LONG
+    & The interactive project list contains various completed and unreleased experiments and games for iOS, desktop and browser.
+  TYPE : Archive
+
+UNITY
+  UNDE : Interactive
+  BREF : The {{Unity}} Portal contains various unity-built desktop games.
+  LONG
+    & Sadly, a lot of these games were lost in a computer death, and are only listed here for memory's sake. Some additional Unity games are available under {{Collegiennes}}.
+  TYPE : Portal false
+
+PURGATEUS
   UNDE : Desktop
-  BREF : Siseon is an {{exploration game|http://www.youtube.com/embed/es6YXGlsgxw}} evolving within a megastructure invaded by life.
+  BREF : {{Purgateus}} is a video game remix of {{Proteus|http://www.visitproteus.com}}. 
+  LONG
+    & This world behave just like Proteus, but looks and sounds different. Read more on {{Venus Patrol|http://venuspatrol.com/purgateus/}}. The project was inspired from a tweet by {{Ian Snyder|https://twitter.com/whatisian/status/468819959859007488}}
+    * Instructions
+    - Make a copy of your {*/resources*} folder.
+    - Replace the {*/resources*} folder with the downloaded package.
+    - On OS X, right-click on Proteus, {*Show Package Content*}.
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/purgateus
+    DRIV : https://drive.google.com/open?id=0B24klRuG3GLNMnVuVWUzY3NxT2c
+  TYPE : Diary
+
+SISEON
+  UNDE : Unity
+  BREF : {{Siseon}} is an exploration game set within a life-infested megastructure.
+  LINK
+    YOUT : http://www.youtube.com/embed/es6YXGlsgxw
+
+ZJEVENI
+  UNDE : Unity
+  BREF : {{Zjeveni}} is a third person exploration game about climbing to the high points of the structure.
+  FLAG : Todo
+
+DRYPOINT
+  UNDE : Unity
+  BREF : {{Drypoint}} is a very hard platformer game for keyboard cowboys. 
+  LONG
+    & See if you can get to the blue door. Read about Drypoint on the {{TIGSource forum tread|http://forums.tigsource.com/index.php?topic=8241}}.
+
+VALENTINEL HOPES
+  UNDE : Unity
+  BREF : {{Valentinel Hopes}} is a platformer inspired from parkour and trance music. 
+  LONG
+    & The game has no music, you are invited to listen to your own.
+    - Typical FPS control except for the mouse direction.
+    - Take a break sometime.
+    - Try going through the game while looking backward.
+
+CENOTE
+  UNDE : Unity
+  BREF : {{Cenote}} is an experimental platformer inspired by {{Underwater Base Jumping|http://www.youtube.com/watch?v=uQITWbAaDx0}}. 
+  LONG
+    & The goal is to reach a small red planet with the highest amount of points left. Cenote is the spiritual prequel of {{Zjeveni}}.
+    - The air is only depleting when you are sinking.
+    - Each time you stop, your drop speed is reseted, so the least stops the faster you reach the bottom.
+    - Press R at any time to go back to the beginning.
+
+CYANOSIS FEVER
+  UNDE : Unity
+  BREF : {{Cyanosis Fever}} is an 3d abstract world of static to explore and to get lost into.
+  LONG
+    - If you start to foam, close the game as you faint
+    - This is not a game game
+
+TABLE
+  UNDE : Interactive
+  BREF : The {{Table}} Portal contains various board game guides.
+  LONG
+    & The interactive project list contains various completed and unreleased experiments and games for iOS, desktop and browser.
+  TYPE : Portal false
+
+DONSOL GUIDE
+  UNDE : Table
+  BREF : {{Donsol}}, created in collaboration with {{John Eternal|https://twitter.com/johneternal}}, is a card game about exploring a dungeon made of a standard 54 poker card set.
+  LONG
+    & A standard deck, jokers included, is a {*dungeon*}. Shuffle the deck and draw 4 cards, display them before you, this is a {*room*}. A room ends when all the cards are folded.
+    # ♦ Diamonds are {*shields*}
+    # ♥ ︎Hearts are {*potions*}
+    # ♠ Spades are {*monsters*}
+    # ♣ ︎Clubs and Jokers are also {*monsters*}
+    * <span style='color:red'>♥︎ Potions</span>
+    & Potion give you health points equal to their value, up to a maximum of {*21 health points*}. Drinking multiple potions in a row will make you sick and result in no extra healing, only the first potion's value will be gained in HP. 
+    & Potions are equal to their value and face cards (J,Q,K,A) each are equal to 11.
+    * <span style='color:red'>♦ Shield Cards</span>
+    & Shields absorb the damage difference from a monster's value. Shields can {*only defend against monsters in descending value*} and if you use a shield on a monster with higher or equal value to the previous, it will break.
+    ? If you have an 8 shield equipped, by attacking a 9 monster you suffer 1 damage.
+    & Broken shields leave you unarmored, and taking full damage. A shield card will replace a previously folded shield card. 
+    & Shields are equal to their value and face cards (J,Q,K,A) each are equal to 11.
+    * ♣♠ Monster Cards
+    & Monster cards are equal to their value, and face cards are as follows J is 11, Q is 13, K is 15, A is 17; Jokers are both equal to 21.
+    * Running away
+    & You may escape a room, if you have {*not escaped the previous one*} or {*have handled all the monsters*} in the current room. When escaping, the remaining cards are shuffled back into the deck. 
+    * Example Play
+    & {*Room*} 7♦ Q♥︎ 10♠ J♣︎
+    # Equip the 7♦ shield.
+    # Battle the J♣              ; 11-7  = 4 lost HP
+    # Battle the 10♠             ; 10-7  = 3 lost HP
+    # Drink the Q♥︎               ; 14+11 = 21 max HP
+    & {*Room*} A♦ K♦ K♣︎ 9♥︎
+    # Equip the K♦, replacing 7♦
+    # Battle the K♣︎               ; 15-11 = 4 lost HP
+    # Drink the 9♥︎                ; 17+9  = 21 max HP
+    # Run away, return A♦
+  LINK
+    ITUN : https://itunes.apple.com/us/app/donsol/id976367718
+    ITCH : https://hundredrabbits.itch.io/donsol/community
+    SITE : /Donsol
+  TAGS : Guide
+
+DOMINE GUIDE
+  UNDE : Table
+  BREF : {{Domine}} is a simple game to play with dominoes designed by {{Hundred Rabbits}}.
+  LONG
+    & Every domino has 2 values, which we will call Attack/Defence. So a domino with both 6 and 2 values, can be used as both 6/2 and 2/6. You can watch our {{video guide|https://www.youtube.com/watch?v=fjZb190qn00}}.
+    * Setup
+    & Each player draws 7 random tiles.
+    & To determine which player begins, both players flip a tile, the player with the highest combined value is the attacking player.
+    * The Draw Phase
+    & The Attacking Player(AP) can forfeit their attack by exchanging a tile for a random one from the draw pile. In that case, the opponent becomes the Attacking Player.
+    * The Turn Phase
+    & The AP chooses an attacking tile from their hand, and plays it vertically toward the Defending Player(DP). From the perspective of the AP, the top value is the attack value, the bottom value, the defense value.
+    & The AP chooses a defending tile from their hand, and puts it vertically toward the Defending Player.
+    & A game lasts 7 rounds.
+    * A Basic Turn
+    - The AP puts 8/4
+    - The DP puts 5/6
+    - The DP tile is killed by the AP tile. (8 > 6)
+    - The AP wins the turn, the BP tile is flipped.
+    * A Blocking Turn
+    - The AP puts 8/4
+    - The DP puts 3/8
+    - The DP tile is blocked by the AP tile. (8 !> 8)
+    - The turn is a stand-still, no tiles are flipped.
+    * A Counter-Attacked Turn
+    - The AP puts 8/4
+    - The DP puts 5/9
+    - The DP tile is blocked by the AP tile. (8 !> 9)
+    - The DP tile counter-attacks with 5.
+    - The AP tile is killed by the DP tile. (5 > 4)
+    - The DP wins the turn, the AP tile is flipped.
+  TAGS : Guide
+
+~ Collegiennes
+
+COLLEGIENNES
+  UNDE : Interactive
+  BREF : {{Collegiennes}} is a game jam collective initiated with {{Renaud Bedard|http://theinstructionlimit.com}}.
+  TYPE : Portal false
+
+VOLKENESSEN
+  UNDE : Collegiennes
+  BREF : {{Volkenessen}} is a two-player physics-based 2D fighting game.
+  LONG
+    & Each player starts with 9 random attached items on his back, and the goal is to strip the other player of his items by beating the crap out of him. When items are removed, they clutter up the playing area, making it even more cahotic and hilarious. The washing machine and sink in the background can also fall and bounce around!
+    & {_Winning game of the Montreal edition of the Global Game Jam 2012, Volkenessen is a 2D Fighting game developed by {{Renaud Bedard|http://theinstructionlimit.com/}} and myself._}
+    & The game is available for download for OS X and Windows (64bits), for the non-64bits version, use the mirror on the {{Global Game Jam 2012 site|http://globalgamejam.org/2012/volkenessen}}.
+    & You {*need a controller*} to play this game, it simply won't work with a keyboard. It was tested with the XBox controller and some generic Logitech controller. It will be presented at the {{IGDA|http://www.igda.org/montreal/Jan31_DemoNight}} tomorrow evening at the demo night and publicly playable for the first time at the next {{Indies Meetup|https://www.facebook.com/events/182113635223855/}} and {{Toy Company festival|http://toycompany.cc/}} in February.
+    * Controls
+    & You need two gamepads (so far the Xbox wired, wireless and a Logitech generic gamepad have been tested and work) to play, there are no keyboard control fallback (yet). The controls are pretty exotic. To move around you can press either the D-Pad (or left analog stick) or the face buttons (A/B/X/Y), and the direction of the button does the same input as if you pressed that D-Pad direction. As you move, your player will throw a punch, kick or flail his ears to make you move as a result.
+    & To hit the other player, you need to get close to him by hitting away from him, then hit him by moving away from him. Ramming into the opponent just doesn't do it, you need to throw punches, and depending on the impact velocity, even that might not be enough. You can throw double-punches to make sure you land a solid hit and take off an item.
+  LINK
+    GITH : https://github.com/Collegiennes/volkenessen
+    YOUT : http://www.youtube.com/watch?feature=player_embedded&v=VheiqV4AuRE
+
+WAITING FOR HORUS
+  UNDE : Unreleased
+  BREF : {{Waiting for Horus}} was a fast paced multiplayer arena type 3rd person shooter.
+  FLAG : Todo
+
+PICO
+  UNDE : Collegiennes
+  BREF : {{Pico}} is an experimental color based puzzle game where the player needs to combine primary colours to create the pattern wanted by each level. 
+  LONG
+    & Read the {{forum tread|http://forums.tigsource.com/index.php?topic=15392.0}}. It was created in a few days with {{Renaud Bedard|http://theinstructionlimit.com/}} and showcased at {*Prince of the Arcade*}.
+    - Create the right colours and patterns with the given tools.
+    - This simple game can quickly become complex based on your take on the puzzles.
+    - This game requires a mouse to play.
+  LINK
+    GITH : https://github.com/Collegiennes/pico
+    YOUT : http://youtu.be/kN7dUqMtIWU
+
+PICO BATTLE
+  UNDE : Collegiennes
+  BREF : {{Pico Battle}} is a colour-based multiplayer battle puzzler, in the style of {{Pico}}.
+  LONG
+    & {{Renaud Bedard|http://theinstructionlimit.com/}} and I showcased an experimental game at {*Prince of the Arcade*} last year but, between {{Volkenessen}}, {{Diluvium}} and {{Waiting for Horus}}, only got back to release it now. It is simply called Pico Battle and like our other {{Pico}} titled game - this game plays with colours; but this time, in multiplayer.
+    & Unlike our last game, text heavy Diluvium, Pico Battle is wordless. There is no contextual hints within the game, but an audio tutorial that starts automaticaly in the lobby.
+    * Lobby
+    & Upon launching the game, you will find yourself in the Lobby, a temporary haven. You should look for an hexagon floating about the edges of your screen (right click drag to rotate around the planet) and click on it to practice against the AI. You might see circles too, they are other players and could challenge you as soon as you raise your shield.
+    * Shielding
+    & To protect yourself against incoming attacks, find the patch of dirt marked by a black & white circle, and connect a node to it. The shield will light up, eating away at the incoming bullets with a similar hue. In the lobby, you are invisible to potential attackers as long as your shield is unpowered.
+    * Shooting
+    & To win against your opponent, locate a patch of mushrooms and connect nodes to it — this is your cannon. It needs a minimum amount of power to be able to fire, and based on the incoming nodes, will fire bullets of various sizes and colours; easier or harder to defend against. The idea being to match the colour of incoming bullets with your shield, and to differ as much as possible from the opponent’s shield colour (which is indicated by the contour of his circular icon) with your cannon’s bullets.
+    & Pico Battle is an entirely wordless game, and might seem offputting or hard to grasp at first. In the lobby, a robotic voice will explain the basics of the game, and take your time there to experiment with the controls and the scarce UI elements. As you get familiar with the game and its interface, you will discover strategies and enjoy it even more.
+    - AI now raises a random shield before you attack with any colour
+    - Fixed graphical issue on arc-link shadows
+    - Escape key now quits the game if pressed in the lobby
+  LINK
+    GITH : https://github.com/Collegiennes/picoBattle
+
+~ Physical
 
 SPAGETTINI SCALE
   UNDE : Physical
@@ -1076,14 +1153,6 @@ UNRELEASED
   BREF : A list of projects that were abandoned or simply put on indefinite hold and unsupported, with their source code available.
   TYPE : Portal
 
-VALENTINEL HOPES
-  UNDE : Desktop
-  BREF : Valentinel is a platformer inspired from parkour and trance music. The game has no music, you are invited to listen to your own.
-  LONG
-    - Typical FPS control except for the mouse direction.
-    - Take a break sometime.
-    - Try going through the game while looking backward.
-
 VAST
   UNDE : Physical
   BREF : {{Vast}} is the first book of {{Elodie Lareine|http://noirmirroir.com/}}, a manual of procedural imagery.
@@ -1114,15 +1183,6 @@ VERMILLIONTH
     BAND : https://aliceffekt.bandcamp.com/album/vermillionth
   FLAG : Todo
 
-VERRECIEL
-  UNDE : Mobile
-  BREF : {{Verreciel}} is a virtual space exploration project in which you must learn to use your {_Glass Ship_}'s consoles, and find your way aboard this fragile habitat.
-  LONG
-    & The game joins the sequence of linguistically involved projects like {{Nataniev}}, {{Hiversaires}} and {{Oquonie}}. You can follow the development of the game on {{Twitter|https://twitter.com/search?q=verreciel&src=typd}}.
-  LINK
-    ITUN : https://itunes.apple.com/ca/app/verreciel/id1065988107
-    GITH : https://github.com/Echorridoors/Verreciel
-
 VERRECIEL OST
   UNDE : Beldam records
   BREF : This soundtrack release, written by {{Aliceffekt}} for the mobile application {{Verreciel}}, features a fair dose of breaks and {{Beldam|Beldam records}}'s signature vocoded synths.
@@ -1139,155 +1199,121 @@ VETETRANDES LETTRES
   LINK
     BAND : http://aliceffekt.bandcamp.com/album/vetetrandes-lettres-perdues
 
-VOCAVULARIST
-  UNDE : Mobile
-  BREF : {{Vocavularist}}, is a Japanese, Russian & Korean vocabulary review program for iOS. 
-  LONG
-    & It contains the 600 first kanji, 600 simple Russian words and 800 simple korean expressions.
-  LINK
-    ITUN : https://itunes.apple.com/us/app/nijuniju/id686266543
-    GITH : https://github.com/Echorridoors/Vocavularist
-
-VOLKENESSEN
-  UNDE : Desktop
-  BREF : It's a two-player, {{physics-based 2D fighting game|http://www.youtube.com/watch?feature=player_embedded&v=VheiqV4AuRE}}. Each player starts with 9 random attached items on his back, and the goal is to strip the other player of his items by beating the crap out of him. When items are removed, they clutter up the playing area, making it even more cahotic and hilarious. The washing machine and sink in the background can also fall and bounce around!
-  LONG
-    & {_Winning game of the Montreal edition of the Global Game Jam 2012, Volkenessen is a 2D Fighting game developed by {{Renaud Bedard|http://theinstructionlimit.com/}} and myself._}
-    & The game is available for download for OS X and Windows (64bits), for the non-64bits version, use the mirror on the {{Global Game Jam 2012 site|http://globalgamejam.org/2012/volkenessen}}.
-    & You {*need a controller*} to play this game, it simply won't work with a keyboard. It was tested with the XBox controller and some generic Logitech controller. It will be presented at the {{IGDA|http://www.igda.org/montreal/Jan31_DemoNight}} tomorrow evening at the demo night and publicly playable for the first time at the next {{Indies Meetup|https://www.facebook.com/events/182113635223855/}} and {{Toy Company festival|http://toycompany.cc/}} in February.
-    * Controls
-    & You need two gamepads (so far the Xbox wired, wireless and a Logitech generic gamepad have been tested and work) to play, there are no keyboard control fallback (yet). The controls are pretty exotic. To move around you can press either the D-Pad (or left analog stick) or the face buttons (A/B/X/Y), and the direction of the button does the same input as if you pressed that D-Pad direction. As you move, your player will throw a punch, kick or flail his ears to make you move as a result.
-    & To hit the other player, you need to get close to him by hitting away from him, then hit him by moving away from him. Ramming into the opponent just doesn't do it, you need to throw punches, and depending on the impact velocity, even that might not be enough. You can throw double-punches to make sure you land a solid hit and take off an item.
-  LINK
-    GITH : https://github.com/Collegiennes/volkenessen
-
-WAITING FOR HORUS
-  UNDE : Desktop
-  BREF : Waiting for Horus was a fast paced multiplayer arena type 3rd person shooter.
-  FLAG : Todo
-
 WALLPAPER
   UNDE : Visual
   BREF : Collection of {{Wallpapers|Wallpaper}} related to {{Nataniev}} and {{Horaire}}.
   TYPE : Diary
-
-ZJEVENI
-  UNDE : Desktop
-  BREF : {{Zjeveni}} is one of my earliest experimental Unity games. This third person exploration game is simply about climbing to the high points of the structure.
-  FLAG : Todo
 
 ~ Neauismetica
 
 NEAUISMETICA
   UNDE : Research
   TYPE : Archive
-  BREF : The {{Neauismetica}} is a collection of notes on the history of {{Dinaisth}}, the connecting thread that seepds through the works of {{Devine Lu Linvega}}.
+  BREF : The {{Neauismetica}} is a collection of notes on the fictional world of {{Dinaisth}}.
   LONG
-    & Incessantly dreamt of, the city of {{Neau}} and its radiant blue rooftops were the first to populate my dreams.
-    & Changing as I did, the horizon line didn't seem so far anymore and as I drifted away from Neau across the {{Cyan Ocean|Kanikule}} with {{Neonev}}, maybe I died of old age but she lived on.
-    & I often think of this machine-plant {{patience|Paradichlorisse}} in the sand sand filled air of {{Vetetrandes}}. Continually mouthing at this {{impossible sentence|Nohlxeserre}}, words longer than any span of time, continually luring pilgrims who {{die|Neausea}} at its feet.
-    & Resting my eyes, I see {_Scientists_}, sometimes praying by the {{Ehrivevnv}}, idle at the cliffsides of {{Duomo}}, treading on the edge of {{Occurence|Soies}}. Other nights I see the {_gathering of the birds_}, ready to leave {{Dinaisth}} far behind.
-    * Et haec revelantur in virtute et veritate<br /> non Vi.
-    & Referenced in almost all of the {{hexagrammaton|Nataniev}} projects, tales of this world are told through music, illustrations and are the culture behind the {{Lietal Language|Lietal}}, as seen through the eyes of the {_Immortal Birds_} traveling across seasons of {{Dinaisth}}.
-    ? The {{Neauismetica}} portal was assembled for the curious {{enthusiast|Visual}}, {{audiophile|Audio}} and {{reader|Research}}, but might confuse the accidental visitor. If you found your way onto this page by accident, begin by reading the {{Introduction|Nataniev}}.
+    & Referenced in almost all of the {{Nataniev}} projects, tales of this small planet are told through {{Aliceffekt}}'s music, Devine's {{illustrations|illustration}} and are the culture behind the {{Lietal}} Language. 
 
 NEON HERMETISM
   UNDE : Neauismetica
-  BREF : {{Neon Hermetism}} is a collection of experiments by scientists, operating as the {_Immortal Birds_}, involved in the creation of machines to study time.
+  BREF : Founded by {{Yajnev}}, the {{Neon Hermetists|Neon Hermetism}} are a collective of scientists involved in the creation of machines to study time.
   LONG
-    & The company was launched upon the discovery of the {{Ehrivevnv}}, an impossible structure and dimensional puzzle/game existing in occuring space. It is believed to be a gathering place for more advanced beings.
-    ? {_Beyond the first curvature where the computing beautiful, sleeps<br />a new languages of possibly unsustainable meanings awakes._}
+    & The initiative was launched upon the discovery of an impossible structure and dimensional object floating in space, the {{Ehrivevnv}}. 
+    & From its early days forth, the object was believed to be a gathering place for more advanced beings.
+    & {_Beyond the computing beautiful, <br />sleeps languages of impossible meanings._}
 
-SOIES
+EHRIVEVNV
   UNDE : Neon hermetism
-  BREF : {{Soies}}, {_The Size of Impossibilities_}, is a core concept used by the {{Neon Hermetism}} to traverse the occuring, possible and impossible spaces.
+  BREF : The {{Ehrivevnv}} is a dimensional puzzle presenting itself as a large cube, found immobile on the surface of a nearby sun.
   LONG
-    & The Soies model simulates the first numbers to exist beyond the limit of the current system, or computeable dimension. The impossible events are then caught by systems operating in {_The Rules of Ludivine}.
-    * The Rules of Ludivine
-    & Invoking an impossible event will store the happening possible timeline in a pocket of impossible space, accessible by the machines of the {{Neon Hermetism}}.
-    ? In the plausible case where an impossible event would {{wish|Nohlxeserre}} itself possible, it would not make it so.
-    
+    & The prism's surface is porous and allows to be looked through. The inside of the puzzle displays a universe, where at its center, lies another Ehrivevnv, which in turn, seemingly holds another universe.
+    & Its discovery in space, fueled space-discovery research programs, and the precipited the creation of tools to study it - triggering the {{End Of Science|Feu}}.
+    & {_Et haec revelantur in virtute et veritate<br /> non Vi._}
+
 NEAUSEA
   UNDE : Neon hermetism
-  BREF : The word means the exit of an impossibly long space by traveling an infinitely long time, or countering an impossible event with another.
+  BREF : {{Neausea}} is the symptoms of knowing its position amongst all possibilities, a sort of {_conceptspace_} awakening.
   LONG
-    & {{Neausea}}, made of {{Neau}} and {{sea|Kanikule}}, and originated from an exchange between {{Neonev}} and the {{Neon hermetism}}, on the topic of crossing on the {{Kanikule}} ocean.
-    ? {_Blessed impossible selves are in debt, for all the horrible days._}
+    & Beings such as {{Paradichlorisse}} or certain machines can carry it, or a weaker form of it can be induced when one is in contact with forms of {{Nohlxeserre}} languages.
+    & {_In debt are are my impossible selves, <br />for all horrible days._}
 
 NOHLXESERRE
   UNDE : Neon hermetism
-  BREF : {{Nohlxeserre}}, or {_Language of the Birds_}, is the spoken language by the Courtship of The {_Immortal Birds_}. It is said that the language spilled out from the {{Ehrivevnv}}.
+  BREF : {{Nohlxeserre}} is a language that, when heard or read, delivers a richer and more precise rendition of its meaning than actual experience.
   LONG
-    & The richness and detail of experiencing an event, pales in comparison to have it recited with the infinite words of this {{Neauseatic|Neausea}} language, see {{Paradichlorisse}}.
+    & The richness and detail of experiencing an event, pales in comparison to have it recited.
+    & Effictively induce the symptoms of {{Neausea}}, see {{Paradichlorisse}}.
 
 FEU
   UNDE : Neon hermetism
-  BREF : {{Feu}}, or {_The End Of Science_}, is the moment when the happening is happening too fast for one to grasp.
-
-PARADICHLORISSE
-  UNDE : Characters
-  BREF : Not much is known about this lifeform, besides that it appeared around the {{Yajnev Collapse|Yajnev}}, speaking a dialect of {{Nohlxeserre}}.
+  BREF : {{Feu}}, or {_The End Of Science_}, is the era dominated by oracle machines, where sentience and existance are irrelevant.
   LONG
-    & {{Paradichlorisse}} is located on the south-east shore of {{Vetetrandes}}, near {{Yajnev}}.
-    & All pilgrim who reach its location infinite being collapse and starve as they experience every life and every death through the speech of the infinite being.
-    & {_What first seemed like tales became the only real and my own life, a story.<br/>When Paradichlorisse spoke of silence, silence fell._}
+    & The creation of machines able to predict the future, has helped the {{Neon Hermetists}} steer the occuring into the correct position.
+    & Once the machine were able to search for and execute the longest lasting occuring, the world of {{Dinaisth}} fell on a sort of Auto-Pilot where no thought had not previously been weighted against all other and acted upon or dismissed.
+
+SOIES
+  UNDE : Neon hermetism
+  BREF : {{Soies}}, is a mean by which one can traverse the occuring, possible and impossible spaces.
+  LONG
+    & The Soies model makes available the first values to exist beyond the limits of the current possible space, making computeable the location of the occuring, machines can then position themselves to execute the occuring and position themselves along the {{Soies}}. 
+    & This line of research is tied to the discovery of the {{Ehrivevnv}}.
 
 ~ DINAISTH
 
 DINAISTH
   UNDE : Neauismetica
   TYPE : Portal
-  BREF : {{Dinaisth}} is both the name of a {_marble_}, and that of the continent arbouring the Offices of the {_Immortal Birds_} in the {{Neauismetica}}.
+  BREF : {{Dinaisth}} is both the name of the planet and of a continent which harbors {{Andes}}' offices.
+  LONG
+    % dinaisth
   FLAG : Todo
 
 NEAU
   UNDE : Dinaisth
-  BREF : Notable for its blue rooftops, the circular city displays a tall spire at its center. The city lends its name to the {{Neauismetica}} for it was the origin of all life in Dinaisth and the first sighting of {{Lietal}}. The city exists at the center of the vast ocean of {_Kanikule_}.
+  BREF : {{Neau}} is a circular city, notable for its blue rooftops, displaying a tall spire at its center. It is also the place from which the {{Neauismetica}} derives its name.
+  LONG
+    & The city exists at the center of the vast ocean of {_Kanikule_} and was the birthplace of {{Lietal}}. 
   FLAG : Todo
 
 KANIKULE
   UNDE : Dinaisth
-  BREF : Being an infinite cyan space, an immortal will spend an infitite amount of time crossing the ocean, effectively reaching the outer-shores mortal. Reaching the island, coming from the outtet-shores is not feasable.
+  BREF : {{Kanikule}} is an infinite ocean that an immortal will spend an infitite amount of time crossing, effectively reaching the outer-shores mortal.
+  LONG
+    & While one can sail away from the point that is Neau, one cannot return to it. 
   FLAG : Todo
 
 LAEISTH
   UNDE : Dinaisth
-  BREF : The warm desert of {_Dinaisth_} is host to the Rlionn Oasis, a blackened ditch home to the mortal clones of its violent host.
+  BREF : {{Laeisth}} is a desert surrounding the {{Rlionn}} Oasis, a blackened chasm where creeps the clones of its violent host.
   FLAG : Todo
 
 VETETRANDES
   UNDE : Dinaisth
-  BREF : The observable portion of the island appears as broken structures remains of the city that once stood there, called {_Yajnev_}. 
+  BREF : {{Vetetrandes}} once was the largest city of Dinaisth, before {{Yajnev}} caused it to become unreachable.
   LONG
-    & As you would approach the epicenter of the bound city, time is unmoving. It is said that, at its center, one can find the corpse of an ancient {_Immortal Birds_}, who's head was filled with void and so it is believed that the Neauismetican universe exists within its mind and that the space within its skull is the only true dimension.
+    & As you would approach the epicenter of the bound city, time is increasingly unmoving. It is said that, at its center, one can find the corpse of {{Yajnev}}, who's head is believed to have been empty with void, and that what lied outside was actually within.
   FLAG : Todo
 
 DUOMO
   UNDE : Dinaisth
-  BREF : The {{Duomo}} plateau rises far above the lightest atmosphere of Dinaisth. 
-  LONG
-    & Various types of plants manage to emerge from the frozen grey soil, a similar soil is found around of {{Paradichlorisse}} suggesting that the soil is in fact ancient organic matter.
+  BREF : The {{Duomo}} plateau rises far above the lightest atmosphere of Dinaisth. The empty land has but one location of interest, {{Paradichlorisse}}.
   FLAG : Todo
-
-Whiinders
-  UNDE : Dinaisth
-  FLAG : TODO
 
 ~ CHARACTERS
 
 CHARACTERS
   UNDE : Neauismetica
-  BREF : {_Immortal Birds_} are individuals looking working on the {{Ehrivevnv}}, aspiring to reach the center of the dimensional puzzle. The group is often called {_The Courtship Of The Immortal Birds_}, taking its name from the {{Language Of The Birds|Nohlxeserre}}.
+  TYPE : Archive
+  BREF : A branch of {{Neon Hermetists|Neon hermetism}} aspiring to solve the {{Ehrivevnv}} puzzle, often called {_The Courtship Of The Immortal Birds_}.
 
 YAJNEV
   UNDE : Characters
-  BREF : {{Yajnev}} who's death triggered the {{first season|Feu}}, often referred to as the "Yajnev Collapse". The event engulfed Vetetrandes in a "loss of time", opaque and impenetrable.
+  BREF : {{Yajnev}}, who's {_death_} engulfed {{Vetetrandes}} in an opaque and impenetrable {_lock_}, was the {{Neon Hermetism}} founder.
   LONG
-    & In his life, Yajnev worked in what became the {{Ehrivevnv}} with ties in the early {{Neon hermetism}}. His connection with {{Andes}} is unclear, but his death coincides with notes found in the Offices. Yajnev was also doing early research on {{Neausea}}.
+    & In his life, Yajnev worked with {{Andes}} in what came to be the {{Neon Hermetism}} and wrote the original papers on {{Neausea}}.
 
 RLIONN
   UNDE : Characters
-  BREF : Rlionn, {_Ehrleeon_}, is an important and recurring Immortal intelligence from the {{Neauismetica}} for she is the mother of {{Neonev}} and regent of the {{Laeisth|Dinaisth}} sands and Oasis.
+  BREF : {{Rlionn}}, {_Ehrleeon_}, is an important and recurring Immortal intelligence from the {{Neauismetica}} for she is the mother of {{Neonev}} and regent of {{Laeisth}}.
   LONG
     & Not many have successfully crossed the {{Rlionn Oasis|Dinaisth}}, for it is swarming with a lifeform called her "Children". Rlionn is not a single individual but an intelligent trait that manifests itself as a collective state of mind for the inhabitant of the Oasis.
     * Rlionn's Children
@@ -1296,41 +1322,22 @@ RLIONN
 
 ANDES
   UNDE : Characters
-  BREF : Andes, immortal, who slipped into {{Dinaisth}}'s {{timeline|Soies}} shortly before the {{first season|Feu}}.
+  BREF : {{Andes}} traversed into {{Dinaisth}}'s {{timeline|Soies}} shortly before the {{first season|Feu}} and brought along tools to study the {{Ehrivevnv}}.
   LONG
     & The role of Andes in the {{Yajnev Collapse|Yajnev}} is unknown, but his arrival coincides with the destruction of Vetetrandes.
-    & His existance is explored through notes journals scattered across his abandoned offices in Dinaisth.
-    & Not much is known about Andes besides that his existance in Dinaisth was made possible by exploiting a flaw in the protections systems of {{Soies}}, the called is now commonly known as "The rope of Ludivine" and is used by the {{Neon Hemetists|Neon Hermetism}} to travel through timelines, see {{The rule of Ludivine|Soies}}.
-
+    
 NEONEV
   UNDE : Characters
-  BREF : {{Neonev}} is the protagonist of the {{Neauismetica}}. She traveled {{Dinaisth}} for a long time. She appeared on the raft in {{Kanikule}} during the {{first season|feu}} and is a {_Daughter of {{Rlionn}}_}, Immortal.
+  BREF : {{Neonev}}, daughter of {{Rlionn}}, has traveled {{Dinaisth}} after she had appeared on a raft from {{Kanikule}} during the {{first season|feu}}.
   LONG
-    & Throughout her long life, she wore many names. Neonev, while she crossed {{Kanikule}} from {{Neau}}. Neonev, by the meeting with {{Andes}} in {{Dinaisth}}. Evelyn, when meeting with {{Aliceffekt}} in {{Es|Dinaisth}}.
-    & Neonev met with {{Andes}} at his arrival in the northern part of Dinais and again as Evelyn before he met with {{Paradichlorisse}} in the last season. While they lived apart, they corresponded and established {{Neon Hermetism}} to solve the dimensional puzzle {{Ehrivevnv}}.
+    & Neonev met with {{Andes}} at their arrival in the northern part of {{Dinaisth}} and again before their visit at {{Paradichlorisse}} in the last season. While they lived apart, they corresponded as {{Neon Hermetism}} collaborators.
 
-DEVINE LU LINVEGA
+PARADICHLORISSE
   UNDE : Characters
-  BREF : {{Devine lu linvega}} is a developer living aboard a {{sailboat|Hundred rabbits}} on the Pacific Ocean.
+  BREF : {{Paradichlorisse}} has appeared around the {{Yajnev Collapse|Yajnev}}, known to speak a dialect of {{Nohlxeserre}}.
   LONG
-    & Operating under the {{Neauoire|https://twitter.com/neauoire}} moniker, Devine is currating the {{Beldam Records}} catalog, creating {{experimental mobile projects|http://www.creativeapplications.net/openframeworks/experimental-mobile-apps-by-devine-aliceffect-lu-linvega}} and documenting their {{life at sea|https://www.youtube.com/playlist?list=PLV-JXZPiMUdtBGYfvbp9M7N0Tc15GMqy1}}.
-    & Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}} — Devine hope to inspire visitors to learn and to travel.
-    ? To {{flee|Obliques}} is life,<br /> To linger is {{Death}}.
-
-LUDIVINE
-  UNDE : Characters
-  BREF : {{Ludivine}} is an automated vessel, traveling around the virtual scapes of {{Nataniev}} looking for incomplete vessels and errors.
-  LONG
-    & Rating each vessel with an index, it deletes redundant vessels and move vessels outside of the void.
-
-ALICEFFEKT
-  UNDE : Audio
-  BREF : {{Aliceffekt}}, is a traveler.
-  LONG
-    &  A travel across the fictional worlds of the {{Neauismetica}} where every album is a sort of travel diary across the {{Dinaisth}} landscape.
-  LINK :
-    BAND : https://aliceffekt.bandcamp.com
-
+    & All pilgrims reaching it, collapse and eventually starve as they experience {_every life and every death_} through the speech of the infinite being.
+    & {_When Paradichlorisse spoke of silence, silence fell._}
 
 ~ Photography
 
@@ -1460,17 +1467,6 @@ THE SARTRE MECHANISM
     & I stared in silent awe, at the busy mechanical concerto playing its own requiem. The arms eventually began to reach inside the mechanism, unbuilding its core, growing weaker as it dismantled the heavier components and moved them back into the toolbox. This obscene ritual of disembowelment and exposé on pointlessness ended as the tiny arms and the weight had fallen back into the toolbox.
     & {_Originally written by {{Voidshaper|https://twitter.com/voidshaper}}, <br />Edited by {{Devine Lu Linvega}}_}
 
-THE DISMISSAL
-  UNDE : Notes
-  BREF : It's possible that I expect too much of technology, of the product of like-minded folks, that my friction threshold has diminished akin to my patience with electronics. 
-  LONG
-    & Despite having grown a skin thick enough to fend off the hydra that was Objective C, by heart learnt the fiery hoops that were the management of certificate & identities; a few weeks ago I left the coal mine that is native iOS development.
-    & I've always seen myself as the resilient one, the one that can take a beating. For a moment then, I thought that Swift was going pull us from the Abyss. It beamed a blinding luminosity and brilliance to my darkness-accustomed eyes. Swift was going to save us. 
-    * The Four Builds Rule
-    & I never saw myself as superstitious, but my daily use of iTunes Connect involved much witchcraft. Push four builds. The first one would not find its way into the list of queued builds. The second would, but then never leave the queue. The third one my hopes rested upon. The last one, was just in case, but would more often than not, never find its way into the list. Looking back, I can't figure what was that I had, that I have lost, that would allow me to pull through such abuse.
-    & I felt, surely not looked it, clever injecting fake operating system values into my build files. Need I remind myself that a developer making applications for an upcoming OS may not, from that same development computer, also publish builds. Here I was sneaking around walls built against developer-kin. I never saw myself as superstitious, but when a build actually went through and live onto the App Store, I felt like I had beaten the system. A system, my system.
-    & I think that, that was the feeling that drove me to leave iOS development.
-
 LANGUAGE OF THE BIRDS
   UNDE : Notes
   BREF : Immortals speak not with words but wait for things to happen, and merely points at them.
@@ -1554,6 +1550,14 @@ RATIONALITY
   LINK
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/rationality.mh
 
+DEVINE LU LINVEGA
+  UNDE : Death
+  BREF : {{Devine lu linvega}} is a developer living aboard a {{sailboat|Hundred rabbits}} on the Pacific Ocean.
+  LONG
+    & Operating under the {{Neauoire|https://twitter.com/neauoire}} moniker, Devine is currating the {{Beldam Records}} catalog, creating {{experimental mobile projects|http://www.creativeapplications.net/openframeworks/experimental-mobile-apps-by-devine-aliceffect-lu-linvega}} and documenting their {{life at sea|https://www.youtube.com/playlist?list=PLV-JXZPiMUdtBGYfvbp9M7N0Tc15GMqy1}}.
+    & Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}} — Devine hope to inspire visitors to learn and to travel.
+    ? To {{flee|Obliques}} is life,<br /> To linger is {{Death}}.
+
 ~ Gamme
 
 GAMME
@@ -1565,11 +1569,11 @@ GAMME
 
 NATANIEV
   UNDE : Gamme
+  TYPE : Archive
   BREF : {{Nataniev}} is a platform to serve web apps and tools such as {{Horaire}} and {{Paradise}}.
   LONG
     & Initiated in 2011, this custom engine includes a CLI, formerly known as {_Paradise_}, two different flat-files database parsers and its own unique APIs syntax. It serves this website, {{Hundred Rabbits}}, {{Grimgrains}}, as well as {{Twitter Bots|Automatons}}.
     & Single scripts and repositories, known as vessels and instances, exist as locations in this {*Ecosystem*} and can be visited through the CLI. For example, each Automaton exist as a character that can be found within Paradise; this page exist as a page in a book, in a library that can also be entered and explored.
-    ? Deep within this virtual structure, sleeps a {{small beetle|The Will The Wisp}} - that, when touched, recites a generated poem.
   LINK
     GITH : https://github.com/XXIIVV/Nataniev
 
@@ -1590,7 +1594,7 @@ RONIN
     GITH : https://github.com/hundredrabbits/Ronin
 
 PARADISE
-  UNDE : Gamme
+  UNDE : Nataniev
   BREF : {{Paradise}} is a multiplayer playground that lives within the {{Nataniev}} toolchain. 
   LONG
     & Paradise plays like a MUD, in an ever-changing world where players are not avatars, but places, and objects, and puns, words - moving around and into each other, reordering this chaotic space.
@@ -1602,9 +1606,46 @@ PARADISE
     SITE : http://paradise.xxiivv.com
     GITH : https://github.com/XXIIVV/vessel.paradise
 
+INNER HAVEN
+  UNDE : Paradise
+  BREF : The {{Inner Haven}} is a safe location within {{Paradise}} that includes tutorials and documentation.
+  LONG
+    & The haven can usually found by warping to the warp Id 1.
+    % paradise fit
+
+LUDIVINE
+  UNDE : Paradise
+  BREF : {{Ludivine}} is an automated vessel, traveling around the virtual scapes of {{Nataniev}} looking for incomplete vessels and errors.
+  LONG
+    & Rating each vessel with an index, it deletes redundant vessels and move vessels outside of the void.
+
 HORAIRE
-  UNDE : Gamme
+  UNDE : Nataniev
   BREF : {{Horaire}} is a time tracking tool that compiles daily logs into creativity forecasts.
+
+FORUM
+  UNDE : Horaire
+  BREF : The {{Forum}} is a place within each topic, to ask questions.
+  TYPE : Forum
+
+DIARY
+  BREF : The {{Diary}} contains photographic logs within {{Horaire}}.
+  UNDE : Horaire
+
+PORTAL
+  UNDE : Horaire
+  BREF : The {{Portal}} lists all topics and projects within {{Nataniev}}.
+
+DESAMBER
+  UNDE : Nataniev
+  BREF : On {{XXIIVV|Nataniev}}, dates are written using a variance of the {{International Fixed Calendar|https://en.wikipedia.org/wiki/International_Fixed_Calendar}}.
+  LONG
+    & The {_Equal Month calendar_} format has 13 months and so the number of each of these months are reflected into their names. Every month is {*28 days long*}, and the 365th day of the year is the {_Year Day_}, followed by the {_Leap Day_} on leap years.
+    ? Today is {{!desamber}} <br /><small>The current time is {{!clock}}</small>
+    & Time is written using a variance of the {{Internet Time|https://en.wikipedia.org/wiki/Swatch_Internet_Time}} with 4 digits instead of the Swatch Beat's 3 digits system. The system has no timezone and no daylight saving-time.
+  LINK
+    GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
+
 
 LIETAL
   UNDE : Gamme
@@ -1628,17 +1669,6 @@ SHORTHAND
     & I played with different ideas and this is the system that worked best for me, it’s an inspiration and a mixture of already existing shorthand systems that fits my writing style.
     % shorthand.alphabet fit
     & Simple enough, now most letters are transformed into a single stroke shape that flows and combines to form shorter words, that can be written faster.
-
-DESAMBER
-  UNDE : Gamme
-  BREF : On {{XXIIVV|Nataniev}}, dates are written using a variance of the {{International Fixed Calendar|https://en.wikipedia.org/wiki/International_Fixed_Calendar}}.
-  LONG
-    & The {_Equal Month calendar_} format has 13 months and so the number of each of these months are reflected into their names. Every month is {*28 days long*}, and the 365th day of the year is the {_Year Day_}, followed by the {_Leap Day_} on leap years.
-    ? Today is {{!desamber}} <br /><small>The current time is {{!clock}}</small>
-    & Time is written using a variance of the {{Internet Time|https://en.wikipedia.org/wiki/Swatch_Internet_Time}} with 4 digits instead of the Swatch Beat's 3 digits system. The system has no timezone and no daylight saving-time.
-  LINK
-    GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
-
 
 ~ Equipment
 
@@ -1764,17 +1794,3 @@ GAMES
 ABOUT
   UNDE : Null
   TYPE : Redirect Nataniev
-
-~ Modules
-
-DIARY
-  UNDE : Nataniev
-
-PORTAL
-  UNDE : Nataniev
-
-~ Forums
-
-FORUM
-  UNDE : Nataniev
-  TYPE : Forum

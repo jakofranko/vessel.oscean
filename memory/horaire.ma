@@ -4,7 +4,9 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
-2017 05 06
+2017 05 08 - 39      Neauismetica         Writing
+2017 05 07 - 29      Hundred rabbits      Video
+2017 05 06 - 14      Hundred rabbits      Composition
 2017 05 05
 2017 05 04 - 39      Thousand rooms       Translation
 2017 05 03 - 39      Thousand rooms       Translation
@@ -1897,7 +1899,7 @@
 2012 03 04 - 35  100 Paradise             Illustration         Lost in Paradise
 2012 03 03 - 35      Paradise             Release
 2012 03 02 - 35      Paradise
-2012 03 01 - 25   29 Waiting for horus    Design               Waiting for Horus
+2012 03 01 @ 25   29 Waiting for horus    Design               Waiting for Horus
 2012 02 29 - 35      Paradise             Design
 2012 02 28
 2012 02 27 - 25      Waiting for horus    Design

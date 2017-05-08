@@ -160,7 +160,7 @@ class ActionDebug
 
     @lexicon.render.each do |name,hash|
       if !hash["BREF"] then h[name] = "Missing BREF" end
-      if hash["BREF"].to_s.length > 150 then h[name] = "BREF is too long(#{hash["BREF"].to_s.length} characters)" end
+      if hash["BREF"].to_s.length > 250 then h[name] = "BREF is too long(#{hash["BREF"].to_s.length} characters)" end
     end
 
     text = "MISFORMATTED #{h.length}\n"
