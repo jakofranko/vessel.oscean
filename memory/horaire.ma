@@ -654,14 +654,14 @@
 2015 08 01 ! 26  436 Infrared             Photography          Graveyard
 2015 07 31 - 36      Paradise             Maintenance          4.0
 2015 07 30 - 25      Donsol               Maintenance          1.5
-2015 07 29 - 14      Trapezoid            Maintenance          Reissue
-2015 07 28 ! 19  434 Trapezoid            Release              Release
+2015 07 29 - 14      Supervisitor         Maintenance          Reissue
+2015 07 28 - 19  434 Supervisitor         Release              Release
 2015 07 27 - 39      Paradise             Development
 2015 07 26 - 39      Paradise             Tools
 2015 07 25 - 39      Paradise             Maintenance
 2015 07 24 - 39      Paradise             Development
 2015 07 23 - 26      Paradise             Design
-2015 07 22 - 19      Trapezoid            Live
+2015 07 22 - 19      Supervisitor         Live
 2015 07 21 - 34      Mute                 Tools
 2015 07 20 - 34      Mute                 Tools
 2015 07 19 - 34      Lietal               Linguistics
@@ -677,11 +677,11 @@
 2015 07 09 - 35      Verreciel            Prototype
 2015 07 08 - 35      Verreciel            Prototype
 2015 07 07 - 35      Verreciel            Prototype
-2015 07 06 - 19      Trapezoid            Rehearsal
-2015 07 05 - 19      Trapezoid            Rehearsal
+2015 07 06 - 19      Supervisitor         Rehearsal
+2015 07 05 - 19      Supervisitor         Rehearsal
 2015 07 04 - 35      Verreciel            Prototype
 2015 07 03 - 31      Hiversaires          Maintenance          3.4
-2015 07 02 - 19      Trapezoid            Composition
+2015 07 02 - 19      Supervisitor         Composition
 2015 07 01 - 35      Ruby Riding Hood     Maintenance          0.1
 2015 06 30
 2015 06 29
@@ -690,7 +690,7 @@
 2015 06 26 - 35      The will the wisp    Development
 2015 06 25 - 35      The will the wisp    Development
 2015 06 24 - 35      Paradise             Maintenance          3.9
-2015 06 23 - 19      Trapezoid            Composition
+2015 06 23 - 19      Supervisitor         Composition
 2015 06 22 ! 34  297 Vocavularist         Maintenance          2.5
 2015 06 21 - 28      Verreciel            Design
 2015 06 20 - 26      Verreciel            Design
@@ -887,7 +887,7 @@
 2014 12 11 - 35      Noirca               Maintenance          3.4
 2014 12 10 - 17  288 Supervisitor         Live                 Dodecae               It was performed live at the {{Dodecae}} event in Toronto on December 6th.
 2014 12 09 - 17  287 Supervisitor         Live
-2014 12 08 ! 17  286 Supervisitor         Release              Release
+2014 12 08 @ 17  286 Supervisitor         Release              Release
 2014 12 07 - 26  285 Oquonie              Live                 Bit Bazaar
 2014 12 06 - 29  281 Dodecae              Illustration         IDM in Toronto
 2014 12 05 - 17      Supervisitor         Composition
@@ -1452,50 +1452,50 @@
 2013 05 25 - 29      Horaire              Design
 2013 05 24 - 29      Paradise             Design
 2013 05 23 - 29      Paradise             Design
-2013 05 22 - 37      Melady antres        Design
+2013 05 22 - 37      Milavrega            Design
 2013 05 21 - 19      Remix                                     Comaduster - Winter
 2013 05 20 - 38      Paradise             AI
-2013 05 19 - 25      Melady antres        Design
+2013 05 19 - 25      Milavrega            Design
 2013 05 18 - 25      Entaloneralie        Prototype
-2013 05 17 - 28      Melady antres        Design
-2013 05 16 - 35      Melady antres        Design
+2013 05 17 - 28      Milavrega            Design
+2013 05 16 - 35      Milavrega            Design
 2013 05 15 - 35  234 Hiversaires          Writing              Post Mortem
-2013 05 14 - 26      Melady antres        Design
+2013 05 14 - 26      Milavrega            Design
 2013 05 13 - 19      Remix
 2013 05 12 - 19      Remix
 2013 05 11
-2013 05 10 - 35      Melady antres        Design
-2013 05 09 - 25      Melady antres        Design
-2013 05 08 - 35      Melady antres        Design
-2013 05 07 - 35      Melady antres        Design
+2013 05 10 - 35      Milavrega            Design
+2013 05 09 - 25      Milavrega            Design
+2013 05 08 - 35      Milavrega            Design
+2013 05 07 - 35      Milavrega            Design
 2013 05 06 - 15      Remix
 2013 05 05 - 28  228 Artwork              Illustration         Space Marine Colour
 2013 05 04
 2013 05 03 - 29  231 Wallpaper            Writing              Rami Ismail Rant
-2013 05 02 - 25      Melady antres        Design
-2013 05 01 - 25      Melady antres        Design
-2013 04 30 - 25      Melady antres        Design
-2013 04 29 - 35      Melady antres        Design
+2013 05 02 - 25      Milavrega            Design
+2013 05 01 - 25      Milavrega            Design
+2013 04 30 - 25      Milavrega            Design
+2013 04 29 - 35      Milavrega            Design
 2013 04 28
-2013 04 27 - 32      Melady antres        Prototype
+2013 04 27 - 32      Milavrega            Prototype
 2013 04 26 - 19  224 Remix                                     Veronique - Fisherma
-2013 04 25 - 32      Melady antres        Prototype
-2013 04 24 - 32      Melady antres        Prototype
+2013 04 25 - 32      Milavrega            Prototype
+2013 04 24 - 32      Milavrega            Prototype
 2013 04 23 - 19      Remix
 2013 04 22 - 29      Waiting for horus    Testing
 2013 04 21 - 38      Hiversaires          Maintenance
 2013 04 20 - 19      Hiversaires          Composition          Soundtrack Release
 2013 04 19
-2013 04 18 - 25      Melady antres
+2013 04 18 - 25      Milavrega    
 2013 04 17 - 27      Waiting for horus    Testing
 2013 04 16 - 35      Paradise             Development
 2013 04 15 - 18      Dei dain             Composition
 2013 04 14 - 27      Paradise             Design
 2013 04 13 - 36      Waiting for horus    Testing
-2013 04 12 - 25      Melady antres        Prototype
-2013 04 11 - 25      Melady antres        Prototype
+2013 04 12 - 25      Milavrega            Prototype
+2013 04 11 - 25      Milavrega            Prototype
 2013 04 10 - 25      Paradise             Development
-2013 04 09 - 36      Melady antres
+2013 04 09 - 36      Milavrega    
 2013 04 08 - 35      Horaire              Maintenance
 2013 04 07 - 27      Hiversaires          Release              Release
 2013 04 06 - 35      Hiversaires          Prototype
@@ -2336,7 +2336,7 @@
 2010 12 23 - 39      Paradise             Development
 2010 12 22 - 39      Paradise             Development
 2010 12 21
-2010 12 20 - 15  315 To The Aeons Hell    Release              To The Aeons Hell
+2010 12 20 @ 15  315 To The Aeons Hell    Release              To The Aeons Hell
 2010 12 19
 2010 12 18 - 19      To The Aeons Hell    Live                 Toy Company - Montre
 2010 12 17 - 19      To The Aeons Hell    Rehearsal

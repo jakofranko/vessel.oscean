@@ -87,12 +87,6 @@ ADVENT V
     
 ~
 
-TO THE AEONS HELL
-  UNDE : First wave
-  BREF : This album is a sort of mixtape made of bits and pieces from songs I like.
-  LINK
-    BAND : http://aliceffekt.bandcamp.com/album/accursed-be-it-to-the-aeons-hell
-
 ANN YOZORA SAINT
   UNDE : First wave
   LINK
@@ -158,8 +152,8 @@ CAMILARE
     > </table>
 
 DAMOISEAU CANALX
-  UNDE : Fourth wave
-  BREF : {{Damoiseau Canalx}} is the first single for the {{Fourth wave}}, in the spirit of {{Blam}}, that explores industrial sounds within darkstep and 2-step styles.
+  UNDE : First wave
+  BREF : {{Damoiseau Canalx}} is in the spirit of {{Blam}}, exploring industrial sounds within darkstep and 2-step styles.
   LONG
     & The album was recorded live, at Passport in Montreal during the last AMP event and is being released as-is.
     & The album was composed as side project while working on {{Ten Axitecture}} and includes bits and pieces from {{Blam}}.
@@ -261,7 +255,8 @@ FIRST AID LAST AID
 
 ALICEFFEKT
   UNDE : Audio
-  BREF : {{Aliceffekt}}, is a traveler.
+  TYPE : Archive
+  BREF : {{Aliceffekt}}, is an audio project following the adventures of {{Neonev}} across {{Dinaisth}}.
   LONG
     &  A travel across the fictional worlds of the {{Neauismetica}} where every album is a sort of travel diary across the {{Dinaisth}} landscape.
   LINK :
@@ -270,6 +265,7 @@ ALICEFFEKT
 FIRST WAVE
   UNDE : Aliceffekt
   TYPE : Portal
+  BREF : The {{First Wave}} contains material unrelated to the {{Neauismetica}}.
   FLAG : Todo
 
 FLOWERS
@@ -280,20 +276,39 @@ FLOWERS
     & The script also includes a 5 sided rotation action.
   TYPE : Diary
 
-FOURTH WAVE
+LIVES
   UNDE : Aliceffekt
   TYPE : Portal
+  BREF : Live sessions from various shows.
+
+SHIKANOKOA VS 1H1D
+  UNDE : Lives
+  BREF : {{Shikanokoa vs 1H1D}} was recorded in Osaka at the event of the same name, with mostly improvisational tracks.
   FLAG : Todo
 
-FROM SAHARAPHOREST
-  UNDE : Second wave
-  BREF : As an experiment, I recorded the album playing through cassette tapes and fell in love with the recording for it's uneasy sounds and noisy silences - It felt like it somehow made sense with this album.
-  LONG
-    & The first 3 tracks are ripped from cassette tapes, and the last one is a single clean mastered version.
-    & There was 5 tapes made and given to fans at shows as artworks.
-    & This release is related to {{Vert Kirlian Theatre}} album, released in 2008.
+PEDESTRIAN PARADISE
+  UNDE : Lives
+  BREF : {{Pedestrian Paradise}} was recorded at the {_Piknik Electronic_} event in Montreal from various bits and pieces of unreleased material.
+  FLAG : Todo
+
+NOR LET THE FOOLS
+  UNDE : Lives
+  BREF : {{Nor let the fools}} was recorded live, in Tokyo at a mashup/chiptune evening, created from unreleased materials.
   LINK
-    BAND : http://aliceffekt.bandcamp.com/album/19th-month-from-saharaphorest-to-duomo
+    BAND : http://aliceffekt.bandcamp.com/album/nor-let-the-fools-mistake-love
+
+TO THE AEONS HELL
+  UNDE : Lives
+  BREF : {{To the aeons hell}} was created in the spirit of {{Nor let the fools}}, being a mixture of unreleased remixes.
+  LINK
+    BAND : http://aliceffekt.bandcamp.com/album/accursed-be-it-to-the-aeons-hell
+
+VERMILLIONTH
+  UNDE : Lives
+  BREF : {{Vermillionth}} was the recording of the live performance at the Kinetik Festival, in Montreal.
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/vermillionth
+  FLAG : Todo
 
 GENESIS MINERS
   UNDE : First wave
@@ -600,7 +615,7 @@ MODERNISTA
   TYPE : Diary
 
 ABLETON
-  UNDE : Aliceffekt
+  UNDE : Audio
   BREF : I designed this dark {{Ableton}} Live theme where the knobs and various other controls stick out from the interface.
   LONG
     & To Install it on OS X, simply right click on the Live Icon and select {*Show Package Content*} and paste the skin file {_XXIIVV.ask_} in the skin folder.
@@ -636,11 +651,6 @@ POLYGORE
 NETHER ESPER INSERTS
   UNDE : First wave
   FLAG : Todo
-
-NOR LET THE FOOLS
-  UNDE : First wave
-  LINK
-    BAND : http://aliceffekt.bandcamp.com/album/nor-let-the-fools-mistake-love
 
 RUBY RIDING HOOD
   UNDE : Language
@@ -726,10 +736,6 @@ THE SIXTH SEASON
     BAND : http://aliceffekt.bandcamp.com/album/orchestrate-the-sixth-season
 
 OTOROUTES MINIATURES
-  UNDE : First wave
-  FLAG : Todo
-
-PEDESTRIAN PARADISE
   UNDE : First wave
   FLAG : Todo
 
@@ -836,11 +842,6 @@ SERVENTINES
   UNDE : Nereid
   BREF : {{Serventines}} is a travel diary documenting travels across {{Nereid}}'s various regions, the small planet's skies and {_gravitating objects_}.
   TYPE : Diary
-
-SHIKANOKOA VS 1H1D
-  UNDE : First wave
-  BREF : Live recording of a show.
-  FLAG : Todo
 
 ~ Interactive
 
@@ -961,7 +962,7 @@ DONSOL GUIDE
 
 DOMINE GUIDE
   UNDE : Table
-  BREF : {{Domine}} is a simple game to play with dominoes designed by {{Hundred Rabbits}}.
+  BREF : This {{Domine Guide}} will show you how to play a simple game two player game, with dominoes.
   LONG
     & Every domino has 2 values, which we will call Attack/Defence. So a domino with both 6 and 2 values, can be used as both 6/2 and 2/6. You can watch our {{video guide|https://www.youtube.com/watch?v=fjZb190qn00}}.
     * Setup
@@ -1069,19 +1070,6 @@ TARPOPHOBIA
   BREF : {{Tarpophobia}} is the fear of seeing yourself fractalized onto reflective surfaces, especially onto eyes.
   TYPE : Diary
 
-TELEKINESIS
-  UNDE : Telekinetic
-  BREF : {{Telekinesis}} is a Leap Motion based controller that allows, through Pure Data, to control multiple midi instruments at once. The tool was used for both, the live performance of {{Telekinetic}} and {{Ten Axitecture}}. The picture was taken at 8Static, by {{Marjorie Becker|https://www.flickr.com/photos/m_becker/}}.
-
-TELEKINETIC
-  UNDE : Third wave
-  BREF : {{Telekinetic}} is the name of a concept album by {{Aliceffekt}} played live with the <a href='https://www.leapmotion.com'>Leap Motion</a>, first performed at <a href='http://www.cnet.com.au/dj-turns-leap-motion-into-a-theremin-sort-of-339345563.htm'>Sabaco in Tokyo</a>.
-  LONG
-    & The event was recorded and can still be watched online on <a href="http://www.ustream.tv/recorded/39105185">UStream</a>. There was a <a href="http://www.cnet.com.au/dj-turns-leap-motion-into-a-theremin-sort-of-339345563.htm">short article on CNET</a> about the event as well. The album cover features an alternate door to {{Nataniev}}'s Library of Sand ornated of the number 210 in <a href='Needle+numbers'>Needle Numbers</a> as well as the {{Lietal}} letters BI, TI, TA, SI, PO.
-    & You can watch a a demo of the <a href='https://www.facebook.com/photo.php?v=10153250341045274'>prototype</a>.
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/telekinetic
-
 TEN AXITECTURE
   UNDE : Beldam records
   BREF : {{Ten Axitecture}} is the first release on the {{Beldam Records}} catalog. Written by {{Aliceffekt}}, this album combines acoustic instruments and IDM.
@@ -1091,9 +1079,14 @@ TEN AXITECTURE
     BAND : https://aliceffekt.bandcamp.com/album/ten-axitecture
     ITUN : iTunes|https://itunes.apple.com/ca/album/ten-axitecture-ep/id937396413
 
+THIRD WAVE
+  UNDE : Aliceffekt
+  TYPE : Portal
+  FLAG : Todo
+
 EHRIVEVNV STUDIES
   UNDE : Third wave
-  BREF : Exploring new aesthetics and sounds, this highly melodic releases far across the IDM and glitch spectrum.
+  BREF : The {{Ehrivevnv Studies}} is a {{Third Wave}} album exploring {{Andes}}' offices in {{Dinaisth}}.
   LONG
     & This album was composed for and performed at {_Blip Festival Tokyo_} on October 21st 2012 and reissued on april 15th 2013, including some changes from the {_Melbourne Squaresound Show_}.  
     & The track names contains encrypted Lietal</a>. The first track is decrypted into "<a href='Simkin'>Simkin</a> <a href='Kamsi'>Kamsi</a>" and can be translated to {_Time Structure_}, refering to The Library of Sand. The second track, "<a href='Xomsinsom'>Xomsinsom</a> <a href='kim'>Kim</a> <a href='Yajnev'>Yajnev</a>", can be translated to {_Yajnev's Curse_} and refers to the short <a href='082'>Yajnev's Thoughts</a>. The third track is titled "<a href='Ko'>Ko</a> <a href='sokamxi'>Sokamxi</a>" which simply means {_The Impossible Exploration_}.
@@ -1102,24 +1095,62 @@ EHRIVEVNV STUDIES
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/the-ehrivevnv-studies-reissue
 
-THIRD WAVE
-  UNDE : Aliceffekt
-  TYPE : Portal
-  FLAG : Todo
+TELEKINESIS
+  UNDE : Telekinetic
+  BREF : {{Telekinesis}} is a Leap Motion based controller that allows, through Pure Data, to control multiple midi instruments at once. The tool was used for both, the live performance of {{Telekinetic}} and {{Ten Axitecture}}. The picture was taken at 8Static, by {{Marjorie Becker|https://www.flickr.com/photos/m_becker/}}.
+
+TELEKINETIC
+  UNDE : Third wave
+  BREF : {{Telekinetic}} is the name of a concept album by {{Aliceffekt}} played live with the {{Leap Motion|https://www.leapmotion.com}}, first performed at {{Sabaco in Tokyo|http://www.cnet.com.au/dj-turns-leap-motion-into-a-theremin-sort-of-339345563.htm}}.
+  LONG
+    & The event was recorded and can still be watched online on <a href="http://www.ustream.tv/recorded/39105185">UStream</a>. There was a <a href="http://www.cnet.com.au/dj-turns-leap-motion-into-a-theremin-sort-of-339345563.htm">short article on CNET</a> about the event as well. The album cover features an alternate door to {{Nataniev}}'s Library of Sand ornated of the number 210 in <a href='Needle+numbers'>Needle Numbers</a> as well as the {{Lietal}} letters BI, TI, TA, SI, PO.
+    & You can watch a a demo of the <a href='https://www.facebook.com/photo.php?v=10153250341045274'>prototype</a>.
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/telekinetic
+
+FROM SAHARAPHOREST
+  UNDE : Third wave
+  BREF : {{From Saharaphorest}}, is a {{Third Wave}} album telling the tale of a visit at {{Paradichlorisse}}.
+  LONG
+    & I recorded the album playing through cassette tapes and fell in love with the recording for it's uneasy sounds and noisy silences - It felt like it somehow made sense with this album.
+    & The first 3 tracks are ripped from cassette tapes, and the last one is a single clean mastered version.
+    & There was 5 tapes made and given to fans at shows as artworks.
+    & This release is related to {{Vert Kirlian Theatre}} album, released in 2008.
+  LINK
+    BAND : http://aliceffekt.bandcamp.com/album/19th-month-from-saharaphorest-to-duomo
+
+CHILDREN OF BRAMBLE
+  UNDE : Third wave
+  BREF : This short album contains two dark ambient/industrial tracks that sings of the Oasis of {{Rlionn}} and her Children. 
+  LONG
+    & This album begins by the Oasis of {{Laeisth}} to finally reach the castle of {{Andes}} and its desertsunk structures. This single is part of the {{Neauismetica}}, and shares some narrative concepts with {{Telekinetic}}.
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/children-with-veins-of-bramble
+
+KNOWN MAGYE
+  UNDE : Third wave
+  BREF : {{Known Magye}} is an album telling the tales of the industrious times of {{Dinaisth}}.
+  LONG
+    & Sometimes reminiscent of the compositions of {{Children of bramble}}, sometimes of the drowned sounds of {{Telekinetic}}, this single is a fair mix of ambient and breaks.
+    & The album was recorded live from {{San Fransisco|travel}}'s {*POW POW POW*} which was controlled entirely with the {{Leap Motion|https://www.leapmotion.com}}.
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/known-magye
+
+EXTENDED SLEEP
+  UNDE : Third wave
+  BREF : {{Extended sleep}} is the sequel to {{Known Magye}}, a deeper exploration of its universes, its stories. 
+  LONG
+    & The album will be first performed at the A Maze Festival in Berlin, on April 23rd 2015.
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/extended-sleep
 
 TIME ALLOY
   UNDE : Polygonoscopy
   BREF : The {{Time Alloy}} is a series of {{Polygonoscopic|Polygonoscopy}} samples, taken from {{The sartre mechanism}}.
   TYPE : Diary
 
-TRAPEZOID
-  UNDE : Fourth wave
-  BREF : {{Trapezoid}} is {{Aliceffekt}}'s second release produced on Arturia's MicroBrute - making it a sort of sequel to {{Supervisitor}}. The album was recorded live at the {{Ghost Train|https://www.facebook.com/events/380649788812746/}} party, on July 22nd 2015.
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/trapezoid
-
 DEMO
-  UNDE : Audio
+  UNDE : Aliceffekt
   BREF : The {{Demos|Demo}} are concept albums created with specific pieces of hardwares.
   TYPE : Portal
 
@@ -1176,12 +1207,6 @@ THOUSAND ROOMS
   LONG
     & I have written this book with the hopes of creating a sort of {_Borges for children_}, in which the reader follows a bat, a cat, an owl and a fox who try and make sense of a simple system. 
     & The book also encourages to try and understand the rules, and plan other unsuggested avenues. We are releasing the book in English, French, Russian and Japanese.
-
-VERMILLIONTH
-  UNDE : First wave
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/vermillionth
-  FLAG : Todo
 
 VERRECIEL OST
   UNDE : Beldam records
@@ -1247,7 +1272,7 @@ FEU
   UNDE : Neon hermetism
   BREF : {{Feu}}, or {_The End Of Science_}, is the era dominated by oracle machines, where sentience and existance are irrelevant.
   LONG
-    & The creation of machines able to predict the future, has helped the {{Neon Hermetists}} steer the occuring into the correct position.
+    & The creation of machines able to predict the future, has helped the {{Neon Hermetists|Neon Hermetism}} steer the occuring into the correct position.
     & Once the machine were able to search for and execute the longest lasting occuring, the world of {{Dinaisth}} fell on a sort of Auto-Pilot where no thought had not previously been weighted against all other and acted upon or dismissed.
 
 SOIES
@@ -1745,33 +1770,6 @@ DEI DAIN
   BREF : Written and released in Tokyo in 2013, {{Dei Dain}} is the sixth album as part of {{Aliceffekt}}'s {{Second Wave}} albums.
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/dei-dain
-
-~ [TODO] Combine under a portal page
-
-CHILDREN OF BRAMBLE
-  UNDE : Third wave
-  BREF : This short album contains two dark ambient/industrial tracks that sings of the Oasis of {{Rlionn}} and her Children. 
-  LONG
-    & This album begins by the Oasis of {{Laeisth}} to finally reach the castle of {{Andes}} and its desertsunk structures. This single is part of the {{Neauismetica}}, and shares some narrative concepts with {{Telekinetic}}.
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/children-with-veins-of-bramble
-
-KNOWN MAGYE
-  UNDE : Third wave
-  BREF : {{Aliceffekt}}'s {{Known Magye}} is an album and live performance relying heavily on visuals.
-  LONG
-    & Sometimes reminiscent of the compositions of {{Children of bramble}}, sometimes of the drowned sounds of {{Telekinetic}}, this single is a fair mix of ambient and breaks.
-    & The album was recorded live from {{San Fransisco|travel}}'s {*POW POW POW*} which was controlled entirely with the {{Leap Motion|https://www.leapmotion.com}}.
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/known-magye
-
-EXTENDED SLEEP
-  UNDE : Third wave
-  BREF : {{Extended sleep}} is the sequel to {{Known Magye}}, a deeper exploration of its universes, its stories. While the album released after {{Fourth wave}} release {{Supervisitor}}, it is part of the {{Third wave}}.
-  LONG
-    & The album will be first performed at the A Maze Festival in Berlin, on April 23rd 2015.
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/extended-sleep
 
 ~ Redirects
 
