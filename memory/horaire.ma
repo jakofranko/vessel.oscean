@@ -44,7 +44,7 @@
 2017 04 01 - 14      Superworker          Composition
 2017 03 31 - 12      Superworker          Composition
 2017 03 30 - 16      Superworker          Composition
-2017 03 29 - 25      Aliceffekt           Branding
+2017 03 29 - 25      Superworker          Branding
 2017 03 28 - 31      Ronin                Tools
 2017 03 27 - 12      Superworker          Composition
 2017 03 26 - 24      Thousand rooms       Design
@@ -744,10 +744,10 @@
 2015 05 03 - 35      Alphavetist          Maintenance          3.5
 2015 05 02 - 27  426 Astratas             Illustration         Lines C
 2015 05 01 ! 26  159 Extended sleep       Release              Album Cover
-2015 04 30 - 17      Gaii                 Composition
-2015 04 29 - 17      Gaii                 Rehearsal
-2015 04 28 - 17      Gaii                 Composition
-2015 04 27 - 17      Gaii                 Composition
+2015 04 30 - 17      Malice               Composition
+2015 04 29 - 17      Malice               Rehearsal
+2015 04 28 - 17      Malice               Composition
+2015 04 27 - 17      Malice               Composition
 2015 04 26 - 25  496 Black                Photography   
 2015 04 25 - 25  112 Flactals             Illustration         Torazine
 2015 04 24 - 18      Extended sleep       Live
@@ -768,7 +768,7 @@
 2015 04 09 - 38      Ludivine             AI
 2015 04 08 - 38      Ludivine             AI
 2015 04 07 - 38      Ludivine             AI
-2015 04 06 - 17      Gaii                 Composition
+2015 04 06 - 17      Malice               Composition
 2015 04 05 - 36      Donsol               Maintenance          1.3
 2015 04 04 - 38      Mobile               Development
 2015 04 03 - 36      Mobile               Development
@@ -829,7 +829,7 @@
 2015 02 07 - 37      Oquonie              Maintenance
 2015 02 06 - 37      Oquonie              Maintenance
 2015 02 05 - 39      Horaire              Documentation
-2015 02 04 - 16      Gaii                 Composition
+2015 02 04 - 16      Malice               Composition
 2015 02 03 - 26  306 Hypervoid            Illustration         Nulloid
 2015 02 02 - 37      Oquonie              Maintenance
 2015 02 01 - 37      Oquonie              Maintenance
@@ -1198,9 +1198,9 @@
 2014 02 03 - 34  377 Paradise             Development
 2014 02 02 - 29      Wallpaper            Illustration
 2014 02 01 - 39      Paradise             Update
-2014 01 31 - 29  383 Flowers              Illustration         Nestorine
-2014 01 30 - 29  384 Flowers              Illustration         Qraxia
-2014 01 29 - 27  385 Flowers              Illustration
+2014 01 31 - 29      Flactals             Illustration         Nestorine
+2014 01 30 - 29  384 Flactals             Illustration         Qraxia
+2014 01 29 - 27      Flactals             Illustration
 2014 01 28 - 35      Russian              Linguistics
 2014 01 27 - 35      Oquonie              Design
 2014 01 26 - 35      Oquonie              Design
@@ -2087,7 +2087,7 @@
 2011 08 29
 2011 08 28 - 35      Horaire              Development
 2011 08 27 - 35      Paradise             Tools
-2011 08 26 - 25   17 Aliceffekt           Illustration         Aliceffekt Shirt I
+2011 08 26 @ 25   17 Aliceffekt           Illustration         Aliceffekt Shirt I
 2011 08 25 - 35      Paradise             Development
 2011 08 24 - 35      Neauismetica         Writing
 2011 08 23 ! 35   14 Typography           Typography           Septambres Lith
@@ -2244,7 +2244,7 @@
 2011 03 25 - 25      Drownspire
 2011 03 24 - 35      Lietal               Documentation
 2011 03 23
-2011 03 22 ! 17  370 Aliceffekt           Writing              Photo Shoot
+2011 03 22 - 17  370 To The Aeons Hell    Photography
 2011 03 21 - 25      Merveilles portable  Design
 2011 03 20 - 35      Paradise             Development
 2011 03 19 - 15      To The Aeons Hell    Composition
@@ -2720,7 +2720,7 @@
 2009 12 04
 2009 12 03
 2009 12 02
-2009 12 01 - 15   72 Lus floral funeralis Release              Lu's Floral Funerali
+2009 12 01 - 15   72 Ann yozora saint     Release              Lu's Floral Funerali
 2009 11 30
 2009 11 29
 2009 11 28
@@ -2783,7 +2783,7 @@
 2009 10 02
 2009 10 01
 2009 09 30
-2009 09 29 - 19      Lus floral funeralis Live                 Dimanche du Seigneur
+2009 09 29 - 19      Ann yozora saint     Live                 Dimanche du Seigneur
 2009 09 28
 2009 09 27
 2009 09 26
@@ -2862,7 +2862,7 @@
 2009 07 15 - 39   16 Typography           Typography           Septambres Recit
 2009 07 14
 2009 07 13
-2009 07 12 - 15   13 Gaii                 Release              バイナリダンプ一０。
+2009 07 12 - 15   13 Malice               Release              バイナリダンプ一０。
 2009 07 11 - 19      Pedestrian paradise  Live                 Toy Company - Montre
 2009 07 10
 2009 07 09
@@ -2916,7 +2916,7 @@
 2009 05 22
 2009 05 21
 2009 05 20
-2009 05 19 - 15  320 Howls virgil systems Release              Howl's Virgil System
+2009 05 19 - 15  320 Nether esper inserts Release              Howl's Virgil System
 2009 05 18
 2009 05 17
 2009 05 16
@@ -3241,7 +3241,7 @@
 2008 07 01
 2008 06 30
 2008 06 29 - 19      Collected works      Composition
-2008 06 28 - 19  153 Gaii                 Live                 Pulsewave - New York
+2008 06 28 - 19  153 Malice               Live                 Pulsewave - New York
 2008 06 27
 2008 06 26
 2008 06 25
@@ -3269,7 +3269,7 @@
 2008 06 03
 2008 06 02
 2008 06 01
-2008 05 31 - 15   70 Gone plains          Release              Gone Plains
+2008 05 31 - 15   70 Downtemperature      Release              Gone Plains
 2008 05 30
 2008 05 29
 2008 05 28
@@ -3722,36 +3722,36 @@
 2007 03 08
 2007 03 07
 2007 03 06
-2007 03 05 - 15  322 First aid last aid   Release              First Aid & Last Aid
-2007 03 04 - 15  319 Downtemperature      Release              Downtemperature
-2007 03 03
-2007 03 02
+2007 03 05 - 19  322 Downtemperature      Release              First Aid & Last Aid
+2007 03 04 - 18  319 Downtemperature      Release              Downtemperature
+2007 03 03 - 19      Downtemperature      Composition
+2007 03 02 - 15      Downtemperature      Composition
 2007 03 01
 2007 02 28
 2007 02 27
-2007 02 26
+2007 02 26 - 13      Downtemperature      Composition
 2007 02 25
 2007 02 24
-2007 02 23
+2007 02 23 - 13      Downtemperature      Composition
 2007 02 22
-2007 02 21
-2007 02 20
+2007 02 21 - 16      Downtemperature      Composition
+2007 02 20 - 16      Downtemperature      Composition
 2007 02 19
 2007 02 18
 2007 02 17
-2007 02 16
+2007 02 16 - 18      Downtemperature      Composition
 2007 02 15
-2007 02 14
+2007 02 14 - 12      Downtemperature      Composition
 2007 02 13
 2007 02 12
-2007 02 11
+2007 02 11 - 13      Downtemperature      Composition
 2007 02 10
 2007 02 09
-2007 02 08
+2007 02 08 - 13      Downtemperature      Composition
 2007 02 07
-2007 02 06
+2007 02 06 - 16      Downtemperature      Composition
 2007 02 05
-2007 02 04
+2007 02 04 - 16      Downtemperature      Composition
 2007 02 03
 2007 02 02
 2007 02 01

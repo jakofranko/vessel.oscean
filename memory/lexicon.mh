@@ -87,11 +87,6 @@ ADVENT V
     
 ~
 
-ANN YOZORA SAINT
-  UNDE : First wave
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/ann-yozora-saint
-
 ARTWORK
   UNDE : Illustration
   BREF : A collection of various illustrations drawn over the years, unrelated to other XXIIVV projects.
@@ -106,11 +101,6 @@ BELDAM RECORDS
   LINK
     BAND : https://beldamrecords.bandcamp.com
     TWTR : https://twitter.com/beldamrecords
-
-BLAM
-  UNDE : First wave
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/blam-le-passage-sacrilege
 
 BLINDFOLK
   UNDE : Online
@@ -150,15 +140,6 @@ CAMILARE
     > <tr><td><img src='public.oscean/media/generic/camilare.outside.png'/></td><td>Carmate<br/><small>Outside</small></td>	      <td><img src='public.oscean/media/generic/camilare.key.png'/></td><td>Emetegisenete<br/><small>Key</small></td>	            <td><img src='public.oscean/media/generic/camilare.friend.png'/></td><td>Zorgiene<br/><small>Friend</small></td></tr>
     > <tr><td><img src='public.oscean/media/generic/camilare.foe.png'/></td><td>Oquonie<br/><small>Foe</small></td>	              <td><img src='public.oscean/media/generic/camilare.pillar.png'/></td><td>Den<br/><small>Pillar</small></td>	                <td><img src='public.oscean/media/generic/camilare.nemedique.png'/></td><td>Nemedique<br/><small>Nemedique</small></td></tr>
     > </table>
-
-DAMOISEAU CANALX
-  UNDE : First wave
-  BREF : {{Damoiseau Canalx}} is in the spirit of {{Blam}}, exploring industrial sounds within darkstep and 2-step styles.
-  LONG
-    & The album was recorded live, at Passport in Montreal during the last AMP event and is being released as-is.
-    & The album was composed as side project while working on {{Ten Axitecture}} and includes bits and pieces from {{Blam}}.
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/damoiseau-canalx
 
 DESKTOP
   UNDE : Interactive
@@ -227,15 +208,12 @@ DOMESTIC MOIRE
     GITH : https://github.com/neauoire/DomesticMoire
     ITCH : http://aliceffekt.itch.io/domestic-moire
 
-DOWNTEMPERATURE
-  UNDE : First wave
-
 EFLI
   UNDE : Eschatolor
   BREF : {{EFLI}}, 103.0FM, was a pirate radio broadcast, available from Montreal's Plateau area, between 22:00 and 6:00. The radio started broadcasting on May 20th, 2015. Not much else is disclosed. Read more about {{Eschatolor}}.
 
 ES GULF SUNFLOWERS
-  UNDE : Second wave
+  UNDE : Neauismetic
   BREF : {{Es Gulf Sunflowers}} tale remembers the gorgeous sunken fields of {{Es|Dinaisth}} - the underwater jump gate to {{Dinaisth}}, for its vast ocean terrace and display of sunflowers.
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/es-gulfssunflowers
@@ -249,10 +227,6 @@ ESCHATOLOR
     BAND : https://tevelision.bandcamp.com/album/eschatolor
     ITUN : iTunes|https://itunes.apple.com/ca/album/eschatolor/id1000241341
 
-FIRST AID LAST AID
-  UNDE : First wave
-  FLAG : Todo
-
 ALICEFFEKT
   UNDE : Audio
   TYPE : Archive
@@ -265,16 +239,61 @@ ALICEFFEKT
 FIRST WAVE
   UNDE : Aliceffekt
   TYPE : Portal
-  BREF : The {{First Wave}} contains material unrelated to the {{Neauismetica}}.
+  BREF : The {{First Wave}} contains material mostly unrelated to the {{Neauismetica}} and proto-{{Aliceffekt}}.
   FLAG : Todo
 
-FLOWERS
-  UNDE : Artwork
-  BREF : A series of abstract six-sided flowers drawn using a procedural drawing script. These flowers have inspired a series of illustrations used in Elodie Lareine's book titled "{{Vast}}" as well as the cover of the {{Aliceffekt}} single titled "{{Known Magye}}", released in 2014.
+REGIONSTEAM SNOWDAYS
+  UNDE : First wave
+  BREF : {{Regionsteam Snowdays}} is the first official {{Aliceffekt}} release.
+  FLAG : Todo
+
+DOWNTEMPERATURE
+  UNDE : First wave
+  BREF : {{Downtemperature}} is the first {{Aliceffekt}} EP, released originally as three albums {_First Air & Last Aid_}, {_Goneplains_} and {_Downtemperature_}. They were consolidated into a single release in 2017.
   LONG
-    & If you wish to create your own fractals, you can download the photoshop actions and use them on a 2000x2000 photoshop file.
-    & The script also includes a 5 sided rotation action.
-  TYPE : Diary
+    & The album was never performed live.
+
+BLAM
+  UNDE : First wave
+  BREF : {{Blam}} is an improvisational album created as a live performance, that ultimately fell through.
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/blam-le-passage-sacrilege
+
+VERT KIRLIAN THEATRE
+  UNDE : First wave
+  BREF : The {{Vert Kirlian Theatre}} was created during on a long train ride, on the {{Yamanote line|http://en.wikipedia.org/wiki/Yamanote_Line}}, during my first trip to Tokyo.
+  FLAG : Todo
+
+ANN YOZORA SAINT
+  UNDE : First wave
+  BREF : {{Ann Yozora Saint}} was originally released as two albums, {_Ann Yozora Saint_} and {_Lu's Floral Funeralis_}, they were consolidated into a single release in 2017.
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/ann-yozora-saint
+  
+NETHER ESPER INSERTS
+  UNDE : First wave
+  BREF : {{Nether Esper Inserts}} was originally released as two albums, {_Nether Esper Inserts_} and {_Howls Virgil Systems_}, they were consolidated into a single release in 2017.
+  FLAG : Todo
+
+OTOROUTES MINIATURES
+  UNDE : First wave
+  BREF : {{Otoroutes Miniatures}} was created especially for the first large Toy Company festival.
+  FLAG : Todo
+
+GENESIS MINERS
+  UNDE : First wave
+  BREF : {{Genesis Miners}} was created for the {_Kinetik Festival_}.
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/genesis-iii-20-ov-idyllic-miners
+
+DAMOISEAU CANALX
+  UNDE : First wave
+  BREF : {{Damoiseau Canalx}} was created in the spirit of {{Blam}}, exploring industrial sounds with 2-step styles.
+  LONG
+    & The album was recorded live, at Passport in Montreal during the last AMP event and is being released as-is.
+    & The album was composed as side project while working on {{Ten Axitecture}} and includes bits and pieces from {{Blam}}.
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/damoiseau-canalx
 
 LIVES
   UNDE : Aliceffekt
@@ -310,27 +329,14 @@ VERMILLIONTH
     BAND : https://aliceffekt.bandcamp.com/album/vermillionth
   FLAG : Todo
 
-GENESIS MINERS
-  UNDE : First wave
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/genesis-iii-20-ov-idyllic-miners
-
-GONE PLAINS
-  UNDE : First wave
-  FLAG : Todo
-
 HEX HIVE NECKLACE
   UNDE : Physical
   BREF : A small design necklace, looks great in black.
   LINK
     SITE : http://www.thingiverse.com/thing:18853
 
-HOWLS VIRGIL SYSTEMS
-  UNDE : First wave
-  FLAG : Todo
-
 HUNDRED RABBITS
-  UNDE : Visual
+  UNDE : Hundred rabbits
   BREF : {{Hundred Rabbits}}, is a nomad design studio founded by {{Rekka Bellum|http://kokorobo.ca}} and {{Devine Lu Linvega|Devine Lu Linvega}} aboard a {{sailboat|https://github.com/hundredrabbits/Pino}}.
   TYPE : Diary
   LONG
@@ -370,16 +376,10 @@ SKETCHBOOK
 FLACTALS
   UNDE : Sketchbook
   TYPE : Diary
-  BREF : Drawing flowers, terapeutic.
-
-VOYNICH
-  UNDE : Language
-  BREF : Notes on Voynich Manuscript.
-
-VERT KIRLIAN THEATRE
-  UNDE : First wave
-  BREF : This album was written entirely in the {{Yamanote line|http://en.wikipedia.org/wiki/Yamanote_Line}}, during my first trip to Tokyo, {{Japan}}.
-  FLAG : Todo
+  BREF : A series of abstract six-sided flowers drawn using a procedural drawing script. 
+  LONG
+    & These flowers have inspired a series of illustrations used in Elodie Lareine's book titled "{{Vast}}" as well as the cover of the {{Aliceffekt}} single titled "{{Known Magye}}", released in 2014.
+    ? Drawing flowers, terapeutic.
 
 LOOKING GLACE
   UNDE : Beldam records
@@ -390,18 +390,16 @@ LOOKING GLACE
     BAND : https://beldamrecords.bandcamp.com/album/looking-glace
     ITUN : https://itunes.apple.com/ca/album/looking-glace-ep/id1034127266
 
-LUS FLORAL FUNERALIS
-  UNDE : First wave
-  FLAG : Todo
-
-GAII
-  UNDE : Audio
-  BREF : GAII, also Malice or 害意, tells the {{earlier tales|Neauismetica}} of {{Neonev}} as she crossed the {{Kanikule}} ocean. The tracks are singing of the daily discoveries, and it's darker distances. The Malice logo was designed by {{Jan Vranovský|http://visualscream.net}}.
+MALICE
+  UNDE : Aliceffekt
+  BREF : {{Malice}}, GAII or 害意, tells the {{earlier tales|Neauismetica}} of {{Neonev}} as she crossed the {{Kanikule}} ocean. 
+  LONG
+    & The tracks are singing of the daily discoveries, and it's darker distances. The Malice logo was designed by {{Jan Vranovský|http://visualscream.net}}.
   TYPE : Portal
 
 COLLECTED WORKS
-  UNDE : Gaii
-  BREF : {{Collected Works}}, is a collection of chiptune works written, under the {{Gaii}}(Malice) alias, between 2008 and 2015.
+  UNDE : Malice
+  BREF : {{Collected Works}}, is a collection of chiptune works written between 2008 and 2015.
   LONG
     & This release includes the complete Storm Transit record, as well as a few original Malice tracks and the {{Merveilles Portable}} soundtrack.
   LINK
@@ -422,7 +420,9 @@ MILAVREGA
 
 MINISCOPIE
   UNDE : Beldam records
-  BREF : {{Miniscopie}} is the second release on the {{Beldam Records}} catalog. Written by {{Reine|http://noirmirroir.com}}, this album combines ambient and deep IDM flavoured sounds. The album is the first music release from Elodie, who also created the {{Vast}} book.
+  BREF : {{Miniscopie}} is the second release on the {{Beldam Records}} catalog. 
+  LONG
+    & Written by {{Reine|http://noirmirroir.com}}, this album combines ambient and deep IDM flavoured sounds. The album is the first music release from Elodie, who also created the {{Vast}} book.
   LINK
     BAND : https://beldamrecords.bandcamp.com/album/miniscopie
     ITUN : https://itunes.apple.com/us/album/miniscopie-ep/id956624857
@@ -615,7 +615,7 @@ MODERNISTA
   TYPE : Diary
 
 ABLETON
-  UNDE : Audio
+  UNDE : Resources
   BREF : I designed this dark {{Ableton}} Live theme where the knobs and various other controls stick out from the interface.
   LONG
     & To Install it on OS X, simply right click on the Live Icon and select {*Show Package Content*} and paste the skin file {_XXIIVV.ask_} in the skin folder.
@@ -647,10 +647,6 @@ POLYGORE
   TYPE : Diary
   
 ~
-
-NETHER ESPER INSERTS
-  UNDE : First wave
-  FLAG : Todo
 
 RUBY RIDING HOOD
   UNDE : Language
@@ -728,16 +724,12 @@ OQUONIE GUIDE
     & Good luck.
 
 THE SIXTH SEASON
-  UNDE : Second wave
+  UNDE : Neauismetic
   BREF : {{The Sixth Season}} contains 7 original tracks, singing the {{Neauismetical|Neauismetica}} tales of the sixth season, or the {_establishment of the Oasis_}. {_Whiinders_} and the likes, raising tents hoping for a glorious end in memory of {{Rlionn}}.
   LONG
-    & This album established the sound that {{Aliceffekt}} decided to persue for the {{Second Wave}} releases.
+    & This album established the sound that {{Aliceffekt}} decided to persue for the {{Neauismetic}} releases.
   LINK
     BAND : http://aliceffekt.bandcamp.com/album/orchestrate-the-sixth-season
-
-OTOROUTES MINIATURES
-  UNDE : First wave
-  FLAG : Todo
 
 PHYSICAL
   UNDE : Visual
@@ -806,36 +798,16 @@ LARD SHADER
     & The shader first creates a vertical vertex displacement based on the intersection of brightness and red pixel values, and then re-apply itself 3 times onto the resulted new topology.
   TYPE : Diary
 
-REGIONSTEAM SNOWDAYS
-  UNDE : First wave
-  FLAG : Todo
-
-REMIX
-  UNDE : Audio
-  BREF : Here is a list of the remixes that I have made and tracks that were released on compilation albums.
-  LONG
-    & Once in a blue moon I will remix music for my friends. Some of these tracks are no longer being distributed by their channels and have become rarities. See if you can find them all.
-    * Compilations and Remixes
-    - <a href="http://www.adnoiseam.net/store/comaduster-winter-eyes_p4083.html?utm_campaign=adnoiseam&utm_medium=twitter&utm_source=twitterfeed&utm_content=adnoiseam&utm_term=adnoiseam"> Winter Eyes (Aliceffekt Remix)</a> <br /> Comaduster (2013), Tympanik Audio
-    - <a href="http://www.youtube.com/watch?v=lQItP8L8N2k"> Fisherman II (Aliceffekt Remix)</a> <br /> Veroníque (2013)
-    - <a href="http://www.youtube.com/watch?v=3kALWsZPJi8"> Ghostnote (Aliceffekt Remix)</a> <br /> iVardensphere (2012), Metropolis
-    - <a href="http://www.youtube.com/watch?v=ehB-ZSWymic"> Dan Dan (Aliceffekt Remix)</a> <br /> Misteur Valaire (2011)
-    - <a href="http://www.youtube.com/watch?v=TtgUpM5HxhY"> Thievery of the Jade Books </a> <br /> VA - Kinetik Festival Volume 4 (2011), Artoffact
-    - {* Laeis 7th Passage E.th *} <br /> VA - Kinetik Festival Volume 3 (2010), Artoffact
-    - <a href="http://ant-zen.bandcamp.com/track/dumachus-junction-feat-aliceffekt"> Dumachus Junction Feat. Aliceffekt </a> <br /> Iszoloscope - Beyond Within (2010), Ant-zen
-    - {* Weltenzerstorer (Aliceffekt Remix) *} <br /> Doomer - The Ruins of Your World (2010)
-    - {* Does it really matter (Aliceffekt Remix) *} <br /> Stray - Devalued and Discarded (2009)
-    - {* Bad Girls (Aliceffekt Remix) *} <br /> Perfection Plastic - Échec De La Matière (2009)
-
 RING OF SCALES
   UNDE : Physical
   BREF : A large ring I made to learn about 3d printing.
   LINK
     SITE : http://www.thingiverse.com/thing:19152
 
-SECOND WAVE
+NEAUISMETIC
   UNDE : Aliceffekt
   TYPE : Portal
+  BREF : The {{Neauismetic}} albums are audio diaries from the early ages of the {{Neauismetica}}.
   FLAG : Todo
 
 SERVENTINES
@@ -1079,14 +1051,15 @@ TEN AXITECTURE
     BAND : https://aliceffekt.bandcamp.com/album/ten-axitecture
     ITUN : iTunes|https://itunes.apple.com/ca/album/ten-axitecture-ep/id937396413
 
-THIRD WAVE
+LAEISTHIC
   UNDE : Aliceffekt
   TYPE : Portal
+  BREF : The {{Laeisthic}} albums are {{Neauismetic}} albums occuring only within the {{Laeisth}} continent of {{Dinaisth}}.
   FLAG : Todo
 
 EHRIVEVNV STUDIES
-  UNDE : Third wave
-  BREF : The {{Ehrivevnv Studies}} is a {{Third Wave}} album exploring {{Andes}}' offices in {{Dinaisth}}.
+  UNDE : Laeisthic
+  BREF : The {{Ehrivevnv Studies}} is a {{Laeisthic}} album exploring {{Andes}}' offices in {{Dinaisth}}.
   LONG
     & This album was composed for and performed at {_Blip Festival Tokyo_} on October 21st 2012 and reissued on april 15th 2013, including some changes from the {_Melbourne Squaresound Show_}.  
     & The track names contains encrypted Lietal</a>. The first track is decrypted into "<a href='Simkin'>Simkin</a> <a href='Kamsi'>Kamsi</a>" and can be translated to {_Time Structure_}, refering to The Library of Sand. The second track, "<a href='Xomsinsom'>Xomsinsom</a> <a href='kim'>Kim</a> <a href='Yajnev'>Yajnev</a>", can be translated to {_Yajnev's Curse_} and refers to the short <a href='082'>Yajnev's Thoughts</a>. The third track is titled "<a href='Ko'>Ko</a> <a href='sokamxi'>Sokamxi</a>" which simply means {_The Impossible Exploration_}.
@@ -1095,22 +1068,24 @@ EHRIVEVNV STUDIES
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/the-ehrivevnv-studies-reissue
 
-TELEKINESIS
-  UNDE : Telekinetic
-  BREF : {{Telekinesis}} is a Leap Motion based controller that allows, through Pure Data, to control multiple midi instruments at once. The tool was used for both, the live performance of {{Telekinetic}} and {{Ten Axitecture}}. The picture was taken at 8Static, by {{Marjorie Becker|https://www.flickr.com/photos/m_becker/}}.
-
 TELEKINETIC
-  UNDE : Third wave
-  BREF : {{Telekinetic}} is the name of a concept album by {{Aliceffekt}} played live with the {{Leap Motion|https://www.leapmotion.com}}, first performed at {{Sabaco in Tokyo|http://www.cnet.com.au/dj-turns-leap-motion-into-a-theremin-sort-of-339345563.htm}}.
+  UNDE : Laeisthic
+  BREF : {{Telekinetic}} is a {{Laeisthic}} concept album performed live with the {{Leap Motion|https://www.leapmotion.com}} controller at {{Sabaco|http://www.cnet.com.au/dj-turns-leap-motion-into-a-theremin-sort-of-339345563.htm}} in Tokyo.
   LONG
     & The event was recorded and can still be watched online on <a href="http://www.ustream.tv/recorded/39105185">UStream</a>. There was a <a href="http://www.cnet.com.au/dj-turns-leap-motion-into-a-theremin-sort-of-339345563.htm">short article on CNET</a> about the event as well. The album cover features an alternate door to {{Nataniev}}'s Library of Sand ornated of the number 210 in <a href='Needle+numbers'>Needle Numbers</a> as well as the {{Lietal}} letters BI, TI, TA, SI, PO.
     & You can watch a a demo of the <a href='https://www.facebook.com/photo.php?v=10153250341045274'>prototype</a>.
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/telekinetic
 
+TELEKINESIS
+  UNDE : Telekinetic
+  BREF : {{Telekinesis}} is a Leap Motion based controller that allows, through Pure Data, to control multiple midi instruments at once. 
+  LONG
+    & The tool was used for both, the live performance of {{Telekinetic}} and {{Ten Axitecture}}. The picture was taken at 8Static, by {{Marjorie Becker|https://www.flickr.com/photos/m_becker/}}.
+
 FROM SAHARAPHOREST
-  UNDE : Third wave
-  BREF : {{From Saharaphorest}}, is a {{Third Wave}} album telling the tale of a visit at {{Paradichlorisse}}.
+  UNDE : Laeisthic
+  BREF : {{From Saharaphorest}} is a {{Laeisthic}} album telling the tale of a visit at {{Paradichlorisse}}.
   LONG
     & I recorded the album playing through cassette tapes and fell in love with the recording for it's uneasy sounds and noisy silences - It felt like it somehow made sense with this album.
     & The first 3 tracks are ripped from cassette tapes, and the last one is a single clean mastered version.
@@ -1120,16 +1095,16 @@ FROM SAHARAPHOREST
     BAND : http://aliceffekt.bandcamp.com/album/19th-month-from-saharaphorest-to-duomo
 
 CHILDREN OF BRAMBLE
-  UNDE : Third wave
-  BREF : This short album contains two dark ambient/industrial tracks that sings of the Oasis of {{Rlionn}} and her Children. 
+  UNDE : Laeisthic
+  BREF : {{Children of Bramble}} is a {{Laeisthic}} album that contains two tracks that sings of the Oasis of {{Rlionn}} and her Children. 
   LONG
     & This album begins by the Oasis of {{Laeisth}} to finally reach the castle of {{Andes}} and its desertsunk structures. This single is part of the {{Neauismetica}}, and shares some narrative concepts with {{Telekinetic}}.
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/children-with-veins-of-bramble
 
 KNOWN MAGYE
-  UNDE : Third wave
-  BREF : {{Known Magye}} is an album telling the tales of the industrious times of {{Dinaisth}}.
+  UNDE : Laeisthic
+  BREF : {{Known Magye}} is a {{Laeisthic}} album telling the tales of the industrious times of {{Dinaisth}}.
   LONG
     & Sometimes reminiscent of the compositions of {{Children of bramble}}, sometimes of the drowned sounds of {{Telekinetic}}, this single is a fair mix of ambient and breaks.
     & The album was recorded live from {{San Fransisco|travel}}'s {*POW POW POW*} which was controlled entirely with the {{Leap Motion|https://www.leapmotion.com}}.
@@ -1137,8 +1112,8 @@ KNOWN MAGYE
     BAND : https://aliceffekt.bandcamp.com/album/known-magye
 
 EXTENDED SLEEP
-  UNDE : Third wave
-  BREF : {{Extended sleep}} is the sequel to {{Known Magye}}, a deeper exploration of its universes, its stories. 
+  UNDE : Laeisthic
+  BREF : {{Extended sleep}} is the {{Laeisthic}} sequel to {{Known Magye}}, a deeper exploration of its universes, its stories. 
   LONG
     & The album will be first performed at the A Maze Festival in Berlin, on April 23rd 2015.
   LINK
@@ -1171,6 +1146,23 @@ SUPERVISITOR
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/supervisitor
     ITUN : iTunes|https://itunes.apple.com/ca/album/supervisitor-ep/id951144870
+
+REMIX
+  UNDE : Aliceffekt
+  BREF : The {{Remix}} collection contains a list of the {{Aliceffekt}} remixes and unique tracks made for compilations.
+  LONG
+    * Remixes
+    - Comaduster - {{Winter Eyes|http://www.adnoiseam.net/store/comaduster-winter-eyes_p4083.html}}, Tympanik Audio 2013
+    - Veroníque - {{Fisherman II|http://www.youtube.com/watch?v=lQItP8L8N2k}} 2013
+    - iVardensphere - {{Ghostnote|http://www.youtube.com/watch?v=3kALWsZPJi8}} Metropolis Records 2012
+    - Misteur Valaire - {{Dan Dan|http://www.youtube.com/watch?v=ehB-ZSWymic}} 2011
+    - Doomer - Weltenzerstorer 2010
+    - Stray - Does it really matter 2009
+    - Perfection Plastic - Bad Girls 2009
+    * Rare Tracks
+    - Iszoloscope - {{Dumachus Junction Feat. Aliceffekt|http://ant-zen.bandcamp.com/track/dumachus-junction-feat-aliceffekt}}[Beyond Within], Ant-zen 2010
+    - VA - {* Laeis 7th Passage E.th *}[Kinetik Festival Volume 3], Artoffact 2010
+    - VA - {{Thievery of the Jade Books|http://www.youtube.com/watch?v=TtgUpM5HxhY}}[Kinetik Festival Volume 4], Artoffact 2011
 
 TYPOGRAPHY
   UNDE : Illustration
@@ -1215,12 +1207,13 @@ VERRECIEL OST
     BAND : https://aliceffekt.bandcamp.com/album/verreciel
 
 VETETRANDES LETTRES
-  UNDE : Second wave
-  BREF : {{Vetetrandes Lettres}}'s songs sings of the {{first ages|Neauismetica}} of {{Dinaisth}} on the island of {{Vetetrandes}}. While the album begins in Vetetrandes, it moves to the shores of {_Dilitrielth_} and turns its attention across {{Kanikule}} and toward the {_Es_}'Gulf of {_Eaurison_}.
+  UNDE : Neauismetic
+  BREF : {{Vetetrandes Lettres}}'s songs sings of the {{first ages|Neauismetica}} of {{Dinaisth}} on the island of {{Vetetrandes}}. 
   LONG
+    & While the album begins in Vetetrandes, it moves to the shores of {_Dilitrielth_} and turns its attention across {{Kanikule}} and toward the {_Es_}'Gulf of {_Eaurison_}.
     & The album includes 4 edited tracks from the {{Es Gulf Sunflowers}} release. The {_Ver'Tale_} extension is a hint to a location of {_Whiinders_}, close to the visited {_Vert Kirlian Theatre_}.
     & The album begins with a track about {{Yajnev}}, the composition is based on his trip near the white trees of the {_Oasis_} and the {_Children of Brambles_}.
-    & The album is part of {{Aliceffekt}}'s {{Second Wave}} albums.
+    & The album is part of {{Aliceffekt}}'s {{Neauismetic}} albums.
   LINK
     BAND : http://aliceffekt.bandcamp.com/album/vetetrandes-lettres-perdues
 
@@ -1742,7 +1735,7 @@ DEATH
 ~ [TODO] Combine under a portal page
 
 THE OPAL INQUISITORS
-  UNDE : Second wave
+  UNDE : Neauismetic
   BREF : {{The Opal Inquisitors}} is the prequel to {{Portalion}}, where {{Neonev}} begin their exploration of the central regions of {{Dinaisth}}, emerging from the tunnels of {_Dei Dain Canals_}.
   LONG
     & Driving the {{Vermillionth}} up the spires below the surface of central islands, the records are photographs of the travels between the caves of {_Dilitrielth_} and the deserts of {{Duomo}.
@@ -1754,7 +1747,7 @@ THE OPAL INQUISITORS
     BAND : https://aliceffekt.bandcamp.com/album/the-opal-inquisitors
 
 PORTALION
-  UNDE : Second wave
+  UNDE : Neauismetic
   BREF : {{Portalion}} is the successor to {{The Opal Inquisitors}}, continuing the exploration of the central regions of {{Dinaisth}}, landing on the southernest docks of {_Laeisth_}.
   LONG
     & On a foggy night of the {_Sixth Season_}, embarking on one of the vessels of the {_Septechoes_} in the desert of {_Clionn_}, {{Neonev}} sails toward {_Whiinders_} to see its {_Immortal Birds_} once more.
@@ -1766,8 +1759,8 @@ PORTALION
     BAND : https://aliceffekt.bandcamp.com/album/portalion
 
 DEI DAIN
-  UNDE : Second wave
-  BREF : Written and released in Tokyo in 2013, {{Dei Dain}} is the sixth album as part of {{Aliceffekt}}'s {{Second Wave}} albums.
+  UNDE : Neauismetic
+  BREF : Written and released in Tokyo in 2013, {{Dei Dain}} is the sixth album as part of {{Aliceffekt}}'s {{Neauismetic}} albums.
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/dei-dain
 

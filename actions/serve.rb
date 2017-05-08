@@ -45,8 +45,8 @@ class ActionServe
 
     load_any "#{@host.path}/pages",   @query
     load_any "#{@host.path}/modules", @query
-    load_any "#{@host.path}/modules", @module
     load_any "#{@host.path}/layouts", corpse.term.type
+    load_any "#{@host.path}/modules", @module
 
     return corpse.result
 
