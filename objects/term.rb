@@ -18,6 +18,7 @@ class Term
     @name = "#{name}".downcase.capitalize
     @unde = data["UNDE"] ? data["UNDE"].downcase.capitalize : "Home"
     @type = data["TYPE"] ? data["TYPE"] : nil
+    @tags = data["TAGS"] ? data["TAGS"] : nil
     @link = data["LINK"]
     @bref = data["BREF"] ? data["BREF"].markup : nil
     @long = data["LONG"] ? data["LONG"] : []
@@ -107,6 +108,12 @@ class Term
 
     @logs = @logs ? @logs : ( name.like("home") || name.like("diary") ? $horaire.filter("term","*","log") : $horaire.filter("term",name,"log"))
     return @logs
+
+  end
+
+  def tags
+
+    return @tags ? @tags.to_s.downcase.split(" ") : nil
 
   end
 

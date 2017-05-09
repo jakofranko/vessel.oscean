@@ -4,6 +4,7 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 05 09 - 26      Nataniev             Design
 2017 05 08 - 39      Neauismetica         Writing
 2017 05 07 - 29      Hundred rabbits      Video
 2017 05 06 - 14      Hundred rabbits      Composition

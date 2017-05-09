@@ -98,6 +98,7 @@ class CorpseHttp
       #{_portal}
       <yu class='vi'>
         #{view}
+        #{_tags}
       </yu>
     </wr>
     <hr/>
@@ -159,6 +160,20 @@ class CorpseHttp
   def view
     
     return "<p>#{term.bref}</p>#{term.long.runes.to_s}"
+
+  end
+
+  def _tags
+
+    if !term.tags then return "" end
+
+    html = ""
+
+    term.tags.each do |tag|
+      html += "<a href='/#{tag}:tag' class='tag'>#{tag}</a>"
+    end
+
+    return html
 
   end
 

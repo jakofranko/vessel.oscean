@@ -103,7 +103,7 @@ BELDAM RECORDS
     TWTR : https://twitter.com/beldamrecords
 
 BLINDFOLK
-  UNDE : Online
+  UNDE : Unreleased
   BREF : {{Blindfolk}} was a cryptic multiplayer combat game where players must program their character to foresee and react to the other players' action.
   LONG
     & It was first created in the span of 48 hours for {{Global Game Jam 2016|http://globalgamejam.org}}.
@@ -115,7 +115,7 @@ BLINDFOLK
     GITH : https://github.com/XXIIVV/vessel.blindfolk
 
 BABELIUM
-  UNDE : Online
+  UNDE : Desktop
   BREF : {{Babelium}} is a roguelike set in the Borges' Library of Babel and played within the limitation of its books.
   LONG
     & {{Babelium}} is a roguelike set in the Borges' Library of Babel and played within the limitation of its books.
@@ -145,6 +145,20 @@ DESKTOP
   UNDE : Interactive
   BREF : This list shows all of the desktop projects built of the last few years.
   TYPE : Portal
+
+PURGATEUS
+  UNDE : Desktop
+  BREF : {{Purgateus}} is a video game remix of {{Proteus|http://www.visitproteus.com}}. 
+  LONG
+    & This world behave just like Proteus, but looks and sounds different. Read more on {{Venus Patrol|http://venuspatrol.com/purgateus/}}. The project was inspired from a tweet by {{Ian Snyder|https://twitter.com/whatisian/status/468819959859007488}}
+    * Instructions
+    - Make a copy of your {*/resources*} folder.
+    - Replace the {*/resources*} folder with the downloaded package.
+    - On OS X, right-click on Proteus, {*Show Package Content*}.
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/purgateus
+    DRIV : https://drive.google.com/open?id=0B24klRuG3GLNMnVuVWUzY3NxT2c
+  TYPE : Diary
 
 DONSOL
   UNDE : Desktop
@@ -240,12 +254,12 @@ FIRST WAVE
   UNDE : Aliceffekt
   TYPE : Portal
   BREF : The {{First Wave}} contains material mostly unrelated to the {{Neauismetica}} and proto-{{Aliceffekt}}.
-  FLAG : Todo
+  TAGS : Stub
 
 REGIONSTEAM SNOWDAYS
   UNDE : First wave
   BREF : {{Regionsteam Snowdays}} is the first official {{Aliceffekt}} release.
-  FLAG : Todo
+  TAGS : Stub
 
 DOWNTEMPERATURE
   UNDE : First wave
@@ -262,7 +276,9 @@ BLAM
 VERT KIRLIAN THEATRE
   UNDE : First wave
   BREF : The {{Vert Kirlian Theatre}} was created during on a long train ride, on the {{Yamanote line|http://en.wikipedia.org/wiki/Yamanote_Line}}, during my first trip to Tokyo.
-  FLAG : Todo
+  LONG
+    & This release inspired the creation of {{From Saharaphorest}}.
+  TAGS : Stub
 
 ANN YOZORA SAINT
   UNDE : First wave
@@ -273,12 +289,12 @@ ANN YOZORA SAINT
 NETHER ESPER INSERTS
   UNDE : First wave
   BREF : {{Nether Esper Inserts}} was originally released as two albums, {_Nether Esper Inserts_} and {_Howls Virgil Systems_}, they were consolidated into a single release in 2017.
-  FLAG : Todo
+  TAGS : Stub
 
 OTOROUTES MINIATURES
   UNDE : First wave
   BREF : {{Otoroutes Miniatures}} was created especially for the first large Toy Company festival.
-  FLAG : Todo
+  TAGS : Stub
 
 GENESIS MINERS
   UNDE : First wave
@@ -303,12 +319,12 @@ LIVES
 SHIKANOKOA VS 1H1D
   UNDE : Lives
   BREF : {{Shikanokoa vs 1H1D}} was recorded in Osaka at the event of the same name, with mostly improvisational tracks.
-  FLAG : Todo
+  TAGS : Stub
 
 PEDESTRIAN PARADISE
   UNDE : Lives
   BREF : {{Pedestrian Paradise}} was recorded at the {_Piknik Electronic_} event in Montreal from various bits and pieces of unreleased material.
-  FLAG : Todo
+  TAGS : Stub
 
 NOR LET THE FOOLS
   UNDE : Lives
@@ -327,7 +343,7 @@ VERMILLIONTH
   BREF : {{Vermillionth}} was the recording of the live performance at the Kinetik Festival, in Montreal.
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/vermillionth
-  FLAG : Todo
+  TAGS : Stub
 
 HEX HIVE NECKLACE
   UNDE : Physical
@@ -416,7 +432,7 @@ MILAVREGA
   BREF : {{Milavrega}} was a mobile game happening in someone's lost phone.
   LONG
     & You must try and find your way through the folders, emails and contacts to decypher the enigma of the phone's owner.
-  FLAG : Todo
+  TAGS : Stub
 
 MINISCOPIE
   UNDE : Beldam records
@@ -609,9 +625,13 @@ VERRECIEL
     ITUN : https://itunes.apple.com/ca/app/verreciel/id1065988107
     GITH : https://github.com/Echorridoors/Verreciel
 
-MODERNISTA
+COLOUR
   UNDE : Artwork
-  BREF : {{Modernista}} is the name of a series of 5 prints inspired from American Modernism.
+  BREF : The {{Colour}} collection are a series of experiments involving colours.
+
+MODERNISTA
+  UNDE : Colour
+  BREF : {{Modernista}} is a series of 4 prints inspired from American Modernism.
   TYPE : Diary
 
 ABLETON
@@ -686,11 +706,6 @@ OCCULTER
   UNDE : Physical
   BREF : Occulter is a small boutique I admire, and that sells {{black things|http://www.occulter.org}}.
 
-ONLINE
-  UNDE : Interactive
-  BREF : A collection of {{interactive}} projects playable from your browser.
-  TYPE : Portal
-
 MARKL
   UNDE : Desktop
   BREF : {{Markl}} is an upcoming turn-based puzzle game.
@@ -722,11 +737,13 @@ OQUONIE GUIDE
     * The Shark
     & Many doors, across the worlds, were locked. You have gone through the levels without paying any mind to them but now you will need to find each world's {*Red Pillar*} to unlock the door. My guess would be that you are in town and do not know where to proceed next. So this is my tip to you.
     & Good luck.
+  TAGS : Guide
 
 THE SIXTH SEASON
   UNDE : Neauismetic
-  BREF : {{The Sixth Season}} contains 7 original tracks, singing the {{Neauismetical|Neauismetica}} tales of the sixth season, or the {_establishment of the Oasis_}. {_Whiinders_} and the likes, raising tents hoping for a glorious end in memory of {{Rlionn}}.
+  BREF : {{The Sixth Season}} sings the {{Neauismetic}} tales of the sixth season, or the {_establishment of the Oasis_}. 
   LONG
+    & {_Whiinders_} and the likes, raising tents hoping for a glorious end in memory of {{Rlionn}}.
     & This album established the sound that {{Aliceffekt}} decided to persue for the {{Neauismetic}} releases.
   LINK
     BAND : http://aliceffekt.bandcamp.com/album/orchestrate-the-sixth-season
@@ -808,7 +825,7 @@ NEAUISMETIC
   UNDE : Aliceffekt
   TYPE : Portal
   BREF : The {{Neauismetic}} albums are audio diaries from the early ages of the {{Neauismetica}}.
-  FLAG : Todo
+  TAGS : Stub
 
 SERVENTINES
   UNDE : Nereid
@@ -831,20 +848,6 @@ UNITY
     & Sadly, a lot of these games were lost in a computer death, and are only listed here for memory's sake. Some additional Unity games are available under {{Collegiennes}}.
   TYPE : Portal false
 
-PURGATEUS
-  UNDE : Desktop
-  BREF : {{Purgateus}} is a video game remix of {{Proteus|http://www.visitproteus.com}}. 
-  LONG
-    & This world behave just like Proteus, but looks and sounds different. Read more on {{Venus Patrol|http://venuspatrol.com/purgateus/}}. The project was inspired from a tweet by {{Ian Snyder|https://twitter.com/whatisian/status/468819959859007488}}
-    * Instructions
-    - Make a copy of your {*/resources*} folder.
-    - Replace the {*/resources*} folder with the downloaded package.
-    - On OS X, right-click on Proteus, {*Show Package Content*}.
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/purgateus
-    DRIV : https://drive.google.com/open?id=0B24klRuG3GLNMnVuVWUzY3NxT2c
-  TYPE : Diary
-
 SISEON
   UNDE : Unity
   BREF : {{Siseon}} is an exploration game set within a life-infested megastructure.
@@ -854,7 +857,7 @@ SISEON
 ZJEVENI
   UNDE : Unity
   BREF : {{Zjeveni}} is a third person exploration game about climbing to the high points of the structure.
-  FLAG : Todo
+  TAGS : Stub
 
 DRYPOINT
   UNDE : Unity
@@ -990,7 +993,7 @@ VOLKENESSEN
 WAITING FOR HORUS
   UNDE : Unreleased
   BREF : {{Waiting for Horus}} was a fast paced multiplayer arena type 3rd person shooter.
-  FLAG : Todo
+  TAGS : Stub
 
 PICO
   UNDE : Collegiennes
@@ -1028,14 +1031,14 @@ PICO BATTLE
 SPAGETTINI SCALE
   UNDE : Physical
   BREF : This scale was featured on the <a href='http://www.makerbot.com/blog/2012/03/20/spaghetti-scale-by-aliceffekt/'>Makerbot Blog</a> and should help you always cook the right quantity of pasta.
-  FLAG : Todo
+  TAGS : Stub
 
 SPOOL HOLDER
   UNDE : Physical
   BREF : This spool holder works with the <a href='http://www.pp3dp.com'>PP3DP Printer</a> and should allow you to fit a larger spool on your printer.
   LINK
     SITE : http://www.thingiverse.com/thing:18833
-  FLAG : Todo
+  TAGS : Stub
 
 TARPOPHOBIA
   UNDE : Polygonoscopy
@@ -1055,7 +1058,7 @@ LAEISTHIC
   UNDE : Aliceffekt
   TYPE : Portal
   BREF : The {{Laeisthic}} albums are {{Neauismetic}} albums occuring only within the {{Laeisth}} continent of {{Dinaisth}}.
-  FLAG : Todo
+  TAGS : Stub
 
 EHRIVEVNV STUDIES
   UNDE : Laeisthic
@@ -1283,38 +1286,38 @@ DINAISTH
   BREF : {{Dinaisth}} is both the name of the planet and of a continent which harbors {{Andes}}' offices.
   LONG
     % dinaisth
-  FLAG : Todo
+  TAGS : Stub
 
 NEAU
   UNDE : Dinaisth
   BREF : {{Neau}} is a circular city, notable for its blue rooftops, displaying a tall spire at its center. It is also the place from which the {{Neauismetica}} derives its name.
   LONG
     & The city exists at the center of the vast ocean of {_Kanikule_} and was the birthplace of {{Lietal}}. 
-  FLAG : Todo
+  TAGS : Stub
 
 KANIKULE
   UNDE : Dinaisth
   BREF : {{Kanikule}} is an infinite ocean that an immortal will spend an infitite amount of time crossing, effectively reaching the outer-shores mortal.
   LONG
     & While one can sail away from the point that is Neau, one cannot return to it. 
-  FLAG : Todo
+  TAGS : Stub
 
 LAEISTH
   UNDE : Dinaisth
   BREF : {{Laeisth}} is a desert surrounding the {{Rlionn}} Oasis, a blackened chasm where creeps the clones of its violent host.
-  FLAG : Todo
+  TAGS : Stub
 
 VETETRANDES
   UNDE : Dinaisth
   BREF : {{Vetetrandes}} once was the largest city of Dinaisth, before {{Yajnev}} caused it to become unreachable.
   LONG
     & As you would approach the epicenter of the bound city, time is increasingly unmoving. It is said that, at its center, one can find the corpse of {{Yajnev}}, who's head is believed to have been empty with void, and that what lied outside was actually within.
-  FLAG : Todo
+  TAGS : Stub
 
 DUOMO
   UNDE : Dinaisth
   BREF : The {{Duomo}} plateau rises far above the lightest atmosphere of Dinaisth. The empty land has but one location of interest, {{Paradichlorisse}}.
-  FLAG : Todo
+  TAGS : Stub
 
 ~ CHARACTERS
 
@@ -1493,15 +1496,29 @@ PAPER SCISSORS
   UNDE : Notes
   BREF : Our program plays games of Rock Paper Sissors against itself and soon develops a framework for complex speech.
 
+THE BOOKS OF BABEL
+  UNDE : Notes
+  BREF : After ages of searching the endless isles of the {_Library Of Babel_}, here are a few interesting books that I have collected over the years.
+  LONG
+    & The {*Narration*} books, the narrated thoughts of the reader in the vein of "I sit down, pick up the thick volume and begin reading, I notice the words to be- Oh, I can read my own thoughts on the page". 
+    & Skipping lines to look ahead appears to already be acounted for and so, wherever one chooses to continue reading resumes the narration where it was left off. In this way, the book cannot be used to predict future thoughts, despite its content being already fully present and unchanging.
+    & Some variances of these volumes read as dialogs between the reader's mental voice and that of other claimed interlocutor, possibly the book itself. Reading a line a second time hold but the account of past thoughts.
+    & The {*Divination*} books are books that when to open to a previously unseen page, are said to answer a tought or another. Some of the books are used to regular purposes like to give a written out numerical answer to a mathematical question, or the location of a book or hexagon.
+    & The {*Moving Picture*} books appear to display moving pictures when flicked through, where each page is a frame and each letter a pixel. This include the rare Mirror tomes that, like its name fortells, reflect the reader's features like a mirror would.
+
 ~ Language
 
 LANGUAGE
   UNDE : Research
-  TYPE : Portal
+  TYPE : Portal false false
   BREF : This is a collecting notes on a few natural languages and on my constructed logical languages research.
   LONG
     & Some of the tasks at hand might involve translating the wiki into {{English Prime|http://en.wikipedia.org/wiki/E-Prime}}, E′. Also see correspondances between {{Lietal}} against {{Tractatus Logico-Philosophicus|https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus}}. In another order of ideas, the analysis of the {{Logopandecteision|http://en.wikipedia.org/wiki/Logopandecteision}} sounds like a fun project. I should compare {{Lietal}} against the rules of {{Neaudethaumata|http://penelope.uchicago.edu/urquhart/index.html}}.
-    * Favourite Words
+    
+WORDS
+  UNDE : Language
+  BREF : A collection of favourite words across various languages.
+  LONG
     - {{Февраль|https://ru.wikipedia.org/wiki/Февраль}}, February in Russian
     - {{Roÿnes|https://fr.wiktionary.org/wiki/roÿne}}, queen in Middle French
     - Pleurir, crying-laugh in French
@@ -1731,8 +1748,6 @@ DIRECTORY
 DEATH
   UNDE : Devine lu linvega
   BREF : Inspired from {{Chris Crawford|https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer)}}'s Jars, every week a cell goes dark.
-
-~ [TODO] Combine under a portal page
 
 THE OPAL INQUISITORS
   UNDE : Neauismetic

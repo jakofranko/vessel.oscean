@@ -12,7 +12,6 @@ class CorpseHttp
       if term.name.like(@term.name) then next end
       if !term.bref then next end
       html += term.to_s(@term.type_value ? @term.type_value : :long)
-
     end
 
     return html
