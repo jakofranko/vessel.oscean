@@ -115,7 +115,7 @@
 2017 01 22 - 19      Hundred rabbits      Composition
 2017 01 21 - 25      Nataniev             Tools
 2017 01 20 - 25      Markl                Design
-2017 01 19 - 37  229 Nomads               Writing              Fulcanelli            Some thoughts on travel.
+2017 01 19 - 37  229 Nomad                Writing              Fulcanelli            Some thoughts on travel.
 2017 01 18 - 37      Ronin                Tools
 2017 01 17 - 29      Ronin                Design
 2017 01 16 - 35      Markl                Design
