@@ -15,7 +15,7 @@ class CorpseHttp
       html += "<h2 id='#{cat.downcase.gsub(' ','_')}'>#{cat.capitalize}</h2>\n"
       if con.kind_of?(Hash)
         con.each do |k,v|
-          html += "<h4>#{k}</h4>\n"
+          html += "<h4 id='#{k.downcase.gsub(' ','_')}'>#{k}</h4>\n"
       	  if v.kind_of?(Array)
             html += v.runes
           end
@@ -34,11 +34,17 @@ class CorpseHttp
   def indexes ladder
 
     html = ""
-    counter = 1
+    counter = 0
     html += "<ul class='index'>"
-    ladder.each do |cat,con|    
-      html += "<li><span class='counter'>#{counter}</span> <a href='##{cat.downcase.gsub(' ','_')}'>#{cat.capitalize}</a></li>"
-      counter += 1
+    ladder.each do |cat,con|  
+      counter += 1  
+      html += "<li class='main'><span class='counter'>#{counter}</span> <a href='##{cat.downcase.gsub(' ','_')}'>#{cat.capitalize}</a></li>"
+      if con.kind_of?(Hash)
+        con.each do |name,content|
+          counter += 1
+          html += "<li><span class='counter'>#{counter}</span> <a href='##{name.downcase.gsub(' ','_')}'>#{name.capitalize}</a></li>"
+        end
+      end
     end
     html += "</ul>"
 
@@ -54,6 +60,7 @@ class CorpseHttp
     .index li { font-family:'din_regular'; font-size:16px; line-height:25px; }
     .index li a:hover { text-decoration:underline}
     .index li span.counter { color:#aaa; display:inline-block; margin-right:15px; width:15px; text-align:right}
+    .index li.main a { font-family: 'din_medium'}
     </style>"
 
   end

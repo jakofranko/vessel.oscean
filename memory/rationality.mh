@@ -15,7 +15,7 @@ BIASES
     - Tendency to search for or interpret information in a way that confirms one's preconceptions.
   Congruence bias
     - Tendency to test hypotheses exclusively through direct testing, in contrast to tests of possible alternative hypotheses.
-  Conservatism or regressive bias
+  Regressive bias
     - Tendency to remember high values and high likelihoods/probabilities/frequencies as lower than they actually were and low ones as higher than they actually were. Based on the evidence, memories are not extreme enough.
   Egocentric bias
     - Tendency to claim more responsibility for themselves for the results of a joint action than an outside observer would. Recalling the past in a self-serving manner. 
@@ -32,8 +32,8 @@ BIASES
     - Tendency to seek information even when it cannot affect action.
   Modesty bias
     - Tendency to blame failures on oneself while attributing successes to situational factors. Opposite of self-serving bias.
-  Mood-congruent memory bias
-    - The improved recall of information congruent with one's current mood.
+  Mood-congruent bias
+    - Tendency to recall information congruent with one's current mood.
   Notational bias
     - Cultural bias in which a notation induces the appearance of a nonexistent natural law.
   Omission bias
@@ -47,8 +47,8 @@ BIASES
   Stereotypical bias
     - Memory distorted towards stereotypes. 
     - {*Example*}: "black-sounding" names being misremembered as names of criminals.
-  Superiority bias(Lake Wobegon effect)
-    - Tendency to overestimating one's desirable qualities, and underestimating undesirable qualities, relative to other people.
+  Superiority bias
+    - Tendency to overestimating one's desirable qualities, and underestimating undesirable qualities, relative to other people. Also known as the Lake Wobegon effect.
   Survivorship bias
     - Tendency of focusing on what has survived to the present and ignoring what must have been lost.
   Trait ascription bias
@@ -73,8 +73,8 @@ BIASES
     - Assuming that others share the same or similar thoughts, beliefs, values, or positions.
   Consistency bias
     - Incorrectly remembering one's past attitudes and behaviour as resembling present attitudes and behaviour.
-  Hindsight bias("I-knew-it-all-along" effect)
-    - Seeing past events as predictable, based on knowledge of later events.
+  Hindsight bias
+    - Seeing past events as predictable, based on knowledge of later events. Also known as the "I-knew-it-all-along" effect.
   Optimism bias
     - Systematic tendency to be over-optimistic about the outcome of planned actions.
   Outcome bias
@@ -104,8 +104,8 @@ EFFECTS
     - When people are incompetent in the strategies they adopt to achieve success and satisfaction, they suffer a dual burden, not only do they reach erroneous conclusions and make unfortunate choices, but their incompetence robs them of the ability to realize it. Instead, ...they are left with the mistaken impression that they are doing just fine.
   False consensus effect
     - Tendency for people to overestimate the degree to which others agree with them.
-  Forer effect(Barnum Effect)
-    - Tendency to give high accuracy ratings to descriptions of their personality that supposedly are tailored specifically for them, but are in fact vague and general enough to apply to a wide range of people. 
+  Forer effect
+    - Tendency to give high accuracy ratings to descriptions of their personality that supposedly are tailored specifically for them, but are in fact vague and general enough to apply to a wide range of people. Also known as the Barnum Effect.
     - {*Example*}: Horoscopes.
   Motivated cognition
     - Tendency to process information toward conclusions that suit some end or goal.
@@ -176,8 +176,6 @@ EFFECTS
     - That the "gist" of what someone has said is better remembered than the verbatim wording. This is because memories are representations, not exact copies.
   Von restorff effect
     - Tendency to remember an item that "stands out like a sore thumb", more than other items.
-  Worse-than-average effect
-    - Tendency to believe ourselves to be worse than others at tasks which are difficult.
   Zeigarnik effect
     - That uncompleted or interrupted tasks are remembered better than completed ones.
   Focusing effect
@@ -214,8 +212,7 @@ FALLACIES
     - Related to not taking into account the idea that a small sample size is not always reflective of a whole population and that sample populations with certain characteristics, e.g. made up of repeat job seekers, are not reflective of the whole population.
   Fallacy of gray
     - The false belief that because nothing is certain, everything is equally uncertain. It does not take into account that some things are more certain than others.
-  Generalization from fictional evidence fallacy
-    - Logical fallacy that consists of drawing real-world conclusions based on statements invented and selected for the purpose of writing fiction.
+    - {*The Sophisticate*}: "The world isn't black and white. No one does pure good or pure bad. Therefore, no one is better than anyone else." {*The Zetet*}: "Knowing only gray, you conclude that all grays are the same shade. You mock the simplicity of the two-color view, yet you replace it with a one-color view."
 
 HEURISTICS
   Absurdity heuristic
@@ -244,14 +241,14 @@ ARGUMENTS
     - Argument relying on people's ignorance.
   Argumentum ad populum
     - Argument relying on sentimental weakness rather than facts and reasons.
-  Argumentum ad verecundiam(argument from authority)
-    - Argument relying on the the words of an "expert" or authority as the bases of the argument instead of using the logic or evidence that supports an argument. 
+  Argumentum ad verecundiam
+    - {_Argument from authority_}, relying on the the words of an "expert" or authority as the bases of the argument instead of using the logic or evidence that supports an argument. 
     - {*Example*}: Professor so-and-so believes in creation-science.
-  Argumentum ex silentio(Appeal to ignorance)
-    - Argument relyingon ignorance as evidence for something. 
+  Argumentum ex silentio
+    - {_Appeal to ignorance_}, argument relying on ignorance as evidence for something. 
     - {*Example*}: We have no evidence that God doesn't exist, therefore, he must exist. Because we have no knowledge of alien visitors, that means they do not exist.
-  Argumentum ad consequentiam(Appeal to consequences)
-    - An argument that concludes a premise as either true or false based on whether the premise leads to desirable or undesirable consequences.
+  Argumentum ad consequentiam
+    - {_Appeal to consequences_}, an argument that concludes a premise as either true or false based on whether the premise leads to desirable or undesirable consequences.
     - {*Example*}: Some religious people believe that knowledge of evolution leads to immorality, therefore evolution proves false. Even if teaching evolution did lead to immorality, it would not imply a falsehood of evolution.
   Straw man
     - Creating a false or made up scenario and then attacking it. Painting your opponent with false colors only deflects the purpose of the argument.
@@ -268,8 +265,8 @@ ARGUMENTS
     - {*Example*}: We should judge the accused as guilty, otherwise others will commit similar crimes
   Proving non-existence
     - When an arguer cannot provide the evidence for his claims, he may challenge his opponent to prove it doesn't exist. Although one may prove non-existence in special limitations, such as showing that a box does not contain certain items, one cannot prove universal or absolute non-existence, or non-existence out of ignorance. One cannot prove something that does not exist. The proof of existence must come from those who make the claims.
-  Ad hominem(To the man)
-    - An arguer attacks the person instead of the argument. Whenever an arguer cannot defend his position with evidence, facts or reason. 
+  Ad hominem
+    - {_To the man_}, an arguer attacks the person instead of the argument. Whenever an arguer cannot defend his position with evidence, facts or reason. 
     - {*Example*}: Labeling, straw man arguments, name calling, offensive remarks and anger.
   Red herring
     - A diversion from the active topic.
@@ -290,8 +287,8 @@ ILLUSIONS
     - Tendency to identify as true statements familiar statements over unfamiliar ones.
   Clustering illusion
     - Tendency to perceive patterns where actually none exist.
-  Frequency illusion(Baader-Meinhof Phenomenon)
-    - Tendency to notice something everywhere after having learnt about it.
+  Frequency illusion
+    - Tendency to notice something everywhere after having learnt about it. Also known as the Baader-Meinhof Phenomenon.
   Illusory transparency
     - Tendency to overestimate others' ability to know them, and they also overestimate their ability to know others. Misleading impression that your words convey more to others than they really do.
 
@@ -444,8 +441,8 @@ FAULTS
     - Expecting more egocentric bias in others than in oneself.
   Naïve realism
     - The belief that we see reality as it really is – objectively and without bias; that the facts are plain for all to see; that rational people will agree with us; and that those who don't are either uninformed, lazy, irrational, or biased.
-  Non sequitur(It does not follow)
-    - An inference or conclusion that does not follow from established premises or evidence. 
+  Non sequitur
+    - An inference or conclusion that does not follow from established premises or evidence; "It does not follow".
     - {*Example*}: There occured an increase of births during the full moon. Conclusion, full moons cause birth rates to rise. But does a full moon actually cause more births, or did it occur for other reasons, perhaps from expected statistical variations?
   Rosy retrospection
     - Tendency to rate past events more positively than they had actually rated them when the event occurred.
@@ -489,8 +486,9 @@ Lexicon
     - State of acting against one's better judgment.
   Anthropomorphism
     - Attributing distinctly human characteristics to nonhuman processes.
-  Anti-inductiveness(Reverse Tinkerbell effect)
-    - The idea that the market would stop being efficient if everyone acted like it already was efficient. 
+  Anti-inductiveness
+    - Also known as the Reverse Tinkerbell effect.
+    - {*Example*}: The idea that the market would stop being efficient if everyone acted like it already was efficient. 
     - {*Example*}: A vote in a democracy (the more people that believe their vote counts towards the outcome of an election, the less their votes count).
   Causality
     - Relationship between a cause and an effect, where the effect is a direct consequence of the cause.
