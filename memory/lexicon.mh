@@ -685,16 +685,12 @@ NUMBERS
     - One Million 6 zeros
     - One Quindecillion 48 zeros
     - One Quattuortrigintallion 105 zeros
-    - One Sexagintallion 183 zeros
     - One Unnonagintallion 276 zeros
-    - One Septenviginticentillion 384 zeros
     - One Quattuortrecentillion 915 zeros
     - One Unseptuagintasescentillion 2016 zeros
     - One Duotrigintatrillinillion 9999 zeros
-    - One Septuagintaquadrillinillion 14313 zeros
     - One Quattuorquadragintaoctillinillion 24135 zeros
     - One Octillinillion 25203 zeros
-    - One Trigintanonillinillion 28893 zeros
     - One Treoctogintaquadringentimilligillion 31452 zeros
     - One Novennonagintaseptingentimilligillion 32400 zeros
     - One Senonagintamilligillion 40191 zeros
@@ -900,35 +896,7 @@ TABLE
 DONSOL GUIDE
   UNDE : Table
   BREF : {{Donsol}}, created in collaboration with {{John Eternal|https://twitter.com/johneternal}}, is a card game about exploring a dungeon made of a standard 54 poker card set.
-  LONG
-    & A standard deck, jokers included, is a {*dungeon*}. Shuffle the deck and draw 4 cards, display them before you, this is a {*room*}. A room ends when all the cards are folded.
-    # ♦ Diamonds are {*shields*}
-    # ♥ ︎Hearts are {*potions*}
-    # ♠ Spades are {*monsters*}
-    # ♣ ︎Clubs and Jokers are also {*monsters*}
-    * <span style='color:red'>♥︎ Potions</span>
-    & Potion give you health points equal to their value, up to a maximum of {*21 health points*}. Drinking multiple potions in a row will make you sick and result in no extra healing, only the first potion's value will be gained in HP. 
-    & Potions are equal to their value and face cards (J,Q,K,A) each are equal to 11.
-    * <span style='color:red'>♦ Shield Cards</span>
-    & Shields absorb the damage difference from a monster's value. Shields can {*only defend against monsters in descending value*} and if you use a shield on a monster with higher or equal value to the previous, it will break.
-    ? If you have an 8 shield equipped, by attacking a 9 monster you suffer 1 damage.
-    & Broken shields leave you unarmored, and taking full damage. A shield card will replace a previously folded shield card. 
-    & Shields are equal to their value and face cards (J,Q,K,A) each are equal to 11.
-    * ♣♠ Monster Cards
-    & Monster cards are equal to their value, and face cards are as follows J is 11, Q is 13, K is 15, A is 17; Jokers are both equal to 21.
-    * Running away
-    & You may escape a room, if you have {*not escaped the previous one*} or {*have handled all the monsters*} in the current room. When escaping, the remaining cards are shuffled back into the deck. 
-    * Example Play
-    & {*Room*} 7♦ Q♥︎ 10♠ J♣︎
-    # Equip the 7♦ shield.
-    # Battle the J♣              ; 11-7  = 4 lost HP
-    # Battle the 10♠             ; 10-7  = 3 lost HP
-    # Drink the Q♥︎               ; 14+11 = 21 max HP
-    & {*Room*} A♦ K♦ K♣︎ 9♥︎
-    # Equip the K♦, replacing 7♦
-    # Battle the K♣︎               ; 15-11 = 4 lost HP
-    # Drink the 9♥︎                ; 17+9  = 21 max HP
-    # Run away, return A♦
+  TYPE : Memory    
   LINK
     ITUN : https://itunes.apple.com/us/app/donsol/id976367718
     ITCH : https://hundredrabbits.itch.io/donsol/community
@@ -938,34 +906,7 @@ DONSOL GUIDE
 DOMINE GUIDE
   UNDE : Table
   BREF : This {{Domine Guide}} will show you how to play a simple game two player game, with dominoes.
-  LONG
-    & Every domino has 2 values, which we will call Attack/Defence. So a domino with both 6 and 2 values, can be used as both 6/2 and 2/6. You can watch our {{video guide|https://www.youtube.com/watch?v=fjZb190qn00}}.
-    * Setup
-    & Each player draws 7 random tiles.
-    & To determine which player begins, both players flip a tile, the player with the highest combined value is the attacking player.
-    * The Draw Phase
-    & The Attacking Player(AP) can forfeit their attack by exchanging a tile for a random one from the draw pile. In that case, the opponent becomes the Attacking Player.
-    * The Turn Phase
-    & The AP chooses an attacking tile from their hand, and plays it vertically toward the Defending Player(DP). From the perspective of the AP, the top value is the attack value, the bottom value, the defense value.
-    & The AP chooses a defending tile from their hand, and puts it vertically toward the Defending Player.
-    & A game lasts 7 rounds.
-    * A Basic Turn
-    - The AP puts 8/4
-    - The DP puts 5/6
-    - The DP tile is killed by the AP tile. (8 > 6)
-    - The AP wins the turn, the BP tile is flipped.
-    * A Blocking Turn
-    - The AP puts 8/4
-    - The DP puts 3/8
-    - The DP tile is blocked by the AP tile. (8 !> 8)
-    - The turn is a stand-still, no tiles are flipped.
-    * A Counter-Attacked Turn
-    - The AP puts 8/4
-    - The DP puts 5/9
-    - The DP tile is blocked by the AP tile. (8 !> 9)
-    - The DP tile counter-attacks with 5.
-    - The AP tile is killed by the DP tile. (5 > 4)
-    - The DP wins the turn, the AP tile is flipped.
+  TYPE : Memory
   TAGS : Guide
 
 ~ Collegiennes
@@ -1398,16 +1339,6 @@ TRAVEL
   BREF : Photoblog from around the world, I highlighted some of my favourite trips in the list below.
   TYPE : Portal
 
-AT SEA
-  UNDE : Travel
-  BREF : Written at sea.
-  TYPE : Diary
-
-AUSTRALIA
-  UNDE : Travel
-  BREF : Trip to Melbourne in feb 2013.
-  TYPE : Diary
-
 AUSTRIA
   UNDE : Travel
   BREF : Travel diary for our trip to Ars Electronica in Linz, followed with Vienna, in September of 2015.
@@ -1418,11 +1349,6 @@ AMERICA
   BREF : Landscapes taken around America, taken during a 52 hours train ride during {{Train Jam|http://trainjam.com}} in 2015, from Chicago to San Francisco.
   TYPE : Diary
 
-FRANCE
-  UNDE : Travel
-  BREF : A diary of my trip to france.
-  TYPE : Diary
-
 NETHERLANDS
   UNDE : Travel
   BREF : Trip to {{Netherlands}} in 2015 for Indievelopment.
@@ -1430,12 +1356,12 @@ NETHERLANDS
 
 JAPAN
   UNDE : Travel
-  BREF : A variety of diary entries written throughout trips to Japan between 2009 and 2014.
+  BREF : A variety of diary entries written throughout trips to {{Japan}}.
   TYPE : Diary
-  
-THAILAND
-  UNDE : Travel
-  BREF : A collection of pictures taken in Thailand in 2014.
+
+FUJI
+  UNDE : Japan
+  BREF : Our trip up Mount {{Fuji}}.
   TYPE : Diary
 
 CZECH
@@ -1443,9 +1369,9 @@ CZECH
   BREF : Trip to Czech Republic in 2011.
   TYPE : Diary
 
-GERMANY
+SOUTH PACIFIC
   UNDE : Travel
-  BREF : Travel pictures from 2012 and Amaze's 2015.
+  BREF : Travel pictures from our {{South Pacific}} crossing and of some of the islands we have seen.
   TYPE : Diary
 
 ~ Drownspire
@@ -1511,7 +1437,7 @@ THE BOOKS OF BABEL
 LANGUAGE
   UNDE : Research
   TYPE : Portal false false
-  BREF : This is a collecting notes on a few natural languages and on my constructed logical languages research.
+  BREF : This portal is a collecting notes on natural and syntetic {{languages|Language}}.
   LONG
     & Some of the tasks at hand might involve translating the wiki into {{English Prime|http://en.wikipedia.org/wiki/E-Prime}}, E′. Also see correspondances between {{Lietal}} against {{Tractatus Logico-Philosophicus|https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus}}. In another order of ideas, the analysis of the {{Logopandecteision|http://en.wikipedia.org/wiki/Logopandecteision}} sounds like a fun project. I should compare {{Lietal}} against the rules of {{Neaudethaumata|http://penelope.uchicago.edu/urquhart/index.html}}.
     
@@ -1551,7 +1477,7 @@ TALK
 ~ Obliques
 
 OBLIQUES
-  UNDE : Devine lu linvega
+  UNDE : Research
   TYPE : Archive false
   BREF : Longform answers to questions regarding travel, {{lifestyle}} and optimisation. 
 

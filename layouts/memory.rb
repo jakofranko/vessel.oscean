@@ -7,7 +7,8 @@ class CorpseHttp
 
     html = "<p>#{@term.bref}</p>#{@term.long.runes}\n"
 
-    ladder = Memory_Hash.new(term.name,@host.path).to_h
+    memory_name = term.name.downcase.gsub(" ",".")
+    ladder = Memory_Hash.new(memory_name,@host.path).to_h
     
     html += indexes(ladder)
 

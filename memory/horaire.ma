@@ -4,11 +4,12 @@
 ~                                                              64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 05 10 - 39      Mirrors              Writing
 2017 05 09 - 26      Nataniev             Design
 2017 05 08 - 39      Neauismetica         Writing
 2017 05 07 - 29      Hundred rabbits      Video
 2017 05 06 - 14      Hundred rabbits      Composition
-2017 05 05
+2017 05 05 @ 27   19 Language             Photography
 2017 05 04 - 39      Thousand rooms       Translation
 2017 05 03 - 39      Thousand rooms       Translation
 2017 05 02 - 29      Thousand rooms       Design
@@ -63,12 +64,12 @@
 2017 03 14 - 25      Ronin                Design
 2017 03 13 - 12      Superworker          Composition
 2017 03 12 - 34      Neauismetica         Writing
-2017 03 11
+2017 03 11 - 28  104 South pacific        Photography          Pampel                My very favourite thing about the Marquesas was {_pamplemousse_}, which we shortened to The Pampel and had at least twice a day during our stay. I keep this picture only so I never forget this tasty fruit.
 2017 03 10 - 12      Superworker          Composition
 2017 03 09 - 24      Hundred rabbits      Photography
 2017 03 08 - 34      Ronin                Tools
 2017 03 07 - 34      Neauismetica         Writing
-2017 03 06
+2017 03 06 @ 28   49 South pacific        Photography          Nuku-Hiva
 2017 03 05 - 12      Superworker          Composition
 2017 03 04 -         Pino                 Event                Pacific Crossing      
 2017 03 03 - 15      Hundred rabbits      Composition
@@ -176,7 +177,7 @@
 2016 11 22 - 27      Needles              Typography
 2016 11 21 - 34      Nataniev             Tools
 2016 11 20 - 35      Nataniev             Tools
-2016 11 19 - 33      Rationality          Writing
+2016 11 19 - 33      Mirrors              Writing
 2016 11 18 - 32      Ronin                Development
 2016 11 17 - 23  223 Ronin                Illustration         Ronin Alpha           Created a small graphic software called {{Ronin}}.
 2016 11 16 - 29      Ronin                Design
@@ -1191,7 +1192,7 @@
 2014 02 11 - 19   11 Oquonie              Composition          Soundtrack Release
 2014 02 10 - 19      Known magye          Composition
 2014 02 09 - 39  381 Oquonie              Live                 Goodies
-2014 02 08 - 25  380 Japan                Photography          Tokyo Asnowed
+2014 02 08 - 25      Japan                Photography          Tokyo Asnowed
 2014 02 07 - 35  379 Oquonie              Development          And so began testing
 2014 02 06 - 35      Horaire              Analytics
 2014 02 05 - 35      Horaire              Update
@@ -1399,9 +1400,9 @@
 2013 07 18 - 28      Milavrega            Writing
 2013 07 17 - 28      Typography           Typography
 2013 07 16 - 25      Paradise             Analytics
-2013 07 15 - 25  344 Japan                Photography          Climbing Mt. Fuji Pa
-2013 07 14 - 25  343 Japan                Photography          Climbing Mt. Fuji Pa
-2013 07 13 - 25  342 Japan                Photography          Climbing Mt. Fuji Pa
+2013 07 15 - 25  344 Fuji                 Photography          Mt. Fuji Summit       We have spent the night climbing to the top of Fuji, snapped this shot at dusk.
+2013 07 14 - 25  343 Fuji                 Photography          Dusk                  Just before the sun was about to rise, we could see the lights of the villages below.
+2013 07 13 - 25  342 Fuji                 Photography          EDC                   This is the content of my backpack, which turned out to be too few things, especially too few warm things for the cold weather at the top of the sleeping volcano.
 2013 07 12 - 34      Dictionaery          Maintenance
 2013 07 11 - 25      Infrared             Photography
 2013 07 10 - 29  341 Typography           Typography           Septambres Fune
@@ -1527,7 +1528,7 @@
 2013 03 12 - 33  213 Hiversaires          Testing              Devlog 23
 2013 03 11 - 35  212 Hiversaires          Testing              Devlog 22
 2013 03 10 - 38      Paradise             Tools
-2013 03 09 - 23  211 Japan                Photography          Sand Storm in Tokyo
+2013 03 09 - 23      Japan                Photography          Sand Storm in Tokyo
 2013 03 08 - 28  210 Hiversaires          Design               Devlog 21
 2013 03 07 - 28  200 Hiversaires          Design               Devlog 20
 2013 03 06 - 28      Hiversaires          Design
@@ -1589,7 +1590,7 @@
 2013 01 09 - 35      Lietal               Documentation
 2013 01 08
 2013 01 07
-2013 01 06 - 25  166 Japan                Photography          Mt. Fuji
+2013 01 06 - 25      Japan                Photography          Mt. Fuji
 2013 01 05
 2013 01 04 - 34      Lietal               Tools
 2013 01 03 - 35      Lietal               Tools
@@ -1632,7 +1633,7 @@
 2012 11 27 - 28  109 Infrared             Photography          Tokyo Infrared
 2012 11 26 - 39      Paradise             Prototype
 2012 11 25
-2012 11 24 - 25  108 Japan                Photography          Ramen Museum
+2012 11 24 - 25      Japan                Photography          
 2012 11 23
 2012 11 22 - 39      Paradise             Design
 2012 11 21
@@ -1667,7 +1668,7 @@
 2012 10 23 - 11      Ehrivevnv Studies    Writing
 2012 10 22
 2012 10 21 - 19  105 Ehrivevnv Studies    Live                 Blip Festival - Toky
-2012 10 20 - 25   21 Japan                Photography          Our Third Apartment
+2012 10 20 - 25   21 Moments              Photography          Our Third Apartment   We will be living in this tiny appartment for the next few weeks until we move to a proper place.
 2012 10 19
 2012 10 18
 2012 10 17 ! 00      Japan                Travel               Tokyo
@@ -2582,8 +2583,8 @@
 2010 04 22
 2010 04 21
 2010 04 20
-2010 04 19 - 25  423 Japan                Photography          日本 Day 90
-2010 04 18 - 25  422 Japan                Photography          日本 Day 89
+2010 04 19 - 25  423 Moments              Photography          Leaving               Waiting for the train that will bring us back to Narita.
+2010 04 18 - 25  422 Japan                Photography          
 2010 04 17
 2010 04 16
 2010 04 15
@@ -2619,28 +2620,28 @@
 2010 03 16
 2010 03 15
 2010 03 14
-2010 03 13
-2010 03 12 - 25  421 Japan                Photography          日本 Day 81
-2010 03 11 - 25  420 Japan                Photography          日本 Day 80
-2010 03 10 - 25  419 Japan                Photography          日本 Day 79
-2010 03 09 - 25  418 Japan                Photography          日本 Day 78
-2010 03 08 - 25  417 Japan                Photography          日本 Day 77
-2010 03 07 - 25  416 Japan                Photography          日本 Day 76
-2010 03 06 - 25  414 Japan                Photography          日本 Day 75
+2010 03 13 - 26   22 Vambits              Photography          Vambits in Japan      Shot this {{Vambit}} on the window railing just outside our apartment in {{Tokyo|Japan}}.
+2010 03 12 - 25  421 Japan                Photography          
+2010 03 11 - 25  420 Japan                Photography          花見2010
+2010 03 10 - 25      Japan                Photography          日本 Day 79
+2010 03 09 - 25      Japan                Photography          日本 Day 78
+2010 03 08 - 25      Japan                Photography          日本 Day 77
+2010 03 07 - 25      Japan                Photography          日本 Day 76
+2010 03 06 - 25      Japan                Photography          日本 Day 75
 2010 03 05 - 19      Shikanokoa vs 1h1d   Live                 Netlabel Party - Tok
-2010 03 04 - 25  413 Japan                Photography          日本 Day 73
-2010 03 03 ! 25  412 Japan                Photography          日本 Day 72
-2010 03 02 - 25  411 Japan                Photography          日本 Day 71
-2010 03 01 - 25  410 Japan                Photography          日本 Day 70
+2010 03 04 - 25  416 Japan                Photography          
+2010 03 03 ! 25  412 Japan                Photography          
+2010 03 02 - 25      Japan                Photography          
+2010 03 01 - 25  410 Moments              Photography          Rekka in Osaka        Waiting by the hostel.
 2010 02 28 - 15  125 Shikanokoa vs 1h1d   Release              1H1D vs shikanokoa
 2010 02 27 - 19  101 Shikanokoa vs 1h1d   Live                 1H1D vs shikanokoa -
-2010 02 26 - 25  407 Japan                Photography          大阪 Day 67
-2010 02 25 - 25  406 Japan                Photography          日本 Day 66
-2010 02 24 - 25  405 Japan                Photography          日本 Day 65
-2010 02 23 - 25  404 Japan                Photography          日本 Day 64
-2010 02 22 - 25  403 Japan                Photography          日本 Day 63
-2010 02 21 - 25  402 Japan                Photography          日本 Day 62
-2010 02 20 ! 25  401 Japan                Photography          Tokyo
+2010 02 26 - 25  418 Japan                Photography          Luck
+2010 02 25 - 25  406 Japan                Photography          
+2010 02 24 - 25  417 Japan                Photography          Lanterns
+2010 02 23 - 25  402 Japan                Photography          
+2010 02 22 - 25  407 Japan                Photography          
+2010 02 21 - 25  403 Japan                Photography          
+2010 02 20 ! 25  411 Japan                Photography          Green Roofs
 2010 02 19
 2010 02 18
 2010 02 17 ! 34  114 Lifestyle                                 The Diary
