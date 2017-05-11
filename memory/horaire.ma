@@ -1,7 +1,7 @@
 ~ NAME : Horaire
 ~ NOTE : Output logs
 ~ AUTH : Devine Lu Linvega
-~                                                              64                    86
+~               17   22                   43                   64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
 2017 05 10 - 39      Mirrors              Writing
@@ -91,7 +91,7 @@
 2016 02 16 - 33      The will the wisp    Writing
 2017 02 15 - 35      Oquonie              Tools
 2017 02 14 - 25      Nataniev             Design
-2017 02 13 - 36  497 Pino                 Maintenance
+2017 02 13 - 36  497 Pino                 Maintenance          The Yamaha 33
 2017 02 12 - 36      Pino                 Maintenance
 2017 02 11 - 33      Oquonie              Migration
 2017 02 10 ! 25  357 Black                Photography
@@ -636,21 +636,21 @@
 2015 08 21 - 34      Paradise             Maintenance          4.1
 2015 08 20 - 27    2 Kaleidoscope         Illustration         Chrestasebeia
 2015 08 19 - 35      Desamber             Maintenance          0.1
-2015 08 18 - 25  448 Pino                 Photography
-2015 08 17 - 25  447 Pino                 Photography
-2015 08 16 - 25  446 Pino                 Photography
-2015 08 15 ! 25  445 Pino                 Photography
-2015 08 14 - 25  444 Pino                 Photography
-2015 08 13 - 25  443 Pino                 Photography
-2015 08 12 - 25  442 Pino                 Photography
-2015 08 11 - 25  441 Pino                 Photography
-2015 08 10 - 25  440 Pino                 Photography
-2015 08 09 ! 25  439 Pino                 Photography
+2015 08 18 - 25      Pino                 Photography
+2015 08 17 - 25      Pino                 Photography
+2015 08 16 - 25      Pino                 Photography
+2015 08 15 ! 25      Pino                 Photography
+2015 08 14 - 25      Pino                 Photography
+2015 08 13 - 25      Pino                 Photography
+2015 08 12 - 25      Pino                 Photography
+2015 08 11 - 25      Pino                 Photography
+2015 08 10 - 25      Pino                 Photography
+2015 08 09 ! 25      Pino                 Photography
 2015 08 08 - 26      Dew                  Maintenance          1.5
 2015 08 07 - 37      Eakout               Maintenance          1.0
 2015 08 06 - 37  438 Eakout               Release              Prototype
 2015 08 05 ! 26  437 Infrared             Photography          Habitat 67
-2015 08 04 - 35  435 Pino                 Writing              Living aboard
+2015 08 04 - 35      Pino                 Writing              Living aboard
 2015 08 03 - 36      Advent v             Maintenance          0.1
 2015 08 02 - 36      Paradise             Maintenance          1.0
 2015 08 01 ! 26  436 Infrared             Photography          Graveyard
@@ -2439,7 +2439,7 @@
 2010 09 13
 2010 09 12 - 39   99 Vambits              Design               Vambits, DIY
 2010 09 11
-2010 09 10 - 25   80 Vambits              Design               Vambits, Gen Hallowe
+2010 09 10 @ 25   80 Vambits              Design               Vambits, Gen Hallowe
 2010 09 09 - 15      To The Aeons Hell    Composition
 2010 09 08
 2010 09 07 - 25      Pico
@@ -2738,7 +2738,7 @@
 2009 11 18
 2009 11 17
 2009 11 16
-2009 11 15 - 29   43 Merure               Release              Merure 2
+2009 11 15 @ 29   43 Merure               Release              Merure 2
 2009 11 14
 2009 11 13 - 29  303 Cyanosis fever                            Cyanosis Fever
 2009 11 12
@@ -3828,7 +3828,7 @@
 2006 11 24
 2006 11 23
 2006 11 22
-2006 11 21
+2006 11 21 - 28  108 Death                Photography          My true form          Hello.
 2006 11 20
 2006 11 19
 2006 11 18

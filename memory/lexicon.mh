@@ -6,7 +6,7 @@ HOME
   UNDE : Home
   BREF : Welcome to the playground for the projects of multimedia developer {{Devine Lu Linvega}}.
   LONG
-    & This wiki provides narrative context for the {{Audio}}, {{Visual}} and {{Research}} projects. If this is your first time around, the {{Introduction|Nataniev}} is a good place to begin your exploration. A {{Portal}} and a {{Diary}} are also maintained daily.
+    & This wiki provides narrative context for the {{Audio}}, {{Visual}} and {{Research}} projects. If this is your first time around, a good place to begin your exploration is the {{Introduction}}.
   LINK
     SITE : /Horaire
 
@@ -352,7 +352,7 @@ HEX HIVE NECKLACE
 
 HUNDRED RABBITS
   UNDE : Hundred rabbits
-  BREF : {{Hundred Rabbits}}, is a nomad design studio founded by {{Rekka Bellum|http://kokorobo.ca}} and {{Devine Lu Linvega|Devine Lu Linvega}} aboard a {{sailboat|https://github.com/hundredrabbits/Pino}}.
+  BREF : {{Hundred Rabbits}}, is a nomad design studio founded by {{Rekka Bellum|http://kokorobo.ca}} and {{Devine Lu Linvega|Devine Lu Linvega}} aboard a {{sailboat|Pino}}.
   TYPE : Diary
   LONG
     & This partnership is host to interactive projects like {{Oquonie}}, {{Grimgrains|http://grimgrains.com}} and travel diaries. A {{Patreon page|https://www.patreon.com/100}} is available to help fund the production of monthly videos and liveaboard documentation.
@@ -363,16 +363,16 @@ HUNDRED RABBITS
 PINO
   UNDE : Hundred rabbits
   BREF : {{PINO}}, is a 33' Yamaha sailboat, built in 1982. Home and office to {{Hundred Rabbits}}.
+  TYPE : Diary
   LONG
-    & Purchased in 2016, on Vancouver Island, Pino has since sailed around the Pacific Ocean. You can read more about the boat {{here|http://github.com/hundredrabbits/pino}}.
-    ? “And once the storm is over, you won’t remember how you made it through, how you managed to survive. You won’t even be sure, whether the storm is really over. But one thing is certain. When you come out of the storm, you won’t be the same person who walked in. That’s what this storm’s all about.” - Haruki Murakami 
+    & Purchased in 2016, on Vancouver Island, Pino has since sailed across the {{Pacific Ocean|South Pacific}}. You can learn more about the boat {{here|http://github.com/hundredrabbits/pino}}.
   LINK
     GITH : http://github.com/hundredrabbits/pino
     PATR : https://patreon.com/100
 
 GRIMGRAINS
   UNDE : Hundred rabbits
-  BREF : {{Grimgrains}} is a food blog maintained by {{Hundred Rabbits}}, documenting interesting food experiments and lifestyle DIYs guides.
+  BREF : {{Grimgrains}} is a food blog maintained by {{Hundred Rabbits}}, documenting interesting food experiments and lifestyle.
   LINK
     MAIN : http://grimgrains.com/
     TWTR : https://twitter.com/grimgrains
@@ -1379,6 +1379,7 @@ SOUTH PACIFIC
 DROWNSPIRE
   UNDE : Hundred rabbits
   BREF : {{Drownspire}} was the name of an online store founded with Rekka Bellum, back in 2009. 
+  TYPE : Portal
   LONG
     & Our goals then, fueled what is now {{Hundred rabbits}}. We distributed the {{Vambits}} designer toys and published the {{Merure}} books.
 
@@ -1453,11 +1454,11 @@ WORDS
     - {{Betwixt|https://en.wikipedia.org/wiki/Betwixt}}, in English
 
 NEEDLES
-  UNDE : Language
-  BREF : The {{Needles}} are a series of 10 glyphs where the stroke intersections are equal to the value of the character.
+  UNDE : Desamber
+  BREF : {{Needles}} are glyphs of which the intersection count is equal to the value of the character.
   LONG
     & The glyphs are not used into any specific system of the {{Gamme}}, but are available here as a reference of a meaningful numeric glyph system.
-    % needles
+    % needles fit
 
 JAPANESE
   UNDE : Language
@@ -1592,6 +1593,12 @@ NATANIEV
     & Single scripts and repositories, known as vessels and instances, exist as locations in this {*Ecosystem*} and can be visited through the CLI. For example, each Automaton exist as a character that can be found within Paradise; this page exist as a page in a book, in a library that can also be entered and explored.
   LINK
     GITH : https://github.com/XXIIVV/Nataniev
+
+INTRODUCTION
+  UNDE : Nataniev
+  BREF : Hello, my name is {{Nataniev}}.
+  LONG
+    & I have been left to my own devices for far too long and have strayed from what now is commonly refered to as {_a website_}.
 
 RONIN
   UNDE : Gamme
