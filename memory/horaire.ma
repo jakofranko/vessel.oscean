@@ -4,6 +4,7 @@
 ~               17   22                   43                   64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 05 11 - 39      The will the wisp    Writing
 2017 05 10 - 39      Mirrors              Writing
 2017 05 09 - 26      Nataniev             Design
 2017 05 08 - 39      Neauismetica         Writing

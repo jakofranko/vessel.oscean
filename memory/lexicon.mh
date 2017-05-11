@@ -6,7 +6,7 @@ HOME
   UNDE : Home
   BREF : Welcome to the playground for the projects of multimedia developer {{Devine Lu Linvega}}.
   LONG
-    & This wiki provides narrative context for the {{Audio}}, {{Visual}} and {{Research}} projects. If this is your first time around, a good place to begin your exploration is the {{Introduction}}.
+    & This wiki provides narrative context for the {{Audio}}, {{Visual}} and {{Research}} projects. If this is your first time around, a good place to begin your exploration is the {{Portal}}.
   LINK
     SITE : /Horaire
 
@@ -36,14 +36,17 @@ AUTOMATONS
 
 THE WILL THE WISP
   UNDE : Automatons
-  BREF : Inspired by Lewis Carroll's Jabberwocky, {{The will the wisp}} is a twitter bot that generates short poems, once every hour.
+  BREF : Inspired by Lewis Carroll's Jabberwocky, {{The will the wisp}} is a twitter bot that generates short rhymes, once every hour.
   LONG
-    - Thy emperor is leery, the conjuror cheery.
-    - Immune is their tribune, commune are the fortunes.
-    - His luminary's funerary formulary.
-    - By their deathblow deadly, deafen your deathly deadlock.
-    - Our brood's good flood.
-    ? It can be found in {{Paradise|Nataniev}} as a ghostly beetle, in the {_Meadow_}, on a tree.
+    > <h4>
+    $ thewillthewisp generate
+    > </h4>
+    # Somewhen future, and secondly obscure.
+    # Thus traveled, nor inwardly transient.
+    # Upon devices, hopefully devils.
+    # Someplace cute, and terribly brute.
+    # But thy nautilus is actually nauseous.
+    
   LINK
     TWTR : https://twitter.com/thewillthewisp
     GITH : https://github.com/XXIIVV/vessel.thewillthewisp
@@ -1593,12 +1596,6 @@ NATANIEV
     & Single scripts and repositories, known as vessels and instances, exist as locations in this {*Ecosystem*} and can be visited through the CLI. For example, each Automaton exist as a character that can be found within Paradise; this page exist as a page in a book, in a library that can also be entered and explored.
   LINK
     GITH : https://github.com/XXIIVV/Nataniev
-
-INTRODUCTION
-  UNDE : Nataniev
-  BREF : Hello, my name is {{Nataniev}}.
-  LONG
-    & I have been left to my own devices for far too long and have strayed from what now is commonly refered to as {_a website_}.
 
 RONIN
   UNDE : Gamme
