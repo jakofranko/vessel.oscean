@@ -10,7 +10,7 @@ class CorpseHttp
     memory_name = term.name.downcase.gsub(" ",".")
     ladder = Memory_Hash.new(memory_name,@host.path).to_h
     
-    html += indexes(ladder)
+    html += ladder.length > 2 ? indexes(ladder) : ""
 
     ladder.each do |cat,con|
       html += "<h2 id='#{cat.downcase.gsub(' ','_')}'>#{cat.capitalize}</h2>\n"

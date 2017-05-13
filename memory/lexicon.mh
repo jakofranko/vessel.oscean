@@ -1493,7 +1493,7 @@ OBLIQUES
 
 METHOD
   UNDE : Obliques
-  BREF : Answers to recurring questions on productivity, optimizations and {{methods|Method}}, advised from daily logs recorded over many years.
+  BREF : The {{Method}} notes are meant to answers to recurring questions on productivity, advised from daily logs recorded over many years.
   TYPE : Memory
   LINK
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/method.mh
@@ -1526,14 +1526,14 @@ TIERS
 
 LIFESTYLE
   UNDE : Obliques
-  BREF : Explanations for some of my lifestyle choices.
+  BREF : The {{Lifestyle}} notes are explanations for some of my lifestyle choices.
   TYPE : Memory
   LINK
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/nomads.mh
 
 DIRECTORY
   UNDE : Obliques
-  BREF : A list of timeless art that I often refer to.
+  BREF : The {{Directory}} is a list of timeless art that I often refer to.
   LONG
     & This collection is updated once in a while.
   TYPE : Memory
@@ -1542,7 +1542,7 @@ DIRECTORY
 
 INVENTORY
   UNDE : Obliques
-  BREF : Detailed collection of various pieces of equipment used in the creation of {{XXIIVV|Nataniev}}.
+  BREF : The {{Inventory}} is a detailed collection of various pieces of equipment used in the creation of {{XXIIVV|Nataniev}}.
   TYPE : Portal full
 
 CAMERA
@@ -1571,7 +1571,7 @@ KEYBOARD
 
 NOMAD
   UNDE : Obliques
-  BREF : Reflexions on travel, and the dream of a nomadic life.
+  BREF : The {{Nomad}} notes are reflexions on travel, and on my dreams of a nomadic life.
   TYPE : Memory
   LINK
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/nomads.mh
