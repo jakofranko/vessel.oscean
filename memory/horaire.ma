@@ -4,6 +4,8 @@
 ~               17   22                   43                   64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
+2017 05 11 - 36      Horaire              Design
+2017 05 12 - 35      Markl                Tools
 2017 05 11 - 39      The will the wisp    Writing
 2017 05 10 - 39      Mirrors              Writing
 2017 05 09 - 26      Nataniev             Design
@@ -11,9 +13,9 @@
 2017 05 07 - 29      Hundred rabbits      Video
 2017 05 06 - 14      Hundred rabbits      Composition
 2017 05 05 @ 27   19 Language             Photography
-2017 05 04 - 39      Thousand rooms       Translation
-2017 05 03 - 39      Thousand rooms       Translation
-2017 05 02 - 29      Thousand rooms       Design
+2017 05 04 - 39      Thousand rooms       Linguistics
+2017 05 03 - 39      Thousand rooms       Linguistics
+2017 05 02 - 29      Thousand rooms       Branding
 2017 05 01 @ 39    9 Thousand rooms       Writing              Cat has a visitor.    Today we completed the first draft of our upcoming book {{Thousand Rooms}}.
 2017 04 30 - 39      Paradise             Development
 2017 04 29 - 39      Paradise             Tools
@@ -54,7 +56,7 @@
 2017 03 25 - 31      Ronin                Tools
 2017 03 24 - 31      Ronin                Tools
 2017 03 23 - 23      Ronin                Design
-2017 03 22 - 22      Ronin                Design
+2017 03 22 - 22      Ronin                Branding
 2017 03 21 - 24      Thousand rooms       Design
 2017 03 20 - 21      Ronin                Design
 2017 03 19
@@ -77,28 +79,28 @@
 2017 03 02 - 29      Hundred rabbits      Video
 2017 03 01 - 15      Hundred rabbits      Composition
 2017 02 28 - 38      Oquonie              Release
-2017 02 27 - 39      Oquonie              Migration
-2017 02 26 - 32      Oquonie              Migration
-2017 02 25 - 35      Oquonie              Migration
-2017 02 24 - 36      Oquonie              Migration
-2017 02 23 - 37      Oquonie              Migration
+2017 02 27 - 39      Oquonie              Maintenance
+2017 02 26 - 32      Oquonie              Maintenance
+2017 02 25 - 35      Oquonie              Maintenance
+2017 02 24 - 36      Oquonie              Maintenance
+2017 02 23 - 37      Oquonie              Maintenance
 2017 02 22 - 32      Ronin                Tools
-2017 02 21 - 38      Oquonie              Migration
+2017 02 21 - 38      Oquonie              Maintenance
 2017 02 20 - 35      Oquonie              Tools
 2017 02 19 - 35      Oquonie              Tools
 2017 02 18 - 37      Oquonie              Tools
 2017 02 16
-2017 02 17 - 35      Oquonie              Migration
+2017 02 17 - 35      Oquonie              Maintenance
 2016 02 16 - 33      The will the wisp    Writing
 2017 02 15 - 35      Oquonie              Tools
 2017 02 14 - 25      Nataniev             Design
 2017 02 13 - 36  497 Pino                 Maintenance          The Yamaha 33
 2017 02 12 - 36      Pino                 Maintenance
-2017 02 11 - 33      Oquonie              Migration
+2017 02 11 - 33      Oquonie              Maintenance
 2017 02 10 ! 25  357 Black                Photography
 2017 02 09 - 23      Nataniev             Design
-2017 02 08 - 37      Oquonie              Migration
-2017 02 07 - 35      Oquonie              Migration
+2017 02 08 - 37      Oquonie              Maintenance
+2017 02 07 - 35      Oquonie              Maintenance
 2017 02 06 - 25      Nataniev             Design
 2017 02 05 - 25  365 Black                Photography     
 2017 02 04 - 28      Nataniev             Design
@@ -135,7 +137,7 @@
 2017 01 04 - 26      Donsol               Design
 2017 01 03 - 23  230 Directory            Photography
 2017 01 02 - 26      Donsol               Design
-2017 01 01 - 27      Nataniev             Design
+2017 01 01 - 27      Nataniev             Branding
 2016 12 31 - 24      Ronin                Design
 2016 12 30 - 24      Hundred rabbits      Design
 2016 12 29 - 34      Ronin                Development
@@ -153,7 +155,7 @@
 2016 12 17 ! 26  225 Donsol               Design               Progress on Donsol    Here's the upcoming {{Donsol}} build running on iPhone.
 2016 12 16 - 24      Donsol               Illustration
 2016 12 15 - 38      Nataniev             Writing
-2016 12 14 - 28      Nataniev             Layout
+2016 12 14 - 28      Nataniev             Design
 2016 12 13 - 25  347 Film                 Photography
 2016 12 12 - 28      Nataniev             Design
 2016 12 11 - 25  346 Film                 Photography
@@ -174,7 +176,7 @@
 2016 11 26 - 18      Hundred rabbits      Composition
 2016 11 25 - 29      Donsol               Illustration
 2016 11 24 - 25  473 Black                Photography   
-2016 11 23 - 34      Donsol               Migration
+2016 11 23 - 34      Donsol               Maintenance
 2016 11 22 - 27      Needles              Typography
 2016 11 21 - 34      Nataniev             Tools
 2016 11 20 - 35      Nataniev             Tools
@@ -206,13 +208,13 @@
 2016 10 25 - 27      Markl                Design
 2016 10 24 - 34      Markl                Development
 2016 10 23 - 
-2016 10 22 - 29      Hundred rabbits      Design
+2016 10 22 - 29      Hundred rabbits      Branding
 2016 10 21 - 24      Hundred rabbits      Design
-2016 10 20 - 37      Markl                Migration
+2016 10 20 - 37      Markl                Maintenance
 2016 10 19 - 37      Paradise             Tools
 2016 10 18 - 37      The will the wisp    Update
-2016 10 17 - 37      Markl                Migration
-2016 10 16 - 36      Markl                Migration
+2016 10 17 - 37      Markl                Maintenance
+2016 10 16 - 36      Markl                Maintenance
 2016 10 15 - 25  162 Nervous              Modeling             Woulg                 Cover for {{Woulg|https://www.facebook.com/woulg.music/}}'s Dragged album on {{Methlab Agency|http://methlab-agency.com}}.
 2016 10 14 - 24      Paradise             Design
 2016 10 13 - 23      Paradise             Design
@@ -236,16 +238,16 @@
 2016 09 25 - 25  349 Black                Photography
 2016 09 24 - 35      Pino                 Maintenance
 2016 09 23 - 36  253 Devine lu Linvega    Photography          Ensenada Tempers
-2016 09 22 - 39      Paradise             Migration
+2016 09 22 - 39      Paradise             Maintenance
 2016 09 21 ! 29  102 Wallpaper            Design               Shinji                Get in the fucking robot!
 2016 09 20 ! 24   98 Lard shader          Illustration         Study C
 2016 09 19 - 38      Oquonie              Maintenance          4.2
 2016 09 18 - 34      Vocavularist         Maintenance          2.6
 2016 09 17 - 28      Paradise             Design
-2016 09 16 - 34      Hundred rabbits      Migration
+2016 09 16 - 34      Hundred rabbits      Maintenance
 2016 09 15 - 34      Hundred rabbits      Tools
 2016 09 14 - 38      Paradise             Maintenance
-2016 09 13 - 34      Paradise             Migration
+2016 09 13 - 34      Paradise             Maintenance
 2016 09 12 - 35      Pino                 Maintenance
 2016 09 11 - 24      Hundred rabbits      Video
 2016 09 10 - 15      Hundred rabbits      Composition
@@ -261,7 +263,7 @@
 2016 08 31 - 29   86 Film                 Photography
 2016 08 30 - 34      Markl                Development
 2016 08 29 - 24      Polygonoscopy        Modeling
-2016 08 28 - 38      The will the wisp    Migration
+2016 08 28 - 38      The will the wisp    Maintenance
 2016 08 27 - 27      Paradise             Design
 2016 08 26 - 25  485 Black                Photography   
 2016 08 25 - 39      Paradise             Tools
@@ -289,7 +291,7 @@
 2016 08 03 - 38      Paradise             Tools
 2016 08 02 - 28      Markl                Design
 2016 08 01 - 38      Paradise             Tools
-2016 07 31 - 38      Paradise             Migration
+2016 07 31 - 38      Paradise             Maintenance
 2016 07 30 - 38      Paradise             Tools
 2016 07 29 - 35      Horaire              Tools
 2016 07 28 - 23      Horaire              Tools
@@ -327,23 +329,23 @@
 2016 06 26 - 39      Pino                 Maintenance
 2016 06 25 - 39      Pino                 Maintenance
 2016 06 24 - 24      Hundred rabbits      Video
-2016 06 23 - 34      Paradise             Migration
-2016 06 22 - 34      Paradise             Migration
-2016 06 21 - 34      Paradise             Migration
-2016 06 20 - 35      Paradise             Migration
+2016 06 23 - 34      Paradise             Maintenance
+2016 06 22 - 34      Paradise             Maintenance
+2016 06 21 - 34      Paradise             Maintenance
+2016 06 20 - 35      Paradise             Maintenance
 2016 06 19 - 26      Nereid               Modeling
-2016 06 18 - 34      Paradise             Migration
-2016 06 17 - 34      Paradise             Migration
-2016 06 16 - 34      Advent v             Migration
-2016 06 15 - 37      Paradise             Migration
-2016 06 14 - 32      Grimgrains           Migration
+2016 06 18 - 34      Paradise             Maintenance
+2016 06 17 - 34      Paradise             Maintenance
+2016 06 16 - 34      Advent v             Maintenance
+2016 06 15 - 37      Paradise             Maintenance
+2016 06 14 - 32      Grimgrains           Maintenance
 2016 06 13 - 26      Nereid               Modeling
-2016 06 12 - 34      Grimgrains           Migration
-2016 06 11 - 36      Grimgrains           Migration
-2016 06 10 - 36      Paradise             Migration
-2016 06 09 - 36      Grimgrains           Migration
-2016 06 08 - 36      The will the wisp    Migration
-2016 06 07 - 36      Dictionarism         Migration
+2016 06 12 - 34      Grimgrains           Maintenance
+2016 06 11 - 36      Grimgrains           Maintenance
+2016 06 10 - 36      Paradise             Maintenance
+2016 06 09 - 36      Grimgrains           Maintenance
+2016 06 08 - 36      The will the wisp    Maintenance
+2016 06 07 - 36      Dictionarism         Maintenance
 2016 06 06 - 34      Verreciel            Maintenance          1.3
 2016 06 05 - 35      Donsol               Maintenance          1.7
 2016 06 04 - 36      Advent v             Maintenance          The Necropolis
@@ -351,7 +353,7 @@
 2016 06 02 - 24      Hundred rabbits      Video
 2016 06 01
 2016 05 31 - 39      Pino                 Maintenance
-2016 05 30 - 34      Paradise             Migration
+2016 05 30 - 34      Paradise             Maintenance
 2016 05 29
 2016 05 28 - 36      Verreciel            Maintenance          1.2
 2016 05 27
@@ -411,7 +413,7 @@
 2016 04 03 - 25      Pino                 Photography
 2016 04 02
 2016 04 01 - 24      Verreciel            Design
-2016 03 31 - 25      Verreciel            Design
+2016 03 31 - 25      Verreciel            Branding
 2016 03 30
 2016 03 29 ! 27   37 Nervous              Modeling             Exhibit B
 2016 03 28 - 27   41 Nervous              Modeling             Exhibit A
@@ -537,7 +539,7 @@
 2015 11 29 - 28      Oquonie              Testing
 2015 11 28 - 26      Paradise             Analytics
 2015 11 27 - 28      Oquonie              Design
-2015 11 26 - 28      Oquonie              Design
+2015 11 26 - 28      Oquonie              Branding
 2015 11 25 - 37      Paradise             Testing
 2015 11 24 - 35      Paradise             Testing
 2015 11 23 - 35      Oquonie              Maintenance
@@ -593,7 +595,7 @@
 2015 10 04 - 25      Paradise             Design
 2015 10 03 - 19      The opal inquisitors Live                 Toy Company
 2015 10 02 - 26      Donsol               Maintenance          1.6
-2015 10 01 - 26      Paradise             Design
+2015 10 01 - 26      Paradise             Branding
 2015 09 30 - 32      Verreciel            Tools
 2015 09 29 - 25  470 Verreciel            Design               Prototype
 2015 09 28 - 36      Verreciel            Development
@@ -1051,7 +1053,7 @@
 2014 07 03 - 25      Horaire              Design
 2014 07 02 - 25      Ledoliel             Maintenance          1.1
 2014 07 01 - 29      Bifurcan             Maintenance          1.1
-2014 06 30 - 39      Ledoliel             Design
+2014 06 30 - 39      Ledoliel             Branding
 2014 06 29 - 39  123 Noirca               Maintenance          1.1
 2014 06 28 - 39      Noirca               Release              Release
 2014 06 27 ! 39  124 Noirca                                    Prototype
@@ -1117,7 +1119,7 @@
 2014 04 28 - 26  279 Nereid               Modeling             The South
 2014 04 27 - 29      Collegiennes         Design
 2014 04 26 - 29      Collegiennes         Design
-2014 04 25 - 29      Collegiennes         Design
+2014 04 25 - 29      Collegiennes         Branding
 2014 04 24 - 25  280 Nereid               Modeling             The Highways
 2014 04 23 - 35      Paradise             Update
 2014 04 22 - 35      Paradise             Update
@@ -1135,12 +1137,12 @@
 2014 04 10 - 27      Artwork              Illustration
 2014 04 09 - 25      Vast                 Branding
 2014 04 08 ! 29  241 Vast                 Release              Epreuve
-2014 04 07 - 35      Paradise             Layout
+2014 04 07 - 35      Paradise             Design
 2014 04 06 - 25      Kaleidoscope         Illustration
 2014 04 05 - 29  302 Kaleidoscope         Illustration         Gorgeous Leon
 2014 04 04 - 27      Artwork              Illustration
 2014 04 03 - 29      Vast                 Design
-2014 04 02 - 25      Paradise             Layout
+2014 04 02 - 25      Paradise             Design
 2014 04 01 - 27      Artwork              Illustration
 2014 03 31 - 27      Artwork              Illustration
 2014 03 30 - 29  242 Vast                 Illustration         Preview               The book is a unique piece of cryptography that is somehow narrative in its unintelligibleness.
@@ -1449,8 +1451,8 @@
 2013 05 31
 2013 05 30 - 29  235 Paradise             Design               Teaser
 2013 05 29 - 29      Paradise             Design
-2013 05 28 - 29      Paradise             Design
-2013 05 27 - 29      Paradise             Design
+2013 05 28 - 29      Paradise             Branding
+2013 05 27 - 29      Paradise             Branding
 2013 05 26 - 29      Paradise             Design
 2013 05 25 - 29      Horaire              Design
 2013 05 24 - 29      Paradise             Design
@@ -1524,7 +1526,7 @@
 2013 03 17 - 19      Dei dain             Composition
 2013 03 16 - 38      Hiversaires          Design
 2013 03 15 - 38  214 Hiversaires          Design               Devlog 24
-2013 03 14 - 39      Hiversaires          Design
+2013 03 14 - 39      Hiversaires          Branding
 2013 03 13 - 36      Hiversaires          Testing
 2013 03 12 - 33  213 Hiversaires          Testing              Devlog 23
 2013 03 11 - 35  212 Hiversaires          Testing              Devlog 22
@@ -1545,7 +1547,7 @@
 2013 02 24 - 25      Hiversaires          Design
 2013 02 23 - 36      Hiversaires          Development
 2013 02 22 - 28  191 Hiversaires          Design               Devlog 11
-2013 02 21 - 28  189 Hiversaires          Design               Devlog 10
+2013 02 21 - 28  189 Hiversaires          Branding             Devlog 10
 2013 02 20 - 25  188 Australia            Photography          Day 6
 2013 02 19 - 25  187 Australia            Photography          Day 5
 2013 02 18 - 25  186 Australia            Photography          Day 4
@@ -1611,8 +1613,8 @@
 2012 12 20 - 39      Lietal               Documentation
 2012 12 19 - 39      Lietal               Linguistics 
 2012 12 18 - 39      Lietal               Documentation
-2012 12 17 - 25      Merveilles portable  Layout
-2012 12 16 - 25      Merveilles portable  Layout
+2012 12 17 - 25      Merveilles portable  Design
+2012 12 16 - 25      Merveilles portable  Design
 2012 12 15
 2012 12 14
 2012 12 13 - 35      Paradise             Development
@@ -1685,7 +1687,7 @@
 2012 10 07 - 29      Waiting for horus    Testing
 2012 10 06 - 29      Waiting for horus    Testing
 2012 10 05 - 25  220 Waiting for horus    Design               Mar
-2012 10 04 - 25      Waiting for horus    Design
+2012 10 04 - 25      Waiting for horus    Branding
 2012 10 03
 2012 10 02
 2012 10 01 - 28      Ehrivevnv Studies    Composition
@@ -1792,7 +1794,7 @@
 2012 06 22 - 18      To The Aeons Hell    Composition
 2012 06 21 - 18      To The Aeons Hell    Composition
 2012 06 20 - 25      Pico battle          Design
-2012 06 19 - 28      Pico battle          Design
+2012 06 19 - 28      Pico battle          Branding
 2012 06 18 - 29      Pico battle          Design
 2012 06 17
 2012 06 16
@@ -1909,11 +1911,11 @@
 2012 02 26 - 25      Waiting for horus    Design
 2012 02 25 - 19  217 Es gulf sunflowers   Live                 La Nuit Blanche - Mo
 2012 02 24 - 25      Waiting for horus    Design
-2012 02 23 - 25      Waiting for horus    Design
+2012 02 23 - 25      Waiting for horus    Branding
 2012 02 22 - 25  219 Waiting for horus    Design               Rah
 2012 02 21 - 35      Paradise             Development
-2012 02 20 - 25      Waiting for horus    Design
-2012 02 19 - 25      Waiting for horus    Design
+2012 02 20 - 25      Waiting for horus    Branding
+2012 02 19 - 25      Waiting for horus    Branding
 2012 02 18 - 25      Waiting for horus    Design
 2012 02 17 - 25      Waiting for horus    Design
 2012 02 16 - 25      Waiting for horus    Design
@@ -1966,7 +1968,7 @@
 2011 12 31
 2011 12 30 - 15      Remix                                     iVardensphere - Ghos
 2011 12 29 - 25      Physical             Prototype
-2011 12 28 - 25      Merveilles portable  Layout
+2011 12 28 - 25      Merveilles portable  Design
 2011 12 27 - 25      Merveilles portable  Testing
 2011 12 26
 2011 12 25
@@ -2011,10 +2013,10 @@
 2011 11 16 - 25      Merveilles portable  Testing
 2011 11 15 - 25      Merveilles portable  Testing
 2011 11 14 - 25      Merveilles portable  Testing
-2011 11 13 - 25      Merveilles portable  Layout
-2011 11 12 - 25      Merveilles portable  Layout
-2011 11 11 - 25      Merveilles portable  Layout
-2011 11 10 - 25      Merveilles portable  Layout
+2011 11 13 - 25      Merveilles portable  Design
+2011 11 12 - 25      Merveilles portable  Branding
+2011 11 11 - 25      Merveilles portable  Design
+2011 11 10 - 25      Merveilles portable  Design
 2011 11 09 - 35      Notes                Writing
 2011 11 08 - 35      Notes                Writing
 2011 11 07 - 35      Notes                Writing
@@ -2024,7 +2026,7 @@
 2011 11 03 - 35      Notes                Writing
 2011 11 02 - 29  202 Collegiennes                              Prince of the Arcade
 2011 11 01 - 35  201 Notes                Writing              Part I
-2011 10 31 - 25      Merveilles portable  Layout
+2011 10 31 - 25      Merveilles portable  Design
 2011 10 30 - 35      Paradise             Development
 2011 10 29
 2011 10 28
@@ -2292,7 +2294,7 @@
 2011 02 08 - 35      Paradise             AI
 2011 02 07
 2011 02 06 - 29   56 Siseon               Design               Siseon
-2011 02 05 - 25      Siseon               Design
+2011 02 05 - 25      Siseon               Branding
 2011 02 04 - 25      Siseon               Design
 2011 02 03 - 35      Paradise             Development
 2011 02 02
