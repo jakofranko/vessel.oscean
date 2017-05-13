@@ -172,7 +172,7 @@ class Graph_Timeline
     tasks.each do |task|
       sum += task.focus_hours
     end
-    return "#{(sum/tasks.length.to_f).to_i}"
+    return "#{((sum/tasks.length.to_f)*100).to_i/100.0}"
 
   end
 
@@ -183,7 +183,7 @@ class Graph_Timeline
     tasks.each do |task|
       sum += task.focus_balance
     end
-    return "#{(sum/tasks.length.to_f).to_i}"
+    return "#{((sum/tasks.length.to_f)*100).to_i/100.0}"
 
   end
 

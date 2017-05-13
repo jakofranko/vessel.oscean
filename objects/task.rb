@@ -27,7 +27,7 @@ class Task
 
   def focus_hours
 
-    return ((@sum_hours/@sum_logs.to_f)*100).to_i/10.0
+    return ((@sum_hours/@sum_logs.to_f)*100).to_i/100.0
 
   end
 
@@ -73,7 +73,11 @@ class Task
         #{html}
       </svg>
       <p>
-        <b>#{@name}</b><span style='float:right; color:grey'>#{focus_hours}FH<br />#{focus_balance}FB</span>
+        <b>#{@name}</b>
+        <span style='float:right; color:grey'>
+          #{focus_hours != @sum_hours ? focus_hours.to_s+'FH<br />' : ""}
+          #{focus_balance != 0 ? focus_balance.to_s+'FB<br />' : ""}
+        </span>
         <br />#{@sum_hours} Hours <br />#{@sum_logs} Logs<br />
       </p>
     </div>"

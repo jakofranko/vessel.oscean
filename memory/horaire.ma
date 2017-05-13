@@ -5,14 +5,14 @@
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
 2017 05 13 - 26      Horaire              Design
-2017 05 12 - 35      Markl                Tools
+2017 05 12 - 35      Markl                AI
 2017 05 11 - 39      The will the wisp    Writing
 2017 05 10 - 39      Mirrors              Writing
 2017 05 09 - 26      Nataniev             Design
 2017 05 08 - 39      Neauismetica         Writing
 2017 05 07 - 29      Hundred rabbits      Video
 2017 05 06 - 14      Hundred rabbits      Composition
-2017 05 05 @ 27   19 Language             Photography
+2017 05 05 @ 27   19 Language             Photography          Immortals             This beautiful bird landed on {{Pino}}'s bow today. A perfect picture for the {{Language}} portal. A wink to {{Language of the birds}}.
 2017 05 04 - 39      Thousand rooms       Linguistics
 2017 05 03 - 39      Thousand rooms       Linguistics
 2017 05 02 - 29      Thousand rooms       Branding
@@ -367,7 +367,7 @@
 2016 05 19 - 32      Paradise             Development
 2016 05 18 - 34      Verreciel            Maintenance          1.1
 2016 05 17 - 32      Verreciel            Development
-2016 05 16   16      Portalion            Composition
+2016 05 16 - 16      Portalion            Composition
 2016 05 15 - 37      Paradise             Development
 2016 05 14 - 39      Paradise             Development
 2016 05 13 - 37      Verreciel            Development
@@ -1092,7 +1092,7 @@
 2014 05 25 - 35  127 Paradise             Development          Update
 2014 05 24 - 35      Paradise             Development
 2014 05 23 - 19  116 Purgateus            Composition          Autumn
-2014 05 22 - 35      Purgateus            Composition          Release
+2014 05 22 - 35      Purgateus            Release              Release
 2014 05 21 - 19   36 Purgateus            Composition          Summer Landing
 2014 05 20 - 29   35 Purgateus            Design               Savane
 2014 05 19 - 29   34 Purgateus            Design               Neigh
@@ -1667,7 +1667,7 @@
 2012 10 27
 2012 10 26
 2012 10 25 ! 19  106 Ehrivevnv Studies    Release              Ehrivevnv Studies
-2012 10 24 - 25      Ehrivevnv Studies    Composition
+2012 10 24 - 25      Ehrivevnv Studies    Design
 2012 10 23 - 11      Ehrivevnv Studies    Writing
 2012 10 22
 2012 10 21 - 19  105 Ehrivevnv Studies    Live                 Blip Festival - Toky
@@ -1682,7 +1682,7 @@
 2012 10 12 - 17      To The Aeons Hell    Composition
 2012 10 11 - 17      To The Aeons Hell    Composition
 2012 10 10 - 27      Waiting for horus    Testing
-2012 10 09 - 28      Ehrivevnv Studies    Composition
+2012 10 09 - 28      Ehrivevnv Studies    Design
 2012 10 08 - 32      Lietal               Documentation
 2012 10 07 - 29      Waiting for horus    Testing
 2012 10 06 - 29      Waiting for horus    Testing
@@ -1690,11 +1690,11 @@
 2012 10 04 - 25      Waiting for horus    Branding
 2012 10 03
 2012 10 02
-2012 10 01 - 28      Ehrivevnv Studies    Composition
+2012 10 01 - 28      Ehrivevnv Studies    Design
 2012 09 30
 2012 09 29
 2012 09 28
-2012 09 27 - 28      To The Aeons Hell    Composition
+2012 09 27 - 18      To The Aeons Hell    Composition
 2012 09 26 - 35      Neauismetica         Writing
 2012 09 25 - 35      Neauismetica         Writing
 2012 09 24
@@ -1703,9 +1703,9 @@
 2012 09 21 - 37      Paradise             Development
 2012 09 20 - 32      Paradise             Tools
 2012 09 19 - 37      Paradise             Tools
-2012 09 18 - 28      Ehrivevnv Studies    Composition
-2012 09 17 - 35      Ehrivevnv Studies    Composition
-2012 09 16 - 35      Ehrivevnv Studies    Composition
+2012 09 18 - 18      Ehrivevnv Studies    Composition
+2012 09 17 - 15      Ehrivevnv Studies    Composition
+2012 09 16 - 15      Ehrivevnv Studies    Composition
 2012 09 15 - 19      Collected works      Composition
 2012 09 14 - 19      Collected works      Composition
 2012 09 13 - 18      To The Aeons Hell    Composition
@@ -2188,8 +2188,8 @@
 2011 05 25 - 25      Lietal               Documentation
 2011 05 24 - 25      Lietal               Documentation
 2011 05 23 - 19  158 The Sixth Season     Live                 Kinetik Festival 201
-2011 05 22 - 25      To The Aeons Hell    Composition
-2011 05 21 - 25      To The Aeons Hell    Composition
+2011 05 22 - 15      To The Aeons Hell    Composition
+2011 05 21 - 15      To The Aeons Hell    Composition
 2011 05 20 - 29      Collegiennes         Design
 2011 05 19 - 15      To The Aeons Hell    Composition
 2011 05 18 - 15      To The Aeons Hell    Composition
@@ -2502,7 +2502,7 @@
 2010 07 15
 2010 07 14 - 25   15 Ableton              Design               Ableton Live Theme
 2010 07 13 - 35      Paradise             Development
-2010 07 12 - 25      To The Aeons Hell    Composition
+2010 07 12 - 15      To The Aeons Hell    Composition
 2010 07 11 - 25      Artwork              Illustration
 2010 07 10 - 25      Artwork              Illustration
 2010 07 09 - 25      Artwork              Illustration
