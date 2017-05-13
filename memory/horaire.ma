@@ -4,7 +4,7 @@
 ~               17   22                   43                   64                    86
 
 @ DATE     CODE PICT TERM                 TASK                 NAME                  TEXT
-2017 05 11 - 36      Horaire              Design
+2017 05 13 - 26      Horaire              Design
 2017 05 12 - 35      Markl                Tools
 2017 05 11 - 39      The will the wisp    Writing
 2017 05 10 - 39      Mirrors              Writing
@@ -22,7 +22,7 @@
 2017 04 28 - 39      Paradise             Tools
 2017 04 27 - 38      Paradise             Tools
 2017 04 26 - 37      Paradise             Tools
-2017 04 25 - 37      Paradise             Development
+2017 04 25 - 27      Paradise             Design
 2017 04 24 - 37      Paradise             Development
 2017 04 23 - 36      Paradise             Tools
 2017 04 22 - 36      Paradise             Maintenance
@@ -283,7 +283,7 @@
 2016 08 11 - 00  265 Film                 Photography
 2016 08 10 - 00      America              Travel               San Francisco
 2016 08 09 - 35      Paradise             Tools
-2016 08 08 ! 29   44 Polygonoscopy        Modeling             Scan
+2016 08 08 ! 29      Polygonoscopy        Modeling             Scan
 2016 08 07 - 35      Paradise             Tools
 2016 08 06 - 19      Hundred rabbits      Composition
 2016 08 05 - 32      Paradise             Tools

@@ -41,9 +41,10 @@ class CorpseHttp
       counter += 1  
       html += "<li class='main'><span class='counter'>#{counter}</span> <a href='##{cat.downcase.gsub(' ','_')}'>#{cat.capitalize}</a></li>"
       if con.kind_of?(Hash)
+        sub_counter = 1
         con.each do |name,content|
-          counter += 1
-          html += "<li><span class='counter'>#{counter}</span> <a href='##{name.downcase.gsub(' ','_')}'>#{name.capitalize}</a></li>"
+          sub_counter += 1
+          html += "<li><span class='counter'>#{counter}.#{sub_counter}</span> <a href='##{name.downcase.gsub(' ','_')}'>#{name.capitalize}</a></li>"
         end
       end
     end
@@ -60,7 +61,7 @@ class CorpseHttp
     .index { margin-bottom:30px; column-count:3}
     .index li { font-family:'din_regular'; font-size:16px; line-height:25px; }
     .index li a:hover { text-decoration:underline}
-    .index li span.counter { color:#aaa; display:inline-block; margin-right:15px; width:15px; text-align:right}
+    .index li span.counter { color: #aaa;display: inline-block;margin-right: 15px;width: 15px;}
     .index li.main a { font-family: 'din_medium'}
     </style>"
 

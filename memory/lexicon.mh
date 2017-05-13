@@ -100,6 +100,7 @@ BELDAM RECORDS
   LONG
     & Each release is 4 tracks long, and includes an animation video version of the album art.
   TYPE : Portal
+  TAGS : Portal
   LINK
     BAND : https://beldamrecords.bandcamp.com
     TWTR : https://twitter.com/beldamrecords
@@ -357,6 +358,7 @@ HUNDRED RABBITS
   UNDE : Hundred rabbits
   BREF : {{Hundred Rabbits}}, is a nomad design studio founded by {{Rekka Bellum|http://kokorobo.ca}} and {{Devine Lu Linvega|Devine Lu Linvega}} aboard a {{sailboat|Pino}}.
   TYPE : Diary
+  TAGS : Portal
   LONG
     & This partnership is host to interactive projects like {{Oquonie}}, {{Grimgrains|http://grimgrains.com}} and travel diaries. A {{Patreon page|https://www.patreon.com/100}} is available to help fund the production of monthly videos and liveaboard documentation.
   LINK
@@ -652,6 +654,7 @@ NEREID
     & The soil is mostly diamonds, {_carbonado_} and the lack of atmosphere leaves the surface of the moon, mostly quiet. Pigments, illegal. Learn more through the {{Serventines}} travel diaries.
     &
   TYPE : Portal
+  TAGS : Portal
 
 PEARLS
   UNDE : Nereid
@@ -756,6 +759,7 @@ POLYGONOSCOPY
   UNDE : Illustration
   BREF : {{Polygonoscopy}} is a series of abstract videographies, recorded with the {{Kaleidoscope}}.
   TYPE : Portal
+  TAGS : Portal
 
 METHASCOPE
   UNDE : Polygonoscopy
@@ -1142,7 +1146,7 @@ DEFRACTION OPTICS
 
 THOUSAND ROOMS
   UNDE : Physical
-  BREF : {{Thousand Rooms}} is a visual novel collaboration with illustrator {{Rekka Bellum|http://kokorobot.ca}}, following the behaviours of four characters given a desk, a pen and a sheet of paper.
+  BREF : {{Thousand Rooms}} is a visual novel collaboration with illustrator {{Rekka Bellum|http://kokorobot.ca}}, following the behaviours of four characters and a room.
   LONG
     & I have written this book with the hopes of creating a sort of {_Borges for children_}, in which the reader follows a bat, a cat, an owl and a fox who try and make sense of a simple system. 
     & The book also encourages to try and understand the rules, and plan other unsuggested avenues. We are releasing the book in English, French, Russian and Japanese.
@@ -1174,6 +1178,7 @@ WALLPAPER
 NEAUISMETICA
   UNDE : Research
   TYPE : Archive
+  TAGS : Portal
   BREF : The {{Neauismetica}} is a collection of notes on the fictional world of {{Dinaisth}}.
   LONG
     & Referenced in almost all of the {{Nataniev}} projects, tales of this small planet are told through {{Aliceffekt}}'s music, Devine's {{illustrations|illustration}} and are the culture behind the {{Lietal}} Language. 
@@ -1338,7 +1343,7 @@ BLACK
 ~ Travel
 
 TRAVEL
-  UNDE : Photograph
+  UNDE : Photography
   BREF : Photoblog from around the world, I highlighted some of my favourite trips in the list below.
   TYPE : Portal
 
@@ -1483,7 +1488,8 @@ TALK
 OBLIQUES
   UNDE : Research
   TYPE : Archive false
-  BREF : Longform answers to questions regarding travel, {{lifestyle}} and optimisation. 
+  BREF : The {{Obliques}} are longform answers to questions regarding travel, {{lifestyle}} and optimisation. 
+  TAGS : Portal
 
 METHOD
   UNDE : Obliques
@@ -1572,6 +1578,7 @@ NOMAD
 
 DEVINE LU LINVEGA
   UNDE : Death
+  TAGS : Portal
   BREF : {{Devine lu linvega}} is a developer living aboard a {{sailboat|Hundred rabbits}} on the Pacific Ocean.
   LONG
     & Operating under the {{Neauoire|https://twitter.com/neauoire}} moniker, Devine is currating the {{Beldam Records}} catalog, creating {{experimental mobile projects|http://www.creativeapplications.net/openframeworks/experimental-mobile-apps-by-devine-aliceffect-lu-linvega}} and documenting their {{life at sea|https://www.youtube.com/playlist?list=PLV-JXZPiMUdtBGYfvbp9M7N0Tc15GMqy1}}.
@@ -1583,6 +1590,7 @@ DEVINE LU LINVEGA
 GAMME
   UNDE : Research
   TYPE : Portal short
+  TAGS : Portal
   BREF : {{Gamme}} is an ecosystem of tools and systems developed to serve the {{Obliques}}.
   LONG
     & Upcoming projects include a {_Programming Language_} and a {_music composition tool_}.
@@ -1590,6 +1598,7 @@ GAMME
 NATANIEV
   UNDE : Gamme
   TYPE : Archive
+  TAGS : Portal
   BREF : {{Nataniev}} is a platform to serve web apps and tools such as {{Horaire}} and {{Paradise}}.
   LONG
     & Initiated in 2011, this custom engine includes a CLI, formerly known as {_Paradise_}, two different flat-files database parsers and its own unique APIs syntax. It serves this website, {{Hundred Rabbits}}, {{Grimgrains}}, as well as {{Twitter Bots|Automatons}}.
@@ -1645,6 +1654,7 @@ HORAIRE
 
 FORUM
   UNDE : Horaire
+  TAGS : Portal
   BREF : The {{Forum}} is a place within each topic, to ask questions.
   TYPE : Forum
 
@@ -1654,7 +1664,7 @@ DIARY
 
 PORTAL
   UNDE : Horaire
-  BREF : The {{Portal}} lists all topics and projects within {{Nataniev}}.
+  BREF : The {{Portal}} lists {{Nataniev}}'s major categories of topics.
 
 DESAMBER
   UNDE : Nataniev
@@ -1669,6 +1679,7 @@ DESAMBER
 LIETAL
   UNDE : Gamme
   BREF : Created in 1998, {{Lietal}} is a {{synthetic language|http://en.wikipedia.org/wiki/Constructed_language}} created as a linguistic experiment.
+  TAGS : Portal
   LONG
     $ lietal serve documentation
   LINK

@@ -3,9 +3,19 @@
 
 class CorpseHttp
 
+  def style
+
+    return "
+    <style>
+    yu.cr div.portal { margin-bottom:30px; min-height:130px; padding-left:160px; position:relative; padding-top:15px}
+    yu.cr div.portal media { width:130px; height:130px; position:absolute; left:0px; top:0px}
+    </style>"
+
+  end
+
   def view
 
-    html = ""
+    html = "<p>#{@term.bref}</p>#{@term.long.runes}\n"
 
     @used = []
     @terms = $lexicon.to_h("term")
@@ -13,13 +23,10 @@ class CorpseHttp
     
     @used.push("home")
     
-    html += "<code>"
-    html += find_children(@terms["AUDIO"],0)+"\n"             ; @used.push("audio")
-    html += find_children(@terms["VISUAL"],0)+"\n"            ; @used.push("visual")
-    html += find_children(@terms["RESEARCH"],0)+"\n"          ; @used.push("research")
-    
+    html += find_children(@terms["AUDIO"],0) ; @used.push("audio")
+    html += find_children(@terms["VISUAL"],0) ; @used.push("audio")
+    html += find_children(@terms["RESEARCH"],0) ; @used.push("audio")
     html += find_lost_children+"\n"
-    html += "</code>"
     
     return html
 
@@ -28,10 +35,11 @@ class CorpseHttp
   def find_children target, depth
     
     html = ""
-    html += "<a href='/#{target.name}'><span style='padding-left:#{depth*15}px'>#{target.name}</span></a> #{@terms_logs[target.name] ? "<comment style='position:absolute; left:300px; color:#777'>#{@terms_logs[target.name][:offset]}</comment>" : ""}\n"
+    html += target.has_tag("portal") ? create_portal(target) : ""
     
     @terms.each do |name,term|
-      if depth > 5 then break end
+      if depth > 10 then break end
+      if @used.include?(name.downcase) then next end
       if !term.unde.like(target.name) then next end
       html += find_children(term,depth+1)
       @used.push(name.downcase)
@@ -43,13 +51,13 @@ class CorpseHttp
   
   def find_lost_children
     
-    html = "Lost\n"
+    html = ""
     
     @terms.each do |name,term|
       if @used.include?(name.downcase) then next end
       if term.type.to_s.like("chapter") then next end
       if term.type.to_s.like("redirect") then next end
-      html += "  "+name.capitalize+"\n"
+      html += term.has_tag("portal") ? create_portal(term) : ""
     end
     
     return html
@@ -66,6 +74,17 @@ class CorpseHttp
     end
     return h
     
+  end
+
+  def create_portal term
+
+    return "
+    <div class='portal'>
+      #{ Media.new("badge",term.name).exists ? Media.new("badge",term.name).to_s : ''}
+      <p>#{term.bref}</p>
+
+    </div>"
+
   end
 
 end

@@ -28,9 +28,10 @@ class CorpseHttp
     html += "<ul class='index'>"
     ladder.each do |term|    
       html += "<li class='main'><span class='counter'>#{counter}</span> <a href='##{term.name}'>#{term.name}</a></li>"
+      sub_counter = 1
       children(term.name).each do |term|
-        counter += 1
-        html += "<li><span class='counter'>#{counter}</span> <a href='##{term.name}'>#{term.name}</a></li>"
+        sub_counter += 1
+        html += "<li><span class='counter'>#{counter}.#{sub_counter}</span> <a href='##{term.name}'>#{term.name}</a></li>"
       end
       counter += 1
     end
@@ -58,7 +59,7 @@ class CorpseHttp
     .index { margin-bottom:30px; column-count:3}
     .index li { font-family:'din_regular'; font-size:16px; line-height:25px; }
     .index li a:hover { text-decoration:underline}
-    .index li span.counter { color:#aaa; display:inline-block; margin-right:15px; width:15px; text-align:right}
+    .index li span.counter { color: #aaa;display: inline-block;margin-right: 15px;width: 15px;}
     .index li.main a { font-family: 'din_medium'}
     yu.cr div.child { padding-left:30px; border-left:5px solid #ddd}
     yu.cr div.child p { font-size:18px; line-height:30px;}

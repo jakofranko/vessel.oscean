@@ -33,6 +33,7 @@ class Term
   def has_diaries  ; return diaries.length > 0    ? true : false end
   def has_logs     ; return logs.length > 0       ? true : false end
   def has_tasks    ; return tasks.length > 0      ? true : false end
+  def has_tag tag  ; return tags.include?(tag)    ? true : false end
   
   def is_type t ; return type && type.like(t) ? true : false end
 
@@ -113,7 +114,7 @@ class Term
 
   def tags
 
-    return @tags ? @tags.to_s.downcase.split(" ") : nil
+    return @tags ? @tags.to_s.downcase.split(" ") : []
 
   end
 
