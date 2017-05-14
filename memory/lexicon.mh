@@ -15,17 +15,17 @@ HOME
 AUDIO
   UNDE : Home
   BREF : The {{Audio}} sector hosts all projects focusing on sound and live shows.
-  TYPE : Portal bref
+  TYPE : Archive
 
 VISUAL
   UNDE : Home
   BREF : The {{Visual}} sector hosts all projects focusing on to design and interaction.
-  TYPE : Portal bref
+  TYPE : Archive
 
 RESEARCH
   UNDE : Home
   BREF : The {{Research}} sector hosts all projects focusing on philosophy and linguistics.
-  TYPE : Portal bref
+  TYPE : Archive
 
 ~ Automatons
 
@@ -89,11 +89,6 @@ ADVENT V
     
 ~
 
-ARTWORK
-  UNDE : Illustration
-  BREF : A collection of various illustrations drawn over the years, unrelated to other XXIIVV projects.
-  TYPE : Diary
-
 BELDAM RECORDS
   UNDE : Audio
   BREF : Created in collaboration with {{Elodie Lareine|http://noirmirroir.com}}, {{Beldam Records}} is a label focusing on pop idm and experimental dance music. 
@@ -146,7 +141,7 @@ CAMILARE
 
 DESKTOP
   UNDE : Interactive
-  BREF : This list shows all of the desktop projects built of the last few years.
+  BREF : This list shows all of the {{desktop}} projects built of the last few years.
   TYPE : Portal
 
 PURGATEUS
@@ -388,10 +383,15 @@ ILLUSTRATION
   TYPE : Portal
   BREF : A collection of illustrated projects.
 
+ARTWORK
+  UNDE : Illustration
+  BREF : The {{Artwork}} collection is various illustrations drawn over the years, unrelated to other XXIIVV projects.
+  TYPE : Diary
+
 SKETCHBOOK
   UNDE : Illustration
   TYPE : Portal
-  BREF : From the sketchbook.
+  BREF : Various rough illustration from the {{sketchbook}}.
 
 FLACTALS
   UNDE : Sketchbook
@@ -411,7 +411,7 @@ LOOKING GLACE
     ITUN : https://itunes.apple.com/ca/album/looking-glace-ep/id1034127266
 
 MALICE
-  UNDE : Aliceffekt
+  UNDE : Audio
   BREF : {{Malice}}, GAII or 害意, tells the {{earlier tales|Neauismetica}} of {{Neonev}} as she crossed the {{Kanikule}} ocean. 
   LONG
     & The tracks are singing of the daily discoveries, and it's darker distances. The Malice logo was designed by {{Jan Vranovský|http://visualscream.net}}.
@@ -1117,14 +1117,14 @@ REMIX
 
 TYPOGRAPHY
   UNDE : Illustration
-  BREF : Some of the {{typographies|Typography}} I have created over time, feel free to use them as want.
+  BREF : Some of the {{typographies|Typography}} I have created over time, feel free to use them as you wish.
   TYPE : Diary
   LINK
     GITH : https://github.com/neauoire/Font-Collection
 
 UNRELEASED
   UNDE : Interactive
-  BREF : A list of projects that were abandoned or simply put on indefinite hold and unsupported, with their source code available.
+  BREF : A list of {{Unreleased}} projects, or abandoned projects, indefinite put on hold and unsupported.
   TYPE : Portal
 
 VAST
@@ -1318,7 +1318,7 @@ PHOTOGRAPHY
   
 MACRO
   UNDE : Photography
-  BREF : Various macro shots.
+  BREF : The {{macro}} album contains various shots from up close.
   TYPE : Diary
 
 INFRARED
@@ -1335,7 +1335,7 @@ FILM
 
 BLACK
   UNDE : Film
-  BREF : Black & White film photography diary of the life aboard {{Pino}}.
+  BREF : {{Black}} & White film photography diary of the life aboard {{Pino}}.
   LONG
     & This album will be updated periodically, shot with the Voightlander {{250 Jaher|Camera}}.
   TYPE : Diary
@@ -1344,7 +1344,7 @@ BLACK
 
 TRAVEL
   UNDE : Photography
-  BREF : Photoblog from around the world, I highlighted some of my favourite trips in the list below.
+  BREF : Photoblog from {{Travels|Travel}} around the world, I highlighted some of my favourite trips in the list below.
   TYPE : Portal
 
 AUSTRIA

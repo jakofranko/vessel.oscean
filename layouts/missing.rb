@@ -7,7 +7,7 @@ class CorpseHttp
 
     template = "There is no entry for <i>#{@query.capitalize}</i> on this wiki.<br />"
 
-    if @query.to_i < 1 && @query.length < 4 then return "<wr>Your search query is too short, try again with something longer than 4 characters.</wr>" end
+    if @query.to_i < 1 && @query.length < 4 then return "<p>Your search query is too short, try again with something longer than 4 characters.</p>" end
 
     searchResult = search()
 

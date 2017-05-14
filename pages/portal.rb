@@ -70,7 +70,7 @@ class CorpseHttp
     $horaire.to_a(:log).reverse.each do |log|
       if !h[log.topic] then h[log.topic] = {:logs => 0, :diaries => 0, :offset => ""} end
       h[log.topic][:logs] += 1
-      h[log.topic][:offset] = log.offset
+      h[log.topic][:offset] = log.time.ago
     end
     return h
     

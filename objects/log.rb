@@ -4,6 +4,7 @@
 class Log
 
   attr_accessor :topic
+  attr_accessor :time
   attr_accessor :date
   attr_accessor :name
   attr_accessor :full
@@ -15,60 +16,16 @@ class Log
 
     @log = content
 
+    @time  = Timestamp.new(@log['DATE'])
+    @date  = Desamber.new(@log['DATE'])
+
     @topic = @log['TERM'].to_s
-    @date  = @log['DATE'].to_s
     @name  = @log['NAME'].to_s.force_encoding("UTF-8")
     @full  = @log['TEXT'].to_s.force_encoding("UTF-8").markup
     @task  = @log['TASK'].to_s
     @photo = @log['PICT'].to_i
     @code  = @log['CODE'].to_s.like("") ? nil : @log['CODE']
 
-  end
-
-  def time
-    Date.new(year,month,day).to_time.to_i
-  end
-
-  def year
-    return @log['DATE'][0,4].to_i
-  end
-
-  def month
-    return @log['DATE'][5,2].to_i
-  end
-
-  def day
-    return @log['DATE'][8,2].to_i
-  end
-
-  def date
-    return Desamber.new(@log['DATE'])
-  end
-
-  def elapsed
-    return Time.new.to_i - time
-  end
-
-  def offset
-
-    if year < 1 then return "" end
-
-    timeDiff = (elapsed/86400)
-
-    if timeDiff < -1 then return "In "+(timeDiff*-1).to_s+" days" end
-    if timeDiff == -1 then return "tomorrow" end
-    if timeDiff == 0 then return "today" end
-    if timeDiff == 1 then return "yesterday" end
-    if timeDiff > 740 then return (timeDiff/30/12).to_s+" years ago" end
-    if timeDiff > 60 then return (timeDiff/30).to_s+" months ago" end
-    if timeDiff > 30 then return "a month ago" end
-
-    return timeDiff.to_s+" days ago"
-  end
-
-  def isPassed
-    if Time.new.to_i > Date.new(year,month,day).to_time.to_i then return true end
-    return false
   end
 
   def rune
@@ -124,7 +81,7 @@ class Log
 
     return "
     <yu class='di'>
-      #{photo ? "<a href='/"+topic+"'>"+media.to_s+"</a>" : ""}
+      #{photo ? "<a href='/#{photo}:photo'>"+media.to_s+"</a>" : ""}
       #{name.to_s != "" ? "<h2>"+name+"</h2><hs>#{date}</hs><p>#{full}</p>" : ""}
     </yu>"
 

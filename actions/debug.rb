@@ -68,8 +68,8 @@ class ActionDebug
       m = test2.to_s[5,2]
       d = test2.to_s[8,2]
       i += 1
-      if !dates.include?("#{y} #{m} #{d}")
-        array.push("#{y} #{m} #{d}")
+      if !dates.include?("#{y}#{m}#{d}")
+        array.push("#{y}#{m}#{d}")
       end
     end
 

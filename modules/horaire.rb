@@ -6,8 +6,8 @@ class CorpseHttp
   def style
 
     return "<style>
-    .horaire { background:black; border-radius:3px}
     yu.si { display:none !important}
+    .horaire { background:black; border-radius:3px}
     .horaire .task { width:140px; color:white; display:inline-block; padding:15px; }
     .horaire .task svg { width:140px; height:140px }
     .horaire .task p { border-top: 1px solid #555;font-family: 'din_regular';font-size: 11px;line-height: 15px;margin-bottom: 0px;padding-top: 14px }
@@ -32,7 +32,7 @@ class CorpseHttp
     html = ""
 
     if term.logs.length > 2
-      html += Graph_Timeline.new(term.logs).to_s
+      html += Graph_Timeline.new(term).to_s
       html += tasks
       html += legend
     else
@@ -43,23 +43,9 @@ class CorpseHttp
 
   end
 
-  def tasksData
-
-    h = {}
-    term.logs.each do |log|
-      if !h[log.task] then h[log.task] = {"name" => log.task, :sum_hours => 0, :sum_logs => 0, :audio => 0, :visual => 0, :research => 0, :misc => 0, :topics => []} end
-      h[log.task][log.sector] += log.value
-      h[log.task][:sum_logs] += 1
-      h[log.task][:sum_hours] += log.value
-      h[log.task][:topics].push(log.topic)
-    end
-    return h
-
-  end
-
   def tasks
 
-    tasksHash = tasksData
+    tasksHash = term.tasks
     html = ""
 
     $sum_hours = 0

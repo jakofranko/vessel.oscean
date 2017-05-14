@@ -57,7 +57,7 @@ class CorpseHttp
       html += "<div class='entry'><a href='/#{name}'>#{name}</a><span class='value'>#{val}h</span><div class='progress'><div class='bar' style='width:#{(val/max)*100}%'></div></div><hr/></div>"
     end
 
-    return "<h2>Recent Activity</h2>#{Graph_Timeline.new(term.logs[0,100])}<list class='activity'>#{html}</list>"
+    return "<h2>Recent Activity</h2>#{Graph_Timeline.new(term,0,100)}<list class='activity'>#{html}</list>"
 
   end
 

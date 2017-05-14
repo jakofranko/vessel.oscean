@@ -27,12 +27,14 @@ class Term
 
   end
 
+  def is_module    ; return @module end
   def is_diary     ; return @module == "diary"    ? true : false end
-  def is_task      ; return @module == "task"     ? true : false end
+  def is_issue     ; return @module == "issue"    ? true : false end
   def is_horaire   ; return @module == "horaire"  ? true : false end
+  def is_photo     ; return @module == "photo"    ? true : false end
   def has_diaries  ; return diaries.length > 0    ? true : false end
   def has_logs     ; return logs.length > 0       ? true : false end
-  def has_tasks    ; return tasks.length > 0      ? true : false end
+  def has_issues   ; return issues.length > 0     ? true : false end
   def has_tag tag  ; return tags.include?(tag)    ? true : false end
   
   def is_type t ; return type && type.like(t) ? true : false end
@@ -89,10 +91,10 @@ class Term
 
   end
 
-  def tasks
+  def issues
 
-    @tasks = @tasks ? @tasks : ( name.like("home") || name.like("diary") ? $desktop.to_h("issue") : $desktop.filter("term",name,"issue"))
-    return @tasks
+    @issues = @issues ? @issues : ( name.like("home") || name.like("diary") ? $desktop.to_h("issue") : $desktop.filter("term",name,"issue"))
+    return @issues
 
   end
 
@@ -100,6 +102,22 @@ class Term
     
     @comments = @comments ? @comments : ( name.like("home") || name.like("forum") ) ? $forum.to_a : $forum.filter("topic",name,"comment")
     return @comments
+
+  end
+
+  def tasks
+
+    if @tasks then return @tasks end
+
+    @tasks = {}
+    logs.each do |log|
+      if !@tasks[log.task] then @tasks[log.task] = {"name" => log.task, :sum_hours => 0, :sum_logs => 0, :audio => 0, :visual => 0, :research => 0, :misc => 0, :topics => []} end
+      @tasks[log.task][log.sector] += log.value
+      @tasks[log.task][:sum_logs] += 1
+      @tasks[log.task][:sum_hours] += log.value
+      @tasks[log.task][:topics].push(log.topic)
+    end
+    return @tasks
 
   end
 

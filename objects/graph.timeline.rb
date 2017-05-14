@@ -3,12 +3,12 @@
 
 class Graph_Timeline
 
-  def initialize(logs)
+  def initialize(term,from = 0,to = term.logs.length)
     
-    @logs = logs
+    @logs = term.logs[from,to]
+    @sum_hours = 0
     @sums = {}
     @segments = equalSegments
-    @sumHours = 0
 
   end
 
@@ -33,12 +33,12 @@ class Graph_Timeline
 
     segments = segmentMemory
 
-    @from = @logs.first.elapsed
-    @to = @logs.last.elapsed
+    @from = @logs.first.time.elapsed
+    @to = @logs.last.time.elapsed
     @length = @to - @from
 
     @logs.each do |log|
-      progressFloat = (log.elapsed/@to.to_f) * 28
+      progressFloat = (log.time.elapsed/@to.to_f) * 28
       progressPrev = progressFloat.to_i
       progressNext  = progressFloat.ceil
       distributePrev = progressNext - progressFloat
@@ -46,6 +46,7 @@ class Graph_Timeline
 
       if !@sums[log.sector] then @sums[log.sector] = 0 end
       @sums[log.sector] += log.value
+      @sum_hours += log.value
 
       if segments[progressPrev] then segments[progressPrev][log.sector] += log.value * distributePrev end
       if segments[progressNext] then segments[progressNext][log.sector] += log.value * distributeNext end
@@ -61,7 +62,6 @@ class Graph_Timeline
       if values[:audio] > highest then highest = values[:audio]end
       if values[:visual] > highest then highest = values[:visual]end
       if values[:research] > highest then highest = values[:research]end
-      @sumHours += values[:audio] + values[:visual] + values[:research]
     end
     return highest
 
@@ -108,15 +108,16 @@ class Graph_Timeline
 
     # Markers
     markers = ""
-    markers += "<span style='position:absolute; top:15px;left:30px; color:grey'>#{@logs.last.offset}</span>"
-    markers += "<span style='position:absolute; top:15px;right:30px; text-align:right; color:grey'>#{@logs.first.offset}</span>"
+    markers += "<span style='position:absolute; top:15px;left:30px; color:grey'>#{@logs.last.time.ago}</span>"
+    markers += "<span style='position:absolute; top:15px;right:30px; text-align:right; color:grey'>#{@logs.first.time.ago}</span>"
 
-    markers += "<span style='position:absolute; bottom:15px;left:30px'><tt style='color:#72dec2; padding-right:5px'>— </tt> Audio <span style='color:#999'>#{@sums[:audio] ? ((@sums[:audio].to_i/@sumHours.to_f)*100).to_i : 0}%</span></span>"
-    markers += "<span style='position:absolute; bottom:15px;left:120px'><tt style='color:red; padding-right:5px'>— </tt> Visual <span style='color:#999'>#{@sums[:visual] ? ((@sums[:visual].to_i/@sumHours.to_f)*100).to_i : 0}%</span></span>"
-    markers += "<span style='position:absolute; bottom:15px;left:210px'><tt style='color:white; padding-right:5px'>— </tt> Research <span style='color:#999'>#{@sums[:research] ? ((@sums[:research].to_i/@sumHours.to_f)*100).to_i : 0}%</span></span>"
+    markers += "<span style='position:absolute; bottom:15px;left:30px'><tt style='color:#72dec2; padding-right:5px'>— </tt> Audio <span style='color:#999'>#{@sums[:audio] ? ((@sums[:audio].to_i/@sum_hours.to_f)*100).to_i : 0}%</span></span>"
+    markers += "<span style='position:absolute; bottom:15px;left:120px'><tt style='color:red; padding-right:5px'>— </tt> Visual <span style='color:#999'>#{@sums[:visual] ? ((@sums[:visual].to_i/@sum_hours.to_f)*100).to_i : 0}%</span></span>"
+    markers += "<span style='position:absolute; bottom:15px;left:210px'><tt style='color:white; padding-right:5px'>— </tt> Research <span style='color:#999'>#{@sums[:research] ? ((@sums[:research].to_i/@sum_hours.to_f)*100).to_i : 0}%</span></span>"
     markers += "<span style='position:absolute; bottom:15px;left:350px'>#{focus_hours} <span style='color:#999'>FH</span></span>"
     markers += "<span style='position:absolute; bottom:15px;left:400px'>#{focus_balance} <span style='color:#999'>FB</span></span>"
-    markers += "<span style='position:absolute; bottom:15px;right:30px'><a href='/Home:Horaire'><b style='font-family:\"din_medium\"; font-weight:normal; color:#999'>#{@sumHours.to_i} hours</b></a></span>"
+
+    markers += "<span style='position:absolute; bottom:15px;right:30px'><a href='/Home:Horaire' style='font-weight: normal;color: #fff;border:1px solid #333;padding: 5px;border-radius: 3px'>#{@sum_hours.to_i} hours</a></span>"
 
     return "<vz><svg style='width:#{width}px; height:#{height}px; background:black; overflow: visible'>"+html+"<svg>#{markers}</vz>"
 
