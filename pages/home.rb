@@ -22,9 +22,10 @@ class CorpseHttp
   def view
 
     html = "<p>#{@term.bref}</p>#{@term.long.runes}\n"
+    html += "<p>If you wish to stay updated on the development of the latest projects, follow {{@Neauoire|http://twitter.com/neauoire}}. </p>".markup
     html += recent
     html += event
-    html += "<p>If you wish to stay updated on the development of the latest projects, follow {{@Neauoire|http://twitter.com/neauoire}}. </p>".markup
+    
 
     return html
 
@@ -57,7 +58,7 @@ class CorpseHttp
       html += "<div class='entry'><a href='/#{name}'>#{name}</a><span class='value'>#{val}h</span><div class='progress'><div class='bar' style='width:#{(val/max)*100}%'></div></div><hr/></div>"
     end
 
-    return "<h2>Recent Activity</h2>#{Graph_Timeline.new(term,0,100)}<list class='activity'>#{html}</list>"
+    return "#{Graph_Timeline.new(term,0,100)}<list class='activity'>#{html}</list>"
 
   end
 
