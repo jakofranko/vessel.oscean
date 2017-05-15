@@ -25,7 +25,6 @@ class ActionServe
 
     $lexicon = Memory_Hash.new("lexicon",@host.path)
     $horaire = Memory_Array.new("horaire",@host.path)
-    $desktop = Memory_Hash.new("desktop",@host.path)
     $forum   = Memory_Array.new("forum",@host.path)
 
     # Diary Id
@@ -39,7 +38,6 @@ class ActionServe
     corpse.module  = @module
     corpse.horaire = $horaire
     corpse.lexicon = $lexicon
-    corpse.desktop = $desktop
     corpse.forum   = $forum
     corpse.title   = "XXIIVV ∴ #{corpse.term.name}"
 
@@ -144,20 +142,16 @@ class CorpseHttp
         children += child.name.like(term.name) ? "<b>"+child.name+"</b> " : "<a href='/#{child.name}' class='child'>#{child.name}</a> "
       end
     end
-
-    input = !term.name.like(term.unde) ? "<input placeholder='#{term.name}' value='#{term.name}' class='q'/>" : "<input placeholder='Search' class='q'/>"
     
     return "
     <yu class='portal'>
       <a href='/#{term.portal}' class='portal'>
         #{Media.new("badge",@module).exists ? (badge = Media.new("badge",@module) ; badge.set_class('portal') ; badge) : term.badge}
       </a>
-      <h2 class='#{term.unde.length > 8 ? "small" : "default"}'>
-        <a href='/#{term.unde}'>#{term.unde}</a>
-      </h2>
-      #{input}
-      <list>#{siblings}#{children}</list>
+      <input placeholder='Search' value='#{term.name.length > 13 ? term.name[0,12]+'..' : term.name}' class='q'/>
+      <hr/>
       #{_links}
+      <list>#{siblings}#{children}</list>
     </yu>"
     
   end
@@ -196,7 +190,7 @@ class CorpseHttp
     term.link.each do |link|
       html += Link.new(link.first,link.last).to_s
     end
-    return "<yu class='lk'>"+html+"</yu>"
+    return "<yu class='lk'>"+html+"</yu><hr/>"
 
   end
 

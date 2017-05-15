@@ -3,20 +3,49 @@
 
 class CorpseHttp
 
+  def style
+
+    return "<style>
+
+    span.progress { background:white; font-family:'din_medium'; font-size:12px; color:white; display:block; overflow:hidden; position:relative; height:30px; border-radius:3px; margin-bottom:5px}
+    span.bar { background: black;min-width: 150px;display: block;height:30px;position: absolute;top:0px;left:0px; z-index:900; color:white; position:absolute; line-height: 30px;padding-left:15px}
+    span.value { float:right; padding-right:15px; color:#999}
+    span.progress a:hover { text-decoration:underline}
+    </style>"
+
+  end
+
   def view
 
-    template = "There is no entry for <i>#{@query.capitalize}</i> on this wiki.<br />"
+    @template = "Sorry, I could not find any entry for <i>#{@query.capitalize}</i>, in my lexicon. "
 
     if @query.to_i < 1 && @query.length < 4 then return "<p>Your search query is too short, try again with something longer than 4 characters.</p>" end
 
     searchResult = search()
 
-    if searchResult.length == 0 then return ("<p>"+template+"</p>") end
-    
-    if searchResult.length == 1 then return ("<p>"+template+"Did you mean {{"+searchResult[0].first.to_s+"}}?</p>").markup end
-    if searchResult.length == 2 then return ("<p>"+template+"Did you mean {{"+searchResult[0].first.to_s+"}} or {{"+searchResult[1].first.to_s+"}}?</p>").markup end
+    if searchResult.length == 0 then return ("<p>#{@template}</p>") end
+    if searchResult.length == 1 then return ("<p>#{@template} Did you mean {{"+searchResult[0].first.to_s+"}}?</p>").markup end
+    if searchResult.length == 2 then return ("<p>#{@template} Did you mean {{"+searchResult[0].first.to_s+"}} or {{"+searchResult[1].first.to_s+"}}?</p>").markup end
 
-    return ("<p>"+template+"Did you mean {{"+searchResult[0].first.to_s+"}}, {{"+searchResult[1].first.to_s+"}} or {{"+searchResult[2].first.to_s+"}}?</p><p>If you believe that this page should exist, contact {{@neauoire|https://twitter.com/neauoire}}</p>").markup
+    return detail_view(searchResult)
+  
+  end
+
+  def detail_view searchResult
+
+    html = ("<p>#{@template} Did you mean {{"+searchResult[0].first.to_s+"}}, {{"+searchResult[1].first.to_s+"}} or {{"+searchResult[2].first.to_s+"}}?</p>").markup
+
+    sum = 0
+    searchResult.each do |name,value|
+      sum += value
+    end
+
+    searchResult.each do |name,value|
+      perc = (value/sum.to_f) * 100
+      html += "<span class='progress'><span class='bar' style='width:calc(#{perc}%)'><a href='/#{name}'>#{name}</a><span class='value'>#{perc.to_i}%</span></span></span>"
+    end
+
+    return html
 
   end
 
@@ -56,9 +85,15 @@ class CorpseHttp
 
     end
 
-    searchResult = searchResult.sort_by {|_key, value| value}.reverse
+    searchResult = searchResult.sort_by {|_key, value| value}
 
-    return searchResult
+    filteredResults = []
+    searchResult.each do |result,value|
+      if value == 0 then next end
+      filteredResults.push([result.capitalize,value])
+    end
+
+    return filteredResults.reverse
 
   end
 

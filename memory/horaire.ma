@@ -4,6 +4,7 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170515 - 28      Nataniev             Design
 20170514 - 29      Nataniev             Design
 20170513 - 26      Horaire              Design
 20170512 - 35      Markl                AI

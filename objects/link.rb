@@ -28,9 +28,26 @@ class Link
 
   end
 
+  def action
+
+    if @url.include? "github" then return "View Sources" end
+    if @url.include? "itunes" then return "Listen" end
+    if @url.include? "xxiivv" then return "Project Page" end
+    if @url.include? "bandcamp" then return "Listen" end
+    if @url.include? "noirmirroir" then return "Noirmirroir" end
+    if @url.include? "twitter" then return "Read More" end
+    if @url.include? "patreon" then return "Support" end
+    if @url.include? "youtu" then return "Watch" end
+    if @url.include? "drive.google" then return "Download" end
+    if @url.include? "itch.io" then return "Download" end
+      
+    return "External"
+
+  end
+
   def to_s
     
-    return "<a href='#{@url}' target='_blank' class='lk'>#{Media.new("icon",domain.downcase)}</a>"
+    return "<a href='#{@url}' target='_blank' class='lk'>#{Media.new("icon",domain.downcase)}<span class='action'>#{action}</span><span class='domain'>#{domain}</span></a>"
 
   end
 

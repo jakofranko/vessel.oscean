@@ -13,7 +13,7 @@ class Term
 
   def initialize name = "Unknown", data = {}
 
-    data = data ? data : { "UNDE" => "HOME", "TYPE" => "Missing" }
+    data = data ? data : { "UNDE" => "NATANIEV", "TYPE" => "Missing" }
 
     @name = "#{name}".downcase.capitalize
     @unde = data["UNDE"] ? data["UNDE"].downcase.capitalize : "Home"
@@ -34,7 +34,6 @@ class Term
   def is_photo     ; return @module == "photo"    ? true : false end
   def has_diaries  ; return diaries.length > 0    ? true : false end
   def has_logs     ; return logs.length > 0       ? true : false end
-  def has_issues   ; return issues.length > 0     ? true : false end
   def has_tag tag  ; return tags.include?(tag)    ? true : false end
   
   def is_type t ; return type && type.like(t) ? true : false end
@@ -88,13 +87,6 @@ class Term
 
     if !@type then return nil end
     return @type.split(" ").first.downcase.capitalize
-
-  end
-
-  def issues
-
-    @issues = @issues ? @issues : ( name.like("home") || name.like("diary") ? $desktop.to_h("issue") : $desktop.filter("term",name,"issue"))
-    return @issues
 
   end
 
@@ -183,7 +175,6 @@ class Term
 
   def badge
 
-    b = 
     if Media.new("badge",name).exists
       b = Media.new("badge",name)
     elsif Media.new("badge",unde).exists
