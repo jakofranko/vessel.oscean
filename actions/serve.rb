@@ -86,11 +86,11 @@ class CorpseHttp
   <yu class='hd'>
     <wr>
       <a href='/Home' class='lg'>#{Media.new("icon","logo")}</a>
-      #{@module ? "<a class='md' href='/#{term.name}'>#{Media.new("icon","return")}<b>Return</b>To #{term.name}</a>" : ""}
-      #{!term.is_diary   && term.has_diaries ? "<a class='md' href='/#{term.name}:diary'>#{Media.new("icon","diary")}<b>Diary</b>#{term.diaries.length} Entries</a>" : ""}
-      #{!term.is_horaire && term.has_logs    ? "<a class='md' href='/#{term.name}:horaire'>#{Media.new("icon","log")}<b>Horaire</b>#{term.logs.length} Logs</a>" : ""}
+      #{@module                                                     ? "<a class='md' href='/#{term.name}'>#{Media.new("icon","return")}<b>Return</b>To #{term.name}</a>" : ""}
+      #{!term.is_diary   && term.has_diaries                        ? "<a class='md' href='/#{term.name}:diary'>#{Media.new("icon","diary")}<b>Diary</b>#{term.diaries.length} Entries</a>" : ""}
+      #{!term.is_horaire && term.has_logs && term.logs.length > 3   ? "<a class='md' href='/#{term.name}:horaire'>#{Media.new("icon","log")}<b>Horaire</b>#{term.logs.length} Logs</a>" : ""}
       #{!term.type ? "<a class='md' href='/#{term.name.like("home") ? "forum" : term.name+":forum"}'>#{Media.new("icon","forum")}<b>Forum</b>#{term.comments.length} Comments</a>" : ""}
-      #{!term.is_photo   && term.has_diaries ? "<a class='md right' href='/#{term.diaries.first.photo}:photo'>#{Media.new("icon","photo")}<b>#{term.diaries.first.name != '' ? term.diary.name : "Untitled"}</b>#{term.diary.time.ago}</a>" : ""}
+      #{!term.is_photo   && term.has_diaries                        ? "<a class='md right' href='/#{term.diaries.first.photo}:photo'>#{Media.new("icon","photo")}<b>#{term.diaries.first.name != '' ? term.diary.name : "Untitled"}</b>#{term.diary.time.ago}</a>" : ""}
     </wr>
     #{term.diary ? (photo = Media.new("diary",term.diary.photo); photo.set_class("photo") ; photo.to_s) : ""}
   </yu>
@@ -147,7 +147,18 @@ class CorpseHttp
 
     input = !term.name.like(term.unde) ? "<input placeholder='#{term.name}' value='#{term.name}' class='q'/>" : "<input placeholder='Search' class='q'/>"
     
-    return "<yu class='portal'><a href='/#{term.portal}' class='portal'>#{term.badge}</a><h2 class='#{term.unde.length > 8 ? "small" : "default"}'><a href='/#{term.unde}'>#{term.unde}</a></h2>#{input}<list>#{siblings}#{children}</list>#{_links}</yu>"
+    return "
+    <yu class='portal'>
+      <a href='/#{term.portal}' class='portal'>
+        #{Media.new("badge",@module).exists ? (badge = Media.new("badge",@module) ; badge.set_class('portal') ; badge) : term.badge}
+      </a>
+      <h2 class='#{term.unde.length > 8 ? "small" : "default"}'>
+        <a href='/#{term.unde}'>#{term.unde}</a>
+      </h2>
+      #{input}
+      <list>#{siblings}#{children}</list>
+      #{_links}
+    </yu>"
     
   end
   

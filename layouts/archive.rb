@@ -27,11 +27,11 @@ class CorpseHttp
     counter = 1
     html += "<ul class='index'>"
     ladder.each do |term|    
-      html += "<li class='main'><span class='counter'>#{counter}</span> <a href='##{term.name}'>#{term.name}</a></li>"
+      html += "<li class='main'><span class='counter'>#{counter}</span> <a href='#{term.name}'>#{term.name}</a></li>"
       sub_counter = 1
       children(term.name).each do |term|
         sub_counter += 1
-        html += "<li><span class='counter'>#{counter}.#{sub_counter}</span> <a href='##{term.name}'>#{term.name}</a></li>"
+        html += "<li><span class='counter'>#{counter}.#{sub_counter}</span> <a href='#{term.name}'>#{term.name}</a></li>"
       end
       counter += 1
     end

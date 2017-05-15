@@ -895,7 +895,7 @@
 20141209 - 17  287 Supervisitor         Live
 20141208 @ 17  286 Supervisitor         Release              Release
 20141207 - 26  285 Oquonie              Live                 Bit Bazaar
-20141206 - 29  281 Dodecae              Illustration         IDM in Toronto
+20141206 - 29  281 Dodecae              Illustration         Flyer
 20141205 - 17      Supervisitor         Composition
 20141204 - 17      Supervisitor         Composition
 20141203 - 17      Supervisitor         Composition

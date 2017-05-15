@@ -306,6 +306,8 @@ DAMOISEAU CANALX
   LONG
     & The album was recorded live, at Passport in Montreal during the last AMP event and is being released as-is.
     & The album was composed as side project while working on {{Ten Axitecture}} and includes bits and pieces from {{Blam}}.
+    * Tracklist
+    @ discography damoiseau canalx
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/damoiseau-canalx
 
@@ -625,6 +627,7 @@ VERRECIEL
   BREF : {{Verreciel}} is a space exploration game with {_VC-like_} controls.
   LONG
     & The game joins the sequence of linguistically involved projects like {{Nataniev}}, {{Hiversaires}} and {{Oquonie}}. You can follow the development of the game on {{Twitter|https://twitter.com/search?q=verreciel&src=typd}}.
+    & An original soundtrack was created for the game, read more {{here|Verreciel Ost}}.
   LINK
     ITUN : https://itunes.apple.com/ca/app/verreciel/id1065988107
     GITH : https://github.com/Echorridoors/Verreciel
@@ -747,6 +750,8 @@ THE SIXTH SEASON
   LONG
     & {_Whiinders_} and the likes, raising tents hoping for a glorious end in memory of {{Rlionn}}.
     & This album established the sound that {{Aliceffekt}} decided to persue for the {{Neauismetic}} releases.
+    * Tracklist
+    @ discography the sixth season
   LINK
     BAND : http://aliceffekt.bandcamp.com/album/orchestrate-the-sixth-season
 
@@ -998,6 +1003,8 @@ TEN AXITECTURE
   BREF : {{Ten Axitecture}} is the first release on the {{Beldam Records}} catalog. Written by {{Aliceffekt}}, this album combines acoustic instruments and IDM.
   LONG
     & The 4 tracks are interpretations of different fictional worlds that have played a role in the {{Aliceffekt}} narrative: Eudoxie from Calvino's Invisible Cities, Borges' Tlon and Schuiten's Citees Obscures.
+    * Tracklist
+    @ discography ten axitecture
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/ten-axitecture
     ITUN : iTunes|https://itunes.apple.com/ca/album/ten-axitecture-ep/id937396413
@@ -1059,6 +1066,8 @@ KNOWN MAGYE
   LONG
     & Sometimes reminiscent of the compositions of {{Children of bramble}}, sometimes of the drowned sounds of {{Telekinetic}}, this single is a fair mix of ambient and breaks.
     & The album was recorded live from {{San Fransisco|travel}}'s {*POW POW POW*} which was controlled entirely with the {{Leap Motion|https://www.leapmotion.com}}.
+    * Tracklist
+    @ discography known magye
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/known-magye
 
@@ -1067,6 +1076,8 @@ EXTENDED SLEEP
   BREF : {{Extended sleep}} is the {{Laeisthic}} sequel to {{Known Magye}}, a deeper exploration of its universes, its stories. 
   LONG
     & The album will be first performed at the A Maze Festival in Berlin, on April 23rd 2015.
+    * Tracklist
+    @ discography extended sleep
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/extended-sleep
 
@@ -1086,6 +1097,8 @@ SUPERWORKER
   BREF : {{Superworker}} is a concept album created entirely with {{Teenage Engineering's PO24|https://www.teenageengineering.com/products/po}}.
   LONG
     & The album contains 3 tracks created from {_over 80 sessions_}, arranged into chiptune experiments.
+    * Tracklist
+    @ discography superworker
     & Due to the lack of power during the 4 weeks long ocean crossing, the pocket battery powered synth proved to be the perfect composition tool. The tracks also include spoken words from Alan Watts.
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/superworker
@@ -1094,6 +1107,9 @@ SUPERVISITOR
   UNDE : Demo
   TYPE : Diary
   BREF : {{Supervisitor}} is a concept album created with {{Arturia|http://arturia.com}}'s analog and monophonic {{Microbrute|http://www.arturia.com/microbrute-se/overview}} synthetiser.
+  LONG
+    * Tracklist
+    @ discography supervisitor
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/supervisitor
     ITUN : iTunes|https://itunes.apple.com/ca/album/supervisitor-ep/id951144870
@@ -1154,6 +1170,9 @@ THOUSAND ROOMS
 VERRECIEL OST
   UNDE : Beldam records
   BREF : This soundtrack release, written by {{Aliceffekt}} for the mobile application {{Verreciel}}, features a fair dose of breaks and {{Beldam|Beldam records}}'s signature vocoded synths.
+  LONG
+    * Tracklist
+    @ discography verreciel
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/verreciel
 
@@ -1421,15 +1440,11 @@ THE SARTRE MECHANISM
     & My friend held a minuscule weight above the tiny hand, before carefully laying it onto the opened palm. Whirring and clicking, a second arm emerged and plucked a gear out of its entrails and laid it back into the toolbox at its side. In controlled gestures, activated by the weight, tiny arms dismantled bolts and screws, while carefully putting them in that toolbox, gradually taking the casing of the mechanism apart, leaving its core exposed.
     ? Perfect, in every way.
     & I stared in silent awe, at the busy mechanical concerto playing its own requiem. The arms eventually began to reach inside the mechanism, unbuilding its core, growing weaker as it dismantled the heavier components and moved them back into the toolbox. This obscene ritual of disembowelment and exposé on pointlessness ended as the tiny arms and the weight had fallen back into the toolbox.
-    & {_Originally written by {{Voidshaper|https://twitter.com/voidshaper}}, <br />Edited by {{Devine Lu Linvega}}_}
+    & {_Written with {{Voidshaper|https://twitter.com/voidshaper}}.
 
 LANGUAGE OF THE BIRDS
   UNDE : Notes
   BREF : Immortals speak not with words but wait for things to happen, and merely points at them.
-
-PAPER SCISSORS
-  UNDE : Notes
-  BREF : Our program plays games of Rock Paper Sissors against itself and soon develops a framework for complex speech.
 
 THE BOOKS OF BABEL
   UNDE : Notes
@@ -1439,7 +1454,7 @@ THE BOOKS OF BABEL
     & Skipping lines to look ahead appears to already be acounted for and so, wherever one chooses to continue reading resumes the narration where it was left off. In this way, the book cannot be used to predict future thoughts, despite its content being already fully present and unchanging.
     & Some variances of these volumes read as dialogs between the reader's mental voice and that of other claimed interlocutor, possibly the book itself. Reading a line a second time hold but the account of past thoughts.
     & The {*Divination*} books are books that when to open to a previously unseen page, are said to answer a tought or another. Some of the books are used to regular purposes like to give a written out numerical answer to a mathematical question, or the location of a book or hexagon.
-    & The {*Moving Picture*} books appear to display moving pictures when flicked through, where each page is a frame and each letter a pixel. This include the rare Mirror tomes that, like its name fortells, reflect the reader's features like a mirror would.
+    & The {*Picture*} books contain pages where characters are the pixels of a digital picture. The {*Moving Picture*} books appear to display moving pictures when flicked through, where each page is a frame. This include the rare Mirror tomes that, like its name fortells, reflect the reader's features like a mirror would.
 
 ~ Language
 
@@ -1661,10 +1676,10 @@ FORUM
 
 DIARY
   BREF : The {{Diary}} contains photographic logs within {{Horaire}}.
-  UNDE : Horaire
+  UNDE : Nataniev
 
 PORTAL
-  UNDE : Horaire
+  UNDE : Nataniev
   BREF : The {{Portal}} lists {{Nataniev}}'s major categories of topics.
 
 DESAMBER
@@ -1712,10 +1727,8 @@ THE OPAL INQUISITORS
   BREF : {{The Opal Inquisitors}} is the prequel to {{Portalion}}, where {{Neonev}} begin their exploration of the central regions of {{Dinaisth}}, emerging from the tunnels of {_Dei Dain Canals_}.
   LONG
     & Driving the {{Vermillionth}} up the spires below the surface of central islands, the records are photographs of the travels between the caves of {_Dilitrielth_} and the deserts of {{Duomo}.
-    - Down The Vertical Canals
-    - Below The Vetetrandes Spires
-    - Moires Of Dei Dain
-    - Exosphere Sunsets(Ver’Tale)
+    * Tracklist
+    @ discography the opal inquisitors
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/the-opal-inquisitors
 
@@ -1724,16 +1737,17 @@ PORTALION
   BREF : {{Portalion}} is the successor to {{The Opal Inquisitors}}, continuing the exploration of the central regions of {{Dinaisth}}, landing on the southernest docks of {_Laeisth_}.
   LONG
     & On a foggy night of the {_Sixth Season_}, embarking on one of the vessels of the {_Septechoes_} in the desert of {_Clionn_}, {{Neonev}} sails toward {_Whiinders_} to see its {_Immortal Birds_} once more.
-    - Landing in Laeisth
-    - The Sixth Season Festival
-    - Tunnel Aeroports of Clionn
-    - Moebius Lift's Ascension
+    * Tracklist
+    @ discography portalion
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/portalion
 
 DEI DAIN
   UNDE : Neauismetic
   BREF : Written and released in Tokyo in 2013, {{Dei Dain}} is the sixth album as part of {{Aliceffekt}}'s {{Neauismetic}} albums.
+  LONG
+    * Tracklist
+    @ discography dei dain
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/dei-dain
 

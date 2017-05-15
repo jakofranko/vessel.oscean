@@ -12,7 +12,6 @@ class CorpseHttp
   .activity .value { color:#555; margin-left:10px; font-size:14px }
   .activity .progress { max-width:50px; width:20%; background:#fff; height:5px; float:right; border-radius:3px; overflow:hidden; margin-top:10px; margin-right:15px}
   .activity .progress .bar { height:5px; background:#000}
-
   #notice { font-family:'din_regular'; font-size:16px; line-height:26px; background:#fff; padding:15px 20px; border-radius:3px}
   #notice a { font-family: 'din_medium'}
 </style>"
