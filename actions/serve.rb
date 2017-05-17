@@ -133,19 +133,39 @@ class CorpseHttp
     t = ""
 
     siblings = ""
+    children = ""
+
     term.siblings.each do |sibling|
-      siblings += sibling.name.like(term.name) ? "<b>"+sibling.name+"</b> " : "<a href='/#{sibling.name}' class='sibling'>#{sibling.name}</a> "
-    end
-    if !term.name.like(term.unde)
-      children = ""
-      term.children.each do |child|
-        children += child.name.like(term.name) ? "<b>"+child.name+"</b> " : "<a href='/#{child.name}' class='child'>#{child.name}</a> "
+      if sibling.name.like(term.name)
+        siblings += "<b>#{term.name}</b> "
+        siblings += "("
+        term.children.each do |child|
+          siblings += child.name.like(term.name) ? "<b>"+child.name+"</b> " : "<a href='/#{child.name}' class='child'>#{child.name}</a> "
+        end
+        siblings += ")"
+      else
+        siblings += sibling.name.like(term.name) ? "<b>"+sibling.name+"</b> " : "<a href='/#{sibling.name}' class='sibling'>#{sibling.name}</a> "  
       end
     end
+
+    # if term.siblings.length < 1
+      
+    # else
+    #   term.parent.siblings.each do |sibling|
+    #     siblings += sibling.name.like(term.name) ? "<b>"+sibling.name+"</b> " : "<a href='/#{sibling.name}' class='sibling'>#{sibling.name}</a> "
+    #   end
+    # end
+
+    # if !term.name.like(term.unde)
+    #   children = ""
+      # term.children.each do |child|
+      #   children += child.name.like(term.name) ? "<b>"+child.name+"</b> " : "<a href='/#{child.name}' class='child'>#{child.name}</a> "
+      # end
+    # end
     
     return "
     <yu class='portal'>
-      <a href='/#{term.portal}' class='portal'>
+      <a href='/#{term.parent.name}' class='portal'>
         #{Media.new("badge",@module).exists ? (badge = Media.new("badge",@module) ; badge.set_class('portal') ; badge) : term.badge}
       </a>
       <input placeholder='Search' value='#{term.name.length > 13 ? term.name[0,12]+'..' : term.name}' class='q'/>

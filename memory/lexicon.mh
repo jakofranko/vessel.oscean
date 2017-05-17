@@ -370,6 +370,15 @@ PINO
     GITH : http://github.com/hundredrabbits/pino
     PATR : https://patreon.com/100
 
+INSTRUMENT
+  UNDE : Pino
+  BREF : The {{Instrument}} is {{Pino}}'s sailing computer, in the form of a {{mobile}} application.
+  LONG
+    & The application displays various data about the course, speed, location and time. Its original purpose was to help with night sailing where the compass and some of our sailing instruments were hard to see.
+    & Touching the screen toggles {_night mode_}, in which the displays becomes red.
+  LINK
+    GITH : http://github.com/hundredrabbits/Instrument
+
 GRIMGRAINS
   UNDE : Hundred rabbits
   BREF : {{Grimgrains}} is a food blog maintained by {{Hundred Rabbits}}, documenting interesting food experiments and lifestyle.
@@ -1496,10 +1505,156 @@ TALK
   BREF : These talks were created as periodical research dumps, often gravitating around the topics of the {{hexagrammaton|Nataniev}} and {{Horaire}}.
   TYPE : Diary
 
-~ Obliques
+~ Gamme
+
+GAMME
+  UNDE : Research
+  TYPE : Archive
+  TAGS : Portal
+  BREF : {_La {{Gamme}}_}, is a series of concepts and tools created toward the acceleration of the {_Grand Oeuvre_}.
+  LONG
+    & The layout of the {{Nataniev}} ecosystem maps over the {{Trisight}}, where each tool covers a sector of the entire domain of {{The Work}}.
+    % gamme.trisight half
+    % gamme.nataniev half
+
+TRISIGHT
+  UNDE : Gamme
+  BREF : {{Trisight}} is a name of given to the pursuit of {_The Work_}, and of the trinity of its members {{Audi}}, {{Visu}} & {{Rese}}.
+  LONG
+    & The hexagon is a map onto which the {{Nataniev}} ecosystem maps onto.
+    % gamme.trisight fit
+  TYPE : Archive
+  TAGS : Portal
+
+THE WORK
+  UNDE : Trisight
+  BREF : {{The Work}}, as per {{Trisight}} vocabulary, is the sum of one's output goals.
+  LONG
+    & In the context of {{Devine Lu Linvega}}, it includes the completion of the {{Neauismetica}}, and {{Nataniev}}.
+AUDI
+  UNDE : Trisight
+  BREF : {{Audi}} is a member of the {{Trisight}}, translating roughly as {_physiognomy_}, {_shape_} or {_fashion_}. See {{Audio}}.
+
+VISU
+  UNDE : Trisight
+  BREF : {{Visu}} is a member of the {{Trisight}}, translating roughly as {_physicality_}, or {_matter_}. See {{Visual}}.
+
+RESE
+  UNDE : Trisight
+  BREF : {{Rese}} is a member of the {{Trisight}}, translating roughly as {_psychology_}, {_volition_} or {_idea_}. See {{Research}}.
+
+NATANIEV
+  UNDE : Gamme
+  TYPE : Archive
+  TAGS : Portal
+  BREF : {{Nataniev}} is an ecosystem of tools that includes applications such as {{Horaire}}, {{Paradise}} and {{Ronin}} — mapping over the {{Trisight}}.
+  LONG
+    & The purpose of {_Nataniev_} is to be a platform capable of hosting a series of tools, mapping over the {{Trisight}}, helping in the acceleration of {_The Work_}, see {{Gamme}}.
+    % gamme.nataniev fit
+    & Initiated in 2011, this custom engine includes a CLI, formerly known as {_Paradise_}, two different flat-files database parsers and its own unique APIs syntax. It serves this website, {{Hundred Rabbits}}, {{Grimgrains}}, as well as {{Twitter Bots|Automatons}}.
+    & Single scripts and repositories, known as vessels and instances, exist as locations in this {*Ecosystem*} and can be visited through the CLI. For example, each Automaton exist as a character that can be found within Paradise; this page exist as a page in a book, in a library that can also be entered and explored.
+  LINK
+    GITH : https://github.com/XXIIVV/Nataniev
+
+RONIN
+  UNDE : Nataniev
+  BREF : {{Ronin}} is a text-based visual editor designed to draw and automate graphical tasks.
+  LONG
+    & The application is a cross-over between Vim and Photoshop, where every change to the canvas is inputed as a command.
+    & It is meant to replace the use of Photoshop for simple repetitive tasks, basic illustration jobs and the creation of grid based designs.
+    = Draw a vector flower
+    # surface.resize 300x300
+    # layer.fill #AAAAAA
+    # magnet.grid 15x15 4,4
+    # path:line_width 2
+    # path.stroke M60,60 A1,1 0 0,0 240,60 A1,1 0 0,0 240,240
+    # path.stroke M240,240 A1,1 0 0,0 60,240 A1,1 0 0,0 60,60
+  LINK
+    GITH : https://github.com/hundredrabbits/Ronin
+
+PARADISE
+  UNDE : Nataniev
+  BREF : {{Paradise}} is a multiplayer playground that lives within the {{Nataniev}} toolchain. 
+  TYPE : Portal
+  LONG
+    & Paradise plays like a MUD, in an ever-changing world where players are not avatars, but places, and objects, and puns, words - moving around and into each other, reordering this chaotic space.
+    & In this anonymous world you can create anything, traverse the various player-created universes and explore {_conceptspace_}. 
+    % paradise fit
+    * No.44
+    & In a little while you will be alone in shoreless space, to wander its limitless solitudes without friend or comrade forever - for you will remain a thought, the only existent thought, and by your nature inextinguishable, indestructible.
+    & From Mark Twain's {{the mysterious Stranger|http://en.wikipedia.org/wiki/The_Mysterious_Stranger}}
+  LINK
+    SITE : http://paradise.xxiivv.com
+    GITH : https://github.com/XXIIVV/vessel.paradise
+
+INNER HAVEN
+  UNDE : Paradise
+  BREF : The {{Inner Haven}} is a safe location within {{Paradise}} that includes tutorials and documentation.
+  LONG
+    # warp to 1 <comment>The haven can returned to by warping to 1.</comment>
+
+MAEVE
+  UNDE : Paradise
+  BREF : {{Maeve}} is an automated vessel, traveling around the virtual scapes of {{Paradise}} looking for incomplete vessels and errors.
+  LONG
+    & Rating each vessel with an index, it deletes redundant vessels and move vessels outside of the void.
+
+HORAIRE
+  UNDE : Nataniev
+  TAGS : Portal
+  BREF : {{Horaire}} is a time tracking tool that compiles daily logs into creativity forecasts.
+
+FORUM
+  UNDE : Horaire
+  TAGS : Portal
+  BREF : The {{Forum}} is a place within each topic, to ask questions.
+  TYPE : Forum
+
+DIARY
+  UNDE : Horaire
+  BREF : The {{Diary}} contains photographic logs within {{Horaire}}.
+
+PORTAL
+  UNDE : Horaire
+  BREF : The {{Portal}} lists {{Nataniev}}'s major categories of topics.
+
+DESAMBER
+  UNDE : Research
+  BREF : On {{XXIIVV|Nataniev}}, dates are written using a variance of the {{International Fixed Calendar|https://en.wikipedia.org/wiki/International_Fixed_Calendar}}.
+  LONG
+    & The {_Equal Month calendar_} format has 13 months and so the number of each of these months are reflected into their names. Every month is {*28 days long*}, and the 365th day of the year is the {_Year Day_}, followed by the {_Leap Day_} on leap years.
+    ? Today is {{!desamber}} <br /><small>The current time is {{!clock}}</small>
+    & Time is written using a variance of the {{Internet Time|https://en.wikipedia.org/wiki/Swatch_Internet_Time}} with 4 digits instead of the Swatch Beat's 3 digits system. The system has no timezone and no daylight saving-time.
+  LINK
+    GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
+
+LIETAL
+  UNDE : Nataniev
+  BREF : {{Lietal}} is a {{synthetic language|http://en.wikipedia.org/wiki/Constructed_language}} created to experiment with linguistics and translation projects.
+  TAGS : Portal
+  LONG
+    $ lietal serve documentation
+  LINK
+    GITH : https://github.com/XXIIVV/vessel.lietal
+
+DICTIONAERY
+  UNDE : Lietal
+  BREF : The {{Dictionaery}} is a list of all the known {{Lietal}} words.
+  LONG
+    $ lietal serve dictionaery
+
+SHORTHAND
+  UNDE : Research
+  BREF : {{Shorthand}} is a calligraphy style developed to take faster notes.
+  LONG
+    * The idea is simple, writing faster.
+    & I played with different ideas and this is the system that worked best for me, it’s an inspiration and a mixture of already existing shorthand systems that fits my writing style.
+    % shorthand.alphabet fit
+    & Simple enough, now most letters are transformed into a single stroke shape that flows and combines to form shorter words, that can be written faster.
+
 
 OBLIQUES
-  UNDE : Research
+  UNDE : Gamme
   TYPE : Archive false
   BREF : The {{Obliques}} are longform answers to questions regarding travel, {{lifestyle}} and optimisation. 
   TAGS : Portal
@@ -1598,121 +1753,6 @@ DEVINE LU LINVEGA
     & Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}} — Devine hope to inspire visitors to learn and to travel.
     ? To {{flee|Obliques}} is life,<br /> To linger is {{Death}}.
 
-~ Gamme
-
-GAMME
-  UNDE : Research
-  TYPE : Portal short
-  TAGS : Portal
-  BREF : {{Gamme}} is an ecosystem of tools and systems developed to serve the {{Obliques}}.
-  LONG
-    & Upcoming projects include a {_Programming Language_} and a {_music composition tool_}.
-
-NATANIEV
-  UNDE : Gamme
-  TYPE : Archive
-  TAGS : Portal
-  BREF : {{Nataniev}} is a platform to serve web apps and tools such as {{Horaire}} and {{Paradise}}.
-  LONG
-    & Initiated in 2011, this custom engine includes a CLI, formerly known as {_Paradise_}, two different flat-files database parsers and its own unique APIs syntax. It serves this website, {{Hundred Rabbits}}, {{Grimgrains}}, as well as {{Twitter Bots|Automatons}}.
-    & Single scripts and repositories, known as vessels and instances, exist as locations in this {*Ecosystem*} and can be visited through the CLI. For example, each Automaton exist as a character that can be found within Paradise; this page exist as a page in a book, in a library that can also be entered and explored.
-  LINK
-    GITH : https://github.com/XXIIVV/Nataniev
-
-RONIN
-  UNDE : Gamme
-  BREF : {{Ronin}} is a text-based visual editor designed to draw and automate graphical tasks.
-  LONG
-    & The application is a cross-over between Vim and Photoshop, where every change to the canvas is inputed as a command.
-    & It is meant to replace the use of Photoshop for simple repetitive tasks, basic illustration jobs and the creation of grid based designs.
-    = Draw a vector flower
-    # surface.resize 300x300
-    # layer.fill #AAAAAA
-    # magnet.grid 15x15 4,4
-    # path:line_width 2
-    # path.stroke M60,60 A1,1 0 0,0 240,60 A1,1 0 0,0 240,240
-    # path.stroke M240,240 A1,1 0 0,0 60,240 A1,1 0 0,0 60,60
-  LINK
-    GITH : https://github.com/hundredrabbits/Ronin
-
-PARADISE
-  UNDE : Nataniev
-  BREF : {{Paradise}} is a multiplayer playground that lives within the {{Nataniev}} toolchain. 
-  TYPE : Portal
-  LONG
-    & Paradise plays like a MUD, in an ever-changing world where players are not avatars, but places, and objects, and puns, words - moving around and into each other, reordering this chaotic space.
-    & In this anonymous world you can create anything, traverse the various player-created universes and explore {_conceptspace_}. 
-    % paradise fit
-    * No.44
-    & In a little while you will be alone in shoreless space, to wander its limitless solitudes without friend or comrade forever - for you will remain a thought, the only existent thought, and by your nature inextinguishable, indestructible.
-    & From Mark Twain's {{the mysterious Stranger|http://en.wikipedia.org/wiki/The_Mysterious_Stranger}}
-  LINK
-    SITE : http://paradise.xxiivv.com
-    GITH : https://github.com/XXIIVV/vessel.paradise
-
-INNER HAVEN
-  UNDE : Paradise
-  BREF : The {{Inner Haven}} is a safe location within {{Paradise}} that includes tutorials and documentation.
-  LONG
-    # warp to 1 <comment>The haven can returned to by warping to 1.</comment>
-
-MAEVE
-  UNDE : Paradise
-  BREF : {{Maeve}} is an automated vessel, traveling around the virtual scapes of {{Paradise}} looking for incomplete vessels and errors.
-  LONG
-    & Rating each vessel with an index, it deletes redundant vessels and move vessels outside of the void.
-
-HORAIRE
-  UNDE : Nataniev
-  BREF : {{Horaire}} is a time tracking tool that compiles daily logs into creativity forecasts.
-
-FORUM
-  UNDE : Horaire
-  TAGS : Portal
-  BREF : The {{Forum}} is a place within each topic, to ask questions.
-  TYPE : Forum
-
-DIARY
-  BREF : The {{Diary}} contains photographic logs within {{Horaire}}.
-  UNDE : Nataniev
-
-PORTAL
-  UNDE : Nataniev
-  BREF : The {{Portal}} lists {{Nataniev}}'s major categories of topics.
-
-DESAMBER
-  UNDE : Nataniev
-  BREF : On {{XXIIVV|Nataniev}}, dates are written using a variance of the {{International Fixed Calendar|https://en.wikipedia.org/wiki/International_Fixed_Calendar}}.
-  LONG
-    & The {_Equal Month calendar_} format has 13 months and so the number of each of these months are reflected into their names. Every month is {*28 days long*}, and the 365th day of the year is the {_Year Day_}, followed by the {_Leap Day_} on leap years.
-    ? Today is {{!desamber}} <br /><small>The current time is {{!clock}}</small>
-    & Time is written using a variance of the {{Internet Time|https://en.wikipedia.org/wiki/Swatch_Internet_Time}} with 4 digits instead of the Swatch Beat's 3 digits system. The system has no timezone and no daylight saving-time.
-  LINK
-    GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
-
-LIETAL
-  UNDE : Gamme
-  BREF : Created in 1998, {{Lietal}} is a {{synthetic language|http://en.wikipedia.org/wiki/Constructed_language}} created as a linguistic experiment.
-  TAGS : Portal
-  LONG
-    $ lietal serve documentation
-  LINK
-    GITH : https://github.com/XXIIVV/vessel.lietal
-
-DICTIONAERY
-  UNDE : Lietal
-  BREF : The {{Dictionaery}} is a list of all the known {{Lietal}} words.
-  LONG
-    $ lietal serve dictionaery
-
-SHORTHAND
-  UNDE : Gamme
-  BREF : {{Shorthand}} is a calligraphy style developed to take faster notes.
-  LONG
-    * The idea is simple, writing faster.
-    & I played with different ideas and this is the system that worked best for me, it’s an inspiration and a mixture of already existing shorthand systems that fits my writing style.
-    % shorthand.alphabet fit
-    & Simple enough, now most letters are transformed into a single stroke shape that flows and combines to form shorter words, that can be written faster.
 
 ~ Equipment
 

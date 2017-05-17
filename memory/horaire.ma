@@ -4,6 +4,8 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170518 - 34      Instrument           Tools
+20170516 - 28      Instrument           Prototype
 20170515 - 28      Nataniev             Design
 20170514 - 29      Nataniev             Design
 20170513 - 26      Horaire              Design
@@ -280,7 +282,7 @@
 20160816 - 00  274 Film                 Photography
 20160815 - 22  334 Film                 Photography
 20160814 - 25  314 Film                 Photography
-20160813 
+20160813 - 37   92 Trisight             Writing
 20160812 - 29   91 Film                 Photography
 20160811 - 00  265 Film                 Photography
 20160810 - 00      America              Travel               San Francisco
