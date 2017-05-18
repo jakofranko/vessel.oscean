@@ -5,7 +5,13 @@ class CorpseHttp
   
   def style
     
-    return "<style>.pagination a { font-family:\"din_regular\" !important;font-weight: normal;text-align: center;display: block;border-radius: 3px;font-size:14px;padding: 15px}</style>"
+    return "<style>
+    .pagination { margin-bottom: 30px; position:relative}
+    .pagination .progress_bar { background: black;border: 2px solid black;border-radius: 100px;padding: 1px;width:calc(100% - 100px) }
+    .pagination .progress_bar .bar { background:white; height:3px; border-radius:10px; min-width:3px }
+    .pagination a { font-family: 'din_medium' !important;font-weight: normal;text-align: center;display: inline-block;border-radius: 3px;font-size: 11px;text-transform: uppercase;position: absolute;top: -2px;right: 0px}
+    .pagination a:hover { text-decoration: underline}
+    </style>"
     
   end
 
@@ -39,8 +45,8 @@ class CorpseHttp
     end
 
     if term.name.like("home") || term.name.like("diary")
-      html += "<div style='background:white; height:1px'><div style='background:black; height:1px; width:#{((page.to_f/term.diaries.length.to_f)*1000)}%'></div></div>"
-      html += "<p class='pagination'><a href='/Diary:#{(page+1)}'>Continue to page #{page+1} of #{(term.diaries.length/perPage).to_i+1}</a></p>"
+      progress_html = "<div class='progress_bar'><div class='bar' style='width:#{((page.to_f/term.diaries.length.to_f)*1000)}%'></div></div>"
+      html += "<div class='pagination'>#{progress_html}<a href='/Diary:#{(page+1)}'>Page #{page+1} of #{(term.diaries.length/perPage).to_i+1}</a></div>"
     end
     return html
 

@@ -569,8 +569,8 @@
 20151104 - 39      The will the wisp    Maintenance
 20151103 - 39      The will the wisp    Maintenance
 20151102 - 26  472 Dictionarism         Design               Diarism
-20151101
-20151031 - 32      Mobile               Linguistics
+20151101 - 25  169 Nataniev             Design
+20151031 @ 34  166 Mobile               Photography
 20151030 - 36      Verreciel            Tools
 20151029 - 38      Verreciel            Tools
 20151028 - 39      Verreciel            Development
@@ -640,7 +640,7 @@
 20150825 - 24  455 Beauty               Illustration         Genoviral
 20150824 - 24  454 Beauty               Illustration         Vatoxoinal
 20150823 - 24  453 Beauty               Illustration         Hydreviral
-20150822 - 27  452 Keyboard 468         Maintenance          1.3
+20150822 - 27      Keyboard 468         Maintenance          1.3
 20150821 - 34      Nataniev             Maintenance          4.1
 20150820 - 27    2 Kaleidoscope         Illustration         Chrestasebeia
 20150819 - 35      Desamber             Maintenance          0.1
@@ -876,7 +876,7 @@
 20150101 - 35      Entaloneralie        Maintenance          2.1
 20141231 ! 17  282 Beldam records       Branding             Founded Beldam
 20141230 - 35      Noirca               Tools
-20141229 - 34  260 Keyboard 468         Design               Untitled
+20141229 - 34  260 Keyboard 468         Design               Prototype
 20141228 - 34      Keyboard 468         Tools
 20141227 - 34      Keyboard 468         Tools
 20141226 - 34      Keyboard 468         Prototype
@@ -947,7 +947,7 @@
 20141022 - 35      Verreciel            Development
 20141021 - 29      Verreciel            Illustration
 20141020 - 29      Brane                Illustration
-20141019 - 36  275 Alphavetist          Update
+20141019 - 36      Alphavetist          Update
 20141018 ! 39  273 Telekinesis          Live                 Leap
 20141017 - 19      Ten axitecture       Live                 8Static
 20141016 - 39      Horaire              Development
@@ -982,7 +982,7 @@
 20140917 ! 25      Polygonoscopy        Illustration
 20140916 ! 25  250 Serventines          Modeling             Jenen
 20140915 - 35      Nataniev             Maintenance          Inner Haven
-20140914
+20140914 - 25  203 Gamme                Photography          
 20140913
 20140912
 20140911 ! 00      Japan                Travel               Tokyo
@@ -1019,7 +1019,7 @@
 20140811 - 35      Advent v             Update
 20140810 - 27  151 Kaleidoscope         Illustration         Diagolite I
 20140809 - 35      Advent v             Update
-20140808 - 26  141 Dew                  Prototype            Announcement
+20140808 - 26  141 Dew                  Prototype            Prototype
 20140807 - 35      Advent v             Update
 20140806 - 25  139 Advent v             Branding             Release
 20140805 - 29      Advent v             Live
@@ -1029,7 +1029,7 @@
 20140801 - 38      Advent v             Development
 20140731
 20140730
-20140729 - 16  129 Ledoliel             Maintenance          1.2
+20140729 @ 16  129 Ledoliel             Maintenance          1.2
 20140728 - 35  128 Bifurcan             Maintenance          Screensaver
 20140727 - 38      Nataniev             Maintenance          Ten Axis
 20140726 - 31      Nataniev             Maintenance          Inner Haven
@@ -1383,7 +1383,7 @@
 20130812 - 37      Vocavularist         Development
 20130811 - 29      Oquonie              Prototype
 20130810 - 29      Vocavularist         Development
-20130809 - 29  355 Vocavularist         Release              Release
+20130809 - 29  355 Vocavularist         Release              1.0
 20130808 - 29      Vocavularist         Development
 20130807 - 39      Mute                 Development
 20130806 - 35      Vocavularist
@@ -1451,7 +1451,7 @@
 20130605 - 35      Nataniev             Tools
 20130604 - 35      Nataniev             Design
 20130603 - 35      Horaire              Design
-20130602 - 29  236 Entaloneralie        Release              Release
+20130602 - 29  236 Entaloneralie        Release              1.0
 20130601 - 38      Entaloneralie
 20130531
 20130530 @ 29  235 Paradise             Illustration         The Endless Shores
@@ -1509,7 +1509,7 @@
 20130408 - 35      Horaire              Maintenance
 20130407 - 27      Hiversaires          Release              Release
 20130406 - 35      Hiversaires          Prototype
-20130405 - 29  216 Hiversaires          Live                 Picotachi
+20130405 - 29      Hiversaires          Live                 Picotachi
 20130404
 20130403 - 35      Nataniev             Development
 20130402 - 35      Nataniev             Maintenance
@@ -1518,7 +1518,7 @@
 20130330 - 35      Hiversaires          Prototype
 20130329 - 28      Hiversaires          Illustration
 20130328 - 35      Hiversaires          Development
-20130327 - 38  215 Hiversaires          Testing              Devlog 25
+20130327 - 38      Hiversaires          Testing              Devlog 25
 20130326 - 29      Hiversaires          Design
 20130325 - 37      Dictionaery          Tools
 20130324 - 37      Nataniev             Design
@@ -1533,25 +1533,25 @@
 20130315 - 38  214 Hiversaires          Design               Devlog 24
 20130314 - 39      Hiversaires          Branding
 20130313 - 36      Hiversaires          Testing
-20130312 - 33  213 Hiversaires          Testing              Devlog 23
-20130311 - 35  212 Hiversaires          Testing              Devlog 22
+20130312 - 33      Hiversaires          Testing              Devlog 23
+20130311 - 35      Hiversaires          Testing              Devlog 22
 20130310 - 38      Nataniev             Tools
 20130309 - 23      Japan                Photography          Sand Storm in Tokyo
-20130308 - 28  210 Hiversaires          Design               Devlog 21
+20130308 - 28  210 Mirrors              Photography          Office in Tokyo
 20130307 - 28  200 Hiversaires          Design               Devlog 20
 20130306 - 28      Hiversaires          Design
-20130305 - 26  198 Hiversaires          Design               Devlog 18
-20130304 - 35  197 Hiversaires          Development          Devlog 17
+20130305 - 26      Hiversaires          Design               Devlog 18
+20130304 - 35      Hiversaires          Development          Devlog 17
 20130303
 20130302
-20130301 - 37  196 Hiversaires          Development          Devlog 16
+20130301 - 37      Hiversaires          Development          Devlog 16
 20130228 - 37  195 Hiversaires          Development          Devlog 15
-20130227 - 37  194 Hiversaires          Development          Devlog 14
-20130226 - 36  193 Hiversaires          Development          Devlog 13
+20130227 - 37      Hiversaires          Development          Devlog 14
+20130226 - 36      Hiversaires          Development          Devlog 13
 20130225 - 25  192 Hiversaires          Design               Devlog 12
 20130224 - 25      Hiversaires          Design
 20130223 - 36      Hiversaires          Development
-20130222 - 28  191 Hiversaires          Design               Devlog 11
+20130222 - 28      Hiversaires          Design               Devlog 11
 20130221 - 28  189 Hiversaires          Branding             Devlog 10
 20130220 - 25  188 Australia            Photography          Day 6
 20130219 - 25  187 Australia            Photography          Day 5
@@ -1562,14 +1562,14 @@
 20130214 ! 25  183 Australia            Photography          Melbourne
 20130213 - 25  182 Hiversaires          Design               Devlog 9
 20130212 - 28  181 Hiversaires          Design               Devlog 8
-20130211 - 28  180 Hiversaires          Design               Devlog 7
-20130210 - 39  179 Hiversaires          Design               Devlog 6
-20130209 - 28  178 Hiversaires          Design               Devlog 5
+20130211 - 28      Hiversaires          Design               Devlog 7
+20130210 - 39      Hiversaires          Design               Devlog 6
+20130209 - 28      Hiversaires          Design               Devlog 5
 20130208 - 34      Nataniev             Maintenance
-20130207 - 27  177 Hiversaires          Prototype            Devlog 4
-20130206 - 38  176 Hiversaires          Prototype            Devlog 3
-20130205 - 35  175 Hiversaires          Prototype            Devlog 2
-20130204 - 35  174 Hiversaires          Prototype            Devlog 1
+20130207 - 27      Hiversaires          Prototype            Devlog 4
+20130206 - 38      Hiversaires          Prototype            Devlog 3
+20130205 - 35      Hiversaires          Prototype            Devlog 2
+20130204 - 35      Hiversaires          Prototype            Devlog 1
 20130203 - 35      Hiversaires          Prototype
 20130202 - 35      Hiversaires          Prototype
 20130201 - 27  173 Macro                Photography          Building a telescope

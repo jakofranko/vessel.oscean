@@ -111,16 +111,6 @@ BLINDFOLK
   LINK
     GITH : https://github.com/XXIIVV/vessel.blindfolk
 
-BABELIUM
-  UNDE : Desktop
-  BREF : {{Babelium}} is a roguelike set in the Borges' Library of Babel and played within the limitation of its books.
-  LONG
-    & Begin by finding the {_guide_}({*g*}), in every second hexagon, the guide will tell you things to look for. If you find yourself to be walking rather slowly, find the closet in which you can sleep standing up.
-    ? The game is currently in open beta, if you find any issue, add it to the github repository below.
-  LINK
-    SITE : http://100r.co/projects/babelium/index.html
-    GITH : https://github.com/Echorridoors/Babelium
-
 CAMILARE
   UNDE : Oquonie
   BREF : Language spoken in {{Oquonie}} containing a little over 20 glyphs, spoken in segments of 3 letters. 
@@ -140,7 +130,7 @@ CAMILARE
 DESKTOP
   UNDE : Interactive
   BREF : This list shows all of the {{desktop}} projects built of the last few years.
-  TYPE : Portal
+  TYPE : Portal false
 
 PURGATEUS
   UNDE : Desktop
@@ -557,6 +547,7 @@ MOBILE
 BIFURCAN
   UNDE : Mobile
   BREF : {{Bifurcan}} is a cryptic watchface for iPhone, iPad and OS X.
+  TYPE : Diary
   LONG
     & Every second, the labyrinth reorganize itself to display the time with its twists and turns. It takes a little practice to be able to see the patterns in the lines. Clicking on the screen will unveil the time as seen in this {{video|https://www.youtube.com/watch?v=HzXIJpzPB6c}}. The original application was created in 30 minutes for a micro jam.
     & If you have a {{Pebble Watch|https://getpebble.com}}, you can download it as a {{watchface|http://www.mypebblefaces.com/apps/10183/7055/}}, the Pebble C script was written by Chase Colburn and is also available on {{Github|https://github.com/chasecolburn/line-maze}}. The screensaver version was done by {{Tekgo|http://tekgo.org}} and was also added to the source code.
@@ -569,6 +560,7 @@ BIFURCAN
 LEDOLIEL
   UNDE : Mobile
   BREF : {{Ledoliel}} is a strange dating-sim game for iOS.
+  TYPE : Diary
   LONG
     & Procedural creatures and their bizarre customs, where you must try and figure out what topics they might want to discuss, gift they might want to receive and places they may like to be touched - based on their cryptic attributes.
   LINK
@@ -578,6 +570,7 @@ LEDOLIEL
 KEYBOARD 468
   UNDE : Mobile
   BREF : {{Keyboard 468}} has 18 keys, sorted by the most likely to follow the last input.
+  TYPE : Diary
   LONG
     & So you always only need to type using the two rows at the top, maximizing the space and allowing for big large letters. The hidden letters are accessible through the {_alt_} key, alongside symbols and numbers.
     * Privacy Policy
@@ -589,6 +582,7 @@ KEYBOARD 468
 HIVERSAIRES
   UNDE : Mobile
   BREF : {{Hiversaires}} is a textless point-n-click adventure game in black & white.
+  TYPE : Diary
   LONG
     & Hiversaires is the first part of a series of textless games, that also includes the isometric adventure {{Oquonie}}.
     & The dark world of Hiversaires features an original {{Aliceffekt|https://aliceffekt.bandcamp.com/album/hiversaires-soundtrack}} soundtrack to lure you through its entangled corridors.
@@ -599,6 +593,7 @@ HIVERSAIRES
 ENTALONERALIE
   UNDE : Mobile
   BREF : {{Entaloneralie}} is another experimental watchface.
+  TYPE : Diary
   LONG
     & While the old design displayed a circular layout and binary type format. The redesign explores an entirely different system of displaying minutes and is meant to be a toy, a distraction.
   LINK
@@ -608,6 +603,7 @@ ENTALONERALIE
 DEW
   UNDE : Mobile
   BREF : {{Dew}} is a minimalist alarm application that uses a single touch.
+  TYPE : Diary
   LONG
     & The application will then  wake you with a soft white noise tone that will gradually bring you back to reality.
   LINK
@@ -617,6 +613,7 @@ DEW
 ALPHAVETIST
   UNDE : Mobile
   BREF : {{Alphavetist}} is a minimalist alphabet learning application.
+  TYPE : Diary
   LONG
     & Currently included are the Hebrew, Cyrillic, Korean, Inuktitut, Greek, Morse and Japanese alphabets.
   LINK
@@ -626,6 +623,7 @@ ALPHAVETIST
 VOCAVULARIST
   UNDE : Mobile
   BREF : {{Vocavularist}}, is a vocabulary review application. 
+  TYPE : Diary
   LONG
     & It contains the 600 first kanji, 600 simple Russian words and 800 simple korean expressions.
   LINK
@@ -635,6 +633,7 @@ VOCAVULARIST
 NOIRCA
   UNDE : Mobile
   BREF : {{Noirca}} is a minimalist monochromatic camera application for iOS.
+  TYPE : Diary
   LONG
     & The app has one purpose, to launch quickly and render the photos with a softly washed out B&W film quality.
   LINK
@@ -651,6 +650,7 @@ RAFINOGRADE
 VERRECIEL
   UNDE : Mobile
   BREF : {{Verreciel}} is a space exploration game with {_VC-like_} controls.
+  TYPE : Diary
   LONG
     & The game joins the sequence of linguistically involved projects like {{Nataniev}}, {{Hiversaires}} and {{Oquonie}}. You can follow the development of the game on {{Twitter|https://twitter.com/search?q=verreciel&src=typd}}.
     & An original soundtrack was created for the game, read more {{here|Verreciel Ost}}.
@@ -771,6 +771,16 @@ OQUONIE GUIDE
     & Many doors, across the worlds, were locked. You have gone through the levels without paying any mind to them but now you will need to find each world's {*Red Pillar*} to unlock the door. My guess would be that you are in town and do not know where to proceed next. So this is my tip to you.
     & Good luck.
   TAGS : Guide
+
+BABELIUM
+  UNDE : Desktop
+  BREF : {{Babelium}} is a roguelike set in the Borges' Library of Babel and played within the limitation of its books.
+  LONG
+    & Begin by finding the {_guide_}({*g*}), in every second hexagon, the guide will tell you things to look for. If you find yourself to be walking rather slowly, find the closet in which you can sleep standing up.
+    ? The game is currently in open beta, if you find any issue, add it to the github repository below.
+  LINK
+    SITE : http://100r.co/projects/babelium/index.html
+    GITH : https://github.com/Echorridoors/Babelium
 
 THE SIXTH SEASON
   UNDE : Neauismetic
@@ -1527,8 +1537,10 @@ TRISIGHT
   UNDE : Gamme
   BREF : {{Trisight}} is a name of given to the pursuit of the {_Grand Oeuvre_}, and of the trinity of its members {{Audi}}, {{Visu}} & {{Rese}}.
   LONG
+    & The inverted triangle includes interdisciplines such as procedural or generative music and art at the intersections of {{Rese}}-{{Audi}} & {{Rese}}-{{Visu}}, and sound reactive illustration at the {{Audi}}-{{Visu}} junction.
+    & While the sectors chosent for the realisation of this {{Grand Oeuvre}} are audio, visual and code, someone else's diagram might include taste, touch, or even pain; any medium that one chooses to become the artisan of.
     & The hexagon is a map onto which the {{Nataniev}} ecosystem is meant to overlay.
-    % gamme.trisight fit
+    % gamme.trisight fit    
   TYPE : Archive
   TAGS : Portal
 
