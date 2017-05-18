@@ -220,7 +220,9 @@ DOMESTIC MOIRE
 
 EFLI
   UNDE : Eschatolor
-  BREF : {{EFLI}}, 103.0FM, was a pirate radio broadcast, available from Montreal's Plateau area, between 22:00 and 6:00. The radio started broadcasting on May 20th, 2015. Not much else is disclosed. Read more about {{Eschatolor}}.
+  BREF : {{EFLI}}, 103.0FM, was a pirate radio broadcast, available from Montreal's Plateau area, between 22:00 and 6:00. 
+  LONG
+    & The radio started broadcasting on May 20th, 2015 and stopped transmitting on December 20th. It played various permutations of the {{Eschatolor}} album.
 
 ES GULF SUNFLOWERS
   UNDE : Neauismetic
@@ -230,8 +232,9 @@ ES GULF SUNFLOWERS
 
 ESCHATOLOR
   UNDE : Beldam records
-  BREF : {{Eschatolor}} is the fourth release on the Beldam Records catalog. Written by Катя Тевелизион, this album was inspired from russian number stations.
+  BREF : {{Eschatolor}} is the fourth release on the Beldam Records catalog. 
   LONG
+    & Written by Катя Тевелизион, this album was inspired from russian number stations.
     & It was recorded playing through the FM band, from the {{EFLI}} 103.0Mhz pirate radio station in Montreal, giving it its texture and warmth.
   LINK
     BAND : https://tevelision.bandcamp.com/album/eschatolor
@@ -412,15 +415,6 @@ FLACTALS
     & These flowers have inspired a series of illustrations used in Elodie Lareine's book titled "{{Vast}}" as well as the cover of the {{Aliceffekt}} single titled "{{Known Magye}}", released in 2014.
     ? Drawing flowers, terapeutic.
 
-LOOKING GLACE
-  UNDE : Beldam records
-  BREF : Following {{Miniscopie}}, {{Looking Glace}} is {{Reine|http://noirmirroir.com}}'s second release on {{Beldam Records}}.
-  LONG
-    & Painting a harsher, and more complete picture of her acoustic universe where the liquid sounds and suffocating vocoder are incessantly present.
-  LINK
-    BAND : https://beldamrecords.bandcamp.com/album/looking-glace
-    ITUN : https://itunes.apple.com/ca/album/looking-glace-ep/id1034127266
-
 MALICE
   UNDE : Audio
   BREF : {{Malice}}, GAII or 害意, tells the {{earlier tales|Neauismetica}} of {{Neonev}} as she crossed the {{Kanikule}} ocean. 
@@ -449,14 +443,38 @@ MILAVREGA
     & You must try and find your way through the folders, emails and contacts to decypher the enigma of the phone's owner.
   TAGS : Stub
 
+LOOKING GLACE
+  UNDE : Beldam records
+  BREF : Following {{Miniscopie}}, {{Looking Glace}} is {{Reine|http://noirmirroir.com}}'s second release on {{Beldam Records}}.
+  LONG
+    & Painting a harsher, and more complete picture of her acoustic universe where the liquid sounds and suffocating vocoder are incessantly present.
+    * Tracklist
+    @ discography looking glace
+  LINK
+    BAND : https://beldamrecords.bandcamp.com/album/looking-glace
+    ITUN : https://itunes.apple.com/ca/album/looking-glace-ep/id1034127266
+    
 MINISCOPIE
   UNDE : Beldam records
-  BREF : {{Miniscopie}} is the second release on the {{Beldam Records}} catalog. 
+  BREF : {{Miniscopie}} is the second release on the {{Beldam Records}} catalog, and first album of Reine. 
   LONG
     & Written by {{Reine|http://noirmirroir.com}}, this album combines ambient and deep IDM flavoured sounds. The album is the first music release from Elodie, who also created the {{Vast}} book.
+    * Tracklist
+    @ discography miniscopie
   LINK
     BAND : https://beldamrecords.bandcamp.com/album/miniscopie
     ITUN : https://itunes.apple.com/us/album/miniscopie-ep/id956624857
+
+RAMIEL
+  UNDE : Beldam records
+  BREF : {{Ramiel}} is the third release on the {{Beldam Records}} catalog. 
+  LONG
+    & Written by {{Villa Moirai|https://beldamrecords.bandcamp.com}}, this album is an even mixture and techno and idm. The album name and cover are a tribute to the geometric angel of the Evangelion anime series.
+    * Tracklist
+    @ discography ramiel
+  LINK
+    BAND : https://beldamrecords.bandcamp.com/album/ramiel
+    ITUN : https://itunes.apple.com/us/album/ramiel-ep/id958562173
 
 MIXTAPE
   UNDE : Audio
@@ -718,7 +736,9 @@ NUMBERS
 
 OCCULTER
   UNDE : Physical
-  BREF : Occulter is a small boutique I admire, and that sells {{black things|http://www.occulter.org}}.
+  BREF : {{Occulter}} is a 3d printed shape inspired by the logo of a boutique I admire and that sells {{black things|http://occulter.org}}.
+  LONG
+    & 
 
 MARKL
   UNDE : Desktop
@@ -815,15 +835,6 @@ NERVOUS
   UNDE : Polygonoscopy
   BREF : {{Nervous}} is a eries of {_Vertexbrates_}.
   TYPE : Diary
-
-RAMIEL
-  UNDE : Beldam records
-  BREF : {{Ramiel}} is the third release on the {{Beldam Records}} catalog. 
-  LONG
-    & Written by {{Villa Moirai|https://beldamrecords.bandcamp.com}}, this album is an even mixture and techno and idm. The album name and cover are a tribute to the geometric angel of the Evangelion anime series.
-  LINK
-    BAND : https://beldamrecords.bandcamp.com/album/ramiel
-    ITUN : https://itunes.apple.com/us/album/ramiel-ep/id958562173
 
 LARD SHADER
   UNDE : Artwork
@@ -1175,6 +1186,8 @@ THOUSAND ROOMS
   LONG
     & I have written this book with the hopes of creating a sort of {_Borges for children_}, in which the reader follows a bat, a cat, an owl and a fox who try and make sense of a simple system. 
     & The book also encourages to try and understand the rules, and plan other unsuggested avenues. We are releasing the book in English, French, Russian and Japanese.
+  LINK
+    GITH : http://github.com/hundredrabbits/Thousand-Rooms/graphs/contributors
 
 VERRECIEL OST
   UNDE : Beldam records
@@ -1486,7 +1499,7 @@ WORDS
     - {{Betwixt|https://en.wikipedia.org/wiki/Betwixt}}, in English
 
 NEEDLES
-  UNDE : Desamber
+  UNDE : Language
   BREF : {{Needles}} are glyphs of which the intersection count is equal to the value of the character.
   LONG
     & The glyphs are not used into any specific system of the {{Gamme}}, but are available here as a reference of a meaningful numeric glyph system.
@@ -1506,6 +1519,8 @@ TALK
   UNDE : Research
   BREF : These talks were created as periodical research dumps, often gravitating around the topics of the {{hexagrammaton|Nataniev}} and {{Horaire}}.
   TYPE : Diary
+  LINK
+    GITH : https://github.com/neauoire/Talk-Amaze
 
 ~ Gamme
 
@@ -1523,7 +1538,7 @@ TRISIGHT
   UNDE : Gamme
   BREF : {{Trisight}} is a name of given to the pursuit of the {_Grand Oeuvre_}, and of the trinity of its members {{Audi}}, {{Visu}} & {{Rese}}.
   LONG
-    & The hexagon is a map onto which the {{Nataniev}} ecosystem maps onto.
+    & The hexagon is a map onto which the {{Nataniev}} ecosystem is meant to overlay.
     % gamme.trisight fit
   TYPE : Archive
   TAGS : Portal
@@ -1646,7 +1661,7 @@ DICTIONAERY
     $ lietal serve dictionaery
 
 SHORTHAND
-  UNDE : Research
+  UNDE : Language
   BREF : {{Shorthand}} is a calligraphy style developed to take faster notes.
   LONG
     * The idea is simple, writing faster.

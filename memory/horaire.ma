@@ -442,7 +442,7 @@
 20160309 - 37      Verreciel            Design
 20160308 - 19      Verreciel            Composition
 20160307 - 37      Verreciel            Design
-20160306 - 25   38 Pino                 Photography          From Inside           This is the view from my workstation.
+20160306 - 25   38 Pino                 Photography          From Inside           This is the view from my workstation aboard {{Pino}}.
 20160305 - 35      Nataniev             AI
 20160304 - 35      Neauismetica         Writing
 20160303 - 27  494 Portalion            Illustration         Portalion Cover
@@ -553,7 +553,7 @@
 20151119 - 29      Nataniev             Design
 20151118 - 37      Oquonie              Maintenance
 20151117 - 34      Alphavetist          Maintenance          3.7
-20151116 - 19      Grot                 Mixing
+20151116 - 19   44 Grot                 Mixing
 20151115 - 27      Nataniev             Maintenance          1.2
 20151114 - 29      Hundred rabbits      Live
 20151113 ! 29  475 Hundred rabbits      Event                Founded 100R
@@ -693,7 +693,7 @@
 20150702 - 19      Supervisitor         Composition
 20150701 - 35      Ruby Riding Hood     Maintenance          0.1
 20150630
-20150629
+20150629 -24   110 Infrared             Photography          Rekka
 20150628
 20150627 - 35      The will the wisp    Development
 20150626 - 35      The will the wisp    Development

@@ -138,14 +138,14 @@ class CorpseHttp
     html += "<ul>"
     term.siblings.each do |sibling|
       html += "<ul>"
-      if sibling.name.like(term.name)
+      if sibling.name.like(term.name) && !term.parent.name.like(term.name)
         html += "<li>#{Media.new('icon','tree.current')}<a class='current'>#{sibling.name}</a></li>"
         html += "<ul>"
         term.children.each do |child|
           html += "<li>#{Media.new('icon','tree.children')}<a href='/#{child.name}' class='child'>#{child.name}</a></li>"
         end
         html += "</ul>"
-      else
+      elsif !sibling.name.like(term.name)
         html += "<li>#{Media.new('icon','tree.parent')}<a href='/#{sibling.name}' class='sibling'>#{sibling.name}</a></li>"
       end
       html += "</ul>"
