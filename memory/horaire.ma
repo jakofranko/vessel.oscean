@@ -4,6 +4,7 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170518 - 37      Pino                 Maintenance
 20170517 - 34      Instrument           Tools
 20170516 - 28      Instrument           Prototype
 20170515 - 28      Nataniev             Design
@@ -693,7 +694,7 @@
 20150702 - 19      Supervisitor         Composition
 20150701 - 35      Ruby Riding Hood     Maintenance          0.1
 20150630
-20150629 -24   110 Infrared             Photography          Rekka
+20150629 -24   110 Infrared             Photography          
 20150628
 20150627 - 35      The will the wisp    Development
 20150626 - 35      The will the wisp    Development
@@ -814,11 +815,11 @@
 20150303 - 35      Donsol               Design
 20150302 - 25      Donsol               Illustration
 20150301 - 25      Donsol               Prototype
-20150228 ! 00      America              Travel               San Franci
-20150227 - 25  367 America              Photography          A bleak little town
-20150226 ! 25  364 America              Photography          Day 3
-20150225 - 25  363 America              Photography          Day 2
-20150224 - 25  316 America              Photography          Day 1
+20150228 ! 00      America              Travel               San Francisco
+20150227 - 25  367 America              Photography          
+20150226 ! 25  364 America              Photography          
+20150225 - 25  363 America              Photography          
+20150224 - 25  316 America              Photography          
 20150223 ! 25  311 Hypervoid            Illustration         Dischromatic
 20150222 - 29      Nereid               Modeling
 20150221 - 24      Nereid               Modeling
@@ -1095,12 +1096,12 @@
 20140526 - 25      Brane                Illustration
 20140525 - 35  127 Paradise             Development          Update
 20140524 - 35      Paradise             Development
-20140523 - 19  116 Purgateus            Composition          Autumn
-20140522 - 35      Purgateus            Release              Release
-20140521 - 19   36 Purgateus            Composition          Summer Landing
-20140520 - 29   35 Purgateus            Design               Savane
-20140519 - 29   34 Purgateus            Design               Neigh
-20140518 - 29   33 Purgateus            Design               Your new gods
+20140523 @ 19  116 Purgateus            Composition          Autumn Leaves
+20140522 - 35      Purgateus            Release              
+20140521 - 19   36 Purgateus            Composition          
+20140520 - 29   35 Purgateus            Design               
+20140519 - 29   34 Purgateus            Design               
+20140518 - 29   33 Purgateus            Design               
 20140517 - 32      Verreciel            Development
 20140516 - 37      Verreciel            Development
 20140515 - 37      Verreciel            Prototype
@@ -1156,8 +1157,8 @@
 20140326 - 35      Vast                 Prototype
 20140325
 20140324 - 35      Rafinograde          Prototype
-20140323 - 25  389 America              Photography          Muir Woods
-20140322 - 25  390 America              Photography          Muir Beach
+20140323 - 25  389 America              Photography          
+20140322 - 25  390 America              Photography          
 20140321
 20140320
 20140319 ! 19  388 Known magye          Release              Release
@@ -2639,7 +2640,7 @@
 20100304 - 25  416 Japan                Photography          
 20100303 ! 25  412 Japan                Photography          
 20100302 - 25      Japan                Photography          
-20100301 - 25  410 Moments              Photography          Rekka in Osaka        Waiting by the hostel.
+20100301 - 25  410 Rekka                Photography          Rekka in Osaka        Waiting by the hostel.
 20100228 - 15  125 Shikanokoa vs 1h1d   Release              1H1D vs shikanokoa
 20100227 - 19  101 Shikanokoa vs 1h1d   Live                 1H1D vs shikanokoa -
 20100226 - 25  418 Japan                Photography          Luck
@@ -3970,7 +3971,7 @@
 20060712
 20060711
 20060710
-20060709
+20060709 @ 25  137 Rekka                Photography          New Challenger
 20060708
 20060707
 20060706

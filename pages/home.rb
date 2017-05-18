@@ -21,11 +21,9 @@ class CorpseHttp
   def view
 
     html = "<p>#{@term.bref}</p>#{@term.long.runes}\n"
-    html += "<p>If you wish to stay updated on the development of the latest projects, follow {{@Neauoire|http://twitter.com/neauoire}}. </p>".markup
     html += recent
     html += event
-    
-
+  
     return html
 
   end

@@ -7,6 +7,7 @@ HOME
   BREF : Welcome to the playground for the projects of multimedia developer {{Devine Lu Linvega}}.
   LONG
     & This wiki provides narrative context for the {{Audio}}, {{Visual}} and {{Research}} projects. If this is your first time around, a good place to begin your exploration is the {{Portal}}.
+    & If you wish to stay updated on the development of the latest projects, follow {{@Neauoire|http://twitter.com/neauoire}}.
 
 ~ Sectors
 
@@ -114,7 +115,6 @@ BABELIUM
   UNDE : Desktop
   BREF : {{Babelium}} is a roguelike set in the Borges' Library of Babel and played within the limitation of its books.
   LONG
-    & {{Babelium}} is a roguelike set in the Borges' Library of Babel and played within the limitation of its books.
     & Begin by finding the {_guide_}({*g*}), in every second hexagon, the guide will tell you things to look for. If you find yourself to be walking rather slowly, find the closet in which you can sleep standing up.
     ? The game is currently in open beta, if you find any issue, add it to the github repository below.
   LINK
@@ -253,18 +253,16 @@ FIRST WAVE
   UNDE : Aliceffekt
   TYPE : Portal
   BREF : The {{First Wave}} contains material mostly unrelated to the {{Neauismetica}} and proto-{{Aliceffekt}}.
-  TAGS : Stub
 
 REGIONSTEAM SNOWDAYS
   UNDE : First wave
   BREF : {{Regionsteam Snowdays}} is the first official {{Aliceffekt}} release.
-  TAGS : Stub
 
 DOWNTEMPERATURE
   UNDE : First wave
-  BREF : {{Downtemperature}} is the first {{Aliceffekt}} EP, released originally as three albums {_First Air & Last Aid_}, {_Goneplains_} and {_Downtemperature_}. They were consolidated into a single release in 2017.
+  BREF : {{Downtemperature}} is the first {{Aliceffekt}} EP, released originally as three albums {_First Air & Last Aid_}, {_Goneplains_} and {_Downtemperature_}. 
   LONG
-    & The album was never performed live.
+    & The three albums were consolidated into a single release in 2017, this album was also never performed live.
 
 BLAM
   UNDE : First wave
@@ -277,7 +275,6 @@ VERT KIRLIAN THEATRE
   BREF : The {{Vert Kirlian Theatre}} was created during on a long train ride, on the {{Yamanote line|http://en.wikipedia.org/wiki/Yamanote_Line}}, during my first trip to Tokyo.
   LONG
     & This release inspired the creation of {{From Saharaphorest}}.
-  TAGS : Stub
 
 ANN YOZORA SAINT
   UNDE : First wave
@@ -290,12 +287,10 @@ NETHER ESPER INSERTS
   BREF : {{Nether Esper Inserts}} was originally released as two albums, {_Nether Esper Inserts_} and {_Howls Virgil Systems_}, they were consolidated into a single release in 2017.
   LONG
     @ discography nether esper inserts
-  TAGS : Stub
 
 OTOROUTES MINIATURES
   UNDE : First wave
   BREF : {{Otoroutes Miniatures}} was created especially for the first large Toy Company festival.
-  TAGS : Stub
 
 IDYLLIC MINERS
   UNDE : First wave
@@ -322,12 +317,10 @@ LIVES
 SHIKANOKOA VS 1H1D
   UNDE : Lives
   BREF : {{Shikanokoa vs 1H1D}} was recorded in Osaka at the event of the same name, with mostly improvisational tracks.
-  TAGS : Stub
 
 PEDESTRIAN PARADISE
   UNDE : Lives
   BREF : {{Pedestrian Paradise}} was recorded at the {_Piknik Electronic_} event in Montreal from various bits and pieces of unreleased material.
-  TAGS : Stub
 
 NOR LET THE FOOLS
   UNDE : Lives
@@ -346,7 +339,6 @@ VERMILLIONTH
   BREF : {{Vermillionth}} was the recording of the live performance at the Kinetik Festival, in Montreal.
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/vermillionth
-  TAGS : Stub
 
 HEX HIVE NECKLACE
   UNDE : Physical
@@ -354,9 +346,17 @@ HEX HIVE NECKLACE
   LINK
     SITE : http://www.thingiverse.com/thing:18853
 
+REKKA
+  UNDE : Hundred rabbits
+  BREF : {{Rekka Bellum|Rekka}} is an illustrator and writter who narrates the {{Hundred Rabbits}} videos.
+  LONG
+    & Rekka is also the illustrator of {{Oquonie}}, manager of {{Grimgrains}} and was founder of {{Drownspire}}.
+  LINK
+    OFFI : http://kokorobot.ca/
+
 HUNDRED RABBITS
   UNDE : Hundred rabbits
-  BREF : {{Hundred Rabbits}}, is a nomad design studio founded by {{Rekka Bellum|http://kokorobo.ca}} and {{Devine Lu Linvega|Devine Lu Linvega}} aboard a {{sailboat|Pino}}.
+  BREF : {{Hundred Rabbits}}, is a nomad design studio founded by {{Rekka}} aboard a {{sailboat|Pino}}.
   TYPE : Diary
   TAGS : Portal
   LONG
@@ -441,7 +441,6 @@ MILAVREGA
   BREF : {{Milavrega}} was a mobile game happening in someone's lost phone.
   LONG
     & You must try and find your way through the folders, emails and contacts to decypher the enigma of the phone's owner.
-  TAGS : Stub
 
 LOOKING GLACE
   UNDE : Beldam records
@@ -750,7 +749,7 @@ MARKL
 
 OQUONIE
   UNDE : Desktop
-  BREF : {{Oquonie}}, created in collaboration with {{Rekka Bellum|http://kokorobot.ca}}, is a textless puzzle game.
+  BREF : {{Oquonie}}, created in collaboration with {{Rekka Bellum|Rekka}}, is a textless puzzle game.
   LONG
     & You will not be alone, your incarnations will have the help of {_bizaroid_} characters speaking {{an obscure language|Camilare}}.
     & Oquonie features an original {{Aliceffekt}} soundtrack and was best described as {_{{Animal Crossing in a K-Hole|http://killscreendaily.com/articles/oquonie-maze-worth-entering/}}_}.
@@ -853,7 +852,6 @@ NEAUISMETIC
   UNDE : Aliceffekt
   TYPE : Portal
   BREF : The {{Neauismetic}} albums are audio diaries from the early ages of the {{Neauismetica}}.
-  TAGS : Stub
 
 SERVENTINES
   UNDE : Nereid
@@ -885,7 +883,6 @@ SISEON
 ZJEVENI
   UNDE : Unity
   BREF : {{Zjeveni}} is a third person exploration game about climbing to the high points of the structure.
-  TAGS : Stub
 
 DRYPOINT
   UNDE : Unity
@@ -966,7 +963,6 @@ VOLKENESSEN
 WAITING FOR HORUS
   UNDE : Unreleased
   BREF : {{Waiting for Horus}} was a fast paced multiplayer arena type 3rd person shooter.
-  TAGS : Stub
 
 PICO
   UNDE : Collegiennes
@@ -1004,14 +1000,12 @@ PICO BATTLE
 SPAGETTINI SCALE
   UNDE : Physical
   BREF : This scale was featured on the <a href='http://www.makerbot.com/blog/2012/03/20/spaghetti-scale-by-aliceffekt/'>Makerbot Blog</a> and should help you always cook the right quantity of pasta.
-  TAGS : Stub
 
 SPOOL HOLDER
   UNDE : Physical
   BREF : This spool holder works with the <a href='http://www.pp3dp.com'>PP3DP Printer</a> and should allow you to fit a larger spool on your printer.
   LINK
     SITE : http://www.thingiverse.com/thing:18833
-  TAGS : Stub
 
 TARPOPHOBIA
   UNDE : Polygonoscopy
@@ -1033,7 +1027,6 @@ LAEISTHIC
   UNDE : Aliceffekt
   TYPE : Portal
   BREF : The {{Laeisthic}} albums are {{Neauismetic}} albums occuring only within the {{Laeisth}} continent of {{Dinaisth}}.
-  TAGS : Stub
 
 EHRIVEVNV STUDIES
   UNDE : Laeisthic
@@ -1182,7 +1175,7 @@ DEFRACTION OPTICS
 
 THOUSAND ROOMS
   UNDE : Physical
-  BREF : {{Thousand Rooms}} is a visual novel collaboration with illustrator {{Rekka Bellum|http://kokorobot.ca}}, following the behaviours of four characters and a room.
+  BREF : {{Thousand Rooms}} is a visual novel collaboration with illustrator {{Rekka Bellum|Rekka}}, following the behaviours of four characters and a room.
   LONG
     & I have written this book with the hopes of creating a sort of {_Borges for children_}, in which the reader follows a bat, a cat, an owl and a fox who try and make sense of a simple system. 
     & The book also encourages to try and understand the rules, and plan other unsuggested avenues. We are releasing the book in English, French, Russian and Japanese.
@@ -1276,38 +1269,32 @@ DINAISTH
   BREF : {{Dinaisth}} is both the name of the planet and of a continent which harbors {{Andes}}' offices.
   LONG
     % dinaisth
-  TAGS : Stub
 
 NEAU
   UNDE : Dinaisth
   BREF : {{Neau}} is a circular city, notable for its blue rooftops, displaying a tall spire at its center. It is also the place from which the {{Neauismetica}} derives its name.
   LONG
     & The city exists at the center of the vast ocean of {_Kanikule_} and was the birthplace of {{Lietal}}. 
-  TAGS : Stub
 
 KANIKULE
   UNDE : Dinaisth
   BREF : {{Kanikule}} is an infinite ocean that an immortal will spend an infitite amount of time crossing, effectively reaching the outer-shores mortal.
   LONG
     & While one can sail away from the point that is Neau, one cannot return to it. 
-  TAGS : Stub
 
 LAEISTH
   UNDE : Dinaisth
   BREF : {{Laeisth}} is a desert surrounding the {{Rlionn}} Oasis, a blackened chasm where creeps the clones of its violent host.
-  TAGS : Stub
 
 VETETRANDES
   UNDE : Dinaisth
   BREF : {{Vetetrandes}} once was the largest city of Dinaisth, before {{Yajnev}} caused it to become unreachable.
   LONG
     & As you would approach the epicenter of the bound city, time is increasingly unmoving. It is said that, at its center, one can find the corpse of {{Yajnev}}, who's head is believed to have been empty with void, and that what lied outside was actually within.
-  TAGS : Stub
 
 DUOMO
   UNDE : Dinaisth
   BREF : The {{Duomo}} plateau rises far above the lightest atmosphere of Dinaisth. The empty land has but one location of interest, {{Paradichlorisse}}.
-  TAGS : Stub
 
 ~ CHARACTERS
 
@@ -1395,7 +1382,9 @@ AUSTRIA
 
 AMERICA
   UNDE : Travel
-  BREF : Landscapes taken around America, taken during a 52 hours train ride during {{Train Jam|http://trainjam.com}} in 2015, from Chicago to San Francisco.
+  BREF : Various landscapes taken around {{America}}.
+  LONG
+    & Some taken while in a 52 hours train ride during {{Train Jam|http://trainjam.com}} in 2015, from Chicago to San Francisco
   TYPE : Diary
 
 NETHERLANDS
@@ -1427,7 +1416,7 @@ SOUTH PACIFIC
 
 DROWNSPIRE
   UNDE : Hundred rabbits
-  BREF : {{Drownspire}} was the name of an online store founded with Rekka Bellum, back in 2009. 
+  BREF : {{Drownspire}} was the name of an online store founded with {{Rekka Bellum|Rekka}}, back in 2009. 
   TYPE : Portal
   LONG
     & Our goals then, fueled what is now {{Hundred rabbits}}. We distributed the {{Vambits}} designer toys and published the {{Merure}} books.

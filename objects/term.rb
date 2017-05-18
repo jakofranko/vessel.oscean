@@ -13,7 +13,7 @@ class Term
 
   def initialize name = "Unknown", data = {}
 
-    data = data ? data : { "UNDE" => "NATANIEV", "TYPE" => "Missing" }
+    data = data ? data : { "UNDE" => nil, "TYPE" => "Missing" }
 
     @name = "#{name}".downcase.capitalize
     @unde = data["UNDE"] ? data["UNDE"].downcase.capitalize : "Home"
@@ -124,7 +124,10 @@ class Term
 
   def tags
 
-    return @tags ? @tags.to_s.downcase.split(" ") : []
+    dynamic_tags = []
+    if @long.length < 2 then dynamic_tags.push("stub") end
+    if @unde.like("home") || @unde.like(@name) then dynamic_tags.push("root") end
+    return @tags ? @tags.to_s.downcase.split(" ") + dynamic_tags : dynamic_tags
 
   end
 
