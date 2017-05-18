@@ -285,6 +285,8 @@ ANN YOZORA SAINT
 NETHER ESPER INSERTS
   UNDE : First wave
   BREF : {{Nether Esper Inserts}} was originally released as two albums, {_Nether Esper Inserts_} and {_Howls Virgil Systems_}, they were consolidated into a single release in 2017.
+  LONG
+    @ discography nether esper inserts
   TAGS : Stub
 
 OTOROUTES MINIATURES
@@ -292,9 +294,9 @@ OTOROUTES MINIATURES
   BREF : {{Otoroutes Miniatures}} was created especially for the first large Toy Company festival.
   TAGS : Stub
 
-GENESIS MINERS
+IDYLLIC MINERS
   UNDE : First wave
-  BREF : {{Genesis Miners}} was created for the {_Kinetik Festival_}.
+  BREF : {{Idyllic Miners}} was created for the {_Kinetik Festival_}.
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/genesis-iii-20-ov-idyllic-miners
 
@@ -1511,24 +1513,24 @@ GAMME
   UNDE : Research
   TYPE : Archive
   TAGS : Portal
-  BREF : {_La {{Gamme}}_}, is a series of concepts and tools created toward the acceleration of the {_Grand Oeuvre_}.
+  BREF : {_La {{Gamme}}_}, is a series of concepts and tools created toward the acceleration of the {{Grand Oeuvre}}.
   LONG
-    & The layout of the {{Nataniev}} ecosystem maps over the {{Trisight}}, where each tool covers a sector of the entire domain of {{The Work}}.
+    & The layout of the {{Nataniev}} ecosystem maps over the {{Trisight}}, where each tool covers a sector of the entire domain of the {{Grand Oeuvre}}.
     % gamme.trisight half
     % gamme.nataniev half
 
 TRISIGHT
   UNDE : Gamme
-  BREF : {{Trisight}} is a name of given to the pursuit of {_The Work_}, and of the trinity of its members {{Audi}}, {{Visu}} & {{Rese}}.
+  BREF : {{Trisight}} is a name of given to the pursuit of the {_Grand Oeuvre_}, and of the trinity of its members {{Audi}}, {{Visu}} & {{Rese}}.
   LONG
     & The hexagon is a map onto which the {{Nataniev}} ecosystem maps onto.
     % gamme.trisight fit
   TYPE : Archive
   TAGS : Portal
 
-THE WORK
+GRAND OEUVRE
   UNDE : Trisight
-  BREF : {{The Work}}, as per {{Trisight}} vocabulary, is the sum of one's output goals.
+  BREF : The {{Grand Oeuvre}}, as per {{Trisight}} vocabulary, is the sum of one's output goals.
   LONG
     & In the context of {{Devine Lu Linvega}}, it includes the completion of the {{Neauismetica}}, and {{Nataniev}}.
 AUDI
@@ -1549,7 +1551,7 @@ NATANIEV
   TAGS : Portal
   BREF : {{Nataniev}} is an ecosystem of tools that includes applications such as {{Horaire}}, {{Paradise}} and {{Ronin}} — mapping over the {{Trisight}}.
   LONG
-    & The purpose of {_Nataniev_} is to be a platform capable of hosting a series of tools, mapping over the {{Trisight}}, helping in the acceleration of {_The Work_}, see {{Gamme}}.
+    & The purpose of {_Nataniev_} is to be a platform capable of hosting a series of tools, mapping over the {{Trisight}}, helping in the acceleration of {_Grand Oeuvre_}, see {{Gamme}}.
     % gamme.nataniev fit
     & Initiated in 2011, this custom engine includes a CLI, formerly known as {_Paradise_}, two different flat-files database parsers and its own unique APIs syntax. It serves this website, {{Hundred Rabbits}}, {{Grimgrains}}, as well as {{Twitter Bots|Automatons}}.
     & Single scripts and repositories, known as vessels and instances, exist as locations in this {*Ecosystem*} and can be visited through the CLI. For example, each Automaton exist as a character that can be found within Paradise; this page exist as a page in a book, in a library that can also be entered and explored.

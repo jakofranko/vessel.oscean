@@ -132,36 +132,25 @@ class CorpseHttp
     
     t = ""
 
-    siblings = ""
-    children = ""
+    html = ""
 
+    html += "#{Media.new('icon','tree.root')}<a href='/#{term.parent.name}'>#{term.parent.name}</a>"
+    html += "<ul>"
     term.siblings.each do |sibling|
+      html += "<ul>"
       if sibling.name.like(term.name)
-        siblings += "<b>#{term.name}</b> "
-        siblings += "("
+        html += "<li>#{Media.new('icon','tree.current')}<a class='current'>#{sibling.name}</a></li>"
+        html += "<ul>"
         term.children.each do |child|
-          siblings += child.name.like(term.name) ? "<b>"+child.name+"</b> " : "<a href='/#{child.name}' class='child'>#{child.name}</a> "
+          html += "<li>#{Media.new('icon','tree.children')}<a href='/#{child.name}' class='child'>#{child.name}</a></li>"
         end
-        siblings += ")"
+        html += "</ul>"
       else
-        siblings += sibling.name.like(term.name) ? "<b>"+sibling.name+"</b> " : "<a href='/#{sibling.name}' class='sibling'>#{sibling.name}</a> "  
+        html += "<li>#{Media.new('icon','tree.parent')}<a href='/#{sibling.name}' class='sibling'>#{sibling.name}</a></li>"
       end
+      html += "</ul>"
     end
-
-    # if term.siblings.length < 1
-      
-    # else
-    #   term.parent.siblings.each do |sibling|
-    #     siblings += sibling.name.like(term.name) ? "<b>"+sibling.name+"</b> " : "<a href='/#{sibling.name}' class='sibling'>#{sibling.name}</a> "
-    #   end
-    # end
-
-    # if !term.name.like(term.unde)
-    #   children = ""
-      # term.children.each do |child|
-      #   children += child.name.like(term.name) ? "<b>"+child.name+"</b> " : "<a href='/#{child.name}' class='child'>#{child.name}</a> "
-      # end
-    # end
+    html += "</ul>"
     
     return "
     <yu class='portal'>
@@ -171,7 +160,7 @@ class CorpseHttp
       <input placeholder='Search' value='#{term.name.length > 13 ? term.name[0,12]+'..' : term.name}' class='q'/>
       <hr/>
       #{_links}
-      <list>#{siblings}#{children}</list>
+      <list>#{html}</list>
     </yu>"
     
   end

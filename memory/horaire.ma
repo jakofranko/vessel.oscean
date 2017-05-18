@@ -4,7 +4,7 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
-20170518 - 34      Instrument           Tools
+20170517 - 34      Instrument           Tools
 20170516 - 28      Instrument           Prototype
 20170515 - 28      Nataniev             Design
 20170514 - 29      Nataniev             Design
@@ -2495,14 +2495,14 @@
 20100726 - 35      Nataniev             Development
 20100725 - 25      Pico
 20100724
-20100723 - 19      Genesis miners       Live                 Badass - Montreal, K
+20100723 - 19      Idyllic miners       Live                 Badass - Montreal, K
 20100722 - 29  309 Cenote                                    Cenote
 20100721 - 25      Pico
 20100720 - 35      Neauismetica         Writing
 20100719 - 25      Pico
 20100718 - 39      Pico
 20100717
-20100716 - 19      Genesis miners       Live                 Komor Kommando - Ott
+20100716 - 19      Idyllic miners       Live                 Komor Kommando - Ott
 20100715
 20100714 - 25   15 Ableton              Design               Ableton Live Theme
 20100713 - 35      Nataniev             Development
@@ -2540,7 +2540,7 @@
 20100611
 20100610
 20100609
-20100608 - 19      Genesis miners       Live                 Badass - Montreal, P
+20100608 - 19      Idyllic miners       Live                 Badass - Montreal, P
 20100607
 20100606
 20100605 - 29   42 Merure               Release              Erri
@@ -2553,30 +2553,30 @@
 20100529
 20100528
 20100527
-20100526 - 19      Genesis miners       Live                 SyndromeWPW - Montre
+20100526 - 19      Idyllic miners       Live                 SyndromeWPW - Montre
 20100525
 20100524
 20100523
 20100522
 20100521
-20100520 - 15  310 Genesis miners       Release              Genesis III.20 'Ov I
+20100520 - 15  310 Idyllic miners       Release              Genesis III.20 'Ov I
 20100519
 20100518
 20100517
 20100516
 20100515
-20100514 - 19  157 Genesis miners       Live                 Kinetik Festival 201
+20100514 - 19  157 Idyllic miners       Live                 Kinetik Festival 201
 20100513
 20100512
 20100511
-20100510 - 19      Genesis miners       Composition
-20100509 - 18      Genesis miners       Composition
-20100508 - 17      Genesis miners       Composition
-20100507 - 18      Genesis miners       Composition
+20100510 - 19      Idyllic miners       Composition
+20100509 - 18      Idyllic miners       Composition
+20100508 - 17      Idyllic miners       Composition
+20100507 - 18      Idyllic miners       Composition
 20100506
-20100505 - 16      Genesis miners       Composition
+20100505 - 16      Idyllic miners       Composition
 20100504
-20100503 - 19      Genesis miners       Composition
+20100503 - 19      Idyllic miners       Composition
 20100502
 20100501
 20100430
