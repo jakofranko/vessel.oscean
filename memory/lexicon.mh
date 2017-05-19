@@ -368,6 +368,7 @@ PINO
 INSTRUMENT
   UNDE : Pino
   BREF : The {{Instrument}} is {{Pino}}'s sailing computer, in the form of a {{mobile}} application.
+  TYPE : Diary
   LONG
     & The application displays various data about the course, speed, location and time. Its original purpose was to help with night sailing where the compass and some of our sailing instruments were hard to see.
     & Touching the screen toggles {_night mode_}, in which the displays becomes red.

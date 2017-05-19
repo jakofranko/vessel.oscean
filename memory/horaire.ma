@@ -5,8 +5,8 @@
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20170518 - 37      Pino                 Maintenance
-20170517 - 34      Instrument           Tools
-20170516 - 28      Instrument           Prototype
+20170517 - 34  175 Instrument           Photography          Waterproof            This case shields the {{Instrument}} from salty sprays and moisture.
+20170516 @ 28  174 Instrument           Prototype
 20170515 - 28      Nataniev             Design
 20170514 - 29      Nataniev             Design
 20170513 - 26      Horaire              Design
