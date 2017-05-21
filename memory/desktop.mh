@@ -2,6 +2,38 @@
 ~ NOTE : YAML
 ~ AUTH : Devine Lu Linvega
 
+THOUSAND ROOMS
+  Russian translation
+  Japanese translation
+  Lietal Translation
+  Update Wiki image with text
+
+CORTEGE
+  Large Maze
+  iPhone Ratio maze
+
+RONIN
+  Generic
+    Get things back into order
+    Display Methods in Hint
+    Display Modules in Hint
+    Display Filters in Hint
+    Display Cursors in Widget
+    Move Widget into Hint
+    Test magnet
+    Test Export
+    Test Filters
+    Repair save/load
+    Test Export Rin file
+    Display Brush's active cursors
+    Drag Canvas with ctrl
+    Fix Eyedrop
+    General improvement to performance
+  Branding
+    Create a new image for Wiki
+    Improve documentation(README)
+    Remove Marabu from Wiki
+
 DONSOL
   Generic
     Port to Ionic

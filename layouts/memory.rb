@@ -5,17 +5,18 @@ class CorpseHttp
 
   def view
 
-    html = "<p>#{@term.bref}</p>#{@term.long.runes}\n"
+    html = ""
 
     memory_name = term.name.downcase.gsub(" ",".")
     ladder = Memory_Hash.new(memory_name,@host.path).to_h
-    
-    html += ladder.length > 2 ? indexes(ladder) : ""
+    index = Index.new
 
     ladder.each do |cat,con|
+      index.add(:root,cat)
       html += "<h2 id='#{cat.downcase.gsub(' ','_')}'>#{cat.capitalize}</h2>\n"
       if con.kind_of?(Hash)
         con.each do |k,v|
+          index.add(cat,k)
           html += "<h4 id='#{k.downcase.gsub(' ','_')}'>#{k}</h4>\n"
       	  if v.kind_of?(Array)
             html += v.runes
@@ -27,43 +28,7 @@ class CorpseHttp
         html += con
       end
     end
-
-    return html.markup
-
-  end
-
-  def indexes ladder
-
-    html = ""
-    counter = 0
-    html += "<ul class='index'>"
-    ladder.each do |cat,con|  
-      counter += 1  
-      html += "<li class='main'><span class='counter'>#{counter}</span> <a href='##{cat.downcase.gsub(' ','_')}'>#{cat.capitalize}</a></li>"
-      if con.kind_of?(Hash)
-        sub_counter = 1
-        con.each do |name,content|
-          sub_counter += 1
-          html += "<li><span class='counter'>#{counter}.#{sub_counter}</span> <a href='##{name.downcase.gsub(' ','_')}'>#{name.capitalize}</a></li>"
-        end
-      end
-    end
-    html += "</ul>"
-
-    return html
-
-  end
-
-  def style
-
-    return "<style>
-
-    .index { margin-bottom:30px; column-count:3}
-    .index li { font-family:'din_regular'; font-size:16px; line-height:25px; }
-    .index li a:hover { text-decoration:underline}
-    .index li span.counter { color: #aaa;display: inline-block;margin-right: 15px;width: 15px;}
-    .index li.main a { font-family: 'din_medium'}
-    </style>"
+    return "<p>#{@term.bref}</p>#{index}#{@term.long.runes}#{html.markup}"
 
   end
 

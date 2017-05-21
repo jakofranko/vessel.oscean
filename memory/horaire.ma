@@ -4,6 +4,7 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170518 - 39      Lietal               Linguistics
 20170518 - 37      Pino                 Maintenance
 20170517 - 34  175 Instrument           Photography          Waterproof            This case shields the {{Instrument}} from salty sprays and moisture.
 20170516 @ 28  174 Instrument           Prototype
