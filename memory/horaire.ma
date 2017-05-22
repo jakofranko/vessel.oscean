@@ -4,7 +4,7 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
-20170521 @ 29  168 Ronin                Design               
+20170521 @ 29  168 Ronin                Design               Build 08
 20170520 - 38      Lietal               Linguistics
 20170519 - 39      Lietal               Linguistics
 20170518 - 37      Pino                 Maintenance

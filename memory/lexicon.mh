@@ -1189,7 +1189,7 @@ THOUSAND ROOMS
   BREF : {{Thousand Rooms}} is a visual novel collaboration with illustrator {{Rekka Bellum|Rekka}}, following the behaviours of four characters and a room.
   LONG
     & I have written this book with the hopes of creating a sort of {_Borges for children_}, in which the reader follows a bat, a cat, an owl and a fox who try and make sense of this simple system. 
-    & The book also encourages to try and understand the rules, and plan unsuggested avenues. We are releasing the book in English, French, Russian and Japanese.
+    & The book also encourages to try and understand the rules, and plan unsuggested avenues. We are releasing the book in English, French, Russian, Japanese & {{Lietal}}.
   LINK
     GITH : http://github.com/hundredrabbits/Thousand-Rooms/graphs/contributors
 
@@ -1646,7 +1646,7 @@ DESAMBER
 
 LIETAL
   UNDE : Nataniev
-  BREF : {{Lietal}} is a {{synthetic language|http://en.wikipedia.org/wiki/Constructed_language}} created to experiment with linguistics and translation projects.
+  BREF : {{Lietal}} is a {{synthetic language|http://en.wikipedia.org/wiki/Constructed_language}} created to experiment with linguistics and translation.
   TAGS : Portal
   LONG
     $ lietal serve documentation
@@ -1658,6 +1658,12 @@ DICTIONAERY
   BREF : The {{Dictionaery}} is a list of all the known {{Lietal}} words.
   LONG
     $ lietal serve dictionaery
+
+LAE DOI
+  UNDE : Lietal
+  BREF : {{Lae Doi}} is the {{Lietal}} translation of {{Thousand Rooms}}.
+  LONG
+    $ lietal serve side_by_side thousand_rooms.mh
 
 SHORTHAND
   UNDE : Language
