@@ -1578,16 +1578,13 @@ NATANIEV
 RONIN
   UNDE : Nataniev
   BREF : {{Ronin}} is a text-based visual editor designed to draw and automate graphical tasks.
+  TYPE : Diary
   LONG
     & The application is a cross-over between Vim and Photoshop, where every change to the canvas is inputed as a command.
-    & It is meant to replace the use of Photoshop for simple repetitive tasks, basic illustration jobs and the creation of grid based designs.
-    = Draw a vector flower
-    # surface.resize 300x300
-    # layer.fill #AAAAAA
-    # magnet.grid 15x15 4,4
-    # path:line_width 2
-    # path.stroke M60,60 A1,1 0 0,0 240,60 A1,1 0 0,0 240,240
-    # path.stroke M240,240 A1,1 0 0,0 60,240 A1,1 0 0,0 60,60
+    # frame.resize 640x480
+    # brush:color #72dec2
+    # brush.add_pointer 3,3
+    & It is meant to replace the use of Photoshop for simple repetitive tasks, basic illustration jobs and the creation of grid based designs. Most of the iconography of {{Nataniev}} has been created with {_Ronin_}.
   LINK
     GITH : https://github.com/hundredrabbits/Ronin
 

@@ -4,7 +4,9 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
-20170518 - 39      Lietal               Linguistics
+20170521 @ 29  168 Ronin                Design               
+20170520 - 38      Lietal               Linguistics
+20170519 - 39      Lietal               Linguistics
 20170518 - 37      Pino                 Maintenance
 20170517 - 34  175 Instrument           Photography          Waterproof            This case shields the {{Instrument}} from salty sprays and moisture.
 20170516 @ 28  174 Instrument           Prototype
@@ -149,7 +151,7 @@
 20161229 - 34      Ronin                Development
 20161228 - 35      Ronin                Development
 20161227 - 35      Ronin                Development
-20161226 ! 28  168 Ronin                Design               Ronin Vectors         Updated {{Ronin}} with built in composition stencils and vector tools.
+20161226 ! 28  176 Ronin                Design               Flower Demo           Adding the {_#flower_} hash to the {{Ronin}} localhost url will load the sample file {_flower.rin_} and draw this vector shape.
 20161225 - 29      Hundred rabbits      Video
 20161224 - 19      Hundred rabbits      Composition
 20161223 - 35  226 Domine guide         Development          A new board game      At {{Hundred Rabbits}}, we have created a simple game playable with Dominos. Here's how to play!
@@ -188,7 +190,7 @@
 20161120 - 35      Nataniev             Tools
 20161119 - 33      Mirrors              Writing
 20161118 - 32      Ronin                Development
-20161117 - 23  223 Ronin                Illustration         Ronin Alpha           Created a small graphic software called {{Ronin}}.
+20161117 - 23  223 Ronin                Illustration         Introducing Ronin     Began working on my own illustration software after a few costly issues with Photoshop, its name is {{Ronin}}.
 20161116 - 29      Ronin                Design
 20161115 - 39      Ronin                Development
 20161114 - 38      Ronin                Development
