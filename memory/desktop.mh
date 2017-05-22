@@ -19,25 +19,11 @@ CORTEGE
 
 RONIN
   Generic
-    Get things back into order
-    Display Methods in Hint
-    Display Modules in Hint
-    Display Filters in Hint
-    Display Cursors in Widget
-    Move Widget into Hint
-    Test magnet
-    Test Export
-    Test Filters
-    Repair save/load
     Test Export Rin file
-    Display Brush's active cursors
-    Drag Canvas with ctrl
     Fix Eyedrop
-    General improvement to performance
   Branding
     Create a new image for Wiki
     Improve documentation(README)
-    Remove Marabu from Wiki
 
 DONSOL
   Generic
@@ -53,21 +39,13 @@ ALICEFFEKT
   Updates
     Known Magye album cover
     Extended Sleep album cover
-    Remove First wave entirely..
+    Redo Malice Cover
+    Re-export covers with Ronin
   First wave
     Merge First Aid with Downtemperature
     Merge Goneplains with Downtemperature
     Merge Lu's Floral with Ann Yozora Saint
     Merge Howls Virgil with Nether Esper
-
-NATANIEV
-  Generic
-    Documentation should be aware of dependencies
-  
-THE WILL THE WISP
-  Generic
-    Create long-form poems
-    Word similarity index
   
 MARKL
   Actions
@@ -75,12 +53,6 @@ MARKL
     Knockback
   Frontend
     Time's up
-
-OSCEAN
-  Generic
-    Improve search page
-  Horaire
-    Forecast
 
 NEAUISMETICA
   Generic

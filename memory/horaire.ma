@@ -4,7 +4,8 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
-20170521 @ 29  168 Ronin                Design               Build 08
+20170522 @ 29  168 Ronin                Design               Build 08              Updated {{Ronin}} with a major design overhaul and various functionality improvements. It includes the ability to save & load .rin files.
+20170521 @ 29  177 Lae doi              Linguistics          Translation           Translated {{Thousand Rooms}}, {{Lae Doi}}, into {{Lietal}}.
 20170520 - 38      Lietal               Linguistics
 20170519 - 39      Lietal               Linguistics
 20170518 - 37      Pino                 Maintenance
@@ -215,7 +216,7 @@
 20161026 - 26      Markl                Design
 20161025 - 27      Markl                Design
 20161024 - 34      Markl                Development
-20161023 - 
+20161023 - 35  178 Method               Writing
 20161022 - 29      Hundred rabbits      Branding
 20161021 - 24      Hundred rabbits      Design
 20161020 - 37      Markl                Maintenance

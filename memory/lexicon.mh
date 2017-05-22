@@ -35,7 +35,7 @@ AUTOMATONS
 
 THE WILL THE WISP
   UNDE : Automatons
-  BREF : Inspired by Lewis Carroll's Jabberwocky, {{The will the wisp}} is a twitter bot that generates short rhymes, once every hour.
+  BREF : Inspired by Lewis Carroll's Jabberwocky, {{The will the wisp}} is a twitter bot that generates short rhymes.
   LONG
     > <h4>
     $ thewillthewisp generate
@@ -1190,6 +1190,7 @@ THOUSAND ROOMS
   LONG
     & I have written this book with the hopes of creating a sort of {_Borges for children_}, in which the reader follows a bat, a cat, an owl and a fox who try and make sense of this simple system. 
     & The book also encourages to try and understand the rules, and plan unsuggested avenues. We are releasing the book in English, French, Russian, Japanese & {{Lietal}}.
+    & For the Lietal side-by-side translation, see {{Lae Doi}}.
   LINK
     GITH : http://github.com/hundredrabbits/Thousand-Rooms/graphs/contributors
 
@@ -1663,7 +1664,10 @@ LAE DOI
   UNDE : Lietal
   BREF : {{Lae Doi}} is the {{Lietal}} translation of {{Thousand Rooms}}.
   LONG
+    & To see the translation of individual words, see the {{Dictionaery}}. To see the construction, see the {{source|https://github.com/XXIIVV/vessel.lietal/blob/master/memory/thousand_rooms.mh}}
     $ lietal serve side_by_side thousand_rooms.mh
+  LINK
+    GITH : https://github.com/XXIIVV/vessel.lietal/blob/master/memory/thousand_rooms.mh
 
 SHORTHAND
   UNDE : Language
