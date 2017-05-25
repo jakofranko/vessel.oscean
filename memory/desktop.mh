@@ -2,23 +2,33 @@
 ~ NOTE : YAML
 ~ AUTH : Devine Lu Linvega
 
+HUNDRED RABBITS
+  Generic
+    Episode 5
+    Grimgrain recipe
+
 THOUSAND ROOMS
-  Russian translation
-  Japanese translation
-  Lietal Translation
-  Update Wiki image with text
+  Generic
+    Kindle Cropping issue
+    Russian Intro
+    Release
+    Amazon Publishing
+    Itch.io Release
+    Thank you page
+  Translation
+    Russian translation
+    Japanese translation
+    Lietal Translation
+    Improve open-source
 
 CORTEGE
   Large Maze
   iPhone Ratio maze
 
 RONIN
-  Generic
-    Test Export Rin file
-    Fix Eyedrop
   Branding
-    Create a new image for Wiki
     Improve documentation(README)
+    Video
 
 DONSOL
   Generic
@@ -29,6 +39,7 @@ OQUONIE
     Port to Ionic
     Release Linux build
     Add touch interactions for tablets
+    Fix issue with after Library
 
 ALICEFFEKT
   Updates
