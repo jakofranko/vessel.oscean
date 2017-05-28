@@ -2,24 +2,29 @@
 ~ NOTE : YAML
 ~ AUTH : Devine Lu Linvega
 
-HUNDRED RABBITS
+GENERAL
+  Visual
+    Icon for Laeisthic
+    Icon for Duomic
+    Icon for demo
+
+NATANIEV
+  Discography page?
+
+RONIN
   Generic
-    Episode 5
-    Grimgrain recipe
-    Ronin Video
+    Zoom in/out
+    Drag file into canvas
+    Auto-complete
 
 THOUSAND ROOMS
   Generic
     Kindle Cropping issue
     Russian Intro
-    Release
     Amazon Publishing
-    Itch.io Release
-    Thank you page
   Translation
     Russian translation
     Japanese translation
-    Lietal Translation
     Improve open-source
 
 CORTEGE
@@ -38,12 +43,21 @@ OQUONIE
     Fix issue with after Library
 
 ALICEFFEKT
+  Brut & OP24
+    Update cover
+  Hundred Rabbits
+    Release 17Q1
+    Update Cover
+  Children of Brambles
+    Create new cover
+    Update Bandcamp release
   Updates
     Known Magye album cover
     Extended Sleep album cover
     Redo Malice Cover
     Re-export covers with Ronin
   First wave
+    Archive the lot
     Merge First Aid with Downtemperature
     Merge Goneplains with Downtemperature
     Merge Lu's Floral with Ann Yozora Saint

@@ -240,7 +240,7 @@ ALICEFFEKT
     BAND : https://aliceffekt.bandcamp.com
 
 FIRST WAVE
-  UNDE : Aliceffekt
+  UNDE : Archives
   TYPE : Portal
   BREF : The {{First Wave}} contains material mostly unrelated to the {{Neauismetica}} and proto-{{Aliceffekt}}.
 
@@ -298,37 +298,6 @@ DAMOISEAU CANALX
     @ discography damoiseau canalx
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/damoiseau-canalx
-
-LIVES
-  UNDE : Aliceffekt
-  TYPE : Portal
-  BREF : Live sessions from various shows.
-
-SHIKANOKOA VS 1H1D
-  UNDE : Lives
-  BREF : {{Shikanokoa vs 1H1D}} was recorded in Osaka at the event of the same name, with mostly improvisational tracks.
-
-PEDESTRIAN PARADISE
-  UNDE : Lives
-  BREF : {{Pedestrian Paradise}} was recorded at the {_Piknik Electronic_} event in Montreal from various bits and pieces of unreleased material.
-
-NOR LET THE FOOLS
-  UNDE : Lives
-  BREF : {{Nor let the fools}} was recorded live, in Tokyo at a mashup/chiptune evening, created from unreleased materials.
-  LINK
-    BAND : http://aliceffekt.bandcamp.com/album/nor-let-the-fools-mistake-love
-
-TO THE AEONS HELL
-  UNDE : Lives
-  BREF : {{To the aeons hell}} was created in the spirit of {{Nor let the fools}}, being a mixture of unreleased remixes.
-  LINK
-    BAND : http://aliceffekt.bandcamp.com/album/accursed-be-it-to-the-aeons-hell
-
-VERMILLIONTH
-  UNDE : Lives
-  BREF : {{Vermillionth}} was the recording of the live performance at the Kinetik Festival, in Montreal.
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/vermillionth
 
 HEX HIVE NECKLACE
   UNDE : Physical
@@ -864,6 +833,56 @@ NEAUISMETIC
   TYPE : Portal
   BREF : The {{Neauismetic}} albums are audio diaries from the early ages of the {{Neauismetica}}.
 
+VETETRANDES LETTRES
+  UNDE : Neauismetic
+  BREF : {{Vetetrandes Lettres}}'s songs sings of the {{first ages|Neauismetica}} of {{Dinaisth}} on the island of {{Vetetrandes}}. 
+  LONG
+    & While the album begins in Vetetrandes, it moves to the shores of {_Dilitrielth_} and turns its attention across {{Kanikule}} and toward the {_Es_}'Gulf of {_Eaurison_}.
+    & The album includes 4 edited tracks from the {{Es Gulf Sunflowers}} release. The {_Ver'Tale_} extension is a hint to a location of {_Whiinders_}, close to the visited {_Vert Kirlian Theatre_}.
+    & The album begins with a track about {{Yajnev}}, the composition is based on his trip near the white trees of the {_Oasis_} and the {_Children of Brambles_}.
+    & The album is part of {{Aliceffekt}}'s {{Neauismetic}} albums.
+    * Tracklist
+    @ discography Vetetrandes Lettres    
+  LINK
+    BAND : http://aliceffekt.bandcamp.com/album/vetetrandes-lettres-perdues
+
+FROM SAHARAPHOREST
+  UNDE : Neauismetic
+  BREF : {{From Saharaphorest}} is a {{Laeisthic}} album telling the tale of a visit at {{Paradichlorisse}}.
+  LONG
+    & I recorded the album playing through cassette tapes and fell in love with the recording for it's uneasy sounds and noisy silences - It felt like it somehow made sense with this album.
+    & The first 3 tracks are ripped from cassette tapes, and the last one is a single clean mastered version.
+    & There was 5 tapes made and given to fans at shows as artworks.
+    & This release is related to {{Vert Kirlian Theatre}} album, released in 2008.
+  LINK
+    BAND : http://aliceffekt.bandcamp.com/album/19th-month-from-saharaphorest-to-duomo
+
+EHRIVEVNV STUDIES
+  UNDE : Neauismetic
+  BREF : The {{Ehrivevnv Studies}} is a {{Laeisthic}} album exploring {{Andes}}' offices in {{Dinaisth}}.
+  LONG
+    & This album was composed for and performed at {_Blip Festival Tokyo_} on October 21st 2012 and reissued on april 15th 2013, including some changes from the {_Melbourne Squaresound Show_}.  
+    & The track names contains encrypted Lietal</a>. The first track is decrypted into "<a href='Simkin'>Simkin</a> <a href='Kamsi'>Kamsi</a>" and can be translated to {_Time Structure_}, refering to The Library of Sand. The second track, "<a href='Xomsinsom'>Xomsinsom</a> <a href='kim'>Kim</a> <a href='Yajnev'>Yajnev</a>", can be translated to {_Yajnev's Curse_} and refers to the short <a href='082'>Yajnev's Thoughts</a>. The third track is titled "<a href='Ko'>Ko</a> <a href='sokamxi'>Sokamxi</a>" which simply means {_The Impossible Exploration_}.
+    # ami -> vloks  -> Ihom  -> ykim -> w
+    & Following are the resulting transformations using the previous encryption.
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/the-ehrivevnv-studies-reissue
+
+TELEKINETIC
+  UNDE : Neauismetic
+  BREF : {{Telekinetic}} is a {{Laeisthic}} concept album performed live with the {{Leap Motion|https://www.leapmotion.com}} controller at {{Sabaco|http://www.cnet.com.au/dj-turns-leap-motion-into-a-theremin-sort-of-339345563.htm}} in Tokyo.
+  LONG
+    & The event was recorded and can still be watched online on <a href="http://www.ustream.tv/recorded/39105185">UStream</a>. There was a <a href="http://www.cnet.com.au/dj-turns-leap-motion-into-a-theremin-sort-of-339345563.htm">short article on CNET</a> about the event as well. The album cover features an alternate door to {{Nataniev}}'s Library of Sand ornated of the number 210 in <a href='Needle+numbers'>Needle Numbers</a> as well as the {{Lietal}} letters BI, TI, TA, SI, PO.
+    & You can watch a a demo of the <a href='https://www.facebook.com/photo.php?v=10153250341045274'>prototype</a>.
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/telekinetic
+
+TELEKINESIS
+  UNDE : Telekinetic
+  BREF : {{Telekinesis}} is a Leap Motion based controller that allows, through Pure Data, to control multiple midi instruments at once. 
+  LONG
+    & The tool was used for both, the live performance of {{Telekinetic}} and {{Ten Axitecture}}. The picture was taken at 8Static, by {{Marjorie Becker|https://www.flickr.com/photos/m_becker/}}.
+
 SERVENTINES
   UNDE : Nereid
   BREF : {{Serventines}} is a travel diary documenting travels across {{Nereid}}'s various regions, the small planet's skies and {_gravitating objects_}.
@@ -1039,48 +1058,13 @@ LAEISTHIC
   TYPE : Portal
   BREF : The {{Laeisthic}} albums are {{Neauismetic}} albums occuring only within the {{Laeisth}} continent of {{Dinaisth}}.
 
-EHRIVEVNV STUDIES
-  UNDE : Laeisthic
-  BREF : The {{Ehrivevnv Studies}} is a {{Laeisthic}} album exploring {{Andes}}' offices in {{Dinaisth}}.
-  LONG
-    & This album was composed for and performed at {_Blip Festival Tokyo_} on October 21st 2012 and reissued on april 15th 2013, including some changes from the {_Melbourne Squaresound Show_}.  
-    & The track names contains encrypted Lietal</a>. The first track is decrypted into "<a href='Simkin'>Simkin</a> <a href='Kamsi'>Kamsi</a>" and can be translated to {_Time Structure_}, refering to The Library of Sand. The second track, "<a href='Xomsinsom'>Xomsinsom</a> <a href='kim'>Kim</a> <a href='Yajnev'>Yajnev</a>", can be translated to {_Yajnev's Curse_} and refers to the short <a href='082'>Yajnev's Thoughts</a>. The third track is titled "<a href='Ko'>Ko</a> <a href='sokamxi'>Sokamxi</a>" which simply means {_The Impossible Exploration_}.
-    # ami -> vloks  -> Ihom  -> ykim -> w
-    & Following are the resulting transformations using the previous encryption.
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/the-ehrivevnv-studies-reissue
-
-TELEKINETIC
-  UNDE : Laeisthic
-  BREF : {{Telekinetic}} is a {{Laeisthic}} concept album performed live with the {{Leap Motion|https://www.leapmotion.com}} controller at {{Sabaco|http://www.cnet.com.au/dj-turns-leap-motion-into-a-theremin-sort-of-339345563.htm}} in Tokyo.
-  LONG
-    & The event was recorded and can still be watched online on <a href="http://www.ustream.tv/recorded/39105185">UStream</a>. There was a <a href="http://www.cnet.com.au/dj-turns-leap-motion-into-a-theremin-sort-of-339345563.htm">short article on CNET</a> about the event as well. The album cover features an alternate door to {{Nataniev}}'s Library of Sand ornated of the number 210 in <a href='Needle+numbers'>Needle Numbers</a> as well as the {{Lietal}} letters BI, TI, TA, SI, PO.
-    & You can watch a a demo of the <a href='https://www.facebook.com/photo.php?v=10153250341045274'>prototype</a>.
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/telekinetic
-
-TELEKINESIS
-  UNDE : Telekinetic
-  BREF : {{Telekinesis}} is a Leap Motion based controller that allows, through Pure Data, to control multiple midi instruments at once. 
-  LONG
-    & The tool was used for both, the live performance of {{Telekinetic}} and {{Ten Axitecture}}. The picture was taken at 8Static, by {{Marjorie Becker|https://www.flickr.com/photos/m_becker/}}.
-
-FROM SAHARAPHOREST
-  UNDE : Laeisthic
-  BREF : {{From Saharaphorest}} is a {{Laeisthic}} album telling the tale of a visit at {{Paradichlorisse}}.
-  LONG
-    & I recorded the album playing through cassette tapes and fell in love with the recording for it's uneasy sounds and noisy silences - It felt like it somehow made sense with this album.
-    & The first 3 tracks are ripped from cassette tapes, and the last one is a single clean mastered version.
-    & There was 5 tapes made and given to fans at shows as artworks.
-    & This release is related to {{Vert Kirlian Theatre}} album, released in 2008.
-  LINK
-    BAND : http://aliceffekt.bandcamp.com/album/19th-month-from-saharaphorest-to-duomo
-
 CHILDREN OF BRAMBLE
   UNDE : Laeisthic
-  BREF : {{Children of Bramble}} is a {{Laeisthic}} album that contains two tracks that sings of the Oasis of {{Rlionn}} and her Children. 
+  BREF : {{Children of Bramble}} is a {{Laeisthic}} album that contains four tracks that sings of the Oasis of {{Rlionn}} and her Children. 
   LONG
-    & This album begins by the Oasis of {{Laeisth}} to finally reach the castle of {{Andes}} and its desertsunk structures. This single is part of the {{Neauismetica}}, and shares some narrative concepts with {{Telekinetic}}.
+    & This album begins by the Oasis of {{Laeisth}} to finally reach the castle of {{Andes}} and its sandsunken structure. This single is part of the {{Neauismetica}}, and shares some narrative concepts with {{Telekinetic}}.
+    * Tracklist
+    @ discography children of bramble    
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/children-with-veins-of-bramble
 
@@ -1104,6 +1088,71 @@ EXTENDED SLEEP
     @ discography extended sleep
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/extended-sleep
+
+DUOMIC
+  UNDE : Aliceffekt
+  TYPE : Portal
+  BREF : The {{Duomic}} albums are {{Neauismetic}} albums occuring only within the {{Duomo}} continent of {{Dinaisth}}.
+
+THE OPAL INQUISITORS
+  UNDE : Duomic
+  BREF : {{The Opal Inquisitors}} is a prequel to {{Portalion}}, when {{Neonev}} began her exploration of central {{Dinaisth}} and the {_{{Dei Dain}} Canals_}.
+  LONG
+    & Driving the {{Vermillionth}} up the spires below the surface of central islands, the records are photographs of the travels between the caves of {_Dilitrielth_} and the deserts of {{Duomo}}.
+    * Tracklist
+    @ discography the opal inquisitors
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/the-opal-inquisitors
+
+PORTALION
+  UNDE : Duomic
+  BREF : {{Portalion}} is the successor to {{The Opal Inquisitors}}, continuing the exploration of the central regions of {{Dinaisth}}, landing on the southernest docks of {_Laeisth_}.
+  LONG
+    & On a foggy night of the {_Sixth Season_}, embarking on one of the vessels of the {_Septechoes_} in the desert of {_Clionn_}, {{Neonev}} sails toward {_Whiinders_} to see its {_Immortal Birds_} once more.
+    * Tracklist
+    @ discography portalion
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/portalion
+
+DEI DAIN
+  UNDE : Duomic
+  BREF : Written and released in Tokyo in 2013, {{Dei Dain}} is the sixth album as part of {{Aliceffekt}}'s {{Neauismetic}} albums.
+  LONG
+    * Tracklist
+    @ discography dei dain
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/dei-dain
+
+LIVES
+  UNDE : Aliceffekt
+  TYPE : Portal
+  BREF : {{Live|lives}} sessions from various shows.
+
+SHIKANOKOA VS 1H1D
+  UNDE : Lives
+  BREF : {{Shikanokoa vs 1H1D}} was recorded in Osaka at the event of the same name, with mostly improvisational tracks.
+
+PEDESTRIAN PARADISE
+  UNDE : Lives
+  BREF : {{Pedestrian Paradise}} was recorded at the {_Piknik Electronic_} event in Montreal from various bits and pieces of unreleased material.
+
+NOR LET THE FOOLS
+  UNDE : Lives
+  BREF : {{Nor let the fools}} was recorded live, in Tokyo at a mashup/chiptune evening, created from unreleased materials.
+  LINK
+    BAND : http://aliceffekt.bandcamp.com/album/nor-let-the-fools-mistake-love
+
+TO THE AEONS HELL
+  UNDE : Lives
+  BREF : {{To the aeons hell}} was created in the spirit of {{Nor let the fools}}, being a mixture of unreleased remixes.
+  LINK
+    BAND : http://aliceffekt.bandcamp.com/album/accursed-be-it-to-the-aeons-hell
+
+VERMILLIONTH
+  UNDE : Lives
+  BREF : {{Vermillionth}} was the recording of the live performance at the Kinetik Festival, in Montreal.
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/vermillionth
 
 TIME ALLOY
   UNDE : Polygonoscopy
@@ -1192,6 +1241,7 @@ THOUSAND ROOMS
     & The book also encourages to try and understand the rules, and plan unsuggested avenues. We are releasing the book in English, French, Russian, Japanese & {{Lietal}}.
     & For the Lietal side-by-side translation, see {{Lae Doi}}.
   LINK
+    ITCH : https://hundredrabbits.itch.io/thousand-rooms
     GITH : http://github.com/hundredrabbits/Thousand-Rooms/graphs/contributors
 
 VERRECIEL OST
@@ -1202,17 +1252,6 @@ VERRECIEL OST
     @ discography verreciel
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/verreciel
-
-VETETRANDES LETTRES
-  UNDE : Neauismetic
-  BREF : {{Vetetrandes Lettres}}'s songs sings of the {{first ages|Neauismetica}} of {{Dinaisth}} on the island of {{Vetetrandes}}. 
-  LONG
-    & While the album begins in Vetetrandes, it moves to the shores of {_Dilitrielth_} and turns its attention across {{Kanikule}} and toward the {_Es_}'Gulf of {_Eaurison_}.
-    & The album includes 4 edited tracks from the {{Es Gulf Sunflowers}} release. The {_Ver'Tale_} extension is a hint to a location of {_Whiinders_}, close to the visited {_Vert Kirlian Theatre_}.
-    & The album begins with a track about {{Yajnev}}, the composition is based on his trip near the white trees of the {_Oasis_} and the {_Children of Brambles_}.
-    & The album is part of {{Aliceffekt}}'s {{Neauismetic}} albums.
-  LINK
-    BAND : http://aliceffekt.bandcamp.com/album/vetetrandes-lettres-perdues
 
 WALLPAPER
   UNDE : Visual
@@ -1667,6 +1706,7 @@ LAE DOI
     & To see the translation of individual words, see the {{Dictionaery}}. To see the construction, see the {{source|https://github.com/XXIIVV/vessel.lietal/blob/master/memory/thousand_rooms.mh}}
     $ lietal serve side_by_side thousand_rooms.mh
   LINK
+    ITCH : https://hundredrabbits.itch.io/thousand-rooms
     GITH : https://github.com/XXIIVV/vessel.lietal/blob/master/memory/thousand_rooms.mh
 
 SHORTHAND
@@ -1785,35 +1825,6 @@ DEVINE LU LINVEGA
 DEATH
   UNDE : Devine lu linvega
   BREF : Inspired from {{Chris Crawford|https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer)}}'s Jars, every week a cell goes dark.
-
-THE OPAL INQUISITORS
-  UNDE : Neauismetic
-  BREF : {{The Opal Inquisitors}} is the prequel to {{Portalion}}, where {{Neonev}} begin their exploration of the central regions of {{Dinaisth}}, emerging from the tunnels of {_Dei Dain Canals_}.
-  LONG
-    & Driving the {{Vermillionth}} up the spires below the surface of central islands, the records are photographs of the travels between the caves of {_Dilitrielth_} and the deserts of {{Duomo}.
-    * Tracklist
-    @ discography the opal inquisitors
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/the-opal-inquisitors
-
-PORTALION
-  UNDE : Neauismetic
-  BREF : {{Portalion}} is the successor to {{The Opal Inquisitors}}, continuing the exploration of the central regions of {{Dinaisth}}, landing on the southernest docks of {_Laeisth_}.
-  LONG
-    & On a foggy night of the {_Sixth Season_}, embarking on one of the vessels of the {_Septechoes_} in the desert of {_Clionn_}, {{Neonev}} sails toward {_Whiinders_} to see its {_Immortal Birds_} once more.
-    * Tracklist
-    @ discography portalion
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/portalion
-
-DEI DAIN
-  UNDE : Neauismetic
-  BREF : Written and released in Tokyo in 2013, {{Dei Dain}} is the sixth album as part of {{Aliceffekt}}'s {{Neauismetic}} albums.
-  LONG
-    * Tracklist
-    @ discography dei dain
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/dei-dain
 
 ~ Redirects
 

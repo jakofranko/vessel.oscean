@@ -4,7 +4,9 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
-20170524 - 28      Ronin                Design
+20170527 - 28      Ronin                Design
+20170526 - 28      Ronin                Design
+20170525 - 28      Ronin                Design
 20170524 - 38      Ronin                Tools
 20170523 - 38      Ronin                Tools
 20170522 @ 29  168 Ronin                Design               Build 09              Updated {{Ronin}} with a major design overhaul and various functionality improvements. It includes the ability to save & load .rin files.<br /><br />I have also updated the logo to fit within the {{Gamme}} ecosystem.
