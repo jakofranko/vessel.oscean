@@ -4,6 +4,8 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170529 - 28      Dinaisth             Illustration
+20170528 - 29      Dei dain             Illustration
 20170527 - 28      Ronin                Design
 20170526 - 28      Ronin                Design
 20170525 - 28      Ronin                Design
@@ -239,7 +241,7 @@
 20161008 - 37      Nataniev             Development
 20161007 - 00      America              Travel               Los Angeles
 20161006 - 29      Hundred rabbits      Video
-20161005 - 17      Portalion            Composition
+20161005 - 17      Portalion            Release
 20161004 - 35      Pino                 Maintenance
 20161003 - 35      Pino                 Maintenance
 20161002 - 35      Pino                 Maintenance
@@ -623,7 +625,7 @@
 20150920 - 36      Verreciel            Development
 20150919 - 36      Verreciel            Development
 20150918 - 32      Verreciel            Maintenance
-20150917 - 19      The opal inquisitors Composition
+20150917 - 19      The opal inquisitors Release
 20150916 - 19      The opal inquisitors Live                 AMP - Passwort, Mont
 20150915 ! 29  469 The opal inquisitors Illustration         Ludivine's Banquet
 20150914 - 19      The opal inquisitors Rehearsal

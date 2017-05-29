@@ -294,7 +294,6 @@ DAMOISEAU CANALX
   LONG
     & The album was recorded live, at Passport in Montreal during the last AMP event and is being released as-is.
     & The album was composed as side project while working on {{Ten Axitecture}} and includes bits and pieces from {{Blam}}.
-    * Tracklist
     @ discography damoiseau canalx
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/damoiseau-canalx
@@ -407,7 +406,6 @@ LOOKING GLACE
   BREF : Following {{Miniscopie}}, {{Looking Glace}} is {{Reine|http://noirmirroir.com}}'s second release on {{Beldam Records}}.
   LONG
     & Painting a harsher, and more complete picture of her acoustic universe where the liquid sounds and suffocating vocoder are incessantly present.
-    * Tracklist
     @ discography looking glace
   LINK
     BAND : https://beldamrecords.bandcamp.com/album/looking-glace
@@ -418,7 +416,6 @@ MINISCOPIE
   BREF : {{Miniscopie}} is the second release on the {{Beldam Records}} catalog, and first album of Reine. 
   LONG
     & Written by {{Reine|http://noirmirroir.com}}, this album combines ambient and deep IDM flavoured sounds. The album is the first music release from Elodie, who also created the {{Vast}} book.
-    * Tracklist
     @ discography miniscopie
   LINK
     BAND : https://beldamrecords.bandcamp.com/album/miniscopie
@@ -429,7 +426,6 @@ RAMIEL
   BREF : {{Ramiel}} is the third release on the {{Beldam Records}} catalog. 
   LONG
     & Written by {{Villa Moirai|https://beldamrecords.bandcamp.com}}, this album is an even mixture and techno and idm. The album name and cover are a tribute to the geometric angel of the Evangelion anime series.
-    * Tracklist
     @ discography ramiel
   LINK
     BAND : https://beldamrecords.bandcamp.com/album/ramiel
@@ -758,7 +754,6 @@ THE SIXTH SEASON
   LONG
     & {_Whiinders_} and the likes, raising tents hoping for a glorious end in memory of {{Rlionn}}.
     & This album established the sound that {{Aliceffekt}} decided to persue for the {{Neauismetic}} releases.
-    * Tracklist
     @ discography the sixth season
   LINK
     BAND : http://aliceffekt.bandcamp.com/album/orchestrate-the-sixth-season
@@ -841,7 +836,6 @@ VETETRANDES LETTRES
     & The album includes 4 edited tracks from the {{Es Gulf Sunflowers}} release. The {_Ver'Tale_} extension is a hint to a location of {_Whiinders_}, close to the visited {_Vert Kirlian Theatre_}.
     & The album begins with a track about {{Yajnev}}, the composition is based on his trip near the white trees of the {_Oasis_} and the {_Children of Brambles_}.
     & The album is part of {{Aliceffekt}}'s {{Neauismetic}} albums.
-    * Tracklist
     @ discography Vetetrandes Lettres    
   LINK
     BAND : http://aliceffekt.bandcamp.com/album/vetetrandes-lettres-perdues
@@ -1047,7 +1041,6 @@ TEN AXITECTURE
   BREF : {{Ten Axitecture}} is the first release on the {{Beldam Records}} catalog. Written by {{Aliceffekt}}, this album combines acoustic instruments and IDM.
   LONG
     & The 4 tracks are interpretations of different fictional worlds that have played a role in the {{Aliceffekt}} narrative: Eudoxie from Calvino's Invisible Cities, Borges' Tlon and Schuiten's Citees Obscures.
-    * Tracklist
     @ discography ten axitecture
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/ten-axitecture
@@ -1063,7 +1056,6 @@ CHILDREN OF BRAMBLE
   BREF : {{Children of Bramble}} is a {{Laeisthic}} album that contains four tracks that sings of the Oasis of {{Rlionn}} and her Children. 
   LONG
     & This album begins by the Oasis of {{Laeisth}} to finally reach the castle of {{Andes}} and its sandsunken structure. This single is part of the {{Neauismetica}}, and shares some narrative concepts with {{Telekinetic}}.
-    * Tracklist
     @ discography children of bramble    
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/children-with-veins-of-bramble
@@ -1074,7 +1066,6 @@ KNOWN MAGYE
   LONG
     & Sometimes reminiscent of the compositions of {{Children of bramble}}, sometimes of the drowned sounds of {{Telekinetic}}, this single is a fair mix of ambient and breaks.
     & The album was recorded live from {{San Fransisco|travel}}'s {*POW POW POW*} which was controlled entirely with the {{Leap Motion|https://www.leapmotion.com}}.
-    * Tracklist
     @ discography known magye
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/known-magye
@@ -1084,44 +1075,43 @@ EXTENDED SLEEP
   BREF : {{Extended sleep}} is the {{Laeisthic}} sequel to {{Known Magye}}, a deeper exploration of its universes, its stories. 
   LONG
     & The album will be first performed at the A Maze Festival in Berlin, on April 23rd 2015.
-    * Tracklist
     @ discography extended sleep
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/extended-sleep
 
 DUOMIC
   UNDE : Aliceffekt
-  TYPE : Portal
-  BREF : The {{Duomic}} albums are {{Neauismetic}} albums occuring only within the {{Duomo}} continent of {{Dinaisth}}.
+  TYPE : Portal false
+  BREF : The {{Duomic}} albums are {{Neauismetic}} records of {{Neonev}}'s travel from {{Duomo}} to {{Dilitrielth}}.
 
 THE OPAL INQUISITORS
   UNDE : Duomic
-  BREF : {{The Opal Inquisitors}} is a prequel to {{Portalion}}, when {{Neonev}} began her exploration of central {{Dinaisth}} and the {_{{Dei Dain}} Canals_}.
+  BREF : {{The Opal Inquisitors}} is the first {{Duomic}} album, where {{Neonev}} departs from central {{Dinaisth}} and head through the {_{{Dei Dain}} Canals_}.
   LONG
-    & Driving the {{Vermillionth}} up the spires below the surface of central islands, the records are photographs of the travels between the caves of {_Dilitrielth_} and the deserts of {{Duomo}}.
-    * Tracklist
+    & These recordings are photographs taken aboard the {{Vermillionth}} tunneler, traveling up the spires of {{Duomo}}.
     @ discography the opal inquisitors
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/the-opal-inquisitors
+  TAGS : Discography
 
 PORTALION
   UNDE : Duomic
-  BREF : {{Portalion}} is the successor to {{The Opal Inquisitors}}, continuing the exploration of the central regions of {{Dinaisth}}, landing on the southernest docks of {_Laeisth_}.
+  BREF : {{Portalion}} is the second {{Duomic}} album, where {{Neonev}} leaves {{Duomo}} to explore the of the northernest shores of {{Laeisth}}.
   LONG
     & On a foggy night of the {_Sixth Season_}, embarking on one of the vessels of the {_Septechoes_} in the desert of {_Clionn_}, {{Neonev}} sails toward {_Whiinders_} to see its {_Immortal Birds_} once more.
-    * Tracklist
     @ discography portalion
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/portalion
+  TAGS : Discography
 
 DEI DAIN
   UNDE : Duomic
-  BREF : Written and released in Tokyo in 2013, {{Dei Dain}} is the sixth album as part of {{Aliceffekt}}'s {{Neauismetic}} albums.
+  BREF : {{Dei Dain}} is the third {{Duomic}} album, where {{Neonev}} travels from the desert of {{Laeisth}} to the nightly scapes of {{Dilitrielth}}.
   LONG
-    * Tracklist
     @ discography dei dain
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/dei-dain
+  TAGS : Discography
 
 LIVES
   UNDE : Aliceffekt
@@ -1170,7 +1160,6 @@ SUPERWORKER
   BREF : {{Superworker}} is a concept album created entirely with {{Teenage Engineering's PO24|https://www.teenageengineering.com/products/po}}.
   LONG
     & The album contains 3 tracks created from {_over 80 sessions_}, arranged into chiptune experiments.
-    * Tracklist
     @ discography superworker
     & Due to the lack of power during the 4 weeks long ocean crossing, the pocket battery powered synth proved to be the perfect composition tool. The tracks also include spoken words from Alan Watts.
   LINK
@@ -1181,7 +1170,6 @@ SUPERVISITOR
   TYPE : Diary
   BREF : {{Supervisitor}} is a concept album created with {{Arturia|http://arturia.com}}'s analog and monophonic {{Microbrute|http://www.arturia.com/microbrute-se/overview}} synthetiser.
   LONG
-    * Tracklist
     @ discography supervisitor
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/supervisitor
@@ -1248,7 +1236,6 @@ VERRECIEL OST
   UNDE : Beldam records
   BREF : This soundtrack release, written by {{Aliceffekt}} for the mobile application {{Verreciel}}, features a fair dose of breaks and {{Beldam|Beldam records}}'s signature vocoded synths.
   LONG
-    * Tracklist
     @ discography verreciel
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/verreciel
@@ -1316,22 +1303,22 @@ SOIES
 
 DINAISTH
   UNDE : Neauismetica
-  TYPE : Portal
+  TYPE : Archive
   BREF : {{Dinaisth}} is both the name of the planet and of a continent which harbors {{Andes}}' offices.
   LONG
     % dinaisth
-
-NEAU
-  UNDE : Dinaisth
-  BREF : {{Neau}} is a circular city, notable for its blue rooftops, displaying a tall spire at its center. It is also the place from which the {{Neauismetica}} derives its name.
-  LONG
-    & The city exists at the center of the vast ocean of {_Kanikule_} and was the birthplace of {{Lietal}}. 
 
 KANIKULE
   UNDE : Dinaisth
   BREF : {{Kanikule}} is an infinite ocean that an immortal will spend an infitite amount of time crossing, effectively reaching the outer-shores mortal.
   LONG
     & While one can sail away from the point that is Neau, one cannot return to it. 
+
+NEAU
+  UNDE : Kanikule
+  BREF : {{Neau}} is a circular city, notable for its blue rooftops, displaying a tall spire at its center. It is also the place from which the {{Neauismetica}} derives its name.
+  LONG
+    & The city exists at the center of the vast ocean of {_Kanikule_} and was the birthplace of {{Lietal}}. 
 
 LAEISTH
   UNDE : Dinaisth
@@ -1345,7 +1332,8 @@ VETETRANDES
 
 DUOMO
   UNDE : Dinaisth
-  BREF : The {{Duomo}} plateau rises far above the lightest atmosphere of Dinaisth. The empty land has but one location of interest, {{Paradichlorisse}}.
+  BREF : The {{Duomo}} plateau rises just above the lightest atmosphere of {{Dinaisth}}. 
+  TAGS : Stub
 
 ~ CHARACTERS
 

@@ -5,20 +5,28 @@
 ~ Duomic
 
 THE OPAL INQUISITORS
-  - Below The Vetetrandes Spires
+  > <album>
+  % cover.opal.inquisitors half
+  - From Vetetrandes
   - Down The Vertical Canals
   - Exosphere Sunset(Ver'Tale)
   - Moires Of Dei Dain
+  > </album>
 
 PORTALION
-  - Landing in Laeisth
+  > <album>
+  % cover.portalion half
+  - From Laeisth
   - The Sixth Season Festival
   - Tunnel Aeroports of Clionn
   - Moebius Lift's Ascension
+  > </album>
 
 DEI DAIN
-  - A meeting with the immortals of Dilitrielth
-  - Aetdth, All I see is Yous
+  > <album>
+  % cover.dei.dain half
+  - From Dilitrielth
+  - All I see are Yous
   - Escape from Kanikule, Neau (part 1)
   - Escape from Kanikule, Laeisth (part 2)
   - Escape from Kanikule, Dinaisth (part 3)
@@ -26,7 +34,8 @@ DEI DAIN
   - Escape from Kanikule, Es (part 4)
   - Our forgotten alphabet
   - Kirleane Coral Parasols
-  - Credits Tolii
+  - Credits
+  > </album>
 
 ~ Laeisthic
 
