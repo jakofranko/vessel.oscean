@@ -1048,7 +1048,7 @@ TEN AXITECTURE
 
 LAEISTHIC
   UNDE : Aliceffekt
-  TYPE : Portal
+  TYPE : Portal false
   BREF : The {{Laeisthic}} albums are {{Neauismetic}} albums occuring only within the {{Laeisth}} continent of {{Dinaisth}}.
 
 CHILDREN OF BRAMBLE
@@ -1059,6 +1059,7 @@ CHILDREN OF BRAMBLE
     @ discography children of bramble    
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/children-with-veins-of-bramble
+  TAGS : Discography
 
 KNOWN MAGYE
   UNDE : Laeisthic
@@ -1069,6 +1070,7 @@ KNOWN MAGYE
     @ discography known magye
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/known-magye
+  TAGS : Discography
 
 EXTENDED SLEEP
   UNDE : Laeisthic
@@ -1078,6 +1080,7 @@ EXTENDED SLEEP
     @ discography extended sleep
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/extended-sleep
+  TAGS : Discography
 
 DUOMIC
   UNDE : Aliceffekt

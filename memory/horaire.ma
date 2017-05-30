@@ -4,6 +4,7 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170530 ! 28  179 Children of bramble  Illustration
 20170529 - 28      Dinaisth             Illustration
 20170528 - 29      Dei dain             Illustration
 20170527 - 28      Ronin                Design
@@ -75,7 +76,7 @@
 20170322 - 22      Ronin                Branding
 20170321 - 24      Thousand rooms       Design
 20170320 - 21      Ronin                Design
-20170319
+20170319 ! 27  180 Known magye          Illustration
 20170318 - 36      Thousand rooms       Writing
 20170317 - 18      Superworker          Composition
 20170316 - 12      Superworker          Composition
@@ -105,7 +106,7 @@
 20170220 - 35      Oquonie              Tools
 20170219 - 35      Oquonie              Tools
 20170218 - 37      Oquonie              Tools
-20170216
+20170216 ! 25  191 Extended sleep       Illustration
 20170217 - 35      Oquonie              Maintenance
 20160216 - 33      The will the wisp    Writing
 20170215 - 35      Oquonie              Tools

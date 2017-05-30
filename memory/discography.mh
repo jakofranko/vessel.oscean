@@ -40,22 +40,31 @@ DEI DAIN
 ~ Laeisthic
 
 CHILDREN OF BRAMBLE
+  > <album>
+  % cover.children.of.bramble half
   - Thievery of the Jade Books
   - The Court of Bramble
   - Our Empress Rlionn
   - Extended Sleep
+  > </album>
 
 KNOWN MAGYE
+  > <album>
+  % cover.known.magye half
   - TODO
   - TODO
   - TODO
   - Children of Bramble
+  > </album>
 
 EXTENDED SLEEP
+  > <album>
+  % cover.extended.sleep half
   - Ash Cell
   - The Seventh Cardinal
   - Our Imperial Thought
   - Known Magye
+  > </album>
 
 ~ Demo
 
