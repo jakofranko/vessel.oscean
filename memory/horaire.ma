@@ -4,6 +4,7 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170531 - 28      Collected works      Illustration
 20170530 ! 28  179 Children of bramble  Illustration
 20170529 - 28      Dinaisth             Illustration
 20170528 - 29      Dei dain             Illustration
@@ -1688,7 +1689,7 @@
 20121023 - 11      Ehrivevnv Studies    Writing
 20121022
 20121021 - 19  105 Ehrivevnv Studies    Live                 Blip Festival - Toky
-20121020 - 25   21 Moments              Photography          Our Third Apartment   We will be living in this tiny appartment for the next few weeks until we move to a proper place.
+20121020 - 25   21 Hundred rabbits      Photography          Our Third Apartment   This was our apartment for a few months while we lived in {{Tokyo|Japan}}.
 20121019
 20121018
 20121017 ! 00      Japan                Travel               Tokyo
@@ -2603,7 +2604,7 @@
 20100422
 20100421
 20100420
-20100419 - 25  423 Moments              Photography          Leaving               Waiting for the train that will bring us back to Narita.
+20100419 - 25  423 Drownspire           Photography          Leaving               Waiting for the train that will bring us back to Narita.
 20100418 - 25  422 Japan                Photography          
 20100417
 20100416

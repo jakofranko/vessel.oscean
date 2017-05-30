@@ -99,18 +99,6 @@ BELDAM RECORDS
     BAND : https://beldamrecords.bandcamp.com
     TWTR : https://twitter.com/beldamrecords
 
-BLINDFOLK
-  UNDE : Unreleased
-  BREF : {{Blindfolk}} was a cryptic multiplayer combat game where players must program their character to foresee and react to the other players' action.
-  LONG
-    & It was first created in the span of 48 hours for {{Global Game Jam 2016|http://globalgamejam.org}}.
-    & This project joins {{Nataniev}} in its text-based interaction and concepts.
-    & The game is open source and is available on {{Github|https://github.com/XXIIVV/vessel.blindfolk}}
-    & The game uses a simple scripting language, here is an example of a riposte to an attack coming from the back, and a default movement pattern with an attack and a shout.
-    # case attack.backward  step.leftcase default  attack.forward  turn.right  attack.backward  say yatta
-  LINK
-    GITH : https://github.com/XXIIVV/vessel.blindfolk
-
 CAMILARE
   UNDE : Oquonie
   BREF : Language spoken in {{Oquonie}} containing a little over 20 glyphs, spoken in segments of 3 letters. 
@@ -386,8 +374,37 @@ COLLECTED WORKS
   BREF : {{Collected Works}}, is a collection of chiptune works written between 2008 and 2015.
   LONG
     & This release includes the complete Storm Transit record, as well as a few original Malice tracks and the {{Merveilles Portable}} soundtrack.
+    @ discography collected works
   LINK
     BAND : https://gaii.bandcamp.com/
+  TAGS : Discography
+
+UNRELEASED
+  UNDE : Interactive
+  BREF : A list of {{Unreleased}} projects, or abandoned projects, indefinite put on hold and unsupported.
+  TYPE : Portal
+  
+BLINDFOLK
+  UNDE : Unreleased
+  BREF : {{Blindfolk}} was a cryptic multiplayer combat game where players must program their character to foresee and react to the other players' action.
+  LONG
+    & It was first created in the span of 48 hours for {{Global Game Jam 2016|http://globalgamejam.org}}.
+    & This project joins {{Nataniev}} in its text-based interaction and concepts.
+    & The game is open source and is available on {{Github|https://github.com/XXIIVV/vessel.blindfolk}}
+    & The game uses a simple scripting language, here is an example of a riposte to an attack coming from the back, and a default movement pattern with an attack and a shout.
+    # case attack.backward  step.leftcase default  attack.forward  turn.right  attack.backward  say yatta
+  LINK
+    GITH : https://github.com/XXIIVV/vessel.blindfolk
+
+TRIMETRIQUE
+  UNDE : Unreleased
+  TYPE : Diary
+  BREF : {{Trimetrique}} is a light-painting mobile application.
+
+EAKOUT
+  UNDE : Unreleased
+  TYPE : Diary
+  BREF : {{Eakout}} is a two player breakout game for mobile.
 
 MERVEILLES PORTABLE
   UNDE : Unreleased
@@ -1202,11 +1219,6 @@ TYPOGRAPHY
   LINK
     GITH : https://github.com/neauoire/Font-Collection
 
-UNRELEASED
-  UNDE : Interactive
-  BREF : A list of {{Unreleased}} projects, or abandoned projects, indefinite put on hold and unsupported.
-  TYPE : Portal
-
 VAST
   UNDE : Physical
   BREF : {{Vast}} is the first book of {{Elodie Lareine|http://noirmirroir.com/}}, a manual of procedural imagery.
@@ -1337,6 +1349,10 @@ DUOMO
   UNDE : Dinaisth
   BREF : The {{Duomo}} plateau rises just above the lightest atmosphere of {{Dinaisth}}. 
   TAGS : Stub
+
+DILITRIELTH
+  UNDE : Dinaisth
+  BREF : Todo.
 
 ~ CHARACTERS
 
