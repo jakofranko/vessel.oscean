@@ -5,7 +5,7 @@
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20170531 - 28      Collected works      Illustration
-20170530 ! 28  179 Children of bramble  Illustration
+20170530 ! 28  179 Children of bramble  Illustration         Immortal Bird
 20170529 - 28      Dinaisth             Illustration
 20170528 - 29      Dei dain             Illustration
 20170527 - 28      Ronin                Design

@@ -28,6 +28,7 @@ class ActionDebug
     text += missing_terms
     text += broken_links
     text += misformatted
+    text += untitled_diaries
     text += "\n\n"
 
     return text
@@ -172,6 +173,23 @@ class ActionDebug
     end
 
     return text
+
+  end
+
+  def untitled_diaries
+
+    h = []
+
+    @horaire.to_a.each do |log|
+      if !log["PICT"] then next end
+      if log["NAME"].to_s != "" then next end
+      h.push(log["PICT"])
+    end
+
+    text = "UNNAMED DIARIES #{h.length} -> #{h.length > 0 ? h.first : ''}\n"
+
+    return text
+
 
   end
 
