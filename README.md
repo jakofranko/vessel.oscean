@@ -15,7 +15,7 @@ Generic
 
 ## Documentation
 
-Generated with [Nataniev](http://wiki.xxiivv.com/Nataniev) on **Tridesamber 8, 2016**, view the [project site](http://wiki.xxiivv.com).
+Generated with [Nataniev](http://wiki.xxiivv.com/Nataniev) on **Hexesamber 10, 2017**, view the [project site](http://wiki.xxiivv.com).
 
 ##License
 
