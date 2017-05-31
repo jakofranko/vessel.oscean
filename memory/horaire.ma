@@ -4,7 +4,7 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
-20170531 - 28      Collected works      Illustration
+20170531 @ 28   10 Collected works      Illustration         Cyan
 20170530 ! 28  179 Children of bramble  Illustration         Immortal Bird
 20170529 - 28      Dinaisth             Illustration
 20170528 - 29      Dei dain             Illustration
@@ -326,7 +326,7 @@
 20160717 - 34      Nataniev             AI
 20160716 - 38      Nataniev             Tools
 20160715 - 24   18 Camera               Event                Learn Film Photo      Aquired Voigtländer Bessa
-20160714 - 19   10 Collected works      Release              Cyan
+20160714 - 19      Collected works      Release              Cyan
 20160713 - 34      The will the wisp    Development
 20160712 ! 29    8 Pino                 Photography          Becalmed              Becalmed under a suffocating moonless sky, we drag deeper into the numbing gloom. Shapeless forms slither nearer and across the oily swells, cutting through flakes of luminescence, laughing at us. Attracted to the steaming light, a flock of bats circle our limp sail and the mind wanders. <br /><br />Intermittent gurgles, a pod of whales surfaces all around us. The sun didn't rise that day, the fog only turned into a lighter shade of black.
 20160711 - 39      Pino                 Writing
@@ -1210,7 +1210,7 @@
 20140214 - 19      Known magye          Composition
 20140213 - 19      Known magye          Composition
 20140212 - 19      Known magye          Composition
-20140211 - 19   11 Oquonie              Composition          Soundtrack Release
+20140211 - 19  193 Oquonie soundtrack   Composition          Soundtrack Release
 20140210 - 19      Known magye          Composition
 20140209 - 39  381 Oquonie              Live                 Goodies
 20140208 - 25      Japan                Photography          Tokyo Asnowed

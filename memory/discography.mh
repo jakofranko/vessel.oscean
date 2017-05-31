@@ -76,6 +76,12 @@ SUPERWORKER
   - TECHNO
 
 SUPERVISITOR
+  - SUB/FIFTH
+  - ULTRASAW
+  - PULSE WIDTH
+  - METALIZER
+
+OLD_SUPERVISITOR
   - In Virtue and Truth, Not Power
   - A Stone Carving for an Angel
   - The Fashion of the Soil
@@ -87,7 +93,7 @@ SUPERVISITOR
 
 ~ Beldam
 
-VERRECIEL
+VERRECIEL SOUNDTRACK
   - Loiqe Record
   - Valen Silence
   - Senni Market
@@ -162,15 +168,24 @@ DAMOISEAU CANALX
   - Blam, Le Passage Sacrilege
   - A Thousand Times Parix
 
-~ Hundred Rabbits
+~ Soundtracks
+
+OQUONIE SOUNDTRACK
+  > <album>
+  % cover.oquonie.soundtrack half
+  - Kanikule
+  > </album>
 
 AMBIENT WORKS
+  > <album>
+  % cover.rabbits.soundtrack half
   - Selection Q116
   - Selection Q216
   - Selection Q316
   - Selection Q117
   - Selection Q217(TBA)
   - Selection Q317(TBA)
+  > </album>
 
 COLLECTED WORKS
   > <album>

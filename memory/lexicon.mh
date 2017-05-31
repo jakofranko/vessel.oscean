@@ -1195,6 +1195,21 @@ SUPERVISITOR
     BAND : https://aliceffekt.bandcamp.com/album/supervisitor
     ITUN : iTunes|https://itunes.apple.com/ca/album/supervisitor-ep/id951144870
 
+SOUNDTRACK
+  UNDE : Aliceffekt
+  BREF : The {{Soundtrack}} collection contains various scores written for {{Interactive}} projects.
+
+OQUONIE SOUNDTRACK
+  UNDE : Soundtrack
+  BREF : The {{Oquonie Soundtrack}}, {_Impossible Spaces_}, is the ambient score of the game {{Oquonie}}.
+  LONG
+    @ discography oquonie soundtrack
+  TAGS : Discography
+
+RABBITS SOUNDTRACK
+  UNDE : Soundtrack
+  BREF : The {{Rabbits Soundtrack}} is the drone audio tracks of the {{Hundred Rabbits}} video diaries.
+
 REMIX
   UNDE : Aliceffekt
   BREF : The {{Remix}} collection contains a list of the {{Aliceffekt}} remixes and unique tracks made for compilations.
@@ -1247,11 +1262,11 @@ THOUSAND ROOMS
     ITCH : https://hundredrabbits.itch.io/thousand-rooms
     GITH : http://github.com/hundredrabbits/Thousand-Rooms/graphs/contributors
 
-VERRECIEL OST
+VERRECIEL SOUNDTRACK
   UNDE : Beldam records
   BREF : This soundtrack release, written by {{Aliceffekt}} for the mobile application {{Verreciel}}, features a fair dose of breaks and {{Beldam|Beldam records}}'s signature vocoded synths.
   LONG
-    @ discography verreciel
+    @ discography verreciel soundtrack
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/verreciel
 
