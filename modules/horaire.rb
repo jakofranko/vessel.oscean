@@ -20,9 +20,14 @@ class CorpseHttp
     .horaire content.storage a { background:white }
     .horaire { margin-bottom:30px }
     .horaire p { color:white}
-    .horaire ul { font-size:12px; padding:15px;}
-    .horaire ul li { font-family:'din_regular'; color:grey}
-    .horaire ul li b { font-weight:normal; font-family:'din_medium'}
+  ul.legend { font-size: 12px;padding: 15px 0px 0px 0px;}
+  ul.legend li { font-family:'din_regular'; color:grey; line-height:15px}
+  ul.legend li b { font-weight:normal; font-family:'din_medium'}
+  .activity { background:black; color:white; margin-top:-30px; padding:30px; vertical-align:top; border-bottom:1px solid #efefef }
+  .activity > ln { width:33%; min-width:200px; display:inline-block; height:30px;overflow: hidden; font-size: 14px !important; vertical-align:top}
+  .activity .value { color:#555; margin-left:10px; font-size:14px }
+  #notice { font-family:'din_regular'; font-size:16px; line-height:26px; background:#fff; padding:15px 20px; border-radius:3px}
+  #notice a { font-family: 'din_medium'}
     </style>"
 
   end
@@ -33,6 +38,7 @@ class CorpseHttp
 
     if term.logs.length > 2
       html += Graph_Timeline.new(term).to_s
+      html += Graph_Overview.new(term).to_s
       html += tasks
       html += legend
     else

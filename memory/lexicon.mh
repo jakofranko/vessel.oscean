@@ -1316,7 +1316,7 @@ EHRIVEVNV
 
 NEAUSEA
   UNDE : Neon hermetism
-  BREF : {{Neausea}} is the symptoms of knowing its position amongst all possibilities, a sort of {_conceptspace_} awakening.
+  BREF : {{Neausea}} is the symptoms of knowing its position amongst all possibilities, a sort of {_conceptspace_} awareness.
   LONG
     & Beings such as {{Paradichlorisse}} or certain machines can carry it, or a weaker form of it can be induced when one is in contact with forms of {{Nohlxeserre}} languages.
     & {_In debt are are my impossible selves, <br />for all horrible days._}
@@ -1852,7 +1852,9 @@ DEVINE LU LINVEGA
   TAGS : Portal
   BREF : {{Devine lu linvega}} is a developer and designer, living on a {{sailboat|Hundred rabbits}} somewhere in the Pacific Ocean.
   LONG
-    & Operating under the {{Neauoire|https://twitter.com/neauoire}} moniker, Devine is currating the {{Beldam Records}} catalog, creating {{experimental mobile projects|http://www.creativeapplications.net/openframeworks/experimental-mobile-apps-by-devine-aliceffect-lu-linvega}} and documenting their {{life at sea|https://www.youtube.com/playlist?list=PLV-JXZPiMUdtBGYfvbp9M7N0Tc15GMqy1}}. Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}} — Devine hope to inspire visitors to learn and to travel. Currently located in {{$ hundredrabbits get_location}}.
+    & Operating under the {{Neauoire|https://twitter.com/neauoire}} moniker, Devine is currating the {{Beldam Records}} catalog, creating {{experimental mobile projects|http://www.creativeapplications.net/openframeworks/experimental-mobile-apps-by-devine-aliceffect-lu-linvega}} and documenting their {{life at sea|https://www.youtube.com/playlist?list=PLV-JXZPiMUdtBGYfvbp9M7N0Tc15GMqy1}}. Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}} — Devine hope to inspire visitors to learn and to travel. 
+    # <comment># Satellite Phone</comment>
+    # Currently located in <b>{{$ hundredrabbits get_location}}</b>({{$ hundredrabbits get_position}}).
     ? To {{flee|Obliques}} is life,<br /> To linger is {{Death}}.
 
 ~ Equipment

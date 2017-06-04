@@ -4,6 +4,8 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170604 - 35      Hundred rabbits      Tools
+20170603 - 37      Nataniev             Tools
 20170602 - 27      Known magye          Illustration
 20170601 - 24      Aliceffekt           Branding
 20170531 @ 28   10 Collected works      Illustration         Cyan
@@ -1442,7 +1444,7 @@
 20130629 - 39  340 Dictionaery          Development          Dictionaery
 20130628 - 38      Dictionaery          Development
 20130627 - 25   67 Infrared             Photography          Soldat
-20130626
+20130626 - 25      Dei dain             Illustration
 20130625 ! 19  338 Dei dain             Release              Dei Dain
 20130624 - 27  336 Infrared             Photography          Infrared Set 2
 20130623 - 39      Sketchbook           Prototype            Number Study
@@ -1691,7 +1693,7 @@
 20121023 - 11      Ehrivevnv Studies    Writing
 20121022
 20121021 - 19  105 Ehrivevnv Studies    Live                 Blip Festival - Toky
-20121020 - 25   21 Hundred rabbits      Photography          Our Third Apartment   This was our apartment for a few months while we lived in {{Tokyo|Japan}}.
+20121020 - 25   21 Hundred rabbits      Photography          Tokyo Apartment       This was our first apartment, before moving to Odaiba, while we lived in {{Tokyo|Japan}}. It was not much smaller than living aboard {{Pino}}.
 20121019
 20121018
 20121017 ! 00      Japan                Travel               Tokyo
