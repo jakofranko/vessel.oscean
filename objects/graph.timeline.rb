@@ -70,9 +70,9 @@ class Graph_Timeline
   def to_s
 
     html = ""
-    width = 640
+    width = 629
     height = 150
-    lineWidth = 660/28
+    lineWidth = (width+30)/28.0
     segmentWidth = lineWidth/10
     highestValue = findHighestValue
     width += segmentWidth
@@ -108,18 +108,17 @@ class Graph_Timeline
 
     # Markers
     markers = ""
-    markers += "<span style='position:absolute; top:15px;left:30px; color:grey'>#{@logs.last.time.ago}</span>"
-    markers += "<span style='position:absolute; top:15px;right:30px; text-align:right; color:grey'>#{@logs.first.time.ago}</span>"
+    markers += "<span style='position: absolute;bottom: 20px;left: 470px;color: grey'>#{@logs.last.time.ago}</span>"
 
-    markers += "<span style='position:absolute; bottom:15px;left:30px'><tt style='color:#72dec2; padding-right:5px'>— </tt> Audio <span style='color:#999'>#{@sums[:audio] ? ((@sums[:audio].to_i/@sum_hours.to_f)*100).to_i : 0}%</span></span>"
-    markers += "<span style='position:absolute; bottom:15px;left:120px'><tt style='color:red; padding-right:5px'>— </tt> Visual <span style='color:#999'>#{@sums[:visual] ? ((@sums[:visual].to_i/@sum_hours.to_f)*100).to_i : 0}%</span></span>"
-    markers += "<span style='position:absolute; bottom:15px;left:210px'><tt style='color:white; padding-right:5px'>— </tt> Research <span style='color:#999'>#{@sums[:research] ? ((@sums[:research].to_i/@sum_hours.to_f)*100).to_i : 0}%</span></span>"
-    markers += "<span style='position:absolute; bottom:15px;left:350px'>#{focus_hours} <span style='color:#999'>FH</span></span>"
-    markers += "<span style='position:absolute; bottom:15px;left:400px'>#{focus_balance} <span style='color:#999'>FB</span></span>"
+    markers += "<span style='position:absolute; bottom:20px;left:30px'><tt style='color:#72dec2; padding-right:5px'>— </tt> Audio <span style='color:#999'>#{@sums[:audio] ? ((@sums[:audio].to_i/@sum_hours.to_f)*100).to_i : 0}%</span></span>"
+    markers += "<span style='position:absolute; bottom:20px;left:120px'><tt style='color:red; padding-right:5px'>— </tt> Visual <span style='color:#999'>#{@sums[:visual] ? ((@sums[:visual].to_i/@sum_hours.to_f)*100).to_i : 0}%</span></span>"
+    markers += "<span style='position:absolute; bottom:20px;left:210px'><tt style='color:white; padding-right:5px'>— </tt> Research <span style='color:#999'>#{@sums[:research] ? ((@sums[:research].to_i/@sum_hours.to_f)*100).to_i : 0}%</span></span>"
+    markers += "<span style='position:absolute; bottom:20px;left:350px'>#{focus_hours} <span style='color:#999'>FH</span></span>"
+    markers += "<span style='position:absolute; bottom:20px;left:400px'>#{focus_balance} <span style='color:#999'>FB</span></span>"
 
-    markers += "<span style='position:absolute; bottom:15px;right:30px'><a href='/Home:Horaire' style='font-weight: normal;color: #fff;border:1px solid #333;padding: 5px;border-radius: 3px'>#{@sum_hours.to_i} hours</a></span>"
+    markers += "<span style='position:absolute; bottom:20px;right:30px'><a href='/Home:Horaire' style='font-weight: normal;color: #fff;border:1px solid #333;padding: 5px;border-radius: 3px'>#{@sum_hours.to_i} hours</a></span>"
 
-    return "<yu style='margin-bottom: 30px;background: #000;padding: 30px 30px 45px 30px;border-radius: 3px;font-family: \"din_regular\";font-size: 11px; color:white; overflow: hidden; max-width: 630px'><svg style='width:#{width}px; height:#{height}px; background:black; overflow: visible; margin-top:15px'>"+html+"<svg>#{markers}</yu>"
+    return "<yu style='margin-bottom: 30px;background: #000;padding: 30px 30px 45px 30px;font-family: \"din_regular\";font-size: 11px; color:white; overflow: hidden; border-bottom:1px solid #efefef'><svg style='width:100%; height:#{height}px; background:black; overflow: visible; border-bottom: 1px solid #333; margin-bottom:5px'>"+html+"<svg>#{markers}</yu>"
 
   end
 
