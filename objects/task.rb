@@ -66,7 +66,7 @@ class Task
     sector_1,value_1 = @sectors[0]
     r_1 = hours_to_radius(value_1) + r_2 + r_3
 
-    html += "<circle cx='70' cy='70' r='#{@max_radius}' stroke='#333' stroke-dasharray='1,1' />"
+    html += "<circle cx='70' cy='70' r='#{@max_radius}' stroke='#333' stroke-dasharray='2,2' />"
 
     html += "<circle cx='70' cy='70' r='#{r_1}' class='#{sector_1}' />"
     html += "<circle cx='70' cy='70' r='#{r_2}' class='#{sector_2}' />"

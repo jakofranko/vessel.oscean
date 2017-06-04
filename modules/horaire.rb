@@ -60,7 +60,7 @@ class CorpseHttp
       $sum_logs += 1
     end
 
-    tasksHash.sort.each do |name,data|
+    tasksHash.sort_by {|_key, value| value[:sum_hours]}.reverse.each do |name,data|
       if name == "" then next end
       if data[:sum_hours] == 0 then next end
       html += Task.new(data,$max_hours).to_s
