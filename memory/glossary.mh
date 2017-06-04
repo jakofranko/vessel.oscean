@@ -36,7 +36,7 @@ ARGUMENTATION
 
 TOOLS
   Occam's razor
-    - Principle commonly stated as "Entities must not be multiplied beyond necessity". When several theories are able to explain the same observations, Occam's razor suggests the simpler one is preferable.
+    - When several theories are able to explain the same observations, Occam's razor suggests the simpler one is preferable. Principle commonly stated as "Entities must not be multiplied beyond necessity". 
   Kolmogorov complexity
     - Given a string, the length of the shortest possible program that prints it.
   Solomonoff induction

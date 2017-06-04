@@ -8,10 +8,10 @@ class CorpseHttp
     return "<style>
     yu.si { display:none !important}
     .horaire { background:black; border-radius:3px}
-    .horaire .task { width:140px; color:white; display:inline-block; padding:15px; }
-    .horaire .task svg { width:140px; height:140px }
-    .horaire .task p { border-top: 1px solid #555;font-family: 'din_regular';font-size: 11px;line-height: 15px;margin-bottom: 0px;padding-top: 14px }
-    .horaire .task p b { font-family:'din_medium'; font-weight:normal; text-transform: uppercase; }
+    .horaire .task { width:230px; color:white; display:inline-block; padding:0px; margin-bottom:15px }
+    .horaire .task svg { width: 70px;height: 70px;display: inline-block;border-radius: 3px; }
+    .horaire .task p { font-family: 'din_regular';font-size: 11px;line-height: 15px;margin-bottom: 0px;display: inline-block;vertical-align: top;margin-top:15px;padding-left:15px;width:140px}
+    .horaire .task p b { font-family:'din_medium'; font-weight:normal; text-transform: uppercase; line-height:30px }
     .horaire circle.audio { fill:#72dec2 }
     .horaire circle.visual { fill:red }
     .horaire circle.research { fill:#ccc }

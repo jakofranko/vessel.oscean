@@ -277,7 +277,7 @@ IDYLLIC MINERS
     BAND : https://aliceffekt.bandcamp.com/album/genesis-iii-20-ov-idyllic-miners
 
 DAMOISEAU CANALX
-  UNDE : First wave
+  UNDE : Neauismetic
   BREF : {{Damoiseau Canalx}} was created in the spirit of {{Blam}}, exploring industrial sounds with 2-step styles.
   LONG
     & The album was recorded live, at Passport in Montreal during the last AMP event and is being released as-is.
@@ -632,11 +632,11 @@ RAFINOGRADE
 
 VERRECIEL
   UNDE : Mobile
-  BREF : {{Verreciel}} is a space exploration game with {_VC-like_} controls.
+  BREF : {{Verreciel}} is a space exploration game with controls reminiscent of modular synthetisers.
   TYPE : Diary
   LONG
-    & The game joins the sequence of linguistically involved projects like {{Nataniev}}, {{Hiversaires}} and {{Oquonie}}. You can follow the development of the game on {{Twitter|https://twitter.com/search?q=verreciel&src=typd}}.
-    & An original soundtrack was created for the game, read more {{here|Verreciel Ost}}.
+    & The game joins the sequence of linguistically involved projects like {{Paradise}}, {{Hiversaires}} and {{Oquonie}}. 
+    & An {{original soundtrack|Verreciel Soundtrack}} was created for the game and released on {{Beldam Records}}.
   LINK
     ITUN : https://itunes.apple.com/ca/app/verreciel/id1065988107
     GITH : https://github.com/Echorridoors/Verreciel
@@ -735,7 +735,7 @@ OQUONIE
   BREF : {{Oquonie}}, created in collaboration with {{Rekka Bellum|Rekka}}, is a textless puzzle game.
   LONG
     & You will not be alone, your incarnations will have the help of {_bizaroid_} characters speaking {{an obscure language|Camilare}}.
-    & Oquonie features an original {{Aliceffekt}} soundtrack and was best described as {_{{Animal Crossing in a K-Hole|http://killscreendaily.com/articles/oquonie-maze-worth-entering/}}_}.
+    & Oquonie features an original {{soundtrack|Oquonie Soundtrack}} and was best described as {_{{Animal Crossing in a K-Hole|http://killscreendaily.com/articles/oquonie-maze-worth-entering/}}_}.
     ? Find your way across an {{intertwined|Oquonie Guide}} megastructure.
   LINK
     ITCH : https://hundredrabbits.itch.io/oquonie
@@ -1184,6 +1184,7 @@ SUPERWORKER
     & Due to the lack of power during the 4 weeks long ocean crossing, the pocket battery powered synth proved to be the perfect composition tool. The tracks also include spoken words from Alan Watts.
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/superworker
+  TAGS : Discography
 
 SUPERVISITOR
   UNDE : Demo
@@ -1194,10 +1195,12 @@ SUPERVISITOR
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/supervisitor
     ITUN : iTunes|https://itunes.apple.com/ca/album/supervisitor-ep/id951144870
+  TAGS : Discography
 
 SOUNDTRACK
   UNDE : Aliceffekt
   BREF : The {{Soundtrack}} collection contains various scores written for {{Interactive}} projects.
+  TYPE : Portal
 
 OQUONIE SOUNDTRACK
   UNDE : Soundtrack
@@ -1215,7 +1218,7 @@ RABBITS SOUNDTRACK
 
 PURGATEUS SOUNDTRACK
   UNDE : Soundtrack
-  BREF : TODO.
+  BREF : The {{Purgateus Soundtrack}} is the score for the {{Purgateus}} remix of the game Proteus.
   LONG
     @ discography purgateus soundtrack
   TAGS : Discography
@@ -1439,7 +1442,7 @@ INFRARED
 
 FILM
   UNDE : Photography
-  BREF : Color film photography diary of the life aboard {{Pino}}.
+  BREF : Color {{film}} photography diary of the life aboard {{Pino}}.
   LONG
     & This album will be updated periodically, shot with the Voightlander {{250 Jaher|Camera}}. A {{black}} & white album is also maintained.
   TYPE : Diary
@@ -1478,6 +1481,8 @@ NETHERLANDS
 JAPAN
   UNDE : Travel
   BREF : A variety of diary entries written throughout trips to {{Japan}}.
+  LONG
+    & I have lived in Japan from 2012 to 2014 and flew back and forth numerous times from 2008 to 2015. {{Rekka}} and I are currently sailing back there aboard {{Pino}}.
   TYPE : Diary
 
 FUJI
@@ -1711,7 +1716,7 @@ DESAMBER
   BREF : On {{XXIIVV|Nataniev}}, dates are written using a variance of the {{International Fixed Calendar|https://en.wikipedia.org/wiki/International_Fixed_Calendar}}.
   LONG
     & The {_Equal Month calendar_} format has 13 months and so the number of each of these months are reflected into their names. Every month is {*28 days long*}, and the 365th day of the year is the {_Year Day_}, followed by the {_Leap Day_} on leap years.
-    ? Today is {{!desamber}} <br /><small>The current time is {{!clock}}</small>
+    ? Today is {{!desamber}}<br /> and the current time is {{!clock}}.
     & Time is written using a variance of the {{Internet Time|https://en.wikipedia.org/wiki/Swatch_Internet_Time}} with 4 digits instead of the Swatch Beat's 3 digits system. The system has no timezone and no daylight saving-time.
   LINK
     GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
@@ -1845,18 +1850,16 @@ NOMAD
 DEVINE LU LINVEGA
   UNDE : Devine lu linvega
   TAGS : Portal
-  BREF : {{Devine lu linvega}} is a developer living aboard a {{sailboat|Hundred rabbits}} on the Pacific Ocean.
+  BREF : {{Devine lu linvega}} is a developer and designer, living on a {{sailboat|Hundred rabbits}} somewhere in the Pacific Ocean.
   LONG
-    & Operating under the {{Neauoire|https://twitter.com/neauoire}} moniker, Devine is currating the {{Beldam Records}} catalog, creating {{experimental mobile projects|http://www.creativeapplications.net/openframeworks/experimental-mobile-apps-by-devine-aliceffect-lu-linvega}} and documenting their {{life at sea|https://www.youtube.com/playlist?list=PLV-JXZPiMUdtBGYfvbp9M7N0Tc15GMqy1}}.
-    & Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}} — Devine hope to inspire visitors to learn and to travel.
+    & Operating under the {{Neauoire|https://twitter.com/neauoire}} moniker, Devine is currating the {{Beldam Records}} catalog, creating {{experimental mobile projects|http://www.creativeapplications.net/openframeworks/experimental-mobile-apps-by-devine-aliceffect-lu-linvega}} and documenting their {{life at sea|https://www.youtube.com/playlist?list=PLV-JXZPiMUdtBGYfvbp9M7N0Tc15GMqy1}}. Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}} — Devine hope to inspire visitors to learn and to travel. Currently located in {{$ hundredrabbits get_location}}.
     ? To {{flee|Obliques}} is life,<br /> To linger is {{Death}}.
-
 
 ~ Equipment
 
 DEATH
   UNDE : Devine lu linvega
-  BREF : Inspired from {{Chris Crawford|https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer)}}'s Jars, every week a cell goes dark.
+  BREF : Inspired from {{Chris Crawford|https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer)}}'s Jars, in this {{Death}} counter, every week a cell goes dark.
 
 ~ Redirects
 

@@ -2,6 +2,10 @@
 ~ NOTE : YAML
 ~ AUTH : Devine Lu Linvega
 
+OSCEAN
+  Generic
+    Generate an additive graph for horaire
+
 CHILDREN KNOT BOOK
   Draft
     Choose knots
@@ -15,13 +19,14 @@ RONIN
     Zoom in/out
     Export with size
     Auto-complete
+    Half-tone painting
 
 THOUSAND ROOMS
   Generic
     Kindle Cropping issue
-    Amazon Publishing
+    Fix Amazon Version
   Translation
-    Improve open-source
+    Implement German
 
 CORTEGE
   Large Maze
@@ -39,11 +44,8 @@ OQUONIE
     Fix issue with after Library
 
 ALICEFFEKT
-  Brut & OP24
-    Update cover
   Hundred Rabbits
     Release 17Q1
-    Update Cover
   First wave
     Archive the lot
     Merge First Aid with Downtemperature

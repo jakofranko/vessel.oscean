@@ -24,11 +24,12 @@ class ActionDebug
     text = "\nREVIEW\n"
     text += next_available_diary
     text += missing_logs
-    text += empty_logs
     text += missing_terms
+    text += empty_logs
     text += broken_links
     text += misformatted
     text += untitled_diaries
+    text += orphans
     text += "\n\n"
 
     return text
@@ -94,7 +95,7 @@ class ActionDebug
     
     text = "MISSING TERMS #{array.uniq.length}\n"
     array.uniq.each do |term|
-      text += "  #{term.upcase}\n"
+      text += "- #{term.upcase}\n"
     end
 
     return text
@@ -116,6 +117,7 @@ class ActionDebug
     links.each do |source,links|
       links.each do |link|
         if link.first.include?("http") then next end
+        if link.first[0,1] == "$" then next end
         link = link.first.include?("|") ? link.first.split("|").last : link.first
         count += 1
         if @lexicon.render[link.upcase] then next end
@@ -162,14 +164,17 @@ class ActionDebug
     @lexicon.render.each do |name,hash|
       if hash["TYPE"].to_s.downcase.include?("redirect") then next end
       if !hash["BREF"] then h[name] = "Missing BREF" end
+      if !hash["BREF"].include?("#{name.capitalize}}}") then h[name] = "Missing self-reference" end
+      if !hash["LONG"] then h[name] = "Stub" end
+      if !(hash["BREF"].to_s+hash["LONG"].to_s).include?("\{\{") then h[name] = "Dead-End" end
       if hash["BREF"].to_s.length > 250 then h[name] = "BREF is too long(#{hash["BREF"].to_s.length} characters)" end
       if hash["BREF"].to_s.length < 20 then h[name] = "BREF is too short(#{hash["BREF"].to_s.length} characters)" end
     end
 
-    text = "MISFORMATTED #{h.length}\n"
+    text = "MISFORMATTED #{h.length}/#{@lexicon.render.length}\n"
 
     h.each do |name,issue|
-      text += " #{name}: #{issue}\n"
+      text += "- #{name}: #{issue}\n"
     end
 
     return text
@@ -190,6 +195,24 @@ class ActionDebug
 
     return text
 
+  end
+
+  def orphans
+
+    a = []
+
+    @lexicon.render.each do |name,hash|
+      if hash["TYPE"].to_s.downcase.include?("redirect") then next end
+      if !@lexicon.render[hash["UNDE"].upcase] then a.push(name) end
+    end
+
+    text = "ORPHANS #{a.length}\n"
+
+    a.each do |name|
+      text += "- #{name}\n"
+    end
+
+    return text
 
   end
 

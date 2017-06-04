@@ -3,6 +3,10 @@
 
 class Task
 
+  attr_accessor :audio
+  attr_accessor :visual
+  attr_accessor :research
+
   def initialize data, max_hours
 
     @max_radius = 65
@@ -16,6 +20,10 @@ class Task
 
     @sum_hours = @data[:sum_hours]
     @sum_logs = @data[:sum_logs]
+
+    @audio = @data[:audio]
+    @visua = @data[:visua]
+    @research = @data[:research]
 
   end
 
@@ -57,6 +65,9 @@ class Task
     r_2 = hours_to_radius(value_2) + r_3
     sector_1,value_1 = @sectors[0]
     r_1 = hours_to_radius(value_1) + r_2 + r_3
+
+    html += "<circle cx='70' cy='70' r='#{@max_radius}' stroke='#333' stroke-dasharray='1,1' />"
+
     html += "<circle cx='70' cy='70' r='#{r_1}' class='#{sector_1}' />"
     html += "<circle cx='70' cy='70' r='#{r_2}' class='#{sector_2}' />"
     html += "<circle cx='70' cy='70' r='#{r_3}' class='#{sector_3}' />"
@@ -73,12 +84,12 @@ class Task
         #{html}
       </svg>
       <p>
-        <b>#{@name}</b>
-        <span style='float:right; color:grey'>
-          #{focus_hours != @sum_hours ? focus_hours.to_s+'FH<br />' : ""}
-          #{focus_balance != 0 ? focus_balance.to_s+'FB<br />' : ""}
+        <b>#{@name}</b><br />
+        #{@sum_hours} Hours #{@sum_logs} Logs<br />
+        <span style='color:grey'>
+          #{focus_hours != @sum_hours ? focus_hours.to_s+'FH ' : ""}
+          #{focus_balance != 0 ? focus_balance.to_s+'FB' : ""}
         </span>
-        <br />#{@sum_hours} Hours <br />#{@sum_logs} Logs<br />
       </p>
     </div>"
 

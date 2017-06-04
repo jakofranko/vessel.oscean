@@ -4,6 +4,8 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170602 - 27      Known magye          Illustration
+20170601 - 24      Aliceffekt           Branding
 20170531 @ 28   10 Collected works      Illustration         Cyan
 20170530 ! 28  179 Children of bramble  Illustration         Immortal Bird
 20170529 - 28      Dinaisth             Illustration
@@ -391,10 +393,10 @@
 20160513 - 37      Verreciel            Development
 20160512 - 37      Verreciel            Development
 20160511 - 37      Verreciel            Analytics
-20160510 - 19  171 Verreciel ost        Release              Verreciel Soundtrack
+20160510 - 19  171 Verreciel soundtrack Release              Verreciel Soundtrack
 20160509 - 16      Portalion            Composition
-20160508 - 14      Verreciel ost        Composition
-20160507 - 19      Verreciel ost        Composition
+20160508 - 14      Verreciel soundtrack Composition
+20160507 - 19      Verreciel soundtrack Composition
 20160506 - 29      Pino                 Branding
 20160505 - 29      Pino                 Branding
 20160504 - 29      Pino                 Branding
@@ -410,7 +412,7 @@
 20160424 - 27   28 Polygore             Modeling             Pentagore
 20160423 - 37      Lietal               Linguistics
 20160422 - 28      Verreciel            Design
-20160421 - 19      Verreciel ost        Composition
+20160421 - 19      Verreciel soundtrack Composition
 20160420 - 35      Verreciel            Tools
 20160419 - 29      Hundred rabbits      Tools
 20160418 - 19      Hundred rabbits      Composition
@@ -421,7 +423,7 @@
 20160413 ! 27   32 Polygore             Modeling             Trigore
 20160412 - 16      Portalion            Composition
 20160411 - 38      Verreciel            Maintenance
-20160410 - 19      Verreciel ost        Composition
+20160410 - 19      Verreciel soundtrack Composition
 20160409 - 18      Hundred rabbits      Composition
 20160408 - 18      Hundred rabbits      Composition
 20160407 - 35      Hundred rabbits      Tools
@@ -438,9 +440,9 @@
 20160327 - 17      Portalion            Composition
 20160326
 20160325 ! 26  495 Verreciel            Design               Eminence
-20160324 - 18      Verreciel ost        Composition
+20160324 - 18      Verreciel soundtrack Composition
 20160323
-20160322 - 18      Verreciel ost        Composition
+20160322 - 18      Verreciel soundtrack Composition
 20160321 - 29      Hundred rabbits      Video
 20160320 - 34      Verreciel            Development
 20160319 - 34      Verreciel            Development
@@ -1109,9 +1111,9 @@
 20140526 - 25      Brane                Illustration
 20140525 - 35  127 Paradise             Development          Update
 20140524 - 35      Paradise             Development
-20140523 @ 19  116 Purgateus            Composition          Autumn Leaves
-20140522 - 35      Purgateus            Release              
-20140521 - 19   36 Purgateus            Composition          
+20140523 @ 19   11 Purgateus Soundtrack Composition          Autumn Leaves
+20140522 - 35  116 Purgateus            Release              Autumn Leaves
+20140521 - 19   36 Purgateus Soundtrack Composition          
 20140520 - 29   35 Purgateus            Design               
 20140519 - 29   34 Purgateus            Design               
 20140518 - 29   33 Purgateus            Design               

@@ -22,7 +22,7 @@ class Link
     if @url.include? "patreon" then return "Patreon" end
     if @url.include? "youtu" then return "Youtube" end
     if @url.include? "drive.google" then return "Google Drive" end
-    if @url.include? "itch.io" then return "itch" end
+    if @url.include? "itch.io" then return "Itch" end
       
     return "External"
 

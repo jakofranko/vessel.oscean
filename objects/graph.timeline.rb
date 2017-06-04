@@ -119,7 +119,7 @@ class Graph_Timeline
 
     markers += "<span style='position:absolute; bottom:15px;right:30px'><a href='/Home:Horaire' style='font-weight: normal;color: #fff;border:1px solid #333;padding: 5px;border-radius: 3px'>#{@sum_hours.to_i} hours</a></span>"
 
-    return "<vz><svg style='width:#{width}px; height:#{height}px; background:black; overflow: visible'>"+html+"<svg>#{markers}</vz>"
+    return "<yu style='margin-bottom: 30px;background: #000;padding: 30px 30px 45px 30px;border-radius: 3px;font-family: \"din_regular\";font-size: 11px; color:white; overflow: hidden; max-width: 630px'><svg style='width:#{width}px; height:#{height}px; background:black; overflow: visible; margin-top:15px'>"+html+"<svg>#{markers}</yu>"
 
   end
 
@@ -187,6 +187,5 @@ class Graph_Timeline
     return "#{((sum/tasks.length.to_f)*100).to_i/100.0}"
 
   end
-
 
 end

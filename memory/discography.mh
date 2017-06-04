@@ -71,15 +71,21 @@ EXTENDED SLEEP
 ~ Demo
 
 SUPERWORKER
+  > <album>
+  % cover.superworker half
   - HIPHOP
   - DISCO
   - TECHNO
+  > </album>
 
 SUPERVISITOR
+  > <album>
+  % cover.supervisitor half
   - SUB/FIFTH
   - ULTRASAW
   - PULSE WIDTH
   - METALIZER
+  > </album>
 
 OLD_SUPERVISITOR
   - In Virtue and Truth, Not Power
@@ -163,10 +169,13 @@ NETHER ESPER INSERTS
 ~ Extra
 
 DAMOISEAU CANALX
+  > <album>
+  % cover.damoiseau.canalx half
   - Korben Dallas (Morning Scene)
   - Pop In The Year 9000
   - Blam, Le Passage Sacrilege
   - A Thousand Times Parix
+  > </album>
 
 ~ Soundtracks
 
@@ -190,8 +199,8 @@ OQUONIE SOUNDTRACK
   - The Telephone Player(Bonus)
   - The City Without Streets: Side A(Bonus)
   - The City Without Streets: Side B(Bonus)
-  - _(Bonus)
- </album>
+  - Bonus Track
+  > </album>
 
 RABBITS SOUNDTRACK
   > <album>
