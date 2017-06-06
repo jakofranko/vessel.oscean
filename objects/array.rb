@@ -10,10 +10,6 @@ class Array
       <li><b>Hour Topic Focus</b>, #{hour_topic_focus} HToF, is hours over topics, where optimal topic is 1.</li>
       <li><b>Hour Task Focus</b>, #{hour_task_focus} HTaF, is hours over tasks, where optimal task is 1.</li>
       <li><b>Hour Day Focus</b>, HDF, is hours over days, where maximum hours is 9 hours per day.</li>
-
-      <li>2. day_topic_focus: #{day_topic_focus}, days/topic where optimal is ?.</li>
-      <li>2. day_task_focus: #{day_task_focus}, days/task where optimal is ?.</li>
-      
       <li><b>Sector Balance</b>, SB, is addtive hours/sectors offset.</li>
     </ul>"
 
@@ -80,7 +76,8 @@ class Array
 
   def hour_topic_focus
 
-    return hours/topics.length.to_f
+    v = hours/topics.length.to_f
+    return "#{(v*10).to_i/10.0}"
 
   end
 
@@ -94,7 +91,8 @@ class Array
 
   def hour_task_focus
 
-    return hours/tasks.length.to_f
+    v = hours/tasks.length.to_f
+    return "#{(v*10).to_i/10.0}"
 
   end
 
@@ -110,7 +108,8 @@ class Array
 
   def hour_day_focus
 
-    return hours/days.to_f
+    v = hours/days.to_f
+    return "#{(v*10).to_i/10.0}"
 
   end
 

@@ -49,8 +49,8 @@ class Graph_Overview
       count += 1
     end
 
-    displays = "<span style='position:absolute; left:30px; top:27px; font-size:11px'>#{@logs.hour_topic_focus_precentage} <span style='color:grey'>HTo</span></span>"
-    displays += "<span style='position:absolute; left:30px; top:210px; font-size:11px'>#{@logs.hour_task_focus_precentage} <span style='color:grey'>HTa</span></span>"
+    displays = "<span style='position:absolute; left:30px; top:27px; font-size:11px'>#{@logs.hour_topic_focus} <span style='color:grey'>HTo</span></span>"
+    displays += "<span style='position:absolute; left:30px; top:210px; font-size:11px'>#{@logs.hour_task_focus} <span style='color:grey'>HTa</span></span>"
 
     return "<list class='activity' style='position:relative'>#{displays} #{task_graph(@tasks)}#{html}<hr/>#{@logs.focus_docs}</list>"
 
@@ -86,8 +86,8 @@ class Graph_Overview
     r_topic_focus = r_available + 10
     r_task_focus = r_available + ((2/@topics.length.to_f) * range)
 
-    html += "<circle cx='100' cy='100' r='#{r_topic_focus}' fill='none' stroke='black' />"
-    html += "<circle cx='100' cy='100' r='#{r_task_focus}' fill='none' stroke='black' stroke-dasharray='2,2' />"
+    # html += "<circle cx='100' cy='100' r='#{r_topic_focus}' fill='none' stroke='black' />"
+    # html += "<circle cx='100' cy='100' r='#{r_task_focus}' fill='none' stroke='black' stroke-dasharray='2,2' />"
 
     return "<svg width='200' height='200' style='float:left; margin-right:15px'>#{html}</svg>"
 

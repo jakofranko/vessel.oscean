@@ -113,7 +113,7 @@ class Graph_Timeline
     markers += "<span style='position:absolute; bottom:20px;left:30px'><tt style='color:#72dec2; padding-right:5px'>— </tt> #{@sums[:audio] ? ((@sums[:audio].to_i/@sum_hours.to_f)*100).to_i : 0}% <span style='color:#999'>Audio</span></span>"
     markers += "<span style='position:absolute; bottom:20px;left:110px'><tt style='color:red; padding-right:5px'>— </tt> #{@sums[:visual] ? ((@sums[:visual].to_i/@sum_hours.to_f)*100).to_i : 0}% <span style='color:#999'>Visual</span></span>"
     markers += "<span style='position:absolute; bottom:20px;left:200px'><tt style='color:white; padding-right:5px'>— </tt> #{@sums[:research] ? ((@sums[:research].to_i/@sum_hours.to_f)*100).to_i : 0}% <span style='color:#999'>Research</span></span>"
-    markers += "<span style='position:absolute; bottom:20px;left:350px'>#{@logs.hour_day_focus_percentage}% <span style='color:#999'>HDF</span></span>"
+    markers += "<span style='position:absolute; bottom:20px;left:350px'>#{@logs.hour_day_focus} <span style='color:#999'>HDF</span></span>"
     markers += "<span style='position:absolute; bottom:20px;left:420px'>#{@logs.sector_balance_percentage}% <span style='color:#999'>SB</span></span>"
 
     markers += "<span style='position:absolute; bottom:20px;right:30px'><a href='/Home:Horaire' style='font-weight: normal;color: #fff;border:1px solid #333;padding: 5px;border-radius: 3px'>#{@sum_hours.to_i} hours</a></span>"
