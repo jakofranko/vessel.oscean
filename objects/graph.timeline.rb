@@ -116,7 +116,7 @@ class Graph_Timeline
     markers += "<span style='position:absolute; bottom:20px;left:350px'>#{@logs.hour_day_focus} <span style='color:#999'>Hdf</span></span>"
     markers += "<span style='position:absolute; bottom:20px;left:420px'>#{@logs.sector_balance_percentage}% <span style='color:#999'>Sb</span></span>"
 
-    markers += "<span style='position:absolute; bottom:20px;right:30px'><a href='/Home:Horaire' style='font-weight: normal;color: #fff;border:1px solid #333;padding: 5px;border-radius: 3px'>#{@sum_hours.to_i} hours</a></span>"
+    markers += "<span style='position:absolute; bottom:20px;right:30px'><a href='/Horaire' style='font-weight: normal;color: #fff;border:1px solid #333;padding: 5px;border-radius: 3px'>#{@sum_hours.to_i} hours</a></span>"
 
     return "<yu style='margin-bottom: 30px;background: #000;padding: 30px 30px 45px 30px;font-family: \"din_regular\";font-size: 11px; color:white; overflow: hidden; border-bottom:1px solid #efefef'><svg style='width:100%; height:#{height}px; background:black; overflow: visible; border-bottom: 1px solid #333; margin-bottom:5px'>"+html+"<svg>#{markers}</yu>"
 

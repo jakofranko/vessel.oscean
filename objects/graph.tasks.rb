@@ -37,7 +37,7 @@ class Graph_Tasks
 
     displays = "<span style='position:absolute; left:30px; top:27px; font-size:11px'>#{@logs.hour_task_focus} <span style='color:grey'>HTo</span></span>"
 
-    return "<list class='activity' style='position:relative'>#{displays} #{task_graph(@tasks)}#{html}<hr/></list>"
+    return "<list class='activity' style='position:relative'>#{displays} #{task_graph(@tasks)}#{html}<hr/>#{@logs.focus_docs}</list>"
 
   end
 
