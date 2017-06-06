@@ -4,8 +4,10 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
-20170604 - 35      Hundred rabbits      Tools
-20170603 - 37      Nataniev             Tools
+20170607 - 29      Horaire              Design
+20170605 - 37      Hundred rabbits      Tools
+20170604 - 38      Hundred rabbits      Tools
+20170603 - 37      Horaire              Design
 20170602 - 27      Known magye          Illustration
 20170601 - 24      Aliceffekt           Branding
 20170531 @ 28   10 Collected works      Illustration         Cyan
@@ -24,8 +26,8 @@
 20170518 - 37      Pino                 Maintenance
 20170517 - 34  175 Instrument           Photography          Waterproof            This case shields the {{Instrument}} from salty sprays and moisture.
 20170516 @ 28  174 Instrument           Prototype
-20170515 - 28      Nataniev             Design
-20170514 - 29      Nataniev             Design
+20170515 - 28      Horaire              Design
+20170514 - 29      Horaire              Design
 20170513 - 26      Horaire              Design
 20170512 - 35      Markl                AI
 20170511 - 39      The will the wisp    Writing
@@ -129,10 +131,10 @@
 20170203 - 33      Nataniev             Maintenance
 20170202 - 25  387 Black                Photography          Ensenada, Mexico
 20170201 - 27      Nataniev             Design
-20170131 - 38      Nataniev             Development
+20170131 - 38      Horaire              Development
 20170130 - 38      Nataniev             Documentation
-20170129 - 38      Nataniev             Development
-20170128 - 39      Nataniev             Development
+20170129 - 38      Horaire              Development
+20170128 - 39      Horaire              Development
 20170127 - 29      Nataniev             Design
 20170126 - 27      Ronin                Tools
 20170125 - 29      Hundred rabbits      Video
@@ -306,15 +308,15 @@
 20160810 - 00      America              Travel               San Francisco
 20160809 - 35      Nataniev             Tools
 20160808 ! 29      Polygonoscopy        Modeling             Scan
-20160807 - 35      Nataniev             Tools
+20160807 - 35      Horaire              Tools
 20160806 - 19      Hundred rabbits      Composition
-20160805 - 32      Nataniev             Tools
-20160804 - 38      Nataniev             Tools
-20160803 - 38      Nataniev             Tools
+20160805 - 32      Horaire              Tools
+20160804 - 38      Horaire              Tools
+20160803 - 38      Horaire              Tools
 20160802 - 28      Markl                Design
-20160801 - 38      Nataniev             Tools
+20160801 - 38      Horaire              Tools
 20160731 - 38      Nataniev             Maintenance
-20160730 - 38      Nataniev             Tools
+20160730 - 38      Horaire              Tools
 20160729 - 35      Horaire              Tools
 20160728 - 23      Horaire              Tools
 20160727 - 17      Horaire              Tools
@@ -324,10 +326,10 @@
 20160723 - 35      Markl                Prototype
 20160722 - 36      Markl                Prototype
 20160721 - 34      Nataniev             Development
-20160720 - 34      Nataniev             AI
-20160719 - 34      Nataniev             AI
-20160718 - 32      Nataniev             AI
-20160717 - 34      Nataniev             AI
+20160720 - 34      Horaire              AI
+20160719 - 34      Horaire              AI
+20160718 - 32      Horaire              AI
+20160717 - 34      Horaire              AI
 20160716 - 38      Nataniev             Tools
 20160715 - 24   18 Camera               Event                Learn Film Photo      Aquired Voigtländer Bessa
 20160714 - 19      Collected works      Release              Cyan
@@ -352,14 +354,14 @@
 20160625 - 39      Pino                 Maintenance
 20160624 - 24      Hundred rabbits      Video
 20160623 - 34      Nataniev             Maintenance
-20160622 - 34      Nataniev             Maintenance
-20160621 - 34      Nataniev             Maintenance
+20160622 - 34      Horaire              Maintenance
+20160621 - 34      Horaire              Maintenance
 20160620 - 35      Nataniev             Maintenance
 20160619 - 26      Nereid               Modeling
 20160618 - 34      Nataniev             Maintenance
 20160617 - 34      Nataniev             Maintenance
 20160616 - 34      Advent v             Maintenance
-20160615 - 37      Nataniev             Maintenance
+20160615 - 37      Horaire              Maintenance
 20160614 - 32      Grimgrains           Maintenance
 20160613 - 26      Nereid               Modeling
 20160612 - 34      Grimgrains           Maintenance
@@ -527,7 +529,7 @@
 20160102 - 26  481 Domestic moire       Design               Pre release
 20160101 - 26      Domestic moire       Design
 20151231
-20151230 - 38      Nataniev             Tools
+20151230 - 38      Horaire              Tools
 20151229 - 35      Nataniev             Analytics
 20151228 - 32      Mute                 Prototype
 20151227 - 34      Hundred rabbits      Development
@@ -535,7 +537,7 @@
 20151225 - 32      Mute                 Prototype
 20151224 - 32      Nataniev             Maintenance
 20151223 - 35      Nataniev             Maintenance
-20151222 - 35      Nataniev             Tools
+20151222 - 35      Horaire              Tools
 20151221 - 38      Grimgrains           Tools
 20151220 - 28      Hundred rabbits      Branding
 20151219 - 37      Verreciel            Development
@@ -614,10 +616,10 @@
 20151007 - 39      Verreciel            Development
 20151006 - 36      Verreciel            Development
 20151005 - 35      The will the wisp    Maintenance          0.1
-20151004 - 25      Nataniev             Design
+20151004 - 25      Horaire              Design
 20151003 - 19      The opal inquisitors Live                 Toy Company
 20151002 - 26      Donsol               Maintenance          1.6
-20151001 - 26      Nataniev             Branding
+20151001 - 26      Horaire              Branding
 20150930 - 32      Verreciel            Tools
 20150929 - 25  470 Verreciel            Design               Prototype
 20150928 - 36      Verreciel            Development
@@ -1143,12 +1145,12 @@
 20140426 - 29      Collegiennes         Design
 20140425 - 29      Collegiennes         Branding
 20140424 - 25  280 Nereid               Modeling             The Highways
-20140423 - 35      Nataniev             Update
-20140422 - 35      Nataniev             Update
-20140421 - 35      Nataniev             Update
+20140423 - 35      Horaire              Update
+20140422 - 35      Horaire              Update
+20140421 - 35      Horaire              Update
 20140420 - 35      Nataniev             Maintenance
 20140419 - 25      Kaleidoscope         Illustration
-20140418 - 37      Nataniev             Update
+20140418 - 37      Horaire              Update
 20140417
 20140416
 20140415 - 28      Mobile               Design               Synthesis Programmin
@@ -1159,12 +1161,12 @@
 20140410 - 27      Artwork              Illustration
 20140409 - 25      Vast                 Branding
 20140408 ! 29  241 Vast                 Release              Epreuve
-20140407 - 35      Nataniev             Design
+20140407 - 35      Horaire              Design
 20140406 - 25      Kaleidoscope         Illustration
 20140405 - 29  302 Kaleidoscope         Illustration         Gorgeous Leon
 20140404 - 27      Artwork              Illustration
 20140403 - 29      Vast                 Design
-20140402 - 25      Nataniev             Design
+20140402 - 25      Horaire              Design
 20140401 - 27      Artwork              Illustration
 20140331 - 27      Artwork              Illustration
 20140330 - 29  242 Vast                 Illustration         Preview               The book is a unique piece of cryptography that is somehow narrative in its unintelligibleness.
@@ -2360,16 +2362,16 @@
 20101226 - 25      Artwork              Illustration
 20101225
 20101224
-20101223 - 39      Nataniev             Development
+20101223 - 39      Horaire              Development
 20101222 - 39      Nataniev             Development
 20101221
 20101220 @ 15  315 To The Aeons Hell    Release              To The Aeons Hell
 20101219
 20101218 - 19      To The Aeons Hell    Live                 Toy Company - Montre
 20101217 - 19      To The Aeons Hell    Rehearsal
-20101216 - 39      Nataniev             Tools
-20101215 - 39      Nataniev             Tools
-20101214 - 39      Nataniev             Tools
+20101216 - 39      Horaire              Tools
+20101215 - 39      Horaire              Tools
+20101214 - 39      Horaire              Tools
 20101213 - 26      Nataniev             Prototype
 20101212
 20101211 - 25   93 Vambits              Design               Vambits, Last Gen

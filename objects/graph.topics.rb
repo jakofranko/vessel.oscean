@@ -1,7 +1,7 @@
 #!/bin/env ruby
 # encoding: utf-8
 
-class Graph_Overview
+class Graph_Topics
 
   def initialize(term,from = 0,to = term.logs.length)
     
@@ -50,21 +50,14 @@ class Graph_Overview
     end
 
     displays = "<span style='position:absolute; left:30px; top:27px; font-size:11px'>#{@logs.hour_topic_focus} <span style='color:grey'>HTo</span></span>"
-    displays += "<span style='position:absolute; left:30px; top:210px; font-size:11px'>#{@logs.hour_task_focus} <span style='color:grey'>HTa</span></span>"
 
-    return "<list class='activity' style='position:relative'>#{displays} #{task_graph(@tasks)}#{html}<hr/>#{@logs.focus_docs}</list>"
-
-  end
-
-  def topic_task_focus
-
-    return 46.0
+    return "<list class='activity' style='position:relative'>#{displays} #{task_graph(@tasks)}#{html}<hr/></list>"
 
   end
 
   def task_graph tasks
 
-    max_radius = 100
+    max_radius = 105
     possible = @logs.length * 9.0
     occupied = (@tasks[:audio] ? @tasks[:audio][:sum] : 0) + (@tasks[:visual] ? @tasks[:visual][:sum] : 0) + (@tasks[:research] ? @tasks[:research][:sum] : 0)
 
@@ -75,21 +68,38 @@ class Graph_Overview
 
     html = ""
 
-    html += "<circle cx='100' cy='100' r='#{r_research}' fill='#fff' stroke='black' stroke-width='1' />"
-    html += "<circle cx='100' cy='100' r='#{r_visual}' fill='#ff0000' stroke='black' stroke-width='1' />"
-    html += "<circle cx='100' cy='100' r='#{r_audio}' fill='#72dec2' stroke='black' stroke-width='1' />"
+    html += "<circle cx='#{max_radius}' cy='#{max_radius}' r='#{r_research}' fill='#fff' stroke='black' stroke-width='1' />"
 
-    html += "<circle cx='100' cy='100' r='#{r_available}' fill='#000' />"
+    i = 0
+    while i < @tasks[:research].length
+      html += "<g transform='translate(#{max_radius},#{max_radius}),rotate(#{360/@tasks[:research].length.to_f * i} 0 0)'><line x1='0' y1='0' x2='#{max_radius}' y2='0' stroke='black' stroke-width='1'/></g>"
+      i += 1
+    end
+
+    html += "<circle cx='#{max_radius}' cy='#{max_radius}' r='#{r_visual}' fill='#ff0000' stroke='black' stroke-width='1' />"
+
+    i = 0
+    while i < @tasks[:visual].length
+      html += "<g transform='translate(#{max_radius},#{max_radius}),rotate(#{360/@tasks[:visual].length.to_f * i} 0 0)'><line x1='0' y1='0' x2='#{r_visual}' y2='0' stroke='black' stroke-width='1'/></g>"
+      i += 1
+    end
+
+    html += "<circle cx='#{max_radius}' cy='#{max_radius}' r='#{r_audio}' fill='#72dec2' stroke='black' stroke-width='1' />"
+
+    i = 0
+    while i < @tasks[:audio].length
+      html += "<g transform='translate(#{max_radius},#{max_radius}),rotate(#{360/@tasks[:audio].length.to_f * i} 0 0)'><line x1='0' y1='0' x2='#{r_audio}' y2='0' stroke='black' stroke-width='1'/></g>"
+      i += 1
+    end
+
+    html += "<circle cx='#{max_radius}' cy='#{max_radius}' r='#{r_available}' fill='#000' />"
 
     # Focus
     range = max_radius - r_available
     r_topic_focus = r_available + 10
     r_task_focus = r_available + ((2/@topics.length.to_f) * range)
 
-    # html += "<circle cx='100' cy='100' r='#{r_topic_focus}' fill='none' stroke='black' />"
-    # html += "<circle cx='100' cy='100' r='#{r_task_focus}' fill='none' stroke='black' stroke-dasharray='2,2' />"
-
-    return "<svg width='200' height='200' style='float:left; margin-right:15px'>#{html}</svg>"
+    return "<svg width='#{max_radius*2}' height='#{max_radius*2}' style='float:left; margin-right:15px'>#{html}</svg>"
 
   end
 

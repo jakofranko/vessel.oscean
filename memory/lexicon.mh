@@ -1664,6 +1664,7 @@ RONIN
     & It is meant to replace the use of Photoshop for simple repetitive tasks, basic illustration jobs and the creation of grid based designs. Most of the iconography of {{Nataniev}} has been created with {_Ronin_}.
   LINK
     GITH : https://github.com/hundredrabbits/Ronin
+    YOUT : https://youtu.be/gifzjhyBwOc
 
 PARADISE
   UNDE : Nataniev
@@ -1695,7 +1696,14 @@ MAEVE
 HORAIRE
   UNDE : Nataniev
   TAGS : Portal
-  BREF : {{Horaire}} is a time tracking tool that compiles daily logs into creativity forecasts.
+  BREF : {{Horaire}} is a time tracking tool that graphs and compiles daily logs into creativity forecasts.
+  LINK
+    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/horaire.ma
+  LONG
+    & Horaire data is logged in {*Focus Hours*} {_Fh_}, a ratio of the total available daily work hours. The following two logs have {_Fh_} of 60% and 40%, where on a 8 hours work day, are equal to 4.8h and 3.2h.
+    # <comment>Project    Task          Fh</comment>
+    # Nataniev   Tools         7
+    # Oquonie    Level Design  5
 
 FORUM
   UNDE : Horaire

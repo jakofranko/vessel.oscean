@@ -24,7 +24,7 @@ class CorpseHttp
   ul.legend li { font-family:'din_regular'; color:grey; line-height:15px}
   ul.legend li b { font-weight:normal; font-family:'din_medium'}
   .activity { background:black; color:white; margin-top:-30px; padding:30px; vertical-align:top; border-bottom:1px solid #efefef }
-  .activity > ln { width:33%; min-width:200px; display:inline-block; height:30px;overflow: hidden; font-size: 14px !important; vertical-align:top}
+  .activity > ln { min-width:200px; display:inline-block; height:30px;overflow: hidden; font-size: 14px !important; vertical-align:top}
   .activity .value { color:#555; margin-left:10px; font-size:14px }
   #notice { font-family:'din_regular'; font-size:16px; line-height:26px; background:#fff; padding:15px 20px; border-radius:3px}
   #notice a { font-family: 'din_medium'}
@@ -36,53 +36,25 @@ class CorpseHttp
 
     html = ""
 
-    if term.logs.length > 2
+    if term.name.like("horaire")
+      home_term = $lexicon.to_h("term")["HOME"]
+      html += "<p>#{@term.bref}</p>#{@term.long.runes}\n"      
+      html += Graph_Timeline.new(home_term).to_s
+      html += "<p style='margin-bottom:60px'>The average daily {_Fh_}, is the {*Hour Day Focus*} {_Hdf_} - an index of average focus in a specific project, where its optimal value is 9. In the above graph, the average {_Fh_}, of #{home_term.logs.hours}{_Fh_} over #{home_term.logs.length} days, is equal to #{home_term.logs.hour_day_focus}{_Hdf_}. </p>".markup
+      html += Graph_Topics.new(home_term).to_s
+      html += "<p style='margin-bottom:60px'>This graph introduces the {*Hour Topic*} {_HTo_} & the {*Hour Task*} {_HTa_} - where {_HTo_} is the sum of logged {_Fh_} over the number of different topics, or #{home_term.logs.hours}{_Fh_} over #{home_term.logs.topics.length} topics and {_HTa_} is the sum of logged {_Fh_} over the number of different tasks, or #{home_term.logs.hours}{_Fh_} over #{home_term.logs.tasks.length} tasks.</p>".markup
+      html += Graph_Tasks.new(home_term).to_s
+      return html
+    elsif term.logs.length > 2
       html += Graph_Timeline.new(term).to_s
-      html += Graph_Overview.new(term).to_s
-      html += tasks
-      html += legend
+      html += Graph_Topics.new(term).to_s
+      html += Graph_Tasks.new(term).to_s
     else
       return "<p>The {{#{@query}}} entry does not contain enough {{Horaire}} logs.</p>".markup
     end
     
     return "<div class='horaire'>#{html}</div>"
 
-  end
-
-  def tasks
-
-    tasksHash = term.tasks
-    html = ""
-
-    $sum_hours = 0
-    $sum_logs = 0
-    $max_hours = 0
-    $max_logs = 0
-    tasksHash.sort.each do |name,data|
-      if name == "" then next end
-      if data[:sum_hours] > $max_hours then $max_hours = data[:sum_hours] end
-      if data[:sum_logs] > $max_logs then $max_logs = data[:sum_logs] end
-      $sum_hours += data[:sum_hours]
-      $sum_logs += 1
-    end
-
-    tasksHash.sort_by {|_key, value| value[:sum_hours]}.reverse.each do |name,data|
-      if name == "" then next end
-      if data[:sum_hours] == 0 then next end
-      html += Task.new(data,$max_hours).to_s
-    end
-
-    return html
-
-  end
-
-  def legend
-
-    return "
-    <ul>
-      <li>* <b>Focus Hours</b>, FH, are the sum of a task's logged hours over the number of days.</li>
-      <li>* <b>Focus Balance</b>, FB, is the index of a task's logged hours balanced over the audio, visual and research sectors.</li>
-    </ul>"
   end
   
 end

@@ -7,10 +7,10 @@ class Array
 
     return "
     <ul class='legend'>
-      <li><b>Hour Topic Focus</b>, #{hour_topic_focus} HToF, is hours over topics, where optimal topic is 1.</li>
-      <li><b>Hour Task Focus</b>, #{hour_task_focus} HTaF, is hours over tasks, where optimal task is 1.</li>
-      <li><b>Hour Day Focus</b>, HDF, is hours over days, where maximum hours is 9 hours per day.</li>
-      <li><b>Sector Balance</b>, SB, is addtive hours/sectors offset.</li>
+      <li><b>Hour Topic Focus</b>, #{hour_topic_focus}(#{hour_topic_focus_precentage}%) HTo, is hours over topics, where optimal topic is 1.</li>
+      <li><b>Hour Task Focus</b>, #{hour_task_focus}(#{hour_task_focus_precentage}%) HTa, is hours over tasks, where optimal task is 1.</li>
+      <li><b>Hour Day Focus</b>, Hdf, is hours over days, where maximum hours is 9 hours per day.</li>
+      <li><b>Sector Balance</b>, Sb, is addtive hours/sectors offset.</li>
     </ul>"
 
   end
@@ -49,11 +49,15 @@ class Array
 
     if @sectors then return @sectors end
 
-    @sectors = {:audio => 0,:visual => 0,:research => 0,:misc => 0,:sum => 0}
+    @sectors = {}
+    @sectors[:sum] = {:all => 0}
 
     self.each do |log|
-      @sectors[log.sector] += log.value
-      @sectors[:sum] += log.value
+      if !@sectors[log.sector] then @sectors[log.sector] = [] end
+      if !@sectors[:sum][log.sector] then @sectors[:sum][log.sector] = 0 end
+      @sectors[log.sector].push(log)
+      @sectors[:sum][:all] += log.value
+      @sectors[:sum][log.sector] += log.value
     end
 
     return @sectors
@@ -62,7 +66,7 @@ class Array
 
   def hours
 
-    return sectors[:sum]
+    return sectors[:sum][:all]
 
   end
 
@@ -83,7 +87,7 @@ class Array
 
   def hour_topic_focus_precentage
 
-    v = hour_topic_focus / (hours/1.0)
+    v = hour_topic_focus.to_f / (hours/1.0)
 
     return "#{((v * 100)*10).to_i/10.0}"
 
@@ -98,7 +102,7 @@ class Array
 
   def hour_task_focus_precentage
 
-    v = hour_task_focus / (hours/1.0)
+    v = hour_task_focus.to_f / (hours/1.0)
 
     return "#{((v * 100)*10).to_i/10.0}"
 
@@ -136,13 +140,13 @@ class Array
 
   def sector_balance
 
-    max = sectors[:sum]
+    max = sectors[:sum][:all]
 
     offset_sum = 0
     sectors.each do |sector,value|
       if sector == :sum then next end
       if sector == :misc then next end
-      offset = (1/3.0) - (value/max.to_f)
+      offset = (1/3.0) - (sectors[:sum][sector]/max.to_f)
       offset_sum += offset.abs
     end
 
@@ -155,5 +159,31 @@ class Array
     return "#{((sector_balance * 100)*10).to_i/10.0}"
 
   end
+
+  def audio_hour_day_focus
+
+    return sectors[:sum][:audio] ? sectors[:sum][:audio]/sectors[:audio].length.to_f : 0
+
+  end
+
+  def visual_hour_day_focus
+
+    return sectors[:sum][:visual] ? sectors[:sum][:visual]/sectors[:visual].length.to_f : 0
+
+  end
+
+  def research_hour_day_focus
+
+    return sectors[:sum][:research] ? sectors[:sum][:research]/sectors[:research].length.to_f : 0
+
+  end
+
+  def audio_ratio ; return sectors[:sum][:audio] ? sectors[:sum][:audio]/sectors[:sum][:all].to_f : 0 end
+  def visual_ratio ; return sectors[:sum][:visual] ? sectors[:sum][:visual]/sectors[:sum][:all].to_f : 0 end
+  def research_ratio ; return sectors[:sum][:research] ? sectors[:sum][:research]/sectors[:sum][:all].to_f : 0 end
+
+  def audio_ratio_percentage ; return "#{((audio_ratio * 100)*10).to_i/10.0}" end
+  def visual_ratio_percentage ; return "#{((visual_ratio * 100)*10).to_i/10.0}" end
+  def research_ratio_percentage ; return "#{((research_ratio * 100)*10).to_i/10.0}" end
 
 end
