@@ -9,8 +9,8 @@ class Array
     <ul class='legend'>
       <li><b>Hour Topic Focus</b>, #{hour_topic_focus}(#{hour_topic_focus_precentage}%) HTo, is hours over topics, where optimal topic is 1.</li>
       <li><b>Hour Task Focus</b>, #{hour_task_focus}(#{hour_task_focus_precentage}%) HTa, is hours over tasks, where optimal task is 1.</li>
-      <li><b>Hour Day Focus</b>, Hdf, is hours over days, where maximum hours is 9 hours per day.</li>
-      <li><b>Sector Balance</b>, Sb, is addtive hours/sectors offset.</li>
+      <li><b>Hour Day Focus</b>, #{hour_day_focus} Hdf, is hours over days, where maximum hours is 9 hours per day.</li>
+      <li><b>Sector Balance</b>, #{sector_balance_percentage}% Sb, is addtive hours over sectors offset, where optimal is 100%.</li>
     </ul>"
 
   end
