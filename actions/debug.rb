@@ -144,13 +144,16 @@ class ActionDebug
 
     @horaire.to_a.each do |log|
       if !log["CODE"] then next end
-      if log["CODE"][2,2].to_i > 0 && !log["TERM"] then a.push(log) end
+      if log["CODE"][2,2].to_i > 0 && (!log["TERM"] || !log["TASK"]) then a.push(log) end
     end
 
     text = "EMPTY LOGS #{a.length}\n"
 
+    count = 0
     a.each do |log|
+      if count > 5 then break end
       text += "- #{log["DATE"]}\n"
+      count += 1
     end
 
     return text

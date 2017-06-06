@@ -4,7 +4,7 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
-20170607 - 29      Horaire              Design
+20170606 - 29      Horaire              Design
 20170605 - 37      Hundred rabbits      Tools
 20170604 - 38      Hundred rabbits      Tools
 20170603 - 37      Horaire              Design
@@ -482,7 +482,7 @@
 20160218 - 26      Hundred rabbits      Video
 20160217 - 26      Hundred rabbits      Video
 20160216 - 15      Hundred rabbits      Composition
-20160215 - 36  493 Hundred rabbits                           Our Workstations      This is a picture of my workstation on {{Pino}}, next to the breaker panel and below the rardar.
+20160215 - 36  493 Hundred rabbits      Photography          Our Workstations      This is a picture of my workstation on {{Pino}}, next to the breaker panel and below the rardar.
 20160214 ! 00      Pino                 Event                Aquire sailboat       Bought a 33 foot Yamaha sailboat
 20160213 - 15      Verreciel            Composition
 20160212 - 15      Verreciel            Composition
