@@ -1613,9 +1613,9 @@ GAMME
 
 TRISIGHT
   UNDE : Gamme
-  BREF : {{Trisight}} is a name of given to the pursuit of the {_Grand Oeuvre_}, and of the trinity of its members {{Audi}}, {{Visu}} & {{Rese}}.
+  BREF : {{Trisight}} is a name of given to the pursuit of the {_Grand Oeuvre_}, and of the trinity of its members {*Audi*}, {*Visu*} & {*Rese*}.
   LONG
-    & The inverted triangle includes interdisciplines such as procedural or generative music and art at the intersections of {{Rese}}-{{Audi}} & {{Rese}}-{{Visu}}, and sound reactive illustration at the {{Audi}}-{{Visu}} junction.
+    & The inverted triangle includes interdisciplines such as procedural or generative music and art at the intersections of {*Rese*}-{*Audi*} & {*Rese*}-{*Visu*}, and sound reactive illustration at the {*Audi*}-{*Visu*} junction.
     & While the sectors chosent for the realisation of this {{Grand Oeuvre}} are audio, visual and code, someone else's diagram might include taste, touch, or even pain; any medium that one chooses to become the artisan of.
     & The hexagon is a map onto which the {{Nataniev}} ecosystem is meant to overlay.
     % gamme.trisight fit    
@@ -1626,18 +1626,7 @@ GRAND OEUVRE
   UNDE : Trisight
   BREF : The {{Grand Oeuvre}}, as per {{Trisight}} vocabulary, is the sum of one's output goals.
   LONG
-    & In the context of {{Devine Lu Linvega}}, it includes the completion of the {{Neauismetica}}, and {{Nataniev}}.
-AUDI
-  UNDE : Trisight
-  BREF : {{Audi}} is a member of the {{Trisight}}, translating roughly as {_physiognomy_}, {_shape_} or {_fashion_}. See {{Audio}}.
-
-VISU
-  UNDE : Trisight
-  BREF : {{Visu}} is a member of the {{Trisight}}, translating roughly as {_physicality_}, or {_matter_}. See {{Visual}}.
-
-RESE
-  UNDE : Trisight
-  BREF : {{Rese}} is a member of the {{Trisight}}, translating roughly as {_psychology_}, {_volition_} or {_idea_}. See {{Research}}.
+    & In the context of {{Devine Lu Linvega}}, it includes, with the help of {{Horaire}}, the completion of the {{Neauismetica}}, and {{Nataniev}}.
 
 NATANIEV
   UNDE : Gamme

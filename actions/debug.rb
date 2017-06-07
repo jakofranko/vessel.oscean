@@ -176,7 +176,7 @@ class ActionDebug
 
     text = "MISFORMATTED #{h.length}/#{@lexicon.render.length}\n"
 
-    h.each do |name,issue|
+    h.sort.each do |name,issue|
       text += "- #{name}: #{issue}\n"
     end
 

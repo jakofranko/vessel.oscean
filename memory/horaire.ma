@@ -524,7 +524,7 @@
 20160107 - 37      Verreciel            Tools
 20160106 - 32      Nataniev             Development
 20160105 - 32      Verreciel            Development
-20160104 - 23  483 Bifurcan                                  Bifurcan Die
+20160104 - 23  483 Bifurcan             Photography          Bifurcan Die
 20160103 - 25  484 Keyboard             Photography          Setup
 20160102 - 26  481 Domestic moire       Design               Pre release
 20160101 - 26      Domestic moire       Design
@@ -994,7 +994,7 @@
 20140924 - 34      Verreciel            Prototype
 20140923 - 34      Verreciel            Prototype
 20140922 - 35      Noirca               Maintenance          3.0
-20140921 - 19      Ten axitecture                            Band Saga
+20140921 - 19      Ten axitecture       Live                 Band Saga
 20140920 ! 25  261 Brane                Illustration         III
 20140919 ! 25      Polygonoscopy        Illustration
 20140918 ! 25      Polygonoscopy        Illustration
@@ -1023,7 +1023,7 @@
 20140826 - 16      Damoiseau canalx     Composition
 20140825 - 16      Damoiseau canalx     Composition
 20140824 ! 29  244 Entaloneralie        Maintenance          2.0
-20140823 - 29      Alphavetist
+20140823 - 29      Alphavetist          Design
 20140822 ! 29  237 Bifurcan             Maintenance          1.2
 20140821 - 38  233 Ledoliel             Maintenance          2.0
 20140820 - 26      Kaleidoscope         Illustration         Nexted                Nest of the {{Polygonoscopal|Polygonoscopy}} Echoes.
@@ -1080,7 +1080,7 @@
 20140630 - 39      Ledoliel             Branding
 20140629 - 39  123 Noirca               Maintenance          1.1
 20140628 - 39      Noirca               Release              Release
-20140627 ! 39  124 Noirca                                    Prototype
+20140627 ! 39  124 Noirca               Prototype
 20140626 - 29  122 Shorthand            Writing              Cover
 20140625 - 32      Mute                 Update
 20140624 - 35  121 Alphavetist          Release              Release
@@ -1094,18 +1094,18 @@
 20140616 - 29      Ledoliel             Design
 20140615 ! 35  293 Oquonie              Maintenance          Nastazie
 20140614 - 35      Oquonie              Tools
-20140613 - 35      Paradise
-20140612 - 35      Ledoliel
-20140611 - 35      Ledoliel
+20140613 - 35      Paradise             Tools
+20140612 - 35      Ledoliel             Development
+20140611 - 35      Ledoliel             Development
 20140610 - 26      Ledoliel             Release              Release
-20140609 - 35      Ledoliel
+20140609 - 35      Ledoliel             Development
 20140608 - 35      Paradise             Development
 20140607 - 35      Paradise             Tools
-20140606 - 35      Ledoliel
-20140605 - 35      Ledoliel
-20140604 - 35      Ledoliel
-20140603 - 35  118 Ledoliel                                  Space friends
-20140602 - 35  117 Ledoliel                                  Strange Diplomacy
+20140606 - 25      Ledoliel             Design
+20140605 - 25      Ledoliel             Design
+20140604 - 25      Ledoliel             Design
+20140603 - 25  118 Ledoliel             Illustration         Space friends
+20140602 - 29  117 Ledoliel             Illustration         Strange Diplomacy
 20140601 - 35      Paradise             Development
 20140531 - 35      Paradise             Tools
 20140530 - 34      Lietal               Tools
@@ -1154,7 +1154,7 @@
 20140417
 20140416
 20140415 - 28      Mobile               Design               Synthesis Programmin
-20140414 - 37      Mobile 
+20140414 - 37      Methascope           Development 
 20140413 - 28  115 Methascope           Illustration         20x
 20140412 - 28   69 Methascope           Illustration         200x
 20140411 - 28   46 Methascope           Illustration         2000x
@@ -1313,9 +1313,9 @@
 20131109 - 36      Dictionaery          Development
 20131108 - 36      Nataniev             Prototype
 20131107 - 25      Nataniev             Development
-20131106 - 34      Dictionaery
-20131105 - 34      Dictionaery
-20131104 - 34      Dictionaery
+20131106 - 34      Dictionaery          Tools
+20131105 - 34      Dictionaery          Tools
+20131104 - 34      Dictionaery          Tools
 20131103 - 25      Collegiennes         Design               Update
 20131102 - 29      Bifurcan             Release              Release
 20131101 - 34      Nataniev             Development
@@ -1381,9 +1381,9 @@
 20130902 - 39      Oquonie              Tools
 20130901 - 33      Mute                 Development
 20130831 - 33      Mute                 Development
-20130830 - 33      Mute
-20130829 - 33      Mute
-20130828 - 33      Mute
+20130830 - 33      Mute                 Tools
+20130829 - 32      Mute                 Branding
+20130828 - 32      Mute                 Branding
 20130827 - 28      Bifurcan             Prototype
 20130826
 20130825
@@ -1395,7 +1395,7 @@
 20130819
 20130818
 20130817 - 37      Alphavetist          Development
-20130816 - 37      Alphavetist
+20130816 - 37      Alphavetist          Development
 20130815 - 37      Alphavetist          Prototype
 20130814 - 37      Vocavularist         Development
 20130813
@@ -1405,7 +1405,7 @@
 20130809 - 29  355 Vocavularist         Release              1.0
 20130808 - 29      Vocavularist         Development
 20130807 - 39      Mute                 Development
-20130806 - 35      Vocavularist
+20130806 - 35      Vocavularist         Development
 20130805 - 37      Oquonie              Design
 20130804 - 39      Mute                 Development
 20130803 - 36      Mute                 Development
@@ -1416,7 +1416,7 @@
 20130729 - 25      Milavrega            Design
 20130728 - 27  351 Typography           Typography           Mirai Seu
 20130727 - 29  352 Typography           Typography           Milavregarian
-20130726 - 25      Milavrega
+20130726 - 25      Milavrega            Prototype
 20130725 - 35      Vocavularist         Prototype
 20130724 - 35      Milavrega            Design
 20130723 - 35      Milavrega            Development
@@ -1471,7 +1471,7 @@
 20130604 - 35      Nataniev             Design
 20130603 - 35      Horaire              Design
 20130602 - 29  236 Entaloneralie        Release              1.0
-20130601 - 38      Entaloneralie
+20130601 - 38      Entaloneralie        Development
 20130531
 20130530 @ 29  235 Paradise             Illustration         The Endless Shores
 20130529 - 29      Nataniev             Design
@@ -1482,7 +1482,7 @@
 20130524 - 29      Nataniev             Design
 20130523 - 29      Nataniev             Design
 20130522 - 37      Milavrega            Design
-20130521 - 19      Remix                                     Comaduster - Winter
+20130521 - 19      Remix                Composition          Comaduster - Winter
 20130520 - 38      Nataniev             AI
 20130519 - 25      Milavrega            Design
 20130518 - 25      Entaloneralie        Prototype
@@ -1490,14 +1490,14 @@
 20130516 - 35      Milavrega            Design
 20130515 - 35  234 Hiversaires          Writing              Post Mortem
 20130514 - 26      Milavrega            Design
-20130513 - 19      Remix
-20130512 - 19      Remix
+20130513 - 19      Remix                Composition
+20130512 - 19      Remix                Composition
 20130511
 20130510 - 35      Milavrega            Design
 20130509 - 25      Milavrega            Design
 20130508 - 35      Milavrega            Design
 20130507 - 35      Milavrega            Design
-20130506 - 15      Remix
+20130506 - 15      Remix                Composition
 20130505 - 28  228 Artwork              Illustration         Space Marine Colour
 20130504
 20130503 - 29  231 Wallpaper            Writing              Rami Ismail Rant
@@ -1507,15 +1507,15 @@
 20130429 - 35      Milavrega            Design
 20130428
 20130427 - 32      Milavrega            Prototype
-20130426 - 19  224 Remix                                     Veronique - Fisherma
+20130426 - 19  224 Remix                Composition          Veronique - Fisherma
 20130425 - 32      Milavrega            Prototype
 20130424 - 32      Milavrega            Prototype
-20130423 - 19      Remix
+20130423 - 19      Remix                Composition
 20130422 - 29      Waiting for horus    Testing
 20130421 - 38      Hiversaires          Maintenance
 20130420 - 19      Hiversaires          Composition          Soundtrack Release
 20130419
-20130418 - 25      Milavrega    
+20130418 - 25      Milavrega            Design
 20130417 - 27      Waiting for horus    Testing
 20130416 - 35      Nataniev             Development
 20130415 - 18      Dei dain             Composition
@@ -1524,7 +1524,7 @@
 20130412 - 25      Milavrega            Prototype
 20130411 - 25      Milavrega            Prototype
 20130410 - 25      Nataniev             Development
-20130409 - 36      Milavrega    
+20130409 - 36      Milavrega            Design
 20130408 - 35      Horaire              Maintenance
 20130407 - 27      Hiversaires          Release              Release
 20130406 - 35      Hiversaires          Prototype
@@ -1861,14 +1861,14 @@
 20120510
 20120509 - 25      Occulter             Design
 20120508
-20120507 - 28      Interactive
+20120507 - 28      Interactive          Design
 20120506 - 25      Waiting for horus    Design
 20120505 - 25      Waiting for horus    Design
-20120504 - 28      Interactive
+20120504 - 28      Interactive          Design
 20120503 - 25  145 Occulter             Design               Occulter's
 20120502
 20120501
-20120430 - 28      Interactive
+20120430 - 28      Interactive          Design
 20120429 - 25      Waiting for horus    Design
 20120428
 20120427 - 35      Nataniev             Development
@@ -1889,7 +1889,7 @@
 20120412 - 15      Waiting for horus    Composition
 20120411 - 19  140 Children of bramble  Release              Release
 20120410 - 35      Lietal               Development
-20120409 - 28      Interactive
+20120409 - 28      Interactive          Design
 20120408 - 35      Lietal               Tools
 20120407 - 19      Vetetrandes lettres  Live                 Neurodance - Toronto
 20120406 - 35      Lietal               Tools
@@ -1910,10 +1910,10 @@
 20120322 - 25  131 France               Photography          Paris Day 2
 20120321 ! 25  130 France               Photography          Paris
 20120320 - 25      Occulter             Design
-20120319 - 28      Interactive
+20120319 - 28      Interactive          Design
 20120318 - 29      Physical             Prototype
 20120317 - 15      Children of bramble  Composition
-20120316 - 28      Interactive
+20120316 - 28      Interactive          Design
 20120315 - 29      Physical             Prototype
 20120314 - 29   97 Ring of scales       Design               Ring of scales
 20120313 - 25      Infrared             Photography
@@ -1927,7 +1927,7 @@
 20120305 - 29   68 Paradise             Development          A Ghost in Paradise
 20120304 - 35  100 Paradise             Illustration         Lost in Paradise
 20120303 - 35      Paradise             Release
-20120302 - 35      Paradise
+20120302 - 35      Paradise             Tools
 20120301 @ 25   29 Waiting for horus    Design               Waiting for Horus
 20120229 - 35      Nataniev             Design
 20120228
@@ -1990,7 +1990,7 @@
 20120102 - 35      Nataniev             Design
 20120101 - 25      Physical             Prototype
 20111231
-20111230 - 15      Remix                                     iVardensphere - Ghos
+20111230 - 15      Remix                Composition          iVardensphere - Ghos
 20111229 - 25      Physical             Prototype
 20111228 - 25      Merveilles portable  Design
 20111227 - 25      Merveilles portable  Testing
@@ -2024,7 +2024,7 @@
 20111129
 20111128
 20111127 - 15      From Saharaphorest   Composition
-20111126 - 35      Neauismetica                              Nanowrimo
+20111126 - 35      Neauismetica         Writing
 20111125 - 35      Horaire              Development
 20111124 - 35      Lietal               Documentation
 20111123 - 35      Horaire              Development
@@ -2048,7 +2048,7 @@
 20111105 - 35      Notes                Writing
 20111104 - 35      Notes                Writing
 20111103 - 35      Notes                Writing
-20111102 - 29  202 Collegiennes                              Prince of the Arcade
+20111102 - 29  202 Collegiennes         Live                 Prince of the Arcade
 20111101 - 35  201 Notes                Writing              Part I
 20111031 - 25      Merveilles portable  Design
 20111030 - 35      Nataniev             Development
@@ -2058,7 +2058,7 @@
 20111026 - 25      Merveilles portable  Design
 20111025 - 35      Neauismetica         Writing
 20111024
-20111023 - 25      Artwork                                   Vj Session 1
+20111023 - 25      Artwork              Animation
 20111022 - 35      Nataniev             Development
 20111021 - 35      Nataniev             Tools
 20111020
@@ -2110,7 +2110,7 @@
 20110904
 20110903
 20110902
-20110901 - 35   87 Andes                                     Andes' Year 1
+20110901 - 35   87 Andes                Illustration
 20110831
 20110830
 20110829
@@ -2155,7 +2155,7 @@
 20110721 - 19      Mixtape              Mixing               Tunnel
 20110720
 20110719
-20110718 - 39   82 Yajnev                                    Yajnav's Thoughts
+20110718 - 39   82 Yajnev               Illustration         Yajnav's Thoughts
 20110717 - 25      Artwork              Illustration
 20110716 - 25      Artwork              Illustration
 20110715 - 35      Nataniev             Design
@@ -2180,7 +2180,7 @@
 20110626 - 35      Neauismetica         Writing
 20110625 - 35      Neauismetica         Writing
 20110624 - 35      Nataniev             Development
-20110623 - 35      Neauismetica
+20110623 - 35      Neauismetica         Writing
 20110622 - 25      Artwork              Illustration
 20110621 - 35      Neauismetica         Writing
 20110620 - 35      Neauismetica         Writing
@@ -2234,12 +2234,12 @@
 20110503 - 35      Nataniev             Development
 20110502 - 35      Nataniev             Design
 20110501 - 35      Nataniev             Tools
-20110430 - 35      Paradise
+20110430 - 35      Paradise             Development
 20110429 - 15      To The Aeons Hell    Composition
-20110428 - 35      Paradise
-20110427 - 35      Paradise
+20110428 - 35      Paradise             Development
+20110427 - 35      Paradise             Tools
 20110426
-20110425 - 25      Drownspire
+20110425 - 25      Drownspire           Design
 20110424
 20110423 - 15      To The Aeons Hell    Composition
 20110422 - 35      Nataniev             Development
@@ -2255,11 +2255,11 @@
 20110412
 20110411
 20110410 - 15      To The Aeons Hell    Composition
-20110409 - 35      Paradise
+20110409 - 35      Paradise             Tools
 20110408
 20110407 - 15      To The Aeons Hell    Composition
 20110406 - 15      To The Aeons Hell    Composition
-20110405 - 25      Paradise
+20110405 - 25      Paradise             Tools
 20110404
 20110403 - 15      To The Aeons Hell    Composition
 20110402 - 35      Nataniev             Design
@@ -2270,7 +2270,7 @@
 20110328 - 35      Nataniev             Design
 20110327 - 35      Nataniev             Design
 20110326 - 39      Nataniev             Design
-20110325 - 25      Drownspire
+20110325 - 25      Drownspire           Design
 20110324 - 35      Lietal               Documentation
 20110323
 20110322 - 17  370 To The Aeons Hell    Photography
@@ -2303,16 +2303,16 @@
 20110223 - 25      Merveilles portable  Design
 20110222 - 19      Mixtape              Mixing               Easter
 20110221 - 35      Nataniev             Development
-20110220 - 25      Merveilles portable  Design
-20110219 - 35      Merveilles portable  Design
-20110218 - 35      Merveilles portable
-20110217 - 25      Merveilles portable
-20110216 - 25      Merveilles portable
-20110215 - 25      Merveilles portable
-20110214 - 35      Merveilles portable
-20110213 - 29   57 Merveilles portable                       Merveilles Portable
-20110212 - 25      Merveilles portable
-20110211 - 25      Merveilles portable
+20110220 - 25      Merveilles portable  Development
+20110219 - 35      Merveilles portable  Development
+20110218 - 35      Merveilles portable  Development
+20110217 - 25      Merveilles portable  Development
+20110216 - 25      Merveilles portable  Development
+20110215 - 25      Merveilles portable  Development
+20110214 - 35      Merveilles portable  Development
+20110213 - 29   57 Merveilles portable  Design               Merveilles Portable
+20110212 - 25      Merveilles portable  Development
+20110211 - 25      Merveilles portable  Development
 20110210 - 35      Nataniev             Design
 20110209
 20110208 - 35      Nataniev             AI
@@ -2382,8 +2382,8 @@
 20101206
 20101205 - 15      To The Aeons Hell    Composition
 20101204
-20101203 - 25      Drownspire
-20101202 - 25      Drownspire
+20101203 - 25      Drownspire           Branding
+20101202 - 25      Drownspire           Branding
 20101201
 20101130 - 25      Artwork              Illustration
 20101129 - 29   48 Artwork              Illustration         Tools to creative
@@ -2418,7 +2418,7 @@
 20101031
 20101030
 20101029 - 35      Nataniev             Development
-20101028 - 25      Siseon
+20101028 - 25      Siseon               Design
 20101027
 20101026 - 35      Nataniev             Tools
 20101025 - 35      Pico                 Design
@@ -2426,7 +2426,7 @@
 20101023
 20101022 - 29      Merure               Design
 20101021
-20101020 - 25      Drownspire
+20101020 - 25      Drownspire           Branding
 20101019 - 29  300 Pico                 Design               Pico
 20101018
 20101017
@@ -2437,8 +2437,8 @@
 20101012 - 25      Artwork              Illustration
 20101011 - 19      To The Aeons Hell    Composition
 20101010
-20101009 - 35      Pico
-20101008 - 35      Pico
+20101009 - 35      Pico                 Design
+20101008 - 35      Pico                 Design
 20101007 - 29   40 Merure               Release              Merure 3
 20101006
 20101005 - 25      Merure               Design
@@ -2462,20 +2462,20 @@
 20100917 - 35      Nataniev             Development
 20100916
 20100915 - 25      Artwork              Illustration
-20100914 - 25      Drownspire
+20100914 - 25      Drownspire           Design
 20100913
 20100912 - 39   99 Vambits              Design               Vambits, DIY
 20100911
 20100910 @ 25   80 Vambits              Design               Vambits, Gen Hallowe
 20100909 - 15      To The Aeons Hell    Composition
 20100908
-20100907 - 25      Pico
+20100907 - 25      Pico                 Design
 20100906
 20100905
 20100904
 20100903 - 25      Merure               Design
 20100902 - 25      Merure               Design
-20100901 - 29      Collegiennes                              Bivouac Urbain
+20100901 - 29      Collegiennes         Live                 Bivouac Urbain
 20100831
 20100830 - 35      Artwork              Illustration
 20100829 - 15      Mixtape              Mixing               Wave
@@ -2485,20 +2485,20 @@
 20100825 - 35      Nataniev             Tools
 20100824 - 25      Merure               Design
 20100823 - 35      Nataniev             Design
-20100822 - 25      Pico
+20100822 - 25      Pico                 Design
 20100821 - 19    7 To The Aeons Hell    Live                 Toy Company - Montre
-20100820 - 25      Drownspire
-20100819 - 25      Drownspire
-20100818 - 25      Pico
+20100820 - 25      Drownspire           Design
+20100819 - 25      Drownspire           Design
+20100818 - 25      Pico                 Design
 20100817 - 25      Merure               Design
-20100816 - 25      Drownspire
+20100816 - 25      Drownspire           Design
 20100815 - 35      Lietal               Documentation
 20100814
 20100813 ! 25   79 Vambits              Design               Vambits, Gen I
 20100812
-20100811 - 25      Drownspire
+20100811 - 25      Drownspire           Branding
 20100810 - 35      Artwork              Illustration
-20100809 - 19      Remix                                     Misteur Valaire - Da
+20100809 - 19      Remix                Composition          Misteur Valaire - Da
 20100808 - 29  301 Collegiennes         Design               Cloud is a Lie
 20100807 - 29      Collegiennes         Design               Bivouac Urbain
 20100806 - 29      Collegiennes         Design               Bivouac Urbain
@@ -2509,18 +2509,18 @@
 20100801 - 25  450 Hypervoid            Illustration         Infraviolet
 20100731 - 25  449 Hypervoid            Illustration         Dilesion
 20100730
-20100729 - 25      Pico
-20100728 - 25      Drownspire
+20100729 - 25      Pico                 Design
+20100728 - 25      Drownspire           Design
 20100727
 20100726 - 35      Nataniev             Development
-20100725 - 25      Pico
+20100725 - 25      Pico                 Design
 20100724
 20100723 - 19      Idyllic miners       Live                 Badass - Montreal, K
-20100722 - 29  309 Cenote                                    Cenote
-20100721 - 25      Pico
+20100722 - 29  309 Cenote               Design               Cenote
+20100721 - 25      Pico                 Design
 20100720 - 35      Neauismetica         Writing
-20100719 - 25      Pico
-20100718 - 39      Pico
+20100719 - 25      Pico                 Design
+20100718 - 39      Pico                 Design
 20100717
 20100716 - 19      Idyllic miners       Live                 Komor Kommando - Ott
 20100715
@@ -2531,8 +2531,8 @@
 20100710 - 25      Artwork              Illustration
 20100709 - 25      Artwork              Illustration
 20100708 - 35      Nataniev             Development
-20100707 - 25      Drownspire
-20100706 - 25      Drownspire                                Drownspire
+20100707 - 25      Drownspire           Design
+20100706 - 25      Drownspire           Design
 20100705 - 19      Mixtape              Mixing               Suilen
 20100704
 20100703 ! 35   92 Nataniev             Writing              Nataniev's Portrait
@@ -2545,7 +2545,7 @@
 20100626 - 19      Mixtape              Mixing               Suilen
 20100625 - 25      Pico                 Design
 20100624 - 25      Pico                 Design
-20100623 - 29   73 Drownspire                                Founded Drownspire
+20100623 - 29   73 Drownspire           Photography          Founded Drownspire
 20100622 - 25      Pico                 Design
 20100621 - 35      Nataniev             Development
 20100620 - 35      Pico                 Design
@@ -2671,11 +2671,11 @@
 20100220 ! 25  411 Japan                Photography          Green Roofs
 20100219
 20100218
-20100217 ! 34  114 Lifestyle                                 The Diary
+20100217 ! 34  114 Lifestyle            Photography          The Diary
 20100216 - 29  330 Maeve                Illustration         Pcellar II
 20100215 - 29  329 Maeve                Illustration         Pcellar
-20100214 - 29  332 Dinaisth                                  Andes Piano
-20100213 - 29  331 Neauismetica                              Andes Study
+20100214 - 29  332 Dinaisth             Illustration         Andes Piano
+20100213 - 29  331 Neauismetica         Illustration         Andes Study
 20100212
 20100211
 20100210
@@ -2740,7 +2740,7 @@
 20091213
 20091212 - 19      Collected works      Composition
 20091211
-20091210 - 29  305 Artwork                                   Release
+20091210 - 29  305 Artwork              Illustration         Release
 20091209
 20091208
 20091207
@@ -2767,7 +2767,7 @@
 20091116
 20091115 @ 29   43 Merure               Release              Merure 2
 20091114
-20091113 - 29  303 Cyanosis fever                            Cyanosis Fever
+20091113 - 29  303 Cyanosis fever       Design               Cyanosis Fever
 20091112
 20091111
 20091110
@@ -2775,7 +2775,7 @@
 20091108
 20091107 - 28   12 Artwork              Illustration         Self Portrait
 20091106
-20091105 - 29  307 Valentinel hopes                          Valentinel Hopes
+20091105 - 29  307 Valentinel hopes     Design               Valentinel Hopes
 20091104
 20091103
 20091102
@@ -4065,4 +4065,4 @@
 20060428
 20060427
 20060426 - 36      Horaire              Development          Started Horaire
-20060426 ! 36    1 Devine Lu Linvega                         Nakano Tempers
+20060426 ! 36    1 Devine Lu Linvega    Photography          Nakano Tempers
