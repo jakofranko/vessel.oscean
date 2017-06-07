@@ -17,10 +17,9 @@ class Graph_Forecast
 
   def to_s
 
+    if @logs.length < 56 then return "" end
+      
     html = ""
-
-    # Find all time ratio
-
 
     graph = ""
 
