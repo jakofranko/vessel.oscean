@@ -11,6 +11,7 @@ class Log
   attr_accessor :task
   attr_accessor :photo
   attr_accessor :code
+  attr_accessor :forecast
 
   def initialize(content)
 
@@ -26,6 +27,8 @@ class Log
     @photo = @log['PICT'].to_i
     @code  = @log['CODE'].to_s.like("") ? nil : @log['CODE']
 
+    @forecast = nil
+    
   end
 
   def rune

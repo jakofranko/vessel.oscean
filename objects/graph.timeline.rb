@@ -111,8 +111,8 @@ class Graph_Timeline
     markers += "<span style='position: absolute;top: 30px;left: 30px;color: grey'>#{@logs.last.time.ago}</span>"
 
     markers += "<span style='position:absolute; bottom:20px;left:30px'><tt style='color:#72dec2; padding-right:5px'>— </tt> #{@logs.audio_ratio_percentage}% <span style='color:#999'>Audio</span></span>"
-    markers += "<span style='position:absolute; bottom:20px;left:110px'><tt style='color:red; padding-right:5px'>— </tt> #{@logs.visual_ratio_percentage}% <span style='color:#999'>Visual</span></span>"
-    markers += "<span style='position:absolute; bottom:20px;left:200px'><tt style='color:white; padding-right:5px'>— </tt> #{@logs.research_ratio_percentage}% <span style='color:#999'>Research</span></span>"
+    markers += "<span style='position:absolute; bottom:20px;left:120px'><tt style='color:red; padding-right:5px'>— </tt> #{@logs.visual_ratio_percentage}% <span style='color:#999'>Visual</span></span>"
+    markers += "<span style='position:absolute; bottom:20px;left:210px'><tt style='color:white; padding-right:5px'>— </tt> #{@logs.research_ratio_percentage}% <span style='color:#999'>Research</span></span>"
     markers += "<span style='position:absolute; bottom:20px;left:350px'>#{@logs.hour_day_focus} <span style='color:#999'>Hdf</span></span>"
     markers += "<span style='position:absolute; bottom:20px;left:420px'>#{@logs.sector_balance_percentage}% <span style='color:#999'>Sb</span></span>"
 

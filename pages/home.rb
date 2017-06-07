@@ -24,8 +24,6 @@ class CorpseHttp
     html = "<p>#{@term.bref}</p>#{@term.long.runes}\n"
     html += "<p id='notice'>I am currently in {{$ hundredrabbits get_location}}, {{sailing|Hundred rabbits}} across the Pacific Ocean toward New Zealand. My access to internet is limited and will not be able to reply to the {{forum}} as frequently, or answer emails. I will get back to you upon landfall. You can track our sail {{here|http://100r.co/#map}}.</p>".markup
     html += Graph_Timeline.new(term,0,100).to_s
-    html += Graph_Topics.new(term,0,100).to_s
-    html += Graph_Tasks.new(term,0,100).to_s
     
     return html
 

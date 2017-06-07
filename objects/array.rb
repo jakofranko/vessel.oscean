@@ -160,6 +160,12 @@ class Array
 
   end
 
+  def sector_hour_day_focus sector
+
+    return sectors[:sum][sector] ? sectors[:sum][sector]/sectors[sector].length.to_f : 0
+
+  end
+
   def audio_hour_day_focus
 
     return sectors[:sum][:audio] ? sectors[:sum][:audio]/sectors[:audio].length.to_f : 0
