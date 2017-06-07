@@ -35,7 +35,7 @@ class Graph_Forecast
     generate_forecast(@days_ahead).each do |log|
       graph += "<line x1='#{@line_spacing * i}' y1='#{@height}' x2='#{@line_spacing * i}' y2='#{(@height - ((log.value/10.0) * @height)) + @line_spacing}' class='forecast #{log.sector}'></line>"
       html += "<span class='date' style='left:#{@line_spacing/2 + (@line_spacing * i)}px'>#{log.date.day}</span>"
-      html += "<span class='rating' style='left:#{@line_spacing/2 + (@line_spacing * i)}px'>#{log.forecast > 0.33 ? (log.forecast * 100).to_i.to_s : ''}</span>"
+      html += "<span class='rating' style='left:#{@line_spacing/2 + (@line_spacing * i)}px'>#{(log.forecast * 10).trim(1)}</span>"
       i += 1
     end
 
