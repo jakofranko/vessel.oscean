@@ -7,10 +7,10 @@ class CorpseHttp
 
     return "<style>
 
-    span.progress { background:white; font-family:'din_medium'; font-size:12px; color:white; display:block; overflow:hidden; position:relative; height:30px; border-radius:3px; margin-bottom:5px}
+    span.result { background:white; font-family:'din_medium'; font-size:12px; color:white; display:block; overflow:hidden; position:relative; height:30px; border-radius:3px; margin-bottom:5px}
     span.bar { background: black;min-width: 150px;display: block;height:30px;position: absolute;top:0px;left:0px; z-index:900; color:white; position:absolute; line-height: 30px;padding-left:15px}
     span.value { float:right; padding-right:15px; color:#999}
-    span.progress a:hover { text-decoration:underline}
+    span.result a:hover { text-decoration:underline}
     </style>"
 
   end
@@ -42,7 +42,7 @@ class CorpseHttp
 
     searchResult.each do |name,value|
       perc = (value/sum.to_f) * 100
-      html += "<span class='progress'><span class='bar' style='width:calc(#{perc}%)'><a href='/#{name}'>#{name}</a><span class='value'>#{perc.to_i}%</span></span></span>"
+      html += "<span class='result'><span class='bar' style='width:calc(#{perc}%)'><a href='/#{name}'>#{name}</a><span class='value'>#{perc.to_i}%</span></span></span>"
     end
 
     return html
