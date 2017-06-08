@@ -742,18 +742,21 @@ OQUONIE
     ITCH : https://hundredrabbits.itch.io/oquonie
     ITUN : https://itunes.apple.com/us/app/oquonie/id819777958
     GITH : https://github.com/hundredrabbits/Oquonie
+    YOUT : https://youtu.be/mepnp69qI64
 
 OQUONIE GUIDE
   UNDE : Oquonie
-  BREF : Where the hell do I go after finding the first red pillar?
+  BREF : This {{Oquonie Guide}} is aimed at players who have gone past the loop of character changes.
   LONG
-    & This guide is meant to be a spoiler-free list of tips to help you proceed through {{Oquonie}}. So if you have not yet found the first pillar, this is {*not*} for you, so keep playing, for your only task at the moment is to find three matching tokens.
-    & You have found a locked red door, {*a red pillar thing*} appeared next to one of the town's gates, you have been turned back into the first character, {*Necomedre*}. What do?
-    * The Ramen Guy
-    & In your travels, you have met a small spiky ramen-eating character, speaking to him will have spawn in town and give you a {*token*}. You need his help, so make sure that you have found him in each of the worlds.
-    * The Shark
-    & Many doors, across the worlds, were locked. You have gone through the levels without paying any mind to them but now you will need to find each world's {*Red Pillar*} to unlock the door. My guess would be that you are in town and do not know where to proceed next. So this is my tip to you.
-    & Good luck.
+    ? This guide is meant to be a spoiler-free list of tips to help you proceed through {{Oquonie}}. So if you have not yet found the first pillar, this is {*not*} for you, so keep playing, for your only task at the moment is to find sequences of three matching tokens.
+    % oquonie.first.pillar
+    & A {*red pillar*} appeared next to one of the town's gates. What do? In your travels, you have met a small spiky ramen-eating character, speaking to him as each character will have him spawn in town and give you a {*token*} based on which character that you are. You need his help, so make sure that you have found him in each of the worlds.
+    & Things get a bit trickier here, you will need to find your first token as you leave one world, your second from the ramen guy, and the last in yet another world. 
+    ? The town's shark will remove your tokens, speak to him if you ever find yourself with tokens that you do not need. Good luck!
+    * Cheat Codes
+    & To input the cheat codes, just type while the game window is in focus. Their purpose is resolve mirror bugs whenever your save game glitches.
+    # noplacelikehome         <comment>Warps you into the lobby.</comment>
+    # susannakaysen           <comment>Erases the current save game.</comment>
   TAGS : Guide
 
 BABELIUM
