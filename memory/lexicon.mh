@@ -4,10 +4,11 @@
 
 HOME
   UNDE : Home
-  BREF : Welcome to the playground for the projects of multimedia developer {{Devine Lu Linvega}}.
+  BREF : Welcome to the playgrounds of the {{Nataniev}} ecosystem.
   LONG
-    & This wiki provides narrative context for the {{Audio}}, {{Visual}} and {{Research}} projects. If this is your first time around, a good place to begin your exploration is the {{Portal}}.
-    & If you wish to stay updated on the development of the latest projects, follow {{@Neauoire|http://twitter.com/neauoire}}.
+    & This wiki provides documentation and narrative context for the various {{Audio}}, {{Visual}} and {{Research}} projects of multmedia developer {{Devine Lu Linvega}}. If this is your first time around, a good place to begin your exploration is the {{Diary}}.
+  LINK
+    TWIT : https://twitter.com/neauoire
 
 ~ Sectors
 
@@ -357,7 +358,7 @@ SKETCHBOOK
 FLACTALS
   UNDE : Sketchbook
   TYPE : Diary
-  BREF : A series of abstract six-sided flowers drawn using a procedural drawing script. 
+  BREF : {{Flactals}} is a series of abstract six-sided flowers drawn using an early version of {{Ronin}}.
   LONG
     & These flowers have inspired a series of illustrations used in Elodie Lareine's book titled "{{Vast}}" as well as the cover of the {{Aliceffekt}} single titled "{{Known Magye}}", released in 2014.
     ? Drawing flowers, terapeutic.
@@ -675,7 +676,7 @@ PEARLS
 
 BEAUTY
   UNDE : Nereid
-  BREF : {{Beauty}} is a series of {{Nereid}} beauties, earlier patients to Nereid's {_Appeal_}.
+  BREF : {{Beauty}} is a series of portraits of {{Nereid}} beauties.
   TYPE : Diary
   
 POLYGORE
@@ -1437,7 +1438,7 @@ MACRO
 
 INFRARED
   UNDE : Photography
-  BREF : This album contains various {{infrared}} photographs taken with a modified Nikon D3000 camera.
+  BREF : The {{Infrared}} album contains photographs taken with an old modified Nikon D3000 camera.
   TYPE : Diary
 
 FILM
@@ -1632,7 +1633,7 @@ NATANIEV
   UNDE : Gamme
   TYPE : Archive
   TAGS : Portal
-  BREF : {{Nataniev}} is an ecosystem of tools that includes applications such as {{Horaire}}, {{Paradise}} and {{Ronin}} — mapping over the {{Trisight}}.
+  BREF : {{Nataniev}} is a platform for tools such as {{Horaire}}, {{Paradise}} and {{Ronin}} — mapping over the {{Trisight}}.
   LONG
     & The purpose of {_Nataniev_} is to be a platform capable of hosting a series of tools, mapping over the {{Trisight}}, helping in the acceleration of {_Grand Oeuvre_}, see {{Gamme}}.
     % gamme.nataniev fit
@@ -1847,12 +1848,16 @@ NOMAD
 DEVINE LU LINVEGA
   UNDE : Devine lu linvega
   TAGS : Portal
-  BREF : {{Devine lu linvega}} is a developer and designer, living on a {{sailboat|Hundred rabbits}} somewhere in the Pacific Ocean.
+  BREF : {{Devine lu linvega}} is a nomad developer and designer, living on a {{sailboat|Pino}} in the South Pacific.
   LONG
-    & Operating under the {{Neauoire|https://twitter.com/neauoire}} moniker, Devine is currating the {{Beldam Records}} catalog, creating {{experimental mobile projects|http://www.creativeapplications.net/openframeworks/experimental-mobile-apps-by-devine-aliceffect-lu-linvega}} and documenting their {{life at sea|https://www.youtube.com/playlist?list=PLV-JXZPiMUdtBGYfvbp9M7N0Tc15GMqy1}}. Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}} — Devine hope to inspire visitors to learn and to travel. 
+    & Operating under the {_Neauoire_} moniker, Devine is a polymath working on a series of {{experimental tools|Gamme}} and {{applications|Interactive}} involving language.
     # <comment># Satellite Phone</comment>
     # Currently located in <b>{{$ hundredrabbits get_location}}</b>({{$ hundredrabbits get_position}}).
+    & Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}}, Devine hopes to inspire visitors to learn and to travel. 
+    
     ? To {{flee|Obliques}} is life,<br /> To linger is {{Death}}.
+  LINK
+    TWIT : http://twitter.com/neauoire/media
 
 ~ Equipment
 
@@ -1865,10 +1870,6 @@ DEATH
 TRAUMAE
   UNDE : Null
   TYPE : Redirect Lietal
-
-FRACTALS
-  UNDE : Null
-  TYPE : Redirect Flactals
 
 RANDOM
   UNDE : Null

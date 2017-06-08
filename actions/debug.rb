@@ -167,7 +167,7 @@ class ActionDebug
     @lexicon.render.each do |name,hash|
       if hash["TYPE"].to_s.downcase.include?("redirect") then next end
       if !hash["BREF"] then h[name] = "Missing BREF" end
-      if !hash["BREF"].include?("#{name.capitalize}}}") then h[name] = "Missing self-reference" end
+      if !hash["BREF"].include?("#{name.capitalize}}}") && !name.include?(" ") then h[name] = "Missing self-reference" end
       if !hash["LONG"] then h[name] = "Stub" end
       if !(hash["BREF"].to_s+hash["LONG"].to_s).include?("\{\{") then h[name] = "Dead-End" end
       if hash["BREF"].to_s.length > 250 then h[name] = "BREF is too long(#{hash["BREF"].to_s.length} characters)" end

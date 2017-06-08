@@ -2,10 +2,6 @@
 ~ NOTE : YAML
 ~ AUTH : Devine Lu Linvega
 
-OSCEAN
-  Generic
-    Generate an additive graph for horaire
-
 CHILDREN KNOT BOOK
   Draft
     Choose knots
@@ -23,7 +19,6 @@ RONIN
 
 THOUSAND ROOMS
   Generic
-    Kindle Cropping issue
     Fix Amazon Version
   Translation
     Implement German
