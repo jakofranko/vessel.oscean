@@ -30,7 +30,7 @@ class Graph_Tasks
     count = 0
     h.each do |name,val|
       if count > 13 then break end
-        values = {:audio => val[:audio], :visual => val[:visual], :research => val[:research]}
+      values = {:audio => val[:audio], :visual => val[:visual], :research => val[:research]}
       html += "<ln><a>#{name}</a><span class='value'>#{val[:sum]}h</span>#{Progress.new(values,max)}<hr/></ln>"
       count += 1
     end
