@@ -1633,7 +1633,7 @@ GRAND OEUVRE
 
 NATANIEV
   UNDE : Gamme
-  TYPE : Archive
+  TYPE : archive
   TAGS : Portal
   BREF : {{Nataniev}} is a platform for tools such as {{Horaire}}, {{Paradise}} and {{Ronin}} — mapping over the {{Trisight}}.
   LONG
@@ -1644,8 +1644,24 @@ NATANIEV
   LINK
     GITH : https://github.com/XXIIVV/Nataniev
 
-RONIN
+SUITE
   UNDE : Nataniev
+  TYPE : Portal false
+  BREF : The {{Suite}} is a series of open-source and web-based tools designed as offerings to {{Nataniev}}.
+  TAG : Audio
+
+MARABU
+  UNDE : Suite
+  BREF : {{Marabu}} is a web based tracker, or sequencer, designed to write be portable and platform agnostic.
+  TYPE : Diary
+  LONG
+    & The tool is currently in development, but is meant to join {{Ronin}} in the Nataniev suite.
+  LINK
+    GITH : https://github.com/neauoire/Marabu
+  TAGS : Visual
+
+RONIN
+  UNDE : Suite
   BREF : {{Ronin}} is a text-based visual editor designed to draw and automate graphical tasks.
   TYPE : Diary
   LONG
@@ -1657,6 +1673,27 @@ RONIN
   LINK
     GITH : https://github.com/hundredrabbits/Ronin
     YOUT : https://youtu.be/gifzjhyBwOc
+
+HORAIRE
+  UNDE : Nataniev
+  TAGS : Portal
+  BREF : {{Horaire}} is a time tracking tool that graphs and compiles daily logs into creativity forecasts.
+  LINK
+    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/horaire.ma
+  LONG
+    & Horaire data is logged in {*Focus Hours*} {_Fh_}, a ratio of the total available daily work hours. The following two logs have {_Fh_} of 60% and 40%, where on a 8 hours work day, are equal to 4.8h and 3.2h.
+    # <comment>Project    Task          Fh</comment>
+    # Nataniev   Tools         7
+    # Oquonie    Level Design  5
+
+LIETAL
+  UNDE : Nataniev
+  BREF : {{Lietal}} is a {{synthetic language|http://en.wikipedia.org/wiki/Constructed_language}} created to experiment with linguistics and translation.
+  TAGS : Portal
+  LONG
+    $ lietal serve documentation
+  LINK
+    GITH : https://github.com/XXIIVV/vessel.lietal
 
 PARADISE
   UNDE : Nataniev
@@ -1685,18 +1722,6 @@ MAEVE
   LONG
     & Rating each vessel with an index, it deletes redundant vessels and move vessels outside of the void.
 
-HORAIRE
-  UNDE : Nataniev
-  TAGS : Portal
-  BREF : {{Horaire}} is a time tracking tool that graphs and compiles daily logs into creativity forecasts.
-  LINK
-    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/horaire.ma
-  LONG
-    & Horaire data is logged in {*Focus Hours*} {_Fh_}, a ratio of the total available daily work hours. The following two logs have {_Fh_} of 60% and 40%, where on a 8 hours work day, are equal to 4.8h and 3.2h.
-    # <comment>Project    Task          Fh</comment>
-    # Nataniev   Tools         7
-    # Oquonie    Level Design  5
-
 FORUM
   UNDE : Horaire
   TAGS : Portal
@@ -1720,15 +1745,6 @@ DESAMBER
     & Time is written using a variance of the {{Internet Time|https://en.wikipedia.org/wiki/Swatch_Internet_Time}} with 4 digits instead of the Swatch Beat's 3 digits system. The system has no timezone and no daylight saving-time.
   LINK
     GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
-
-LIETAL
-  UNDE : Nataniev
-  BREF : {{Lietal}} is a {{synthetic language|http://en.wikipedia.org/wiki/Constructed_language}} created to experiment with linguistics and translation.
-  TAGS : Portal
-  LONG
-    $ lietal serve documentation
-  LINK
-    GITH : https://github.com/XXIIVV/vessel.lietal
 
 DICTIONAERY
   UNDE : Lietal

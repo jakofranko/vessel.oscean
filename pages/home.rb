@@ -22,7 +22,7 @@ class CorpseHttp
   def view
 
     html = "<p>#{@term.bref}</p>#{@term.long.runes}\n"
-    html += Graph_Topics.new(term,0,100).to_s
+    html += Graph_Timeline.new(term,0,100).to_s
     html += "<p>The above {{Horaire}} interface displays the current active projects and the amount of hours invested in each during the previous 100 days.</p>".markup
 
     html += "<p id='notice'>I am currently in {{$ hundredrabbits get_location}}, {{sailing|Hundred rabbits}} across the Pacific Ocean toward New Zealand. My access to internet is limited and will not be able to reply to the {{forum}} as frequently, or answer emails. I will get back to you upon landfall. You can track our sail {{here|http://100r.co/#map}}.</p>".markup
