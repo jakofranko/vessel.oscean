@@ -9,17 +9,43 @@ SETUP
   # cd Marabu
   # python -m SimpleHTTPServer 8033
   # http://localhost:8033/ <comment>Open this url in Chrome</comment>
-GUIDE
-  + Play/Stop
-  & Pressing {#space#} will play a pattern, pressing {#escape#} will stop.
-  + Copy/Paste Patterns
-  & To copy a pattern, select one or multiple cells, and press {#c#}. To paste it, select a destination cell and press {#v#}.
+SEQUENCE MODE
+  & TODO
+PATTERN MODE
   + Automate
   & The column to the right of the Pattern Sequencer, is the {_MOD_} column. Selecting a cell and moving a slider will record the change.
+  + Play/Stop
+  & Pressing {#space#} will play a pattern, pressing {#escape#} will stop.
+  + Copy/Paste
+  & To copy a pattern, select one or multiple cells, and press {#c#}. To paste it, select a destination cell and press {#v#}.
+  + Shortcuts
+  # [ Selection Octave Up
+  # ] Selection Octave Down
+INSTRUMENT MODE
+  & By default, Marabu falls back to instrument mode. In this mode, you can press the keyboard keys to play sounds, but it will not record. It's the perfect place to test a new instrument.
+  + Shortcuts
+  # a Note C
+  # s Note D
+  # d Note E
+  # f Note F
+  # g Note G
+  # h Note A
+  # j Note B
+  # w Note C#
+  # e Note D#
+  # t Note F#
+  # y Note G#
+  # u Note A#
+  # z Octave Down
+  # x Octave Up
+  # [ Previous instrument
+  # ] Next instrument
+  # } Selection Note Up
+  # { Selection Note Down
 EXPORT
   & To export content, simply use the icons top right, and bottom right of the GUI. To import, drag the files onto the browser window.
   # .mar        Instruments, patterns and sequence.
   # .kit        Multiple instruments.
-  # .ins        Single instrument and name.
+  # .instrument Single instrument and name.
   + Render
   # .wav        Export track as wav file.
