@@ -1,0 +1,25 @@
+~ NAME : The Queue
+~ NOTE : ?
+~ AUTH : Devine Lu Linvega
+
+SETUP
+  + OSX
+  & Simply use the {#Marabu Server#} launcher.
+  + Linux/Win
+  # cd Marabu
+  # python -m SimpleHTTPServer 8033
+  # http://localhost:8033/ <comment>Open this url in Chrome</comment>
+GUIDE
+  + Play/Stop
+  & Pressing {#space#} will play a pattern, pressing {#escape#} will stop.
+  + Copy/Paste Patterns
+  & To copy a pattern, select one or multiple cells, and press {#c#}. To paste it, select a destination cell and press {#v#}.
+  + Automate
+  & The column to the right of the Pattern Sequencer, is the {_MOD_} column. Selecting a cell and moving a slider will record the change.
+EXPORT
+  & To export content, simply use the icons top right, and bottom right of the GUI. To import, drag the files onto the browser window.
+  # .mar        Instruments, patterns and sequence.
+  # .kit        Multiple instruments.
+  # .ins        Single instrument and name.
+  + Render
+  # .wav        Export track as wav file.
