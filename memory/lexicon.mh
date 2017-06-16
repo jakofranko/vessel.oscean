@@ -1652,14 +1652,21 @@ SUITE
 
 MARABU
   UNDE : Suite
-  BREF : {{Marabu}} is a web based music tracker designed to be portable and platform agnostic.
-  TYPE : Memory
+  BREF : {{Marabu}} is a web-based music tracker designed to be portable and platform agnostic.
   LONG
-    & The tracker is built as a fork to the open-source Soundbox and is meant to be an improvement on functionalities while remaining able to create sound 4K/8K demos.
-    & The tool is currently in development, but is meant to join {{Ronin}} in the {{Nataniev}} {{suite}} and fulfill the {{audio}} segment.
+    & The tracker is built as a fork to the open-source Soundbox and is meant to be an improvement on functionalities and design, while remaining aimed at creating 4K/8K demos.
+    & Have a look at the {{Marabu Guide}} for more details.
   LINK
     GITH : https://github.com/neauoire/Marabu
   TAGS : Visual
+
+MARABU GUIDE
+  UNDE : Marabu
+  BREF : Welcome to the {{Marabu}} guide.
+  TAGS : Guide
+  TYPE : Memory
+  LINK
+    GITH : https://github.com/neauoire/Marabu
 
 RONIN
   UNDE : Suite
