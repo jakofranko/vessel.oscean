@@ -105,7 +105,7 @@ class CorpseHttp
   <yu class='ft'>
     <wr>
       <span>
-        <a href='/Nataniev'>#{Media.new("badge","Nataniev")}</a>
+        <a href='/Nataniev'>#{Media.new("brand","logo.nataniev")}</a>
       </span>
       <span>
         <a href='/Devine+Lu+Linvega' style='margin-right:5px'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year}<br />

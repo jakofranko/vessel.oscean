@@ -4,6 +4,7 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170616 - 28      Ronin                Branding
 20170615 - 28      Marabu               Layout
 20170614 - 35      Oquonie              Development
 20170613 - 17      Marabu               Composition

@@ -49,6 +49,7 @@ class CorpseHttp
       return html
     elsif term.logs.length > 2
       html += Graph_Timeline.new(term).to_s
+      html += Graph_Daily.new(term).to_s
       html += Graph_Topics.new(term).to_s
       html += Graph_Tasks.new(term).to_s
       html += Graph_Forecast.new(term).to_s

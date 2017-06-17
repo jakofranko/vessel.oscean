@@ -19,7 +19,17 @@ MAIN
   > <tr><th colspan='3'>Nataniev Suite</th></tr>
   | {{% brand logo.ronin small}} | {{% brand logo.marabu small}} | _
   | The {{Ronin}} logo is a partial letter R. | The {{Marabu}} logo is a partial letter M. | _
-  > <tr><th colspan='3'>Personal</th></tr>
+  > </table>
+
+PERSONAL
+  > <table>
   | {{% brand logo.devine.lu.linvega small}} | {{% brand logo.crest small}} | _
   | The {{Devine Lu Linvega}} avatar is a spiral embeded with the {{Trisight}}. | The {{Neauismetica}} crest has the {{Ehrivevnv}} letters, the Maeve Rope, the {{Neon Hermetism}} sigil and {{Andes}}'s castle silhouette. | _
+  > </table>
+
+ORGANISATIONS
+  > <table>
+  > <tr><th colspan='3'>Organisation</th></tr>
+  | {{% brand logo.beldam.records small}} | {{% brand logo.hundred.rabbits small}} | {{% brand logo.collegiennes small}}
+  | The {{Beldam Records}} logo is 3 half-circles forming a triangle. | THe {{Hundred Rabbits}} logo in a 100 dots. This logo makes more sense when animated. | The {{Collegiennes}} logo.
   > </table>
