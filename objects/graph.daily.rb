@@ -36,8 +36,8 @@ class Graph_Daily
     cell_width = (630 / 52.0).to_i
 
     return "<style>
-    .graph_daily { position:relative; height:55px; margin-bottom:1px}
-    .graph_daily cell { display:block; height:#{cell_width - 2}px; width:#{cell_width - 2}px; background:#333; display:block; border-radius:1px; float:left; margin-bottom:1px; margin-right:1px; position:absolute;}
+    .graph_daily { position:relative; height:55px; border-bottom:1px solid #efefef}
+    .graph_daily cell { display:block; height:#{cell_width - 2}px; width:#{cell_width - 2}px; background:#222; display:block; border-radius:1px; float:left; margin-bottom:1px; margin-right:1px; position:absolute;}
     .graph_daily cell.audio { background:#72dec2}
     .graph_daily cell.visual { background:#f00}
     .graph_daily cell.research { background:#fff}
@@ -48,7 +48,7 @@ class Graph_Daily
   def horaire_hash
 
     hash = {}
-    $horaire.to_a(:log).each do |log|
+    @logs.each do |log|
       hash[log.time.to_s] = log.sector
     end
     return hash
