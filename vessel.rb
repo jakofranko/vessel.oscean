@@ -15,6 +15,7 @@ class VesselOscean
     @site = "http://wiki.xxiivv.com"
 
     install(:custom,:serve)
+    install(:custom,:query)
     install(:custom,:debug)
     install(:generic,:document)
     install(:generic,:help)
