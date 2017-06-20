@@ -208,4 +208,18 @@ class Term
 
   end
 
+  def to_json
+
+    return {
+      :name => @name,
+      :unde => @unde,
+      :type => @type,
+      :tags => @tags,
+      :bref => @bref,
+      :long => @long,
+      :photo => diary.photo
+    }.to_json
+
+  end
+
 end
