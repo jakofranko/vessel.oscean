@@ -4,7 +4,12 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
-20170616 - 28      Ronin                Branding
+20170621 - 39      Rotonde              Prototype                                  Started the Rotonde experiment.
+20170620 - 26      Lobby                Prototype                                  Started building an IDE to build Nataniev within itself.
+20170619 - 38      Lobby                Development
+20170618 - 38      Lobby                Tools                                      
+20170617 - 29      Lobby                Prototype                                  Began created a frontend to the Nataniev server.
+20170616 - 28      Ronin                Branding                                   Update the Ronin logo to a more simple design.
 20170615 - 28      Marabu               Layout
 20170614 - 35      Oquonie              Development
 20170613 - 17      Marabu               Composition
@@ -29,7 +34,7 @@
 20170525 - 28      Ronin                Design
 20170524 - 38      Ronin                Tools
 20170523 - 38      Ronin                Tools
-20170522 @ 29  168 Ronin                Design               Build 09              Updated {{Ronin}} with a major design overhaul and various functionality improvements. It includes the ability to save & load .rin files.<br /><br />I have also updated the logo to fit within the {{Gamme}} ecosystem.
+20170522 @ 29  168 Ronin                Design               Build 09              Updated {{Ronin}} with a major design overhaul and various functionality improvements. It includes the ability to save & load .rin files. I have also updated the logo to fit within the {{Gamme}} ecosystem.
 20170521 @ 29  177 Lae doi              Linguistics          Translation           Translated {{Thousand Rooms}}, {{Lae Doi}}, into {{Lietal}} - making it the first Lietal literature.
 20170520 - 38      Lietal               Linguistics
 20170519 - 39      Lietal               Linguistics
