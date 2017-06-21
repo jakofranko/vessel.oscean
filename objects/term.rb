@@ -208,7 +208,7 @@ class Term
 
   end
 
-  def to_json
+  def to_h
 
     return {
       :name => @name,
@@ -218,7 +218,7 @@ class Term
       :bref => @bref,
       :long => @long,
       :photo => diary.photo
-    }.to_json
+    }
 
   end
 

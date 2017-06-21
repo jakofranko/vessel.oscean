@@ -24,7 +24,7 @@ class ActionFind
     $horaire = Memory_Array.new("horaire",@host.path)
 
     term = $lexicon.to_h(:term)[q.upcase]
-    return term.to_json
+    return term.to_h.to_json
 
   end
 
