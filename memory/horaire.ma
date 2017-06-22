@@ -4,12 +4,12 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
-20170621 - 39      Rotonde              Prototype                                  Started the Rotonde experiment.
-20170620 - 26      Lobby                Prototype                                  Started building an IDE to build Nataniev within itself.
+20170621 - 39      Rotonde              Prototype                                  Drafted the Rotonde exchange specs.
+20170620 - 26      Lobby                Prototype                                  Designed a native Nataniev IDE for the {{Lobby}}.
 20170619 - 38      Lobby                Development
 20170618 - 38      Lobby                Tools                                      
-20170617 - 29      Lobby                Prototype                                  Began created a frontend to the Nataniev server.
-20170616 - 28      Ronin                Branding                                   Update the Ronin logo to a more simple design.
+20170617 - 29      Lobby                Prototype                                  Created a frontend to the Nataniev server, called {{Lobby}}.
+20170616 - 28      Ronin                Branding                                   Updated the Ronin logo to a simplier design.
 20170615 - 28      Marabu               Layout
 20170614 - 35      Oquonie              Development
 20170613 - 17      Marabu               Composition
