@@ -70,14 +70,14 @@ class Graph_Timeline
   def to_s
 
     html = ""
-    width = 629
+    width = 798
     height = 150
     lineWidth = (width+30)/28.0
-    segmentWidth = lineWidth/10
+    segmentWidth = lineWidth/4
     highestValue = findHighestValue
     width += segmentWidth
 
-    lineAudio_html = ""
+    lineAudio_html = "0,#{highestValue * height} "
     lineVisual_html = ""
     lineResearch_html = ""
     lineAverage_html = ""
@@ -85,15 +85,23 @@ class Graph_Timeline
     count = 0
     @segments.reverse.each do |values|
       value = height - ((values[:audio]/highestValue) * height)
+      if count == 0 then value = height end
+      if count == 27 then value = height end
       lineAudio_html += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(value).to_i} "
       lineAudio_html += "#{(count * lineWidth + (segmentWidth * 3) - segmentWidth)},#{(value).to_i} "
       value = height - (values[:visual]/highestValue * height)
+      if count == 0 then value = height end
+      if count == 27 then value = height end
       lineVisual_html += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(value).to_i} "
       lineVisual_html += "#{(count * lineWidth + (segmentWidth * 3) - segmentWidth)},#{(value).to_i} "
       value = height - (values[:research]/highestValue * height)
+      if count == 0 then value = height end
+      if count == 27 then value = height end
       lineResearch_html += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(value).to_i} "
       lineResearch_html += "#{(count * lineWidth + (segmentWidth * 3) - segmentWidth)},#{(value).to_i} "
       value = height - (((values[:audio] + values[:visual] + values[:research])/3)/highestValue * height)
+      if count == 0 then value = height end
+      if count == 27 then value = height end
       lineAverage_html += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(value).to_i} "
       lineAverage_html += "#{(count * lineWidth + (segmentWidth * 3) - segmentWidth)},#{(value).to_i} "
       count += 1
@@ -101,24 +109,23 @@ class Graph_Timeline
 
     # Lines
 
-    html += "<polyline points='#{lineAverage_html}' style='fill:none;stroke:grey;stroke-width:1' stroke-dasharray='1,2' />"
-    html += "<polyline points='#{lineAudio_html}' style='fill:none;stroke:#72dec2;stroke-width:1' />"
-    html += "<polyline points='#{lineVisual_html}' style='fill:none;stroke:red;stroke-width:1' />"
-    html += "<polyline points='#{lineResearch_html}' style='fill:none;stroke:white;stroke-width:1' />"
+    html += "<polyline points='#{lineResearch_html}' style='fill:RGBA(0,0,0,0.15)' />"
+    html += "<polyline points='#{lineVisual_html}' style='fill:none; stroke:#000; stroke-width:1' />"
+    html += "<polyline points='#{lineAudio_html}' style='stroke:#72dec2; fill:none; stroke-width:1' />"
 
+    html += "<polyline points='#{lineAverage_html}' style='fill:none;stroke:#000' stroke-dasharray='1,2' />"
     # Markers
     markers = ""
-    markers += "<span style='position: absolute;top: 30px;left: 30px;color: grey'>#{@logs.last.time.ago}</span>"
+    markers += "<t class='origin'>#{@logs.last.time.ago}</t>"
+    markers += "<t class='sector audio'>#{@logs.audio_ratio_percentage}% <t style='color:#999'>Audio</t></t>"
+    markers += "<t class='sector visual'>#{@logs.visual_ratio_percentage}% <t style='color:#999'>Visual</t></t>"
+    markers += "<t class='sector research'>#{@logs.research_ratio_percentage}% <t style='color:#999'>Research</t></t>"
+    markers += "<t class='sector hdf'>#{@logs.hour_day_focus} <t style='color:#999'>Hdf</t></t>"
+    markers += "<t class='sector sb'>#{@logs.sector_balance_percentage}% <t style='color:#999'>Sb</t></t>"
 
-    markers += "<span style='position:absolute; bottom:20px;left:30px'><tt style='color:#72dec2; padding-right:5px'>— </tt> #{@logs.audio_ratio_percentage}% <span style='color:#999'>Audio</span></span>"
-    markers += "<span style='position:absolute; bottom:20px;left:120px'><tt style='color:red; padding-right:5px'>— </tt> #{@logs.visual_ratio_percentage}% <span style='color:#999'>Visual</span></span>"
-    markers += "<span style='position:absolute; bottom:20px;left:210px'><tt style='color:white; padding-right:5px'>— </tt> #{@logs.research_ratio_percentage}% <span style='color:#999'>Research</span></span>"
-    markers += "<span style='position:absolute; bottom:20px;left:350px'>#{@logs.hour_day_focus} <span style='color:#999'>Hdf</span></span>"
-    markers += "<span style='position:absolute; bottom:20px;left:420px'>#{@logs.sector_balance_percentage}% <span style='color:#999'>Sb</span></span>"
+    markers += "<t class='sector sum'><a href='/Horaire'>#{@sum_hours.to_i} hours</a></t>"
 
-    markers += "<span style='position:absolute; bottom:20px;right:30px'><a href='/Horaire' style='font-weight: normal;color: #fff;border:1px solid #333;padding: 5px;border-radius: 3px'>#{@sum_hours.to_i} hours</a></span>"
-
-    return "<yu style='margin-bottom: 30px;background: #000;padding: 30px 30px 45px 30px;font-family: \"din_regular\";font-size: 11px; color:white; overflow: hidden; border-bottom:1px solid #efefef'><svg style='width:100%; height:#{height}px; background:black; overflow: visible; border-bottom: 1px solid #333; margin-bottom:5px'>"+html+"<svg>#{markers}</yu>"
+    return "#{style}<yu class='graph timeline'><svg style='width:100%; height:#{height}px;'>"+html+"</svg><ln>#{markers}</ln></yu>"
 
   end
 
@@ -174,6 +181,23 @@ class Graph_Timeline
     end
     return "#{((sum/tasks.length.to_f)*100).to_i/100.0}"
 
+  end
+
+  def style
+
+    return "<style>
+    .graph.timeline { margin-bottom:30px}
+    .graph.timeline svg { overflow: hidden; border-bottom: 1px solid #000; padding-top:5px; height:149px}
+    .graph.timeline ln { display:block; position:relative; font-family:'din_regular'; font-size:12px; padding-top:30px}
+    .graph.timeline t.origin { position: absolute;top: -150px;left: 0px;color: #999 }
+    .graph.timeline t.sector { position: absolute;top: 10px;color: #000; padding-left:15px }
+    .graph.timeline t.sector.audio { left:0px }
+    .graph.timeline t.sector.visual { left:100px }
+    .graph.timeline t.sector.research { left:200px }
+    .graph.timeline t.sector.hdf { left:400px;}
+    .graph.timeline t.sector.sb { left:450px;}
+    .graph.timeline t.sector.sum { right:15px;}
+    </style>"
   end
 
 end

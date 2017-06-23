@@ -73,107 +73,56 @@ class CorpseHttp
     add_link("style.fonts.css")
     add_link("style.main.css")
 
-    add_script("jquery.core.js")
-    add_script("jquery.main.js")
+    # add_script("jquery.core.js")
+    # add_script("jquery.main.js")
 
   end
 
-  def body
-    
+  def _hd
+
     return "
-  <yu class='hd'>
-    <wr>
-      <a href='/Home' class='lg'>#{Media.new("icon","logo")}</a>
-      #{@module                                                     ? "<a class='md' href='/#{term.name}'>#{Media.new("icon","return")}<b>Return</b>To #{term.name}</a>" : ""}
-      #{!term.is_diary   && term.has_diaries                        ? "<a class='md' href='/#{term.name}:diary'>#{Media.new("icon","diary")}<b>Diary</b>#{term.diaries.length} Entries</a>" : ""}
-      #{!term.is_horaire && term.has_logs && term.logs.length > 3   ? "<a class='md' href='/#{term.name}:horaire'>#{Media.new("icon","log")}<b>Horaire</b>#{term.logs.length} Logs</a>" : ""}
-      #{!term.type ? "<a class='md' href='/#{term.name.like("home") ? "forum" : term.name+":forum"}'>#{Media.new("icon","forum")}<b>Forum</b>#{term.comments.length} Comments</a>" : ""}
-      #{!term.is_photo   && term.has_diaries                        ? "<a class='md right' href='/#{term.diaries.first.photo}:photo'>#{Media.new("icon","photo")}<b>#{term.diaries.first.name != '' ? term.diary.name : "Untitled"}</b>#{term.diary.time.ago}</a>" : ""}
-    </wr>
-    #{term.diary ? (photo = Media.new("diary",term.diary.photo); photo.set_class("photo") ; photo.to_s) : ""}
-  </yu>
-  <yu class='cr'>
-    <wr>
-      #{_portal}
-      <yu class='vi'>
-        #{view}
-        #{_tags}
-      </yu>
-    </wr>
-    <hr/>
-  </yu>
-  <yu class='ft'>
-    <wr>
-      <span>
-        <a href='/Nataniev'>#{Media.new("brand","logo.nataniev")}</a>
-      </span>
-      <span>
-        <a href='/Devine+Lu+Linvega' style='margin-right:5px'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year}<br />
-        <a href='/portal'>#{$lexicon.length} Projects</a>, over <a href='/horaire'>#{$horaire.length} Days</a><br />
-        <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>BY-NC-SA 4.0</a><br />
-      </span>
-      <span>
-        <a href='/Desamber'><b>#{Desamber.new}</b></a> <br />
-        Updated #{Log.new($horaire.render.first).time.ago}<br />
-        <a href='/Nataniev'>Render "+((Time.new - $nataniev.time) * 1000).to_i.to_s+"ms</a><br /> 
-      </span>
-      <span>
-        <b>Social</b><br />
-        <a href='https://twitter.com/neauoire' target='_blank'>Twitter Account</a><br />
-        <a href='https://github.com/neauoire' target='_blank'>Github Sources</a><br />
-      </span>
-      <hr />
-    </wr>
-  </yu>"
-
-  end
-  
-  def _portal
-    
-    t = ""
-
-    html = ""
-
-    html += "#{Media.new('icon','tree.root')}<a href='/#{term.parent.name}'>#{term.parent.name}</a>"
-    html += "<ul>"
-    term.siblings.each do |sibling|
-      html += "<ul>"
-      if sibling.name.like(term.name) && !term.parent.name.like(term.name)
-        html += "<li>#{Media.new('icon','tree.current')}<a class='current'>#{sibling.name}</a></li>"
-        html += "<ul>"
-        term.children.each do |child|
-          html += "<li>#{Media.new('icon','tree.children')}<a href='/#{child.name}' class='child'>#{child.name}</a></li>"
-        end
-        html += "</ul>"
-      elsif !sibling.name.like(term.name)
-        html += "<li>#{Media.new('icon','tree.parent')}<a href='/#{sibling.name}' class='sibling'>#{sibling.name}</a></li>"
-      end
-      html += "</ul>"
-    end
-    html += "</ul>"
-    
-    return "
-    <yu class='portal'>
-      <a href='/#{term.parent.name}' class='portal'>
-        #{Media.new("badge",@module).exists ? (badge = Media.new("badge",@module) ; badge.set_class('portal') ; badge) : term.badge}
-      </a>
-      <input placeholder='Search' value='#{term.name.length > 13 ? term.name[0,12]+'..' : term.name}' class='q'/>
-      <hr/>
-      #{_links}
-      <list>#{html}</list>
+    <yu class='hd'>
+      <wr>
+        <a href='/#{term.parent.name}' class='portal'>
+          #{Media.new("badge",@module).exists ? (badge = Media.new("badge",@module) ; badge.set_class('portal') ; badge) : term.badge}
+        </a>
+        <input value='#{term.name.like('home') ? 'Jiiv' : term.name.capitalize}' type='text' spellcheck='false' autocorrect='off'/>
+        <h2>#{term.bref}</h2>
+        <h3>
+          #{_links}
+          #{@module                                                     ? "<a class='md' href='/#{term.name}'>To #{term.name}</a>" : ""}
+          #{!term.is_diary   && term.has_diaries                        ? "<a class='md' href='/#{term.name}:diary'>#{term.diaries.length} Diaries</a>" : ""}
+          #{!term.is_horaire && term.has_logs && term.logs.length > 3   ? "<a class='md' href='/#{term.name}:horaire'>#{term.logs.length} Logs</a>" : ""}
+          #{!term.type ? "<a class='md' href='/#{term.name.like("home") ? "forum" : term.name+":forum"}'>#{term.comments.length} Comments</a>" : ""}
+          #{!term.is_horaire && term.has_logs                           ? "<t class='time'>Updated #{term.logs.first.time.ago}</t>" : ""}
+        </h3>
+      </wr>
     </yu>"
-    
-  end
-  
-  def style
-    
-    return ""
-    
+
   end
 
-  def view
-    
-    return "<p>#{term.bref}</p>#{term.long.runes.to_s}"
+  def _mi
+
+    return "<yu class='mi'><wr>"+view+"</wr></yu>"
+
+  end
+
+  def _ft
+
+    return "
+    <yu class='ft'>
+      <wr>
+        <a href='/Devine+Lu+Linvega' style='margin-right:5px'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year}<br /> 
+        <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>BY-NC-SA</a> 4.0 <br />
+        <a href='/Desamber'><b>#{Desamber.new}</b></a> <br />
+        <a href='/portal'>#{$lexicon.length} Projects</a>, over <a href='/horaire'>#{$horaire.length} Days</a> <br />
+        Updated #{Log.new($horaire.render.first).time.ago}<br />
+        <a href='/Nataniev'>Rendered in "+((Time.new - $nataniev.time) * 1000).to_i.to_s+"ms</a><br /> 
+        <a href='https://twitter.com/neauoire' target='_blank'>Twitter</a><br />
+        <a href='https://github.com/neauoire' target='_blank'>Github</a><br />
+        <hr />
+      </wr>
+    </yu>"
 
   end
 
@@ -199,8 +148,24 @@ class CorpseHttp
     term.link.each do |link|
       html += Link.new(link.first,link.last).to_s
     end
-    return "<yu class='lk'>"+html+"</yu><hr/>"
+    return html
 
+  end
+
+
+  def body
+    
+    return "
+    #{_hd}
+    #{_mi}
+    #{_ft}"
+    
+  end
+  
+  def style
+    
+    return ""
+    
   end
 
 end

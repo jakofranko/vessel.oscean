@@ -32,11 +32,11 @@ class Index
     sub_counter = 1
     @indexes.each do |parent,children| 
       if parent.to_s == "root" then next end   
-      html += "<li class='main'><span class='counter'>#{counter}</span> <a href='##{parent.downcase.gsub(' ','_')}'>#{parent.capitalize}</a></li>"
+      html += "<ln class='main'><t class='counter'>#{counter}.0</t> <a href='#{parent}'>#{parent.capitalize}</a></ln>"
       sub_counter = 1
       children.each do |child|
         sub_counter += 1
-        html += "<li><span class='counter'>#{counter}.#{sub_counter}</span> <a href='##{child.downcase.gsub(' ','_')}'>#{child.capitalize}</a></li>"
+        html += "<ln><t class='counter'>#{counter}.#{sub_counter}</t> <a href='#{child}'>#{child.capitalize}</a></ln>"
       end
       counter += 1
     end

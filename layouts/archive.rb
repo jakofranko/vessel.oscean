@@ -15,14 +15,14 @@ class CorpseHttp
       index.add(:root,term.name)
       html += "<h2 id='#{term.name.downcase}'><a href='/#{term.name}'>#{term.name}</a></h2>\n"
       html += "<p>#{term.bref}</p>\n"
-      html += "<div class='children'>"
+      html += "<list class='pl15'>"
       children(term.name).each do |term|
         index.add(term.parent.name,term.name)
-        html += "<div class='child' id='#{term.name.downcase}'>#{term.bref}\n</div>"
+        html += "<ln class='pl15' id='#{term.name.downcase}'>#{term.bref}\n</ln>"
       end
-      html += "</div>"
+      html += "</list>"
     end
-    return "<p>#{@term.bref}</p>#{index}#{@term.long.runes}#{html}"
+    return "#{index}#{@term.long.runes}#{html}"
 
   end
 

@@ -52,7 +52,6 @@ class Term
     a = []
     $lexicon.to_h("term").each do |t_name,t_term|
       if !t_term.unde.like(name) then next end
-
       a.push(t_term)
     end
     @children = a

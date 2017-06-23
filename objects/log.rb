@@ -85,7 +85,7 @@ class Log
     return "
     <yu class='di'>
       #{photo ? "<a href='/#{photo}:photo'>"+media.to_s+"</a>" : ""}
-      #{name.to_s != "" ? "<h2>"+name+"</h2><hs>#{date}</hs><p>#{full}</p>" : ""}
+      #{name.to_s != "" ? "<h2>"+name+"<small>#{date}</small></h2><p>#{full}</p>" : ""}
     </yu>"
 
   end
