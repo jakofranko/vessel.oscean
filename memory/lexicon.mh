@@ -1699,7 +1699,7 @@ HORAIRE
 
 ROTONDE
   UNDE : Horaire
-  BREF : {{Rotonde}} is a social feed protocole to exchange daily activity logs.
+  BREF : {{Rotonde}} is a social feed protocol to exchange daily activity logs.
   LINK
     OFFI : http://rotonde.xxiivv.com
     GITH : https://github.com/XXIIVV/vessel.rotonde/blob/master/DIALOG.md
