@@ -4,6 +4,8 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170623 - 35      Rotonde              Development                                Improved Nataniev's Rotonde client.
+20170622 - 29      Oscean               Design                                     Partially redesign Oscean's front-end.
 20170621 - 39      Rotonde              Prototype                                  Drafted the Rotonde exchange specs.
 20170620 - 26      Lobby                Prototype                                  Designed a native Nataniev IDE for the {{Lobby}}.
 20170619 - 38      Lobby                Development
@@ -15,7 +17,7 @@
 20170613 - 17      Marabu               Composition
 20170612 - 14      Marabu               Tools
 20170611 - 18      Marabu               Tools
-20170610 @ 19  194 Marabu               Composition          The Battlestation
+20170610 N 19      Marabu               Composition          The Battlestation
 20170609 - 39      Marabu               Tools
 20170608 - 37      Oquonie              Update
 20170607 - 38      Horaire              Tools
@@ -158,7 +160,7 @@
 20170122 - 19      Hundred rabbits      Composition
 20170121 - 25      Nataniev             Tools
 20170120 - 25      Markl                Design
-20170119 - 37  229 Nomad                Writing              Fulcanelli            Some thoughts on travel.
+20170119 N 37  229 Nomad                Writing              Fulcanelli            Some thoughts on travel.
 20170118 - 37      Ronin                Tools
 20170117 - 29      Ronin                Design
 20170116 - 35      Markl                Design
@@ -241,7 +243,7 @@
 20161031 - 25  353 Black                Photography
 20161030 - 35      Nataniev             Update
 20161029 - 34      Obliques             Writing
-20161028 ! 36  221 Obliques             Writing              A Digest              I began keeping some general notes on my creative process.
+20161028 N 36  221 Obliques             Writing              A Digest              I began keeping some general notes on my creative process.
 20161027 - 36      Markl                Design
 20161026 - 26      Markl                Design
 20161025 - 27      Markl                Design
@@ -845,7 +847,7 @@
 20150307 - 35  369 Donsol               Design               Prototype
 20150306 - 35      Alphavetist          Maintenance          3.3
 20150305 - 35      Donsol               Design
-20150304 - 26  368 Oquonie              Live                 IGF2015
+20150304 - 26      Oquonie              Live                 IGF2015
 20150303 - 35      Donsol               Design
 20150302 - 25      Donsol               Illustration
 20150301 - 25      Donsol               Prototype
@@ -893,7 +895,7 @@
 20150118 - 35      Hiversaires          Maintenance          3.2
 20150117 - 35      Noirca               Maintenance          4.0
 20150116 - 35      Dew                  Maintenance          1.1
-20150115 ! 18  199 Ramiel               Release              Villa Moirai
+20150115 N 18  199 Ramiel               Release              Villa Moirai
 20150114 - 18      Ramiel               Composition
 20150113 - 18      Ramiel               Composition
 20150112 - 18      Ramiel               Composition
@@ -1131,7 +1133,7 @@
 20140525 - 35  127 Paradise             Development          Update
 20140524 - 35      Paradise             Development
 20140523 @ 19   11 Purgateus Soundtrack Composition          Autumn Leaves
-20140522 - 35  116 Purgateus            Release              Autumn Leaves
+20140522 N 35  116 Purgateus            Release              Autumn Leaves
 20140521 - 19   36 Purgateus Soundtrack Composition          
 20140520 - 29   35 Purgateus            Design               
 20140519 - 29   34 Purgateus            Design               

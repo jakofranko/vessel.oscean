@@ -73,15 +73,16 @@ class CorpseHttp
     add_link("style.fonts.css")
     add_link("style.main.css")
 
-    # add_script("jquery.core.js")
-    # add_script("jquery.main.js")
+    add_script("jquery.core.js")
+    add_script("jquery.main.js")
 
   end
 
   def _hd
 
     return "
-    <yu class='hd'>
+    <yu class='hd #{term.theme}'>
+      #{term.diaries.length > 0 ? term.diaries.first.media : ''}
       <wr>
         <a href='/#{term.parent.name}' class='portal'>
           #{Media.new("badge",@module).exists ? (badge = Media.new("badge",@module) ; badge.set_class('portal') ; badge) : term.badge}
@@ -103,7 +104,7 @@ class CorpseHttp
 
   def _mi
 
-    return "<yu class='mi'><wr>"+view+"</wr></yu>"
+    return "<yu class='mi'><wr>"+view+"#{_tags}</wr></yu>"
 
   end
 
@@ -123,6 +124,12 @@ class CorpseHttp
         <hr />
       </wr>
     </yu>"
+
+  end
+
+  def view
+
+    return "#{@term.long.runes}\n"
 
   end
 
@@ -148,7 +155,7 @@ class CorpseHttp
     term.link.each do |link|
       html += Link.new(link.first,link.last).to_s
     end
-    return html
+    return "#{html}"
 
   end
 

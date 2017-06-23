@@ -35,7 +35,15 @@ class Graph_Tasks
       count += 1
     end
 
-    return "<list class='activity' style='position:relative'><span style='position:absolute; left:30px; top:27px; font-size:11px'>#{@logs.hour_task_focus} <span style='color:grey'>HTa</span></span> #{task_graph(@tasks)}#{html}<hr/>#{@logs.focus_docs}</list>"
+    return "#{style}<yu class='graph tasks'>#{@logs.hour_task_focus} <span style='color:grey'>HTa</span></span> #{task_graph(@tasks)}#{html}<hr/>#{@logs.focus_docs}</list>"
+
+  end
+
+  def style
+
+    return "<style>
+    .graph.tasks { font-family:'din_regular'}
+    </style>"
 
   end
 
@@ -85,7 +93,7 @@ class Graph_Tasks
     html += "<circle cx='#{visual_p.first}' cy='#{visual_p.last}' r='2' fill='#fff' />"
     html += "<circle cx='#{research_p.first}' cy='#{research_p.last}' r='2' fill='#fff' />"
     
-    return "<svg width='#{max_radius*2}' height='#{max_radius*2}' style='float:left; margin-right:15px'>#{html}</svg>"
+    return "<svg width='#{max_radius*2}' height='#{max_radius*2}'>#{html}</svg>"
 
   end
 

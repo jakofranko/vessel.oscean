@@ -7,8 +7,9 @@ class CorpseHttp
 
     return "<style>
     .death yu { line-height: 0px }
-    .death cell { display: inline-block;width: calc(1.9% - 4px);height: 2px;margin: 1px 0px 0px 1px;border-radius: 10px;border: 1px solid #000;}
+    .death cell { display: inline-block;width: calc(1.9% - 4px);height: 5px;margin: 1px 0px 0px 1px;border-radius: 10px; background:#ccc}
     .death cell.black { background:black }
+    .death hr.ten { height: 1px}
     </style>"
     
   end
@@ -22,7 +23,7 @@ class CorpseHttp
     time1 = Time.new
     year = 1
     while year < 60
-      html += year % 10 == 0 ? "<h2 style='padding-top: 30px;'>#{year}</h2>" : ""
+      # html += year % 10 == 0 ? "<hr class='ten'/>" : ""
       week = 0
       while week < 52
         if (year * 52)+week < (daysAgo/7)-4
@@ -35,7 +36,7 @@ class CorpseHttp
       html += "<hr/>"
       year += 1
     end
-    return "<div class='death'><p>#{@term.bref.to_s}</p>#{@term.long.runes.to_s}<yu>#{html}</yu></div>"
+    return "<div class='death'>#{@term.long.runes.to_s}<yu>#{html}</yu></div>"
 
   end
 

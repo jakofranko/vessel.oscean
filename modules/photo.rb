@@ -6,10 +6,10 @@ class CorpseHttp
   def style
     
     return "<style>
-    yu.cr { display:none !important}
-    yu.hd { height:100vh !important}
-    yu.hd wr { height:100vh !important; margin-top:calc(100vh - 60px) !important}
-    yu.hd media.photo { height:100vh !important}
+    body { overflow-x:hidden}
+    yu.hd { height:0px !important; padding:0px}
+    yu.mi wr { width:100vw; padding:0px; margin:0px}
+    yu.mi wr media { width:100vw; height:100vh; margin:0px}
     </style>"
     
   end
@@ -18,7 +18,7 @@ class CorpseHttp
 
     html = ""
     
-    html += "what"
+    html += "<a href='/#{term.name}'>#{Media.new("diary",@query)}</a>"
     return html
 
   end

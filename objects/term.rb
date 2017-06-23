@@ -195,6 +195,12 @@ class Term
 
   end
 
+  def theme
+
+    return diaries.length < 1 ? "default" : diaries.first.theme
+
+  end
+
   def to_s full = nil, display_photo = true
 
     return "

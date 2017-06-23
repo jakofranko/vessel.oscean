@@ -7,6 +7,9 @@ class Graph_Daily
     
     @logs = term.logs[from,to]
     @count_topics = 0
+    @width = 800
+    @cell_width = (@width / 52.0).to_i
+    @cell_height = @cell_width/2
 
   end
 
@@ -15,32 +18,29 @@ class Graph_Daily
     html = ""
 
     logs = horaire_hash
-    cell_width = (630 / 52.0).to_i
     now = Date.today
     d = 0
     while d < 365
       date = (now - d).to_s.gsub("-","")
       pos_y = d % 7
       pos_x = (d / 7).to_i
-      html += "<cell class='#{logs[date] ? logs[date] : ''}' style='bottom:#{30 + (pos_y * cell_width)}px; right:#{30 + (pos_x * cell_width)}px'></cell>"
+      html += "<cell class='#{logs[date] ? logs[date] : ''}' style='bottom:#{30 + (pos_y * @cell_height)}px; right:#{(pos_x * @cell_width)}px'></cell>"
       d += 1
     end
     html += "<hr />"
 
-    return "#{style}<yu class='graph_wrapper graph_daily' style='background:black; padding:30px; margin-bottom:30px; color:white'>#{html}</yu>"
+    return "#{style}<yu class='graph daily'>#{html}</yu>"
 
   end
 
   def style
 
-    cell_width = (630 / 52.0).to_i
-
     return "<style>
-    .graph_daily { position:relative; height:55px; border-bottom:1px solid #efefef}
-    .graph_daily cell { display:block; height:#{cell_width - 2}px; width:#{cell_width - 2}px; background:#222; display:block; border-radius:1px; float:left; margin-bottom:1px; margin-right:1px; position:absolute;}
-    .graph_daily cell.audio { background:#72dec2}
-    .graph_daily cell.visual { background:#f00}
-    .graph_daily cell.research { background:#fff}
+    .graph.daily { position:relative; height:70px; border-bottom:1px solid #000; margin-bottom:30px}
+    .graph.daily cell { display:block; height:#{@cell_height - 2}px; width:#{@cell_width - 2}px; background:#222; display:block; border-radius:1px; float:left; margin-bottom:1px; margin-right:1px; position:absolute; border-radius:10px}
+    .graph.daily cell.audio { background:#72dec2}
+    .graph.daily cell.visual { background:#000}
+    .graph.daily cell.research { background:#ccc}
     </style>"
 
   end

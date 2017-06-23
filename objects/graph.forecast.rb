@@ -51,18 +51,6 @@ class Graph_Forecast
   def style
 
     return "<style>
-    .graph { background:black; border-bottom:1px solid #333}
-    .graph line { stroke-width: #{@line_spacing-1}px; }
-    .graph line.forecast { stroke-dasharray:1,1; }
-    .graph line.audio { stroke:#72dec2 }
-    .graph line.visual { stroke:#f00 }
-    .graph line.research { stroke:#fff }
-    .graph_wrapper { position:relative; border-bottom: 1px solid #efefef }
-    .graph_wrapper span.date { position: absolute;color: grey;top:160px;font-size:11px;font-family: 'din_regular'; width: #{@line_spacing}px; display:block; text-align:center}
-    .graph_wrapper span.date b { color:white; font-weight:normal}
-    .graph_wrapper span.rating { position: absolute;color: white;top:30px;font-size:11px;font-family: 'din_medium';  width: #{@line_spacing}px; display:block; text-align:center}
-    .graph_wrapper span.this_week { position: absolute;color: white;top:30px;font-size:11px;font-family: 'din_medium';  width: #{@line_spacing}px; display:block; text-align:center; height:6px; border-bottom:1px dotted #999}
-    .graph_wrapper span.this_week b { background: black;padding:0px 10px;font-weight: normal}
     </style>"
 
   end

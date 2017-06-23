@@ -109,11 +109,11 @@ class Graph_Timeline
 
     # Lines
 
-    html += "<polyline points='#{lineResearch_html}' style='fill:RGBA(0,0,0,0.15)' />"
-    html += "<polyline points='#{lineVisual_html}' style='fill:none; stroke:#000; stroke-width:1' />"
-    html += "<polyline points='#{lineAudio_html}' style='stroke:#72dec2; fill:none; stroke-width:1' />"
+    html += "<polyline class='average' points='#{lineAverage_html}'/>"
+    html += "<polyline class='research' points='#{lineResearch_html}' />"
+    html += "<polyline class='visual' points='#{lineVisual_html}' />"
+    html += "<polyline class='audio' points='#{lineAudio_html}' />"
 
-    html += "<polyline points='#{lineAverage_html}' style='fill:none;stroke:#000' stroke-dasharray='1,2' />"
     # Markers
     markers = ""
     markers += "<t class='origin'>#{@logs.last.time.ago}</t>"
@@ -188,12 +188,16 @@ class Graph_Timeline
     return "<style>
     .graph.timeline { margin-bottom:30px}
     .graph.timeline svg { overflow: hidden; border-bottom: 1px solid #000; padding-top:5px; height:149px}
+    .graph.timeline svg polyline.audio { fill:none; stroke:#72dec2; stroke-width:1}
+    .graph.timeline svg polyline.visual { fill:none; stroke-dasharray:1,1; stroke:#000; stroke-width:1 }
+    .graph.timeline svg polyline.research { fill:none; stroke:black }
+    .graph.timeline svg polyline.average { fill:#eee; }
     .graph.timeline ln { display:block; position:relative; font-family:'din_regular'; font-size:12px; padding-top:30px}
     .graph.timeline t.origin { position: absolute;top: -150px;left: 0px;color: #999 }
-    .graph.timeline t.sector { position: absolute;top: 10px;color: #000; padding-left:15px }
-    .graph.timeline t.sector.audio { left:0px }
-    .graph.timeline t.sector.visual { left:100px }
-    .graph.timeline t.sector.research { left:200px }
+    .graph.timeline t.sector { position: absolute;top: 0px;color: #000; display: block;line-height: 30px; margin-left:10px }
+    .graph.timeline t.sector.audio { left:0px; border-bottom:1px solid #72dec2 }
+    .graph.timeline t.sector.visual { left:100px; border-bottom:1px dotted black }
+    .graph.timeline t.sector.research { left:200px; border-bottom:1px solid black }
     .graph.timeline t.sector.hdf { left:400px;}
     .graph.timeline t.sector.sb { left:450px;}
     .graph.timeline t.sector.sum { right:15px;}
