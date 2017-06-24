@@ -86,17 +86,17 @@ class Graph_Timeline
     @segments.reverse.each do |values|
       value = height - ((values[:audio]/highestValue) * height)
       if count == 0 then value = height end
-      if count == 27 then value = height end
+      # if count == 27 then value = height end
       lineAudio_html += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(value).to_i} "
       lineAudio_html += "#{(count * lineWidth + (segmentWidth * 3) - segmentWidth)},#{(value).to_i} "
       value = height - (values[:visual]/highestValue * height)
       if count == 0 then value = height end
-      if count == 27 then value = height end
+      # if count == 27 then value = height end
       lineVisual_html += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(value).to_i} "
       lineVisual_html += "#{(count * lineWidth + (segmentWidth * 3) - segmentWidth)},#{(value).to_i} "
       value = height - (values[:research]/highestValue * height)
       if count == 0 then value = height end
-      if count == 27 then value = height end
+      # if count == 27 then value = height end
       lineResearch_html += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(value).to_i} "
       lineResearch_html += "#{(count * lineWidth + (segmentWidth * 3) - segmentWidth)},#{(value).to_i} "
       value = height - (((values[:audio] + values[:visual] + values[:research])/3)/highestValue * height)

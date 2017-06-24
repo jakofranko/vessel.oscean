@@ -83,6 +83,7 @@ class Log
   def theme
 
     if rune == "N" then return "noir" end
+    if rune == "~" then return "no_photo" end
 
     return "default"
 

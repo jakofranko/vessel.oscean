@@ -1993,7 +1993,7 @@
 20120117 - 15      Es gulf sunflowers   Composition
 20120116
 20120115 - 25   20 Mobile               Development          Character Builder
-20120114 - 35   50 Horaire              Development          The Pillars           I have great plans for {{Horaire}}, it ought to be the pillar onto which I rely to remain inspired and productive.
+20120114 ~ 35   50 Horaire              Development          The Pillars           I have great plans for {{Horaire}}, it ought to be the pillar onto which I rely to remain inspired and productive.
 20120113 - 35      Obliques             Tools                Extra
 20120112
 20120111
