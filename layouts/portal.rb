@@ -7,7 +7,7 @@ class CorpseHttp
 
     html = "#{@term.long.runes}\n"
 
-    html += term.type_value == :summary ? small : full
+    html += term.type_value == :summary ? summary : full
 
     return html
 
