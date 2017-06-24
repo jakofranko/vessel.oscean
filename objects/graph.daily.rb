@@ -8,8 +8,9 @@ class Graph_Daily
     @logs = term.logs[from,to]
     @count_topics = 0
     @width = 800
+    @height = 70
     @cell_width = (@width / 52.0).to_i
-    @cell_height = @cell_width/2
+    @cell_height = @height/7
 
   end
 
@@ -36,11 +37,11 @@ class Graph_Daily
   def style
 
     return "<style>
-    .graph.daily { position:relative; height:70px; border-bottom:1px solid #000; margin-bottom:30px}
-    .graph.daily cell { display:block; height:#{@cell_height - 2}px; width:#{@cell_width - 2}px; background:#222; display:block; border-radius:1px; float:left; margin-bottom:1px; margin-right:1px; position:absolute; border-radius:10px}
+    .graph.daily { position:relative; height:#{@height + 45}px; }
+    .graph.daily cell { display:block; height:#{@cell_height + 3}px; width:#{@cell_width - 2}px; background:transparent; display:block; border-radius:1px; float:left; margin-bottom:1px; margin-right:1px; position:absolute; border-radius:3px}
     .graph.daily cell.audio { background:#72dec2}
     .graph.daily cell.visual { background:#000}
-    .graph.daily cell.research { background:#ccc}
+    .graph.daily cell.research { background:#ddd}
     </style>"
 
   end

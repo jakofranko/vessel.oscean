@@ -78,7 +78,7 @@ class Term
 
     if !@type then return nil end
     if !@type.include?(" ") then return nil end
-    return @type.sub(type,"").strip.downcase.to_sym
+    return @type.split(" ").last.strip.downcase.to_sym
 
   end
 

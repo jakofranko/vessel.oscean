@@ -4,6 +4,7 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170624 - 27      Horaire              Design                                     Redesigned a few of {{Horaire}} infographics.
 20170623 - 35      Rotonde              Development                                Improved Nataniev's Rotonde client.
 20170622 - 29      Oscean               Design                                     Partially redesign Oscean's front-end.
 20170621 - 39      Rotonde              Prototype                                  Drafted the Rotonde exchange specs.
@@ -480,7 +481,7 @@
 20160308 - 19      Verreciel            Composition
 20160307 - 37      Verreciel            Design
 20160306 - 25   38 Pino                 Photography          From Inside           This is the view from my workstation aboard {{Pino}}.
-20160305 - 35      Nataniev             AI
+20160305 - 35      Oscean               AI
 20160304 - 35      Neauismetica         Writing
 20160303 - 27  494 Portalion            Illustration         Portalion Cover
 20160302 - 19      Portalion            Composition
@@ -539,7 +540,7 @@
 20160109 - 37      Verreciel            Tools
 20160108 - 37      Verreciel            Tools
 20160107 - 37      Verreciel            Tools
-20160106 - 32      Nataniev             Development
+20160106 - 32      Oscean               Development
 20160105 - 32      Verreciel            Development
 20160104 - 23  483 Bifurcan             Photography          Bifurcan Die
 20160103 - 25  484 Keyboard             Photography          Setup
@@ -547,13 +548,13 @@
 20160101 - 26      Domestic moire       Design
 20151231
 20151230 - 38      Horaire              Tools
-20151229 - 35      Nataniev             Analytics
+20151229 - 35      Oscean               Analytics
 20151228 - 32      Mute                 Prototype
 20151227 - 34      Hundred rabbits      Development
 20151226 - 32      Mute                 Prototype
 20151225 - 32      Mute                 Prototype
-20151224 - 32      Nataniev             Maintenance
-20151223 - 35      Nataniev             Maintenance
+20151224 - 32      Oscean               Maintenance
+20151223 - 35      Oscean               Maintenance
 20151222 - 35      Horaire              Tools
 20151221 - 38      Grimgrains           Tools
 20151220 - 28      Hundred rabbits      Branding
@@ -571,27 +572,27 @@
 20151208 - 25      Verreciel            Development
 20151207 - 35      Noirca               Maintenance          4.1
 20151206 - 25  477 Hundred rabbits      Branding             Rabbits               The name comes from the sailboat's name in the Japanese show Ergo Proxy.
-20151205 - 32      Nataniev             Maintenance
+20151205 - 32      Oscean               Maintenance
 20151204 ! 25  478 Keyboard 468         Maintenance          1.4
 20151203 - 21      Oquonie              Branding
 20151202 - 28      Hundred rabbits      Design
 20151201 - 28      Hundred rabbits      Design
 20151130 - 28      Oquonie              Testing
 20151129 - 28      Oquonie              Testing
-20151128 - 26      Nataniev             Analytics
+20151128 - 26      Oscean               Analytics
 20151127 - 28      Oquonie              Design
 20151126 - 28      Oquonie              Branding
-20151125 - 37      Nataniev             Testing
-20151124 - 35      Nataniev             Testing
+20151125 - 37      Oscean               Testing
+20151124 - 35      Oscean               Testing
 20151123 - 35      Oquonie              Maintenance
-20151122 - 25      Nataniev             Testing
+20151122 - 25      Oscean               Testing
 20151121 - 34      Alphavetist          Maintenance          3.8
 20151120 ! 29  476 Keyboard             Photography          All blank keycaps
-20151119 - 29      Nataniev             Design
+20151119 - 29      Oscean               Design
 20151118 - 37      Oquonie              Maintenance
 20151117 - 34      Alphavetist          Maintenance          3.7
 20151116 - 19   44 Grot                 Mixing
-20151115 - 27      Nataniev             Maintenance          1.2
+20151115 - 27      Oscean               Maintenance          1.2
 20151114 - 29      Hundred rabbits      Live
 20151113 ! 29  475 Hundred rabbits      Event                Founded 100R
 20151112 - 37      Oquonie              Maintenance
@@ -605,7 +606,7 @@
 20151104 - 39      The will the wisp    Maintenance
 20151103 - 39      The will the wisp    Maintenance
 20151102 - 26  472 Dictionarism         Design               Diarism
-20151101 - 25  169 Nataniev             Design
+20151101 - 25      Oscean               Design
 20151031 @ 34  166 Mobile               Photography
 20151030 - 36      Verreciel            Tools
 20151029 - 38      Verreciel            Tools
@@ -622,13 +623,13 @@
 20151018 - 25      Verreciel            Documentation
 20151017 - 25      Verreciel            Documentation
 20151016 - 36      Verreciel            Development
-20151015 - 27      Nataniev             Design               The New Ghost
+20151015 - 27      Oscean               Design               The New Ghost
 20151014 - 34      Markl                Prototype
 20151013 - 32      Verreciel            Development
 20151012 - 32      Verreciel            Development
 20151011 - 32      Verreciel            Development
 20151010 - 34      Verreciel            Development
-20151009 - 34      Nataniev             Maintenance          1.1
+20151009 - 34      Oscean               Maintenance          1.1
 20151008 - 36      Verreciel            Development
 20151007 - 39      Verreciel            Development
 20151006 - 36      Verreciel            Development
@@ -654,7 +655,7 @@
 20150916 - 19      The opal inquisitors Live                 AMP - Passwort, Mont
 20150915 ! 29  469 The opal inquisitors Illustration         Ludivine's Banquet
 20150914 - 19      The opal inquisitors Rehearsal
-20150913 - 35      Nataniev             AI
+20150913 - 35      Oscean               AI
 20150912 - 25  468 Austria              Photography          Heading Out
 20150911 - 25  467 Austria              Photography          Streets Like Amadeus
 20150910 - 25  466 Austria              Photography          Vienna
@@ -677,7 +678,7 @@
 20150824 - 24  454 Beauty               Illustration         Vatoxoinal
 20150823 - 24  453 Beauty               Illustration         Hydreviral
 20150822 - 27      Keyboard 468         Maintenance          1.3
-20150821 - 34      Nataniev             Maintenance          4.1
+20150821 - 34      Oscean               Maintenance          4.1
 20150820 - 27    2 Kaleidoscope         Illustration         Chrestasebeia
 20150819 - 35      Desamber             Maintenance          0.1
 20150818 - 25      Pino                 Photography
@@ -696,17 +697,17 @@
 20150805 ! 26  437 Infrared             Photography          Habitat 67
 20150804 - 35      Pino                 Writing              Living aboard
 20150803 - 36      Advent v             Maintenance          0.1
-20150802 - 36      Nataniev             Maintenance          1.0
+20150802 - 36      Oscean               Maintenance          1.0
 20150801 ! 26  436 Infrared             Photography          Graveyard
-20150731 - 36      Nataniev             Maintenance          4.0
+20150731 - 36      Oscean               Maintenance          4.0
 20150730 - 25      Donsol               Maintenance          1.5
 20150729 - 14      Supervisitor         Maintenance          Reissue
 20150728 - 19  434 Supervisitor         Release              Release
-20150727 - 39      Nataniev             Development
-20150726 - 39      Nataniev             Tools
+20150727 - 39      Oscean               Development
+20150726 - 39      Oscean               Tools
 20150725 - 39      Paradise             Maintenance
 20150724 - 39      Paradise             Development
-20150723 - 26      Nataniev             Design
+20150723 - 26      Oscean               Design
 20150722 - 19      Supervisitor         Live
 20150721 - 34      Mute                 Tools
 20150720 - 34      Mute                 Tools
@@ -735,7 +736,7 @@
 20150627 - 35      The will the wisp    Development
 20150626 - 35      The will the wisp    Development
 20150625 - 35      The will the wisp    Development
-20150624 - 35      Nataniev             Maintenance          3.9
+20150624 - 35      Oscean               Maintenance          3.9
 20150623 - 19      Supervisitor         Composition
 20150622 ! 34  297 Vocavularist         Maintenance          2.5
 20150621 - 28      Verreciel            Design
@@ -754,7 +755,7 @@
 20150608 - 36      Russian              Linguistics
 20150607 - 31      Rafinograde          Maintenance          1.4
 20150606 - 36      Horaire              Tools
-20150605 - 36      Nataniev             Development
+20150605 - 36      Oscean               Development
 20150604 - 25      Beldam records       Design
 20150603 - 25      Beldam records       Design
 20150602 - 35      Beldam records       Tools
@@ -822,18 +823,18 @@
 20150401 - 36      Donsol               Development
 20150331 - 38      Maeve                Analytics
 20150330 - 38      Maeve                Development
-20150329 - 35      Nataniev             Maintenance
-20150328 - 35      Nataniev             AI
-20150327 - 35      Nataniev             Maintenance
+20150329 - 35      Oscean               Maintenance
+20150328 - 35      Oscean               AI
+20150327 - 35      Oscean               Maintenance
 20150326 - 17      Eschatolor           Composition
 20150325 - 17      Eschatolor           Composition
-20150324 - 35      Nataniev             Development
+20150324 - 35      Oscean               Development
 20150323 - 36      Mobile               Development
 20150322 - 36      Donsol               Development
 20150321 - 27      Donsol               Release
 20150320 - 26      Physical             Prototype
 20150319 - 29      Physical             Prototype
-20150318 - 36      Nataniev             Update
+20150318 - 36      Oscean               Update
 20150317 - 36      Neon hermetism       Writing
 20150316 - 25      Alphavetist          Maintenance          3.4
 20150315 - 36      Neon hermetism       Writing
@@ -859,7 +860,7 @@
 20150223 ! 25  311 Hypervoid            Illustration         Dischromatic
 20150222 - 29      Nereid               Modeling
 20150221 - 24      Nereid               Modeling
-20150220 - 35      Nataniev             Maintenance          Presskit
+20150220 - 35      Oscean               Maintenance          Presskit
 20150219 - 25      Nereid               Modeling
 20150218 - 25      Nereid               Modeling
 20150217 - 24      Nereid               Modeling
@@ -885,7 +886,7 @@
 20150128 - 37      Oquonie              Maintenance
 20150127 - 37      Oquonie              Maintenance
 20150126 ! 35      Alphavetist          Maintenance          3.2
-20150125 ! 35      Nataniev             Maintenance          0.9
+20150125 ! 35      Oscean               Maintenance          0.9
 20150124 ! 35  295 Alphavetist          Maintenance          3.0
 20150123 - 33      Dew                  Maintenance          1.3
 20150122 - 33      Bifurcan             Maintenance          1.3
@@ -922,8 +923,8 @@
 20141222 - 35      Mobile               Development
 20141221 - 35      Mobile               Prototype
 20141220 - 34      Dew                  Tools
-20141219 - 34      Nataniev             Development
-20141218 - 37      Nataniev             Maintenance          Automate
+20141219 - 34      Oscean               Development
+20141218 - 37      Oscean               Maintenance          Automate
 20141217 - 37  259 Dew                  Release              Release
 20141216 - 37      Dew                  Development
 20141215 - 25  291 Rafinograde          Release              Release
@@ -1017,7 +1018,7 @@
 20140918 ! 25      Polygonoscopy        Illustration
 20140917 ! 25      Polygonoscopy        Illustration
 20140916 ! 25  250 Serventines          Modeling             Jenen
-20140915 - 35      Nataniev             Maintenance          Inner Haven
+20140915 - 35      Oscean               Maintenance          Inner Haven
 20140914 - 25  203 Gamme                Photography          
 20140913
 20140912
@@ -1060,15 +1061,15 @@
 20140806 - 25  139 Advent v             Branding             Release
 20140805 - 29      Advent v             Live
 20140804 - 38      Advent v             Development
-20140803 - 35      Nataniev             Maintenance          Quiet Hell
+20140803 - 35      Oscean               Maintenance          Quiet Hell
 20140802 - 38      Advent v             Development
 20140801 - 38      Advent v             Development
 20140731
 20140730
 20140729 @ 16  129 Ledoliel             Maintenance          1.2
 20140728 - 35  128 Bifurcan             Maintenance          Screensaver
-20140727 - 38      Nataniev             Maintenance          Ten Axis
-20140726 - 31      Nataniev             Maintenance          Inner Haven
+20140727 - 38      Oscean               Maintenance          Ten Axis
+20140726 - 31      Oscean               Maintenance          Inner Haven
 20140725
 20140724
 20140723
@@ -1079,16 +1080,16 @@
 20140718 - 39      Neauismetica         Writing
 20140717 - 28  149 Kaleidoscope         Illustration         Diagolite I
 20140716 - 29  247 Serventines          Illustration         Mount Duomo
-20140715 - 35      Nataniev             Analytics
-20140714 - 35      Nataniev             Analytics
-20140713 - 35      Nataniev             Analytics
-20140712 - 35      Nataniev             Update
-20140711 - 35      Nataniev             Maintenance          Analytics
+20140715 - 35      Oscean               Analytics
+20140714 - 35      Oscean               Analytics
+20140713 - 35      Oscean               Analytics
+20140712 - 35      Oscean               Update
+20140711 - 35      Oscean               Maintenance          Analytics
 20140710 - 35      Oquonie              Maintenance          2.2
 20140709 - 35      Vocavularist         Maintenance          2.2
 20140708 - 35      Alphavetist          Maintenance          2.2
 20140707 - 31      Alphavetist          Maintenance          2.1
-20140706 - 35      Nataniev             Tools
+20140706 - 35      Oscean               Tools
 20140705 - 25      Horaire              Update
 20140704 - 25      Horaire              Update
 20140703 - 25      Horaire              Design
@@ -1153,9 +1154,9 @@
 20140505 - 39      Paradise             Development
 20140504
 20140503
-20140502 - 39      Nataniev             Development
+20140502 - 39      Oscean               Development
 20140501 - 35      Noirca               Prototype
-20140430 - 39      Nataniev             Update
+20140430 - 39      Oscean               Update
 20140429 - 39      Horaire              Update
 20140428 - 26  279 Nereid               Modeling             The South
 20140427 - 29      Collegiennes         Design
@@ -1165,7 +1166,7 @@
 20140423 - 35      Horaire              Update
 20140422 - 35      Horaire              Update
 20140421 - 35      Horaire              Update
-20140420 - 35      Nataniev             Maintenance
+20140420 - 35      Oscean               Maintenance
 20140419 - 25      Kaleidoscope         Illustration
 20140418 - 37      Horaire              Update
 20140417
@@ -1202,7 +1203,7 @@
 20140317
 20140316
 20140315 ! 00      America              Travel               San Fancisco
-20140314 - 36      Nataniev             Update
+20140314 - 36      Oscean               Update
 20140313
 20140312 - 29      Artwork              Illustration
 20140311 - 19      Known magye          Live
@@ -1228,7 +1229,7 @@
 20140219 ! 39  296 Oquonie              Release              Release
 20140218 - 35      Notes                Writing              Month Names
 20140217 - 29      Horaire              Design
-20140216 - 29      Nataniev             Design
+20140216 - 29      Oscean               Design
 20140215 - 29      Horaire              Design
 20140214 - 19      Known magye          Composition
 20140213 - 19      Known magye          Composition
@@ -1243,7 +1244,7 @@
 20140204 - 39      Oquonie              Tools
 20140203 - 34      Paradise             Development
 20140202 - 29      Wallpaper            Illustration
-20140201 - 39      Nataniev             Update
+20140201 - 39      Oscean               Update
 20140131 - 29      Flactals             Illustration         Nestorine
 20140130 - 29  384 Flactals             Illustration         Qraxia
 20140129 - 27      Flactals             Illustration
@@ -1278,7 +1279,7 @@
 20131231 ! 25      Thailand             Photography          Thailand
 20131230 - 29      Oquonie              Design
 20131229 - 29      Oquonie              Design
-20131228 - 29      Nataniev             Design
+20131228 - 29      Oscean               Design
 20131227
 20131226
 20131225 - 39      Lietal               Linguistics
@@ -1286,73 +1287,73 @@
 20131223 - 25      Oquonie              Design
 20131222 - 25      Oquonie              Design
 20131221 - 34      Lietal               Linguistics
-20131220 - 34      Nataniev             Update
+20131220 - 34      Oscean               Update
 20131219 - 34      Oquonie              Development
 20131218 - 34      Lietal               Linguistics
 20131217 - 34      Lietal               Linguistics
 20131216 - 34      Lietal               Linguistics
 20131215 - 34      Oquonie              Development
-20131214 - 34      Nataniev             Update
+20131214 - 34      Oscean               Update
 20131213
 20131212
-20131211 - 34      Nataniev             Update
-20131210 - 34      Nataniev             Update
+20131211 - 34      Oscean               Update
+20131210 - 34      Oscean               Update
 20131209
 20131208 - 34      Oquonie              Design
 20131207 - 34      Oquonie              Design
 20131206 - 34      Oquonie              Design
 20131205 - 39      Mute                 Tools
 20131204 - 39      Mute                 Development
-20131203 - 28      Nataniev             Update
+20131203 - 28      Oscean               Update
 20131202 - 36      Lietal               Linguistics
 20131201 - 36      Lietal               Linguistics
-20131130 - 36      Nataniev             Testing
-20131129 - 36      Nataniev             Testing
+20131130 - 36      Oscean               Testing
+20131129 - 36      Oscean               Testing
 20131128 - 36      Lietal               Development
 20131127 - 36      Lietal               Linguistics 
-20131126 - 36      Nataniev             Testing
+20131126 - 36      Oscean               Testing
 20131125 - 36      Horaire              Testing
-20131124 - 39      Nataniev             Update
-20131123 - 28      Nataniev             Prototype
-20131122 - 28      Nataniev             Prototype
+20131124 - 39      Oscean               Update
+20131123 - 28      Oscean               Prototype
+20131122 - 28      Oscean               Prototype
 20131121 - 25  190 Wallpaper            Design               Motto
 20131120 - 25      Verreciel            Prototype
 20131119 - 25      Verreciel            Prototype
 20131118
 20131117 - 39      Horaire              Tools
 20131116 - 39      Horaire              Tools
-20131115 - 39      Nataniev             Tools
+20131115 - 39      Oscean               Tools
 20131114 - 39      Horaire              Tools
-20131113 - 39      Nataniev             Development
-20131112 - 39      Nataniev             Development
-20131111 - 39      Nataniev             Development
-20131110 - 39      Nataniev             Development
+20131113 - 39      Oscean               Development
+20131112 - 39      Oscean               Development
+20131111 - 39      Oscean               Development
+20131110 - 39      Oscean               Development
 20131109 - 36      Dictionaery          Development
-20131108 - 36      Nataniev             Prototype
-20131107 - 25      Nataniev             Development
+20131108 - 36      Oscean               Prototype
+20131107 - 25      Oscean               Development
 20131106 - 34      Dictionaery          Tools
 20131105 - 34      Dictionaery          Tools
 20131104 - 34      Dictionaery          Tools
 20131103 - 25      Collegiennes         Design               Update
 20131102 - 29      Bifurcan             Release              Release
-20131101 - 34      Nataniev             Development
+20131101 - 34      Oscean               Development
 20131031 - 34      Horaire              Development
-20131030 - 34      Nataniev             Development
+20131030 - 34      Oscean               Development
 20131029 - 34      Horaire              Development
-20131028 - 34      Nataniev             Development
-20131027 - 34      Nataniev             Development
+20131028 - 34      Oscean               Development
+20131027 - 34      Oscean               Development
 20131026 - 19      Known magye          Composition
 20131025 - 36      Sketchbook           Prototype
-20131024 - 34      Nataniev             Development
-20131023 - 34      Nataniev             Maintenance
+20131024 - 34      Oscean               Development
+20131023 - 34      Oscean               Maintenance
 20131022 - 34      Horaire              Development
 20131021 - 36      Lietal               Documentation
-20131020 - 36      Nataniev             Maintenance
-20131019 - 36      Nataniev             Maintenance
+20131020 - 36      Oscean               Maintenance
+20131019 - 36      Oscean               Maintenance
 20131018 - 27      Oquonie              Design
-20131017 - 39      Nataniev             Maintenance
-20131016 - 39      Nataniev             Maintenance
-20131015 - 37      Nataniev             Development
+20131017 - 39      Oscean               Maintenance
+20131016 - 39      Oscean               Maintenance
+20131015 - 37      Oscean               Development
 20131014 - 37      Oquonie              Development
 20131013 - 37      Oquonie              Design
 20131012 - 37      Oquonie              Development
@@ -1364,16 +1365,16 @@
 20131006 - 26      Oquonie              Design
 20131005 - 26  361 Oquonie              Design               Contest
 20131004 - 36  360 Dictionaery          Maintenance          iOS7 Patch
-20131003 - 36      Nataniev             Maintenance
+20131003 - 36      Oscean               Maintenance
 20131002 ! 19  359 Telekinetic          Release              Album Release
 20131001 - 29      Telekinetic          Illustration
 20130930 - 19      Telekinetic          Live                 Square Sound - Tokyo
 20130929 - 29      Telekinetic          Illustration
-20130928 - 36      Nataniev             Maintenance
+20130928 - 36      Oscean               Maintenance
 20130927 - 15      Telekinetic          Composition
-20130926 - 36      Nataniev             Maintenance
-20130925 - 36      Nataniev             Development
-20130924 - 36      Nataniev             Tools
+20130926 - 36      Oscean               Maintenance
+20130925 - 36      Oscean               Development
+20130924 - 36      Oscean               Tools
 20130923 - 18      Telekinetic          Composition
 20130922 - 19      Telekinetic          Live                 Indie Dance Party -
 20130921 - 18  358 Telekinetic          Composition          Leap Motion Controll
@@ -1408,7 +1409,7 @@
 20130823
 20130822
 20130821
-20130820 - 37      Nataniev             Update
+20130820 - 37      Oscean               Update
 20130819
 20130818
 20130817 - 37      Alphavetist          Development
@@ -1443,7 +1444,7 @@
 20130719 - 25      Milavrega            Design
 20130718 - 28      Milavrega            Writing
 20130717 - 28      Typography           Typography
-20130716 - 25      Nataniev             Analytics
+20130716 - 25      Oscean               Analytics
 20130715 - 25  344 Fuji                 Photography          Mt. Fuji Summit       We have spent the night climbing to the top of Fuji, snapped this shot at dusk.
 20130714 - 25  343 Fuji                 Photography          Dusk                  Just before the sun was about to rise, we could see the lights of the villages below.
 20130713 - 25  342 Fuji                 Photography          EDC                   This is the content of my backpack, which turned out to be too few things, especially too few warm things for the cold weather at the top of the sleeping volcano.
@@ -1453,10 +1454,10 @@
 20130709 - 39      Typography           Typography
 20130708 - 25      Typography           Typography
 20130707 - 25      Typography           Typography
-20130706 - 25      Nataniev             Analytics
-20130705 - 25      Nataniev             Analytics
-20130704 - 36      Nataniev             Maintenance
-20130703 - 19      Nataniev             Composition          Soundtrack Release
+20130706 - 25      Oscean               Analytics
+20130705 - 25      Oscean               Analytics
+20130704 - 36      Oscean               Maintenance
+20130703 - 19      Oscean               Composition          Soundtrack Release
 20130702 - 25      Infrared             Photography
 20130701 - 25      Infrared             Photography
 20130630 - 38      Dictionaery          Development
@@ -1471,10 +1472,10 @@
 20130621 - 39      Sketchbook           Prototype
 20130620 - 39      Sketchbook           Prototype
 20130619 - 19  335 Dei dain             Live                 Mega Ran Tour - Toky
-20130618 - 39      Nataniev             Design
-20130617 - 28      Nataniev             Design               
+20130618 - 39      Oscean               Design
+20130617 - 28      Oscean               Design               
 20130616 - 25  239 Macro                Photography          Macro Set 1
-20130615 - 28      Nataniev             Design               
+20130615 - 28      Oscean               Design               
 20130614 - 19      Dei dain             Live                 KIDDING vol.6
 20130613 - 19      Dei dain             Composition
 20130612 - 19      Dei dain             Composition          Dei Dain Release
@@ -1483,24 +1484,24 @@
 20130609 ! 29  339 Macro                Photography          Macro DIY iPhone      Built a small iPhone macro lens from an old DVD drive.
 20130608 - 35      Hiversaires          Maintenance
 20130607 - 35      Hiversaires          Maintenance
-20130606 - 35      Nataniev             Design
-20130605 - 35      Nataniev             Tools
-20130604 - 35      Nataniev             Design
+20130606 - 35      Oscean               Design
+20130605 - 35      Oscean               Tools
+20130604 - 35      Oscean               Design
 20130603 - 35      Horaire              Design
 20130602 - 29  236 Entaloneralie        Release              1.0
 20130601 - 38      Entaloneralie        Development
 20130531
 20130530 @ 29  235 Paradise             Illustration         The Endless Shores
-20130529 - 29      Nataniev             Design
-20130528 - 29      Nataniev             Branding
-20130527 - 29      Nataniev             Branding
-20130526 - 29      Nataniev             Design
+20130529 - 29      Oscean               Design
+20130528 - 29      Oscean               Branding
+20130527 - 29      Oscean               Branding
+20130526 - 29      Oscean               Design
 20130525 - 29      Horaire              Design
-20130524 - 29      Nataniev             Design
-20130523 - 29      Nataniev             Design
+20130524 - 29      Oscean               Design
+20130523 - 29      Oscean               Design
 20130522 - 37      Milavrega            Design
 20130521 - 19      Remix                Composition          Comaduster - Winter
-20130520 - 38      Nataniev             AI
+20130520 - 38      Oscean               AI
 20130519 - 25      Milavrega            Design
 20130518 - 25      Entaloneralie        Prototype
 20130517 - 28      Milavrega            Design
@@ -1534,22 +1535,22 @@
 20130419
 20130418 - 25      Milavrega            Design
 20130417 - 27      Waiting for horus    Testing
-20130416 - 35      Nataniev             Development
+20130416 - 35      Oscean               Development
 20130415 - 18      Dei dain             Composition
-20130414 - 27      Nataniev             Design
+20130414 - 27      Oscean               Design
 20130413 - 36      Waiting for horus    Testing
 20130412 - 25      Milavrega            Prototype
 20130411 - 25      Milavrega            Prototype
-20130410 - 25      Nataniev             Development
+20130410 - 25      Oscean               Development
 20130409 - 36      Milavrega            Design
 20130408 - 35      Horaire              Maintenance
 20130407 - 27      Hiversaires          Release              Release
 20130406 - 35      Hiversaires          Prototype
 20130405 - 29      Hiversaires          Live                 Picotachi
 20130404
-20130403 - 35      Nataniev             Development
-20130402 - 35      Nataniev             Maintenance
-20130401 - 35      Nataniev             Development
+20130403 - 35      Oscean               Development
+20130402 - 35      Oscean               Maintenance
+20130401 - 35      Oscean               Development
 20130331 - 35      Hiversaires          Prototype
 20130330 - 35      Hiversaires          Prototype
 20130329 - 28      Hiversaires          Illustration
@@ -1557,7 +1558,7 @@
 20130327 - 38      Hiversaires          Testing              Devlog 25
 20130326 - 29      Hiversaires          Design
 20130325 - 37      Dictionaery          Tools
-20130324 - 37      Nataniev             Design
+20130324 - 37      Oscean               Design
 20130323 @ 19      Hiversaires          Composition
 20130322 - 17      Hiversaires          Composition
 20130321 - 38      Hiversaires          Testing
@@ -1571,7 +1572,7 @@
 20130313 - 36      Hiversaires          Testing
 20130312 - 33      Hiversaires          Testing              Devlog 23
 20130311 - 35      Hiversaires          Testing              Devlog 22
-20130310 - 38      Nataniev             Tools
+20130310 - 38      Oscean               Tools
 20130309 - 23      Japan                Photography          Sand Storm in Tokyo
 20130308 - 28  210 Mirrors              Photography          Office in Tokyo
 20130307 - 28  200 Hiversaires          Design               Devlog 20
@@ -1601,7 +1602,7 @@
 20130211 - 28      Hiversaires          Design               Devlog 7
 20130210 - 39      Hiversaires          Design               Devlog 6
 20130209 - 28      Hiversaires          Design               Devlog 5
-20130208 - 34      Nataniev             Maintenance
+20130208 - 34      Oscean               Maintenance
 20130207 - 27      Hiversaires          Prototype            Devlog 4
 20130206 - 38      Hiversaires          Prototype            Devlog 3
 20130205 - 35      Hiversaires          Prototype            Devlog 2
@@ -1612,7 +1613,7 @@
 20130131 - 25  243 Devine lu Linvega    Photography          Osaka Tempers
 20130130 - 29  172 Wallpaper            Prototype            Uzumaki
 20130129 - 27      Wallpaper            Illustration
-20130128 - 35      Nataniev             Maintenance
+20130128 - 35      Oscean               Maintenance
 20130127 - 17  167 Nor let the fools    Release              Nor let the fools
 20130126 - 19  164 Ehrivevnv Studies    Live                 Cheapbeats - Tokyo,
 20130125 - 16      Nor let the fools    Composition
@@ -1640,7 +1641,7 @@
 20130103 - 35      Lietal               Tools
 20130102 - 34      Lietal               Tools
 20130101 - 27  163 Infrared             Photography          Tokyo Infrared II
-20121231 - 39      Nataniev             Development
+20121231 - 39      Oscean               Development
 20121230 - 39      Lietal               Linguistics
 20121229 - 27      Lietal               Linguistics
 20121228 - 39      Lietal               Linguistics
@@ -1648,9 +1649,9 @@
 20121226
 20121225
 20121224
-20121223 - 35      Nataniev             Design
-20121222 - 35      Nataniev             Tools
-20121221 - 35      Nataniev             Development
+20121223 - 35      Oscean               Design
+20121222 - 35      Oscean               Tools
+20121221 - 35      Oscean               Development
 20121220 - 39      Lietal               Documentation
 20121219 - 39      Lietal               Linguistics 
 20121218 - 39      Lietal               Documentation
@@ -1658,7 +1659,7 @@
 20121216 - 25      Merveilles portable  Design
 20121215
 20121214
-20121213 - 35      Nataniev             Development
+20121213 - 35      Oscean               Development
 20121212
 20121211
 20121210
@@ -1670,40 +1671,40 @@
 20121204 - 35      Lietal               Linguistics 
 20121203
 20121202
-20121201 - 38      Nataniev             Development
+20121201 - 38      Oscean               Development
 20121130
 20121129
 20121128 - 39      Horaire              Prototype
 20121127 - 28  109 Infrared             Photography          Tokyo Infrared
-20121126 - 39      Nataniev             Prototype
+20121126 - 39      Oscean               Prototype
 20121125
 20121124 - 25      Japan                Photography          
 20121123
-20121122 - 39      Nataniev             Design
+20121122 - 39      Oscean               Design
 20121121
 20121120
 20121119 - 19      Mixtape              Mixing               Ghosts
 20121118
-20121117 - 39      Nataniev             Prototype
-20121116 - 39      Nataniev             Prototype
-20121115 - 39      Nataniev             Prototype
-20121114 - 35      Nataniev             Prototype
+20121117 - 39      Oscean               Prototype
+20121116 - 39      Oscean               Prototype
+20121115 - 39      Oscean               Prototype
+20121114 - 35      Oscean               Prototype
 20121113
 20121112
 20121111
 20121110
-20121109 - 25      Nataniev             Design
+20121109 - 25      Oscean               Design
 20121108 - 25      Audio                Writing
 20121107 - 35      Horaire              Prototype
-20121106 - 35      Nataniev             Prototype
-20121105 - 35      Nataniev             Prototype
+20121106 - 35      Oscean               Prototype
+20121105 - 35      Oscean               Prototype
 20121104
-20121103 - 35      Nataniev             Development
-20121102 - 39      Nataniev             Development
-20121101 - 36      Nataniev             Design
-20121031 - 38      Nataniev             Development
-20121030 - 38      Nataniev             Development          For the Horsemen of   The air cracked and, from nullspace, the Library of Sand emerged.
-20121029 - 38      Nataniev             Tools
+20121103 - 35      Oscean               Development
+20121102 - 39      Oscean               Development
+20121101 - 36      Oscean               Design
+20121031 - 38      Oscean               Development
+20121030 - 38      Oscean               Development          For the Horsemen of   The air cracked and, from nullspace, the Library of Sand emerged.
+20121029 - 38      Oscean               Tools
 20121028 - 35      Horaire              Development
 20121027
 20121026
@@ -1740,33 +1741,33 @@
 20120925 - 35      Neauismetica         Writing
 20120924
 20120923 - 17      To The Aeons Hell    Composition
-20120922 - 37      Nataniev             Development
-20120921 - 37      Nataniev             Development
-20120920 - 32      Nataniev             Tools
-20120919 - 37      Nataniev             Tools
+20120922 - 37      Oscean               Development
+20120921 - 37      Oscean               Development
+20120920 - 32      Oscean               Tools
+20120919 - 37      Oscean               Tools
 20120918 - 18      Ehrivevnv Studies    Composition
 20120917 - 15      Ehrivevnv Studies    Composition
 20120916 - 15      Ehrivevnv Studies    Composition
 20120915 - 19      Collected works      Composition
 20120914 - 19      Collected works      Composition
 20120913 - 18      To The Aeons Hell    Composition
-20120912 - 38      Nataniev             Tools
+20120912 - 38      Oscean               Tools
 20120911
 20120910 - 25      Waiting for horus    Design
 20120909
 20120908
-20120907 - 37      Nataniev             Development
-20120906 - 37      Nataniev             Tools
-20120905 - 37      Nataniev             Tools
-20120904 - 37      Nataniev             Development
+20120907 - 37      Oscean               Development
+20120906 - 37      Oscean               Tools
+20120905 - 37      Oscean               Tools
+20120904 - 37      Oscean               Development
 20120903 - 35      Waiting for horus    Design
 20120902 - 37      Waiting for horus    Design
-20120901 - 37      Nataniev             Development
+20120901 - 37      Oscean               Development
 20120831
 20120830 - 25      Waiting for horus    Design
-20120829 - 35      Nataniev             Development
+20120829 - 35      Oscean               Development
 20120828
-20120827 - 35      Nataniev             Development
+20120827 - 35      Oscean               Development
 20120826 - 25      Waiting for horus    Design
 20120825 - 15      Waiting for horus    Composition
 20120824 - 16      Waiting for horus    Composition
@@ -1782,20 +1783,20 @@
 20120814 - 39      Lietal               Linguistics 
 20120813 - 39      Lietal               Linguistics
 20120812 - 32      Horaire              Development
-20120811 - 32      Nataniev             Development
-20120810 - 32      Nataniev             Development
-20120809 - 35      Nataniev             Development
+20120811 - 32      Oscean               Development
+20120810 - 32      Oscean               Development
+20120809 - 35      Oscean               Development
 20120808 - 29   39 Infrared             Writing              Wereda
 20120807 - 25  257 Devine lu Linvega    Photography          Tokyo Tempers
 20120806
-20120805 - 32      Nataniev             Development
+20120805 - 32      Oscean               Development
 20120804
 20120803 - 28   26 Artwork              Illustration         Neoneve Afloat Revis
-20120802 - 32      Nataniev             Tools
-20120801 - 39      Nataniev             Development
-20120731 - 35      Nataniev             Tools
-20120730 - 35      Nataniev             Tools
-20120729 - 26      Nataniev             Development
+20120802 - 32      Oscean               Tools
+20120801 - 39      Oscean               Development
+20120731 - 35      Oscean               Tools
+20120730 - 35      Oscean               Tools
+20120729 - 26      Oscean               Development
 20120728 - 19      Mixtape              Mixing               Alife
 20120727
 20120726
@@ -1806,23 +1807,23 @@
 20120721 - 25      Infrared             Photography
 20120720
 20120719
-20120718 - 37      Nataniev             Design
+20120718 - 37      Oscean               Design
 20120717
-20120716 - 37      Nataniev             Development
+20120716 - 37      Oscean               Development
 20120715 - 32      Horaire              Development
-20120714 - 32      Nataniev             Development
-20120713 - 32      Nataniev             Development
-20120712 - 32      Nataniev             Development
-20120711 - 32      Nataniev             Development
+20120714 - 32      Oscean               Development
+20120713 - 32      Oscean               Development
+20120712 - 32      Oscean               Development
+20120711 - 32      Oscean               Development
 20120710 ! 19  161 Vetetrandes lettres  Release              Vetetrandes, Lettres
 20120709 - 19    5 Vetetrandes lettres  Live                 iVardensphere Tour -
-20120708 - 39      Nataniev             Development
+20120708 - 39      Oscean               Development
 20120707 - 17      To The Aeons Hell    Composition
 20120706 - 17      To The Aeons Hell    Composition
-20120705 - 35      Nataniev             Design
+20120705 - 35      Oscean               Design
 20120704 - 19      To The Aeons Hell    Composition
-20120703 - 39      Nataniev             Design
-20120702 - 38      Nataniev             Tools
+20120703 - 39      Oscean               Design
+20120702 - 38      Oscean               Tools
 20120701 - 35      Pico battle          Maintenance          Pico Battle Update
 20120630                                
 20120629
@@ -1831,7 +1832,7 @@
 20120626 - 18      To The Aeons Hell    Composition
 20120625 - 17      Vetetrandes lettres  Illustration
 20120624
-20120623 - 35      Nataniev             Tools
+20120623 - 35      Oscean               Tools
 20120622 - 18      To The Aeons Hell    Composition
 20120621 - 18      To The Aeons Hell    Composition
 20120620 - 25      Pico battle          Design
@@ -1847,7 +1848,7 @@
 20120610 - 15      To The Aeons Hell    Composition
 20120609 - 19      To The Aeons Hell    Composition
 20120608 - 35      Lietal               Documentation
-20120607 - 39      Nataniev             Development
+20120607 - 39      Oscean               Development
 20120606 - 25      Pico battle          Design
 20120605 - 35      Lietal               Documentation
 20120604 - 25  150 Artwork              Illustration         Hydro74 Remix
@@ -1859,8 +1860,8 @@
 20120529
 20120528
 20120527 - 35      Horaire              Development
-20120526 - 35      Nataniev             Development
-20120525 - 35      Nataniev             Development
+20120526 - 35      Oscean               Development
+20120525 - 35      Oscean               Development
 20120524 - 35      Neauismetica         Writing
 20120523
 20120522
@@ -1871,7 +1872,7 @@
 20120517 - 35      Neauismetica         Writing
 20120516
 20120515
-20120514 - 35      Nataniev             Development
+20120514 - 35      Oscean               Development
 20120513 - 29  147 Collegiennes         Design               Toronto Game Jam 201
 20120512 - 29      Collegiennes         Design
 20120511 - 29      Collegiennes         Design
@@ -1888,7 +1889,7 @@
 20120430 - 28      Interactive          Design
 20120429 - 25      Waiting for horus    Design
 20120428
-20120427 - 35      Nataniev             Development
+20120427 - 35      Oscean               Development
 20120426
 20120425
 20120424
@@ -1899,7 +1900,7 @@
 20120419 - 15  266 Sombre               Mixing               New Mixtape
 20120418 - 35      Lietal               Linguistics 
 20120417 - 35      Lietal               Linguistics 
-20120416 - 35      Nataniev             Development
+20120416 - 35      Oscean               Development
 20120415
 20120414 - 25      Waiting for horus    Design
 20120413 - 34      Lietal               Linguistics
@@ -1946,7 +1947,7 @@
 20120303 - 35      Paradise             Release
 20120302 - 35      Paradise             Tools
 20120301 @ 25   29 Waiting for horus    Design               Waiting for Horus
-20120229 - 35      Nataniev             Design
+20120229 - 35      Oscean               Design
 20120228
 20120227 - 25      Waiting for horus    Design
 20120226 - 25      Waiting for horus    Design
@@ -1954,7 +1955,7 @@
 20120224 - 25      Waiting for horus    Design
 20120223 - 25      Waiting for horus    Branding
 20120222 - 25  219 Waiting for horus    Design               Rah
-20120221 - 35      Nataniev             Development
+20120221 - 35      Oscean               Development
 20120220 - 25      Waiting for horus    Branding
 20120219 - 25      Waiting for horus    Branding
 20120218 - 25      Waiting for horus    Design
@@ -1962,7 +1963,7 @@
 20120216 - 25      Waiting for horus    Design
 20120215 - 25      Waiting for horus    Design
 20120214 - 25      Lietal               Typography
-20120213 - 35      Nataniev             Tools
+20120213 - 35      Oscean               Tools
 20120212 ! 17   27 Es gulf sunflowers   Release              Es Gulfs'Sunflowers
 20120211 - 19      Es gulf sunflowers   Live                 Toy Company - Jack &
 20120210 - 15      Mixtape              Mixing               Ghosts
@@ -1973,7 +1974,7 @@
 20120205 - 15      Es gulf sunflowers   Composition
 20120204 - 15      Es gulf sunflowers   Composition
 20120203 - 25      Volkenessen          Maintenance
-20120202 - 35      Nataniev             Design
+20120202 - 35      Oscean               Design
 20120201
 20120131
 20120130 - 25   25 Volkenessen          Release              Volkenessen
@@ -1981,11 +1982,11 @@
 20120128 - 25      Collegiennes         Design
 20120127 - 25      Collegiennes         Design
 20120126
-20120125 - 35      Nataniev             Tools
+20120125 - 35      Oscean               Tools
 20120124
 20120123 - 25   24 Artwork              Illustration         Veins of brambles
 20120122 - 15      Es gulf sunflowers   Composition
-20120121 - 25      Nataniev             Development
+20120121 - 25      Oscean               Development
 20120120 - 15      Es gulf sunflowers   Composition
 20120119
 20120118 - 35      Neauismetica         Writing              Veins of Brambles     I dreamt.
@@ -1996,15 +1997,15 @@
 20120113 - 35      Obliques             Tools                Extra
 20120112
 20120111
-20120110 - 25      Nataniev             Development          Oscean Eye
-20120109 - 35      Nataniev             Development
+20120110 - 25      Oscean               Development          Oscean Eye
+20120109 - 35      Oscean               Development
 20120108
-20120107 - 35      Nataniev             Development
-20120106 - 25      Nataniev             Development
-20120105 - 25      Nataniev             Development
-20120104 - 35      Nataniev             Development
-20120103 - 35      Nataniev             Development
-20120102 - 35      Nataniev             Design
+20120107 - 35      Oscean               Development
+20120106 - 25      Oscean               Development
+20120105 - 25      Oscean               Development
+20120104 - 35      Oscean               Development
+20120103 - 35      Oscean               Development
+20120102 - 35      Oscean               Design
 20120101 - 25      Physical             Prototype
 20111231
 20111230 - 15      Remix                Composition          iVardensphere - Ghos
@@ -2068,7 +2069,7 @@
 20111102 - 29  202 Collegiennes         Live                 Prince of the Arcade
 20111101 - 35  201 Notes                Writing              Part I
 20111031 - 25      Merveilles portable  Design
-20111030 - 35      Nataniev             Development
+20111030 - 35      Oscean               Development
 20111029
 20111028
 20111027
@@ -2076,12 +2077,12 @@
 20111025 - 35      Neauismetica         Writing
 20111024
 20111023 - 25      Artwork              Animation
-20111022 - 35      Nataniev             Development
-20111021 - 35      Nataniev             Tools
+20111022 - 35      Oscean               Development
+20111021 - 35      Oscean               Tools
 20111020
 20111019
 20111018
-20111017 - 35      Nataniev             Design
+20111017 - 35      Oscean               Design
 20111016 - 35      Lietal               Documentation
 20111015 - 25      Lietal               Design
 20111014 - 35      Lietal               Documentation
@@ -2095,20 +2096,20 @@
 20111006 - 35      Lietal               Documentation
 20111005 - 35      Lietal               Documentation
 20111004 - 15      From Saharaphorest   Composition
-20111003 - 39   81 Nataniev             Development          Started Modules
+20111003 - 39      Oscean               Development          Started Modules
 20111002
 20111001
 20110930
 20110929
 20110928
 20110927
-20110926 - 35      Nataniev             Development
+20110926 - 35      Oscean               Development
 20110925 ! 15   89 The Sixth Season     Release              The Sixth Season
 20110924 - 19      The Sixth Season     Live                 Neu Installation - T
 20110923 - 25      Lietal               Documentation
 20110922 - 25      Artwork              Illustration
 20110921 - 25      Artwork              Illustration
-20110920 - 35      Nataniev             Tools
+20110920 - 35      Oscean               Tools
 20110919 - 19      The Sixth Season     Composition
 20110918 - 15      The Sixth Season     Composition
 20110917 - 15      The Sixth Season     Composition
@@ -2123,7 +2124,7 @@
 20110908
 20110907
 20110906 - 15      The Sixth Season     Composition
-20110905 - 35      Nataniev             Development
+20110905 - 35      Oscean               Development
 20110904
 20110903
 20110902
@@ -2132,14 +2133,14 @@
 20110830
 20110829
 20110828 - 35      Horaire              Development
-20110827 - 35      Nataniev             Tools
+20110827 - 35      Oscean               Tools
 20110826 @ 25   17 Aliceffekt           Illustration         Aliceffekt Shirt I
-20110825 - 35      Nataniev             Development
+20110825 - 35      Oscean               Development
 20110824 - 35      Neauismetica         Writing
 20110823 ! 35   14 Typography           Typography           Septambres Lith
-20110822 - 35      Nataniev             Development
-20110821 - 35      Nataniev             Tools
-20110820 - 35      Nataniev             Design
+20110822 - 35      Oscean               Development
+20110821 - 35      Oscean               Tools
+20110820 - 35      Oscean               Design
 20110819
 20110818 - 35      Merveilles portable  Design
 20110817 - 35      Merveilles portable  Design
@@ -2175,28 +2176,28 @@
 20110718 - 39   82 Yajnev               Illustration         Yajnav's Thoughts
 20110717 - 25      Artwork              Illustration
 20110716 - 25      Artwork              Illustration
-20110715 - 35      Nataniev             Design
-20110714 - 35      Nataniev             Development
+20110715 - 35      Oscean               Design
+20110714 - 35      Oscean               Development
 20110713 - 15      Blam                 Composition
-20110712 - 35      Nataniev             Development
-20110711 - 35      Nataniev             Development
+20110712 - 35      Oscean               Development
+20110711 - 35      Oscean               Development
 20110710 - 15      Blam                 Composition
 20110709
 20110708
 20110707 - 15      Blam                 Composition
-20110706 - 35      Nataniev             Development
+20110706 - 35      Oscean               Development
 20110705 - 15      Mixtape              Mixing               Easter
 20110704
-20110703 - 35      Nataniev             Development
-20110702 - 35      Nataniev             Development
-20110701 - 35      Nataniev             Development
+20110703 - 35      Oscean               Development
+20110702 - 35      Oscean               Development
+20110701 - 35      Oscean               Development
 20110630 - 35      Horaire              Design
 20110629 - 35      Horaire              Development
 20110628 - 35      Neauismetica         Writing
 20110627 - 35      Neauismetica         Writing
 20110626 - 35      Neauismetica         Writing
 20110625 - 35      Neauismetica         Writing
-20110624 - 35      Nataniev             Development
+20110624 - 35      Oscean               Development
 20110623 - 35      Neauismetica         Writing
 20110622 - 25      Artwork              Illustration
 20110621 - 35      Neauismetica         Writing
@@ -2211,10 +2212,10 @@
 20110612
 20110611 - 19      Mixtape              Mixing               Wave
 20110610
-20110609 - 35      Nataniev             Development
-20110608 - 35      Nataniev             Design
-20110607 - 35      Nataniev             Development
-20110606 - 35      Nataniev             Design
+20110609 - 35      Oscean               Development
+20110608 - 35      Oscean               Design
+20110607 - 35      Oscean               Development
+20110606 - 35      Oscean               Design
 20110605
 20110604
 20110603
@@ -2243,14 +2244,14 @@
 20110511 - 19      Vermillionth         Rehearsal
 20110510 - 35      Lietal               Documentation
 20110509 - 19      Vermillionth         Composition
-20110508 - 35      Nataniev             Tools
+20110508 - 35      Oscean               Tools
 20110507
-20110506 - 35      Nataniev             Tools
+20110506 - 35      Oscean               Tools
 20110505
-20110504 - 35      Nataniev             Tools
-20110503 - 35      Nataniev             Development
-20110502 - 35      Nataniev             Design
-20110501 - 35      Nataniev             Tools
+20110504 - 35      Oscean               Tools
+20110503 - 35      Oscean               Development
+20110502 - 35      Oscean               Design
+20110501 - 35      Oscean               Tools
 20110430 - 35      Paradise             Development
 20110429 - 15      To The Aeons Hell    Composition
 20110428 - 35      Paradise             Development
@@ -2259,16 +2260,16 @@
 20110425 - 25      Drownspire           Design
 20110424
 20110423 - 15      To The Aeons Hell    Composition
-20110422 - 35      Nataniev             Development
-20110421 - 35      Nataniev             Development
-20110420 - 35      Nataniev             Design
+20110422 - 35      Oscean               Development
+20110421 - 35      Oscean               Development
+20110420 - 35      Oscean               Design
 20110419 - 19      The Sixth Season     Live                 OCDJ - Montreal, Pas
 20110418
 20110417 - 15      To The Aeons Hell    Rehearsal
 20110416 - 15      To The Aeons Hell    Composition
 20110415
 20110414
-20110413 - 35      Nataniev             Development
+20110413 - 35      Oscean               Development
 20110412
 20110411
 20110410 - 15      To The Aeons Hell    Composition
@@ -2279,25 +2280,25 @@
 20110405 - 25      Paradise             Tools
 20110404
 20110403 - 15      To The Aeons Hell    Composition
-20110402 - 35      Nataniev             Design
-20110401 - 35      Nataniev             Design
+20110402 - 35      Oscean               Design
+20110401 - 35      Oscean               Design
 20110331 - 35      Horaire              Design
-20110330 - 35      Nataniev             Design
+20110330 - 35      Oscean               Design
 20110329 - 29      Horaire              Design
-20110328 - 35      Nataniev             Design
-20110327 - 35      Nataniev             Design
-20110326 - 39      Nataniev             Design
+20110328 - 35      Oscean               Design
+20110327 - 35      Oscean               Design
+20110326 - 39      Oscean               Design
 20110325 - 25      Drownspire           Design
 20110324 - 35      Lietal               Documentation
 20110323
 20110322 - 17  370 To The Aeons Hell    Photography
 20110321 - 25      Merveilles portable  Design
-20110320 - 35      Nataniev             Development
+20110320 - 35      Oscean               Development
 20110319 - 15      To The Aeons Hell    Composition
 20110318 - 25      Merveilles portable  Design
 20110317 - 25      Merveilles portable  Design
 20110316 - 15      To The Aeons Hell    Composition
-20110315 - 35      Nataniev             Development
+20110315 - 35      Oscean               Development
 20110314
 20110313
 20110312 - 25   47 Czech                Photography
@@ -2315,11 +2316,11 @@
 20110228 - 25   58 Typography           Typography           Septambres Neau
 20110227 - 25      Lietal               Typography
 20110226 - 25      Lietal               Typography
-20110225 - 35      Nataniev             Design
+20110225 - 35      Oscean               Design
 20110224 - 25      Merveilles portable  Design
 20110223 - 25      Merveilles portable  Design
 20110222 - 19      Mixtape              Mixing               Easter
-20110221 - 35      Nataniev             Development
+20110221 - 35      Oscean               Development
 20110220 - 25      Merveilles portable  Development
 20110219 - 35      Merveilles portable  Development
 20110218 - 35      Merveilles portable  Development
@@ -2330,14 +2331,14 @@
 20110213 - 29   57 Merveilles portable  Design               Merveilles Portable
 20110212 - 25      Merveilles portable  Development
 20110211 - 25      Merveilles portable  Development
-20110210 - 35      Nataniev             Design
+20110210 - 35      Oscean               Design
 20110209
-20110208 - 35      Nataniev             AI
+20110208 - 35      Oscean               AI
 20110207
 20110206 - 29   56 Siseon               Design               Siseon
 20110205 - 25      Siseon               Branding
 20110204 - 25      Siseon               Design
-20110203 - 35      Nataniev             Development
+20110203 - 35      Oscean               Development
 20110202
 20110201 - 29      Artwork              Illustration
 20110131 - 25      Siseon               Design
@@ -2353,11 +2354,11 @@
 20110121 - 15      To The Aeons Hell    Composition
 20110120 - 15      To The Aeons Hell    Composition
 20110119 - 15      Mixtape              Mixing               Tunnel
-20110118 - 35      Nataniev             Design
-20110117 - 25      Nataniev             Design
+20110118 - 35      Oscean               Design
+20110117 - 25      Oscean               Design
 20110116 - 25      Lietal               Typography
 20110115 - 15      To The Aeons Hell    Composition
-20110114 - 35      Nataniev             Development
+20110114 - 35      Oscean               Development
 20110113 - 35      Horaire              Development
 20110112 - 15      To The Aeons Hell    Composition
 20110111 - 19      Mixtape              Mixing               visual
@@ -2367,11 +2368,11 @@
 20110107
 20110106 - 15      To The Aeons Hell    Composition
 20110105 - 15      To The Aeons Hell    Rehearsal
-20110104 - 35      Nataniev             Release
-20110103 - 39      Nataniev             Development
+20110104 - 35      Oscean               Release
+20110103 - 39      Oscean               Development
 20110102
 20110101
-20101231 - 35      Nataniev             Development
+20101231 - 35      Oscean               Development
 20101230
 20101229 - 25  482 Death                Photography          Milk
 20101228
@@ -2380,7 +2381,7 @@
 20101225
 20101224
 20101223 - 39      Horaire              Development
-20101222 - 39      Nataniev             Development
+20101222 - 39      Oscean               Development
 20101221
 20101220 @ 15  315 To The Aeons Hell    Release              To The Aeons Hell
 20101219
@@ -2389,7 +2390,7 @@
 20101216 - 39      Horaire              Tools
 20101215 - 39      Horaire              Tools
 20101214 - 39      Horaire              Tools
-20101213 - 26      Nataniev             Prototype
+20101213 - 26      Oscean               Prototype
 20101212
 20101211 - 25   93 Vambits              Design               Vambits, Last Gen
 20101210
@@ -2404,27 +2405,27 @@
 20101201
 20101130 - 25      Artwork              Illustration
 20101129 - 29   48 Artwork              Illustration         Tools to creative
-20101128 - 35      Nataniev             Development
+20101128 - 35      Oscean               Development
 20101127
 20101126
 20101125
-20101124 - 35      Nataniev             Design
-20101123 - 35      Nataniev             Development
+20101124 - 35      Oscean               Design
+20101123 - 35      Oscean               Development
 20101122
 20101121
 20101120 - 25      Lietal               Typography
 20101119
-20101118 - 35      Nataniev             Development
+20101118 - 35      Oscean               Development
 20101117
-20101116 - 25      Nataniev             Prototype
+20101116 - 25      Oscean               Prototype
 20101115
-20101114 - 35      Nataniev             Development
+20101114 - 35      Oscean               Development
 20101113
-20101112 - 25      Nataniev             Design
-20101111 - 25      Nataniev             Development
-20101110 - 25      Nataniev             Development
+20101112 - 25      Oscean               Design
+20101111 - 25      Oscean               Development
+20101110 - 25      Oscean               Development
 20101109 - 29   45 Collegiennes         Live                 Prince Of The Arcade
-20101108 - 35      Nataniev             Development
+20101108 - 35      Oscean               Development
 20101107 - 29      Collegiennes         Design
 20101106
 20101105
@@ -2434,10 +2435,10 @@
 20101101
 20101031
 20101030
-20101029 - 35      Nataniev             Development
+20101029 - 35      Oscean               Development
 20101028 - 25      Siseon               Design
 20101027
-20101026 - 35      Nataniev             Tools
+20101026 - 35      Oscean               Tools
 20101025 - 35      Pico                 Design
 20101024 - 25      Pico                 Design
 20101023
@@ -2461,22 +2462,22 @@
 20101005 - 25      Merure               Design
 20101004
 20101003
-20101002 - 25      Nataniev             Development
+20101002 - 25      Oscean               Development
 20101001 - 15      To The Aeons Hell    Composition
 20100930 - 25   88 Vambits              Design               Vambits, Gen II
 20100929
 20100928
-20100927 - 35      Nataniev             Development
-20100926 - 35      Nataniev             Development
-20100925 - 35      Nataniev             Development
-20100924 - 25      Nataniev             Design
+20100927 - 35      Oscean               Development
+20100926 - 35      Oscean               Development
+20100925 - 35      Oscean               Development
+20100924 - 25      Oscean               Design
 20100923
 20100922 - 25      Artwork              Illustration
 20100921 - 15      To The Aeons Hell    Composition
 20100920
 20100919 - 35      Horaire              Development
 20100918
-20100917 - 35      Nataniev             Development
+20100917 - 35      Oscean               Development
 20100916
 20100915 - 25      Artwork              Illustration
 20100914 - 25      Drownspire           Design
@@ -2496,12 +2497,12 @@
 20100831
 20100830 - 35      Artwork              Illustration
 20100829 - 15      Mixtape              Mixing               Wave
-20100828 - 25      Nataniev             Development
+20100828 - 25      Oscean               Development
 20100827
-20100826 - 35      Nataniev             Tools
-20100825 - 35      Nataniev             Tools
+20100826 - 35      Oscean               Tools
+20100825 - 35      Oscean               Tools
 20100824 - 25      Merure               Design
-20100823 - 35      Nataniev             Design
+20100823 - 35      Oscean               Design
 20100822 - 25      Pico                 Design
 20100821 - 19    7 To The Aeons Hell    Live                 Toy Company - Montre
 20100820 - 25      Drownspire           Design
@@ -2521,7 +2522,7 @@
 20100806 - 29      Collegiennes         Design               Bivouac Urbain
 20100805 - 29      Collegiennes         Design               Bivouac Urbain
 20100804 - 25  451 Hypervoid            Illustration         Noirescent
-20100803 - 35      Nataniev             Design
+20100803 - 35      Oscean               Design
 20100802 - 15      To The Aeons Hell    Composition
 20100801 - 25  450 Hypervoid            Illustration         Infraviolet
 20100731 - 25  449 Hypervoid            Illustration         Dilesion
@@ -2529,7 +2530,7 @@
 20100729 - 25      Pico                 Design
 20100728 - 25      Drownspire           Design
 20100727
-20100726 - 35      Nataniev             Development
+20100726 - 35      Oscean               Development
 20100725 - 25      Pico                 Design
 20100724
 20100723 - 19      Idyllic miners       Live                 Badass - Montreal, K
@@ -2542,20 +2543,20 @@
 20100716 - 19      Idyllic miners       Live                 Komor Kommando - Ott
 20100715
 20100714 - 25   15 Ableton              Design               Ableton Live Theme
-20100713 - 35      Nataniev             Development
+20100713 - 35      Oscean               Development
 20100712 - 15      To The Aeons Hell    Composition
 20100711 - 25      Artwork              Illustration
 20100710 - 25      Artwork              Illustration
 20100709 - 25      Artwork              Illustration
-20100708 - 35      Nataniev             Development
+20100708 - 35      Oscean               Development
 20100707 - 25      Drownspire           Design
 20100706 - 25      Drownspire           Design
 20100705 - 19      Mixtape              Mixing               Suilen
 20100704
-20100703 ! 35   92 Nataniev             Writing              Nataniev's Portrait
-20100702 - 35      Nataniev             Development
+20100703 N 35   92 Oscean               Writing              Nataniev's Portrait
+20100702 - 35      Oscean               Development
 20100701
-20100630 - 35      Nataniev             Development
+20100630 - 35      Oscean               Development
 20100629 - 25   74 Drownspire           Development          Our Studio
 20100628 ! 39      Research             Event                Learn Programming
 20100627 - 15      To The Aeons Hell    Composition
@@ -2564,11 +2565,11 @@
 20100624 - 25      Pico                 Design
 20100623 - 29   73 Drownspire           Photography          Founded Drownspire
 20100622 - 25      Pico                 Design
-20100621 - 35      Nataniev             Development
+20100621 - 35      Oscean               Development
 20100620 - 35      Pico                 Design
 20100619 - 29  308 Zjeveni              Design               Zjeveni
 20100618 - 25      Zjeveni              Design
-20100617 - 35      Nataniev             Prototype
+20100617 - 35      Oscean               Prototype
 20100616 - 35      Zjeveni              Design
 20100615 - 35      Zjeveni              Design
 20100614 - 35      Lietal               Documentation
@@ -3275,7 +3276,7 @@
 20080713
 20080712
 20080711
-20080710 ! 25      Nataniev             Branding             Founded XXIIVV
+20080710 ! 25      Oscean               Branding             Founded XXIIVV
 20080709
 20080708
 20080707

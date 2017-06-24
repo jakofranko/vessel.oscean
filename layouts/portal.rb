@@ -5,7 +5,34 @@ class CorpseHttp
 
   def view
 
-    html = "<p>#{@term.bref}</p>#{@term.long.runes}\n"
+    html = "#{@term.long.runes}\n"
+
+    html += term.type_value == :summary ? small : full
+
+    return html
+
+  end
+
+  def summary
+
+    html = ""
+
+    term.children.each do |child|
+      html += "<h2>#{child.name}</h2><p>#{child.bref}</p>"
+      html += "<list>"
+      child.children.each do |sub_child|
+        html += "<ln>#{sub_child.bref}</ln>"
+      end
+      html += "</list>"
+    end
+
+    return html.markup
+
+  end
+
+  def full
+
+    html = ""
 
     $lexicon.to_h("term").each do |name,term|
       if !term.unde.like(@term.name) then next end

@@ -1636,22 +1636,26 @@ GRAND OEUVRE
 
 NATANIEV
   UNDE : Gamme
-  TYPE : archive
+  TYPE : portal summary
   TAGS : Portal
   BREF : {{Nataniev}} is a platform for tools such as {{Horaire}}, {{Paradise}} and {{Ronin}} — mapping over the {{Trisight}}.
   LONG
-    & The purpose of {_Nataniev_} is to be a platform capable of hosting a series of tools, mapping over the {{Trisight}}, helping in the acceleration of {_Grand Oeuvre_}, see {{Gamme}}.
-    % gamme.nataniev fit
-    & Initiated in 2011, this custom engine includes a CLI, formerly known as {_Paradise_}, two different flat-files database parsers and its own unique APIs syntax. It serves this website, {{Hundred Rabbits}}, {{Grimgrains}}, as well as {{Twitter Bots|Automatons}}.
-    & Single scripts and repositories, known as vessels and instances, exist as locations in this {*Ecosystem*} and can be visited through the CLI. For example, each Automaton exist as a character that can be found within Paradise; this page exist as a page in a book, in a library that can also be entered and explored.
+    & The purpose of this ecosystem is establish an ecosystem of software that shares ideas, resources and standards - capable of aiding in the creation of audio, visual and interative projects.
   LINK
     GITH : https://github.com/XXIIVV/Nataniev
 
 SUITE
   UNDE : Nataniev
-  TYPE : Portal false
-  BREF : The {{Suite}} is a series of open-source and web-based tools designed as offerings to {{Nataniev}}.
-  TAG : Audio
+  TYPE : Portal
+  BREF : The {{Suite}} is the sum of all productivity and creation tools created by {{Devine Lu Linvega}}, it contains both open-source standalone applications and partialy native versions.
+
+NATANIEV GUIDE
+  UNDE : Nataniev
+  BREF : Installation guide for {{Nataniev}} is currently being drafted out.
+
+OSCEAN
+  UNDE : Suite
+  BREF : {{Oscean}} is a mindmap, and wiki engine that sparked the creation of the {{Nataniev}} ecosystem.
 
 MARABU
   UNDE : Suite
@@ -1685,8 +1689,19 @@ RONIN
     GITH : https://github.com/hundredrabbits/Ronin
     YOUT : https://youtu.be/gifzjhyBwOc
 
+ROTONDE
+  UNDE : Suite
+  BREF : {{Rotonde}} is a social feed protocol to exchange daily activity logs.
+  LINK
+    OFFI : http://rotonde.xxiivv.com
+    GITH : https://github.com/XXIIVV/vessel.rotonde/blob/master/DIALOG.md
+  LONG
+    & {{Rotonde}} is simply the commonly agreed upon specifications of a JSON object shared between portal neighbors of {*~rotonde.xxiivv.com*}.
+    & The feed is not attached to any particular client, language or server. The goal of this project is to share decentralized editable, protected, and version-controlled entries.
+    & A list of active feeds is maintained by {{~rotonde.cblgh.org|http://rotonde.cblgh.org/crawl}}.
+
 HORAIRE
-  UNDE : Nataniev
+  UNDE : Suite
   TAGS : Portal
   BREF : {{Horaire}} is a time tracking tool that graphs and compiles daily logs into creativity forecasts.
   LINK
@@ -1697,19 +1712,16 @@ HORAIRE
     # Nataniev   Tools         7
     # Oquonie    Level Design  5
 
-ROTONDE
-  UNDE : Horaire
-  BREF : {{Rotonde}} is a social feed protocol to exchange daily activity logs.
+LEFT
+  UNDE : Suite
+  BREF : {{Left}} is a minimalist open-source writing and organisation application.
   LINK
-    OFFI : http://rotonde.xxiivv.com
-    GITH : https://github.com/XXIIVV/vessel.rotonde/blob/master/DIALOG.md
+    GITH : https://github.com/hundredrabbits/Left
   LONG
-    & {{Rotonde}} is simply the commonly agreed upon specifications of a JSON object shared between portal neighbors of {*~rotonde.xxiivv.com*}.
-    & The feed is not attached to any particular client, language or server. The goal of this project is to share decentralized editable, protected, and version-controlled entries.
-    & A list of active feeds is maintained by {{~rotonde.cblgh.org|http://rotonde.cblgh.org/crawl}}.
+    & Typing
 
 LIETAL
-  UNDE : Nataniev
+  UNDE : Language
   BREF : {{Lietal}} is a {{synthetic language|http://en.wikipedia.org/wiki/Constructed_language}} created to experiment with linguistics and translation.
   TAGS : Portal
   LONG
@@ -1718,7 +1730,7 @@ LIETAL
     GITH : https://github.com/XXIIVV/vessel.lietal
 
 PARADISE
-  UNDE : Nataniev
+  UNDE : Interactive
   BREF : {{Paradise}} is a multiplayer playground that lives within the {{Nataniev}} toolchain. 
   TYPE : Portal
   LONG

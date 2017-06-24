@@ -82,7 +82,7 @@ class CorpseHttp
 
     return "
     <yu class='hd #{term.theme}'>
-      #{term.diaries.length > 0 ? term.diaries.first.media : ''}
+      #{term.diaries.length > 0 ? term.diary.media : ''}
       <wr>
         <a href='/#{term.parent.name}' class='portal'>
           #{Media.new("badge",@module).exists ? (badge = Media.new("badge",@module) ; badge.set_class('portal') ; badge) : term.badge}
@@ -119,8 +119,8 @@ class CorpseHttp
         <a href='/portal'>#{$lexicon.length} Projects</a>, over <a href='/horaire'>#{$horaire.length} Days</a> <br />
         Updated #{Log.new($horaire.render.first).time.ago}<br />
         <a href='/Nataniev'>Rendered in "+((Time.new - $nataniev.time) * 1000).to_i.to_s+"ms</a><br /> 
-        <a href='https://twitter.com/neauoire' target='_blank'>Twitter</a><br />
-        <a href='https://github.com/neauoire' target='_blank'>Github</a><br />
+        <a href='https://twitter.com/neauoire' target='_blank'>#{Media.new('icon','twitter')}</a>
+        <a href='https://github.com/neauoire' target='_blank'>#{Media.new('icon','github')}</a>
         <hr />
       </wr>
     </yu>"
