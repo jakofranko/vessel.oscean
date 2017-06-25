@@ -1652,6 +1652,24 @@ SUITE
 NATANIEV GUIDE
   UNDE : Nataniev
   BREF : Installation guide for {{Nataniev}} is currently being drafted out.
+  LONG
+    & {{Nataniev}} is first of all a piece of software, handling various types of applications. This quick guide should explain what the different tools do.
+    * Installation
+    & You will need to have Ruby and Sinatra installed, and pull the {{Nataniev Repo|https://github.com/XXIIVV/Nataniev}}. By default, Nataniev comes with no vessel installed.
+    & There are 3 types of repositories: vessels, publics and apps. Websites such as {{Oscean}} have both a vessel repo and a public repo. Therefore, two repos need to be pulled, some apps only have CLI tools, some others are only frontend.
+    # Nataniev
+    # _core/vessel/vessel.oscean
+    # _public/public.oscean
+    * The Operator.rb
+    & The {*operator.rb*} file is meant to run simple actions onto a vessel. A lot of the maintenance tasks are used through the operator, for example, finding a list of broken links from the Lexicon.
+    # ruby nataniev.operator.rb <comment>vessel action params</comment>
+    * The Server.rb
+    & The {*server.rb*} serves websites using Sinatra. When attempting to serve, Nataniev will look for the target vessel's serve action return.
+    # ruby nataniev.server.rb <comment>vessel</comment>
+    # > http://localhost:8888
+    * The Lobby.js
+    & A lot of vessels have API-like actions that repond to the front-end interface {_Lobby_}. To launch the Lobby interface:
+    # ruby nataniev.server.rb lobby
 
 OSCEAN
   UNDE : Suite

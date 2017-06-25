@@ -18,7 +18,7 @@ class CorpseHttp
     html = ""
 
     term.children.each do |child|
-      html += "<h2>#{child.name}</h2><p>#{child.bref}</p>"
+      html += "<h2><a href='/#{child.name}'>#{child.name}</a></h2><p>#{child.bref}</p>"
       html += "<list>"
       child.children.each do |sub_child|
         html += "<ln>#{sub_child.bref}</ln>"
