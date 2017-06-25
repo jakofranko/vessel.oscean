@@ -124,7 +124,7 @@ class Term
   def tags
 
     dynamic_tags = []
-    if @long.length < 2 then dynamic_tags.push("stub") end
+    if @long.length == 0 then dynamic_tags.push("stub") end
     if @unde.like("home") || @unde.like(@name) then dynamic_tags.push("root") end
     return @tags ? @tags.to_s.downcase.split(" ") + dynamic_tags : dynamic_tags
 

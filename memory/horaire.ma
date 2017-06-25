@@ -4,6 +4,7 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170625 - 34      Nataniev             Tools                                      Re-organized the {{Nataniev}} core files to better welcome the {{Lobby}} tools. 
 20170624 - 27      Horaire              Design                                     Redesigned a few of {{Horaire}} infographics.
 20170623 - 35      Rotonde              Development                                Improved Nataniev's Rotonde client.
 20170622 - 29      Oscean               Design                                     Partially redesign Oscean's front-end.
