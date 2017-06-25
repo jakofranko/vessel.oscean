@@ -4,16 +4,16 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
-20170625 - 34      Nataniev             Tools                                      Re-organized the {{Nataniev}} core files to better welcome the {{Lobby}} tools. 
-20170624 - 27      Horaire              Design                                     Redesigned a few of {{Horaire}} infographics.
-20170623 - 35      Rotonde              Development                                Improved Nataniev's Rotonde client.
-20170622 - 29      Oscean               Design                                     Partially redesign Oscean's front-end.
-20170621 - 39      Rotonde              Prototype                                  Drafted the Rotonde exchange specs.
-20170620 - 26      Lobby                Prototype                                  Designed a native Nataniev IDE for the {{Lobby}}.
+20170625 - 34      Nataniev             Maintenance                                Organize the {{Nataniev}} core, to better welcome the {{Lobby}} tools. 
+20170624 - 27      Horaire              Design                                     Redesign the {{Horaire}} infographics.
+20170623 - 35      Rotonde              Development                                Improve {{Nataniev}}'s {{Rotonde}} client.
+20170622 - 29      Oscean               Design                                     Redesign {{Oscean}}.
+20170621 - 39      Rotonde              Prototype                                  Prototype the {{Rotonde}} specs with members of Merveilles.
+20170620 - 26      Lobby                Prototype                                  Prototype a native {{Nataniev}} IDE.
 20170619 - 38      Lobby                Development
-20170618 - 38      Lobby                Tools                                      
-20170617 - 29      Lobby                Prototype                                  Created a frontend to the Nataniev server, called {{Lobby}}.
-20170616 - 28      Ronin                Branding                                   Updated the Ronin logo to a simplier design.
+20170618 - 38      Prototyped           Branding                                   Design a logo for the {{Rotonde}} protocol.
+20170617 - 29      Lobby                Prototype                                  Creat a frontend to the Nataniev server, called {{Lobby}}.
+20170616 - 28      Ronin                Branding                                   Update the Ronin logo to a simplier design.
 20170615 - 28      Marabu               Layout
 20170614 - 35      Oquonie              Development
 20170613 - 17      Marabu               Composition
