@@ -28,7 +28,7 @@ class CorpseHttp
         html += con
       end
     end
-    return "<p>#{@term.bref}</p>#{index}#{@term.long.runes}#{html.markup}"
+    return "<p>#{@term.bref}</p>#{index.to_s(true)}#{@term.long.runes}#{html.markup}"
 
   end
 

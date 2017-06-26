@@ -250,7 +250,7 @@
 20161026 - 26      Markl                Design
 20161025 - 27      Markl                Design
 20161024 - 34      Markl                Development
-20161023 - 35  178 Method               Writing
+20161023 - 35      Method               Writing
 20161022 - 29      Hundred rabbits      Branding
 20161021 - 24      Hundred rabbits      Design
 20161020 - 37      Markl                Maintenance
@@ -1994,7 +1994,7 @@
 20120117 - 15      Es gulf sunflowers   Composition
 20120116
 20120115 - 25   20 Mobile               Development          Character Builder
-20120114 ~ 35   50 Horaire              Development          The Pillars           I have great plans for {{Horaire}}, it ought to be the pillar onto which I rely to remain inspired and productive.
+20120114 N 35   50 Horaire              Development          The Pillars           I have great plans for {{Horaire}}, it ought to be the pillar onto which I rely to remain inspired and productive.
 20120113 - 35      Obliques             Tools                Extra
 20120112
 20120111

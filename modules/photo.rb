@@ -10,6 +10,8 @@ class CorpseHttp
     yu.hd { height:0px !important; padding:0px}
     yu.mi wr { width:100vw; padding:0px; margin:0px}
     yu.mi wr media { width:100vw; height:100vh; margin:0px}
+    yu.mi wr .tag { display:none !important}
+    yu.ft { border-top:0px}
     </style>"
     
   end

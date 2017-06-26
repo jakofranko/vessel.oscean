@@ -81,7 +81,7 @@ class CorpseHttp
   def _hd
 
     return "
-    <yu class='hd #{term.theme}'>
+    <yu class='hd #{term.theme} #{term.diaries.length > 0 ? 'has_photo' : ''}'>
       #{term.diaries.length > 0 ? term.diary.media : ''}
       <wr>
         <a href='/#{term.parent.name}' class='portal'>
