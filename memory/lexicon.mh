@@ -1644,10 +1644,16 @@ NATANIEV
   LINK
     GITH : https://github.com/XXIIVV/Nataniev
 
+LOBBY
+  UNDE : Nataniev
+  BREF : The {{Lobby}}, {_Nataniev OS_} is a graphical terminal for native Nataniev applications and APIs.
+  LONG
+    & The project is under development. More details shortly.
+
 SUITE
   UNDE : Nataniev
   TYPE : Portal
-  BREF : The {{Suite}} is the sum of all productivity and creation tools created by {{Devine Lu Linvega}}, it contains both open-source standalone applications and partialy native versions.
+  BREF : The {{Suite}} is the sum of all productivity and creation tools built for the Nataniev ecosystem.
 
 NATANIEV GUIDE
   UNDE : Nataniev

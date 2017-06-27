@@ -58,7 +58,7 @@ class Log
 
   def is_featured
     
-    return rune == "@" ? true : nil
+    return rune != "-" ? true : nil
 
   end
 

@@ -27,7 +27,7 @@ class Index
 
     if !@indexes then return "Missing" end
 
-    html = "(#{is_hash})"
+    html = ""
     counter = 1
     sub_counter = 1
     @indexes.each do |parent,children| 

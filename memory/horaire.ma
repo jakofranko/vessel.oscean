@@ -10,7 +10,7 @@
 20170623 - 35      Rotonde              Development                                Improve {{Nataniev}}'s {{Rotonde}} client.
 20170622 - 29      Oscean               Design                                     Redesign {{Oscean}}.
 20170621 - 39      Rotonde              Prototype                                  Prototype the {{Rotonde}} specs with members of Merveilles.
-20170620 - 26      Lobby                Prototype                                  Prototype a native {{Nataniev}} IDE.
+20170620 N 26   81 Lobby                Prototype            Nataniev OS           Prototype a graphical terminal to {{Nataniev}}. I suppose it was innevitable that I would eventually build an OS.
 20170619 - 38      Lobby                Development
 20170618 - 38      Prototyped           Branding                                   Design a logo for the {{Rotonde}} protocol.
 20170617 - 29      Lobby                Prototype                                  Creat a frontend to the Nataniev server, called {{Lobby}}.
@@ -35,7 +35,7 @@
 20170529 - 28      Dinaisth             Illustration
 20170528 - 29      Dei dain             Illustration
 20170527 - 28      Ronin                Design
-20170526 - 28      Ronin                Design
+20170526 - 28      Lobby                Design
 20170525 - 28      Ronin                Design
 20170524 - 38      Ronin                Tools
 20170523 - 38      Ronin                Tools
@@ -48,7 +48,7 @@
 20170516 @ 28  174 Instrument           Prototype
 20170515 - 28      Horaire              Design
 20170514 - 29      Horaire              Design
-20170513 - 26      Horaire              Design
+20170513 - 28      Lobby                Prototype
 20170512 - 35      Markl                AI
 20170511 - 39      The will the wisp    Writing
 20170510 - 39      Mirrors              Writing
