@@ -2,25 +2,54 @@
 ~ NOTE : YAML
 ~ AUTH : Devine Lu Linvega
 
-CHILDREN KNOT BOOK
-  Draft
-    Choose knots
-  
-GENERAL
-  Tools
-    Marabu -> 3D Software?
+MARABU
+  Generic
+    Make completely OOP
+    Make Nataniev native version
 
 RONIN
   Generic
+    Make Nataniev native version
+  Tools
     Zoom in/out
     Export with size
     Half-tone painting
+
+ROTONDE
+  Generic
+    Inject 100R events
+    Create Rotonde specific .ma file with injection
+  Client
+    Build time based timeline
+    Add location to entries
+
+OSCEAN
+  Generic
+    Write Lobby docs
+    Re-make projects TODO lists
+
+FULCRUM
+  Generic
+    Complete album
+
+NATANIEV
+  Generic
+    Improve Ghost documentation
+
+UNTITLED?
+  Generic
+    Build 3d software
+
+CHILDREN KNOT BOOK
+  Draft
+    Choose knots
 
 THOUSAND ROOMS
   Generic
     Fix Amazon Version
   Translation
-    Implement German
+    Complete Portugese
+    Complete Hungarian
 
 CORTEGE
   Large Maze
@@ -33,26 +62,10 @@ DONSOL
 OQUONIE
   Generic
     Port to Ionic
-    Release Linux build
-    Add touch interactions for tablets
-    Fix issue with after Library
 
 ALICEFFEKT
   Hundred Rabbits
     Release 17Q1
-  First wave
-    Archive the lot
-    Merge First Aid with Downtemperature
-    Merge Goneplains with Downtemperature
-    Merge Lu's Floral with Ann Yozora Saint
-    Merge Howls Virgil with Nether Esper
-  
-MARKL
-  Actions
-    Attack
-    Knockback
-  Frontend
-    Time's up
 
 NEAUISMETICA
   Generic

@@ -31,13 +31,12 @@ class CorpseHttp
 
   def view
 
-    html = ""
-
-    html += "
+    logs = 
+    html = "
     #{index}#{@term.long.runes}\n
-    <h2>90 Days Activity</h2>
-    #{Graph_Timeline.new(term,0,100)}\n
-    <p>The above {{Horaire}} interface displays the current active projects and the amount of hours invested in each during the previous 100 days.</p>
+    <h2>Recent Activity</h2>
+    #{Graph_Timeline.new(term,0,90)}\n
+    <p>The above {{Horaire}} interface displays the current active projects and the amount of hours invested in each during the previous 90 days.</p>
     #{featured_topics}
     <h2>Notice</h2>
     <p id='notice'>I am currently in {*{{$ hundredrabbits get_location}}*}, {{sailing|Hundred rabbits}} across the Pacific Ocean toward New Zealand. My access to internet is limited and will not be able to answer emails as frequently. I will get back to you upon {{landfall|http://100r.co/#map}}.</p>

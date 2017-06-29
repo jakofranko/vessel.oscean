@@ -6,9 +6,9 @@ class Graph_Timeline
   def initialize(term,from = 0,to = term.logs.length)
     
     @logs = term.logs[from,to]
-    @sum_hours = 0
-    @sums = {}
     @segments = equalSegments
+    @width = 798
+    @height = 100
 
   end
 
@@ -23,6 +23,7 @@ class Graph_Timeline
       memory[i][:visual] = 0
       memory[i][:research] = 0
       memory[i][:misc] = 0
+      memory[i][:sum] = 0
       i += 1
     end
     return memory
@@ -44,12 +45,10 @@ class Graph_Timeline
       distributePrev = progressNext - progressFloat
       distributeNext = 1 - distributePrev
 
-      if !@sums[log.sector] then @sums[log.sector] = 0 end
-      @sums[log.sector] += log.value
-      @sum_hours += log.value
-
       if segments[progressPrev] then segments[progressPrev][log.sector] += log.value * distributePrev end
       if segments[progressNext] then segments[progressNext][log.sector] += log.value * distributeNext end
+      if segments[progressPrev] then segments[progressPrev][:sum] += log.value * distributePrev end
+      if segments[progressNext] then segments[progressNext][:sum] += log.value * distributeNext end
     end
     return segments
 
@@ -59,9 +58,7 @@ class Graph_Timeline
 
     highest = 1
     @segments.each do |values|
-      if values[:audio] > highest then highest = values[:audio]end
-      if values[:visual] > highest then highest = values[:visual]end
-      if values[:research] > highest then highest = values[:research]end
+      if values[:sum] > highest then highest = values[:sum] end
     end
     return highest
 
@@ -70,49 +67,50 @@ class Graph_Timeline
   def to_s
 
     html = ""
-    width = 798
-    height = 150
-    lineWidth = (width+30)/28.0
+    lineWidth = (@width+30)/28.0
     segmentWidth = lineWidth/4
     highestValue = findHighestValue
-    width += segmentWidth
 
-    lineAudio_html = "0,#{highestValue * height} "
+    lineAudio_html = "0,#{highestValue * @height} "
     lineVisual_html = ""
     lineResearch_html = ""
     lineAverage_html = ""
 
+    polyline_audio = "0,#{@height} "
+    polyline_visual = "0,#{@height} "
+    polyline_research = "0,#{@height} "
+
     count = 0
     @segments.reverse.each do |values|
-      value = height - ((values[:audio]/highestValue) * height)
-      if count == 0 then value = height end
-      # if count == 27 then value = height end
-      lineAudio_html += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(value).to_i} "
-      lineAudio_html += "#{(count * lineWidth + (segmentWidth * 3) - segmentWidth)},#{(value).to_i} "
-      value = height - (values[:visual]/highestValue * height)
-      if count == 0 then value = height end
-      # if count == 27 then value = height end
-      lineVisual_html += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(value).to_i} "
-      lineVisual_html += "#{(count * lineWidth + (segmentWidth * 3) - segmentWidth)},#{(value).to_i} "
-      value = height - (values[:research]/highestValue * height)
-      if count == 0 then value = height end
-      # if count == 27 then value = height end
-      lineResearch_html += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(value).to_i} "
-      lineResearch_html += "#{(count * lineWidth + (segmentWidth * 3) - segmentWidth)},#{(value).to_i} "
-      value = height - (((values[:audio] + values[:visual] + values[:research])/3)/highestValue * height)
-      if count == 0 then value = height end
-      if count == 27 then value = height end
-      lineAverage_html += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(value).to_i} "
-      lineAverage_html += "#{(count * lineWidth + (segmentWidth * 3) - segmentWidth)},#{(value).to_i} "
+
+      # Max
+      max = ((values[:sum])/highestValue * @height).to_i
+      sum = values[:sum] > 0 ? values[:sum] : 1
+      gap = (segmentWidth * 4.5).to_i
+      step = 4
+
+      # Research
+      value = ((values[:research]/sum) * max).to_i
+      value = (value / step).to_i * step
+      polyline_research += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(@height - value).to_i} #{(count * lineWidth + gap - segmentWidth)},#{(@height - value).to_i} "
+
+      # Visual
+      value = (((values[:visual] + values[:research])/sum) * max).to_i
+      value = (value / step).to_i * step
+      polyline_visual += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(@height - value).to_i} #{(count * lineWidth + gap - segmentWidth)},#{(@height - value).to_i} "
+
+      # Audio
+      value = (((values[:audio] + values[:visual] + values[:research])/sum) * max).to_i
+      value = (value / step).to_i * step
+      polyline_audio += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(@height - value).to_i} #{(count * lineWidth + gap - segmentWidth)},#{(@height - value).to_i} "
+
       count += 1
     end
 
     # Lines
-
-    html += "<polyline class='average' points='#{lineAverage_html}'/>"
-    html += "<polyline class='research' points='#{lineResearch_html}' />"
-    html += "<polyline class='visual' points='#{lineVisual_html}' />"
-    html += "<polyline class='audio' points='#{lineAudio_html}' />"
+    html += "<polyline class='audio' points='#{polyline_audio} #{@width},#{@height}' />"
+    html += "<polyline class='visual' points='#{polyline_visual} #{@width},#{@height}' />"
+    html += "<polyline class='research' points='#{polyline_research} #{@width},#{@height}' />"
 
     # Markers
     markers = ""
@@ -120,12 +118,14 @@ class Graph_Timeline
     markers += "<t class='sector audio'>#{@logs.audio_ratio_percentage}% <t style='color:#999'>Audio</t></t>"
     markers += "<t class='sector visual'>#{@logs.visual_ratio_percentage}% <t style='color:#999'>Visual</t></t>"
     markers += "<t class='sector research'>#{@logs.research_ratio_percentage}% <t style='color:#999'>Research</t></t>"
-    markers += "<t class='sector hdf'>#{@logs.hour_day_focus} <t style='color:#999'>Hdf</t></t>"
     markers += "<t class='sector sb'>#{@logs.sector_balance_percentage}% <t style='color:#999'>Sb</t></t>"
 
-    markers += "<t class='sector sum'><a href='/Horaire'>#{@sum_hours.to_i} hours</a></t>"
+    markers += "<t class='sector right'><a href='/Horaire'>#{@logs.hours} <t style='color:#999'>Fh</t></a></t>"
+    markers += "<t class='sector right'>#{@logs.hour_day_focus} <t style='color:#999'>Hdf</t></t>"
+    markers += "<t class='sector right'>#{@logs.hour_task_focus} <t style='color:#999'>HTa</t></t>"
+    markers += "<t class='sector right'>#{@logs.hour_topic_focus} <t style='color:#999'>HTo</t></t>"
 
-    return "#{style}<yu class='graph timeline'><svg style='width:100%; height:#{height}px;'>"+html+"</svg><ln>#{markers}</ln></yu>"
+    return "#{style}<yu class='graph timeline'><svg style='width:100%; height:#{@height}px;'>"+html+"</svg><ln>#{markers}</ln></yu>"
 
   end
 
@@ -187,20 +187,18 @@ class Graph_Timeline
 
     return "<style>
     .graph.timeline { margin-bottom:30px}
-    .graph.timeline svg { overflow: hidden; border-bottom: 1px solid #000; padding-top:5px; height:149px}
-    .graph.timeline svg polyline.audio { fill:none; stroke:#72dec2; stroke-width:1}
-    .graph.timeline svg polyline.visual { fill:none; stroke:black }
-    .graph.timeline svg polyline.research { fill:none; stroke-dasharray:1,1; stroke:#000; stroke-width:1 }
+    .graph.timeline svg { overflow: hidden; padding-top:5px; height:149px}
+    .graph.timeline svg polyline.audio { fill:#72dec2; stroke:none}
+    .graph.timeline svg polyline.visual { fill:#000; stroke:none }
+    .graph.timeline svg polyline.research { fill:#ddd; stroke:none }
     .graph.timeline svg polyline.average { fill:#eee; }
-    .graph.timeline ln { display:block; position:relative; font-family:'din_regular'; font-size:12px; padding-top:30px}
-    .graph.timeline t.origin { position: absolute;top: -150px;left: 0px;color: #999 }
-    .graph.timeline t.sector { position: absolute;top: 0px;color: #000; display: block;line-height: 30px; margin-left:10px }
+    .graph.timeline ln { display:block; position:relative; font-family:'din_regular'; font-size:12px;}
+    .graph.timeline t.origin { position: absolute;top: -#{@height + 30}px;left: 0px;color: #999 }
+    .graph.timeline t.sector { color: #000; display: inline-block;line-height: 30px; margin-right:15px}
     .graph.timeline t.sector.audio { left:0px; border-bottom:1px solid #72dec2 }
     .graph.timeline t.sector.visual { left:100px; border-bottom:1px solid black }
     .graph.timeline t.sector.research { left:200px; border-bottom:1px dotted black }
-    .graph.timeline t.sector.hdf { left:400px;}
-    .graph.timeline t.sector.sb { left:450px;}
-    .graph.timeline t.sector.sum { right:15px;}
+    .graph.timeline t.sector.right { float:right; margin-right:0px; margin-left:15px}
     </style>"
   end
 
