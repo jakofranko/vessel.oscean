@@ -533,7 +533,7 @@ MOBILE
 
 BIFURCAN
   UNDE : Mobile
-  BREF : {{Bifurcan}} is a cryptic watchface for iPhone, iPad and OS X.
+  BREF : {{Bifurcan}} is a cryptic watchface using moire patterns.
   TYPE : Diary
   LONG
     & Every second, the labyrinth reorganize itself to display the time with its twists and turns. It takes a little practice to be able to see the patterns in the lines. Clicking on the screen will unveil the time as seen in this {{video|https://www.youtube.com/watch?v=HzXIJpzPB6c}}. The original application was created in 30 minutes for a micro jam.
@@ -1638,7 +1638,7 @@ NATANIEV
   UNDE : Gamme
   TYPE : portal summary
   TAGS : Portal
-  BREF : {{Nataniev}} is an ecosystem of open-source tools.
+  BREF : {{Nataniev}} is an ecosystem of open-source and web-based creation tools.
   LONG
     & The purpose of this platform is host a collection of softwares sharing resources and standards - each capable of aiding in the creation of audio, visual and interative projects.
   LINK

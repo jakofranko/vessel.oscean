@@ -86,16 +86,20 @@ class CorpseHttp
         <a href='/#{term.parent.name}' class='portal'>
           #{Media.new("badge",@module).exists ? (badge = Media.new("badge",@module) ; badge.set_class('portal') ; badge) : term.badge}
         </a>        
-        <h2>#{term.bref}</h2>
-        <h3>
-          <input value='#{term.name.like('home') ? 'Jiiv' : term.name.capitalize}' type='text' spellcheck='false' autocorrect='off'/>
+        <list>
+          <ln style='break-after: column; break-before: column '><input value='#{term.name.like('home') ? 'Jiiv' : term.name.capitalize}' type='text' spellcheck='false' autocorrect='off'/>#{term.bref}</ln>
+
+          <ln style='display:none'>
+            #{@module                                                     ? "<a class='md' href='/#{term.name}'>Return #{term.name}</a>" : ""}
+            #{!term.is_diary   && term.has_diaries                        ? "<a class='md' href='/#{term.name}:diary'>#{term.diaries.length} Diaries</a>" : ""}
+            #{!term.is_horaire && term.has_logs && term.logs.length > 3   ? "<a class='md' href='/#{term.name}:horaire'>#{term.logs.length} Logs</a>" : ""}
+            #{!term.type ? "<a class='md' href='/#{term.name.like("home") ? "forum" : term.name+":forum"}'>#{term.comments.length} Comments</a>" : ""}
+            #{!term.is_horaire && term.has_logs                           ? "<t class='time'>Updated #{term.logs.first.time.ago}</t>" : ""}
+          </ln>
+        </list>
+        <list class='links'>
           #{_links}
-          #{@module                                                     ? "<a class='md' href='/#{term.name}'>To #{term.name}</a>" : ""}
-          #{!term.is_diary   && term.has_diaries                        ? "<a class='md' href='/#{term.name}:diary'>#{term.diaries.length} Diaries</a>" : ""}
-          #{!term.is_horaire && term.has_logs && term.logs.length > 3   ? "<a class='md' href='/#{term.name}:horaire'>#{term.logs.length} Logs</a>" : ""}
-          #{!term.type ? "<a class='md' href='/#{term.name.like("home") ? "forum" : term.name+":forum"}'>#{term.comments.length} Comments</a>" : ""}
-          #{!term.is_horaire && term.has_logs                           ? "<t class='time'>Updated #{term.logs.first.time.ago}</t>" : ""}
-        </h3>
+        </list>
       </wr>
     </yu>"
 
@@ -103,7 +107,7 @@ class CorpseHttp
 
   def _mi
 
-    return "<yu class='mi'><wr>"+view+"#{_tags}</wr></yu>"
+    return "<yu class='mi'>#{term.diaries.length > 0 ? term.diary.media : ''}<wr>"+view+"#{_tags}</wr></yu>"
 
   end
 
@@ -112,14 +116,19 @@ class CorpseHttp
     return "
     <yu class='ft'>
       <wr>
-        <a href='/Devine+Lu+Linvega' style='margin-right:5px'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year}<br /> 
-        <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>BY-NC-SA</a> 4.0 <br />
-        <a href='/Desamber'><b>#{Desamber.new}</b></a> <br />
-        <a href='/portal'>#{$lexicon.length} Projects</a>, over <a href='/horaire'>#{$horaire.length} Days</a> <br />
-        Updated #{Log.new($horaire.render.first).time.ago}<br />
-        <a href='/Nataniev'>Rendered in "+((Time.new - $nataniev.time) * 1000).to_i.to_s+"ms</a><br /> 
-        <a href='https://twitter.com/neauoire' target='_blank'>#{Media.new('icon','twitter')}</a>
-        <a href='https://github.com/neauoire' target='_blank'>#{Media.new('icon','github')}</a>
+        <ln>
+          <a href='/Devine+Lu+Linvega' style='margin-right:5px'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year}<br /> 
+          <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>BY-NC-SA</a> 4.0
+        </ln><ln>
+          <a href='/Desamber'><b>#{Desamber.new}</b></a> <br />
+          <a href='/portal'>#{$lexicon.length} Projects</a>, over <a href='/horaire'>#{$horaire.length} Days</a>
+        </ln><ln>
+          Updated #{Log.new($horaire.render.first).time.ago}<br />
+          <a href='/Nataniev'>Rendered in "+((Time.new - $nataniev.time) * 1000).to_i.to_s+"ms</a>
+        </ln><ln>
+          <a href='https://twitter.com/neauoire' target='_blank'>#{Media.new('icon','twitter')}</a>
+          <a href='https://github.com/neauoire' target='_blank'>#{Media.new('icon','github')}</a>
+        </ln>
         <hr />
       </wr>
     </yu>"
@@ -152,7 +161,7 @@ class CorpseHttp
 
     html = ""
     term.link.each do |link|
-      html += Link.new(link.first,link.last).to_s
+      html += "<ln>"+Link.new(link.first,link.last).to_s+"</ln>"
     end
     return "#{html}"
 
