@@ -6,6 +6,8 @@ class Graph_Timeline
   def initialize(term,from = 0,to = term.logs.length)
     
     @logs = term.logs[from,to]
+    @against = term.logs.length > to * 2 ? term.logs[to,to] : nil
+
     @segments = equalSegments
     @width = 798
     @height = 100
@@ -112,20 +114,32 @@ class Graph_Timeline
     html += "<polyline class='visual' points='#{polyline_visual} #{@width},#{@height}' />"
     html += "<polyline class='research' points='#{polyline_research} #{@width},#{@height}' />"
 
-    # Markers
-    markers = ""
-    markers += "<t class='origin'>#{@logs.last.time.ago}</t>"
-    markers += "<t class='sector audio'>#{@logs.audio_ratio_percentage}% <t style='color:#999'>Audio</t></t>"
-    markers += "<t class='sector visual'>#{@logs.visual_ratio_percentage}% <t style='color:#999'>Visual</t></t>"
-    markers += "<t class='sector research'>#{@logs.research_ratio_percentage}% <t style='color:#999'>Research</t></t>"
-    markers += "<t class='sector sb'>#{@logs.sector_balance_percentage}% <t style='color:#999'>Sb</t></t>"
+    return "#{style}<yu class='graph timeline'><svg style='width:100%; height:#{@height}px;'>"+html+"</svg>#{summary}</yu>"
 
-    markers += "<t class='sector right'><a href='/Horaire'>#{@logs.hours} <t style='color:#999'>Fh</t></a></t>"
-    markers += "<t class='sector right'>#{@logs.hour_day_focus} <t style='color:#999'>Hdf</t></t>"
-    markers += "<t class='sector right'>#{@logs.hour_task_focus} <t style='color:#999'>HTa</t></t>"
-    markers += "<t class='sector right'>#{@logs.hour_topic_focus} <t style='color:#999'>HTo</t></t>"
+  end
 
-    return "#{style}<yu class='graph timeline'><svg style='width:100%; height:#{@height}px;'>"+html+"</svg><ln>#{markers}</ln></yu>"
+  def summary
+
+    html = "
+    <t class='origin'>#{@logs.length} Days</t>
+    <t class='sector audio'>#{@logs.audio_ratio_percentage}% <t style='color:#999'>Audio</t></t>
+    <t class='sector visual'>#{@logs.visual_ratio_percentage}% <t style='color:#999'>Visual</t></t>
+    <t class='sector research'>#{@logs.research_ratio_percentage}% <t style='color:#999'>Research</t></t>
+    <t class='sector sb'>#{@logs.sector_balance_percentage}% <t style='color:#999'>Sb</t></t>
+    <t class='sector right'>#{@against ? against_diff(@logs.hours,@against.hours) : ''} <a href='/Horaire'>#{@logs.hours} <t style='color:#999'>Fh</t></a></t>
+    <t class='sector right'>#{@against ? against_diff(@logs.hour_day_focus,@against.hour_day_focus) : ''} #{@logs.hour_day_focus} <t style='color:#999'>Hdf</t></t>
+    <t class='sector right'>#{@logs.hour_task_focus} <t style='color:#999'>HTa</t></t>
+    <t class='sector right'>#{@logs.hour_topic_focus} <t style='color:#999'>HTo</t></t>"
+
+    return "<ln>#{html}</ln>"
+
+  end
+
+  def against_diff current,against
+
+    color = against.to_f < current.to_f ? "gain" : "loss"
+
+    return current.to_f != against.to_f ? "<t class='against #{color}'>#{against.to_f < current.to_f ? '+' : ''}#{(current.to_f - against.to_f).trim(1)}</t>" : ''
 
   end
 
@@ -199,6 +213,9 @@ class Graph_Timeline
     .graph.timeline t.sector.visual { left:100px; border-bottom:1px solid black }
     .graph.timeline t.sector.research { left:200px; border-bottom:1px dotted black }
     .graph.timeline t.sector.right { float:right; margin-right:0px; margin-left:15px}
+    .graph.timeline t.against { font-family:'din_medium'; color:#fff; border-radius:30px; padding:0px 5px}
+    .graph.timeline t.against.loss { background:#ccc}
+    .graph.timeline t.against.gain { background:#72dec2}
     </style>"
   end
 

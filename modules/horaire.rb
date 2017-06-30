@@ -17,7 +17,7 @@ class CorpseHttp
     if term.name.like("horaire")
       home_term = $lexicon.to_h("term")["HOME"]
       html += "
-      #{Graph_Timeline.new(home_term)}
+      #{Graph_Timeline.new(home_term,0,365)}
       #{@term.long.runes}
       <h2>Hdf</h2>
       #{Graph_Daily.new(home_term)}

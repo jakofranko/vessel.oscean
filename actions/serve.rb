@@ -82,14 +82,13 @@ class CorpseHttp
 
     return "
     <yu class='hd #{term.theme} #{term.diaries.length > 0 ? 'has_photo' : ''}'>
-      #{term.diaries.length > 0 ? term.diary.media : ''}
       <wr>
         <a href='/#{term.parent.name}' class='portal'>
           #{Media.new("badge",@module).exists ? (badge = Media.new("badge",@module) ; badge.set_class('portal') ; badge) : term.badge}
-        </a>
-        <input value='#{term.name.like('home') ? 'Jiiv' : term.name.capitalize}' type='text' spellcheck='false' autocorrect='off'/>
+        </a>        
         <h2>#{term.bref}</h2>
         <h3>
+          <input value='#{term.name.like('home') ? 'Jiiv' : term.name.capitalize}' type='text' spellcheck='false' autocorrect='off'/>
           #{_links}
           #{@module                                                     ? "<a class='md' href='/#{term.name}'>To #{term.name}</a>" : ""}
           #{!term.is_diary   && term.has_diaries                        ? "<a class='md' href='/#{term.name}:diary'>#{term.diaries.length} Diaries</a>" : ""}

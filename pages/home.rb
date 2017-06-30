@@ -36,7 +36,7 @@ class CorpseHttp
     #{index}#{@term.long.runes}\n
     <h2>Recent Activity</h2>
     #{Graph_Timeline.new(term,0,90)}\n
-    <p>The above {{Horaire}} interface displays the current active projects and the amount of hours invested in each during the previous 90 days.</p>
+    <p>The above interface displays the current project activity recorded during the previous 90 days. Learn more about the {{Horaire}} tracking tool.</p>
     #{featured_topics}
     <h2>Notice</h2>
     <p id='notice'>I am currently in {*{{$ hundredrabbits get_location}}*}, {{sailing|Hundred rabbits}} across the Pacific Ocean toward New Zealand. My access to internet is limited and will not be able to answer emails as frequently. I will get back to you upon {{landfall|http://100r.co/#map}}.</p>
@@ -62,7 +62,7 @@ class CorpseHttp
 
     c = 0
     topics.uniq.each do |name|
-      if c > 7 then break end
+      if c > 8 then break end
       terms.push(l[name.upcase])
       c += 1
     end
