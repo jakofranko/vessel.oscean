@@ -6,6 +6,17 @@ MARABU
   Generic
     Make completely OOP
     Make Nataniev native version
+  Sequencer
+    Make longer tracks
+    New design without tables
+  Pattern
+    Merge with MOD
+    Animate MOD
+    Preserve pattern data on pattern lenghts change
+    Change time signature
+  Instrument
+    Fix issue with MOD
+    On slider release, animate to position
 
 RONIN
   Generic
