@@ -4,6 +4,10 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170630 -       
+20170629 -       
+20170628 -       
+20170627 -         
 20170626 - 34      Left                 Tools                                      Improved the {{Left}} functionality and made availabe to everyone through Github.
 20170625 - 34      Nataniev             Maintenance                                Organize the {{Nataniev}} core, to better welcome the {{Lobby}} tools. 
 20170624 - 27      Horaire              Design                                     Redesign the {{Horaire}} infographics.

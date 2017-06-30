@@ -87,14 +87,9 @@ class CorpseHttp
           #{Media.new("badge",@module).exists ? (badge = Media.new("badge",@module) ; badge.set_class('portal') ; badge) : term.badge}
         </a>        
         <list>
-          <ln style='break-after: column; break-before: column '><input value='#{term.name.like('home') ? 'Jiiv' : term.name.capitalize}' type='text' spellcheck='false' autocorrect='off'/>#{term.bref}</ln>
-
-          <ln style='display:none'>
+          <ln style='break-after: column; break-before: column '>#{!term.parent.name.like(term.name) ? '<a class=\'parent\' href=\'/'+term.parent.name+'\'>'+term.parent.name+'</a>' : ''} <input value='#{term.name.like('home') ? 'Jiiv' : term.name.capitalize}' type='text' spellcheck='false' autocorrect='off'/><br />#{term.bref}</ln>
+          <ln>
             #{@module                                                     ? "<a class='md' href='/#{term.name}'>Return #{term.name}</a>" : ""}
-            #{!term.is_diary   && term.has_diaries                        ? "<a class='md' href='/#{term.name}:diary'>#{term.diaries.length} Diaries</a>" : ""}
-            #{!term.is_horaire && term.has_logs && term.logs.length > 3   ? "<a class='md' href='/#{term.name}:horaire'>#{term.logs.length} Logs</a>" : ""}
-            #{!term.type ? "<a class='md' href='/#{term.name.like("home") ? "forum" : term.name+":forum"}'>#{term.comments.length} Comments</a>" : ""}
-            #{!term.is_horaire && term.has_logs                           ? "<t class='time'>Updated #{term.logs.first.time.ago}</t>" : ""}
           </ln>
         </list>
         <list class='links'>
@@ -107,7 +102,7 @@ class CorpseHttp
 
   def _mi
 
-    return "<yu class='mi'>#{term.diaries.length > 0 ? term.diary.media : ''}<wr>"+view+"#{_tags}</wr></yu>"
+    return "<yu class='mi'>#{term.diaries.length > 0 ? term.diary.media : ''}<wr>"+view+"#{_tags}#{term.logs.length > 5 ? Graph_Overview.new(term) : ''}</wr></yu>"
 
   end
 
@@ -161,7 +156,7 @@ class CorpseHttp
 
     html = ""
     term.link.each do |link|
-      html += "<ln>"+Link.new(link.first,link.last).to_s+"</ln>"
+      html += Link.new(link.first,link.last).to_s+" "
     end
     return "#{html}"
 

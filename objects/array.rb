@@ -117,6 +117,12 @@ class Array
 
   end
 
+  def hour_day_focus_ratio
+
+    return hours/(days * 9.0).to_f
+
+  end
+
   def hour_day_focus_percentage
 
     v = hours/(days * 9.0).to_f
