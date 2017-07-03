@@ -6,8 +6,8 @@ class CorpseHttp
   def style
 
     return "<style>
-    .death yu { line-height: 0px }
-    .death cell { display: inline-block;width: calc(1.9% - 4px);height: 5px;margin: 1px 0px 0px 1px;border-radius: 10px; background:#ccc}
+    .death yu { line-height: 0px; margin-bottom:30px }
+    .death cell { display: inline-block;width: calc(100% / 52);height: 5px;margin: 0px;border-radius: 10px; background:#ccc; margin-bottom:1px;}
     .death cell.black { background:black }
     .death hr.ten { height: 1px}
     </style>"

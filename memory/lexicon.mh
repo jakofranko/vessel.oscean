@@ -1838,19 +1838,18 @@ SHORTHAND
     % shorthand.alphabet fit
     & Simple enough, now most letters are transformed into a single stroke shape that flows and combines to form shorter words, that can be written faster.
 
-
 OBLIQUES
   UNDE : Gamme
   TYPE : Archive false
   BREF : The {{Obliques}} are longform answers to questions regarding travel, {{lifestyle}} and optimisation. 
   TAGS : Portal
 
-METHOD
+AESTHETICS
   UNDE : Obliques
-  BREF : The {{Method}} notes are meant to answers to recurring questions on productivity, advised from daily logs recorded over many years.
+  BREF : The {{Aesthetics}} notes are meant to answers to recurring questions on productivity, advised from daily logs recorded over many years.
   TYPE : Memory
   LINK
-    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/method.mh
+    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/aesthetics.mh
 
 MIRRORS
   UNDE : Obliques
@@ -1879,7 +1878,7 @@ TIERS
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/tiers.mh
 
 LIFESTYLE
-  UNDE : Obliques
+  UNDE : Aesthetics
   BREF : The {{Lifestyle}} notes are explanations for some of my lifestyle choices.
   TYPE : Memory
   LINK
@@ -1924,7 +1923,7 @@ KEYBOARD
     REDD : https://www.reddit.com/r/MechanicalKeyboards/
 
 NOMAD
-  UNDE : Obliques
+  UNDE : Aesthetics
   BREF : The {{Nomad}} notes are reflexions on travel, and on my dreams of a nomadic life.
   TYPE : Memory
   LINK
@@ -1935,12 +1934,10 @@ DEVINE LU LINVEGA
   TAGS : Portal
   BREF : {{Devine lu linvega}} is a nomad developer and designer, living on a {{sailboat|Pino}} in the South Pacific.
   LONG
-    & Operating under the {*Neauoire*} moniker, Devine is a polymath working on a series of {{experimental tools|Gamme}} and {{applications|Interactive}} involving language.
+    & Operating under the {*Neauoire*} moniker, Devine is a polymath working on a series of {{experimental tools|Gamme}} and {{applications|Interactive}} involving language. Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}}, Devine hopes to inspire visitors to learn and to travel. 
+    ? To {{flee|Obliques}} is life,<br /> To linger is {{Death}}.
     # <comment># Satellite Phone</comment>
     # Currently located in <b>{{$ hundredrabbits get_location}}</b>({{$ hundredrabbits get_position}}).
-    & Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}}, Devine hopes to inspire visitors to learn and to travel. 
-    
-    ? To {{flee|Obliques}} is life,<br /> To linger is {{Death}}.
   LINK
     TWIT : http://twitter.com/neauoire/media
 
