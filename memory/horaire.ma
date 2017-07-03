@@ -4,10 +4,12 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
-20170630 -       
-20170629 -       
-20170628 -       
-20170627 -         
+20170702 - 29      Grimgrains           Design                                     Redesigned {{Grimgrains}} to look leaner and simplier.
+20170701 - 38      Grimgrains           Development                                Rebuilt the memory files structure behind {{Grimgrains}}.
+20170630 - 34      Marabu               Prototype                                  Rethinking the {{Marabu}} interface to allow monitoring of multiple instruments at once.
+20170629 - 35      Horaire              Tools                                      Designing an entry, or log, formating for a possible daily food diary.
+20170628 - 
+20170627 - 
 20170626 - 34      Left                 Tools                                      Improved the {{Left}} functionality and made availabe to everyone through Github.
 20170625 - 34      Nataniev             Maintenance                                Organize the {{Nataniev}} core, to better welcome the {{Lobby}} tools. 
 20170624 - 27      Horaire              Design                                     Redesign the {{Horaire}} infographics.

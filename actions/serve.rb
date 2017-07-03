@@ -162,7 +162,6 @@ class CorpseHttp
 
   end
 
-
   def body
     
     return "
