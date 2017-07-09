@@ -2,6 +2,13 @@
 ~ NOTE : YAML
 ~ AUTH : Devine Lu Linvega
 
+GRIMGRAINS
+  Generic
+    Add about page
+  Diary
+    Release
+    Write video
+
 MARABU
   Generic
     Make completely OOP
@@ -37,7 +44,8 @@ ROTONDE
 OSCEAN
   Generic
     Write Lobby docs
-    Re-make projects TODO lists
+    Re-make projects TODO lists module
+    Re-implement forecast
 
 FULCRUM
   Generic
@@ -46,6 +54,7 @@ FULCRUM
 NATANIEV
   Generic
     Improve Ghost documentation
+    Maeve console? Merge forum?
 
 UNTITLED?
   Generic

@@ -4,12 +4,18 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170708 - 18      Nataniev             Tools
+20170707 - 13      Mt Eyn               Composition
+20170706 - 18      Mt Eyn               Composition
+20170705 - 19      Mt Eyn               Composition
+20170704 - 34      Grimgrains           Tools                                      Progress on the {{Grimgrains}} nutrition diary.
+20170703 - 37      Grimgrains           Tools                                      Built a nutrition diary based on Dr. Gregger's Daily dozen.
 20170702 - 29      Grimgrains           Design                                     Redesigned {{Grimgrains}} to look leaner and simplier.
 20170701 - 38      Grimgrains           Development                                Rebuilt the memory files structure behind {{Grimgrains}}.
 20170630 - 34      Marabu               Prototype                                  Rethinking the {{Marabu}} interface to allow monitoring of multiple instruments at once.
 20170629 - 35      Horaire              Tools                                      Designing an entry, or log, formating for a possible daily food diary.
-20170628 - 
-20170627 - 
+20170628 - 17      Mt Eyn               Composition
+20170627 - 17      Mt Eyn               Composition
 20170626 - 34      Left                 Tools                                      Improved the {{Left}} functionality and made availabe to everyone through Github.
 20170625 - 34      Nataniev             Maintenance                                Organize the {{Nataniev}} core, to better welcome the {{Lobby}} tools. 
 20170624 - 27      Horaire              Design                                     Redesign the {{Horaire}} infographics.
