@@ -18,7 +18,7 @@ class Graph_Yearly
       h[log.date.month_name][:sum] += log.value
     end
 
-    @logs_by_desamber = h
+    @logs_by_desamber = h.to_a.reverse
 
   end
 

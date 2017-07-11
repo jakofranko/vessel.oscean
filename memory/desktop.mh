@@ -28,6 +28,7 @@ MARABU
 RONIN
   Generic
     Make Nataniev native version
+    Implement Incantation() invocation
   Tools
     Zoom in/out
     Export with size
@@ -46,8 +47,11 @@ OSCEAN
     Write Lobby docs
     Re-make projects TODO lists module
     Re-implement forecast
+  Horaire
+    Migrate to equal-month calendar
+    Make calendar/clock statusbar app (os x)
 
-FULCRUM
+FULCRUM(Mt. Eyn)
   Generic
     Complete album
 
