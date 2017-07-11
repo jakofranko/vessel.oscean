@@ -8,9 +8,9 @@ class Graph_Forecast
     @logs = term.logs[from,to]
     @count_topics = 0
 
-    @days_ahead = 14
-    @width = 620
-    @height = 120
+    @days_ahead = 21
+    @width = 800
+    @height = 75
     @line_spacing = (@width/(@days_ahead + 7).to_f).to_i
 
   end
@@ -27,30 +27,36 @@ class Graph_Forecast
 
     i = 0.5
     this_week.reverse.each do |log|
-      graph += "<line x1='#{@line_spacing * i}' y1='#{@height}' x2='#{@line_spacing * i}' y2='#{(@height - ((log.value/10.0) * @height)) + @line_spacing}' class='#{log.sector}'></line>"
-      html += "<span class='date' style='left:#{@line_spacing/2 + (@line_spacing * i)}px'>#{i == 6.5 ? '<b>today</b>' : log.date.day}</span>"
+      graph += "<line x1='#{@line_spacing * i}' y1='#{@height}' x2='#{@line_spacing * i}' y2='#{(@height - ((log.value/10.0) * @height))}' class='#{log.sector}'></line>"
+      html += "<t class='date' style='left:#{@line_spacing/3 + (@line_spacing * (i-1))}px'>#{i == 6.5 ? '<b>Now</b>' : log.date.day}</t>"
       i += 1
     end
 
     generate_forecast(@days_ahead).each do |log|
-      graph += "<line x1='#{@line_spacing * i}' y1='#{@height}' x2='#{@line_spacing * i}' y2='#{(@height - ((log.value/10.0) * @height)) + @line_spacing}' class='forecast #{log.sector}'></line>"
-      html += "<span class='date' style='left:#{@line_spacing/2 + (@line_spacing * i)}px'>#{log.date.day}</span>"
-      html += "<span class='rating' style='left:#{@line_spacing/2 + (@line_spacing * i)}px'>#{log.forecast > 0 ? (log.forecast * 10).trim(2) : 0}</span>"
+      graph += "<line x1='#{@line_spacing * i}' y1='#{@height}' x2='#{@line_spacing * i}' y2='#{(@height - ((log.value/10.0) * @height)).to_i}' class='forecast #{log.sector}'></line>"
       i += 1
     end
-
-    html += "<span class='this_week' style='width:#{@line_spacing*6}px; left:#{@line_spacing * 1.5}px'><b>This Week</b></span>"
 
     html += "<svg class='graph' width='#{@width}' height='#{@height}'>#{graph}</svg>"
 
 
-    return "#{style}<yu class='graph_wrapper' style='background:black; padding:30px; margin-bottom:30px'>#{html}</yu>"
+    return "#{style}<yu class='graph forecast'>#{html}</yu>"
 
   end
 
   def style
 
     return "<style>
+    .graph.forecast { position:relative; height:#{@height + 45}px; font-family:'din_regular' }
+    .graph.forecast svg { overflow: hidden; padding-top:5px; height:149px}
+    .graph.forecast svg line { stroke:black; stroke-width:#{(@width/42.0).to_i - 1}; stroke-linecap:round; }
+    .graph.forecast svg line.audio { fill:#72dec2; stroke:#72dec2}
+    .graph.forecast svg line.visual { fill:#000; stroke:#000 }
+    .graph.forecast svg line.research { fill:#ddd; stroke:#ddd }
+    .graph.forecast svg line.forecast { }
+    .graph.forecast ln { display:block; position:relative; font-family:'din_regular'; font-size:12px;}
+    .graph.forecast t { position: absolute;top: -15px;left: 0px;color: #999; font-size:12px; color:#000; width:#{@width/21.0}px; display:block;text-align:center }
+    .graph.forecast t b { font-family:'din_bold'}
     </style>"
 
   end
