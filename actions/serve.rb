@@ -75,14 +75,12 @@ class CorpseHttp
     add_link("font.lora.css",:lobby)
     add_link("font.din.css",:lobby)
     
-    add_link("style.main.css")
-
+    add_script("core/jquery.js",:lobby)
     add_script("core/invocate.js",:lobby)
     add_script("core/terminal.js",:lobby)
 
+    add_link("main.css")
     add_script("main.js")
-    add_script("jquery.core.js")
-    add_script("jquery.main.js")
 
   end
 
@@ -95,7 +93,7 @@ class CorpseHttp
           #{Media.new("badge",@module).exists ? (badge = Media.new("badge",@module) ; badge.set_class('portal') ; badge) : term.badge}
         </a>        
         <list>
-          <ln style='break-after: column; break-before: column '>#{!term.parent.name.like(term.name) ? '<a class=\'parent\' href=\'/'+term.parent.name+'\'>'+term.parent.name+'</a>' : ''} <input value='#{term.name.like('home') ? 'Jiiv' : term.name.capitalize}' type='text' spellcheck='false' autocorrect='off'/><br />#{term.bref}</ln>
+          <ln style='break-after: column; break-before: column '>#{!term.parent.name.like(term.name) ? '<a class=\'parent\' href=\'/'+term.parent.name+'\'>'+term.parent.name+'</a>' : ''} <input id='search' value='#{term.name.like('home') ? 'Jiiv' : term.name.capitalize}' type='text' spellcheck='false' autocorrect='off'/><br />#{term.bref}</ln>
           <ln>
             #{@module                                                     ? "<a class='md' href='/#{term.name}'>Return #{term.name}</a>" : ""}
           </ln>
