@@ -28,7 +28,7 @@ class Graph_Forecast
     i = 0.5
     this_week.reverse.each do |log|
       graph += "<line x1='#{@line_spacing * i}' y1='#{@height}' x2='#{@line_spacing * i}' y2='#{(@height - ((log.value/10.0) * @height))}' class='#{log.sector}'></line>"
-      html += "<t class='date' style='left:#{@line_spacing/3 + (@line_spacing * (i-1))}px'>#{i == 6.5 ? '<b>Now</b>' : log.date.day}</t>"
+      html += "<t class='date' style='left:#{@line_spacing/3 + (@line_spacing * (i-1))}px'>#{i == 6.5 ? '<b>Now</b>' : log.time.d}</t>"
       i += 1
     end
 
