@@ -1636,7 +1636,7 @@ LOBBY
 
 SUITE
   UNDE : Nataniev
-  TYPE : Portal
+  TYPE : Portal false
   BREF : The {{Suite}} is the sum of all productivity and creation tools built for the Nataniev ecosystem.
 
 NATANIEV GUIDE
@@ -1788,7 +1788,7 @@ PORTAL
   BREF : The {{Portal}} lists {{Nataniev}}'s major categories of topics.
 
 DESAMBER
-  UNDE : Research
+  UNDE : Suite
   BREF : {{Desamber}} is the calendar format of the Nataniev ecosystem.
   LONG
     & The {_Equal Month calendar_} has {*13 months*} of {*28 days*} each and the 365th day of the year is the {_Year Day_}, preceeded by the {_Leap Day_} on leap years. Today's date is {{!desamber}}.

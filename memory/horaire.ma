@@ -4,32 +4,35 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
-20170711 - 37      Nataniev             Tools
+20170714 - 33      Japanese             Writing
+20170713 - 25      Horaire              Layout
+20170712 - 37      Grimgrains           Development
+20170711 - 27      Hundred rabbits      Photography
 20170710 - 27      Desamber             Design
 20170709 - 17      Mt Eyn               Composition
 20170708 - 18      Nataniev             Tools
 20170707 - 13      Mt Eyn               Composition
 20170706 - 18      Mt Eyn               Composition
 20170705 - 19      Mt Eyn               Composition
-20170704 - 34      Grimgrains           Tools                                      Progress on the {{Grimgrains}} nutrition diary.
-20170703 - 37      Grimgrains           Tools                                      Built a nutrition diary based on Dr. Gregger's Daily dozen.
-20170702 - 29      Grimgrains           Design                                     Redesigned {{Grimgrains}} to look leaner and simplier.
-20170701 - 38      Grimgrains           Development                                Rebuilt the memory files structure behind {{Grimgrains}}.
-20170630 - 34      Marabu               Prototype                                  Rethinking the {{Marabu}} interface to allow monitoring of multiple instruments at once.
-20170629 - 35      Horaire              Tools                                      Designing an entry, or log, formating for a possible daily food diary.
+20170704 - 34      Grimgrains           Tools                                      
+20170703 - 37      Grimgrains           Tools                                      
+20170702 - 29      Grimgrains           Design                                     
+20170701 - 38      Grimgrains           Development                                
+20170630 - 34      Marabu               Prototype                                  
+20170629 - 35      Horaire              Tools                                      
 20170628 - 17      Mt Eyn               Composition
 20170627 - 17      Mt Eyn               Composition
-20170626 - 34      Left                 Tools                                      Improved the {{Left}} functionality and made availabe to everyone through Github.
-20170625 - 34      Nataniev             Maintenance                                Organize the {{Nataniev}} core, to better welcome the {{Lobby}} tools. 
-20170624 - 27      Horaire              Design                                     Redesign the {{Horaire}} infographics.
-20170623 - 35      Rotonde              Development                                Improve {{Nataniev}}'s {{Rotonde}} client.
-20170622 - 29      Oscean               Design                                     Redesign {{Oscean}}.
-20170621 - 39      Rotonde              Prototype                                  Prototype the {{Rotonde}} specs with members of Merveilles.
-20170620 N 26   81 Lobby                Prototype            Nataniev OS           Prototype a graphical terminal to {{Nataniev}}. I suppose it was innevitable that I would eventually build an OS.
+20170626 - 34      Left                 Tools                                      
+20170625 - 34      Nataniev             Maintenance                                
+20170624 - 27      Horaire              Design                                     
+20170623 - 35      Rotonde              Development                                
+20170622 - 29      Oscean               Design                                     
+20170621 - 39      Rotonde              Prototype                                  
+20170620 N 26   81 Lobby                Prototype            Nataniev OS           A first preview of the {{Nataniev}} lobby, the OS' terminal manager.
 20170619 - 38      Lobby                Development
-20170618 - 38      Prototyped           Branding                                   Design a logo for the {{Rotonde}} protocol.
-20170617 - 29      Lobby                Prototype                                  Creat a frontend to the Nataniev server, called {{Lobby}}.
-20170616 - 28      Ronin                Branding                                   Update the Ronin logo to a simplier design.
+20170618 - 38      Prototyped           Branding                                   
+20170617 - 29      Lobby                Prototype                                  
+20170616 - 28      Ronin                Branding                                   
 20170615 - 28      Marabu               Layout
 20170614 - 35      Oquonie              Development
 20170613 - 17      Marabu               Composition

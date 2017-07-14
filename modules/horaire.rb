@@ -30,7 +30,7 @@ class CorpseHttp
       <h2 id='forecast'>Forecast</h2>
       #{Graph_Forecast.new(home_term)}
       <mini>Fh & Sector forecast for the next 7 days.</mini>
-      <p>Based on previous trends, this graph shows the predicted optimal Fh and sector.</p>"
+      <p>Based on previous {_Fh_} trends and ratios, predictions on upcoming optimal creative sectors and investments can be forcasted.</p>"
       return html.markup
     elsif term.logs.length > 2
       html += Graph_Timeline.new(term).to_s
