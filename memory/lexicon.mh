@@ -1590,7 +1590,8 @@ NEEDLES
 
 JAPANESE
   UNDE : Language
-  BREF : This page is currently used to store hours invested in learning {{Japanese}}. It will, hopefully, become a series of notes on the language at some point in time.
+  BREF : The {{Japanese}} page is a mirror of Tad Perry's Quick and Dirty Guide to Japanese with HTML formatting.
+  TYPE : Memory
 
 RUSSIAN
   UNDE : Language
