@@ -2,6 +2,9 @@
 ~ NOTE : 
 ~ AUTH : Tad Perry
 
+INTRO
+  & This is still a work in progress that I improve whenever I have a bit of downtime.
+
 SYNTAX
   Action Verb
     & In general, standard word order for Japanese when using an action verb is as shown below. Subjects are shown in grey as they are very often deleted. 
@@ -42,7 +45,18 @@ PARTICLES
     & Use mo when you're adding more info on a list of established info. It may be used alone when marking subjects and objects, and can follow other particles (like ni, de, and he). Put it this way: if "wa" clears the understood info and replaces it, "mo" adds extra info on top of what's already there without clearing out anything. 
     # ぼくも行く「ぼく　も　いく」<comment>I'm going too.</comment>
   の
-    & Possession.[TODO]
+    & Objects possessed by a subject are followed by の.
+    & This structure is akin to the english {#'s#}.
+    # ぼくの本「ぼく　の　ほん」<comment>My book</comment>
+
+ADJECTIVES
+  & Ajectives always end in あい, いい, うい or おい, never in えい that would be a noun. Basically you replace い with a form of か to inflect.
+  # 優しい「やさしい」<comment>It's nice</comment>
+  # 優しくない「やさしくない」<comment>It's not nice</comment>
+  # 優しかった「やさしかった」<comment>It was nice</comment>
+  # 優しかったら「やさしかったら」<comment>If it's nice</comment>
+  & These inflections follow what a "ka+u" verb would do. If you can conjugate "kau" (to buy) you can conjugate every Japanese adjective. Just note that you don't say: "atsukaseru" for "make something hot" you say "atsuku suru". For a command, say: "yasashiku natte" ("be nice").
+  & Sometimes when you look in a dictionary or ask for an adjective you, you will find something that doesn't look like an adjective at all. It's a noun! If you come up with a noun for a word when you expected an adjective (like "kirei" for "pretty"), just remember that you use adjectival noun + na + noun to make it work. So, "kirei na ojoosan" is "pretty girl". Everything else is like a noun. "Kirei da". "Kirei ja nai", etc. 
 
 VERBS
   る Verbs
@@ -67,205 +81,47 @@ VERBS
     | {_食べ_}させられる | Be made to eat
     > </table>
   う Verbs
-    & Another thing that many Japanese learners need is an easy method of arriving at all the verb conjugations and a highly reduced set of rules for how to get them right on the different types of verbs. That's easy enough really because there are only three major verb types: -ru verbs, -u verbs, and -aru verbs (a polite type not much used except for "gozaru/gozaimasu"). People really hate Eleanor Jorden for this kind of naming, but in language learning you take what's easy and go with it; there's no need to worry about theoretical linguistics here. Also note that I changed romanization styles at this point to one that makes the changes in verbs appear much more uniform. 
-    & Ru verbs are those that end in -ru like taberu and ireru. There is always an "i" or an "e" before "ru". "-u" verbs end in u, ku, gu, bu, mu, nu, su, tu, or [a,i,u,e,o]+ru.  See the overlap? It's where "i" or "e" comes before "ru". Luckily, an ambiguous verb is *usually* a -ru verb. But to be sure, you should memorize two forms for all "e+ru" and "i+ru" verbs (e.g. ireru/irete and hairu/haitte), so you can keep them straight. So here's the process of picking up a new verb. You look in the dictionary or ask a native speaker. 
+    & う verbs end in う, く, ぐ, ぶ, む, ぬ, す, つ, or ある・いる・うる・える・おる. 
+    & Typically you drop -u and add something else. The problem is that there might be a phonetic change (such as when ha becomes pa, or ta becomes da) for some of the types. See -ru verbs above for simple English examples of what the conjunctions mean. This part will cover the conjunction rules for -u verbals only. 
     - Q. How do you say "kick"?
-    - A. "keru"
+    - A. ける
     & If it had ended in u, ku, gu, bu, mu, nu, su or tu that would be all the information you need to come up with every inflection. But this one is "e+ru" so you need to know if it's a -ru verb or an -u verb. Check by asking for another form. 
     - Q. Do you say "kemasu" or "kerimasu"?
-    - A. You say "kerimasu".
+    - A. けります
     & Well, now you know it's an -u verb. If you drop -ru to add -masu, that's always a -ru verb. If you change -u to -i that's always an -u verb. Once you know which it is you can make all the inflections you need just from knowing "keru". 
-    & "-u" verbs end in u, ku, gu, bu, mu, nu, su, tu, or [a,i,u,e,o]+ru.
-    & -RU verbs are by far the easiest to conjugate: you drop -ru and add something else. Simple. -U verbs aren't that easy but almost. Typically you drop -u and add something else. The problem is that there might be a phonetic change (such as when ha becomes pa, or ta becomes da) for some of the types. See -ru verbs above for simple English examples of what the conjunctions mean. This part will cover the conjunction rules for -u verbals only. 
     & Remember, there are some -u verbs that end in -ru. Real -ru verbs (where -ru gets dropped) always end in "iru" or "eru". Anything else, like "aru"/be located, "oru"/break and "uru"/sell, must be an -u verb. For "iru" and "eru" you need to know two forms to be sure. If you see one that ends in "iru" or "eru", and -u changes to add -masu, or the "t" doubles to get a gerund (hairu->haitte), then you're dealing with an -u verb. Otherwise, it's a -ru verb. 
     & There are other verbs that end in -ru that aren't either type.  These are always super-polite oddball verbs like gozaru/gozaimasu and nasaru/nasaimasu. You can effectively forget about these because they are only a handful and you can see them coming a mile away.  Usually, just assume anything ending "aru", "uru" or "oru" is an -u verb.) 
     & IMPORTANT: Except for "iru/eru" verbs, every other type of verb can be identified by hearing only one form.
-    & Including -u verbs which might happen to end in -ru, these are all the
-    * types there are:
-    # -su
-    # -ku  (these two types conjugate similarly)
-    # -gu
-    # -bu  (these three types conjugate similarly)
-    # -mu
-    # -nu
-    # -ru  (these three types conjugate similarly)
-    # -tu
-    # -vowel+u
-    # -su is the only one that is well-behaved. That is, -u will change to
-    # -a, -i, -e or -o depending on the conjugation with no odd behavior to remember.
-    & Here are the replacements:
-    & replace -u with -i to add extensions like "-masu", "-yasui", etc. (works straight across, no phonetic changes in any of the types)
-    # hanasu -> hanasi (talk)
-    # kiku   -> kiki   (walk)
-    # oyogu  -> oyogi  (swim)
-    # yobu   -> yobi   (call)
-    # nomu   -> nomi   (drink)
-    # sinu   -> sini   (die)
-    # tukuru -> tukuri (make)
-    # matu   -> mati   (wait)
-    # harau  -> harai  (pay)
-    & Replace -u with -ite for do "X and Y" and for simple commands. (types not strictly following the rule, but acting similarly, are grouped)
-    # hanasu -> hanasite (talk)
-    # kiku   -> kiite   (walk)    (replace entire -ku, be sure to use -ite)
-    # oyogu  -> oyoide  (swim)    (replace entire -gu, be sure to use -ide)
-    # yobu   -> yonde    (call)   (replace entire -bu, be sure to use -nde)
-    # nomu   -> nonde    (drink)  (replace entire -mu, be sure to use -nde) 
-    # sinu   -> sinde    (die)    (replace entire -nu, be sure to use -nde) 
-    # tukuru -> tukutte  (make)   (replace entire -ru, be sure to use -tte)
-    # matu   -> matte    (wait)   (replace entire -tu, be sure to use -tte) 
-    # harau  -> haratte  (pay)    (replace -u, be sure to use -tte)
-    & Replace -u with -ita for past tense. (types not strictly following the rule, but acting similarly, are grouped)
-    # hanasu -> hanasita (talk)
-    # kiku   -> kiita   (walk)    (replace entire -ku, be sure to use -ita)
-    # oyogu  -> oyoida  (swim)    (replace entire -gu, be sure to use -ida)
-    # yobu   -> yonda    (call)   (replace entire -bu, be sure to use -nda)
-    # nomu   -> nonda    (drink)  (replace entire -mu, be sure to use -nda) 
-    # sinu   -> sinda    (die)    (replace entire -nu, be sure to use -nda) 
-    # tukuru -> tukutta  (make)   (replace entire -ru, be sure to use -tta)
-    # matu   -> matta    (wait)   (replace entire -tu, be sure to use -tta) 
-    # harau  -> haratta  (pay)    (replace -u, be sure to use -tta)
-    & (In fact, I query search and replaced "e" with "a" on the gerunds to arrive at the past tense. This is good to know because the rule breakers are now breaking the rules in a predictable fashion.)
-    & Replace -u with -itara for "if". (Or, just add "ra" to the past.) (types not strictly following the rule, but acting similarly, are grouped)
-    # hanasu -> hanasitara (talk)
-    # kiku   -> kiitara   (walk)    (replace entire -ku, be sure to use -itara)
-    # oyogu  -> oyoidara  (swim)    (replace entire -gu, be sure to use -idara)
-    # yobu   -> yondara    (call)   (replace entire -bu, be sure to use -ndara)
-    # nomu   -> nondara    (drink)  (replace entire -mu, be sure to use -ndara) 
-    # sinu   -> sindara    (die)    (replace entire -nu, be sure to use -ndara) 
-    # tukuru -> tukuttara  (make)   (replace entire -ru, be sure to use -ttara)
-    # matu   -> mattara    (wait)   (replace entire -tu, be sure to use -ttara) 
-    # harau  -> harattara  (pay)    (replace -u, be sure to use -ttara)
-    & Replace -u with -itari for "do things like X". (Or just add "ri" to past.) (types not strictly following the rule, but acting similarly, are grouped)
-    # hanasu -> hanasitari (talk)
-    # kiku   -> kiitari   (walk)    (replace entire -ku, be sure to use -itari)
-    # oyogu  -> oyoidari  (swim)    (replace entire -gu, be sure to use -idari)
-    # yobu   -> yondari    (call)   (replace entire -bu, be sure to use -ndari)
-    # nomu   -> nondari    (drink)  (replace entire -mu, be sure to use -ndari) 
-    # sinu   -> sindari    (die)    (replace entire -nu, be sure to use -ndari) 
-    # tukuru -> tukuttari  (make)   (replace entire -ru, be sure to use -ttari)
-    # matu   -> mattari    (wait)   (replace entire -tu, be sure to use -ttari) 
-    # harau  -> harattari  (pay)    (replace -u, be sure to use -ttari)
-    & Replace -u with -eba for "if" (works straight across, no phonetic changes in any of the types)
-    # hanasu -> hanaseba (talk)
-    # kiku   -> kikeba   (walk)
-    # oyogu  -> oyogeba  (swim)
-    # yobu   -> yobeba   (call)
-    # nomu   -> nomeba   (drink)
-    # sinu   -> sineba   (die)
-    # tukuru -> tukureba (make)
-    # matu   -> mateba   (wait)
-    # harau  -> haraeba  (pay)
-    & Replace -u with -oo for "let's do X". (works straight across, no phonetic changes in any of the types)
-    # hanasu -> hanasoo (talk)
-    # kiku   -> kikoo   (walk)
-    # oyogu  -> oyogoo  (swim)
-    # yobu   -> yoboo   (call)
-    # nomu   -> nomoo   (drink)
-    # sinu   -> sinoo   (die)
-    # tukuru -> tukuroo (make)
-    # matu   -> matoo   (wait)
-    # harau  -> haraoo  (pay)
-    & Replace -u with -e for rude orders "do X dammit". (works straight across, no phonetic changes in any of the types)
-    # hanasu -> hanase (talk)
-    # kiku   -> kike   (walk)
-    # oyogu  -> oyoge  (swim)
-    # yobu   -> yobe   (call)
-    # nomu   -> nome   (drink)
-    # sinu   -> sine   (die)
-    # tukuru -> tukure (make)
-    # matu   -> mate   (wait)
-    # harau  -> harae  (pay)
-    & Replace -u with -anai for negative. (This is now an adjective.) (works straight across, only one phonetic change in one type)
-    # hanasu -> hanasanai (talk)
-    # kiku   -> kikanai   (walk)
-    # oyogu  -> oyoganai  (swim)
-    # yobu   -> yobanai   (call)
-    # nomu   -> nomanai   (drink)
-    # sinu   -> sinanai   (die)
-    # tukuru -> tukuranai (make)
-    # matu   -> matanai   (wait)
-    # harau  -> harawanai (pay)    (stick a wa in there, not just an "a". Makes it easier to say, too. Lucky us!)
-    & Replace -u with -eru for "can do X". This is now a -ru verb. (works straight across, no phonetic changes in any of the types)
-    # hanasu -> hanaseru (talk)
-    # kiku   -> kikeru   (walk)
-    # oyogu  -> oyogeru  (swim)
-    # yobu   -> yoberu   (call)
-    # nomu   -> nomeru   (drink)
-    # sinu   -> sineru   (die)
-    # tukuru -> tukureru (make)
-    # matu   -> materu   (wait)
-    # harau  -> haraeru  (pay)
-    & Replace -u with -aseru for "make (someone) do X". This is now a -ru verb. (works straight across, only one phonetic change in one of the types)
-    # hanasu -> hanasaseru (talk)
-    # kiku   -> kikaseru   (walk)
-    # oyogu  -> oyogaseru  (swim)
-    # yobu   -> yobaseru   (call)
-    # nomu   -> nomaseru   (drink)
-    # sinu   -> sinaseru   (die)
-    # tukuru -> tukuraseru (make)
-    # matu   -> mataseru   (wait)
-    # harau  -> harawaseru (pay)  (Don't forget to throw a wa in there!)
-    & Replace -u with -areru for "X is done (often to someone)". This is now a -ru verb. (works straight across, only one phonetic change in one of the types)
-    # hanasu -> hanasareru (talk)
-    # kiku   -> kikareru   (walk)
-    # oyogu  -> oyogareru  (swim)
-    # yobu   -> yobareru   (call)
-    # nomu   -> nomareru   (drink)
-    # sinu   -> sinareru   (die)
-    # tukuru -> tukurareru (make)
-    # matu   -> matareru   (wait)
-    # harau  -> harawareru (pay)  (Don't forget to throw a wa in there!)
-    & Replace -u with -aserareru for "be made to do X by someone". Same result as just doing the two conjunctions separately but is taught in most books as a specific conjunction. This is now a -ru verb.  (works straight across, only one phonetic change in one of the types) 
-    # hanasu -> hanasaserareru (talk)
-    # kiku   -> kikaserareru   (walk)
-    # oyogu  -> oyogaserareru  (swim)
-    # yobu   -> yobaserareru   (call)
-    # nomu   -> nomaserareru   (drink)
-    # sinu   -> sinaserareru   (die)
-    # tukuru -> tukuraserareru (make)
-    # matu   -> mataserareru   (wait)
-    # harau  -> harawaserareru (pay)  (Don't forget to throw a wa in there!)
-    & Now that was long, but it was mostly cut-and-paste because even these are well-behaved when you organize them correctly. When you boil down what needs to be done to these verbs to conjugate them correctly, the information required is really minimal--even for the oddballs. That's all you need to be able to conjugate almost every verb in Japanese. Most books say that there are only two irregular verbs in all of Japanese: suru and kuru. Those you have to memorize separately, but they kind of make sense when you look at them. In fact, though, there's a third irregular verb: iku. The reason is that unlike kiita for kiku, you don't say iita, you say itta. You don't say, iite, you say itte. But it's regular in it's irregularity because it acts like tsukuru for some weird reason. 
-    # kuru                     ("will come", or "comes (often, everyday, etc.)")
-    # ki                       (to add "-masu", note that "-yasui" isn't used)
-    # kite                     (casual command: "come here")
-    # kita                     (past tense: "someone came")
-    # kitara (add ra to past)  ("if(once) someone comes", some connotation of when)
-    # kitari (ad ri to past)   ("do things like come")
-    # kureba                   ("if someone comes", no connotation of when)
-    # koyoo                    ("let's come", no, it can't possibly mean orgasms)
-    # koi                      (rude request: "come here you")
-    # konai                    (negative: "won't come" or "doesn't come (very much)")
-    # korareru                 ("can come")
-    # kosaseru                 ("make (someone) come")
-    # korareru                 (passive--no example comes to mind)
-    # kosaserareru             ("be made to come (by someone)")
-    # suru                     ("will do", or "does (often, everyday, etc.)")
-    # si                       (to add "-masu", or "-yasui")
-    # site                     (casual command: "do this")
-    # sita                     (past tense: "someone did")
-    # sitara (add ra to past)  ("if(once) someone does", some connotation of when)
-    # X sitari (ad ri to past) ("do things like doing X")
-    # sureba                   ("if someone does", no connotation of when)
-    # X siyoo                  ("let's do X")
-    # siro                     (rude request: "do this dammit")
-    # sinai                    (negative: "won't do" or "doesn't do (very much)")
-    # dekiru (really "seru")   ("can do"--"someone I can love": "ai seru hito")
-    # saseru                   ("make (someone) do")
-    # sareru                   ("be done (by someone"))
-    # saserareru               ("be made to do (by someone)")
+    > <table>
+    | talk |はな  |話す |話して |話しった |話したら  |話せ | 話さない | 話せる  
+    | walk |きく  | きく | きいて    | 聞いた    | 聞いたら           | 聞け   | 聞かない   | 聞ける    
+    | swim |およぐ | 泳ぐ | 泳いでる   | 泳いだ   | 泳いだら        | 泳げ  | 泳がない  | 泳げる   
+    | call |呼び  | 呼ぶ | 呼んで    | 呼んだ    | 呼んだら            | 呼べ   | 呼ばない   | 呼べる    
+    | drink |ぬも | 飲む | 飲んで    | 飲んだ    | 飲んだら            | 飲め   | 飲まない   | 飲める
+    | die |しぬ   | 死ぬ | 死んで    | 死んだ    | 死んだら              | 死ね   | 死なない   | 死ねる    
+    | make |つくる| 作る | 作って  | つ作った  | 作ったら     | 作れ | 作らない | 作れる  
+    | wait |まて  | 待つ | 待って    | 待った    | 待ったら             | 待たない    | 待てる    
+    | pay |はらう  | 払う | 払って  | 払った  | 払ったら        | 払え  | 払わない | 払える   
+    > </table>
+  Irregulars
+    & Most books say that there are only two irregular verbs in all of Japanese: suru and kuru. Those you have to memorize separately, but they kind of make sense when you look at them. In fact, though, there's a third irregular verb: iku. The reason is that unlike kiita for kiku, you don't say iita, you say itta. You don't say, iite, you say itte. But it's regular in it's irregularity because it acts like tsukuru for some weird reason. 
+    > <table>
+    | kuru                     ("will come", or "comes (often, everyday, etc.)")       | suru                     ("will do", or "does (often, everyday, etc.)")
+    | ki                       (to add "-masu", note that "-yasui" isn't used)         | si                       (to add "-masu", or "-yasui")
+    | kite                     (casual command: "come here")                           | site                     (casual command: "do this")
+    | kita                     (past tense: "someone came")                            | sita                     (past tense: "someone did")
+    | kitara (add ra to past)  ("if(once) someone comes", some connotation of when)    | sitara (add ra to past)  ("if(once) someone does", some connotation of when)
+    | kitari (ad ri to past)   ("do things like come")                                 | X sitari (ad ri to past) ("do things like doing X")
+    | kureba                   ("if someone comes", no connotation of when)            | sureba                   ("if someone does", no connotation of when)
+    | koyoo                    ("let's come", no, it can't possibly mean orgasms)      | X siyoo                  ("let's do X")
+    | koi                      (rude request: "come here you")                         | siro                     (rude request: "do this dammit")
+    | konai                    (negative: "won't come" or "doesn't come (very much)")  | sinai                    (negative: "won't do" or "doesn't do (very much)")
+    | korareru                 ("can come")                                            | dekiru (really "seru")   ("can do"--"someone I can love": "ai seru hito")
+    | kosaseru                 ("make (someone) come")                                 | saseru                   ("make (someone) do")
+    | korareru                 (passive--no example comes to mind)                     | sareru                   ("be done (by someone"))
+    | kosaserareru             ("be made to come (by someone)")                        | saserareru               ("be made to do (by someone)")
+    > </table>
     & A cool trick to remember suru is that many of the conjugations match what you would get if you conjugated a lone "su", so it's kind of like "hanasu". Hanasita--sita. Hanaseru--seru. Hanasaseru--saseru. 
-
-ADJECTIVES
-  & These aren't that hard. They always end in [a,i,u,o]+i. They *never* end in e+i that would be a noun. Basically you replace "i" with a form of "ka" to inflect.
-  # yasashii                 ("It's nice")
-  # yasashiku nai            ("It's not nice")
-  # yasashikatta             ("It was nice")
-  # yasashikattara           ("If it's nice.")
-  # yasashikattari           (possible I suppose but not heard often)
-  # yasashikereba            ("If it's nice.")
-  & These inflections follow what a "ka+u" verb would do. If you can conjugate "kau" (to buy) you can conjugate every Japanese adjective. Just note that you don't say: "atsukaseru" for "make something hot" you say "atsuku suru". For a command, say: "yasashiku natte" ("be nice").
-  & Sometimes when you look in a dictionary or ask for an adjective you, you will find something that doesn't look like an adjective at all. It's a noun! If you come up with a noun for a word when you expected an adjective (like "kirei" for "pretty"), just remember that you use adjectival noun + na + noun to make it work. So, "kirei na ojoosan" is "pretty girl". Everything else is like a noun. "Kirei da". "Kirei ja nai", etc. 
 
 MISC
   Origin/Route
