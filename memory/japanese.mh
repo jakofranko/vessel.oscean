@@ -3,64 +3,98 @@
 ~ AUTH : Tad Perry
 
 INTRO
-  & This is still a work in progress that I improve whenever I have a bit of downtime.
+  & This is an edited version on Tad Perry's 1992 {_ Quick and Dirty Guide to Japanese_} with improved templating for readability, as well as some rephrasing and editing. The romaji phonetics have been replaced with kanji and hiraganas.
 
 SYNTAX
-  Action Verb
+  Action Verb（上げる）
     & In general, standard word order for Japanese when using an action verb is as shown below. Subjects are shown in grey as they are very often deleted. 
-    # <i>SUBJECT</i> TIME PLACE INDIRECT OBJECT OBJECT ACTION VERB
-    # <i>Watakushi wa</i> ashita gakkou de sensei ni purezento wo agemasu.
-    # <i>I'm</i> going to give a present to my teacher tomorrow.
-  Existence Verb
-    # <i>SUBJECT</i> TIME LOCATION EXISTENCE VERB
-    # <i>Takahashi wa</i> ima honsha ni iru.
-    # <i>Takahasi</i> is in the main office right now.
-  Motion Verb
-    # <i>SUBJECT</i> TIME ORIGIN ROUTE DESTINATION MOTION VERB
-    # <i>Watakushi wa</i> ashita paatii ni iku.
-    # <i>I'm</i> going to a party tomorrow.
+    & <i>I'm</i> going to give a present to my teacher tomorrow at school.
+    > <table>
+    | <i>Subject</i> | Time | Place | Indirect | Object | <b>Action Verb</b>
+    | <i>私は</i>     | 明日 | 学校で | 先生に | プレゼントを | 上げます
+    | <i>わたくし は</i>　| あした | がっこう　で　| せんせい　に　| ぷれぜんと　を　| あげます
+    > </table>
+  Existence Verb（いる）
+    & <i>I'm</i> in the main office right now.
+    > <table>
+    | <i>Subject</i> | Time | Location | <b>Existence Verb</b>
+    | <i>私は</i>     | 今 | 本社に | いる
+    | <i>わたくし は</i>　| いま | ほんしゃ　に|いる 
+    > </table>
+  Motion Verb（行く）
+    & <i>I'm</i> going to a party tomorrow.
+    > <table>
+    | <i>Subject</i> | Time | Destination | <b>Motion Verb</b>
+    | <i>私は</i> | 明日 | パーテイーに | 行く
+    | <i>わたくし は</i>　| あした | ぱーていー　に|いく
+    > </table>
 
 PARTICLES
   は
-    & In general, if a new subject is introduced where another had been previously understood, signal the change by placing は after the subject. If a subject is understood, but for some reason not deleted use が or nothing. 
+    & In general, if a {*new subject is introduced*} where another had been previously understood, signal the change by placing は after the subject. If a subject is understood, but for some reason not deleted use が or nothing. 
   に
-    & A time word or time phrase is usually followed by に. 
-    # 十月に「じゅう　がつ　に」 <comment>October</comment>
-    # 三月三日に「さん　がつ　みっか　に」 <comment>March 3rd</comment>
-    & In general, use に for specific points in time or specific spans of time.  A word like 明日（あした：Tomorrow）that can only be understood by context, as it changes depending on when you say it, are called deictic time words and <b>do not take に</b>.  
-    # 明日行く「あした　いく」<comment>I'm going tomorrow</comment>
-    & Indirect objects are also followed by に. In English, a preposition tends to come before the indirect object. (Like the "to" before "you" in this example.) This is the one that in Japanese needs to take "ni". 
-    # この本をあなたに上げる　「この　ほん　を　なたな　に　あげる」<comment>I'm going to give this book to you.</comment>
+    & An indicator of a specific points in {*time*} is usually followed by に, a word like "tomorrow" can only be understood by context and does not need the particle added. 
+    > <table>
+    | 十月に|じゅう　がつ　に | In October
+    | 三月三日に|さん　がつ　みっか　に| On March 3rd
+    > </table>
+    & <b>Indirect objects</b> are also followed by に, similar to the english expression "to you".
+    > <table>
+    | この本をあなたに上げる | この　ほん　を　なたな　に　あげる | I'm going to give this book to you.
+    > </table>
   で
-    & The place you do something or the thing you use to do something is followed by で. 
-    # 車で行く「くるま　で　いく」 <comment>Going by car</comment>
+    & The {*place*} you do something or the {*thing*} you use to do something is followed by で. 
+    > <table>
+    | 車で行く|くるま　で　いく| Going by car
+    > </table>
   を
-    & Objects are followed by を or nothing.
-    # 本を読んでいる「ほん　を　よんで　いる」<comment>I'm reading a book.</comment>
-  よ
-    & Verbs in exclamation sentences are followed by よ.
-  か
-    & Verbs in question sentences are followed by か.
+    & An {*object*} is followed by を or nothing.
+    > <table>
+    | 本を読んでいる | ほん　を　よんで　いる | I'm reading a book.
+    > </table>
   も
-    & Use mo when you're adding more info on a list of established info. It may be used alone when marking subjects and objects, and can follow other particles (like ni, de, and he). Put it this way: if "wa" clears the understood info and replaces it, "mo" adds extra info on top of what's already there without clearing out anything. 
-    # ぼくも行く「ぼく　も　いく」<comment>I'm going too.</comment>
+    & Use も to <b>add extra info</b> on top of what has already been declared, not unlike the english word "too", as in "me too".
+    > <table>
+    | ぼくも行く | ぼく　も　いく | I'm going too.
+    > </table>
   の
-    & Objects possessed by a subject are followed by の.
-    & This structure is akin to the english {#'s#}.
-    # ぼくの本「ぼく　の　ほん」<comment>My book</comment>
+    & Indicate {*possession*} by using の following an object, not unlike the english possession particle "'s", as in "Devine's".
+    > <table>
+    | これはぼくの本です | これ　は　ぼく　の　ほん　です | This is my book
+    > </table>
+  か
+    & A verb in a {*question*} sentence is followed by か.
+    > <table>
+    | 何時ですか | なんじ　です　か | What time is it?
+    > </table>
+    & Between {*choices*}, each choice is also followed by か.
+    > <table>
+    | 今日か明日？ | きょう　か　あした | Today or tomorrow?
+    > </table>
+  ね
+    & A verb in a sentence that shares a sort of {*agreement*} with the listener is followed by ね, not unlike the english expression "isn't?".
+    > <table>
+    | 多能しいですね | たのうしい　です　ね | It's fun isn't it?
+    > </table>
+  や
+    & [TODO]Enumerations.
+  よ
+    & [TODO]A verb in an {*exclamation*} sentence is followed by よ.
 
 ADJECTIVES
-  & Ajectives always end in あい, いい, うい or おい, never in えい that would be a noun. Basically you replace い with a form of か to inflect.
-  # 優しい「やさしい」<comment>It's nice</comment>
-  # 優しくない「やさしくない」<comment>It's not nice</comment>
-  # 優しかった「やさしかった」<comment>It was nice</comment>
-  # 優しかったら「やさしかったら」<comment>If it's nice</comment>
-  & These inflections follow what a "ka+u" verb would do. If you can conjugate "kau" (to buy) you can conjugate every Japanese adjective. Just note that you don't say: "atsukaseru" for "make something hot" you say "atsuku suru". For a command, say: "yasashiku natte" ("be nice").
-  & Sometimes when you look in a dictionary or ask for an adjective you, you will find something that doesn't look like an adjective at all. It's a noun! If you come up with a noun for a word when you expected an adjective (like "kirei" for "pretty"), just remember that you use adjectival noun + na + noun to make it work. So, "kirei na ojoosan" is "pretty girl". Everything else is like a noun. "Kirei da". "Kirei ja nai", etc. 
+  & Adjectives always end in あい, いい, うい or おい, never in えい that would be a noun. Basically, you replace the ending い to inflect.
+  > <table>
+  | 優しい | やさしい | It's nice
+  | 優しくない | やさしくない | It's not nice
+  | 優しかった | やさしかった | It was nice
+  | 優しかったら | やさしかったら | If it's nice
+  > </table>
+  & Sometimes when you look in a dictionary or ask for an adjective you, you will find something that doesn't look like an adjective at all. It's a noun! If you come up with a noun for a word when you expected an adjective (like きれい, pretty), just remember that you use adjectival noun + な + noun to make it work. So, きれい（な）お女王さん「きれい（な）おじょおさん」is "pretty girl". 
+  & Just note that you don't say: あつかせる for "make something hot" you say あつく + する.
 
 VERBS
-  る Verbs
-    & る verbs are those that end in ーる like たべる and いれる. There is always an い or an え before る.
+  ーる Verbs
+    & These verbs are those that end in ーる like たべる and いれる. There is always an い or an え before ーる.
     & For these verbs, everything is done by dropping or replacing ーる with something else. 
     > <table>
     | {_食べ_}る | Eating
@@ -80,74 +114,36 @@ VERBS
     | {_食べ_}させない　で　よ | Don't make me eat this!
     | {_食べ_}させられる | Be made to eat
     > </table>
-  う Verbs
-    & う verbs end in う, く, ぐ, ぶ, む, ぬ, す, つ, or ある・いる・うる・える・おる. 
-    & Typically you drop -u and add something else. The problem is that there might be a phonetic change (such as when ha becomes pa, or ta becomes da) for some of the types. See -ru verbs above for simple English examples of what the conjunctions mean. This part will cover the conjunction rules for -u verbals only. 
-    - Q. How do you say "kick"?
-    - A. ける
-    & If it had ended in u, ku, gu, bu, mu, nu, su or tu that would be all the information you need to come up with every inflection. But this one is "e+ru" so you need to know if it's a -ru verb or an -u verb. Check by asking for another form. 
-    - Q. Do you say "kemasu" or "kerimasu"?
-    - A. けります
-    & Well, now you know it's an -u verb. If you drop -ru to add -masu, that's always a -ru verb. If you change -u to -i that's always an -u verb. Once you know which it is you can make all the inflections you need just from knowing "keru". 
-    & Remember, there are some -u verbs that end in -ru. Real -ru verbs (where -ru gets dropped) always end in "iru" or "eru". Anything else, like "aru"/be located, "oru"/break and "uru"/sell, must be an -u verb. For "iru" and "eru" you need to know two forms to be sure. If you see one that ends in "iru" or "eru", and -u changes to add -masu, or the "t" doubles to get a gerund (hairu->haitte), then you're dealing with an -u verb. Otherwise, it's a -ru verb. 
-    & There are other verbs that end in -ru that aren't either type.  These are always super-polite oddball verbs like gozaru/gozaimasu and nasaru/nasaimasu. You can effectively forget about these because they are only a handful and you can see them coming a mile away.  Usually, just assume anything ending "aru", "uru" or "oru" is an -u verb.) 
-    & IMPORTANT: Except for "iru/eru" verbs, every other type of verb can be identified by hearing only one form.
+  ーう Verbs
+    & These verbs end in う, く, ぐ, ぶ, む, ぬ, す, つ, or ある・いる・うる・える・おる. Typically you drop ーう and add something else. The problem is that there might be a phonetic change, such as when は becomes ぱ, or た becomes だ.
     > <table>
-    | talk |はな  |話す |話して |話しった |話したら  |話せ | 話さない | 話せる  
-    | walk |きく  | きく | きいて    | 聞いた    | 聞いたら           | 聞け   | 聞かない   | 聞ける    
-    | swim |およぐ | 泳ぐ | 泳いでる   | 泳いだ   | 泳いだら        | 泳げ  | 泳がない  | 泳げる   
-    | call |呼び  | 呼ぶ | 呼んで    | 呼んだ    | 呼んだら            | 呼べ   | 呼ばない   | 呼べる    
-    | drink |ぬも | 飲む | 飲んで    | 飲んだ    | 飲んだら            | 飲め   | 飲まない   | 飲める
-    | die |しぬ   | 死ぬ | 死んで    | 死んだ    | 死んだら              | 死ね   | 死なない   | 死ねる    
-    | make |つくる| 作る | 作って  | つ作った  | 作ったら     | 作れ | 作らない | 作れる  
-    | wait |まて  | 待つ | 待って    | 待った    | 待ったら             | 待たない    | 待てる    
-    | pay |はらう  | 払う | 払って  | 払った  | 払ったら        | 払え  | 払わない | 払える   
+    | talk  |はな   |話す |話して |話しった |話したら  |話せ | 話さない | 話せる 
+    | walk  |きく   |きく | きいて    | 聞いた    | 聞いたら| 聞け   | 聞かない   | 聞ける    
+    | swim  |およぐ |泳ぐ | 泳いでる   | 泳いだ   | 泳いだら| 泳げ  | 泳がない  | 泳げる   
+    | call  |よび   |呼ぶ | 呼んで    | 呼んだ    | 呼んだら| 呼べ   | 呼ばない   | 呼べる    
+    | drink |ぬも   |飲む | 飲んで    | 飲んだ    | 飲んだら| 飲め   | 飲まない   | 飲める
+    | die   |しぬ   |死ぬ | 死んで    | 死んだ    | 死んだら| 死ね   | 死なない   | 死ねる    
+    | make  |つくる |作る | 作って  | つ作った  | 作ったら| 作れ | 作らない | 作れる  
+    | wait  |まて   |待つ | 待って    | 待った    | 待ったら| | 待たない| 待てる    
+    | pay   |はらう |払う | 払って  | 払った  | 払ったら| 払え  | 払わない | 払える   
     > </table>
+    & There are some ーう verbs that end in ーる like ある(to be), おる(to break) and うる(to sell) are ーう verbs as they do not have an い or え sound before ーる. 
+    & If you see one that ends in ーいる or ーえる, and ーう changes to add ーます, or the "t" doubles to get a gerund (入る「はいる」　＞　入って「はいって」), then you're dealing with an ーう verb.
   Irregulars
-    & Most books say that there are only two irregular verbs in all of Japanese: suru and kuru. Those you have to memorize separately, but they kind of make sense when you look at them. In fact, though, there's a third irregular verb: iku. The reason is that unlike kiita for kiku, you don't say iita, you say itta. You don't say, iite, you say itte. But it's regular in it's irregularity because it acts like tsukuru for some weird reason. 
+    & Most books say that there are only two irregular verbs in all of Japanese: する and 来る「くる」. Those you have to memorize separately, but they kind of make sense when you look at them. 
     > <table>
-    | kuru                     ("will come", or "comes (often, everyday, etc.)")       | suru                     ("will do", or "does (often, everyday, etc.)")
-    | ki                       (to add "-masu", note that "-yasui" isn't used)         | si                       (to add "-masu", or "-yasui")
-    | kite                     (casual command: "come here")                           | site                     (casual command: "do this")
-    | kita                     (past tense: "someone came")                            | sita                     (past tense: "someone did")
-    | kitara (add ra to past)  ("if(once) someone comes", some connotation of when)    | sitara (add ra to past)  ("if(once) someone does", some connotation of when)
-    | kitari (ad ri to past)   ("do things like come")                                 | X sitari (ad ri to past) ("do things like doing X")
-    | kureba                   ("if someone comes", no connotation of when)            | sureba                   ("if someone does", no connotation of when)
-    | koyoo                    ("let's come", no, it can't possibly mean orgasms)      | X siyoo                  ("let's do X")
-    | koi                      (rude request: "come here you")                         | siro                     (rude request: "do this dammit")
-    | konai                    (negative: "won't come" or "doesn't come (very much)")  | sinai                    (negative: "won't do" or "doesn't do (very much)")
-    | korareru                 ("can come")                                            | dekiru (really "seru")   ("can do"--"someone I can love": "ai seru hito")
-    | kosaseru                 ("make (someone) come")                                 | saseru                   ("make (someone) do")
-    | korareru                 (passive--no example comes to mind)                     | sareru                   ("be done (by someone"))
-    | kosaserareru             ("be made to come (by someone)")                        | saserareru               ("be made to do (by someone)")
+    | 来る | will come                        | する| will do
+    | 来て | come here                        | して| do this
+    | 来た | someone came                     | した| someone did
+    | 来たら | if someone comes                | したら|if someone does
+    | 来たり | do things like come             | したり| do things like doing
+    | 来れば | if someone comes                | すれば|if someone does
+    | 来よう | let's come                      | しよう|let's do
+    | 来い | come here you!                   | しろ|do this dammit!
+    | 来ない | won't come, or doesn't come    | しない|won't do, or doesn't do
+    | 来らせる | can come                      | できる|can do
+    | 来させる | make someone come             | させる|make someone do
+    | 来られる | ?                             | される|be done
+    | 来させられる| be made to come by someone  | させられる | be made to do by someone
     > </table>
-    & A cool trick to remember suru is that many of the conjugations match what you would get if you conjugated a lone "su", so it's kind of like "hanasu". Hanasita--sita. Hanaseru--seru. Hanasaseru--saseru. 
-
-MISC
-  Origin/Route
-    & Use "kara" ("from") after an ORIGIN and "wo" after a ROUTE. "Gakkoo kara, kooen wo totte, ouchi ni kaeru."  (Lit. "I'm going home from school through the park.") There's usually an intermediate verb in this type of usage. This covers the seemingly odd construction in Japanese of "mado wo magaru". You see you turn *through* the corner. It's not the ORIGIN. It's not the DESTINATION. It's along the way. Therefore it's the ROUTE you take. Therefore, you need "wo" 
-
-
-DELETIONS
-  & Usually, you don't have to worry about whether to use wa or ga, because most subjects can usually be deleted. "You can't get something wrong, if you leave it out in the first place." That's my philosophy. So we'll work on the parts of sentences that you can delete, starting with subjects. 
-  & If you turn to a Japanese and suddenly make a statement, The listener will *naturally* assume the subject is you. So don't bother supplying any subject. To do so, in fact, is not natural; a Japanese wouldn't normally do it. 
-  # "Ashita paatii ni iku." <comment>[I'm] going to the party tomorrow.</comment>
-  & If you turn to a Japanese and suddenly ask a question, the listener will assume the subject is himself or herself. 
-  # "Ashita paatii ni iku?" <comment>[Are you] going to the party tomorrow?</comment>
-  & If you suddenly turn to a Japanese and want to make a statement or ask a question about some other person altogether, use "wa" after that person's name or title the first time you mention that person: 
-  # "Shachoo wa, ashita paatii ni iku?" <comment>Is the shachoo going to the party tomorrow?</comment>
-  & Let's just say the "wa" introduces a change in subject. This time it signals a change from the default "you the listener" to the "shachoo". After you establish that you're talking about the president you can go back to dropping subjects again: 
-  # "Sono ato wa, kaeru ka na?" <comment>"Is he going home after that?"</comment>
-  & Note that this tendency to delete in Japanese parallels the point where an English native speaker would use plain pronouns like, I, you, he, she, they. When you start a comment about yourself, you use "I" (Japanese people delete). When you ask about the listener, you use "you" (Japanese people delete). When you've first established someone and then keep going with that person, you use "he" or "she" (Japanese people delete). See?  Simple. So don't go around using "watakushi", "anata", "kare" and "kanojo" all the time. Okay? Use them the first time only and then get rid of them. 
-  & Deleting other Established Info
-  & Just like with subjects, any info that's been established can be deleted, and any changes in established info can be signalled using "wa":
-  # "Ashita paatii ni iku?"
-  # ("[Are you] going to the party tomorrow?")
-  # "Un, anata wa?"
-  # ("Yeah, how about you?"--info about "paatii ni" and "iku" unchanged,   therefore deleted. Subject changed to original questioner, so the   change is signaled with "wa".)
-  # "Un-n, ikanai"
-  # ("No, I'm not going."--info about "paatii ni" still deleted, "iku" comes back as "ikanai" because it has changed form.)
-  # "Sono ato no eiga wa?"
-  # ("How about the movie afterwards?"--the established info "paatii"    changed to "eiga" so we use "wa" to establish the change in    understood information. Understood info that *hasn't* changed is    still left out, like the subject "boku" and the action "iku".) 
-  # "Un-n, ikanai."
-  & This is pretty much how deletions work whether it be subjects or something else. In general, always go for deletions if possible. This section also serves the purpose of giving you a feel for "wa". 
+    & A trick to remember する conjugations is that they often match what you would get if you conjugated a lone す.　Like はな<b>した</b>, はな<b>せる</b>, はな<b>させる</b>.

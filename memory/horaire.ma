@@ -4,6 +4,9 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170717 - 28      Hundred rabbits      Editing
+20170716 - 18      Hundred rabbits      Composition
+20170715 - 38  169 Japanese             Documentation
 20170714 - 33      Japanese             Writing
 20170713 - 25      Horaire              Layout
 20170712 - 37      Grimgrains           Development
