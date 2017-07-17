@@ -689,37 +689,6 @@ POLYGORE
   
 ~
 
-RUBY RIDING HOOD
-  UNDE : Language
-  BREF : Inspired by a talk with a friend about Steven Pinker's The Language Instincs, I decided to try and translate Leanne Guenther's {{Little Red Riding Hood|http://www.dltk-teach.com/rhymes/littlered/story.htm}} into Ruby.
-  LONG
-    & The idea was simple, how much meaning can I extrude from the original text and parse into a computer language, as it turns out, a lot of it can.
-    & The full text is on Github. Feel free to contact me with pull requests and optimisations.
-  LINK
-    GITH : https://gist.github.com/neauoire/9beee5e555615e0003d194548c158979
-    YOUT : http://en.wikipedia.org/wiki/The_Language_Instinct
-
-NUMBERS
-  UNDE : Language
-  BREF : {{Numbers}}, is a script that generates the name of numbers with 50'000 characters and beyond.
-  LONG
-    & It uses various extensions of the short word form, and ISQ inspired names, to create the names of numbers which have never previously been catalogued.
-    - One Million 6 zeros
-    - One Quindecillion 48 zeros
-    - One Quattuortrigintallion 105 zeros
-    - One Unnonagintallion 276 zeros
-    - One Quattuortrecentillion 915 zeros
-    - One Unseptuagintasescentillion 2016 zeros
-    - One Duotrigintatrillinillion 9999 zeros
-    - One Quattuorquadragintaoctillinillion 24135 zeros
-    - One Octillinillion 25203 zeros
-    - One Treoctogintaquadringentimilligillion 31452 zeros
-    - One Novennonagintaseptingentimilligillion 32400 zeros
-    - One Senonagintamilligillion 40191 zeros
-    - One Quinsexagintamilligillion 49998 zeros
-  LINK
-    GITH : https://github.com/XXIIVV/toys.numerals
-
 OCCULTER
   UNDE : Physical
   BREF : {{Occulter}} is a 3d printed shape inspired by the logo of a boutique I admire and that sells {{black things|http://occulter.org}}.
@@ -1565,39 +1534,78 @@ THE BOOKS OF BABEL
 
 LANGUAGE
   UNDE : Research
-  TYPE : Portal false false
-  BREF : This portal is a collecting notes on natural and syntetic {{languages|Language}}.
+  TYPE : Archive false
+  BREF : This {{Language}} portal is a collection of notes on natural and syntetic languages.
   LONG
-    & Some of the tasks at hand might involve translating the wiki into {{English Prime|http://en.wikipedia.org/wiki/E-Prime}}, E′. Also see correspondances between {{Lietal}} against {{Tractatus Logico-Philosophicus|https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus}}. In another order of ideas, the analysis of the {{Logopandecteision|http://en.wikipedia.org/wiki/Logopandecteision}} sounds like a fun project. I should compare {{Lietal}} against the rules of {{Neaudethaumata|http://penelope.uchicago.edu/urquhart/index.html}}.
-    
-WORDS
-  UNDE : Language
-  BREF : A collection of favourite words across various languages.
-  LONG
+    & Welcome to the Language Portal.
+    & The goal of these pages is to host a few resources, summaries and notes from my own language studies.
+    & Some of the future projects might have to do with {{English Prime|http://en.wikipedia.org/wiki/E-Prime}}(E′) or the {{Tractatus Logico-Philosophicus|https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus}}, maybe even an analysis of the {{Logopandecteision|http://en.wikipedia.org/wiki/Logopandecteision}} or the {{Neaudethaumata|http://penelope.uchicago.edu/urquhart/index.html}}. To give you a sense of my interest in linguistics, here are some of my favourite words:
     - {{Февраль|https://ru.wikipedia.org/wiki/Февраль}}, February in Russian
     - {{Roÿnes|https://fr.wiktionary.org/wiki/roÿne}}, queen in Middle French
-    - Pleurir, crying-laugh in French
+    - {*Pleurir*}, crying-laugh in French
     - {{Dodecahedron|https://en.wikipedia.org/wiki/Dodecahedron}}, in English
     - {{Oyasumi|https://en.wiktionary.org/wiki/お休み}}, in Japanese
     - {{Betwixt|https://en.wikipedia.org/wiki/Betwixt}}, in English
+    > <mini>The header is a word from the Voynich.</mini>
+
+JAPANESE
+  UNDE : Language
+  BREF : The {{Japanese}} page is an edited version of Tad Perry's 1992 {_Quick and Dirty Guide to Japanese_}.
+  TYPE : Memory
+
+RUSSIAN
+  UNDE : Language
+  BREF : The {{Russian}} page is a series of notes on the language inspired from Tad Perry's 1992 {_Quick and Dirty Guide to Japanese_}.
+  TYPE : Memory
+  
+~ Research
+
+RUBY RIDING HOOD
+  UNDE : Research
+  BREF : Inspired by a talk with a friend about Steven Pinker's The Language Instincs, I decided to try and translate Leanne Guenther's {{Little Red Riding Hood|http://www.dltk-teach.com/rhymes/littlered/story.htm}} into Ruby.
+  LONG
+    & The idea was simple, how much meaning can I extrude from the original text and parse into a computer language, as it turns out, a lot of it can.
+    & The full text is on Github. Feel free to contact me with pull requests and optimisations.
+  LINK
+    GITH : https://gist.github.com/neauoire/9beee5e555615e0003d194548c158979
+    YOUT : http://en.wikipedia.org/wiki/The_Language_Instinct
+
+NUMBERS
+  UNDE : Research
+  BREF : {{Numbers}}, is a script that generates the name of numbers with 50'000 characters and beyond.
+  LONG
+    & It uses various extensions of the short word form, and ISQ inspired names, to create the names of numbers which have never previously been catalogued.
+    - One Million 6 zeros
+    - One Quindecillion 48 zeros
+    - One Quattuortrigintallion 105 zeros
+    - One Unnonagintallion 276 zeros
+    - One Quattuortrecentillion 915 zeros
+    - One Unseptuagintasescentillion 2016 zeros
+    - One Duotrigintatrillinillion 9999 zeros
+    - One Quattuorquadragintaoctillinillion 24135 zeros
+    - One Octillinillion 25203 zeros
+    - One Treoctogintaquadringentimilligillion 31452 zeros
+    - One Novennonagintaseptingentimilligillion 32400 zeros
+    - One Senonagintamilligillion 40191 zeros
+    - One Quinsexagintamilligillion 49998 zeros
+  LINK
+    GITH : https://github.com/XXIIVV/toys.numerals
 
 NEEDLES
-  UNDE : Language
+  UNDE : Research
   BREF : {{Needles}} are glyphs of which the intersection count is equal to the value of the character.
   LONG
     & The glyphs are not used into any specific system of the {{Gamme}}, but are available here as a reference of a meaningful numeric glyph system.
     % needles fit
 
-JAPANESE
-  UNDE : Language
-  BREF : The {{Japanese}} page is a mirror of Tad Perry's Quick and Dirty Guide to Japanese with HTML formatting.
-  TYPE : Memory
-
-RUSSIAN
-  UNDE : Language
-  BREF : This page is currently used to store hours invested in learning {{Russian}}. It will, hopefully, become a series of notes on the language at some point in time.
-  
-~ Research
+SHORTHAND
+  UNDE : Research
+  BREF : {{Shorthand}} is a calligraphy style developed to take faster notes.
+  LONG
+    * The idea is simple, writing faster.
+    & I played with different ideas and this is the system that worked best for me, it’s an inspiration and a mixture of already existing shorthand systems that fits my writing style.
+    % shorthand.alphabet fit
+    & Simple enough, now most letters are transformed into a single stroke shape that flows and combines to form shorter words, that can be written faster.
 
 TALK
   UNDE : Research
@@ -1811,15 +1819,6 @@ LAE DOI
   LINK
     ITCH : https://hundredrabbits.itch.io/thousand-rooms
     GITH : https://github.com/XXIIVV/vessel.lietal/blob/master/memory/thousand_rooms.mh
-
-SHORTHAND
-  UNDE : Language
-  BREF : {{Shorthand}} is a calligraphy style developed to take faster notes.
-  LONG
-    * The idea is simple, writing faster.
-    & I played with different ideas and this is the system that worked best for me, it’s an inspiration and a mixture of already existing shorthand systems that fits my writing style.
-    % shorthand.alphabet fit
-    & Simple enough, now most letters are transformed into a single stroke shape that flows and combines to form shorter words, that can be written faster.
 
 OBLIQUES
   UNDE : Gamme

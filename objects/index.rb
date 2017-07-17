@@ -33,7 +33,7 @@ class Index
     @indexes.each do |parent,children| 
       if parent.to_s == "root" then next end   
       html += "<ln class='main'><t class='counter'>#{counter}.0</t> <a href='#{is_hash ? '#' : ''}#{parent.downcase.gsub(' ','_')}'>#{parent.capitalize}</a></ln>"
-      sub_counter = 1
+      sub_counter = 0
       children.each do |child|
         sub_counter += 1
         html += "<ln><t class='counter'>#{counter}.#{sub_counter}</t> <a href='#{is_hash ? '#' : ''}#{child.downcase.gsub(' ','_')}'>#{child.capitalize}</a></ln>"

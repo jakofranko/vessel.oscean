@@ -6,9 +6,9 @@
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20170717 - 28      Hundred rabbits      Editing
 20170716 - 18      Hundred rabbits      Composition
-20170715 - 38  169 Japanese             Documentation
-20170714 - 33      Japanese             Writing
-20170713 - 25      Horaire              Layout
+20170715 - 38  178 Japanese             Documentation
+20170714 - 33  169 Japanese             Writing
+20170713 - 25      Russian              Linguistics
 20170712 - 37      Grimgrains           Development
 20170711 - 27      Hundred rabbits      Photography
 20170710 - 27      Desamber             Design
@@ -77,7 +77,7 @@
 20170508 - 39      Neauismetica         Writing
 20170507 - 29      Hundred rabbits      Video
 20170506 - 14      Hundred rabbits      Composition
-20170505 @ 27   19 Language             Photography          Immortal Birds        This beautiful bird landed on {{Pino}}'s bow today. A perfect picture for the {{Language}} portal. A wink to {{Language of the birds}}.
+20170505 - 27   19 Language             Photography          Immortal Birds        This beautiful bird landed on {{Pino}}'s bow today. A perfect picture for the {{Language}} portal. A wink to {{Language of the birds}}.
 20170504 - 39      Thousand rooms       Linguistics
 20170503 - 39      Thousand rooms       Linguistics
 20170502 - 29      Thousand rooms       Branding
@@ -228,7 +228,7 @@
 20161209 - 39      Ronin                Update
 20161208 - 34      Obliques             Writing
 20161207 - 34      Lietal               Tools
-20161206 - 34      Russian              Tools
+20161206 - 34  194 Russian              Tools
 20161205 - 34      Russian              Tools
 20161204 - 34      Nataniev             Tools
 20161203 - 24  232 Forum                Design
@@ -379,7 +379,7 @@
 20160711 - 39      Pino                 Writing
 20160710
 20160709 - 29      Pino                 Event                Sail to America       1250nm sail to San Diego
-20160708 - 25  113 Sketchbook           Illustration
+20160708 ! 25  113 Language             Illustration
 20160707 - 25  143 Pearls               Modeling
 20160706 - 15      Portalion            Composition
 20160705 - 25  144 Pearls               Modeling
