@@ -1876,19 +1876,21 @@ DIRECTORY
 INVENTORY
   UNDE : Obliques
   BREF : The {{Inventory}} is a detailed collection of various pieces of equipment used in the creation of {{XXIIVV|Nataniev}}.
-  TYPE : Portal false false
+  TYPE : Portal full
   LONG
     & Here are some of my favourite items of {_Everyday Carry_}.
-    - MUJI's A5 Dotgrid
+    * EDC
     - Staedtler's Pigment Liner 0.3-2.0mm
+    - MUJI's A5 Dotgrid
     - Gerber's Tactical + Shard
     - J. L. Lawson & Co's MII Key holder
     - Voigtländer's {{Bessa R3M 250 Jahre|Camera}}
-    - FM21-76 Army Field Survival Manual
+    - Army Field Survival FM21-76  Manual
+    - Amazon's Kindle Paperwhite
 
 CAMERA
   UNDE : Inventory
-  BREF : The currently used {{Camera}} to these projects is the Sony a6000, while a lot of the previous photography was done mainly with a now deceased Leica M8.
+  BREF : The {{camera}}, presently used for the {{Nataniev}} projects, is the Sony a6000 and the Voightlander 28mm lens.
   LONG
     & A few other cameras are used, below is a list of the principal camera equipment.
     - {*Film*}
