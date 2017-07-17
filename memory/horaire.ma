@@ -6,8 +6,8 @@
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20170717 - 28      Hundred rabbits      Editing
 20170716 - 18      Hundred rabbits      Composition
-20170715 - 38  178 Japanese             Documentation
-20170714 - 33  169 Japanese             Writing
+20170715 - 38  178 Japanese             Documentation        Sidonia               Pages from {_Knights Of Sidonia_}, to be held at the top of the {{Japanese}} notes as it was one of the first Japanese books that I attempted to translate.
+20170714 - 33  169 Japanese             Writing              
 20170713 - 25      Russian              Linguistics
 20170712 - 37      Grimgrains           Development
 20170711 - 27      Hundred rabbits      Photography
@@ -33,7 +33,7 @@
 20170621 - 39      Rotonde              Prototype                                  
 20170620 N 26   81 Lobby                Prototype            Nataniev OS           A first preview of the {{Nataniev}} lobby, the OS' terminal manager.
 20170619 - 38      Lobby                Development
-20170618 - 38      Prototyped           Branding                                   
+20170618 -       
 20170617 - 29      Lobby                Prototype                                  
 20170616 - 28      Ronin                Branding                                   
 20170615 - 28      Marabu               Layout
@@ -262,7 +262,7 @@
 20161105 - 38      Babelium             Development
 20161104 - 32      Nataniev             Tools
 20161103 - 29      Hundred rabbits      Video
-20161102
+20161102 - 
 20161101 - 35      Neauismetica         Writing
 20161031 - 25  353 Black                Photography
 20161030 - 35      Nataniev             Update
@@ -272,7 +272,7 @@
 20161026 - 26      Markl                Design
 20161025 - 27      Markl                Design
 20161024 - 34      Markl                Development
-20161023 - 35      Method               Writing
+20161023 - 35      Aesthetics           Writing
 20161022 - 29      Hundred rabbits      Branding
 20161021 - 24      Hundred rabbits      Design
 20161020 - 37      Markl                Maintenance
@@ -343,7 +343,7 @@
 20160816 - 00  274 Film                 Photography
 20160815 - 22  334 Film                 Photography
 20160814 - 25  314 Film                 Photography
-20160813 - 37   92 Trisight             Writing
+20160813 - 37      Gamme                Writing
 20160812 - 29   91 Film                 Photography
 20160811 - 00  265 Film                 Photography
 20160810 - 00      America              Travel               San Francisco

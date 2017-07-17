@@ -10,6 +10,7 @@ class Term
   attr_accessor :bref
   attr_accessor :long
   attr_accessor :logs
+  attr_accessor :flag
 
   def initialize name = "Unknown", data = {}
 
@@ -19,6 +20,7 @@ class Term
     @unde = data["UNDE"] ? data["UNDE"].downcase.capitalize : "Home"
     @type = data["TYPE"] ? data["TYPE"] : nil
     @tags = data["TAGS"] ? data["TAGS"] : nil
+    @flag = data["FLAG"] ? data["FLAG"] : nil
     @link = data["LINK"]
     @bref = data["BREF"] ? data["BREF"].markup : nil
     @long = data["LONG"] ? data["LONG"] : []

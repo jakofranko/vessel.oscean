@@ -108,7 +108,7 @@ class CorpseHttp
 
   def _mi
 
-    return "<yu class='mi'>#{term.diaries.length > 0 ? term.diary.media : ''}<wr>"+view+"#{_tags}#{term.logs.length > 5 ? Graph_Overview.new(term) : ''}</wr></yu>"
+    return "<yu class='mi'>#{term.diaries.length > 0 && term.flag != 'no_photo' ? term.diary.media : ''}<wr>"+view+"#{_tags}#{term.logs.length > 5 ? Graph_Overview.new(term) : ''}</wr></yu>"
 
   end
 
