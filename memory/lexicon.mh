@@ -583,7 +583,7 @@ ENTALONERALIE
   BREF : {{Entaloneralie}} is another experimental watchface.
   TYPE : Diary
   LONG
-    & While the old design displayed a circular layout and binary type format. The redesign explores an entirely different system of displaying minutes and is meant to be a toy, a distraction.
+    & The {{Entaloneralie}} watchface displays the Nataniev's {{Clock}}. Where the {_needles_} are ratios of each other. They animate horizontaly and vertically to draw each digit of the current time.
   LINK
     ITUN : https://itunes.apple.com/us/app/entaloneralie/id657224738
     GITH : https://github.com/Echorridoors/Entaloneralie
@@ -1640,7 +1640,7 @@ NATANIEV
 
 LOBBY
   UNDE : Nataniev
-  BREF : The {{Lobby}}, {_Nataniev OS_} is a graphical terminal for native Nataniev applications and APIs.
+  BREF : The {{Lobby}} is a graphical terminal for {{Nataniev}} applications and APIs.
   LONG
     & The project is under development. More details shortly.
 
@@ -1651,6 +1651,7 @@ SUITE
 
 NATANIEV GUIDE
   UNDE : Nataniev
+  TYPE : portal summary
   BREF : Installation guide for {{Nataniev}} is currently being drafted out.
   LONG
     & {{Nataniev}} is first of all a piece of software, handling various types of applications. This quick guide should explain what the different tools do.
@@ -1799,7 +1800,7 @@ PORTAL
   BREF : The {{Portal}} lists {{Nataniev}}'s major categories of topics.
 
 DESAMBER
-  UNDE : Suite
+  UNDE : Nataniev guide
   BREF : {{Desamber}} is the calendar format of the Nataniev ecosystem.
   LONG
     & The {_Equal Month calendar_} has {*13 months*} of {*28 days*} each and the 365th day of the year is the {_Year Day_}, preceeded by the {_Leap Day_} on leap years. Today's date is {{!desamber}}.
@@ -1807,7 +1808,7 @@ DESAMBER
     GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
 
 CLOCK
-  UNDE : Suite
+  UNDE : Nataniev guide
   BREF : {{Clock}} is the time format of the Nataniev ecosystem.
   LONG
     & The current {{Nataniev}} time is {{!clock}}. The clock has 6 digits, where their overall value is a ratio over the completion of the day. For example, Noon is 500, 6AM is 250 and 6PM is 750. 

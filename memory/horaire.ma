@@ -4,9 +4,11 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170718 - 26      Lobby                Design
+20170718 @ 26  196 Clock                Design               Entaloneralie Native  Implemented {{Entaloneralie}} into {{Nataniev}} as the native {{Clock}} application.
 20170717 - 28      Hundred rabbits      Editing
 20170716 - 18      Hundred rabbits      Composition
-20170715 - 38  178 Japanese             Documentation        Sidonia               Pages from {_Knights Of Sidonia_}, to be held at the top of the {{Japanese}} notes as it was one of the first Japanese books that I attempted to translate.
+20170715 @ 38  178 Japanese             Documentation        Sidonia               Pages from {_Knights Of Sidonia_}, to be held at the top of the {{Japanese}} notes as it was one of the first Japanese books that I attempted to translate.
 20170714 - 33  169 Japanese             Writing              
 20170713 - 25      Russian              Linguistics
 20170712 - 37      Grimgrains           Development
@@ -1511,7 +1513,7 @@
 20130605 - 35      Oscean               Tools
 20130604 - 35      Oscean               Design
 20130603 - 35      Horaire              Design
-20130602 - 29  236 Entaloneralie        Release              1.0
+20130602 - 29      Entaloneralie        Release              
 20130601 - 38      Entaloneralie        Development
 20130531
 20130530 @ 29  235 Paradise             Illustration         The Endless Shores

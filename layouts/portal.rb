@@ -35,11 +35,8 @@ class CorpseHttp
 
     html = ""
 
-    $lexicon.to_h("term").each do |name,term|
-      if !term.unde.like(@term.name) then next end
-      if term.name.like(@term.name) then next end
-      if !term.bref then next end
-      html += term.to_s(@term.type_value ? @term.type_value : :long)
+    term.children.each do |child|
+      html += child.to_s(@term.type_value ? @term.type_value : :long)
     end
 
     return html
