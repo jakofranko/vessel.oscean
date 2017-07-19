@@ -1806,6 +1806,16 @@ DESAMBER
   LINK
     GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
 
+CLOCK
+  UNDE : Suite
+  BREF : {{Clock}} is the time format of the Nataniev ecosystem.
+  LONG
+    & The current {{Nataniev}} time is {{!clock}}. The clock has 6 digits, where their overall value is a ratio over the completion of the day. For example, Noon is 500, 6AM is 250 and 6PM is 750. 
+    & The clock is display in the 000:000 format, where the shortest pulse is equal to 8.64 milliseconds, the second shortest to 86.4 and so on.
+    & The fully formed Nataniev datestamp is {{!desamber}} {{!clock}}.
+  LINK
+    GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
+
 DICTIONAERY
   UNDE : Lietal
   BREF : The {{Dictionaery}} is a list of all the known {{Lietal}} words.
