@@ -16,6 +16,7 @@ class VesselOscean
 
     install(:custom,:serve)
     install(:custom,:debug)
+    install(:custom,:query)
     install(:lobby,:find)
     install(:generic,:document)
     install(:generic,:help)

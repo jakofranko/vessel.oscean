@@ -21,6 +21,15 @@ class ActionQuery
     @horaire = Memory_Array.new("horaire",@host.path)
     @lexicon = Memory_Hash.new("lexicon",@host.path)
 
+    if q.like("logs")
+      h = {}
+      @horaire.to_a(:log).each do |log|
+        if log.date.y != Time.now.year then next end
+        h[log.date.stamp] = {:topic => log.topic,:sector => log.sector,:value => log.value}
+      end
+      return h
+    end
+
     h = {}
     h[:available_id] = next_available_diary
     h[:missing_log] = next_missing_log
