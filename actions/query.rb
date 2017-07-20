@@ -21,14 +21,27 @@ class ActionQuery
     @horaire = Memory_Array.new("horaire",@host.path)
     @lexicon = Memory_Hash.new("lexicon",@host.path)
 
-    if q.like("logs")
-      h = {}
-      @horaire.to_a(:log).each do |log|
-        if log.date.y != Time.now.year then next end
-        h[log.date.stamp] = {:topic => log.topic,:sector => log.sector,:value => log.value}
-      end
-      return h
+    if q.like("calendar") then return get_calendar end
+    if q.like("tasks") then return get_tasks end
+
+  end
+
+  private
+
+  def get_calendar
+
+    h = {}
+    @horaire.to_a(:log).each do |log|
+      if log.date.y != Time.now.year then next end
+      h[log.date.stamp] = {:topic => log.topic,:sector => log.sector,:value => log.value}
     end
+    return h
+
+  end
+
+  def get_tasks
+
+    a = []
 
     h = {}
     h[:available_id] = next_available_diary
@@ -39,11 +52,14 @@ class ActionQuery
     h[:orphan] = next_orphan
     h[:misformatted] = next_misformatted
 
-    return h.to_json
+    h.each do |name,value|
+      if !value then next end
+      a.push("#{name} -> #{value}")
+    end
+
+    return a
 
   end
-
-  private
 
   def next_available_diary
 
