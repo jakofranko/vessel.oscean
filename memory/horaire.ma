@@ -4,6 +4,8 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170721 - 32      Lobby                Documentation
+20170720 - 37      Lobby                Tools
 20170719 - 36      Lobby                Tools
 20170718 - 26      Lobby                Design
 20170718 @ 26  196 Clock                Design               Entaloneralie Native  Implemented {{Entaloneralie}} into {{Nataniev}} as the native {{Clock}} application.
