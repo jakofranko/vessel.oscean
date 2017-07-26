@@ -4,9 +4,12 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
-20170721 - 32      Lobby                Documentation
-20170720 - 37      Lobby                Tools
-20170719 - 36      Lobby                Tools
+20170724 - 24      Ide                  Design
+20170723 - 24      Ide                  Design
+20170722 - 24      Ide                  Design
+20170721 - 32      Ide                  Documentation
+20170720 - 37      Ide                  Tools
+20170719 - 36      Ide                  Tools
 20170718 - 26      Lobby                Design
 20170718 @ 26  196 Clock                Design               Entaloneralie Native  Implemented {{Entaloneralie}} into {{Nataniev}} as the native {{Clock}} application.
 20170717 - 28      Hundred rabbits      Editing
