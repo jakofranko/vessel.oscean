@@ -27,12 +27,16 @@ LOBBY
 
 DICT
   Generic
-    Basic API
+    Basic APIs
     Basic display
+
+DIARY
+  Generic
+    Basic APIs
 
 TASKS
   Generic
-    Basic API
+    Basic APIs
 
 SYSTEM
   Generic
@@ -50,7 +54,6 @@ TWITTER
 
 IDE
   Browser
-    Notifications
     Hint view with line numbers
     Hide navi if no navigation is found
     Display file lines length
@@ -135,6 +138,14 @@ CORTEGE
 DONSOL
   Generic
     Port to Ionic
+
+LIETAL
+  Generic
+    Advanced notes
+
+ENGLISH
+  Generic
+    Basic notes
 
 OQUONIE
   Generic

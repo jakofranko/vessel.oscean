@@ -1558,6 +1558,19 @@ RUSSIAN
   UNDE : Language
   BREF : The {{Russian}} page is a series of notes on the language inspired from Tad Perry's 1992 {_Quick and Dirty Guide to Japanese_}.
   TYPE : Memory
+
+ENGLISH
+  UNDE : Language
+  BREF : The {{English}} page is currently a placeholder for the upcoming notes on the English Language.
+
+LIETAL
+  UNDE : Language
+  BREF : {{Lietal}} is a {{synthetic language|http://en.wikipedia.org/wiki/Constructed_language}} created to experiment with linguistics and translation.
+  TAGS : Portal
+  LONG
+    $ lietal serve documentation
+  LINK
+    GITH : https://github.com/XXIIVV/vessel.lietal
   
 ~ Research
 
@@ -1747,15 +1760,6 @@ LEFT
     # % Scroll position
   LINK
     GITH : https://github.com/hundredrabbits/Left
-
-LIETAL
-  UNDE : Language
-  BREF : {{Lietal}} is a {{synthetic language|http://en.wikipedia.org/wiki/Constructed_language}} created to experiment with linguistics and translation.
-  TAGS : Portal
-  LONG
-    $ lietal serve documentation
-  LINK
-    GITH : https://github.com/XXIIVV/vessel.lietal
 
 PARADISE
   UNDE : Interactive

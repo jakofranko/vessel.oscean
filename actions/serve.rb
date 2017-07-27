@@ -76,8 +76,6 @@ class CorpseHttp
     add_link("font.din.css",:lobby)
     
     add_script("core/jquery.js",:lobby)
-    add_script("core/invocate.js",:lobby)
-    add_script("core/terminal.js",:lobby)
 
     add_link("main.css")
     add_script("main.js")
