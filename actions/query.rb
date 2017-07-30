@@ -23,6 +23,7 @@ class ActionQuery
 
     if q.like("calendar") then return get_calendar end
     if q.like("tasks") then return get_tasks end
+    if q.like("diary") then return get_diary end
 
   end
 
@@ -58,6 +59,34 @@ class ActionQuery
     end
 
     return a
+
+  end
+
+  def get_diary
+
+    logs = @horaire.to_a(:log)
+
+    average = 0
+    selected_logs = []
+    logs[0,7].each do |log|
+      selected_logs.push(log.value)
+      average += log.value
+    end
+
+    average_lw = 0
+    logs[7,7].each do |log|
+      average_lw += log.value
+    end
+
+    average_percent = ((average/7.0) * 10)
+    average_percent_lw = ((average_lw/7.0) * 10)
+
+    return {
+      :unit => "DHF",
+      :logs => selected_logs.reverse,
+      :percentage => average_percent,
+      :difference => average_percent - average_percent_lw
+    }
 
   end
 

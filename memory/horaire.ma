@@ -4,7 +4,12 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
-20170724 - 24      Ide                  Design
+20170729 - 38      Ide                  Tools
+20170728 - 29      Lobby                Design
+20170727 - 33      Lobby                Development
+20170726 - 34      Lietal               Research
+20170725 - 32      Lietal               Research
+20170724 - 32      Lietal               Research
 20170723 - 24      Ide                  Design
 20170722 - 24      Ide                  Design
 20170721 - 32      Ide                  Documentation
