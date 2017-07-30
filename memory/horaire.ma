@@ -4,6 +4,9 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170801 - 37      Ronin                Migration 
+20170731 @ 26  198 Niue                 Photography          Niue Coast
+20170730 - 26  197 Niue                 Photography          Niue Coast
 20170729 - 38      Ide                  Tools
 20170728 - 29      Lobby                Design
 20170727 - 33      Lobby                Development
@@ -20,7 +23,7 @@
 20170717 - 28      Hundred rabbits      Editing
 20170716 - 18      Hundred rabbits      Composition
 20170715 @ 38  178 Japanese             Documentation        Sidonia               Pages from {_Knights Of Sidonia_}, to be held at the top of the {{Japanese}} notes as it was one of the first Japanese books that I attempted to translate.
-20170714 - 33  169 Japanese             Writing              
+20170714 - 33  169 Japanese             Writing              Nakano
 20170713 - 25      Russian              Linguistics
 20170712 - 37      Grimgrains           Development
 20170711 - 27      Hundred rabbits      Photography
