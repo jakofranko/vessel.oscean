@@ -85,7 +85,8 @@ class ActionQuery
       :unit => "DHF",
       :logs => selected_logs.reverse,
       :percentage => average_percent,
-      :difference => average_percent - average_percent_lw
+      :difference => average_percent - average_percent_lw,
+      :tips => nil
     }
 
   end
