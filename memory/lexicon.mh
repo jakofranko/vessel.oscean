@@ -1793,6 +1793,16 @@ TIERS
 LIFESTYLE
   UNDE : Aesthetics
   BREF : The {{Lifestyle}} notes are explanations for some of my lifestyle choices.
+  TYPE : Archive
+  LONG
+    * Plant-based Diet
+    & There are a few things in life that are as transformative and transhumanistic as food consumption, not eating meat, eggs and dairy aligns with my pragmatic views of life-prolonging aspirations.
+    * Smart Drugs
+    & {_Nootropics_} can help with focus and attention, or simply serve as a weak stimulant - not unlike coffee. I started using them out of curiosity and they grew on me as an extra tool to help with concentration. I take the Noopept(20mg) and Citicoline(150mg) stack every day.
+
+NUTRITION
+  UNDE : Lifestyle
+  BREF : The {{Nutrition}} guide is a simple collection of notes on proteins and vitamins.
   TYPE : Memory
 
 DIRECTORY
