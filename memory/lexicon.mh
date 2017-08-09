@@ -84,8 +84,6 @@ ADVENT V
   LINK
     TWTR : https://twitter.com/adventvrecall
     GITH : https://github.com/XXIIVV/vessel.adventv
-    
-~
 
 BELDAM RECORDS
   UNDE : Audio
@@ -225,55 +223,6 @@ ALICEFFEKT
     &  A travel across the fictional worlds of the {{Neauismetica}} where every album is a sort of travel diary across the {{Dinaisth}} landscape.
   LINK :
     BAND : https://aliceffekt.bandcamp.com
-
-FIRST WAVE
-  UNDE : Archives
-  TYPE : Portal
-  BREF : The {{First Wave}} contains material mostly unrelated to the {{Neauismetica}} and proto-{{Aliceffekt}}.
-
-REGIONSTEAM SNOWDAYS
-  UNDE : First wave
-  BREF : {{Regionsteam Snowdays}} is the first official {{Aliceffekt}} release.
-
-DOWNTEMPERATURE
-  UNDE : First wave
-  BREF : {{Downtemperature}} is the first {{Aliceffekt}} EP, released originally as three albums {_First Air & Last Aid_}, {_Goneplains_} and {_Downtemperature_}. 
-  LONG
-    & The three albums were consolidated into a single release in 2017, this album was also never performed live.
-
-BLAM
-  UNDE : First wave
-  BREF : {{Blam}} is an improvisational album created as a live performance, that ultimately fell through.
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/blam-le-passage-sacrilege
-
-VERT KIRLIAN THEATRE
-  UNDE : First wave
-  BREF : The {{Vert Kirlian Theatre}} was created during on a long train ride, on the {{Yamanote line|http://en.wikipedia.org/wiki/Yamanote_Line}}, during my first trip to Tokyo.
-  LONG
-    & This release inspired the creation of {{From Saharaphorest}}.
-
-ANN YOZORA SAINT
-  UNDE : First wave
-  BREF : {{Ann Yozora Saint}} was originally released as two albums, {_Ann Yozora Saint_} and {_Lu's Floral Funeralis_}, they were consolidated into a single release in 2017.
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/ann-yozora-saint
-  
-NETHER ESPER INSERTS
-  UNDE : First wave
-  BREF : {{Nether Esper Inserts}} was originally released as two albums, {_Nether Esper Inserts_} and {_Howls Virgil Systems_}, they were consolidated into a single release in 2017.
-  LONG
-    @ discography nether esper inserts
-
-OTOROUTES MINIATURES
-  UNDE : First wave
-  BREF : {{Otoroutes Miniatures}} was created especially for the first large Toy Company festival.
-
-IDYLLIC MINERS
-  UNDE : First wave
-  BREF : {{Idyllic Miners}} was created for the {_Kinetik Festival_}.
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/genesis-iii-20-ov-idyllic-miners
 
 DAMOISEAU CANALX
   UNDE : Neauismetic
@@ -1581,16 +1530,6 @@ LIETAL
   
 ~ Research
 
-RUBY RIDING HOOD
-  UNDE : Research
-  BREF : Inspired by a talk with a friend about Steven Pinker's The Language Instincs, I decided to try and translate Leanne Guenther's {{Little Red Riding Hood|http://www.dltk-teach.com/rhymes/littlered/story.htm}} into Ruby.
-  LONG
-    & The idea was simple, how much meaning can I extrude from the original text and parse into a computer language, as it turns out, a lot of it can.
-    & The full text is on Github. Feel free to contact me with pull requests and optimisations.
-  LINK
-    GITH : https://gist.github.com/neauoire/9beee5e555615e0003d194548c158979
-    YOUT : http://en.wikipedia.org/wiki/The_Language_Instinct
-
 NUMBERS
   UNDE : Research
   BREF : {{Numbers}}, is a script that generates the name of numbers with 50'000 characters and beyond.
@@ -1667,36 +1606,13 @@ LOBBY
 SUITE
   UNDE : Nataniev
   TYPE : Portal false
-  BREF : The {{Suite}} is the sum of all productivity and creation tools built for the Nataniev ecosystem.
-
-NATANIEV GUIDE
-  UNDE : Nataniev
-  TYPE : portal summary
-  BREF : Installation guide for {{Nataniev}} is currently being drafted out.
-  LONG
-    & {{Nataniev}} is first of all a piece of software, handling various types of applications. This quick guide should explain what the different tools do.
-    * Installation
-    & You will need to have Ruby and Sinatra installed, and pull the {{Nataniev Repo|https://github.com/XXIIVV/Nataniev}}. By default, Nataniev comes with no vessel installed.
-    & There are 3 types of repositories: vessels, publics and apps. Websites such as {{Oscean}} have both a vessel repo and a public repo. Therefore, two repos need to be pulled, some apps only have CLI tools, some others are only frontend.
-    # Nataniev
-    # _core/vessel/vessel.oscean
-    # _public/public.oscean
-    * The Operator.rb
-    & The {*operator.rb*} file is meant to run simple actions onto a vessel. A lot of the maintenance tasks are used through the operator, for example, finding a list of broken links from the Lexicon.
-    # ruby nataniev.operator.rb <comment>vessel action params</comment>
-    * The Server.rb
-    & The {*server.rb*} serves websites using Sinatra. When attempting to serve, Nataniev will look for the target vessel's serve action return.
-    # ruby nataniev.server.rb <comment>vessel</comment>
-    # > http://localhost:8888
-    * The Lobby.js
-    & A lot of vessels have API-like actions that repond to the front-end interface {_Lobby_}. To launch the Lobby interface:
-    # ruby nataniev.server.rb lobby
+  BREF : The {{Suite}} is the sum of all productivity and creation tools built for the {{Nataniev OS|Lobby}}.
 
 OSCEAN
   UNDE : Suite
   BREF : {{Oscean}} is a wiki engine built on the Nataniev platform.
   LONG
-    & {{Oscean}} was created on the 10th of August 2008, and was meant to be a repository of the sum of {{Devine|Devine lu linvega}}'s projects and notes.
+    & {{Oscean}} was created on the 10th of August 2008, and was meant to be a repository of the sum of {{Devine|Devine lu linvega}}'s projects and notes. It has since inspired the creation of the {{Nataniev}} CLI tools which then became an operating system capable of hosting a suite of applications. Many of the on-site tools have been ported into native applications, such as {{Ronin}} and {{Marabu}}.
 
 HORAIRE
   UNDE : Suite
@@ -1750,23 +1666,32 @@ RONIN
     GITH : https://github.com/hundredrabbits/Ronin
     YOUT : https://youtu.be/gifzjhyBwOc
 
-LEFT
+IDE
   UNDE : Suite
-  BREF : {{Left}} is a simple writing application created to help organize ideas and to write without distractions.
+  BREF : {{Ide}} is a Nataniev native development application and writing tool.
   LONG
-    & It currently does not have a saving function, or ways to format text. Its purpose is simply to be a place to type.
-    % Lines beginning with {#@#}, followed by a space, will create a header. And lines starting with {#$#}, followed by a space, will create a note. The headers and notes are displayed on the lefthand side column of the interface.
-    * Theme
-    & Add {##noir#} to the header, to activate the night theme.
-    * Statistics
-    & At the bottom left corner of the screen, a code is displayed.
-    # L Lines count
-    # W Words count
-    # V Vocabulary count
-    # C Characters count
-    # % Scroll position
+    & {{Ide}} uses the Nataniev fuzzy search tools to locate files and replace content. It does fast-switching between files and parses content for quick jump between blocks.
+    & Most of the nataniev OS is built with this IDE and is therefore effectively built from within itself.
+    & The need for such a tool came from the daily friction of working with Horaire log files and lexicon files without native tools to navigate their content.
+
+CLOCK
+  UNDE : Suite
+  BREF : {{Clock}} is the time format of the Nataniev ecosystem.
+  TYPE : Portal
+  LONG
+    & The current {{Nataniev}} time is {{!clock}}. The clock has 6 digits, where their overall value is a ratio over the completion of the day. For example, Noon is 500, 6AM is 250 and 6PM is 750. 
+    & The clock is display in the 000:000 format, where the shortest pulse is equal to 8.64 milliseconds, the second shortest to 86.4 and so on.
+    & The fully formed Nataniev datestamp is {{!desamber}} {{!clock}}.
   LINK
-    GITH : https://github.com/hundredrabbits/Left
+    GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
+
+DESAMBER
+  UNDE : Clock
+  BREF : {{Desamber}} is the calendar format of the Nataniev ecosystem.
+  LONG
+    & The {_Equal Month calendar_} has {*13 months*} of {*28 days*} each and the 365th day of the year is the {_Year Day_}, preceeded by the {_Leap Day_} on leap years. Today's date is {{!desamber}}.
+  LINK
+    GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
 
 PARADISE
   UNDE : Interactive
@@ -1809,24 +1734,6 @@ DIARY
 PORTAL
   UNDE : Horaire
   BREF : The {{Portal}} lists {{Nataniev}}'s major categories of topics.
-
-DESAMBER
-  UNDE : Nataniev guide
-  BREF : {{Desamber}} is the calendar format of the Nataniev ecosystem.
-  LONG
-    & The {_Equal Month calendar_} has {*13 months*} of {*28 days*} each and the 365th day of the year is the {_Year Day_}, preceeded by the {_Leap Day_} on leap years. Today's date is {{!desamber}}.
-  LINK
-    GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
-
-CLOCK
-  UNDE : Nataniev guide
-  BREF : {{Clock}} is the time format of the Nataniev ecosystem.
-  LONG
-    & The current {{Nataniev}} time is {{!clock}}. The clock has 6 digits, where their overall value is a ratio over the completion of the day. For example, Noon is 500, 6AM is 250 and 6PM is 750. 
-    & The clock is display in the 000:000 format, where the shortest pulse is equal to 8.64 milliseconds, the second shortest to 86.4 and so on.
-    & The fully formed Nataniev datestamp is {{!desamber}} {{!clock}}.
-  LINK
-    GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
 
 DICTIONAERY
   UNDE : Lietal
@@ -1976,3 +1883,65 @@ GAMES
 ABOUT
   UNDE : Null
   TYPE : Redirect Nataniev
+
+~ Archives
+
+RUBY RIDING HOOD
+  UNDE : Archives
+  BREF : Inspired by a talk with a friend about Steven Pinker's The Language Instincs, I decided to try and translate Leanne Guenther's {{Little Red Riding Hood|http://www.dltk-teach.com/rhymes/littlered/story.htm}} into Ruby.
+  LONG
+    & The idea was simple, how much meaning can I extrude from the original text and parse into a computer language, as it turns out, a lot of it can.
+    & The full text is on Github. Feel free to contact me with pull requests and optimisations.
+  LINK
+    GITH : https://gist.github.com/neauoire/9beee5e555615e0003d194548c158979
+    YOUT : http://en.wikipedia.org/wiki/The_Language_Instinct
+
+
+FIRST WAVE
+  UNDE : Archives
+  TYPE : Portal
+  BREF : The {{First Wave}} contains material mostly unrelated to the {{Neauismetica}} and proto-{{Aliceffekt}}.
+
+REGIONSTEAM SNOWDAYS
+  UNDE : First wave
+  BREF : {{Regionsteam Snowdays}} is the first official {{Aliceffekt}} release.
+
+DOWNTEMPERATURE
+  UNDE : First wave
+  BREF : {{Downtemperature}} is the first {{Aliceffekt}} EP, released originally as three albums {_First Air & Last Aid_}, {_Goneplains_} and {_Downtemperature_}. 
+  LONG
+    & The three albums were consolidated into a single release in 2017, this album was also never performed live.
+
+BLAM
+  UNDE : First wave
+  BREF : {{Blam}} is an improvisational album created as a live performance, that ultimately fell through.
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/blam-le-passage-sacrilege
+
+VERT KIRLIAN THEATRE
+  UNDE : First wave
+  BREF : The {{Vert Kirlian Theatre}} was created during on a long train ride, on the {{Yamanote line|http://en.wikipedia.org/wiki/Yamanote_Line}}, during my first trip to Tokyo.
+  LONG
+    & This release inspired the creation of {{From Saharaphorest}}.
+
+ANN YOZORA SAINT
+  UNDE : First wave
+  BREF : {{Ann Yozora Saint}} was originally released as two albums, {_Ann Yozora Saint_} and {_Lu's Floral Funeralis_}, they were consolidated into a single release in 2017.
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/ann-yozora-saint
+  
+NETHER ESPER INSERTS
+  UNDE : First wave
+  BREF : {{Nether Esper Inserts}} was originally released as two albums, {_Nether Esper Inserts_} and {_Howls Virgil Systems_}, they were consolidated into a single release in 2017.
+  LONG
+    @ discography nether esper inserts
+
+OTOROUTES MINIATURES
+  UNDE : First wave
+  BREF : {{Otoroutes Miniatures}} was created especially for the first large Toy Company festival.
+
+IDYLLIC MINERS
+  UNDE : First wave
+  BREF : {{Idyllic Miners}} was created for the {_Kinetik Festival_}.
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/genesis-iii-20-ov-idyllic-miners

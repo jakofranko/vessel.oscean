@@ -18,8 +18,10 @@ class ActionServe
 
   def act q = "Home"
 
-    @query   = q.include?(":") ? q.split(":").first.gsub("+"," ") : q.gsub("+"," ")
+    @query   = q.include?(":") ? q.split(":").first : q
     @module  = q.include?(":") ? q.split(":").last : nil
+    
+    @query = @query.gsub("_"," ").gsub("+"," ")
 
     load_folder("#{@host.path}/objects/*")
 

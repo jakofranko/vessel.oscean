@@ -4,17 +4,18 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170809 - 26  208 Ide                  Design               Tooling               The missing link to the {{Nataniev Suite|Suite}} was a proper native IDE.
 20170808 - 36      Marabu               Migration
-20170807 - 37      Ronin                Migration
+20170807 - 37  211 Ronin                Migration            Native                Here, a {{Ronin}} canvas is running natively within {{Nataniev OS|Lobby}} and the general command bar is used to operate on the application.
 20170806 - 28      Lobby                Design
 20170805 - 33      Lietal               Research
 20170804 - 29  207 Niue                 Photography          Stu                   By the caves, of the northern fort, stands our friend Stu from SV Sula.
 20170803 - 27  206 Niue                 Photography          The Coastline
 20170802 - 26  205 Niue                 Photography          Limu Pools            We spent the last few hours of the day swimming in this pool of fresh water descending from the caves.
 20170801 - 25  204 Niue                 Photography          Descent Way
-20170731 @ 26  198 Niue                 Photography          
+20170731 ! 26  198 Niue                 Photography          
 20170730 - 26  197 Niue                 Photography          
-20170729 - 38      Lobby                Tools
+20170729 - 29      Clock                Design
 20170728 - 29      Lobby                Design
 20170727 - 33      Lobby                Development
 20170726 - 34      Lietal               Research
