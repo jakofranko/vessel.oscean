@@ -1514,6 +1514,7 @@ RUSSIAN
   UNDE : Language
   BREF : The {{Russian}} page is a series of notes on the language inspired from Tad Perry's 1992 {_Quick and Dirty Guide to Japanese_}.
   TYPE : Memory
+  TAGS : guide
 
 ENGLISH
   UNDE : Language
@@ -1522,7 +1523,7 @@ ENGLISH
 LIETAL
   UNDE : Language
   BREF : {{Lietal}} is a {{synthetic language|http://en.wikipedia.org/wiki/Constructed_language}} created to experiment with linguistics and translation.
-  TAGS : Portal
+  TAGS : Portal guide
   LONG
     $ lietal serve documentation
   LINK
@@ -1802,8 +1803,9 @@ LIFESTYLE
 
 NUTRITION
   UNDE : Lifestyle
-  BREF : The {{Nutrition}} guide is a simple collection of notes on proteins and vitamins.
+  BREF : The {{Nutrition}} guide is a collection of notes on proteins and meal plan basics.
   TYPE : Memory
+  TAGS : guide
 
 DIRECTORY
   UNDE : Obliques

@@ -14,7 +14,7 @@ class CorpseHttp
     html = results ? "<p>Terms with the #{@term.name} tag.</p>" : "<p>There are no term tagged as <b>#{@term.name}</b>.</p>"
       
     results.each do |term|
-      html += term.to_s(:long)
+      html += term.to_s(:short,false)
     end
 
     return html

@@ -2,7 +2,7 @@
 ~ NOTE : *
 ~ AUTH : Devine Lu Linvega
 
-LOGOS
+Logos
   > <table class='center'>
   | {{% brand logo.xxiivv small}} | {{% brand logo.gamme small}} | {{% brand logo.horaire small}}
   | The {{Oscean}} logo, created in 2009, represents 3 waveforms, a sin, a sqr and a saw. | The {{Gamme}}, logo is 7 circles. | The {{Horaire}} logo is a line connecting 6 of the 7 circles of the {{Gamme}}.
