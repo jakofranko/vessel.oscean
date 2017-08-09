@@ -4,10 +4,11 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170810 @ 38  209 Nutrition            Documentation        Meal Plan Basics      Wrote a simple {{nutritional|Nutrition}} guide with basic information on proteins and essential amino acids.
 20170809 - 26  208 Ide                  Design               Tooling               The missing link to the {{Nataniev Suite|Suite}} was a proper native IDE.
 20170808 - 36      Marabu               Migration
-20170807 - 37  211 Ronin                Migration            Native                Here, a {{Ronin}} canvas is running natively within {{Nataniev OS|Lobby}} and the general command bar is used to operate on the application.
-20170806 - 28      Lobby                Design
+20170807 - 37  211 Ronin                Migration            Native                Here, a {{Ronin}} canvas is running natively within {{Nataniev OS|Nataniev}} and the general command bar is used to operate on the application.
+20170806 - 28      Nataniev             Design
 20170805 - 33      Lietal               Research
 20170804 - 29  207 Niue                 Photography          Stu                   By the caves, of the northern fort, stands our friend Stu from SV Sula.
 20170803 - 27  206 Niue                 Photography          The Coastline
@@ -16,17 +17,17 @@
 20170731 ! 26  198 Niue                 Photography          
 20170730 - 26  197 Niue                 Photography          
 20170729 - 29      Clock                Design
-20170728 - 29      Lobby                Design
-20170727 - 33      Lobby                Development
+20170728 - 29      Nataniev             Design
+20170727 - 33      Nataniev             Development
 20170726 - 34      Lietal               Research
 20170725 - 32      Lietal               Research
 20170724 - 32      Lietal               Research
-20170723 - 24      Lobby                Design
-20170722 - 24      Lobby                Design
-20170721 - 32      Lobby                Documentation
-20170720 - 37      Lobby                Tools
-20170719 - 36      Lobby                Tools
-20170718 - 26      Lobby                Design
+20170723 - 24      Nataniev             Design
+20170722 - 24      Nataniev             Design
+20170721 - 32      Nataniev             Documentation
+20170720 - 37      Nataniev             Tools
+20170719 - 36      Nataniev             Tools
+20170718 - 26      Nataniev             Design
 20170718 @ 26  196 Clock                Design               Entaloneralie Native  Implemented {{Entaloneralie}} into {{Nataniev}} as the native {{Clock}} application.
 20170717 - 28      Hundred rabbits      Editing
 20170716 - 18      Hundred rabbits      Composition
@@ -55,10 +56,10 @@
 20170623 - 35      Rotonde              Development                                
 20170622 - 29      Oscean               Design                                     
 20170621 - 39      Rotonde              Prototype                                  
-20170620 N 26   81 Lobby                Prototype            Nataniev OS           A first preview of the {{Nataniev}} lobby, the OS' terminal manager.
-20170619 - 38      Lobby                Development
+20170620 N 26   81 Nataniev             Prototype            Nataniev OS           A first preview of the {{Nataniev}} lobby, the OS' terminal manager.
+20170619 - 38      Nataniev             Development
 20170618 -       
-20170617 - 29      Lobby                Prototype                                  
+20170617 - 29      Nataniev             Prototype                                  
 20170616 - 28      Ronin                Branding                                   
 20170615 - 28      Marabu               Layout
 20170614 - 35      Oquonie              Development
@@ -80,7 +81,7 @@
 20170529 - 28      Dinaisth             Illustration
 20170528 - 29      Dei dain             Illustration
 20170527 - 28      Ronin                Design
-20170526 - 28      Lobby                Design
+20170526 - 28      Nataniev             Design
 20170525 - 28      Ronin                Design
 20170524 - 38      Ronin                Tools
 20170523 - 38      Ronin                Tools
@@ -93,7 +94,7 @@
 20170516 @ 28  174 Instrument           Prototype
 20170515 - 28      Horaire              Design
 20170514 - 29      Horaire              Design
-20170513 - 28      Lobby                Prototype
+20170513 - 28      Nataniev             Prototype
 20170512 - 35      Markl                AI
 20170511 - 39      The will the wisp    Writing
 20170510 - 39      Mirrors              Writing

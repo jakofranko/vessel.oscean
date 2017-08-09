@@ -1594,15 +1594,10 @@ NATANIEV
   TAGS : Portal
   BREF : {{Nataniev}} is an ecosystem of, open-source and web-based, creation tools.
   LONG
-    & The purpose of this platform is host a collection of softwares sharing resources and standards - each capable of aiding in the creation of audio, visual and interative projects.
+    & This website, and many others, are served by a web platform named {{Nataniev}}. Their design and much of their visual and audio content is also created with {{tools|Suite}} built within the platform, following its ecosystem's ideologies.
+    & As of June 2017, a graphical interface was added to the platform, allowing for the co-existence of tools such as {{Ronin}} and {{Marabu}}.
   LINK
     GITH : https://github.com/XXIIVV/Nataniev
-
-LOBBY
-  UNDE : Nataniev
-  BREF : The {{Lobby}} is a graphical terminal for {{Nataniev}} applications and APIs.
-  LONG
-    & The project is under development. More details shortly.
 
 SUITE
   UNDE : Nataniev
