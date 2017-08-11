@@ -4,10 +4,11 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170811 - 37  211 Philipp traum        Writing              The Beldam            Wrote a few notes on objectivity and realism, under the {{Philipp Traum}} page.
 20170810 @ 38  209 Nutrition            Documentation        Meal Plan Basics      Wrote a simple {{nutritional|Nutrition}} guide with basic information on proteins and essential amino acids.
 20170809 - 26  208 Ide                  Design               Tooling               The missing link to the {{Nataniev Suite|Suite}} was a proper native IDE.
 20170808 - 36      Marabu               Migration
-20170807 - 37  211 Ronin                Migration            Native                Here, a {{Ronin}} canvas is running natively within {{Nataniev OS|Nataniev}} and the general command bar is used to operate on the application.
+20170807 - 37      Ronin                Migration            
 20170806 - 28      Nataniev             Design
 20170805 - 33      Lietal               Research
 20170804 - 29  207 Niue                 Photography          Stu                   By the caves, of the northern fort, stands our friend Stu from SV Sula.
