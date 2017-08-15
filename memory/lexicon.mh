@@ -1783,11 +1783,10 @@ OFFLINE
   UNDE : Lifestyle
   BREF : The {{Offline}} notes are a summary of lessons on living off-the-grid.
   LONG
-    & These notes are an ever growing collection of notes focusing on general {{off-the-grid|#off_the_grid}} and {{liveaboard|#liveaboard}} topics.
+    & This page is an ever growing collection of notes on technical {{off-the-grid|#off_the_grid}} and {{liveaboard|#liveaboard}} topics.
   TYPE : Memory
   LINK
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/offline.mh
-
 
 INVENTORY
   UNDE : Obliques
