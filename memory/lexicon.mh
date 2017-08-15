@@ -1779,6 +1779,14 @@ NOMAD
   LINK
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/nomads.mh
 
+OFFLINE
+  UNDE : Lifestyle
+  BREF : The {{Offline}} notes are a summary of lessons on living off-the-grid.
+  TYPE : Memory
+  LINK
+    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/offline.mh
+
+
 INVENTORY
   UNDE : Obliques
   BREF : The {{Inventory}} is a detailed collection of various pieces of equipment used in the creation of {{XXIIVV|Nataniev}}.
