@@ -341,11 +341,16 @@ BLINDFOLK
   UNDE : Unreleased
   BREF : {{Blindfolk}} was a cryptic multiplayer combat game where players must program their character to foresee and react to the other players' action.
   LONG
-    & It was first created in the span of 48 hours for {{Global Game Jam 2016|http://globalgamejam.org}}.
-    & This project joins {{Nataniev}} in its text-based interaction and concepts.
-    & The game is open source and is available on {{Github|https://github.com/XXIIVV/vessel.blindfolk}}
-    & The game uses a simple scripting language, here is an example of a riposte to an attack coming from the back, and a default movement pattern with an attack and a shout.
-    # case attack.backward  step.leftcase default  attack.forward  turn.right  attack.backward  say yatta
+    & Each player program a short script, or fighting style, for their character that will run automatically every 5 minutes, against all other players. The scripts contained a series of attacks, moves and blocks, as well as responses to collisions against other players.
+    * Example Fighting Style
+    # case attack.backward  
+    # - step.leftcase 
+    # default  
+    # - attack.forward  
+    # - turn.right  
+    # - attack.backward  
+    # - say yatta!
+    & It was first created in the span of 48 hours for {{Global Game Jam 2016|http://globalgamejam.org}}. The game was very active but soon became too time-consuming to maintain and keep alive. 
   LINK
     GITH : https://github.com/XXIIVV/vessel.blindfolk
 
@@ -585,7 +590,7 @@ RAFINOGRADE
     GITH : https://github.com/Echorridoors/Rafinograde
 
 VERRECIEL
-  UNDE : Mobile
+  UNDE : Desktop
   BREF : {{Verreciel}} is a space exploration game with controls reminiscent of modular synthetisers.
   TYPE : Diary
   LONG
@@ -1607,7 +1612,7 @@ NATANIEV
 SUITE
   UNDE : Nataniev
   TYPE : Portal false
-  BREF : The {{Suite}} is the sum of all productivity and creation tools built for the {{Nataniev OS|Lobby}}.
+  BREF : The {{Suite}} is the sum of all productivity and creation tools built for the {{Nataniev}} OS.
 
 OSCEAN
   UNDE : Suite
@@ -1640,18 +1645,10 @@ MARABU
   BREF : {{Marabu}} is a web-based music tracker designed to be portable and platform agnostic.
   LONG
     & The tracker is built as a fork to the open-source Soundbox and is meant to be an improvement on functionalities and design, while remaining aimed at creating 4K/8K demos.
-    & Have a look at the {{Marabu Guide}} for more details.
   LINK
     GITH : https://github.com/neauoire/Marabu
-  TAGS : Visual
-
-MARABU GUIDE
-  UNDE : Marabu
-  BREF : Welcome to the {{Marabu}} guide.
   TAGS : Guide
   TYPE : Memory
-  LINK
-    GITH : https://github.com/neauoire/Marabu
 
 RONIN
   UNDE : Suite
@@ -1758,61 +1755,32 @@ OBLIQUES
   BREF : The {{Obliques}} are longform answers to questions regarding travel, {{lifestyle}} and optimisation. 
   TAGS : Portal
 
-AESTHETICS
+LIFESTYLE
   UNDE : Obliques
+  BREF : The {{Lifestyle}} notes are explanations for some of my lifestyle choices.
+  TYPE : Archive
+
+NUTRITION
+  UNDE : Lifestyle
+  BREF : The {{Nutrition}} guide is a collection of notes on proteins and meal plan basics.
+  LONG 
+    & There are a few things in life that are as transformative and transhumanistic as {{nutrition}}, not eating meat, eggs and dairy aligns with my pragmatic views of life-prolonging aspirations. 
+  TYPE : Memory
+  TAGS : guide
+
+AESTHETICS
+  UNDE : Lifestyle
   BREF : The {{Aesthetics}} notes are meant to answers to recurring questions on productivity, advised from daily logs recorded over many years.
   TYPE : Memory
   LINK
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/aesthetics.mh
 
-MIRRORS
-  UNDE : Obliques
-  BREF : The {{Mirrors}} are a collection of notes and articles mirrored on here for safekeeping and offline access.
-  TYPE : Archive
-
-GLOSSARY
-  UNDE : Mirrors
-  BREF : The {{Glossary}} is a collection of keywords related to epistemology.
-  TYPE : Memory
-
-BIASES
-  UNDE : Mirrors
-  BREF : The {{Biases}} cheatsheet is a list of compiled fallacies, effects, and biases.
-  LONG
-    & The list was compiled from {{LessWrong|https://wiki.lesswrong.com/wiki/Less_Wrong_Canon_on_Rationality}} as well as personal notes, collected from the Philosopher's Toolkit and other sources. Rationality is characteristic of thinking and acting optimally.
-  TYPE : Memory
-
-TIERS
-  UNDE : Mirrors
-  BREF : The {{Tiers}} cheatsheet displays a spectrum of decision-making and mindsets.
-  LONG
-    & Below is an abbreviated and edited list from PTFQ's original essay {{Three Tiers Of Mind|https://www.pftq.com/blabberbox/?page=Three_Tiers_of_Mind}}.
-  TYPE : Memory
-  LINK
-    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/tiers.mh
-
-LIFESTYLE
-  UNDE : Aesthetics
-  BREF : The {{Lifestyle}} notes are explanations for some of my lifestyle choices.
-  TYPE : Archive
-  LONG
-    * Plant-based Diet
-    & There are a few things in life that are as transformative and transhumanistic as food consumption, not eating meat, eggs and dairy aligns with my pragmatic views of life-prolonging aspirations.
-    * Smart Drugs
-    & {_Nootropics_} can help with focus and attention, or simply serve as a weak stimulant - not unlike coffee. I started using them out of curiosity and they grew on me as an extra tool to help with concentration. I take the Noopept(20mg) and Citicoline(150mg) stack every day.
-
-NUTRITION
+NOMAD
   UNDE : Lifestyle
-  BREF : The {{Nutrition}} guide is a collection of notes on proteins and meal plan basics.
-  TYPE : Memory
-  TAGS : guide
-
-DIRECTORY
-  UNDE : Obliques
-  BREF : The {{Directory}} is a curated list of timeless art that I often refer to.
+  BREF : The {{Nomad}} notes are reflexions on travel, and on my dreams of a nomadic life.
   TYPE : Memory
   LINK
-    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/directory.mh
+    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/nomads.mh
 
 INVENTORY
   UNDE : Obliques
@@ -1853,12 +1821,38 @@ KEYBOARD
     DROP : https://www.massdrop.com/mechanical-keyboards
     REDD : https://www.reddit.com/r/MechanicalKeyboards/
 
-NOMAD
-  UNDE : Aesthetics
-  BREF : The {{Nomad}} notes are reflexions on travel, and on my dreams of a nomadic life.
+MIRRORS
+  UNDE : Obliques
+  BREF : The {{Mirrors}} are a collection of notes and articles mirrored on here for safekeeping and offline access.
+  TYPE : Archive
+
+GLOSSARY
+  UNDE : Mirrors
+  BREF : The {{Glossary}} is a collection of keywords related to epistemology.
+  TYPE : Memory
+
+BIASES
+  UNDE : Mirrors
+  BREF : The {{Biases}} cheatsheet is a list of compiled fallacies, effects, and biases.
+  LONG
+    & The list was compiled from {{LessWrong|https://wiki.lesswrong.com/wiki/Less_Wrong_Canon_on_Rationality}} as well as personal notes, collected from the Philosopher's Toolkit and other sources. Rationality is characteristic of thinking and acting optimally.
+  TYPE : Memory
+
+TIERS
+  UNDE : Mirrors
+  BREF : The {{Tiers}} cheatsheet displays a spectrum of decision-making and mindsets.
+  LONG
+    & Below is an abbreviated and edited list from PTFQ's original essay {{Three Tiers Of Mind|https://www.pftq.com/blabberbox/?page=Three_Tiers_of_Mind}}.
   TYPE : Memory
   LINK
-    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/nomads.mh
+    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/tiers.mh
+
+DIRECTORY
+  UNDE : Obliques
+  BREF : The {{Directory}} is a curated list of timeless art that I often refer to.
+  TYPE : Memory
+  LINK
+    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/directory.mh
 
 DEVINE LU LINVEGA
   UNDE : Devine lu linvega
