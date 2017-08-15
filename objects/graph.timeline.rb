@@ -5,21 +5,22 @@ class Graph_Timeline
 
   def initialize(term,from = 0,to = term.logs.length)
     
+    @width = 798
+    @height = 100
+    @LOD = 100
+
     @logs = term.logs[from,to]
     @against = term.logs.length > to * 2 ? term.logs[to,to] : nil
 
     @segments = equalSegments
-    @width = 798
-    @height = 100
 
   end
 
   def segmentMemory
 
     memory = []
-    segments_limit = 28
     i = 0
-    while i < 28
+    while i < @LOD
       memory[i] = {}
       memory[i][:audio] = 0
       memory[i][:visual] = 0
@@ -41,7 +42,7 @@ class Graph_Timeline
     @length = @to - @from
 
     @logs.each do |log|
-      progressFloat = (log.time.elapsed/@to.to_f) * 28
+      progressFloat = (log.time.elapsed/@to.to_f) * @LOD.to_f
       progressPrev = progressFloat.to_i
       progressNext  = progressFloat.ceil
       distributePrev = progressNext - progressFloat
@@ -69,50 +70,37 @@ class Graph_Timeline
   def to_s
 
     html = ""
-    lineWidth = (@width+30)/28.0
+    lineWidth = ((@width)/@LOD.to_f).to_i + 1
     segmentWidth = lineWidth/4
     highestValue = findHighestValue
 
-    lineAudio_html = "0,#{highestValue * @height} "
-    lineVisual_html = ""
-    lineResearch_html = ""
-    lineAverage_html = ""
-
-    polyline_audio = "0,#{@height} "
-    polyline_visual = "0,#{@height} "
-    polyline_research = "0,#{@height} "
+    paths = {}
 
     count = 0
     @segments.reverse.each do |values|
 
-      # Max
-      max = ((values[:sum])/highestValue * @height).to_i
-      sum = values[:sum] > 0 ? values[:sum] : 1
-      gap = (segmentWidth * 4.5).to_i
-      step = 4
-
-      # Research
-      value = ((values[:research]/sum) * max).to_i
-      value = (value / step).to_i * step
-      polyline_research += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(@height - value).to_i} #{(count * lineWidth + gap - segmentWidth)},#{(@height - value).to_i} "
-
-      # Visual
-      value = (((values[:visual] + values[:research])/sum) * max).to_i
-      value = (value / step).to_i * step
-      polyline_visual += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(@height - value).to_i} #{(count * lineWidth + gap - segmentWidth)},#{(@height - value).to_i} "
-
-      # Audio
-      value = (((values[:audio] + values[:visual] + values[:research])/sum) * max).to_i
-      value = (value / step).to_i * step
-      polyline_audio += "#{(count * lineWidth + (segmentWidth) - segmentWidth)},#{(@height - value).to_i} #{(count * lineWidth + gap - segmentWidth)},#{(@height - value).to_i} "
+      step = 5
+      prev = 0
+      values.sort.reverse.each do |name,v|
+        if name == :sum then next end
+        if name == :misc then next end
+        if !paths[name] then paths[name] = "" end
+        
+        value = (v/highestValue) * @height
+        value = (value / step).to_i * step
+        pos_x = (lineWidth * 0.5).to_i + (count * lineWidth)
+        pos_y1 = prev
+        pos_y2 = prev+value
+        paths[name] += "M#{pos_x},#{@height - pos_y1.to_i} L#{pos_x},#{@height - pos_y2.to_i} "
+        prev += value
+      end
 
       count += 1
     end
 
-    # Lines
-    html += "<polyline class='audio' points='#{polyline_audio} #{@width},#{@height}' />"
-    html += "<polyline class='visual' points='#{polyline_visual} #{@width},#{@height}' />"
-    html += "<polyline class='research' points='#{polyline_research} #{@width},#{@height}' />"
+    paths.each do |name,d|
+      html += "<path class='#{name}' d='#{d}'/>"
+    end
 
     return "#{style}<yu class='graph timeline'><svg style='width:100%; height:#{@height}px;'>"+html+"</svg>#{summary}</yu>"
 
@@ -199,13 +187,15 @@ class Graph_Timeline
 
   def style
 
+    line_width = ((@width)/@LOD.to_f).to_i
+
     return "<style>
     .graph.timeline { margin-bottom:30px}
     .graph.timeline svg { overflow: hidden; padding-top:5px; height:149px}
-    .graph.timeline svg polyline.audio { fill:#72dec2; stroke:none}
-    .graph.timeline svg polyline.visual { fill:#000; stroke:none }
-    .graph.timeline svg polyline.research { fill:#ddd; stroke:none }
-    .graph.timeline svg polyline.average { fill:#eee; }
+    .graph.timeline svg path { stroke-width: #{line_width}; stroke:pink; stroke-linecap:butt;}
+    .graph.timeline svg path.audio { fill:#72dec2; stroke:#72dec2}
+    .graph.timeline svg path.visual { fill:#000; stroke:black }
+    .graph.timeline svg path.research { fill:none; stroke:#ccc }
     .graph.timeline ln { display:block; position:relative; font-family:'din_regular'; font-size:12px;}
     .graph.timeline t.origin { position: absolute;top: -#{@height + 30}px;left: 0px;color: #999 }
     .graph.timeline t.sector { color: #000; display: inline-block;line-height: 30px; margin-right:15px}
