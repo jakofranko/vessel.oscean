@@ -4,6 +4,7 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170817 - 38      Ronin                Tools                
 20170816 @ 35  213 Offline              Writing              V Berth Library       Started a little document with notes on {{offline}} life.
 20170815 - 34      Oquonie              Update
 20170814 - 39      Marabu               Migration
@@ -23,8 +24,8 @@
 20170731 ! 26  198 Niue                 Photography          
 20170730 - 26  197 Niue                 Photography          
 20170729 - 29      Clock                Design
-20170728 - 29      Nataniev             Design
-20170727 - 33      Nataniev             Development
+20170728 - 29      Ide                  Design
+20170727 - 33      Ide                  Development
 20170726 - 34      Lietal               Research
 20170725 - 32      Lietal               Research
 20170724 - 32      Lietal               Research
