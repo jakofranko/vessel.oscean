@@ -195,7 +195,7 @@ class Graph_Timeline
     .graph.timeline svg path { stroke-width: #{line_width}; stroke:pink; stroke-linecap:butt;}
     .graph.timeline svg path.audio { fill:#72dec2; stroke:#72dec2}
     .graph.timeline svg path.visual { fill:#000; stroke:black }
-    .graph.timeline svg path.research { fill:none; stroke:#ccc }
+    .graph.timeline svg path.research { fill:none; stroke:black; stroke-dasharray:1,1 }
     .graph.timeline ln { display:block; position:relative; font-family:'din_regular'; font-size:12px;}
     .graph.timeline t.origin { position: absolute;top: -#{@height + 30}px;left: 0px;color: #999 }
     .graph.timeline t.sector { color: #000; display: inline-block;line-height: 30px; margin-right:15px}
