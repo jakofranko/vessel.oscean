@@ -8,8 +8,8 @@ class Graph_Forecast
     @logs = term.logs[from,to]
     @count_topics = 0
 
-    @days_ahead = 21
-    @width = 800
+    @days_ahead = 28
+    @width = 600
     @height = 75
     @line_spacing = (@width/(@days_ahead + 7).to_f).to_i
 
@@ -28,7 +28,7 @@ class Graph_Forecast
     i = 0.5
     this_week.reverse.each do |log|
       graph += "<line x1='#{@line_spacing * i}' y1='#{@height}' x2='#{@line_spacing * i}' y2='#{(@height - ((log.value/10.0) * @height))}' class='#{log.sector}'></line>"
-      html += "<t class='date' style='left:#{@line_spacing/3 + (@line_spacing * (i-1))}px'>#{i == 6.5 ? '<b>Now</b>' : log.time.d}</t>"
+      html += "<t class='date' style='left:#{@line_spacing/3 + (@line_spacing * (i-1))}px'>#{i == 6.5 ? '<b>▾</b>' : log.time.d}</t>"
       i += 1
     end
 

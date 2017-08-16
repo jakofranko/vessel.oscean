@@ -35,16 +35,16 @@ GENDER
   On Adjectives
     & The gender of the noun determines the gender of the adjective.
     > <table>
-    | Это нобый стол  | This is a new table
-    | Это нобое окно  | This is a new window
+    | Это новый стол  | This is a new table
+    | Это новое окно  | This is a new window
     | Это новая лампа | This is a new lamp
     > </table>
   On Verbs
     & The gender of the noun determines the predicate verb.
     > <table>
     | Стол был там       | The table was there
-    | Место занято там   | The window was there
-    | Комната занята там | The lamp was there
+    | Окно было там   | The window was there
+    | Лампа была там | The lamp was there
     > </table>
 
 EXPRESSIONS
@@ -70,10 +70,10 @@ EXPRESSIONS
     > </table>
   Future Tense
     > <table>
-    | быдет холодно | It will be cold | не быдет холодно | It will not be cold
-    | мне быдет холодно    | I shall be cold      | нам быдет холодно | We shall be cold
-    | тебе быдет холодно   | You shall be cold   | вам быдет холодно | Yous shall be cold
-    | ему/ей быдет холодно | He/She shall be cold | им быдет холодно  | They shall be cold
+    | будет холодно | It will be cold | не быдет холодно | It will not be cold
+    | мне будет холодно    | I shall be cold      | нам быдет холодно | We shall be cold
+    | тебе будет холодно   | You shall be cold   | вам быдет холодно | Yous shall be cold
+    | ему/ей будет холодно | He/She shall be cold | им быдет холодно  | They shall be cold
     > </table>
 
 VERBS
@@ -81,12 +81,12 @@ VERBS
     & This is the basic conjugation table for a few simple Russian verbs. I always kept this nearby, for reference.
     > <table>
     |         | читать<br/>to read | писать<br/>to write | иметь<br/>to have | говорить<br/>to speak | видеть<br/>to see
-    | я       | {_чита_}ю          | {_пиш_}у            | {_име_}ю          | {_говор_}ю            | {_виж_}у
-    | ты      | {_чита_}ешь        | {_пиш_}ешь          | {_име_}ешь        | {_говор_}ишь          | {_виж_}ишь  
-    | он/она  | {_чита_}ет         | {_пиш_}ет           | {_име_}ет         | {_говор_}ит           | {_виж_}ит 
-    | мы      | {_чита_}ем         | {_пиш_}ем           | {_име_}ем         | {_говор_}им           | {_виж_}им 
-    | вы      | {_чита_}ете        | {_пиш_}ете          | {_име_}ете        | {_говор_}ите          | {_виж_}ите  
-    | они     | {_чита_}ют         | {_пиш_}ут           | {_име_}ут         | {_говор_}ят           | {_виж_}ят 
+    | я       | {_чита_}ю          | {_пиш_}у            | {_име_}ю          | {_говор_}ю            | {_ви_}жу
+    | ты      | {_чита_}ешь        | {_пиш_}ешь          | {_име_}ешь        | {_говор_}ишь          | {_вид_}ишь  
+    | он/она  | {_чита_}ет         | {_пиш_}ет           | {_име_}ет         | {_говор_}ит           | {_вид_}ит 
+    | мы      | {_чита_}ем         | {_пиш_}ем           | {_име_}ем         | {_говор_}им           | {_вид_}им 
+    | вы      | {_чита_}ете        | {_пиш_}ете          | {_име_}ете        | {_говор_}ите          | {_вид_}ите  
+    | они     | {_чита_}ют         | {_пиш_}ут           | {_име_}ут         | {_говор_}ят           | {_вид_}ят 
     > </table>
   Motion Verb
     & A few motion verbs like ходить(to go, to come) and идти can be prefixed to create new motion verbs.
@@ -110,6 +110,6 @@ VERBS
     | привыкать    | to try to get used to | привыкнуть | to be accustomed
     | решать       | to work on, to try to solve | решить | to solve
     | сдавать      | to take(an exam) | сдать | to pass
-    | уговаривать  | to try to persuade | ыуоворить | to convince, to talk into
+    | уговаривать  | to try to persuade | уговорить | to convince, to talk into
     | учить        | to study | выучить | to memorize
     > </table>

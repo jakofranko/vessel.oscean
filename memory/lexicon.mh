@@ -1715,21 +1715,6 @@ MAEVE
   LONG
     & Rating each vessel with an index, it deletes redundant vessels and move vessels outside of the void.
 
-FORUM
-  UNDE : Horaire
-  TAGS : Portal
-  BREF : The {{Forum}} is a place within each topic, to ask questions.
-  TYPE : Forum
-
-DIARY
-  UNDE : Horaire
-  FLAG : no_photo
-  BREF : The {{Diary}} contains photographic logs within {{Horaire}}.
-
-PORTAL
-  UNDE : Horaire
-  BREF : The {{Portal}} lists {{Nataniev}}'s major categories of topics.
-
 DICTIONAERY
   UNDE : Lietal
   BREF : The {{Dictionaery}} is a list of all the known {{Lietal}} words.
@@ -1860,8 +1845,17 @@ DIRECTORY
   LINK
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/directory.mh
 
+DIARY
+  UNDE : Home
+  FLAG : no_photo
+  BREF : The {{Diary}} contains photographic logs within {{Horaire}}.
+
+PORTAL
+  UNDE : Home
+  BREF : The {{Portal}} lists {{Nataniev}}'s major categories of topics.
+
 DEVINE LU LINVEGA
-  UNDE : Devine lu linvega
+  UNDE : Home
   TAGS : Portal
   BREF : {{Devine lu linvega}} is a nomad developer and designer, living on a {{sailboat|Pino}} in the South Pacific.
   LONG
