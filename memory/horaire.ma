@@ -8,15 +8,15 @@
 20170816 @ 35  213 Offline              Writing              V Berth Library       Started a little document with notes on {{offline}} life.
 20170815 - 34      Oquonie              Update
 20170814 - 39      Marabu               Migration
-20170813 @ 28  212 Marabu               Redesign             Version 2             Built a {{Nataniev}} native version of {{Marabu}} tracker music sequencer.
-20170812 - 28      Marabu               Redesign
+20170813 @ 28  212 Marabu               Design               Version 2             Built a {{Nataniev}} native version of {{Marabu}} tracker music sequencer.
+20170812 - 28      Marabu               Design
 20170811 - 37  211 Philipp traum        Writing              The Beldam            Wrote a few notes on objectivity and realism, under the {{Philipp Traum}} page.
 20170810 @ 38  209 Nutrition            Documentation        Meal Plan Basics      Wrote a simple {{nutritional|Nutrition}} guide with basic information on proteins and essential amino acids.
 20170809 - 26  208 Ide                  Design               Tooling               The missing link to the {{Nataniev Suite|Suite}} was a proper native IDE.
 20170808 - 36      Marabu               Migration
 20170807 - 37      Ronin                Migration            
 20170806 - 28      Nataniev             Design
-20170805 - 33      Lietal               Research
+20170805 - 33      Lietal               Linguistics
 20170804 - 29  207 Niue                 Photography          Stu                   By the caves, of the northern fort, stands our friend Stu from SV Sula.
 20170803 - 27  206 Niue                 Photography          The Coastline
 20170802 - 26  205 Niue                 Photography          Limu Pools            We spent the last few hours of the day swimming in this pool of fresh water descending from the caves.
@@ -25,10 +25,10 @@
 20170730 - 26  197 Niue                 Photography          
 20170729 - 29      Clock                Design
 20170728 - 29      Ide                  Design
-20170727 - 33      Ide                  Development
-20170726 - 34      Lietal               Research
-20170725 - 32      Lietal               Research
-20170724 - 32      Lietal               Research
+20170727 - 33      Ide                  Tools
+20170726 - 34      Lietal               Linguistics
+20170725 - 32      Lietal               Linguistics
+20170724 - 32      Lietal               Linguistics
 20170723 - 24      Nataniev             Design
 20170722 - 24      Nataniev             Design
 20170721 - 32      Nataniev             Documentation
@@ -36,7 +36,7 @@
 20170719 - 36      Nataniev             Tools
 20170718 - 26      Nataniev             Design
 20170718 @ 26  196 Clock                Design               Entaloneralie Native  Implemented {{Entaloneralie}} into {{Nataniev}} as the native {{Clock}} application.
-20170717 - 28      Hundred rabbits      Editing
+20170717 - 28      Hundred rabbits      Video  
 20170716 - 18      Hundred rabbits      Composition
 20170715 @ 38  178 Japanese             Documentation        Sidonia               Pages from {_Knights Of Sidonia_}, to be held at the top of the {{Japanese}} notes as it was one of the first Japanese books that I attempted to translate.
 20170714 - 33  169 Japanese             Writing              Nakano
@@ -68,7 +68,7 @@
 20170618 -       
 20170617 - 29      Nataniev             Prototype                                  
 20170616 - 28      Ronin                Branding                                   
-20170615 - 28      Marabu               Layout
+20170615 - 28      Marabu               Design
 20170614 - 35      Oquonie              Development
 20170613 - 17      Marabu               Composition
 20170612 - 14      Marabu               Tools
@@ -2131,7 +2131,7 @@
 20111026 - 25      Merveilles portable  Design
 20111025 - 35      Neauismetica         Writing
 20111024
-20111023 - 25      Artwork              Animation
+20111023 - 25      Artwork              Illustration
 20111022 - 35      Oscean               Development
 20111021 - 35      Oscean               Tools
 20111020

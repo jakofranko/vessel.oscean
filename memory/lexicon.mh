@@ -1872,6 +1872,12 @@ DEATH
   UNDE : Devine lu linvega
   BREF : Inspired from {{Chris Crawford|https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer)}}'s Jars, in this {{Death}} counter, every week a cell goes dark.
 
+10000
+  UNDE : Devine lu linvega
+  BREF : Are we there yet? Nope.
+  LONG
+    & This is probably meant as a joke, but in some grim ways, it paints a harsher truth than {{Death}}.
+
 ~ Redirects
 
 TRAUMAE
