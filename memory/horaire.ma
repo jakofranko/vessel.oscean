@@ -4,6 +4,10 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170824 - 29      Marabu               Design
+20170823 - 31      Marabu               Maintenance
+20170822 - 32      Marabu               Maintenance
+20170821 - 32      Marabu               Maintenance
 20170820 - 28      Hundred rabbits      Video  
 20170819 - 39      Ronin                Tools                
 20170818 - 39      Nataniev             Tools                
