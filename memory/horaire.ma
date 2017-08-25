@@ -4,6 +4,8 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170826 - 38      Nataniev
+20170825 - 18      Mt. Eyn              Composition
 20170824 @ 29  215 Marabu               Design               Removed everything    My favourite design is the one that you cannot tell is there.
 20170823 - 31      Marabu               Maintenance
 20170822 - 32      Marabu               Maintenance
