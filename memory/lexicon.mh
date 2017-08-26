@@ -1604,45 +1604,29 @@ NATANIEV
   TAGS : Portal
   BREF : {{Nataniev}} is an ecosystem of, open-source and web-based, creation tools.
   LONG
+    & As of June 2017, a {*graphical interface*} was built onto the server tools, allowing for the co-existence of tools such as {{Ide}}, {{Ronin}} and {{Marabu}}.
     & This website, and many others, are served by a web platform named {{Nataniev}}. Their design and much of their visual and audio content is also created with {{tools|Suite}} built within the platform, following its ecosystem's ideologies.
-    & As of June 2017, a graphical interface was added to the platform, allowing for the co-existence of tools such as {{Ronin}} and {{Marabu}}.
+    & 
   LINK
     GITH : https://github.com/XXIIVV/Nataniev
 
 SUITE
   UNDE : Nataniev
   TYPE : Portal false
-  BREF : The {{Suite}} is the sum of all productivity and creation tools built for the {{Nataniev}} OS.
-
-OSCEAN
-  UNDE : Suite
-  BREF : {{Oscean}} is a wiki engine built on the Nataniev platform.
+  BREF : The {{Nataniev}} {{Suite}} is a collection of free and open-source native applications for audio, visual and interactive development.
   LONG
-    & {{Oscean}} was created on the 10th of August 2008, and was meant to be a repository of the sum of {{Devine|Devine lu linvega}}'s projects and notes. It has since inspired the creation of the {{Nataniev}} CLI tools which then became an operating system capable of hosting a suite of applications. Many of the on-site tools have been ported into native applications, such as {{Ronin}} and {{Marabu}}.
+    & Below are guides to each of the {{Suite}} applications for Audio, Visual and Development creation. To get started, follow the {{setup guide|Lobby}}.
 
-HORAIRE
+~ 412 417 411
+LOBBY
   UNDE : Suite
-  TAGS : Portal
-  BREF : {{Horaire}} is a time tracking tool that graphs and compiles daily logs into creativity forecasts.
-  LINK
-    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/horaire.ma
-  LONG
-    & Horaire data is logged in {*Focus Hours*} {_Fh_}, a ratio of the total available daily work hours. Logs of 60% and 40% {_Fh_}, over an 8 hours work day, are equal to 4.8h and 3.2h.
+  TYPE : Memory
+  BREF : The {{Lobby}} is the {{Nataniev}} graphical interface which host native applications like {{Marabu}}, {{Ronin}} and {{Ide}}.
 
-ROTONDE
-  UNDE : Suite
-  BREF : {{Rotonde}} is a social feed protocol to exchange daily activity logs.
-  LINK
-    OFFI : http://rotonde.xxiivv.com
-    GITH : https://github.com/Rotonde
-  LONG
-    & {{Rotonde}} is simply the commonly agreed upon specifications of a JSON object shared between portal neighbors of {*~rotonde.xxiivv.com*}.
-    & The feed is not attached to any particular client, language or server. The goal of this project is to share decentralized editable, protected, and version-controlled entries.
-    & A list of active feeds is maintained by {{~rotonde.cblgh.org|http://rotonde.cblgh.org/crawl}}.
 
 MARABU
   UNDE : Suite
-  BREF : {{Marabu}} is a web-based music tracker designed to be portable and platform agnostic.
+  BREF : {{Marabu}} is a programmable music tracker.
   LONG
     & The tracker is built as a fork to the open-source Soundbox and is meant to be an improvement on functionalities and design, while remaining aimed at creating 4K/8K demos.
   LINK
@@ -1652,7 +1636,7 @@ MARABU
 
 RONIN
   UNDE : Suite
-  BREF : {{Ronin}} is a text-based visual editor designed to draw and automate graphical tasks.
+  BREF : {{Ronin}} is a programmable visual editor.
   TYPE : Diary
   LONG
     & The application is a cross-over between Vim and Photoshop, where every change to the canvas is inputed as a command.
@@ -1666,14 +1650,44 @@ RONIN
 
 IDE
   UNDE : Suite
-  BREF : {{Ide}} is a Nataniev native development application and writing tool.
+  BREF : {{Ide}} is a programmable development application.
   LONG
     & {{Ide}} uses the Nataniev fuzzy search tools to locate files and replace content. It does fast-switching between files and parses content for quick jump between blocks.
     & Most of the nataniev OS is built with this IDE and is therefore effectively built from within itself.
     & The need for such a tool came from the daily friction of working with Horaire log files and lexicon files without native tools to navigate their content.
 
+TOOLKIT
+  UNDE : Nataniev
+  BREF : The {{Nataniev}} {{Toolkit}} is a series of core application built within the operating system.
+
+OSCEAN
+  UNDE : Toolkit
+  BREF : {{Oscean}} is a wiki engine.
+  LONG
+    & {{Oscean}} was created on the 10th of August 2008, and was meant to be a repository of the sum of {{Devine|Devine lu linvega}}'s projects and notes. It has since inspired the creation of the {{Nataniev}} CLI tools which then became an operating system capable of hosting a suite of applications. Many of the on-site tools have been ported into native applications, such as {{Ronin}} and {{Marabu}}.
+
+HORAIRE
+  UNDE : Toolkit
+  TAGS : Portal
+  BREF : {{Horaire}} is a time tracking tool.
+  LINK
+    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/horaire.ma
+  LONG
+    & Horaire data is logged in {*Focus Hours*} {_Fh_}, a ratio of the total available daily work hours. Logs of 60% and 40% {_Fh_}, over an 8 hours work day, are equal to 4.8h and 3.2h.
+
+ROTONDE
+  UNDE : Toolkit
+  BREF : {{Rotonde}} is a social feed protocol aimed at exchanging daily activity logs.
+  LINK
+    OFFI : http://rotonde.xxiivv.com
+    GITH : https://github.com/Rotonde
+  LONG
+    & {{Rotonde}} is simply the commonly agreed upon specifications of a JSON object shared between portal neighbors of {*~rotonde.xxiivv.com*}.
+    & The feed is not attached to any particular client, language or server. The goal of this project is to share decentralized editable, protected, and version-controlled entries.
+    & A list of active feeds is maintained by {{~rotonde.cblgh.org|http://rotonde.cblgh.org/crawl}}.
+
 CLOCK
-  UNDE : Suite
+  UNDE : Toolkit
   BREF : {{Clock}} is the time format of the Nataniev ecosystem.
   TYPE : Portal
   LONG
