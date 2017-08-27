@@ -27,7 +27,6 @@ class ActionServe
 
     $lexicon = Memory_Hash.new("lexicon",@host.path)
     $horaire = Memory_Array.new("horaire",@host.path)
-    $forum   = Memory_Array.new("forum",@host.path)
 
     # Diary Id
 
@@ -40,7 +39,6 @@ class ActionServe
     corpse.module  = @module
     corpse.horaire = $horaire
     corpse.lexicon = $lexicon
-    corpse.forum   = $forum
     corpse.title   = "XXIIVV ∴ #{corpse.term.name}"
 
     load_any "#{@host.path}/pages",   @query
@@ -62,7 +60,6 @@ class CorpseHttp
   attr_accessor :horaire
   attr_accessor :lexicon
   attr_accessor :desktop
-  attr_accessor :forum
   
   def build
 
@@ -112,12 +109,12 @@ class CorpseHttp
           #{Media.new("badge",@module).exists ? (badge = Media.new("badge",@module) ; badge.set_class('portal') ; badge) : term.badge}
         </a>  
         <input id='search' value='#{term.parent.name}' type='text' spellcheck='false' autocorrect='off'/>      
+        #{term.logs.length > 5 ? Graph_Overview.new(term) : ''}
         <list>
           <ln>#{term.bref ? term.bref : 'No description.'}</ln>
           <ln>
-            #{term.logs.first ? '<a href=\'/term.topic\' style=\'margin-right:0px\'>Updated '+term.logs.first.time.ago+'</a>・' : ''} 
-            #{term.diaries && term.diaries.length > 2 ? '<a href=\'/'+term.name+':diary\' style=\'margin-right:0px\'>'+term.diaries.length.to_s+' diaries</a>・' : ''}
-            #{html_links}</ln>
+            #{html_links}
+          </ln>
         </list>
       </wr>
     </yu>"
@@ -126,7 +123,7 @@ class CorpseHttp
 
   def _mi
 
-    return "<yu class='mi'><wr>"+view+"#{_tags}#{term.logs.length > 5 ? Graph_Overview.new(term) : ''}</wr></yu>"
+    return "<yu class='mi'><wr>#{view}</wr></yu>"
 
   end
 

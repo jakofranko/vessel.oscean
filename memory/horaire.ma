@@ -4,6 +4,7 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170828 - 27      Horaire              Design
 20170827 - 28      Ronin                Documentation
 20170826 - 38      Nataniev             Documentation
 20170825 - 18      Mt Eyn               Composition

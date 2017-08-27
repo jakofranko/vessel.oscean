@@ -7,6 +7,9 @@ HOME
   BREF : Welcome to the documentation and playground of the {{Nataniev}} ecosystem.
   LONG
     & This wiki provides documentation and narrative context for the various {{Audio}}, {{Visual}} and {{Research}} projects of multmedia developer {{Devine Lu Linvega}}. If this is your first time around, a good place to begin your exploration is the {{Diary}}.
+  LINK
+    GITH : https://github.com/neauoire
+    TWIT : https://twitter.com/neauoire
 
 ~ Sectors
 
@@ -1143,8 +1146,11 @@ RABBITS SOUNDTRACK
   UNDE : Soundtrack
   BREF : The {{Rabbits Soundtrack}} is the drone audio tracks of the {{Hundred Rabbits}} video diaries.
   LONG
+    & This soundtrack contains 2 recorded podcasts and a selection of tracks from the videos.
     @ discography rabbits soundtrack
   TAGS : Discography
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/hundred-rabbits
 
 PURGATEUS SOUNDTRACK
   UNDE : Soundtrack
@@ -1525,10 +1531,6 @@ RUSSIAN
   BREF : The {{Russian}} page is a series of notes on the language inspired from Tad Perry's 1992 {_Quick and Dirty Guide to Japanese_}.
   TYPE : Memory
   TAGS : guide
-
-ENGLISH
-  UNDE : Language
-  BREF : The {{English}} page is currently a placeholder for the upcoming notes on the English Language.
 
 LIETAL
   UNDE : Language

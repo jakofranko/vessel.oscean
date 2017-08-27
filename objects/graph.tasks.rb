@@ -7,7 +7,6 @@ class Graph_Tasks
     
     @logs = term.logs[from,to]
     @count_topics = 0
-
     @sum_hours = 0
 
   end
