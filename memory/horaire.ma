@@ -4,21 +4,21 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
-20170827 @ 28  216 Ronin                Documentation
+20170827 - 28      Ronin                Documentation
 20170826 - 38      Nataniev             Documentation
 20170825 - 18      Mt Eyn               Composition
-20170824 @ 29  215 Marabu               Design               Removed everything    My favourite design is the one that you cannot tell is there.
+20170824 ! 29  215 Marabu               Design               Removed everything    My favourite design is the one that you cannot tell is there.
 20170823 - 31      Marabu               Maintenance
 20170822 - 32      Marabu               Maintenance
 20170821 - 32      Marabu               Maintenance
 20170820 - 28      Hundred rabbits      Video  
 20170819 - 39      Ronin                Tools                
 20170818 - 39      Nataniev             Tools                
-20170817 - 37      Ronin                Tools                
-20170816 @ 35  213 Offline              Writing              V Berth Library       Started a little document with notes on {{offline}} life.
+20170817 ! 37  216 Ronin                Tools                
+20170816 ! 35  213 Offline              Writing              V Berth Library       Started a little document with notes on {{offline}} life.
 20170815 - 34      Oquonie              Update
 20170814 - 39      Marabu               Migration
-20170813 @ 28  212 Marabu               Design               Version 2             Built a {{Nataniev}} native version of {{Marabu}} tracker music sequencer.
+20170813 ! 28  212 Marabu               Design               Version 2             Built a {{Nataniev}} native version of {{Marabu}} tracker music sequencer.
 20170812 - 28      Marabu               Design
 20170811 - 37  211 Philipp traum        Writing              The Beldam            Wrote a few notes on objectivity and realism, under the {{Philipp Traum}} page.
 20170810 @ 38  209 Nutrition            Documentation        Meal Plan Basics      Wrote a simple {{nutritional|Nutrition}} guide with basic information on proteins and essential amino acids.

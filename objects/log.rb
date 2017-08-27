@@ -56,9 +56,9 @@ class Log
     
   end
 
-  def is_featured
+  def is_featured # Use for home
     
-    return rune != "-" ? true : nil
+    return rune == "@" ? true : nil
 
   end
 

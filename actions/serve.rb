@@ -84,22 +84,40 @@ class CorpseHttp
 
   end
 
+  def _media
+
+    if term.diaries.length > 0 && term.flag != 'no_photo'
+      media = term.diary.media
+      media.set_class(:photo)
+      return media
+    end
+    return ""
+
+  end
+
   def _hd
 
+    html_links = ""  
+    if term.link
+      term.link.each do |link|
+        html_links += Link.new(link.first,link.last).to_s+" "
+      end
+    end
+
     return "
-    <yu class='hd #{term.theme} #{term.diaries.length > 0 ? 'has_photo' : ''}'>
+    <yu class='logo'><wr><a href='/Home'>#{Media.new(:icon,:logo,:logo)}</a></wr></yu>
+    <yu class='hd #{term.theme} #{term.diaries.length > 0 ? 'has_photo' : 'no_photo'}'>
       <wr>
         <a href='/#{term.parent.name}' class='portal'>
           #{Media.new("badge",@module).exists ? (badge = Media.new("badge",@module) ; badge.set_class('portal') ; badge) : term.badge}
-        </a>        
+        </a>  
+        <input id='search' value='#{term.parent.name}' type='text' spellcheck='false' autocorrect='off'/>      
         <list>
-          <ln style='break-after: column; break-before: column '>#{!term.parent.name.like(term.name) ? '<a class=\'parent\' href=\'/'+term.parent.name+'\'>'+term.parent.name+'</a>' : ''} <input id='search' value='#{term.name.like('home') ? 'Jiiv' : term.name.capitalize}' type='text' spellcheck='false' autocorrect='off'/><br />#{term.bref}</ln>
+          <ln>#{term.bref ? term.bref : 'No description.'}</ln>
           <ln>
-            #{@module                                                     ? "<a class='md' href='/#{term.name}'>Return #{term.name}</a>" : ""}
-          </ln>
-        </list>
-        <list class='links'>
-          #{_links}
+            #{term.logs.first ? '<a href=\'/term.topic\' style=\'margin-right:0px\'>Updated '+term.logs.first.time.ago+'</a>・' : ''} 
+            #{term.diaries && term.diaries.length > 2 ? '<a href=\'/'+term.name+':diary\' style=\'margin-right:0px\'>'+term.diaries.length.to_s+' diaries</a>・' : ''}
+            #{html_links}</ln>
         </list>
       </wr>
     </yu>"
@@ -108,7 +126,7 @@ class CorpseHttp
 
   def _mi
 
-    return "<yu class='mi'>#{term.diaries.length > 0 && term.flag != 'no_photo' ? term.diary.media : ''}<wr>"+view+"#{_tags}#{term.logs.length > 5 ? Graph_Overview.new(term) : ''}</wr></yu>"
+    return "<yu class='mi'><wr>"+view+"#{_tags}#{term.logs.length > 5 ? Graph_Overview.new(term) : ''}</wr></yu>"
 
   end
 
@@ -118,7 +136,7 @@ class CorpseHttp
     <yu class='ft'>
       <wr>
         <ln>
-          <a href='/Devine+Lu+Linvega' style='margin-right:5px'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year}<br /> 
+          <a href='/Devine+Lu+Linvega' style='font-family:\"din_bold\"'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year}<br /> 
           <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>BY-NC-SA</a> 4.0
         </ln><ln>
           <a href='/Desamber'><b>#{Desamber.new}</b></a> <br />
@@ -156,21 +174,10 @@ class CorpseHttp
 
   end
 
-  def _links
-  
-    if !term.link then return "" end
-
-    html = ""
-    term.link.each do |link|
-      html += Link.new(link.first,link.last).to_s+" "
-    end
-    return "#{html}"
-
-  end
-
   def body
     
     return "
+    #{_media}
     #{_hd}
     #{_mi}
     #{_ft}"

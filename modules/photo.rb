@@ -7,7 +7,7 @@ class CorpseHttp
     
     return "<style>
     body { overflow-x:hidden}
-    yu.hd { height:0px !important; padding:0px}
+    yu.hd { display:none}
     yu.mi > a media { width:100%; height:80vh; margin:0px}
     yu.mi wr .tag { display:none !important}
     yu.ft { border-top:0px}

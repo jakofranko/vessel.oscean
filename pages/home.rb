@@ -37,10 +37,11 @@ class CorpseHttp
     <h2>Recent Activity</h2>
     #{Graph_Timeline.new(term,0,90)}\n
     <p>The above interface displays the current project activity recorded during the previous 90 days. Learn more about the {{Horaire}} tracking tool.</p>
+    <mini>Learn more about {{Horaire}}.</mini>
     #{featured_topics}
     <h2>Notice</h2>
     <p id='notice'>I am currently in {*{{$ hundredrabbits get_location}}*}, {{sailing|Hundred rabbits}} across the Pacific Ocean toward New Zealand. My access to internet is limited and will not be able to answer emails as frequently. I will get back to you upon {{landfall|http://100r.co/#map}}.</p>
-    <mini>Learn more about {{Horaire}}.</mini>
+    
     ".markup
     
     return html

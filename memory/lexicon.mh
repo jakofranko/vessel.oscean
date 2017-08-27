@@ -34,7 +34,7 @@ AUTOMATONS
 
 THE WILL THE WISP
   UNDE : Automatons
-  BREF : Inspired by Lewis Carroll's Jabberwocky, {{The will the wisp}} is a twitter bot that generates short rhymes.
+  BREF : {{The will the wisp}} is a twitter bot that generates short rhymes.
   LONG
     > <h4>
     $ thewillthewisp generate
@@ -250,7 +250,7 @@ REKKA
 
 HUNDRED RABBITS
   UNDE : Hundred rabbits
-  BREF : {{Hundred Rabbits}}, is a nomad design studio founded by {{Rekka}} aboard a {{sailboat|Pino}}.
+  BREF : {{Hundred Rabbits}}, is a design studio on a {{sailboat|Pino}}.
   TYPE : Diary
   TAGS : Portal
   LONG
@@ -1207,7 +1207,7 @@ THOUSAND ROOMS
 
 VERRECIEL SOUNDTRACK
   UNDE : Beldam records
-  BREF : This soundtrack release, written by {{Aliceffekt}} for the mobile application {{Verreciel}}, features a fair dose of breaks and {{Beldam|Beldam records}}'s signature vocoded synths.
+  BREF : The {{Verreciel Soundtrack}} was written by {{Aliceffekt}} for the mobile game {{Verreciel}}, and features a fair dose of breaks and {{Beldam|Beldam records}}'s signature vocoded synths.
   LONG
     @ discography verreciel soundtrack
   LINK
@@ -1365,11 +1365,6 @@ MACRO
   BREF : The {{macro}} album contains various shots from up close.
   TYPE : Diary
 
-INFRARED
-  UNDE : Photography
-  BREF : The {{Infrared}} album contains photographs taken with an old modified Nikon D3000 camera.
-  TYPE : Diary
-
 FILM
   UNDE : Photography
   BREF : Color {{film}} photography diary of the life aboard {{Pino}}.
@@ -1378,10 +1373,15 @@ FILM
   TYPE : Diary
 
 BLACK
-  UNDE : Film
+  UNDE : Photography
   BREF : {{Black}} & White film photography diary of the life aboard {{Pino}}.
   LONG
     & This album will be updated periodically, shot with the Voightlander {{250 Jaher|Camera}}.
+  TYPE : Diary
+
+INFRARED
+  UNDE : Photography
+  BREF : The {{Infrared}} album contains photographs taken with an old modified Nikon D3000 camera.
   TYPE : Diary
 
 ~ Travel
@@ -1602,7 +1602,7 @@ NATANIEV
   UNDE : Gamme
   TYPE : portal summary
   TAGS : Portal
-  BREF : {{Nataniev}} is an ecosystem of, open-source and web-based, creation tools.
+  BREF : {{Nataniev}} is an experimental operating system.
   LONG
     & As of June 2017, a {*graphical interface*} was built onto the server tools, allowing for the co-existence of tools such as {{Ide}}, {{Ronin}} and {{Marabu}}.
     & This website, and many others, are served by a web platform named {{Nataniev}}. Their design and much of their visual and audio content is also created with {{tools|Suite}} built within the platform, following its ecosystem's ideologies.
@@ -1780,7 +1780,7 @@ NOMAD
 
 OFFLINE
   UNDE : Lifestyle
-  BREF : The {{Offline}} notes are a summary of lessons on living off-the-grid.
+  BREF : The {{Offline}} notes are a collection of lessons on living off-the-grid, advised from sailing across the Pacific.
   LONG
     & This page is an ever growing collection of notes on technical {{off-the-grid|#off_the_grid}} and {{liveaboard|#liveaboard}} topics. If you have unawnsered questions, please leave us a message on {{Twitter|https://twitter.com/hundredrabbits}}.
   TYPE : Memory
