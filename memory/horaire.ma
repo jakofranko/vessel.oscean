@@ -4,9 +4,9 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
-20170828 - 27      Horaire              Design
-20170827 - 28      Ronin                Documentation
-20170826 - 38      Nataniev             Documentation
+20170828 - 27      Horaire              Design                                     Each project page now has an Horaire widget with Fh and Dhf.
+20170827 - 28      Ronin                Documentation                              
+20170826 - 38      Nataniev             Tools
 20170825 - 18      Mt Eyn               Composition
 20170824 ! 29  215 Marabu               Design               Removed everything    My favourite design is the one that you cannot tell is there.
 20170823 - 31      Marabu               Maintenance
