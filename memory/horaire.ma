@@ -18,14 +18,14 @@
 20170817 ! 37  216 Ronin                Tools                
 20170816 ! 35  213 Offline              Writing              V Berth Library       Started a little document with notes on {{offline}} life.
 20170815 - 34      Oquonie              Update
-20170814 - 39      Marabu               Migration
+20170814 - 39      Marabu               Update 
 20170813 ! 28  212 Marabu               Design               Version 2             Built a {{Nataniev}} native version of {{Marabu}} tracker music sequencer.
 20170812 - 28      Marabu               Design
 20170811 - 37  211 Philipp traum        Writing              The Beldam            Wrote a few notes on objectivity and realism, under the {{Philipp Traum}} page.
 20170810 @ 38  209 Nutrition            Documentation        Meal Plan Basics      Wrote a simple {{nutritional|Nutrition}} guide with basic information on proteins and essential amino acids.
 20170809 - 26  208 Ide                  Design               Tooling               The missing link to the {{Nataniev Suite|Suite}} was a proper native IDE.
-20170808 - 36      Marabu               Migration
-20170807 - 37      Ronin                Migration            
+20170808 - 36      Marabu               Update
+20170807 - 37      Ronin                Update            
 20170806 - 28      Nataniev             Design
 20170805 - 33      Lietal               Linguistics
 20170804 - 29  207 Niue                 Photography          Stu                   By the caves, of the northern fort, stands our friend Stu from SV Sula.
@@ -701,7 +701,7 @@
 20151006 - 36      Verreciel            Development
 20151005 - 35      The will the wisp    Maintenance          0.1
 20151004 - 25      Horaire              Design
-20151003 - 19      The opal inquisitors Live                 Toy Company
+20151003 - 19      The opal inquisitors Performance          Toy Company
 20151002 - 26      Donsol               Maintenance          1.6
 20151001 - 26      Horaire              Branding
 20150930 - 32      Verreciel            Tools
@@ -718,7 +718,7 @@
 20150919 - 36      Verreciel            Development
 20150918 - 32      Verreciel            Maintenance
 20150917 - 19      The opal inquisitors Release
-20150916 - 19      The opal inquisitors Live                 AMP - Passwort, Mont
+20150916 - 19      The opal inquisitors Performance          AMP - Passwort, Mont
 20150915 ! 29  469 The opal inquisitors Illustration         Ludivine's Banquet
 20150914 - 19      The opal inquisitors Rehearsal
 20150913 - 35      Oscean               AI
@@ -729,7 +729,7 @@
 20150908 - 25  463 Austria              Photography          Vienna
 20150907 - 25  464 Austria              Photography          Ars Electronica
 20150906 - 25  462 Austria              Photography          Top I
-20150905 - 39  312 Talk                 Live                 They Solved Art       The full talk can be watched on {{Vimeo|https://vimeo.com/138850582}}, the slides can be downloaded from {{Github|https://github.com/neauoire/Talk-ArsElectronica}}.
+20150905 - 39  312 Talk                 Performance          They Solved Art       The full talk can be watched on {{Vimeo|https://vimeo.com/138850582}}, the slides can be downloaded from {{Github|https://github.com/neauoire/Talk-ArsElectronica}}.
 20150904 - 25  461 Austria              Photography          Linz's Food
 20150903 - 25  460 Austria              Photography          Linz
 20150902 - 25  459 Austria              Photography          Wolfinger Hotel
@@ -864,7 +864,7 @@
 20150426 - 25  496 Black                Photography   
 20150425 - 25  112 Flactals             Illustration         Torazine
 20150424 - 18      Extended sleep       Live
-20150423 - 39  386 Talk                 Live                 Frameworks            The full talk can be watched on {{Vimeo|https://vimeo.com/129368249}}, the slides can be downloaded from {{Github|https://github.com/neauoire/Talk-Amaze}}.
+20150423 - 39  386 Talk                 Performance          Frameworks            The full talk can be watched on {{Vimeo|https://vimeo.com/129368249}}, the slides can be downloaded from {{Github|https://github.com/neauoire/Talk-Amaze}}.
 20150422 - 25  111 Flactals             Illustration         Nestorine
 20150421 - 25  107 Flactals             Illustration         Coraline
 20150420 - 28      Time alloy           Illustration
@@ -914,7 +914,7 @@
 20150307 - 35  369 Donsol               Design               Prototype
 20150306 - 35      Alphavetist          Maintenance          3.3
 20150305 - 35      Donsol               Design
-20150304 - 26      Oquonie              Live                 IGF2015
+20150304 - 26      Oquonie              Performance          IGF2015
 20150303 - 35      Donsol               Design
 20150302 - 25      Donsol               Illustration
 20150301 - 25      Donsol               Prototype
@@ -998,10 +998,10 @@
 20141213 - 37      Rafinograde          Development
 20141212 ! 34  289 Notes                Writing              The sartre mechanism
 20141211 - 35      Noirca               Maintenance          3.4
-20141210 - 17  288 Supervisitor         Live                 Dodecae               It was performed live at the {{Dodecae}} event in Toronto on December 6th.
+20141210 - 17  288 Supervisitor         Performance          Dodecae               It was performed live at the {{Dodecae}} event in Toronto on December 6th.
 20141209 - 17  287 Supervisitor         Live
 20141208 @ 17  286 Supervisitor         Release              Release
-20141207 - 26  285 Oquonie              Live                 Bit Bazaar
+20141207 - 26  285 Oquonie              Performance          Bit Bazaar
 20141206 - 29  281 Dodecae              Illustration         Flyer
 20141205 - 17      Supervisitor         Composition
 20141204 - 17      Supervisitor         Composition
@@ -1051,8 +1051,8 @@
 20141021 - 29      Verreciel            Illustration
 20141020 - 29      Brane                Illustration
 20141019 - 36      Alphavetist          Update
-20141018 ! 39  273 Telekinesis          Live                 Leap
-20141017 - 19      Ten axitecture       Live                 8Static
+20141018 ! 39  273 Telekinesis          Performance          Leap
+20141017 - 19      Ten axitecture       Performance          8Static
 20141016 - 39      Horaire              Development
 20141015 - 35      Noirca               Maintenance          3.2
 20141014 - 29      Modernista           Design               Expo
@@ -1078,7 +1078,7 @@
 20140924 - 34      Verreciel            Prototype
 20140923 - 34      Verreciel            Prototype
 20140922 - 35      Noirca               Maintenance          3.0
-20140921 - 19      Ten axitecture       Live                 Band Saga
+20140921 - 19      Ten axitecture       Performance          Band Saga
 20140920 ! 25  261 Brane                Illustration         III
 20140919 ! 25      Polygonoscopy        Illustration
 20140918 ! 25      Polygonoscopy        Illustration
@@ -1265,7 +1265,7 @@
 20140321
 20140320
 20140319 ! 19  388 Known magye          Release              Release
-20140318 - 19  382 Known magye          Live                 Pow Pow Pow
+20140318 - 19  382 Known magye          Performance          Pow Pow Pow
 20140317
 20140316
 20140315 ! 00      America              Travel               San Fancisco
@@ -1302,7 +1302,7 @@
 20140212 - 19      Known magye          Composition
 20140211 - 19  193 Oquonie soundtrack   Composition          Soundtrack Release
 20140210 - 19      Known magye          Composition
-20140209 - 39  381 Oquonie              Live                 Goodies
+20140209 - 39  381 Oquonie              Performance          Goodies
 20140208 - 25      Japan                Photography          Tokyo Asnowed
 20140207 - 35  379 Oquonie              Development          And so began testing
 20140206 - 35      Horaire              Analytics
@@ -1434,7 +1434,7 @@
 20131003 - 36      Oscean               Maintenance
 20131002 ! 19  359 Telekinetic          Release              Album Release
 20131001 - 29      Telekinetic          Illustration
-20130930 - 19      Telekinetic          Live                 Square Sound - Tokyo
+20130930 - 19      Telekinetic          Performance          Square Sound - Tokyo
 20130929 - 29      Telekinetic          Illustration
 20130928 - 36      Oscean               Maintenance
 20130927 - 15      Telekinetic          Composition
@@ -1442,7 +1442,7 @@
 20130925 - 36      Oscean               Development
 20130924 - 36      Oscean               Tools
 20130923 - 18      Telekinetic          Composition
-20130922 - 19      Telekinetic          Live                 Indie Dance Party -
+20130922 - 19      Telekinetic          Performance          Indie Dance Party -
 20130921 - 18  358 Telekinetic          Composition          Leap Motion Controll
 20130920 - 39      Telekinetic          Development
 20130919 - 39      Telekinetic          Tools
@@ -1537,12 +1537,12 @@
 20130622 - 39      Sketchbook           Prototype
 20130621 - 39      Sketchbook           Prototype
 20130620 - 39      Sketchbook           Prototype
-20130619 - 19  335 Dei dain             Live                 Mega Ran Tour - Toky
+20130619 - 19  335 Dei dain             Performance          Mega Ran Tour - Toky
 20130618 - 39      Oscean               Design
 20130617 - 28      Oscean               Design               
 20130616 - 25  239 Macro                Photography          Macro Set 1
 20130615 - 28      Oscean               Design               
-20130614 - 19      Dei dain             Live                 KIDDING vol.6
+20130614 - 19      Dei dain             Performance          KIDDING vol.6
 20130613 - 19      Dei dain             Composition
 20130612 - 19      Dei dain             Composition          Dei Dain Release
 20130611 - 19      Dei dain             Composition
@@ -1612,7 +1612,7 @@
 20130408 - 35      Horaire              Maintenance
 20130407 - 27      Hiversaires          Release              Release
 20130406 - 35      Hiversaires          Prototype
-20130405 - 29      Hiversaires          Live                 Picotachi
+20130405 - 29      Hiversaires          Performance          Picotachi
 20130404
 20130403 - 35      Oscean               Development
 20130402 - 35      Oscean               Maintenance
@@ -1660,7 +1660,7 @@
 20130219 - 25  187 Australia            Photography          Day 5
 20130218 - 25  186 Australia            Photography          Day 4
 20130217 ! 25  185 Australia            Photography          Day 3
-20130216 - 19  218 Ehrivevnv Studies    Live                 Square Sound
+20130216 - 19  218 Ehrivevnv Studies    Performance          Square Sound
 20130215 - 25  184 Australia            Photography          Day 2
 20130214 ! 25  183 Australia            Photography          Melbourne
 20130213 - 25  182 Hiversaires          Design               Devlog 9
@@ -1681,7 +1681,7 @@
 20130129 - 27      Wallpaper            Illustration
 20130128 - 35      Oscean               Maintenance
 20130127 - 17  167 Nor let the fools    Release              Nor let the fools
-20130126 - 19  164 Ehrivevnv Studies    Live                 Cheapbeats - Tokyo,
+20130126 - 19  164 Ehrivevnv Studies    Performance          Cheapbeats - Tokyo,
 20130125 - 16      Nor let the fools    Composition
 20130124 - 16      Nor let the fools    Composition
 20130123 - 25      Artwork              Illustration
@@ -1778,7 +1778,7 @@
 20121024 - 25      Ehrivevnv Studies    Design
 20121023 - 11      Ehrivevnv Studies    Writing
 20121022
-20121021 - 19  105 Ehrivevnv Studies    Live                 Blip Festival - Toky
+20121021 - 19  105 Ehrivevnv Studies    Performance          Blip Festival - Toky
 20121020 - 25   21 Hundred rabbits      Photography          Tokyo Apartment       This was our first apartment, before moving to Odaiba, while we lived in {{Tokyo|Japan}}. It was not much smaller than living aboard {{Pino}}.
 20121019
 20121018
@@ -1882,7 +1882,7 @@
 20120712 - 32      Oscean               Development
 20120711 - 32      Oscean               Development
 20120710 ! 19  161 Vetetrandes lettres  Release              Vetetrandes, Lettres
-20120709 - 19    5 Vetetrandes lettres  Live                 iVardensphere Tour -
+20120709 - 19    5 Vetetrandes lettres  Performance          iVardensphere Tour -
 20120708 - 39      Oscean               Development
 20120707 - 17      To The Aeons Hell    Composition
 20120706 - 17      To The Aeons Hell    Composition
@@ -1932,7 +1932,7 @@
 20120523
 20120522
 20120521 - 25  146 Diluvium             Design               Diluvium
-20120520 - 19  148 Vetetrandes lettres  Live                 Kinetik Festival 201
+20120520 - 19  148 Vetetrandes lettres  Performance          Kinetik Festival 201
 20120519
 20120518 - 15      To The Aeons Hell    Composition
 20120517 - 35      Neauismetica         Writing
@@ -1975,7 +1975,7 @@
 20120410 - 35      Lietal               Development
 20120409 - 28      Interactive          Design
 20120408 - 35      Lietal               Tools
-20120407 - 19      Vetetrandes lettres  Live                 Neurodance - Toronto
+20120407 - 19      Vetetrandes lettres  Performance          Neurodance - Toronto
 20120406 - 35      Lietal               Tools
 20120405 - 35      Lietal               Tools
 20120404 - 35      Lietal               Tools
@@ -1989,7 +1989,7 @@
 20120327 - 25  136 Germany              Photography          Berlin Day 3
 20120326 - 25  135 Germany              Photography          Berlin Day 2
 20120325 - 25  134 Germany              Photography          Berlin Day 1
-20120324 - 19  133 Vetetrandes lettres  Live                 Noise Complex - Pari
+20120324 - 19  133 Vetetrandes lettres  Performance          Noise Complex - Pari
 20120323 - 25  132 France               Photography          Paris Day 3
 20120322 - 25  131 France               Photography          Paris Day 2
 20120321 ! 25  130 France               Photography          Paris
@@ -2017,7 +2017,7 @@
 20120228
 20120227 - 25      Waiting for horus    Design
 20120226 - 25      Waiting for horus    Design
-20120225 - 19  217 Es gulf sunflowers   Live                 La Nuit Blanche - Mo
+20120225 - 19  217 Es gulf sunflowers   Performance          La Nuit Blanche - Mo
 20120224 - 25      Waiting for horus    Design
 20120223 - 25      Waiting for horus    Branding
 20120222 - 25  219 Waiting for horus    Design               Rah
@@ -2031,7 +2031,7 @@
 20120214 - 25      Lietal               Typography
 20120213 - 35      Oscean               Tools
 20120212 ! 17   27 Es gulf sunflowers   Release              Es Gulfs'Sunflowers
-20120211 - 19      Es gulf sunflowers   Live                 Toy Company - Jack &
+20120211 - 19      Es gulf sunflowers   Performance          Toy Company - Jack &
 20120210 - 15      Mixtape              Mixing               Ghosts
 20120209 - 15      Es gulf sunflowers   Composition
 20120208 - 25      Waiting for horus    Design
@@ -2087,7 +2087,7 @@
 20111220 - 35      Merveilles portable  Testing
 20111219 - 35      Lietal               Linguistics
 20111218 ! 15    3 From Saharaphorest   Release              From Saharaphorest
-20111217 - 19      Es gulf sunflowers   Live                 8Bit Noel - Montreal
+20111217 - 19      Es gulf sunflowers   Performance          8Bit Noel - Montreal
 20111216
 20111215 - 35      Lietal               Typography
 20111214 - 35      Lietal               Linguistics
@@ -2101,7 +2101,7 @@
 20111206 - 35      Lietal               Linguistics
 20111205 - 15      From Saharaphorest   Composition
 20111204
-20111203 - 19      Es gulf sunflowers   Live                 Neurodance - Toronto
+20111203 - 19      Es gulf sunflowers   Performance          Neurodance - Toronto
 20111202 - 15      From Saharaphorest   Composition
 20111201 - 15      From Saharaphorest   Composition
 20111130 - 29    6 From Saharaphorest   Illustration         From Saharaphorest
@@ -2132,7 +2132,7 @@
 20111105 - 35      Notes                Writing
 20111104 - 35      Notes                Writing
 20111103 - 35      Notes                Writing
-20111102 - 29  202 Collegiennes         Live                 Prince of the Arcade
+20111102 - 29  202 Collegiennes         Performance          Prince of the Arcade
 20111101 - 35  201 Notes                Writing              Part I
 20111031 - 25      Merveilles portable  Design
 20111030 - 35      Oscean               Development
@@ -2171,7 +2171,7 @@
 20110927
 20110926 - 35      Oscean               Development
 20110925 ! 15   89 The Sixth Season     Release              The Sixth Season
-20110924 - 19      The Sixth Season     Live                 Neu Installation - T
+20110924 - 19      The Sixth Season     Performance          Neu Installation - T
 20110923 - 25      Lietal               Documentation
 20110922 - 25      Artwork              Illustration
 20110921 - 25      Artwork              Illustration
@@ -2295,7 +2295,7 @@
 20110526 - 35      Lietal               Documentation
 20110525 - 25      Lietal               Documentation
 20110524 - 25      Lietal               Documentation
-20110523 - 19  158 The Sixth Season     Live                 Kinetik Festival 201
+20110523 - 19  158 The Sixth Season     Performance          Kinetik Festival 201
 20110522 - 15      To The Aeons Hell    Composition
 20110521 - 15      To The Aeons Hell    Composition
 20110520 - 29      Collegiennes         Design
@@ -2329,7 +2329,7 @@
 20110422 - 35      Oscean               Development
 20110421 - 35      Oscean               Development
 20110420 - 35      Oscean               Design
-20110419 - 19      The Sixth Season     Live                 OCDJ - Montreal, Pas
+20110419 - 19      The Sixth Season     Performance          OCDJ - Montreal, Pas
 20110418
 20110417 - 15      To The Aeons Hell    Rehearsal
 20110416 - 15      To The Aeons Hell    Composition
@@ -2410,7 +2410,7 @@
 20110131 - 25      Siseon               Design
 20110130 ! 25   55 Artwork              Illustration         Yajnev
 20110129
-20110128 - 19      The Sixth Season     Live                 Harajuku Montreal -
+20110128 - 19      The Sixth Season     Performance          Harajuku Montreal -
 20110127 - 15      To The Aeons Hell    Composition
 20110126 - 15      To The Aeons Hell    Composition
 20110125
@@ -2430,7 +2430,7 @@
 20110111 - 19      Mixtape              Mixing               visual
 20110110 - 15      To The Aeons Hell    Composition
 20110109 - 39   54 Notes                Writing              Dilitriel
-20110108 - 19  103 To The Aeons Hell    Live                 8Static - Philadelph
+20110108 - 19  103 To The Aeons Hell    Performance          8Static - Philadelph
 20110107
 20110106 - 15      To The Aeons Hell    Composition
 20110105 - 15      To The Aeons Hell    Rehearsal
@@ -2451,7 +2451,7 @@
 20101221
 20101220 @ 15  315 To The Aeons Hell    Release              To The Aeons Hell
 20101219
-20101218 - 19      To The Aeons Hell    Live                 Toy Company - Montre
+20101218 - 19      To The Aeons Hell    Performance          Toy Company - Montre
 20101217 - 19      To The Aeons Hell    Rehearsal
 20101216 - 39      Horaire              Tools
 20101215 - 39      Horaire              Tools
@@ -2490,7 +2490,7 @@
 20101112 - 25      Oscean               Design
 20101111 - 25      Oscean               Development
 20101110 - 25      Oscean               Development
-20101109 - 29   45 Collegiennes         Live                 Prince Of The Arcade
+20101109 - 29   45 Collegiennes         Performance          Prince Of The Arcade
 20101108 - 35      Oscean               Development
 20101107 - 29      Collegiennes         Design
 20101106
@@ -2514,7 +2514,7 @@
 20101019 - 29  300 Pico                 Design               Pico
 20101018
 20101017
-20101016 - 19      To The Aeons Hell    Live                 Toy Company - Montre
+20101016 - 19      To The Aeons Hell    Performance          Toy Company - Montre
 20101015 - 39      Artwork              Illustration
 20101014 - 15      To The Aeons Hell    Composition
 20101013
@@ -2559,7 +2559,7 @@
 20100904
 20100903 - 25      Merure               Design
 20100902 - 25      Merure               Design
-20100901 - 29      Collegiennes         Live                 Bivouac Urbain
+20100901 - 29      Collegiennes         Performance          Bivouac Urbain
 20100831
 20100830 - 35      Artwork              Illustration
 20100829 - 15      Mixtape              Mixing               Wave
@@ -2570,7 +2570,7 @@
 20100824 - 25      Merure               Design
 20100823 - 35      Oscean               Design
 20100822 - 25      Pico                 Design
-20100821 - 19    7 To The Aeons Hell    Live                 Toy Company - Montre
+20100821 - 19    7 To The Aeons Hell    Performance          Toy Company - Montre
 20100820 - 25      Drownspire           Design
 20100819 - 25      Drownspire           Design
 20100818 - 25      Pico                 Design
@@ -2599,14 +2599,14 @@
 20100726 - 35      Oscean               Development
 20100725 - 25      Pico                 Design
 20100724
-20100723 - 19      Idyllic miners       Live                 Badass - Montreal, K
+20100723 - 19      Idyllic miners       Performance          Badass - Montreal, K
 20100722 - 29  309 Cenote               Design               Cenote
 20100721 - 25      Pico                 Design
 20100720 - 35      Neauismetica         Writing
 20100719 - 25      Pico                 Design
 20100718 - 39      Pico                 Design
 20100717
-20100716 - 19      Idyllic miners       Live                 Komor Kommando - Ott
+20100716 - 19      Idyllic miners       Performance          Komor Kommando - Ott
 20100715
 20100714 - 25   15 Ableton              Design               Ableton Live Theme
 20100713 - 35      Oscean               Development
@@ -2624,7 +2624,7 @@
 20100701
 20100630 - 35      Oscean               Development
 20100629 - 25   74 Drownspire           Development          Our Studio
-20100628 ! 39      Research             Event                Learn Programming
+20100628 - 39      Oscean               Tools
 20100627 - 15      To The Aeons Hell    Composition
 20100626 - 19      Mixtape              Mixing               Suilen
 20100625 - 25      Pico                 Design
@@ -2644,7 +2644,7 @@
 20100611
 20100610
 20100609
-20100608 - 19      Idyllic miners       Live                 Badass - Montreal, P
+20100608 - 19      Idyllic miners       Performance          Badass - Montreal, P
 20100607
 20100606
 20100605 - 29   42 Merure               Release              Erri
@@ -2657,7 +2657,7 @@
 20100529
 20100528
 20100527
-20100526 - 19      Idyllic miners       Live                 SyndromeWPW - Montre
+20100526 - 19      Idyllic miners       Performance          SyndromeWPW - Montre
 20100525
 20100524
 20100523
@@ -2669,7 +2669,7 @@
 20100517
 20100516
 20100515
-20100514 - 19  157 Idyllic miners       Live                 Kinetik Festival 201
+20100514 - 19  157 Idyllic miners       Performance          Kinetik Festival 201
 20100513
 20100512
 20100511
@@ -2739,13 +2739,13 @@
 20100308 - 25      Japan                Photography          日本 Day 77
 20100307 - 25      Japan                Photography          日本 Day 76
 20100306 - 25      Japan                Photography          日本 Day 75
-20100305 - 19      Shikanokoa vs 1h1d   Live                 Netlabel Party - Tok
+20100305 - 19      Shikanokoa vs 1h1d   Performance          Netlabel Party - Tok
 20100304 - 25  416 Japan                Photography          
 20100303 ! 25  412 Japan                Photography          
 20100302 - 25      Japan                Photography          
 20100301 - 25  410 Rekka                Photography          Rekka in Osaka        Waiting by the hostel.
 20100228 - 15  125 Shikanokoa vs 1h1d   Release              1H1D vs shikanokoa
-20100227 - 19  101 Shikanokoa vs 1h1d   Live                 1H1D vs shikanokoa -
+20100227 - 19  101 Shikanokoa vs 1h1d   Performance          1H1D vs shikanokoa -
 20100226 - 25  418 Japan                Photography          Luck
 20100225 - 25  406 Japan                Photography          
 20100224 - 25  417 Japan                Photography          Lanterns
@@ -2896,7 +2896,7 @@
 20091002
 20091001
 20090930
-20090929 - 19      Ann yozora saint     Live                 Dimanche du Seigneur
+20090929 - 19      Ann yozora saint     Performance          Dimanche du Seigneur
 20090928
 20090927
 20090926
@@ -2918,7 +2918,7 @@
 20090910
 20090909 - 15   71 Pedestrian paradise  Release              Pedestrian Paradise
 20090908
-20090907 - 19      Pedestrian paradise  Live                 Piknic Electronik -
+20090907 - 19      Pedestrian paradise  Performance          Piknic Electronik -
 20090906 - 25      Drypoint             Design
 20090905
 20090904 - 15      Drypoint             Composition
@@ -2976,7 +2976,7 @@
 20090714
 20090713
 20090712 - 15   13 Malice               Release              バイナリダンプ一０。
-20090711 - 19      Pedestrian paradise  Live                 Toy Company - Montre
+20090711 - 19      Pedestrian paradise  Performance          Toy Company - Montre
 20090710
 20090709
 20090708
@@ -3087,7 +3087,7 @@
 20090325
 20090324
 20090323
-20090322 - 19      Otoroutes Miniatures Live                 Birthdeffekt - Montr
+20090322 - 19      Otoroutes Miniatures Performance          Birthdeffekt - Montr
 20090321
 20090320
 20090319
@@ -3124,7 +3124,7 @@
 20090216
 20090215
 20090214
-20090213 - 19  317 Otoroutes Miniatures Live                 Toy Company - Montre
+20090213 - 19  317 Otoroutes Miniatures Performance          Toy Company - Montre
 20090212
 20090211
 20090210
@@ -3213,7 +3213,7 @@
 20081119
 20081118
 20081117
-20081116 - 19      Downtemperature      Live                 16d JAM - Tokyo
+20081116 - 19      Downtemperature      Performance          16d JAM - Tokyo
 20081115
 20081114
 20081113
@@ -3278,7 +3278,7 @@
 20080915
 20080914
 20080913
-20080912 - 19  154 Downtemperature      Live                 Toy Company - Montre
+20080912 - 19  154 Downtemperature      Performance          Toy Company - Montre
 20080911
 20080910
 20080909
@@ -3354,7 +3354,7 @@
 20080701
 20080630
 20080629 - 19      Collected works      Composition
-20080628 - 19  153 Malice               Live                 Pulsewave - New York
+20080628 - 19  153 Malice               Performance          Pulsewave - New York
 20080627 - 19      Collected works      Composition
 20080626 - 16      Collected works      Composition
 20080625 - 14      Collected works      Composition
@@ -3396,7 +3396,7 @@
 20080520
 20080519
 20080518
-20080517 - 19  152 Downtemperature      Live                 Toy Company - Montre
+20080517 - 19  152 Downtemperature      Performance          Toy Company - Montre
 20080516
 20080515
 20080514

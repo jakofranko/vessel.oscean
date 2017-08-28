@@ -4,7 +4,7 @@
 
 HOME
   UNDE : Home
-  BREF : Welcome to the documentation and playground of the {{Nataniev}} ecosystem.
+  BREF : Welcome to the documentation and playground of the {{Nataniev}} ecosystem and applications.
   LONG
     & This wiki provides documentation and narrative context for the various {{Audio}}, {{Visual}} and {{Research}} projects of multmedia developer {{Devine Lu Linvega}}. If this is your first time around, a good place to begin your exploration is the {{Diary}}.
   LINK
@@ -252,7 +252,7 @@ REKKA
     OFFI : http://kokorobot.ca/
 
 HUNDRED RABBITS
-  UNDE : Hundred rabbits
+  UNDE : Devine lu linvega
   BREF : {{Hundred Rabbits}}, is a design studio on a {{sailboat|Pino}}.
   TYPE : Diary
   TAGS : Portal
@@ -1503,6 +1503,50 @@ PHILIPP TRAUM
   BREF : The {{Philipp Traum}} notes are a collection of quotes on objectivity and realism.
   TYPE : Memory
 
+NEEDLES
+  UNDE : Notes
+  BREF : {{Needles}} are glyphs of which the intersection count is equal to the value of the character.
+  LONG
+    & The glyphs are not used into any specific project, but are available here as a reference of a meaningful numeric glyph system.
+    % needles fit
+
+NUMBERS
+  UNDE : Notes
+  BREF : {{Numbers}}, is a script that generates the name of numbers with 50'000 characters and beyond.
+  LONG
+    & It uses various extensions of the short word form, and ISQ inspired names, to create the names of numbers which have never previously been catalogued.
+    - One Million 6 zeros
+    - One Quindecillion 48 zeros
+    - One Quattuortrigintallion 105 zeros
+    - One Unnonagintallion 276 zeros
+    - One Quattuortrecentillion 915 zeros
+    - One Unseptuagintasescentillion 2016 zeros
+    - One Duotrigintatrillinillion 9999 zeros
+    - One Quattuorquadragintaoctillinillion 24135 zeros
+    - One Octillinillion 25203 zeros
+    - One Treoctogintaquadringentimilligillion 31452 zeros
+    - One Novennonagintaseptingentimilligillion 32400 zeros
+    - One Senonagintamilligillion 40191 zeros
+    - One Quinsexagintamilligillion 49998 zeros
+  LINK
+    GITH : https://github.com/XXIIVV/toys.numerals
+
+SHORTHAND
+  UNDE : Notes
+  BREF : {{Shorthand}} is a calligraphy style developed to take faster notes.
+  LONG
+    * The idea is simple, writing faster.
+    & I played with different ideas and this is the system that worked best for me, it’s an inspiration and a mixture of already existing shorthand systems that fits my writing style.
+    % shorthand.alphabet fit
+    & Simple enough, now most letters are transformed into a single stroke shape that flows and combines to form shorter words, that can be written faster.
+
+TALK
+  UNDE : Notes
+  BREF : These talks were created as periodical research dumps, often gravitating around the topics of the {{hexagrammaton|Nataniev}} and {{Horaire}}.
+  TYPE : Diary
+  LINK
+    GITH : https://github.com/neauoire/Talk-Amaze
+
 ~ Language
 
 LANGUAGE
@@ -1540,52 +1584,6 @@ LIETAL
     $ lietal serve documentation
   LINK
     GITH : https://github.com/XXIIVV/vessel.lietal
-  
-~ Research
-
-NUMBERS
-  UNDE : Research
-  BREF : {{Numbers}}, is a script that generates the name of numbers with 50'000 characters and beyond.
-  LONG
-    & It uses various extensions of the short word form, and ISQ inspired names, to create the names of numbers which have never previously been catalogued.
-    - One Million 6 zeros
-    - One Quindecillion 48 zeros
-    - One Quattuortrigintallion 105 zeros
-    - One Unnonagintallion 276 zeros
-    - One Quattuortrecentillion 915 zeros
-    - One Unseptuagintasescentillion 2016 zeros
-    - One Duotrigintatrillinillion 9999 zeros
-    - One Quattuorquadragintaoctillinillion 24135 zeros
-    - One Octillinillion 25203 zeros
-    - One Treoctogintaquadringentimilligillion 31452 zeros
-    - One Novennonagintaseptingentimilligillion 32400 zeros
-    - One Senonagintamilligillion 40191 zeros
-    - One Quinsexagintamilligillion 49998 zeros
-  LINK
-    GITH : https://github.com/XXIIVV/toys.numerals
-
-NEEDLES
-  UNDE : Research
-  BREF : {{Needles}} are glyphs of which the intersection count is equal to the value of the character.
-  LONG
-    & The glyphs are not used into any specific system of the {{Gamme}}, but are available here as a reference of a meaningful numeric glyph system.
-    % needles fit
-
-SHORTHAND
-  UNDE : Research
-  BREF : {{Shorthand}} is a calligraphy style developed to take faster notes.
-  LONG
-    * The idea is simple, writing faster.
-    & I played with different ideas and this is the system that worked best for me, it’s an inspiration and a mixture of already existing shorthand systems that fits my writing style.
-    % shorthand.alphabet fit
-    & Simple enough, now most letters are transformed into a single stroke shape that flows and combines to form shorter words, that can be written faster.
-
-TALK
-  UNDE : Research
-  BREF : These talks were created as periodical research dumps, often gravitating around the topics of the {{hexagrammaton|Nataniev}} and {{Horaire}}.
-  TYPE : Diary
-  LINK
-    GITH : https://github.com/neauoire/Talk-Amaze
 
 ~ Gamme
 
@@ -1595,9 +1593,7 @@ GAMME
   TAGS : Portal
   BREF : {_La {{Gamme}}_}, is a series of concepts and tools created toward the acceleration of the {_Grand Oeuvre_}.
   LONG
-    & Tools and notes aimed at the acceleration of the {_Grand Oeuvre_} are collected here as {*La Gamme*}.
-    * Trisight
-    & A recurring topic throughout the Nataniev ecosystems is the trinity of Audio, visual and research. Of which the truer names, as per {{Lietal}}, should be physicality, Phisiognomy, and Psychology - Or even the subject itself, its shape, its concept. 
+    & A recurring topic throughout the Nataniev ecosystems is the trinity of Audio, visual and research. Of which the truer names, as per {{Lietal}}, should be physicality, Phisiognomy, and Psychology - Or even the subject itself, its shape & its concept. 
     & Trisight is a name given to the pursuit of the {_Grand Oeuvre_}, the trinity of its members. The {*Grand Oeuvre*}, as per Trisight vocabulary, is meant to equal the sum of one's output goals.
 
 NATANIEV
