@@ -99,9 +99,7 @@ class Graph_Overview
 
     html = "
 
-    <a href='/Horaire#hdf'>#{@logs.hours}<t style='color:#999'>Fh</t></a></a>
-    <a href='/Horaire#hdf'>#{@logs.hour_day_focus}<t style='color:#999'>Hdf</t></a>
-    <a href='/#{@term.name}:Horaire'><b>#{@logs.first.time.ago}</b></a>
+    <a href='/Horaire#hdf'><b>#{@logs.hours}</b>Fh</a></a> <a href='/Horaire#hdf'><b>#{@logs.hour_day_focus}</b>Hdf</a> <a href='/#{@term.name}:Horaire'>Updated #{@logs.first.time.ago}</a>
     "
 
     return "<ln class='summary'>#{html}</ln><hr />"

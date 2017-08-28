@@ -38,10 +38,10 @@ class Graph_Daily
 
     return "<style>
     .graph.daily { position:relative; height:#{@height + 45}px; }
-    .graph.daily cell { display:block; height:#{@cell_height-1}px; width:#{@cell_width - 1}px; background:transparent; display:block; border-radius:1px; float:left; margin-bottom:1px; margin-right:1px; position:absolute; border-radius:2px}
+    .graph.daily cell { display:block; height:#{@cell_height-1}px; width:#{@cell_width - 1}px; background:#eee; display:block; border-radius:1px; float:left; margin-bottom:1px; margin-right:1px; position:absolute; border-radius:2px}
     .graph.daily cell.audio { background:#72dec2}
     .graph.daily cell.visual { background:#000}
-    .graph.daily cell.research { background:#ddd}
+    .graph.daily cell.research { background:#ccc}
     </style>"
 
   end

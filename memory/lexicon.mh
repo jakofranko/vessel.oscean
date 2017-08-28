@@ -1604,7 +1604,7 @@ NATANIEV
   UNDE : Gamme
   TYPE : portal summary
   TAGS : Portal
-  BREF : {{Nataniev}} is an experimental operating system.
+  BREF : {{Nataniev}} is an experimental operating system aimed at the sole creation of audio, visual and interactive projects.
   LONG
     & As of June 2017, a {*graphical interface*} was built onto the server tools, allowing for the co-existence of tools such as {{Ide}}, {{Ronin}} and {{Marabu}}.
     & This website, and many others, are served by a web platform named {{Nataniev}}. Their design and much of their visual and audio content is also created with {{tools|Suite}} built within the platform, following its ecosystem's ideologies.
@@ -1660,6 +1660,7 @@ IDE
 
 TOOLKIT
   UNDE : Nataniev
+  TYPE : Portal
   BREF : The {{Nataniev}} {{Toolkit}} is a series of core application built within the operating system.
 
 OSCEAN
