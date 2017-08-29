@@ -24,7 +24,7 @@ class CorpseHttp
   def results
 
     a = []
-    $lexicon.to_h("term").each do |name,term|
+    @lexicon.to_h("term").each do |name,term|
       if !term.tags then next end
       if !term.tags.include?(@term.name.downcase) then next end
       a.push(term)

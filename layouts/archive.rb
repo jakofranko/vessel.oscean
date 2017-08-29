@@ -1,50 +1,30 @@
 #!/bin/env ruby
 # encoding: utf-8
 
-class CorpseHttp
+corpse = $nataniev.vessel.corpse
 
-  def view
+corpse.style = "
+yu.cr div.child { font-size: 18px;line-height: 30px;margin-bottom: 1px;background: #ddd;padding: 5px 15px}
+yu.cr div.children { margin-bottom: 30px;border-radius: 5px;overflow: hidden}
+yu.cr div.children a { font-family:'lora_bold'}"
 
-    ladder = children(term.name)
+def corpse.view
 
-    html = ""
+  html = ""
 
-    index = Index.new
+  index = Index.new
 
-    ladder.each do |term|
-      index.add(:root,term.name)
-      html += "<h2 id='#{term.name.downcase}'><a href='/#{term.name}'>#{term.name}</a></h2>\n"
-      html += "<p>#{term.bref}</p>\n"
-      html += "<list class='pl15'>"
-      children(term.name).each do |term|
-        index.add(term.parent.name,term.name)
-        html += "<ln class='pl15' id='#{term.name.downcase}'>#{term.bref}\n</ln>"
-      end
-      html += "</list>"
+  @term.children.each do |term|
+    index.add(:root,term.name)
+    html += "<h2 id='#{term.name.downcase}'><a href='/#{term.name}'>#{term.name}</a></h2>\n"
+    html += "<p>#{term.bref}</p>\n"
+    html += "<list class='pl15'>"
+    term.children.each do |term|
+      index.add(term.parent.name,term.name)
+      html += "<ln class='pl15' id='#{term.name.downcase}'>#{term.bref}\n</ln>"
     end
-    return "#{index}#{@term.long.runes}#{html}"
-
+    html += "</list>"
   end
-
-  def children topic
-
-    a = []
-    lexicon.to_h("term").each do |name,term|
-      if !term.unde.like(topic) then next end
-      a.push(term)
-    end
-    return a
-
-  end
-
-  def style
-
-    return "<style>
-    yu.cr div.child { font-size: 18px;line-height: 30px;margin-bottom: 1px;background: #ddd;padding: 5px 15px}
-    yu.cr div.children { margin-bottom: 30px;border-radius: 5px;overflow: hidden}
-    yu.cr div.children a { font-family:'lora_bold'}
-    </style>"
-
-  end
+  return "#{index}#{@term.long.runes}#{html}"
 
 end

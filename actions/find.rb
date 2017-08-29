@@ -20,10 +20,10 @@ class ActionFind
 
     load_folder("#{@host.path}/objects/*")
     
-    $lexicon = Memory_Hash.new("lexicon",@host.path)
-    $horaire = Memory_Array.new("horaire",@host.path)
+    @lexicon = Memory_Hash.new("lexicon",@host.path)
+    @horaire = Memory_Array.new("horaire",@host.path)
 
-    term = $lexicon.to_h(:term)[q.upcase]
+    term = @lexicon.to_h(:term)[q.upcase]
     return term.to_h.to_json
 
   end

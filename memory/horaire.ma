@@ -4,6 +4,7 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170829 - 37      Rotonde              Tools
 20170828 - 27      Horaire              Design                                     Each project page now has an Horaire widget with Fh and Dhf.
 20170827 - 28      Ronin                Documentation                              
 20170826 - 38      Nataniev             Tools
