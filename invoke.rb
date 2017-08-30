@@ -4,32 +4,39 @@
 $nataniev.require("corpse","http")
 
 $nataniev.vessels[:oscean].path = File.expand_path(File.join(File.dirname(__FILE__), "/"))
-$nataniev.vessels[:oscean].install(:custom,:serve)
+$nataniev.vessels[:oscean].install(:custom,:serve,CorpseHttp.new)
 
-corpse = CorpseHttp.new($nataniev.vessels[:oscean])
+class Media
+  def path; return "#{$nataniev.path}/public/public.oscean/media" ; end
+end
+
+corpse = $nataniev.vessels[:oscean].corpse
 
 def corpse.build
 
   @host = $nataniev.vessels[:oscean]
+  @host.corpse = self
 
   add_meta("description","Works of Devine Lu Linvega")
   add_meta("keywords","aliceffekt, traumae, devine lu linvega")
   add_meta("viewport","width=device-width, initial-scale=1, maximum-scale=1")
   add_meta("apple-mobile-web-app-capable","yes")
+
   add_link("reset.css",:lobby)
   add_link("font.input_mono.css",:lobby)
   add_link("font.frank_ruhl.css",:lobby)
   add_link("font.lora.css",:lobby)
   add_link("font.din.css",:lobby)
   add_link("main.css")
+
   add_script("core/jquery.js",:lobby)
   add_script("main.js")
 
 end
 
-$nataniev.vessels[:oscean].corpse = corpse
-
 def corpse.query q = nil
+
+  build
 
   @query   = q.include?(":") ? q.split(":").first : q
   @module  = q.include?(":") ? q.split(":").last : nil
@@ -48,11 +55,7 @@ def corpse.query q = nil
   load_any "#{$nataniev.vessels[:oscean].path}/layouts", @term.type
   load_any "#{$nataniev.vessels[:oscean].path}/modules", @module
 
-  # Build
-
-  @view = view
-
-  self.body = layout
+  # @body = layout
 
 end
 
@@ -65,7 +68,7 @@ def corpse.view
 
 end
 
-def corpse.layout
+def corpse.body
 
   html = ""
   html += @term.diaries.length > 0 && @term.flag != 'no_photo' ? (media = @term.diary.media ; media.set_class(:photo) ; media.to_s) : ""
@@ -111,9 +114,5 @@ def corpse.layout
 
   return html
 
-end
-
-class Media
-  def path; return "#{$nataniev.path}/public/public.oscean/media" ; end
 end
 
