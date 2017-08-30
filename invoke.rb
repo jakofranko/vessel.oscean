@@ -4,32 +4,30 @@
 $nataniev.require("corpse","http")
 
 $nataniev.vessels[:oscean].path = File.expand_path(File.join(File.dirname(__FILE__), "/"))
-
 $nataniev.vessels[:oscean].install(:custom,:serve)
 
 corpse = CorpseHttp.new($nataniev.vessels[:oscean])
 
-corpse.add_meta("description","Works of Devine Lu Linvega")
-corpse.add_meta("keywords","aliceffekt, traumae, devine lu linvega")
-corpse.add_meta("viewport","width=device-width, initial-scale=1, maximum-scale=1")
-corpse.add_meta("apple-mobile-web-app-capable","yes")
-corpse.add_link("reset.css",:lobby)
-corpse.add_link("font.input_mono.css",:lobby)
-corpse.add_link("font.frank_ruhl.css",:lobby)
-corpse.add_link("font.lora.css",:lobby)
-corpse.add_link("font.din.css",:lobby)
-corpse.add_script("core/jquery.js",:lobby)
-corpse.add_link("main.css")
-corpse.add_script("main.js")
+def corpse.build
 
-class Media
-  def path; return "#{$nataniev.path}/public/public.oscean/media" ; end
+  @host = $nataniev.vessels[:oscean]
+
+  add_meta("description","Works of Devine Lu Linvega")
+  add_meta("keywords","aliceffekt, traumae, devine lu linvega")
+  add_meta("viewport","width=device-width, initial-scale=1, maximum-scale=1")
+  add_meta("apple-mobile-web-app-capable","yes")
+  add_link("reset.css",:lobby)
+  add_link("font.input_mono.css",:lobby)
+  add_link("font.frank_ruhl.css",:lobby)
+  add_link("font.lora.css",:lobby)
+  add_link("font.din.css",:lobby)
+  add_link("main.css")
+  add_script("core/jquery.js",:lobby)
+  add_script("main.js")
+
 end
 
 $nataniev.vessels[:oscean].corpse = corpse
-
-def corpse.horaire; return @horaire; end
-def corpse.lexicon; return @lexicon; end
 
 def corpse.query q = nil
 
@@ -57,6 +55,9 @@ def corpse.query q = nil
   self.body = layout
 
 end
+
+def corpse.horaire; return @horaire; end
+def corpse.lexicon; return @lexicon; end
 
 def corpse.view
   
@@ -110,5 +111,9 @@ def corpse.layout
 
   return html
 
+end
+
+class Media
+  def path; return "#{$nataniev.path}/public/public.oscean/media" ; end
 end
 
