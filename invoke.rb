@@ -3,11 +3,11 @@
 
 $nataniev.require("corpse","http")
 
-$nataniev.vessel.path = File.expand_path(File.join(File.dirname(__FILE__), "/"))
+$nataniev.vessels[:oscean].path = File.expand_path(File.join(File.dirname(__FILE__), "/"))
 
-$nataniev.vessel.install(:custom,:serve)
+$nataniev.vessels[:oscean].install(:custom,:serve)
 
-corpse = CorpseHttp.new($nataniev.vessel)
+corpse = CorpseHttp.new($nataniev.vessels[:oscean])
 
 corpse.add_meta("description","Works of Devine Lu Linvega")
 corpse.add_meta("keywords","aliceffekt, traumae, devine lu linvega")
@@ -22,7 +22,11 @@ corpse.add_script("core/jquery.js",:lobby)
 corpse.add_link("main.css")
 corpse.add_script("main.js")
 
-$nataniev.vessel.corpse = corpse
+class Media
+  def path; return "#{$nataniev.path}/public/public.oscean/media" ; end
+end
+
+$nataniev.vessels[:oscean].corpse = corpse
 
 def corpse.horaire; return @horaire; end
 def corpse.lexicon; return @lexicon; end
@@ -33,18 +37,18 @@ def corpse.query q = nil
   @module  = q.include?(":") ? q.split(":").last : nil
   @query = @query.gsub("_"," ").gsub("+"," ")
 
-  load_folder("#{$nataniev.vessel.path}/objects/*")
+  load_folder("#{$nataniev.vessels[:oscean].path}/objects/*")
 
-  @lexicon = Memory_Hash.new("lexicon",$nataniev.vessel.path)
-  @horaire = Memory_Array.new("horaire",$nataniev.vessel.path)
+  @lexicon = Memory_Hash.new("lexicon",$nataniev.vessels[:oscean].path)
+  @horaire = Memory_Array.new("horaire",$nataniev.vessels[:oscean].path)
 
   @term    = @lexicon.filter("term",@query,"term")
   @title   = "XXIIVV ∴ #{@term.name}"
 
-  load_any "#{$nataniev.vessel.path}/pages",   @query
-  load_any "#{$nataniev.vessel.path}/modules", @query
-  load_any "#{$nataniev.vessel.path}/layouts", @term.type
-  load_any "#{$nataniev.vessel.path}/modules", @module
+  load_any "#{$nataniev.vessels[:oscean].path}/pages",   @query
+  load_any "#{$nataniev.vessels[:oscean].path}/modules", @query
+  load_any "#{$nataniev.vessels[:oscean].path}/layouts", @term.type
+  load_any "#{$nataniev.vessels[:oscean].path}/modules", @module
 
   # Build
 

@@ -1,7 +1,7 @@
 #!/bin/env ruby
 # encoding: utf-8
 
-corpse = $nataniev.vessel.corpse
+corpse = $nataniev.vessels[:oscean].corpse
 
 corpse.style = "
 .pagination { margin-bottom: 30px; position:relative}

@@ -1581,7 +1581,7 @@ LIETAL
   BREF : {{Lietal}} is a {{synthetic language|http://en.wikipedia.org/wiki/Constructed_language}} created to experiment with linguistics and translation.
   TAGS : Portal guide
   LONG
-    $ lietal serve documentation
+    $ lietal print documentation
   LINK
     GITH : https://github.com/XXIIVV/vessel.lietal
 
@@ -1732,14 +1732,14 @@ DICTIONAERY
   UNDE : Lietal
   BREF : The {{Dictionaery}} is a list of all the known {{Lietal}} words.
   LONG
-    $ lietal serve dictionaery
+    $ lietal print dictionaery
 
 LAE DOI
   UNDE : Lietal
   BREF : {{Lae Doi}} is the {{Lietal}} translation of {{Thousand Rooms}}.
   LONG
     & To see the translation of individual words, see the {{Dictionaery}}. To see the construction, see the {{source|https://github.com/XXIIVV/vessel.lietal/blob/master/memory/thousand_rooms.mh}}
-    $ lietal serve side_by_side thousand_rooms.mh
+    $ lietal print side_by_side thousand_rooms.mh
   LINK
     ITCH : https://hundredrabbits.itch.io/thousand-rooms
     GITH : https://github.com/XXIIVV/vessel.lietal/blob/master/memory/thousand_rooms.mh

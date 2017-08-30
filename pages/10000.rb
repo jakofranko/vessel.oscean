@@ -1,7 +1,7 @@
 #!/bin/env ruby
 # encoding: utf-8
 
-corpse = $nataniev.vessel.corpse
+corpse = $nataniev.vessels[:oscean].corpse
 
 corpse.style = "
 span.result { background:white; font-family:'din_medium'; font-size:12px; color:white; display:block; overflow:hidden; position:relative; height:30px; border-radius:3px; margin-bottom:5px; background:#ccc}

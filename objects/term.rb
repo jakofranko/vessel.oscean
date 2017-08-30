@@ -42,7 +42,7 @@ class Term
 
   def parent
 
-    @parent = @parent ? @parent : @parent = $nataniev.vessel.corpse.lexicon.filter("term",unde,"term")
+    @parent = @parent ? @parent : @parent = $nataniev.vessels[:oscean].corpse.lexicon.filter("term",unde,"term")
     return @parent
 
   end
@@ -52,7 +52,7 @@ class Term
     if @children then return @children end
 
     a = []
-    $nataniev.vessel.corpse.lexicon.to_h("term").each do |t_name,t_term|
+    $nataniev.vessels[:oscean].corpse.lexicon.to_h("term").each do |t_name,t_term|
       if !t_term.unde.like(name) then next end
       a.push(t_term)
     end
@@ -66,7 +66,7 @@ class Term
     if @siblings then return @siblings end
       
     a = []
-    $nataniev.vessel.corpse.lexicon.to_h("term").each do |name,term|
+    $nataniev.vessels[:oscean].corpse.lexicon.to_h("term").each do |name,term|
       if !term.unde then next end
       if !term.unde.like(unde) then next end
       a.push(term)
@@ -91,13 +91,6 @@ class Term
 
   end
 
-  def comments
-    
-    @comments = @comments ? @comments : ( name.like("home") || name.like("forum") ) ? $forum.to_a : $forum.filter("topic",name,"comment")
-    return @comments
-
-  end
-
   def tasks
 
     if @tasks then return @tasks end
@@ -118,7 +111,7 @@ class Term
 
   def logs
 
-    @logs = @logs ? @logs : ( name.like("home") || name.like("diary") ? $nataniev.vessel.corpse.horaire.filter("term","*","log") : $nataniev.vessel.corpse.horaire.filter("term",name,"log"))
+    @logs = @logs ? @logs : ( name.like("home") || name.like("diary") ? $nataniev.vessels[:oscean].corpse.horaire.filter("term","*","log") : $nataniev.vessels[:oscean].corpse.horaire.filter("term",name,"log"))
     return @logs
 
   end
