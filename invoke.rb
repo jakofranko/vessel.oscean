@@ -6,16 +6,11 @@ $nataniev.require("corpse","http")
 $nataniev.vessels[:oscean].path = File.expand_path(File.join(File.dirname(__FILE__), "/"))
 $nataniev.vessels[:oscean].install(:custom,:serve,CorpseHttp.new)
 
-class Media
-  def path; return "#{$nataniev.path}/public/public.oscean/media" ; end
-end
-
 corpse = $nataniev.vessels[:oscean].corpse
 
 def corpse.build
 
   @host = $nataniev.vessels[:oscean]
-  @host.corpse = self
 
   add_meta("description","Works of Devine Lu Linvega")
   add_meta("keywords","aliceffekt, traumae, devine lu linvega")
@@ -36,8 +31,6 @@ end
 
 def corpse.query q = nil
 
-  build
-
   @query   = q.include?(":") ? q.split(":").first : q
   @module  = q.include?(":") ? q.split(":").last : nil
   @query = @query.gsub("_"," ").gsub("+"," ")
@@ -55,18 +48,9 @@ def corpse.query q = nil
   load_any "#{$nataniev.vessels[:oscean].path}/layouts", @term.type
   load_any "#{$nataniev.vessels[:oscean].path}/modules", @module
 
-  # @body = layout
-
 end
 
-def corpse.horaire; return @horaire; end
-def corpse.lexicon; return @lexicon; end
-
-def corpse.view
-  
-  return "#{@term.long.runes}\n"
-
-end
+def corpse.view; return "#{@term.long.runes}\n";end
 
 def corpse.body
 
@@ -115,4 +99,12 @@ def corpse.body
   return html
 
 end
+
+def corpse.horaire; return @horaire; end
+def corpse.lexicon; return @lexicon; end
+
+class Media
+  def path; return "#{$nataniev.path}/public/public.oscean/media" ; end
+end
+
 
