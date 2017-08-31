@@ -50,8 +50,6 @@ def corpse.query q = nil
 
 end
 
-def corpse.view; return "#{@term.long.runes}\n";end
-
 def corpse.body
 
   html = ""
@@ -99,6 +97,8 @@ def corpse.body
   return html
 
 end
+
+def corpse.view; return "#{@term.long.runes}\n";end
 
 def corpse.horaire; return @horaire; end
 def corpse.lexicon; return @lexicon; end
