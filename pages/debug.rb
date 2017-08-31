@@ -1,34 +1,11 @@
 #!/bin/env ruby
 # encoding: utf-8
 
-class ActionFind
+corpse = $nataniev.vessels[:oscean].corpse
 
-  include Action
-  
-  def initialize q = nil
+corpse.style = ""
 
-    super
-
-    @name = "Find"
-    @docs = "List missing logs and terms."
-
-  end
-
-  def act q = "Home"
-
-    h = {:hello => 2}
-
-    load_folder("#{@host.path}/objects/*")
-    
-    @lexicon = Memory_Hash.new("lexicon",@host.path)
-    @horaire = Memory_Array.new("horaire",@host.path)
-
-    term = @lexicon.to_h(:term)[q.upcase]
-    return term.to_h.to_json
-
-  end
-
-  private
+def corpse.view
 
   def next_available_diary
 
@@ -41,14 +18,14 @@ class ActionFind
 
     i = 1
     while i < 9999
-      if !diaries.include?(i) then return i end
+      if !diaries.include?(i) then return "AVAILABLE #{i}\n" end
       i += 1
     end
     return nil
 
   end
 
-  def next_missing_log
+  def missing_logs
 
     array = []
     dates = []
@@ -67,14 +44,15 @@ class ActionFind
       end
     end
 
+    text = "MISSING LOGS #{array.length}\n"
     array.each do |log|
-      return log+"(#{array.length})"
+      text += "- #{log}\n"
     end
-    return nil
+    return text
 
   end
 
-  def next_missing_term
+  def missing_terms
 
     array = []
 
@@ -84,15 +62,16 @@ class ActionFind
       array.push(log.topic)
     end
     
+    text = "MISSING TERMS #{array.uniq.length}\n"
     array.uniq.each do |term|
-      return "#{term}(#{array.uniq.length})"
+      text += "- #{term.upcase}\n"
     end
 
-    return nil
+    return text
 
   end
 
-  def next_broken_link
+  def broken_links
 
     links = {}
 
@@ -108,25 +87,29 @@ class ActionFind
       links.each do |link|
         if link.first.include?("http") then next end
         if link.first[0,1] == "$" then next end
+        if link.first[0,1] == "#" then next end
         link = link.first.include?("|") ? link.first.split("|").last : link.first
         count += 1
         if @lexicon.render[link.upcase] then next end
         if link[0,1] == "!" then next end
+        if link[0,1] == "#" then next end
         if !missing[source] then missing[source] = [] end
         missing[source].push(link)
         count_missing += 1
       end
     end
 
+    text = "BROKEN LINKS #{count_missing}/#{count}\n"
+
     missing.each do |source,links|
-      return "#{source}(#{links.length}) #{links.first}(#{missing.length})"
+      text += "- #{source}(#{links.length}) #{links.first}\n"
     end
 
-    return nil
+    return "#{text}"
 
   end
 
-  def next_empty_log
+  def empty_logs
 
     a = []
 
@@ -135,15 +118,20 @@ class ActionFind
       if log["CODE"][2,2].to_i > 0 && (!log["TERM"] || !log["TASK"]) then a.push(log) end
     end
 
+    text = "EMPTY LOGS #{a.length}\n"
+
+    count = 0
     a.each do |log|
-      return "#{log["DATE"]}(#{a.length})"
+      if count > 5 then break end
+      text += "- #{log["DATE"]}\n"
+      count += 1
     end
 
-    return nil
+    return text
 
   end
 
-  def next_misformatted
+  def misformatted
 
     h = {}
 
@@ -157,29 +145,43 @@ class ActionFind
       if hash["BREF"].to_s.length < 20 then h[name] = "BREF is too short(#{hash["BREF"].to_s.length} characters)" end
     end
 
+    text = "MISFORMATTED #{h.length}/#{@lexicon.render.length}\n"
+
     h.sort.each do |name,issue|
-      return "#{name}:#{issue}(#{h.length})"
+      text += "- #{name}: #{issue}\n"
     end
 
-    return nil
+    return text
 
   end
 
-  def next_orphan
+  def untitled_diaries
 
-    a = []
+    h = []
 
-    @lexicon.render.each do |name,hash|
-      if hash["TYPE"].to_s.downcase.include?("redirect") then next end
-      if !@lexicon.render[hash["UNDE"].upcase] then a.push(name) end
+    @horaire.to_a.each do |log|
+      if !log["PICT"] then next end
+      if log["NAME"].to_s != "" then next end
+      h.push(log["PICT"])
     end
 
-    a.each do |name|
-      return "#{name}(#{a.length})"
-    end
+    text = "UNNAMED DIARIES #{h.length} -> #{h.length > 0 ? h.first : ''}\n"
 
-    return nil
+    return text
 
   end
 
+
+  text = ""
+  text += next_available_diary
+  text += missing_logs
+  text += missing_terms
+  text += empty_logs
+  text += broken_links
+  text += misformatted
+  text += untitled_diaries
+  text += "\n\n"
+
+  return "<code>#{text}</code>"
+  
 end

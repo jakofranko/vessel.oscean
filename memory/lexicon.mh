@@ -1706,21 +1706,15 @@ DESAMBER
 
 PARADISE
   UNDE : Interactive
+  TYPE : Memory
   BREF : {{Paradise}} is a multiplayer playground that lives within the {{Nataniev}} toolchain. 
-  TYPE : Portal
   LONG
-    & Paradise plays like a MUD, in an ever-changing world where players are not avatars, but places, and objects, and puns, words - moving around and into each other, reordering this chaotic space.
+    & {{Paradise}} plays like an interactive fiction novel, in an ever-changing world where players are not avatars, but places, and objects, and puns, words - moving around and into each other, threading chaos.
     & In this anonymous world you can create anything, traverse the various player-created universes and explore {_conceptspace_}. 
-    % paradise fit
+    & See you {{there|http://paradise.xxiivv.com}}.
   LINK
     SITE : http://paradise.xxiivv.com
     GITH : https://github.com/XXIIVV/vessel.paradise
-
-INNER HAVEN
-  UNDE : Paradise
-  BREF : The {{Inner Haven}} is a safe location within {{Paradise}} that includes tutorials and documentation.
-  LONG
-    # warp to 1 <comment>The haven can returned to by warping to 1.</comment>
 
 MAEVE
   UNDE : Paradise
@@ -1908,6 +1902,9 @@ GAMES
 ABOUT
   UNDE : Null
   TYPE : Redirect Nataniev
+
+DEBUG
+  BREF : Null
 
 ~ Archives
 
