@@ -14,7 +14,7 @@ def corpse.build
 
   add_meta("description","Works of Devine Lu Linvega")
   add_meta("keywords","aliceffekt, traumae, devine lu linvega")
-  add_meta("viewport","width=device-width, initial-scale=1, maximum-scale=1")
+  add_meta("viewport","width=800, initial-scale=1, maximum-scale=1")
   add_meta("apple-mobile-web-app-capable","yes")
 
   add_link("reset.css",:lobby)
@@ -26,6 +26,7 @@ def corpse.build
 
   add_script("core/jquery.js",:lobby)
   add_script("main.js")
+  add_footer("<script>on_resize()</script>")
 
 end
 
@@ -93,7 +94,7 @@ def corpse.body
       <hr />
     </wr>
   </yu>"
-
+ 
   return html
 
 end
