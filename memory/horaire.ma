@@ -4,13 +4,14 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170831 @ 29  238 Getapan 728k         Design                                     
 20170831 ! 28  236 Paradise             Design                                     Improved the {{Paradise}} layout, as well as cleaned many of the in-game help and documentation.
 20170830 - 38      Nataniev             Development                                  
 20170829 - 37      Rotonde              Migration
 20170828 - 27      Horaire              Design                                     Each project page now has an Horaire widget with Fh and Dhf.
 20170827 - 28      Ronin                Documentation                              
-20170826 - 38      Nataniev             Tools
-20170825 - 18      Mt Eyn               Composition
+20170826 - 29      Getapan 728k         Illustration
+20170825 - 18      Getapan 728k         Composition
 20170824 ! 29  215 Marabu               Design               Removed everything    My favourite design is the one that you cannot tell is there.
 20170823 - 31      Marabu               Maintenance
 20170822 - 32      Marabu               Maintenance
@@ -58,19 +59,19 @@
 20170712 - 37      Grimgrains           Development
 20170711 - 27      Hundred rabbits      Photography
 20170710 - 27      Desamber             Design
-20170709 - 17      Mt Eyn               Composition
+20170709 - 17      Getapan 728k         Composition
 20170708 - 18      Nataniev             Tools
-20170707 - 13      Mt Eyn               Composition
-20170706 - 18      Mt Eyn               Composition
-20170705 - 19      Mt Eyn               Composition
+20170707 - 13      Getapan 728k         Composition
+20170706 - 18      Getapan 728k         Composition
+20170705 - 19      Getapan 728k         Composition
 20170704 - 34      Grimgrains           Tools                                      
 20170703 - 37      Grimgrains           Tools                                      
 20170702 - 29      Grimgrains           Design                                     
 20170701 - 38      Grimgrains           Development                                
 20170630 - 34      Marabu               Prototype                                  
 20170629 - 35      Horaire              Tools                                      
-20170628 - 17      Mt Eyn               Composition
-20170627 - 17      Mt Eyn               Composition
+20170628 - 17      Getapan 728k         Composition
+20170627 - 17      Getapan 728k         Composition
 20170626 - 34      Left                 Tools                                      
 20170625 - 34      Nataniev             Maintenance                                
 20170624 - 27      Horaire              Design                                     

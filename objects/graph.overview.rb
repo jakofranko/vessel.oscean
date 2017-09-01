@@ -79,7 +79,7 @@ class Graph_Overview
       seg_prev = v
     end
 
-    return "#{style}<yu class='graph overview'><svg style='width:#{@width}px; height:#{@height}px;'><path d='#{d}'/></svg>#{summary}</yu>"
+    return "#{style}<yu class='graph overview'><a href='/#{@term.name}:Horaire'><svg style='width:#{@width}px; height:#{@height}px;'><path d='#{d}'/></svg></a></yu>"
 
   end
 
