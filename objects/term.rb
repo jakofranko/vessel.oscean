@@ -3,6 +3,8 @@
 
 class Term
 
+  attr_accessor :data
+
   attr_accessor :name
   attr_accessor :unde
   attr_accessor :type
@@ -14,7 +16,7 @@ class Term
 
   def initialize name = "Unknown", data = {}
 
-    data = data ? data : { "UNDE" => nil, "TYPE" => "Missing" }
+    @data = data ? data : { "UNDE" => nil, "TYPE" => "Missing" }
 
     @name = "#{name}".downcase.capitalize
     @unde = data["UNDE"] ? data["UNDE"].downcase.capitalize : "Home"

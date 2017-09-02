@@ -79,17 +79,16 @@ class Graph_Overview
       seg_prev = v
     end
 
-    return "#{style}<yu class='graph overview'><a href='/#{@term.name}:Horaire'><svg style='width:#{@width}px; height:#{@height}px;'><path d='#{d}'/></svg></a></yu>"
+    return "#{style}<yu class='graph overview'><a href='/#{@term.name}:Horaire'><svg style='width:#{@width}px; height:#{@height}px;'><path d='#{d}'/></svg></a>#{summary}</yu>"
 
   end
 
   def style
 
     return "<style>
-    .graph.overview { float:right}
     .graph.overview svg { margin-left:10px; display:inline-block; float:right; padding-bottom:5px; padding-left:15px; padding-right:8px}
     .graph.overview svg path { stroke-width:1; stroke:black; fill:none; stroke-linecap:round}
-    .graph.overview .summary { font-family: 'din_regular';font-size: 12px;display: inline-block;line-height: 30px;vertical-align: top;}
+    .graph.overview .summary { font-family: 'din_regular';font-size: 12px;display: inline-block;line-height: 30px;vertical-align: top; right:45px}
     .graph.overview .summary a { display:inline-block; margin-left:10px; margin-right:0px}
     .graph.overview .summary a:hover { text-decoration:underline}
     </style>"

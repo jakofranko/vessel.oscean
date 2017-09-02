@@ -4,7 +4,8 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
-20170831 @ 29  238 Getapan 728k         Design                                     
+20170902 - 35      Left                 Tools
+20170901 @ 29  238 Getapan 728k         Design                                     
 20170831 ! 28  236 Paradise             Design                                     Improved the {{Paradise}} layout, as well as cleaned many of the in-game help and documentation.
 20170830 - 38      Nataniev             Development                                  
 20170829 - 37      Rotonde              Migration
@@ -278,7 +279,7 @@
 20161206 - 34  194 Russian              Tools
 20161205 - 34      Russian              Tools
 20161204 - 34      Nataniev             Tools
-20161203 - 24  232 Forum                Design
+20161203 - 24  232 Nataniev             Design
 20161202 - 25  345 Film                 Photography
 20161201 - 34      Pino                 Maintenance
 20161130 - 34      Donsol               Development
