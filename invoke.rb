@@ -38,8 +38,8 @@ def corpse.query q = nil
 
   load_folder("#{$nataniev.vessels[:oscean].path}/objects/*")
 
-  @lexicon = Memory_Hash.new("lexicon",$nataniev.vessels[:oscean].path)
-  @horaire = Memory_Array.new("horaire",$nataniev.vessels[:oscean].path)
+  @lexicon = Memory_Hash.new(:lexicon,$nataniev.vessels[:oscean].path)
+  @horaire = Memory_Array.new(:horaire,$nataniev.vessels[:oscean].path)
 
   @term    = @lexicon.filter("term",@query,"term")
   @title   = "XXIIVV ∴ #{@term.name}"
@@ -68,7 +68,7 @@ def corpse.body
   <yu class='hd #{@term.theme} #{@term.diaries.length > 0 ? 'has_photo' : 'no_photo'}'>
     <wr>
       <a href='/#{@term.parent.name}' class='portal'>#{Media.new("badge",@module).exists ? (badge = Media.new("badge",@module) ; badge.set_class('portal') ; badge) : @term.badge}</a>  
-      <input id='search' value='#{@term.parent.name}' type='text' spellcheck='false' autocorrect='off'/>#{@term.logs.length > 5 ? Graph_Overview.new(@term) : ''}
+      <input id='search' value='#{@term.parent.name}#{@term.parent.name != @term.name ? '/'+@term.name : ''}' type='text' spellcheck='false' autocorrect='off'/>#{@term.logs.length > 5 ? Graph_Overview.new(@term) : ''}
       <list>
         <ln>#{@term.bref ? @term.bref : 'No description.'}</ln>
         <ln>#{html_links}</ln>

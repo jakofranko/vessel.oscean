@@ -4,6 +4,7 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170903 - 28  240 Left                 Design
 20170902 - 35      Left                 Tools
 20170901 @ 29  238 Getapan 728k         Design                                     
 20170831 ! 28  236 Paradise             Design                                     Improved the {{Paradise}} layout, as well as cleaned many of the in-game help and documentation.

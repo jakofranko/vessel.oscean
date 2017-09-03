@@ -19,13 +19,13 @@ class Term
     @data = data ? data : { "UNDE" => nil, "TYPE" => "Missing" }
 
     @name = "#{name}".downcase.capitalize
-    @unde = data["UNDE"] ? data["UNDE"].downcase.capitalize : "Home"
-    @type = data["TYPE"] ? data["TYPE"] : nil
-    @tags = data["TAGS"] ? data["TAGS"] : nil
-    @flag = data["FLAG"] ? data["FLAG"] : nil
-    @link = data["LINK"]
-    @bref = data["BREF"] ? data["BREF"].markup : nil
-    @long = data["LONG"] ? data["LONG"] : []
+    @unde = @data["UNDE"] ? @data["UNDE"].downcase.capitalize : "Home"
+    @type = @data["TYPE"] ? @data["TYPE"] : nil
+    @tags = @data["TAGS"] ? @data["TAGS"] : nil
+    @flag = @data["FLAG"] ? @data["FLAG"] : nil
+    @link = @data["LINK"]
+    @bref = @data["BREF"] ? @data["BREF"].markup : nil
+    @long = @data["LONG"] ? @data["LONG"] : []
 
     @logs = nil
 

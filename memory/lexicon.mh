@@ -850,6 +850,19 @@ INTERACTIVE
     & The interactive project list contains various completed and unreleased experiments and games for iOS, desktop and browser.
   TYPE : Archive
 
+SOFTWARE
+  UNDE : Interactive
+  BREF : A collection of software.
+
+LEFT
+  UNDE : Software
+  BREF : {{Left}} is a simple open-source distractionless writing application created to help organize ideas.
+  LONG
+    & This {{software}} was created for {{Rekka}}, to help with the writing of the novel {_Wiktopher_}.
+    & The source files are available on Github, and executables should be available on Itch.io shortly.
+  LINK
+    GITH : https://github.com/hundredrabbits/Left
+
 UNITY
   UNDE : Interactive
   BREF : The {{Unity}} Portal contains various unity-built desktop games.
@@ -1913,7 +1926,7 @@ ABOUT
   TYPE : Redirect Nataniev
 
 DEBUG
-  BREF : Null
+  BREF : {{Debug}} messages and tools.
 
 ~ Archives
 
