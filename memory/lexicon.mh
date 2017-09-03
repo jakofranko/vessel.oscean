@@ -856,6 +856,7 @@ SOFTWARE
 
 LEFT
   UNDE : Software
+  TYPE : Diary
   BREF : {{Left}} is a simple open-source distractionless writing application created to help organize ideas.
   LONG
     & This {{software}} was created for {{Rekka}}, to help with the writing of the novel {_Wiktopher_}.

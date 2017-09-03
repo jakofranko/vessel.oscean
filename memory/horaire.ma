@@ -4,10 +4,10 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
-20170903 - 28  240 Left                 Design
+20170903 - 28  240 Left                 Design               Release 1             Create a small writing application called {{Left}}.
 20170902 - 35      Left                 Tools
-20170901 @ 29  238 Getapan 728k         Design                                     
-20170831 ! 28  236 Paradise             Design                                     Improved the {{Paradise}} layout, as well as cleaned many of the in-game help and documentation.
+20170901 @ 29  238 Getapan 728k         Design               Mt. Eyn               Created a series of mountain renders for the release of {{Getapan 728k}}.
+20170831 ! 28  236 Paradise             Design               Injection             Improved the {{Paradise}} layout, as well as cleaned many of the in-game help and documentation.
 20170830 - 38      Nataniev             Development                                  
 20170829 - 37      Rotonde              Migration
 20170828 - 27      Horaire              Design                                     Each project page now has an Horaire widget with Fh and Dhf.

@@ -1,24 +1,16 @@
 #!/bin/env ruby
 # encoding: utf-8
 
-class CorpseHttp
-  
-  def style
-    
-    return "<style>
+corpse = $nataniev.vessels[:oscean].corpse
+
+corpse.style =  "
     body { overflow-x:hidden}
     yu.hd { display:none}
-    yu.mi > a media { width:100%; height:80vh; margin:0px}
-    yu.mi wr .tag { display:none !important}
-    yu.ft { border-top:0px}
-    </style>"
-    
-  end
+    yu.mi wr { padding:0px; max-width:100%}
+    yu.mi wr media { border-radius:0px; margin-bottom:0px}"
 
-  def _mi
+def corpse.view
 
-    return "<yu class='mi'><a href='/#{term.name}'>#{Media.new("diary",@query)}</a></yu>"
+  return "#{Media.new("diary",@query)}"
 
-  end
-  
 end

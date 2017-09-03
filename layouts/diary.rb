@@ -10,10 +10,11 @@ def corpse.view
   html = @term.name.like("home") ? "" : @term.long.runes
 
   @term.diaries.each do |log|
-    if log.photo == @term.diary.photo then next end
     html += log.to_s
   end
 
   return html
 
 end
+
+corpse.style = "body > media.photo { display:none} body yu.hd { margin-top:90px}"

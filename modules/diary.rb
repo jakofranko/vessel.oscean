@@ -3,12 +3,7 @@
 
 corpse = $nataniev.vessels[:oscean].corpse
 
-corpse.style = "
-.pagination { margin-bottom: 30px; position:relative}
-.pagination .progress_bar { background: black;border: 2px solid black;border-radius: 100px;padding: 1px;width:calc(100% - 100px) }
-.pagination .progress_bar .bar { background:white; height:3px; border-radius:10px; min-width:3px }
-.pagination a { font-family: 'din_medium' !important;font-weight: normal;text-align: center;display: inline-block;border-radius: 3px;font-size: 11px;text-transform: uppercase;position: absolute;top: -2px;right: 0px}
-.pagination a:hover { text-decoration: underline}"
+corpse.style = "body > media.photo { display:none} body yu.hd { margin-top:90px} .pagination {text-align:right; font-family:'din_regular'; font-size:12px} .progress_bar { background:#ddd; display:block; height:1px; margin-bottom:15px} .progress_bar .bar { background:black; height:1px; display:block}"
 
 def corpse.view
 
@@ -35,7 +30,7 @@ def corpse.diaries_list
 
   if @term.name.like("home") || @term.name.like("diary")
     progress_html = "<div class='progress_bar'><div class='bar' style='width:#{((page.to_f/@term.diaries.length.to_f)*1000)}%'></div></div>"
-    html += "<div class='pagination'>#{progress_html}<a href='/Diary:#{(page+1)}'>Page #{page+1} of #{(@term.diaries.length/perPage).to_i+1}</a></div>"
+    html += "<div class='pagination'>#{progress_html}<a href='/Diary:#{(page+1)}'>#{page+1} of #{(@term.diaries.length/perPage).to_i+1}</a></div>"
   end
   return html
 
