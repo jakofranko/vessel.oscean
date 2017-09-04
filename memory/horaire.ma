@@ -4,6 +4,7 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170905 - 29      Verreciel            Release
 20170904 - 28      Left                 Release
 20170903 - 28  240 Left                 Design               Release 1             Create a small writing application called {{Left}}.
 20170902 - 35      Left                 Tools
