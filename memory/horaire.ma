@@ -4,6 +4,7 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170904 - 28      Left                 Release
 20170903 - 28  240 Left                 Design               Release 1             Create a small writing application called {{Left}}.
 20170902 - 35      Left                 Tools
 20170901 @ 29  238 Getapan 728k         Design               Mt. Eyn               Created a series of mountain renders for the release of {{Getapan 728k}}.
