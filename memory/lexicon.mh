@@ -1639,21 +1639,23 @@ SUITE
     & Below are guides to each of the {{Suite}} applications for Audio, Visual and Development creation. To get started, follow the {{setup guide|Lobby}}.
 
 ~ 412 417 411
+
 LOBBY
   UNDE : Suite
   TYPE : Memory
   BREF : The {{Lobby}} is the {{Nataniev}} graphical interface which host native applications like {{Marabu}}, {{Ronin}} and {{Ide}}.
 
-
 MARABU
-  UNDE : Suite
+  UNDE : Software
   BREF : {{Marabu}} is a programmable music tracker.
   LONG
     & The tracker is built as a fork to the open-source Soundbox and is meant to be an improvement on functionalities and design, while remaining aimed at creating 4K/8K demos.
+    & You can find the full guide {{here|https://github.com/hundredrabbits/Marabu}}.
   LINK
     GITH : https://github.com/neauoire/Marabu
+    ITCH : http://hundredrabbits.itch.io/Marabu
   TAGS : Guide
-  TYPE : Memory
+  TYPE : Diary
 
 RONIN
   UNDE : Suite
