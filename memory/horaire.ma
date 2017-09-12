@@ -4,12 +4,13 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
-20170911 - 39      Marabu               Development
-20170910 - 34      Marabu               Tools                             
-20170909 - 35      Marabu               Tools                             
-20170908 - 36      Marabu               Documentation                              
-20170907 - 38      Marabu               Release                              
-20170906 - 39      Marabu               Documentation                              
+20170912 - 28      Left                 Design
+20170911 - 38      Left                 Development
+20170910 - 14      Marabu               Design
+20170909 - 15      Marabu               Design
+20170908 - 16      Marabu               Design
+20170907 - 18      Marabu               Design
+20170906 - 19      Marabu               Release
 20170905 - 29      Verreciel            Release
 20170904 - 28      Left                 Release
 20170903 - 28  240 Left                 Design               Release 1             Create a small writing application called {{Left}}.
@@ -37,7 +38,7 @@
 20170812 - 28      Marabu               Design
 20170811 - 37  211 Philipp traum        Writing              The Beldam            Wrote a few notes on objectivity and realism, under the {{Philipp Traum}} page.
 20170810 @ 38  209 Nutrition            Documentation        Meal Plan Basics      Wrote a simple {{nutritional|Nutrition}} guide with basic information on proteins and essential amino acids.
-20170809 - 26  208 Ide                  Design               Tooling               The missing link to the {{Nataniev Suite|Suite}} was a proper native IDE.
+20170809 - 26  208 Left                 Design               Tooling               The missing link to the {{Nataniev Suite|Suite}} was a proper native IDE.
 20170808 - 36      Marabu               Update
 20170807 - 37      Ronin                Update            
 20170806 - 28      Nataniev             Design
@@ -49,8 +50,8 @@
 20170731 ! 26  198 Niue                 Photography          
 20170730 - 26  197 Niue                 Photography          
 20170729 - 29      Clock                Design
-20170728 - 29      Ide                  Design
-20170727 - 33      Ide                  Tools
+20170728 - 29      Left                 Design
+20170727 - 33      Left                 Tools
 20170726 - 34      Lietal               Linguistics
 20170725 - 32      Lietal               Linguistics
 20170724 - 32      Lietal               Linguistics
