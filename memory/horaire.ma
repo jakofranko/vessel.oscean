@@ -4,6 +4,8 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20170914 - 28      Marabu               Design
+20170913 - 28      Left                 Design
 20170912 - 28      Left                 Design
 20170911 - 38      Left                 Development
 20170910 - 14      Marabu               Design
