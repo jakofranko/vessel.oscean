@@ -4,7 +4,7 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
-20170918 - 19  275 Marabu               Composition          Almost Stability      Strides were made on {{Marabu}} toward creating a stable music writing application.
+20170918 ! 19  275 Marabu               Composition          Almost Stability      Strides were made on {{Marabu}} toward creating a stable music writing application.
 20170917 - 39      Marabu               Tools
 20170916 - 38      Marabu               Tools
 20170915 - 34      Marabu               Documentation

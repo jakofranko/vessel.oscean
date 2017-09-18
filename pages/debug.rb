@@ -51,7 +51,6 @@ def corpse.view
   @missing_topics.uniq.each do |topic| text += "  Missing     : #{topic} <comment>1/#{@missing_topics.uniq.length}</comment>\n" ; break end
   text += "\n"
 
-
   # Find missing log
   i = 0
   while i < (365 * 10)
