@@ -853,7 +853,13 @@ INTERACTIVE
 SOFTWARE
   UNDE : Interactive
   TYPE : Portal
-  BREF : A collection of software.
+  BREF : A collection of open-source and free {{software}}.
+  LONG
+    & Released under {{Hundred Rabbits}}, these applications were created to be used offline, and to be easy to repair and improve while living {{Off the grid|Offline}}.
+    & {{Marabu}} and {{Left}} builds are currently available on {{Itch.io|http://hundredrabbits.itch.io/}}. 
+  LINK
+    ITCH : http://hundredrabbits.itch.io/
+    GITH : http://github.com/hundredrabbits
 
 MARABU
   UNDE : Software
@@ -884,7 +890,7 @@ RONIN
 LEFT
   UNDE : Software
   TYPE : Diary
-  BREF : {{Left}} is a simple open-source distractionless writing application created to help organize ideas.
+  BREF : {{Left}} is a distractionless writing application.
   LONG
     & This {{software}} was created for {{Rekka}}, to help with the writing of the novel {_Wiktopher_}.
     & The source files are available on Github, and executables should be available on Itch.io shortly.
