@@ -89,11 +89,18 @@ class Log
 
   end
 
+  def term
+
+    return $nataniev.vessels[:oscean].corpse.lexicon.filter(:term,topic,:term)
+
+  end
+
   def to_s
 
     return "
     <yu class='di'>
       #{photo ? "<a href='/#{photo}:photo'>"+media.to_s+"</a>" : ""}
+      #{term.banner}
       #{name.to_s != "" ? "<p>#{full}</p><mini><b>"+name+"</b>, #{date}</mini>" : ""}
     </yu>"
 

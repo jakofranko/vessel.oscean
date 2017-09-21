@@ -14,6 +14,7 @@ def corpse.view
   @by_date = {}
   @projects = []
   @missing_topics = []
+  @format = {}
 
   @term_count = 0
 
@@ -30,6 +31,7 @@ def corpse.view
   _lexicon.each do |topic,term|
     @links[topic] = term.data["BREF"].to_s.scan(/(?:\{\{)([\w\W]*?)(?=\}\})/) 
     @links[topic] += term.long.to_s.scan(/(?:\{\{)([\w\W]*?)(?=\}\})/) 
+    if !term.data["BREF"] || term.data["BREF"].length < 10 || term.data["BREF"].length > 90 then @format[topic] = term.data["BREF"] end
     @term_count += 1
   end
 
@@ -74,6 +76,12 @@ def corpse.view
       if link[0,1] == "!" then next end
       if !_lexicon[link.upcase] then text += "<b>X Links</b>     #{source}:#{link}\n" ; end
     end
+  end
+
+  # Misformatted
+  @format.each do |topic,bref|
+    text += "  Misformat   : #{topic}, #{bref.length}c <comment>1/#{@format.length}</comment>\n"
+    break
   end
 
   return "<code>#{text}</code>"

@@ -8,9 +8,9 @@ class Graph_Overview
     @term = term
     @logs = term.logs[from,to]
 
-    @width = 190
-    @height = 50
-    @LOD = 50
+    @width = 140
+    @height = 35
+    @LOD = 40
     @segments = equalSegments
 
   end
@@ -79,27 +79,21 @@ class Graph_Overview
       seg_prev = v
     end
 
-    return "#{style}<yu class='graph overview'><a href='/#{@term.name}:Horaire'><svg style='width:#{@width}px; height:#{@height}px;'><path d='#{d}'/></svg></a>#{summary}</yu>"
+    return "#{style}<yu class='graph overview'><a href='/#{@term.name}:Horaire'><svg style='width:#{@width}px; height:#{@height}px;'><path d='#{d}'/></svg></a></yu>"
 
   end
 
   def style
 
     return "<style>
-    .graph.overview svg { margin-left:10px; display:inline-block; float:right; padding-bottom:5px; padding-left:15px; padding-right:8px}
+    .graph.overview svg { padding-bottom:5px; padding-left:15px; padding-right:8px}
     .graph.overview svg path { stroke-width:1; stroke:black; fill:none; stroke-linecap:round}
-    .graph.overview .summary { font-family: 'din_regular';font-size: 12px;display: inline-block;line-height: 30px;vertical-align: top; right:45px}
-    .graph.overview .summary a { display:inline-block; margin-left:10px; margin-right:0px}
-    .graph.overview .summary a:hover { text-decoration:underline}
     </style>"
   end
 
   def summary
 
-    html = "
-
-    <a href='/Horaire'><b>#{@logs.hours}</b>Fh</a></a> <a href='/Horaire#hdf'><b>#{@logs.hour_day_focus}</b>Hdf</a> <a href='/#{@term.name}:Horaire'>Updated #{@logs.first.time.ago}</a>
-    "
+    html = "<a href='/Horaire'><b>#{@logs.hours}</b>Fh</a></a> <a href='/Horaire#hdf'><b>#{@logs.hour_day_focus}</b>Hdf</a> <a href='/#{@term.name}:Horaire'>Updated #{@logs.first.time.ago}</a>"
 
     return "<ln class='summary'>#{html}</ln><hr />"
 

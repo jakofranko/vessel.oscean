@@ -3,6 +3,15 @@
 
 corpse = $nataniev.vessels[:oscean].corpse
 
+def corpse.last_diary
+
+  @term.diaries.each do |diary|
+    if diary.photo == @term.diary.photo then next end
+    return "#{diary}"
+  end
+
+end
+
 def corpse.index
 
   ladder = children(@term.name)
@@ -44,7 +53,7 @@ def corpse.featured_topics
 
   c = 0
   topics.uniq.each do |name|
-    if c > 8 then break end
+    if c > 9 then break end
     terms.push(l[name.upcase])
     c += 1
   end
@@ -55,7 +64,7 @@ def corpse.featured_topics
     html += "<ln class='pl15'>#{term.bref}</ln>"
   end
 
-  return "<h2>Featured Projects</h2><list>#{html}</list>"
+  return "<list>#{html}</list>"
 
 end
 
@@ -63,10 +72,10 @@ def corpse.view
   
   return  "
   #{index}#{@term.long.runes}\n
-  <h2>Recent Activity</h2>
+  <h2>Featured Diary</h2>
+  #{last_diary}
+  <h2>Featured Projects</h2>
   #{Graph_Timeline.new(@term,0,90)}\n
-  <p>The above interface displays the current project activity recorded during the previous 90 days. Learn more about the {{Horaire}} tracking tool.</p>
-  <mini>Learn more about {{Horaire}}.</mini>
   #{featured_topics}
   <h2>Notice</h2>
   <p id='notice'>I am currently in {*{{$ hundredrabbits get_location}}*}, {{sailing|Hundred rabbits}} across the Pacific Ocean toward New Zealand. My access to internet is limited and will not be able to answer emails as frequently. I will get back to you upon {{landfall|http://100r.co/#map}}.</p>".markup

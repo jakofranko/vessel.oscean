@@ -109,7 +109,7 @@ class Graph_Timeline
   def summary
 
     html = "
-    <t class='origin'>#{@logs.length} Days</t>
+    <t class='origin'>#{@logs.length} days ago</t>
     <t class='sector audio'>#{@logs.audio_ratio_percentage}% <t style='color:#999'>Audio</t></t>
     <t class='sector visual'>#{@logs.visual_ratio_percentage}% <t style='color:#999'>Visual</t></t>
     <t class='sector research'>#{@logs.research_ratio_percentage}% <t style='color:#999'>Research</t></t>

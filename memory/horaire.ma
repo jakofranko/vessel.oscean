@@ -4,7 +4,10 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
-20170918 ! 19  275 Marabu               Composition          Almost Stability      Strides were made on {{Marabu}} toward creating a stable music writing application.
+20170921 - 28      Oscean               Design
+20170920 - 38      Left                 Tools
+20170919 - 28      Left                 Design
+20170918 ! 19  275 Marabu               Composition          Almost Stability      Strides were made on the development of the sound tracker {{Marabu}}, and a first build was released on {{Itch.io|http://hundredrabbits.itch.io/Marabu}}.
 20170917 - 39      Marabu               Tools
 20170916 - 38      Marabu               Tools
 20170915 - 34      Marabu               Documentation
@@ -1706,8 +1709,8 @@
 20130125 - 16      Nor let the fools    Composition
 20130124 - 16      Nor let the fools    Composition
 20130123 - 25      Artwork              Illustration
-20130122 - 35      Interactive          Prototype
-20130121 - 35      Interactive          Prototype
+20130122 - 
+20130121 - 
 20130120 - 15      Nor let the fools    Composition
 20130119 - 15      Nor let the fools    Composition
 20130118 - 28      Artwork              Illustration
@@ -1966,14 +1969,14 @@
 20120510
 20120509 - 25      Occulter             Design
 20120508
-20120507 - 28      Interactive          Design
+20120507 -
 20120506 - 25      Waiting for horus    Design
 20120505 - 25      Waiting for horus    Design
-20120504 - 28      Interactive          Design
+20120504
 20120503 - 25  145 Occulter             Design               Occulter's
 20120502
 20120501
-20120430 - 28      Interactive          Design
+20120430 -
 20120429 - 25      Waiting for horus    Design
 20120428
 20120427 - 35      Oscean               Development
@@ -1994,7 +1997,7 @@
 20120412 - 15      Waiting for horus    Composition
 20120411 - 19  140 Children of bramble  Release              Release
 20120410 - 35      Lietal               Development
-20120409 - 28      Interactive          Design
+20120409 -
 20120408 - 35      Lietal               Tools
 20120407 - 19      Vetetrandes lettres  Performance          Neurodance - Toronto
 20120406 - 35      Lietal               Tools
@@ -2015,10 +2018,10 @@
 20120322 - 25  131 France               Photography          Paris Day 2
 20120321 ! 25  130 France               Photography          Paris
 20120320 - 25      Occulter             Design
-20120319 - 28      Interactive          Design
+20120319
 20120318 - 29      Physical             Prototype
 20120317 - 15      Children of bramble  Composition
-20120316 - 28      Interactive          Design
+20120316
 20120315 - 29      Physical             Prototype
 20120314 - 29   97 Ring of scales       Design               Ring of scales
 20120313 - 25      Infrared             Photography

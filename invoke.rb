@@ -67,14 +67,10 @@ def corpse.body
   <yu class='logo'><wr><a href='/Home'>#{Media.new(:icon,:logo,:logo)}</a></wr></yu>
   <yu class='hd #{@term.theme} #{@term.diaries.length > 0 ? 'has_photo' : 'no_photo'}'>
     <wr>
-      <a href='/#{@term.parent.name}' class='portal'>#{Media.new("badge",@module).exists ? (badge = Media.new("badge",@module) ; badge.set_class('portal') ; badge) : @term.badge}</a>  
-      <input id='search' value='#{@term.parent.name}#{@term.parent.name != @term.name ? '/'+@term.name : ''}' type='text' spellcheck='false' autocorrect='off'/>#{@term.logs.length > 5 ? Graph_Overview.new(@term) : ''}
-      <list>
-        <ln>#{@term.bref ? @term.bref : 'No description.'}</ln>
-        <ln>#{html_links}</ln>
-      </list>
+      #{@term.banner}
     </wr>
   </yu>
+  <yu class='search' id='search_panel'><wr><input type='text' id='search_input' placeholder='#{@term.parent.name}/#{@term.name}'/></wr></yu>
   <yu class='mi'><wr>#{view}</wr></yu>
   <yu class='ft'>
     <wr>

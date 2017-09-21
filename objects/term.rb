@@ -192,6 +192,26 @@ class Term
 
   end
 
+  def banner
+
+    links_html = ""
+    if link
+      link.each do |name,url|
+        links_html += Link.new(name,url).to_s
+      end
+    end
+
+    return "
+    <yu class='banner'>
+      <a href='/#{name.to_url}' class='portal'>#{badge}</a>  
+      <yu class='bref'>#{bref}</yu>
+      <yu class='links'>#{links_html}</yu>
+      #{logs.length > 5 ? Graph_Overview.new(self) : ''}
+      <hr/>
+    </yu>"
+
+  end
+
   def theme
 
     return diaries.length < 1 ? "default" : diaries.first.theme

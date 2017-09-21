@@ -4,7 +4,7 @@
 
 HOME
   UNDE : Home
-  BREF : Welcome to the documentation and playground of the {{Nataniev}} ecosystem and applications.
+  BREF : The {{Nataniev}} playground and ecosystems.
   LONG
     & This wiki provides documentation and narrative context for the various {{Audio}}, {{Visual}} and {{Research}} projects of multimedia developer {{Devine Lu Linvega}}. If this is your first time around, a good place to begin your exploration is the {{Diary}}.
   LINK
@@ -142,10 +142,8 @@ DONSOL
     * Release
     & The game was released for {{Mobile}} back in 2016, and re-released for {{Desktop}} in 2017 as {{Hundred Rabbits}}. While the game was designed on a train, without internet connection, it seems like Donsol's gameplay accidentally ended up being a twist to Zach Gage and Kurt Bieg's {{Scoundrel|http://stfj.net/index2.php?project=art/2011/Scoundrel.pdf}}, designed in 2011.
   LINK
-   ITUN : https://itunes.apple.com/us/app/donsol/id976367718?ls=1&mt=8
    GITH : https://github.com/hundredrabbits/Donsol
    ITCH : https://hundredrabbits.itch.io/donsol
-   SITE : /Donsol+guide
 
 DILUVIUM
   UNDE : Collegiennes
@@ -412,7 +410,7 @@ RAMIEL
 
 GETAPAN 728K
   UNDE : Beldam records
-  BREF : {{Getapan 728k}} is the first release from IDM artist 死サイコロ, on {{Beldam Records}}.
+  BREF : {{Getapan 728k}} is a release on {{Beldam Records}}.
   LONG
     & This new release explores a region of frigid dubs yet uncharted by {{Beldam Records}}. Not much is known about 死サイコロ, their name is {_Shi Seikoro_}, or {*Death Dice*}.
     @ discography GETAPAN 728K
@@ -535,7 +533,7 @@ KEYBOARD 468
 
 HIVERSAIRES
   UNDE : Mobile
-  BREF : {{Hiversaires}} is a textless point-n-click adventure game in black & white.
+  BREF : {{Hiversaires}} is a textless point-n-click puzzle game.
   TYPE : Diary
   LONG
     & Hiversaires is the first part of a series of textless games, that also includes the isometric adventure {{Oquonie}}.
@@ -603,7 +601,7 @@ RAFINOGRADE
 
 VERRECIEL
   UNDE : Desktop
-  BREF : {{Verreciel}} is a space exploration game with controls reminiscent of modular synthetisers.
+  BREF : {{Verreciel}} is a space exploration game.
   TYPE : Diary
   LONG
     & The game joins the sequence of linguistically involved projects like {{Paradise}}, {{Hiversaires}} and {{Oquonie}}. 
@@ -672,7 +670,7 @@ MARKL
 
 OQUONIE
   UNDE : Desktop
-  BREF : {{Oquonie}} is a textless puzzle game in which you must find your way across an intertwined megastructure. 
+  BREF : {{Oquonie}} is a textless puzzle game.
   LONG
     & You will not be alone, your incarnations will have the help of {_bizaroid_} characters speaking {{an obscure language|Camilare}}. Oquonie features an original {{soundtrack|Oquonie Soundtrack}} and was best described as {_{{Animal Crossing in a K-Hole|http://killscreendaily.com/articles/oquonie-maze-worth-entering/}}_}.
     ? Find help in the {{Oquonie Guide}}.
@@ -896,6 +894,7 @@ LEFT
     & The source files are available on Github, and executables should be available on Itch.io shortly.
   LINK
     GITH : https://github.com/hundredrabbits/Left
+    ITCH : http://hundredrabbits.itch.io/Left
 
 UNITY
   UNDE : Interactive
@@ -1258,8 +1257,9 @@ DEFRACTION OPTICS
 
 THOUSAND ROOMS
   UNDE : Physical
-  BREF : {{Thousand Rooms}} is a visual novel collaboration with illustrator {{Rekka Bellum|Rekka}}, following the behaviours of four characters and a room.
+  BREF : {{Thousand Rooms}} is a visual novel.
   LONG
+    & {{Thousand Rooms}} was created in collaboration with illustrator {{Rekka Bellum|Rekka}}, following the behaviours of four characters and a room
     & I have written this book with the hopes of creating a sort of {_Borges for children_}, in which the reader follows a bat, a cat, an owl and a fox who try and make sense of this simple system. 
     & The book also encourages to try and understand the rules, and plan unsuggested avenues. We are releasing the book in English, French, Russian, Japanese & {{Lietal}}.
     & For the Lietal side-by-side translation, see {{Lae Doi}}.
@@ -1656,7 +1656,7 @@ NATANIEV
   UNDE : Gamme
   TYPE : portal
   TAGS : Portal
-  BREF : {{Nataniev}} is an experimental operating system aimed at the sole creation of audio, visual and interactive projects.
+  BREF : {{Nataniev}} is an experimental operating system.
   LONG
     & As of June 2017, a {*graphical interface*} was built onto the server tools, allowing for the co-existence of tools such as {{Marabu}}, {{Ronin}} and {{Left}}.
     & This website, and many others, are served by a web platform named {{Nataniev}}. Their design and much of their visual and audio content is also created with {{software}} built within the platform, following its ecosystem's ideologies.
@@ -1693,7 +1693,7 @@ HORAIRE
 
 ROTONDE
   UNDE : Toolkit
-  BREF : {{Rotonde}} is a social feed protocol aimed at exchanging daily activity logs.
+  BREF : {{Rotonde}} is a social feed protocol.
   LINK
     OFFI : http://rotonde.xxiivv.com
     GITH : https://github.com/Rotonde
@@ -1724,7 +1724,7 @@ DESAMBER
 PARADISE
   UNDE : Interactive
   TYPE : Memory
-  BREF : {{Paradise}} is a multiplayer playground that lives within the {{Nataniev}} toolchain. 
+  BREF : {{Paradise}} is a multiplayer interactive-fiction.
   LONG
     & {{Paradise}} plays like an interactive fiction novel, in an ever-changing world where players are not avatars, but places, and objects, and puns, words - moving around and into each other, threading chaos.
     & In this anonymous world you can create anything, traverse the various player-created universes and explore {_conceptspace_}. 
@@ -1794,8 +1794,6 @@ OFFLINE
   LONG
     & This page is an ever growing collection of notes on technical {{off-the-grid|#off_the_grid}} and {{liveaboard|#liveaboard}} topics. If you have unawnsered questions, please leave us a message on {{Twitter|https://twitter.com/hundredrabbits}}.
   TYPE : Memory
-  LINK
-    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/offline.mh
 
 INVENTORY
   UNDE : Obliques
@@ -1881,7 +1879,7 @@ PORTAL
 DEVINE LU LINVEGA
   UNDE : Home
   TAGS : Portal
-  BREF : {{Devine lu linvega}} is a nomad developer and designer, living on a {{sailboat|Pino}} in the South Pacific.
+  BREF : {{Devine lu linvega}} is a nomad, developer and designer.
   LONG
     & Operating under the {*Neauoire*} moniker, Devine is a polymath working on a series of {{experimental tools|Gamme}} and {{applications|Interactive}} involving language. Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}}, Devine hopes to inspire visitors to learn and to travel. 
     ? To {{flee|Obliques}} is life,<br /> To linger is {{Death}}.
@@ -1894,7 +1892,9 @@ DEVINE LU LINVEGA
 
 DEATH
   UNDE : Devine lu linvega
-  BREF : Inspired from {{Chris Crawford|https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer)}}'s Jars, in this {{Death}} counter, every week a cell goes dark.
+  BREF : The {{Death}} loading.
+  LONG
+    & Inspired from {{Chris Crawford|https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer)}}'s Jars.
 
 10000
   UNDE : Devine lu linvega
