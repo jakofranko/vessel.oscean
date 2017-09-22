@@ -88,33 +88,6 @@ ADVENT V
     TWTR : https://twitter.com/adventvrecall
     GITH : https://github.com/XXIIVV/vessel.adventv
 
-BELDAM RECORDS
-  UNDE : Audio
-  BREF : Created in collaboration with {{Elodie Lareine|http://noirmirroir.com}}, {{Beldam Records}} is a label focusing on pop idm and experimental dance music. 
-  LONG
-    & Each release is 4 tracks long, and includes an animation video version of the album art.
-  TYPE : Portal
-  TAGS : Portal
-  LINK
-    BAND : https://beldamrecords.bandcamp.com
-    TWTR : https://twitter.com/beldamrecords
-
-CAMILARE
-  UNDE : Oquonie
-  BREF : Language spoken in {{Oquonie}} containing a little over 20 glyphs, spoken in segments of 3 letters. 
-  LONG
-    * Dictionary
-    & This is a list of the most commonly used characters in {{Oquonie}}.
-    > <table id='camilare'>
-    > <tr><td><img src='public.oscean/media/generic/camilare.nemedique.png'/></td><td>Nestorine</td>                              <td><img src='public.oscean/media/generic/camilare.nephtaline.png'/></td><td>Nephtaline<br/></td>                           <td><img src='public.oscean/media/generic/camilare.necomedre.png'/></td><td>Necomedre</td></tr>
-    > <tr><td><img src='public.oscean/media/generic/camilare.neomine.png'/></td><td>Neomine</td>	                                <td><img src='public.oscean/media/generic/camilare.door.png'/></td><td>Dialocie<br/><small>Door</small></td>                <td></td><td>Paradiacie<br/><small>Door Special</small></td></tr>
-    > <tr><td><img src='public.oscean/media/generic/camilare.teleport.png'/></td><td>Zolenie<br/><small>Teleport</small></td>	    <td><img src='public.oscean/media/generic/camilare.correct.png'/></td><td>Hoathiste<br/><small>Correct/Yes</small></td>	    <td><img src='public.oscean/media/generic/camilare.incorrect.png'/></td><td>Gemaniste<br/><small>Incorrect/No</small></td></tr>
-    > <tr><td><img src='public.oscean/media/generic/camilare.unlocked.png'/></td><td>Ecrine<br/><small>Unlocked</small></td>	    <td><img src='public.oscean/media/generic/camilare.locked.png'/></td><td>Ednasene<br/><small>Locked</small></td>	          <td><img src='public.oscean/media/generic/camilare.help.png'/></td><td>Celpadmale<br/><small>Help</small></td></tr>
-    > <tr><td><img src='public.oscean/media/generic/camilare.sound.png'/></td><td>Aohzaille<br/><small>Sound</small></td>	        <td><img src='public.oscean/media/generic/camilare.guide.png'/></td><td>Mikethale<br/><small>Guide</small></td>	            <td><img src='public.oscean/media/generic/camilare.inside.png'/></td><td>Casarmate<br/><small>Inside</small></td></tr>
-    > <tr><td><img src='public.oscean/media/generic/camilare.outside.png'/></td><td>Carmate<br/><small>Outside</small></td>	      <td><img src='public.oscean/media/generic/camilare.key.png'/></td><td>Emetegisenete<br/><small>Key</small></td>	            <td><img src='public.oscean/media/generic/camilare.friend.png'/></td><td>Zorgiene<br/><small>Friend</small></td></tr>
-    > <tr><td><img src='public.oscean/media/generic/camilare.foe.png'/></td><td>Oquonie<br/><small>Foe</small></td>	              <td><img src='public.oscean/media/generic/camilare.pillar.png'/></td><td>Den<br/><small>Pillar</small></td>	                <td><img src='public.oscean/media/generic/camilare.nemedique.png'/></td><td>Nemedique<br/><small>Nemedique</small></td></tr>
-    > </table>
-
 DESKTOP
   UNDE : Interactive
   BREF : This list shows all of the {{desktop}} projects built of the last few years.
@@ -207,15 +180,6 @@ ES GULF SUNFLOWERS
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/es-gulfssunflowers
 
-ESCHATOLOR
-  UNDE : Beldam records
-  BREF : {{Eschatolor}} is the fourth release on the Beldam Records catalog. 
-  LONG
-    & Written by Катя Тевелизион, this album was inspired from russian number stations.
-    & It was recorded playing through the FM band, from the {{EFLI}} 103.0Mhz pirate radio station in Montreal, giving it its texture and warmth.
-  LINK
-    BAND : https://tevelision.bandcamp.com/album/eschatolor
-    ITUN : iTunes|https://itunes.apple.com/ca/album/eschatolor/id1000241341
 
 ALICEFFEKT
   UNDE : Audio
@@ -263,7 +227,7 @@ HUNDRED RABBITS
 
 PINO
   UNDE : Hundred rabbits
-  BREF : {{PINO}}, is a 33' Yamaha sailboat, built in 1982. Home and office to {{Hundred Rabbits}}.
+  BREF : {{PINO}} is a 33 feet long Yamaha sailboat built in 1982. 
   TYPE : Diary
   LONG
     & Purchased in 2016, on Vancouver Island, Pino has since sailed across the {{Pacific Ocean|South Pacific}}. You can learn more about the boat {{here|http://github.com/hundredrabbits/pino}}.
@@ -283,11 +247,12 @@ INSTRUMENT
 
 GRIMGRAINS
   UNDE : Hundred rabbits
-  BREF : {{Grimgrains}} is a food blog maintained by {{Hundred Rabbits}}, documenting interesting food experiments and lifestyle.
+  BREF : {{Grimgrains}} is the {{Hundred Rabbits}} food blog.
+  LONG
+    & Started in the fall of 2014, the goal of the site is to document interesting food and lifestyle experiments.
   LINK
     MAIN : http://grimgrains.com/
     TWTR : https://twitter.com/grimgrains
-    GITH : https://github.com/XXIIVV/vessel.grimg
 
 BRANDING
   UNDE : Visual
@@ -326,9 +291,9 @@ MALICE
 
 COLLECTED WORKS
   UNDE : Malice
-  BREF : {{Collected Works}}, is a collection of chiptune works written between 2008 and 2015.
+  BREF : {{Collected Works}} between 2008 and 2015, written as {{Malice}}.
   LONG
-    & This release includes the complete Storm Transit record, as well as a few original Malice tracks and the {{Merveilles Portable}} soundtrack.
+    & This release includes the complete {*Storm Transit record*}, hidden {{Malice}} tracks from {{Aliceffekt}} releases and the {{Merveilles Portable}} soundtrack.
     @ discography collected works
   LINK
     BAND : https://gaii.bandcamp.com/
@@ -379,19 +344,30 @@ MILAVREGA
   LONG
     & You must try and find your way through the folders, emails and contacts to decypher the enigma of the phone's owner.
 
-LOOKING GLACE
-  UNDE : Beldam records
-  BREF : Following {{Miniscopie}}, {{Looking Glace}} is {{Reine|http://noirmirroir.com}}'s second release on {{Beldam Records}}.
+BELDAM RECORDS
+  UNDE : Audio
+  BREF : {{Beldam Records}} is a netlabel releasing 4 tracks mini-albums. 
   LONG
-    & Painting a harsher, and more complete picture of her acoustic universe where the liquid sounds and suffocating vocoder are incessantly present.
-    @ discography looking glace
+    * Catalog
+  TYPE : Portal
+  TAGS : Portal
   LINK
-    BAND : https://beldamrecords.bandcamp.com/album/looking-glace
-    ITUN : https://itunes.apple.com/ca/album/looking-glace-ep/id1034127266
-    
+    BAND : https://beldamrecords.bandcamp.com
+    TWTR : https://twitter.com/beldamrecords
+
+TEN AXITECTURE
+  UNDE : Beldam records
+  BREF : {{Ten Axitecture}} is a {{Beldam Records}} release by {{Aliceffekt}}.
+  LONG
+    & The 4 tracks are interpretations of different fictional worlds that have played a role in the {{Aliceffekt}} narrative: Eudoxie from Calvino's Invisible Cities, Borges' Tlon and Schuiten's Citees Obscures.
+    @ discography ten axitecture
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/ten-axitecture
+    ITUN : iTunes|https://itunes.apple.com/ca/album/ten-axitecture-ep/id937396413
+
 MINISCOPIE
   UNDE : Beldam records
-  BREF : {{Miniscopie}} is the second release on the {{Beldam Records}} catalog, and first album of Reine. 
+  BREF : {{Miniscopie}} is a {{Beldam Records}} release, by {{Reine}}.
   LONG
     & Written by {{Reine|http://noirmirroir.com}}, this album combines ambient and deep IDM flavoured sounds. The album is the first music release from Elodie, who also created the {{Vast}} book.
     @ discography miniscopie
@@ -401,7 +377,7 @@ MINISCOPIE
 
 RAMIEL
   UNDE : Beldam records
-  BREF : {{Ramiel}} is the third release on the {{Beldam Records}} catalog. 
+  BREF : {{Ramiel}} is a {{Beldam Records}} release, by {_Villa Moirai_}.
   LONG
     & Written by {{Villa Moirai|https://beldamrecords.bandcamp.com}}, this album is an even mixture and techno and idm. The album name and cover are a tribute to the geometric angel of the Evangelion anime series.
     @ discography ramiel
@@ -409,9 +385,37 @@ RAMIEL
     BAND : https://beldamrecords.bandcamp.com/album/ramiel
     ITUN : https://itunes.apple.com/us/album/ramiel-ep/id958562173
 
+ESCHATOLOR
+  UNDE : Beldam records
+  BREF : {{Eschatolor}} is a {{Beldam Records}} release, by {_Катя Тевелизион_}.
+  LONG
+    & Written by Катя Тевелизион, this album was inspired from russian number stations.
+    & It was recorded playing through the FM band, from the {{EFLI}} 103.0Mhz pirate radio station in Montreal, giving it its texture and warmth.
+  LINK
+    BAND : https://tevelision.bandcamp.com/album/eschatolor
+    ITUN : iTunes|https://itunes.apple.com/ca/album/eschatolor/id1000241341
+
+LOOKING GLACE
+  UNDE : Beldam records
+  BREF :  {{Looking Glace}} is a {{Beldam Records}} release, by {{Reine}}.
+  LONG
+    & Painting a harsher, and more complete picture of her acoustic universe where the liquid sounds and suffocating vocoder are incessantly present.
+    @ discography looking glace
+  LINK
+    BAND : https://beldamrecords.bandcamp.com/album/looking-glace
+    ITUN : https://itunes.apple.com/ca/album/looking-glace-ep/id1034127266
+   
+VERRECIEL SOUNDTRACK
+  UNDE : Beldam records
+  BREF : The {{Verreciel OST|Verreciel Soundtrack}} is a {{Beldam Records}} release, by {{Aliceffekt}}.
+  LONG
+    @ discography verreciel soundtrack
+  LINK
+    BAND : https://aliceffekt.bandcamp.com/album/verreciel
+
 GETAPAN 728K
   UNDE : Beldam records
-  BREF : {{Getapan 728k}} is a release on {{Beldam Records}}.
+  BREF : {{Getapan 728k}} is a {{Beldam Records}} release, by {{死サイコロ}}.
   LONG
     & This new release explores a region of frigid dubs yet uncharted by {{Beldam Records}}. Not much is known about 死サイコロ, their name is {_Shi Seikoro_}, or {*Death Dice*}.
     @ discography GETAPAN 728K
@@ -522,7 +526,7 @@ LEDOLIEL
 
 KEYBOARD 468
   UNDE : Mobile
-  BREF : {{Keyboard 468}} has 18 keys, sorted by the most likely to follow the last input.
+  BREF : {{Keyboard 468}} is a 18 keys keyboard for mobile.
   TYPE : Diary
   LONG
     & So you always only need to type using the two rows at the top, maximizing the space and allowing for big large letters. The hidden letters are accessible through the {_alt_} key, alongside symbols and numbers.
@@ -548,7 +552,7 @@ ENTALONERALIE
   BREF : {{Entaloneralie}} is another experimental watchface.
   TYPE : Diary
   LONG
-    & The {{Entaloneralie}} watchface displays the Nataniev's {{Clock}}. Where the {_needles_} are ratios of each other. They animate horizontaly and vertically to draw each digit of the current time.
+    & The {{Entaloneralie}} watchface displays the Nataniev's {{Clock|Desamber}}. Where the {_needles_} are ratios of each other. They animate horizontaly and vertically to draw each digit of the current time.
   LINK
     ITUN : https://itunes.apple.com/us/app/entaloneralie/id657224738
     GITH : https://github.com/Echorridoors/Entaloneralie
@@ -695,6 +699,22 @@ OQUONIE GUIDE
     # noplacelikehome         <comment>Warps you into the lobby.</comment>
     # susannakaysen           <comment>Erases the current save game.</comment>
   TAGS : Guide
+
+CAMILARE
+  UNDE : Oquonie
+  BREF : {{Camilare}} is the language of {{Oquonie}}.
+  LONG
+    * Dictionary
+    & This is a list of the most commonly used characters in {{Oquonie}}.
+    > <table id='camilare'>
+    > <tr><td><img src='public.oscean/media/generic/camilare.nemedique.png'/></td><td>Nestorine</td>                              <td><img src='public.oscean/media/generic/camilare.nephtaline.png'/></td><td>Nephtaline<br/></td>                           <td><img src='public.oscean/media/generic/camilare.necomedre.png'/></td><td>Necomedre</td></tr>
+    > <tr><td><img src='public.oscean/media/generic/camilare.neomine.png'/></td><td>Neomine</td>                                  <td><img src='public.oscean/media/generic/camilare.door.png'/></td><td>Dialocie<br/><small>Door</small></td>                <td></td><td>Paradiacie<br/><small>Door Special</small></td></tr>
+    > <tr><td><img src='public.oscean/media/generic/camilare.teleport.png'/></td><td>Zolenie<br/><small>Teleport</small></td>     <td><img src='public.oscean/media/generic/camilare.correct.png'/></td><td>Hoathiste<br/><small>Correct/Yes</small></td>     <td><img src='public.oscean/media/generic/camilare.incorrect.png'/></td><td>Gemaniste<br/><small>Incorrect/No</small></td></tr>
+    > <tr><td><img src='public.oscean/media/generic/camilare.unlocked.png'/></td><td>Ecrine<br/><small>Unlocked</small></td>      <td><img src='public.oscean/media/generic/camilare.locked.png'/></td><td>Ednasene<br/><small>Locked</small></td>            <td><img src='public.oscean/media/generic/camilare.help.png'/></td><td>Celpadmale<br/><small>Help</small></td></tr>
+    > <tr><td><img src='public.oscean/media/generic/camilare.sound.png'/></td><td>Aohzaille<br/><small>Sound</small></td>         <td><img src='public.oscean/media/generic/camilare.guide.png'/></td><td>Mikethale<br/><small>Guide</small></td>             <td><img src='public.oscean/media/generic/camilare.inside.png'/></td><td>Casarmate<br/><small>Inside</small></td></tr>
+    > <tr><td><img src='public.oscean/media/generic/camilare.outside.png'/></td><td>Carmate<br/><small>Outside</small></td>       <td><img src='public.oscean/media/generic/camilare.key.png'/></td><td>Emetegisenete<br/><small>Key</small></td>             <td><img src='public.oscean/media/generic/camilare.friend.png'/></td><td>Zorgiene<br/><small>Friend</small></td></tr>
+    > <tr><td><img src='public.oscean/media/generic/camilare.foe.png'/></td><td>Oquonie<br/><small>Foe</small></td>               <td><img src='public.oscean/media/generic/camilare.pillar.png'/></td><td>Den<br/><small>Pillar</small></td>                 <td><img src='public.oscean/media/generic/camilare.nemedique.png'/></td><td>Nemedique<br/><small>Nemedique</small></td></tr>
+    > </table>
 
 BABELIUM
   UNDE : Desktop
@@ -1042,16 +1062,6 @@ TARPOPHOBIA
   BREF : {{Tarpophobia}} is the fear of seeing yourself fractalized onto reflective surfaces, especially onto eyes.
   TYPE : Diary
 
-TEN AXITECTURE
-  UNDE : Beldam records
-  BREF : {{Ten Axitecture}} is the first release on the {{Beldam Records}} catalog. Written by {{Aliceffekt}}, this album combines acoustic instruments and IDM.
-  LONG
-    & The 4 tracks are interpretations of different fictional worlds that have played a role in the {{Aliceffekt}} narrative: Eudoxie from Calvino's Invisible Cities, Borges' Tlon and Schuiten's Citees Obscures.
-    @ discography ten axitecture
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/ten-axitecture
-    ITUN : iTunes|https://itunes.apple.com/ca/album/ten-axitecture-ep/id937396413
-
 LAEISTHIC
   UNDE : Aliceffekt
   TYPE : Portal false
@@ -1267,14 +1277,6 @@ THOUSAND ROOMS
   LINK
     ITCH : https://hundredrabbits.itch.io/thousand-rooms
     GITH : http://github.com/hundredrabbits/Thousand-Rooms/graphs/contributors
-
-VERRECIEL SOUNDTRACK
-  UNDE : Beldam records
-  BREF : The {{Verreciel Soundtrack}} was written by {{Aliceffekt}} for the mobile game {{Verreciel}}, and features a fair dose of breaks and {{Beldam|Beldam records}}'s signature vocoded synths.
-  LONG
-    @ discography verreciel soundtrack
-  LINK
-    BAND : https://aliceffekt.bandcamp.com/album/verreciel
 
 WALLPAPER
   UNDE : Visual
@@ -1635,7 +1637,7 @@ RUSSIAN
 
 LIETAL
   UNDE : Language
-  BREF : {{Lietal}} is a {{synthetic language|http://en.wikipedia.org/wiki/Constructed_language}} created to experiment with linguistics and translation.
+  BREF : {{Lietal}} is a {{synthetic language|http://en.wikipedia.org/wiki/Constructed_language}}.
   TAGS : Portal guide
   LONG
     $ lietal print documentation
@@ -1691,10 +1693,10 @@ DESAMBER
   UNDE : Nataniev
   BREF : {{Desamber}} is the time-format of the {{Nataniev}} ecosystems.
   LONG
-    & The {_Equal Month calendar_} has {*13 months*} of {*28 days*} each and the 365th day of the year is the {_Year Day_}, preceeded by the {_Leap Day_} on leap years. Today's date is {{!desamber}}.
+    & The {_Equal Month calendar_} has {*13 months*} of {*28 days*} each and the 365th day of the year is the {_Year Day_}, preceeded by the {_Leap Day_} on leap years. 
+    = Today is {{!desamber}}.
     & The current {{Nataniev}} time is {{!clock}}. The clock has 6 digits, where their overall value is a ratio over the completion of the day. For example, Noon is 500, 6AM is 250 and 6PM is 750. 
     & The clock is display in the 000:000 format, where the shortest pulse is equal to 8.64 milliseconds, the second shortest to 86.4 and so on.
-    & The fully formed Nataniev datestamp is {{!desamber}} {{!clock}}.
   LINK
     GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
 
@@ -1814,9 +1816,6 @@ KEYBOARD
   BREF : This {{mechanical keyboard|Keyboard}} is the {{Vortex Poker II PBT Mechanical Keyboard|https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=458}} with {{Blank Mint PBT caps|https://www.massdrop.com/buy/npkc-blank-pbt-keycaps}}. 
   LONG
     & The color choice is inspired from the {{Verreciel}} interface colors. I have red Cherry MX switches installed, with {{sound dampening o-rings|http://www.amazon.ca/gp/product/B00VHXHP6Q?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00}}. It's also connected, with a braided {{90 degrees angle USB wire|http://www.amazon.ca/gp/product/B004YD6LW0?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00}}.
-  LINK
-    DROP : https://www.massdrop.com/mechanical-keyboards
-    REDD : https://www.reddit.com/r/MechanicalKeyboards/
 
 MIRRORS
   UNDE : Obliques
@@ -1865,12 +1864,13 @@ DEVINE LU LINVEGA
   TAGS : Portal
   BREF : {{Devine lu linvega}} is a nomad, developer and designer.
   LONG
-    & Operating under the {*Neauoire*} moniker, Devine is a polymath working on a series of {{experimental tools|Gamme}} and {{applications|Interactive}} involving language. Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}}, Devine hopes to inspire visitors to learn and to travel. 
+    & Operating under the {*Neauoire*} moniker, Devine is a polymath working on a series of {{experimental tools|Gamme}} and {{applications|Interactive}} involving language. Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}}, Devine hopes to inspire visitors to learn and to {{travel}}. 
     ? To {{flee|Obliques}} is life,<br /> To linger is {{Death}}.
     # <comment># Satellite Phone</comment>
     # Currently located in <b>{{$ hundredrabbits get_location}}</b>({{$ hundredrabbits get_position}}).
   LINK
-    TWIT : http://twitter.com/neauoire/media
+    TWIT : https://twitter.com/neauoire/media
+    GITH : https://github.com/neauoire
 
 ~ Equipment
 
@@ -1910,6 +1910,9 @@ DEBUG
 2008
   BREF : The {{Plan|Aesthetics}}.
   TYPE : calendar
+  LONG
+    & It's important to note that by that time I already stumbled on the idea of daily logs, and while I was mostly logging inactivity, I had been doing the routine for nearly 2 years already. 
+    & Programing and design logs were hardly present in the logs. Music was to become a reason to design, and an introduction to world-building.
 
 2009
   BREF : {{Aliceffekt}} rising.
@@ -1940,7 +1943,7 @@ DEBUG
   TYPE : calendar
 
 2016
-  BREF : Moving on a {{sailboat}}.
+  BREF : Moving on a {{sailboat|Pino}}.
   TYPE : calendar
 
 2017

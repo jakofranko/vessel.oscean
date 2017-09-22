@@ -161,7 +161,7 @@ def corpse.view
   add_recurring_event("0710",2008,"XXIIVV")
   add_recurring_event("0214",2016,"Pino")
 
-  html = ""
+  html = "#{@term.long.runes.to_s}"
   
   html += "<h2>#{@query}</h2>"
   html += build_calendar

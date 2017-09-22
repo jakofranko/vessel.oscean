@@ -192,6 +192,12 @@ class Term
 
   end
 
+  def desc
+
+    return bref.to_s.include?(" is a ") ? bref : nil
+
+  end
+
   def banner
 
     links_html = ""

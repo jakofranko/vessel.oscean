@@ -38,7 +38,7 @@ def corpse.view
     <note><b>Effectiveness</b>, is doing the right thing. <br> <b>Efficiency</b>, is doing it the right way.</note>"
     return html.markup
   elsif @term.logs.length > 2
-    html += Graph_Timeline.new(filtered_logs).to_s
+    html += Graph_Timeline.new(@term.logs).to_s
     html += Graph_Daily.new(@term).to_s
   else
     return "<p>The {{#{@query}}} entry does not contain enough {{Horaire}} logs.</p>".markup
