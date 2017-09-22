@@ -3,9 +3,9 @@
 
 class Graph_Forecast
 
-  def initialize(term,from = 0,to = term.logs.length)
+  def initialize(logs,from = 0,to = logs.length)
     
-    @logs = term.logs[from,to]
+    @logs = logs[from,to]
     @count_topics = 0
 
     @days_ahead = 28

@@ -4,12 +4,15 @@
 ~             15   20                   41                   62                    84
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
+20171231 - 00
+20171025 + 00      Hundred rabbits      Photography          Move to New Zealand
+20170922 - 36      Horaire              Tools
 20170921 - 28      Oscean               Design
 20170920 - 38      Left                 Tools
 20170919 - 28      Left                 Design
 20170918 ! 19  275 Marabu               Composition          Almost Stability      Strides were made on the development of the sound tracker {{Marabu}}, and a first build was released on {{Itch.io|http://hundredrabbits.itch.io/Marabu}}.
 20170917 - 39      Marabu               Tools
-20170916 - 38      Marabu               Tools
+20170916 - 28      Hundred rabbits      Video
 20170915 - 34      Marabu               Documentation
 20170914 - 28      Marabu               Design
 20170913 - 28      Left                 Design
@@ -19,18 +22,18 @@
 20170909 - 15      Marabu               Design
 20170908 - 16      Marabu               Design
 20170907 - 18      Marabu               Design
-20170906 - 19      Marabu               Release
-20170905 - 29      Verreciel            Release
-20170904 - 28      Left                 Release
+20170906 + 19      Marabu               Release              Released Marabu
+20170905 + 29      Verreciel            Release              Released Verreciel
+20170904 + 28      Left                 Release              Released Left
 20170903 - 28  240 Left                 Design               Release 1             Create a small writing application called {{Left}}.
 20170902 - 35      Left                 Tools
-20170901 @ 29  238 Getapan 728k         Design               Mt. Eyn               Created a series of mountain renders for the release of {{Getapan 728k}}.
+20170901 + 19      Getapan 728k         Release              Released Getapan 728k 
 20170831 ! 28  236 Paradise             Design               Injection             Improved the {{Paradise}} layout, as well as cleaned many of the in-game help and documentation.
 20170830 - 38      Nataniev             Development                                  
 20170829 - 37      Rotonde              Migration
 20170828 - 27      Horaire              Design                                     Each project page now has an Horaire widget with Fh and Dhf.
 20170827 - 28      Ronin                Documentation                              
-20170826 - 29      Getapan 728k         Illustration
+20170826 @ 29  238 Getapan 728k         Illustration         Album cover           Created a series of mountain renders for the release of {{Getapan 728k}}.
 20170825 - 18      Getapan 728k         Composition
 20170824 ! 29  215 Marabu               Design               Removed everything    My favourite design is the one that you cannot tell is there.
 20170823 - 31      Marabu               Maintenance
@@ -57,8 +60,8 @@
 20170802 - 26  205 Niue                 Photography          Limu Pools            We spent the last few hours of the day swimming in this pool of fresh water descending from the caves.
 20170801 - 25  204 Niue                 Photography          Descent Way
 20170731 ! 26  198 Niue                 Photography          
-20170730 - 26  197 Niue                 Photography          
-20170729 - 29      Clock                Design
+20170730 + 26  197 Niue                 Photography          Move to Niue
+20170729 - 29      Desamber             Design
 20170728 - 29      Left                 Design
 20170727 - 33      Left                 Tools
 20170726 - 34      Lietal               Linguistics
@@ -70,7 +73,7 @@
 20170720 - 37      Nataniev             Tools
 20170719 - 36      Nataniev             Tools
 20170718 - 26      Nataniev             Design
-20170718 @ 26  196 Clock                Design               Entaloneralie Native  Implemented {{Entaloneralie}} into {{Nataniev}} as the native {{Clock}} application.
+20170718 @ 26  196 Desamber             Design               Entaloneralie Native  Implemented {{Entaloneralie}} into {{Nataniev}} as the native {{Clock}} application.
 20170717 - 28      Hundred rabbits      Video  
 20170716 - 18      Hundred rabbits      Composition
 20170715 @ 38  178 Japanese             Documentation        Sidonia               Pages from {_Knights Of Sidonia_}, to be held at the top of the {{Japanese}} notes as it was one of the first Japanese books that I attempted to translate.
@@ -145,7 +148,7 @@
 20170507 - 29      Hundred rabbits      Video
 20170506 - 14      Hundred rabbits      Composition
 20170505 - 27   19 Language             Photography          Immortal Birds        This beautiful bird landed on {{Pino}}'s bow today. A perfect picture for the {{Language}} portal. A wink to {{Language of the birds}}.
-20170504 - 39      Thousand rooms       Linguistics
+20170504 + 39      Thousand rooms       Release              Released 1000 Rooms
 20170503 - 39      Thousand rooms       Linguistics
 20170502 - 29      Thousand rooms       Branding
 20170501 @ 39    9 Thousand rooms       Writing              Cat has a visitor.    Today we completed the first draft of our upcoming book {{Thousand Rooms}}.
@@ -174,8 +177,8 @@
 20170408 - 25      Supervisitor         Design
 20170407 - 31      Nataniev             Maintenance
 20170406 - 29      Hundred rabbits      Video
-20170405 @ 18  350 Superworker          Release
-20170404 - 15  498 Superworker          Composition          Pocket Operator       The album was recorded and mastered while crossing the Pacific Ocean onboard {{Pino}}.
+20170405 + 18  498 Superworker          Release              Released Superworker
+20170404 @ 15  350 Superworker          Composition          Pocket Operator       The album was recorded and mastered while crossing the Pacific Ocean onboard {{Pino}}.
 20170403 - 18      Superworker          Composition
 20170402 - 31      Ronin                Tools
 20170401 - 14      Superworker          Composition
@@ -206,11 +209,11 @@
 20170307 - 34      Neauismetica         Writing
 20170306 @ 28   49 South pacific        Photography          Nuku-Hiva
 20170305 - 12      Superworker          Composition
-20170304 -         Pino                 Event                Pacific Crossing      
+20170304 + 29      South pacific        Event                Move to the Marquesas
 20170303 - 15      Hundred rabbits      Composition
 20170302 - 29      Hundred rabbits      Video
 20170301 - 15      Hundred rabbits      Composition
-20170228 - 38      Oquonie              Release
+20170228 + 38      Oquonie              Release              Released Oquonie
 20170227 - 39      Oquonie              Maintenance
 20170226 - 32      Oquonie              Maintenance
 20170225 - 35      Oquonie              Maintenance
@@ -237,7 +240,7 @@
 20170205 - 25  365 Black                Photography     
 20170204 - 28      Nataniev             Design
 20170203 - 33      Nataniev             Maintenance
-20170202 - 25  387 Black                Photography          Ensenada, Mexico
+20170202 + 25  387 Black                Photography          Move to Mexico
 20170201 - 27      Nataniev             Design
 20170131 - 38      Horaire              Development
 20170130 - 38      Nataniev             Documentation
@@ -264,7 +267,7 @@
 20170109 - 38      Lietal               Linguistics
 20170108 - 27      Lietal               Typography
 20170107 - 32      Donsol               Development
-20170106 - 38      Donsol               Release
+20170106 + 38      Donsol               Release              Released Donsol
 20170105 - 36      Donsol               Development
 20170104 - 26      Donsol               Design
 20170103 - 23  230 Directory            Photography
@@ -355,9 +358,9 @@
 20161010 - 34      Pino                 Maintenance
 20161009 - 38      Lietal               Linguistics
 20161008 - 37      Nataniev             Development
-20161007 - 00      America              Travel               Los Angeles
+20161007 + 00      America              Travel               Move to Los Angeles
 20161006 - 29      Hundred rabbits      Video
-20161005 - 17      Portalion            Release
+20161005 + 17      Portalion            Release              Released Portalion
 20161004 - 35      Pino                 Maintenance
 20161003 - 35      Pino                 Maintenance
 20161002 - 35      Pino                 Maintenance
@@ -413,7 +416,7 @@
 20160813 - 37      Gamme                Writing
 20160812 - 29   91 Film                 Photography
 20160811 - 00  265 Film                 Photography
-20160810 - 00      America              Travel               San Francisco
+20160810 + 00      America              Travel               Move to San Francisco
 20160809 - 35      Nataniev             Tools
 20160808 ! 29      Polygonoscopy        Modeling             Scan
 20160807 - 35      Horaire              Tools
@@ -505,7 +508,7 @@
 20160513 - 37      Verreciel            Development
 20160512 - 37      Verreciel            Development
 20160511 - 37      Verreciel            Analytics
-20160510 - 19  171 Verreciel soundtrack Release              Verreciel Soundtrack
+20160510 + 19  171 Verreciel soundtrack Release              Release Verreciel OST
 20160509 - 16      Portalion            Composition
 20160508 - 14      Verreciel soundtrack Composition
 20160507 - 19      Verreciel soundtrack Composition
@@ -566,7 +569,7 @@
 20160313
 20160312 - 34      Verreciel            Development
 20160311 - 29      Verreciel            Development
-20160310 ! 00      America              Travel               San Francisco
+20160310 - 00      America              Travel               San Francisco
 20160309 - 37      Verreciel            Design
 20160308 - 19      Verreciel            Composition
 20160307 - 37      Verreciel            Design
@@ -591,7 +594,7 @@
 20160217 - 26      Hundred rabbits      Video
 20160216 - 15      Hundred rabbits      Composition
 20160215 - 36  493 Hundred rabbits      Photography          Our Workstations      This is a picture of my workstation on {{Pino}}, next to the breaker panel and below the rardar.
-20160214 ! 00      Pino                 Event                Aquire sailboat       Bought a 33 foot Yamaha sailboat
+20160214 + 39      Pino                 Event                Aquired sailboat      Bought a 33 foot Yamaha sailboat
 20160213 - 15      Verreciel            Composition
 20160212 - 15      Verreciel            Composition
 20160211 - 25      Verreciel            Design
@@ -623,7 +626,7 @@
 20160116 - 24      Verreciel            Design
 20160115 - 16      Hundred rabbits      Composition
 20160114 - 16      Portalion            Composition
-20160113 ! 00
+20160113 + 23      Hundred rabbits      Branding             Move to Vancouver
 20160112 - 28  490 Beauty               Illustration         02                    A special tribute to {{Jesse Kanda|http://www.jessekanda.com}}'s works.
 20160111 @ 28  487 Beauty               Illustration         01
 20160110 - 25  488 Beauty               Illustration
@@ -684,9 +687,9 @@
 20151116 - 19   44 Grot                 Mixing
 20151115 - 27      Oscean               Maintenance          1.2
 20151114 - 29      Hundred rabbits      Live
-20151113 ! 29  475 Hundred rabbits      Event                Founded 100R
+20151113 + 29      Hundred rabbits      Event                Founded 100R
 20151112 - 37      Oquonie              Maintenance
-20151111 - 29      Hundred rabbits      Branding
+20151111 - 29  475 Hundred rabbits      Branding
 20151110 - 37      Oquonie              Maintenance
 20151109 - 37      Oquonie              Testing
 20151108 - 37      Oquonie              Testing
@@ -741,7 +744,7 @@
 20150920 - 36      Verreciel            Development
 20150919 - 36      Verreciel            Development
 20150918 - 32      Verreciel            Maintenance
-20150917 - 19      The opal inquisitors Release
+20150917 + 19      The opal inquisitors Release              Opal Inqus Release
 20150916 - 19      The opal inquisitors Performance          AMP - Passwort, Mont
 20150915 ! 29  469 The opal inquisitors Illustration         Ludivine's Banquet
 20150914 - 19      The opal inquisitors Rehearsal
@@ -753,11 +756,11 @@
 20150908 - 25  463 Austria              Photography          Vienna
 20150907 - 25  464 Austria              Photography          Ars Electronica
 20150906 - 25  462 Austria              Photography          Top I
-20150905 - 39  312 Talk                 Performance          They Solved Art       The full talk can be watched on {{Vimeo|https://vimeo.com/138850582}}, the slides can be downloaded from {{Github|https://github.com/neauoire/Talk-ArsElectronica}}.
+20150905 + 39  312 Talk                 Performance          Ars Electronica Talk  The full talk can be watched on {{Vimeo|https://vimeo.com/138850582}}, the slides can be downloaded from {{Github|https://github.com/neauoire/Talk-ArsElectronica}}.
 20150904 - 25  461 Austria              Photography          Linz's Food
 20150903 - 25  460 Austria              Photography          Linz
-20150902 - 25  459 Austria              Photography          Wolfinger Hotel
-20150901 ! 25  458 Austria              Photography          Vienna
+20150902 ! 25  458 Austria              Photography          Wolfinger Hotel
+20150901 + 25  459 Austria              Photography          Travel to Vienna
 20150831 - 19      Looking glace        Composition
 20150830 ! 19  457 Looking glace        Release              Release
 20150829 - 19      Looking glace        Composition
@@ -867,7 +870,7 @@
 20150517 - 25  480 Netherlands          Photography          Amsterdam
 20150516 ! 25  429 Netherlands          Photography          Utrecht
 20150515 ! 25  428 Netherlands          Photography          Amsterdam
-20150514 ! 25  427 Netherlands          Photography          Utrecht
+20150514 + 25  427 Netherlands          Photography          Travel to Utrecht
 20150513 - 27  425 Astratas             Illustration         Lines B
 20150512 - 27  415 Astratas             Illustration         Lines A
 20150511 - 27  409 Ar moire             Illustration         Pattern IIII
@@ -888,11 +891,11 @@
 20150426 - 25  496 Black                Photography   
 20150425 - 25  112 Flactals             Illustration         Torazine
 20150424 - 18      Extended sleep       Live
-20150423 - 39  386 Talk                 Performance          Frameworks            The full talk can be watched on {{Vimeo|https://vimeo.com/129368249}}, the slides can be downloaded from {{Github|https://github.com/neauoire/Talk-Amaze}}.
+20150423 + 39  386 Talk                 Performance          Amaze Talk            The full talk can be watched on {{Vimeo|https://vimeo.com/129368249}}, the slides can be downloaded from {{Github|https://github.com/neauoire/Talk-Amaze}}.
 20150422 - 25  111 Flactals             Illustration         Nestorine
 20150421 - 25  107 Flactals             Illustration         Coraline
 20150420 - 28      Time alloy           Illustration
-20150419 ! 00      Germany              Travel               Berlin
+20150419 + 00      Germany              Travel               Travel to Berlin
 20150418 - 35      Horaire              Development
 20150417 - 35      Horaire              AI
 20150416 - 17      Extended sleep       Composition
@@ -942,7 +945,7 @@
 20150303 - 35      Donsol               Design
 20150302 - 25      Donsol               Illustration
 20150301 - 25      Donsol               Prototype
-20150228 ! 00      America              Travel               San Francisco
+20150228 - 00      America              Travel               Travel San Francisco
 20150227 - 25  367 America              Photography          
 20150226 ! 25  364 America              Photography          
 20150225 - 25  363 America              Photography          
@@ -1090,7 +1093,7 @@
 20141006 - 26      Verreciel            Design
 20141005 - 26      Verreciel            Design
 20141004 - 26      Verreciel            Design
-20141003 - 17      Ten axitecture       Composition
+20141003 + 17      Ten axitecture       Composition          Ten Axit. Release
 20141002 - 17      Ten axitecture       Composition
 20141001 - 17      Ten axitecture       Composition
 20140930 - 17      Ten axitecture       Composition
@@ -1110,9 +1113,9 @@
 20140916 ! 25  250 Serventines          Modeling             Jenen
 20140915 - 35      Oscean               Maintenance          Inner Haven
 20140914 - 25  203 Gamme                Photography          
-20140913
+20140913 + 25      Grimgrains           Branding             Created Grimgrains
 20140912
-20140911 ! 00      Japan                Travel               Tokyo
+20140911 + 00      Japan                Travel               Travel to Tokyo
 20140910 - 35      Horaire              Maintenance          Triste Le Roy
 20140909 - 17  264 Ten axitecture       Composition          Ten Axitecture
 20140908 - 29  249 Serventines          Modeling             Untenest
@@ -1224,7 +1227,7 @@
 20140525 - 35  127 Paradise             Development          Update
 20140524 - 35      Paradise             Development
 20140523 @ 19   11 Purgateus Soundtrack Composition          Autumn Leaves
-20140522 N 35  116 Purgateus            Release              Autumn Leaves
+20140522 + 35  116 Purgateus            Release              Purgateus Release
 20140521 - 19   36 Purgateus Soundtrack Composition          
 20140520 - 29   35 Purgateus            Design               
 20140519 - 29   34 Purgateus            Design               
@@ -1288,11 +1291,11 @@
 20140322 - 25  390 America              Photography          
 20140321
 20140320
-20140319 ! 19  388 Known magye          Release              Release
+20140319 + 19  388 Known magye          Release              Release
 20140318 - 19  382 Known magye          Performance          Pow Pow Pow
 20140317
 20140316
-20140315 ! 00      America              Travel               San Fancisco
+20140315 + 00      America              Travel               San Fancisco
 20140314 - 36      Oscean               Update
 20140313
 20140312 - 29      Artwork              Illustration
@@ -1366,7 +1369,7 @@
 20140103
 20140102 ! 25  372 Thailand             Photography          Golden Rust
 20140101 - 25  371 Thailand             Photography          The builders have go
-20131231 ! 25      Thailand             Photography          Thailand
+20131231 + 25      Thailand             Photography          Travel to Thailand
 20131230 - 29      Oquonie              Design
 20131229 - 29      Oquonie              Design
 20131228 - 29      Oscean               Design
@@ -1806,7 +1809,7 @@
 20121020 - 25   21 Hundred rabbits      Photography          Tokyo Apartment       This was our first apartment, before moving to Odaiba, while we lived in {{Tokyo|Japan}}. It was not much smaller than living aboard {{Pino}}.
 20121019
 20121018
-20121017 ! 00      Japan                Travel               Tokyo
+20121017 + 00      Japan                Travel               Tokyo
 20121016 - 38      Horaire              Development
 20121015 - 17      To The Aeons Hell    Composition
 20121014 - 17      To The Aeons Hell    Composition
@@ -1917,7 +1920,7 @@
 20120701 - 35      Pico battle          Maintenance          Pico Battle Update
 20120630                                
 20120629
-20120628 - 29  160 Pico battle          Design               Pico Battle
+20120628 + 29  160 Pico battle          Release              Pico Battle Release
 20120627
 20120626 - 18      To The Aeons Hell    Composition
 20120625 - 17      Vetetrandes lettres  Illustration
@@ -2067,7 +2070,7 @@
 20120202 - 35      Oscean               Design
 20120201
 20120131
-20120130 - 25   25 Volkenessen          Release              Volkenessen
+20120130 + 25   25 Volkenessen          Release              Volkenessen
 20120129 - 25      Collegiennes         Design
 20120128 - 25      Collegiennes         Design
 20120127 - 25      Collegiennes         Design
@@ -2110,7 +2113,7 @@
 20111221 - 25      Merveilles portable  Testing
 20111220 - 35      Merveilles portable  Testing
 20111219 - 35      Lietal               Linguistics
-20111218 ! 15    3 From Saharaphorest   Release              From Saharaphorest
+20111218 + 15    3 From Saharaphorest   Release              From Saharaphorest
 20111217 - 19      Es gulf sunflowers   Performance          8Bit Noel - Montreal
 20111216
 20111215 - 35      Lietal               Typography
@@ -2194,7 +2197,7 @@
 20110928
 20110927
 20110926 - 35      Oscean               Development
-20110925 ! 15   89 The Sixth Season     Release              The Sixth Season
+20110925 + 15   89 The Sixth Season     Release              The Sixth Season
 20110924 - 19      The Sixth Season     Performance          Neu Installation - T
 20110923 - 25      Lietal               Documentation
 20110922 - 25      Artwork              Illustration
@@ -2244,7 +2247,7 @@
 20110809 - 25      Artwork              Illustration
 20110808 - 25      Artwork              Illustration
 20110807
-20110806 - 15   84 Blam                 Release              Blam, Le Passage Sac
+20110806 + 15   84 Blam                 Release              Blam, Le Passage Sac
 20110805 - 19      Blam                 Composition          Teknival
 20110804 - 15      Blam                 Composition
 20110803
@@ -2309,7 +2312,7 @@
 20110605
 20110604
 20110603
-20110602 - 19   78 Vermillionth         Release              Vermillionth
+20110602 + 19   78 Vermillionth         Release              Vermillionth
 20110601 - 19      Vermillionth         Composition
 20110531 - 35      Lietal               Documentation
 20110530 - 35      Lietal               Documentation
@@ -2319,7 +2322,7 @@
 20110526 - 35      Lietal               Documentation
 20110525 - 25      Lietal               Documentation
 20110524 - 25      Lietal               Documentation
-20110523 - 19  158 The Sixth Season     Performance          Kinetik Festival 201
+20110523 + 19  158 The Sixth Season     Performance          Kinetik Festival 201
 20110522 - 15      To The Aeons Hell    Composition
 20110521 - 15      To The Aeons Hell    Composition
 20110520 - 29      Collegiennes         Design
@@ -2458,7 +2461,7 @@
 20110107
 20110106 - 15      To The Aeons Hell    Composition
 20110105 - 15      To The Aeons Hell    Rehearsal
-20110104 - 35      Oscean               Release
+20110104 - 35      Oscean               Development
 20110103 - 39      Oscean               Development
 20110102
 20110101
@@ -2529,7 +2532,7 @@
 20101028 - 25      Siseon               Design
 20101027
 20101026 - 35      Oscean               Tools
-20101025 - 35      Pico                 Design
+20101025 + 35      Pico                 Release              Pico Release
 20101024 - 25      Pico                 Design
 20101023
 20101022 - 29      Merure               Design
@@ -2547,7 +2550,7 @@
 20101010
 20101009 - 35      Pico                 Design
 20101008 - 35      Pico                 Design
-20101007 - 29   40 Merure               Release              Merure 3
+20101007 + 29   40 Merure               Release              Merure 3
 20101006
 20101005 - 25      Merure               Design
 20101004
@@ -2583,7 +2586,7 @@
 20100904
 20100903 - 25      Merure               Design
 20100902 - 25      Merure               Design
-20100901 - 29      Collegiennes         Performance          Bivouac Urbain
+20100901 + 29      Collegiennes         Performance          Bivouac Urbain Jam
 20100831
 20100830 - 35      Artwork              Illustration
 20100829 - 15      Mixtape              Mixing               Wave
@@ -2671,7 +2674,7 @@
 20100608 - 19      Idyllic miners       Performance          Badass - Montreal, P
 20100607
 20100606
-20100605 - 29   42 Merure               Release              Erri
+20100605 + 29   42 Merure               Release              Erri
 20100604
 20100603
 20100602
@@ -2687,7 +2690,7 @@
 20100523
 20100522
 20100521
-20100520 - 15  310 Idyllic miners       Release              Genesis III.20 'Ov I
+20100520 + 15  310 Idyllic miners       Release              Genesis III.20 'Ov I
 20100519
 20100518
 20100517
@@ -2744,7 +2747,7 @@
 20100327
 20100326
 20100325
-20100324 - 15  313 Ann yozora saint     Release              Ann Yozora Saint
+20100324 + 15  313 Ann yozora saint     Release              Ann Yozora Saint
 20100323
 20100322
 20100321
@@ -2768,7 +2771,7 @@
 20100303 ! 25  412 Japan                Photography          
 20100302 - 25      Japan                Photography          
 20100301 - 25  410 Rekka                Photography          Rekka in Osaka        Waiting by the hostel.
-20100228 - 15  125 Shikanokoa vs 1h1d   Release              1H1D vs shikanokoa
+20100228 + 15  125 Shikanokoa vs 1h1d   Release              1H1D vs shikanokoa
 20100227 - 19  101 Shikanokoa vs 1h1d   Performance          1H1D vs shikanokoa -
 20100226 - 25  418 Japan                Photography          Luck
 20100225 - 25  406 Japan                Photography          
@@ -2857,7 +2860,7 @@
 20091204
 20091203
 20091202
-20091201 - 15   72 Ann yozora saint     Release              Lu's Floral Funerali
+20091201 + 15   72 Ann yozora saint     Release              Lu's Floral Funerali
 20091130
 20091129
 20091128
@@ -2873,8 +2876,8 @@
 20091118
 20091117
 20091116
-20091115 @ 29   43 Merure               Release              Merure 2
-20091114
+20091115 + 29      Merure               Release              Release Merure 2
+20091114 @ 29   43 Merure               Release              Merure 2
 20091113 - 29  303 Cyanosis fever       Design               Cyanosis Fever
 20091112
 20091111
@@ -2920,7 +2923,7 @@
 20091002
 20091001
 20090930
-20090929 - 19      Ann yozora saint     Performance          Dimanche du Seigneur
+20090929 + 19      Ann yozora saint     Performance          Dimanche du Seigneur
 20090928
 20090927
 20090926
@@ -2933,7 +2936,7 @@
 20090919
 20090918
 20090917
-20090916 - 29  304 Drypoint             Design               Drypoint
+20090916 + 29  304 Drypoint             Design               Drypoint Release
 20090915 - 29      Drypoint             Design
 20090914 - 39      Drypoint             Design
 20090913 - 36      Drypoint             Design
@@ -2999,8 +3002,8 @@
 20090715 - 39   16 Typography           Typography           Septambres Recit
 20090714
 20090713
-20090712 - 15   13 Malice               Release              バイナリダンプ一０。
-20090711 - 19      Pedestrian paradise  Performance          Toy Company - Montre
+20090712 + 15   13 Malice               Release              バイナリダンプ一０。
+20090711 + 19      Pedestrian paradise  Performance          Toy Company, Montreal
 20090710
 20090709
 20090708
@@ -3111,7 +3114,7 @@
 20090325
 20090324
 20090323
-20090322 - 19      Otoroutes Miniatures Performance          Birthdeffekt - Montr
+20090322 + 19      Otoroutes Miniatures Performance          Birthdeffekt, Mtl
 20090321
 20090320
 20090319
@@ -3148,7 +3151,7 @@
 20090216
 20090215
 20090214
-20090213 - 19  317 Otoroutes Miniatures Performance          Toy Company - Montre
+20090213 + 19  317 Otoroutes Miniatures Performance          Toy Company, Montreal
 20090212
 20090211
 20090210
@@ -3183,7 +3186,7 @@
 20090112
 20090111
 20090110
-20090109 - 29   52 Merure               Release              Merure
+20090109 + 29   52 Merure               Release              Merure
 20090108
 20090107 - 15  321 Otoroutes Miniatures Release              Otoroutes Miniatures
 20090106
@@ -3237,7 +3240,7 @@
 20081119
 20081118
 20081117
-20081116 - 19      Downtemperature      Performance          16d JAM - Tokyo
+20081116 + 19      Downtemperature      Performance          16d JAM, Tokyo
 20081115
 20081114
 20081113
@@ -3260,7 +3263,7 @@
 20081027 - 15      Vert kirlian theatre Composition
 20081026
 20081025
-20081024 ! 00      Japan                Travel               Tokyo
+20081024 + 00      Japan                Travel               Travel to Tokyo
 20081023
 20081022
 20081021
@@ -3302,7 +3305,7 @@
 20080915
 20080914
 20080913
-20080912 - 19  154 Downtemperature      Performance          Toy Company - Montre
+20080912 + 19  154 Downtemperature      Performance          Toy Company, Montreal
 20080911
 20080910
 20080909
@@ -3366,7 +3369,7 @@
 20080713
 20080712
 20080711
-20080710 ! 25      Oscean               Branding             Founded XXIIVV
+20080710 + 25      Oscean               Branding             Founded XXIIVV
 20080709
 20080708
 20080707
@@ -3378,7 +3381,7 @@
 20080701
 20080630
 20080629 - 19      Collected works      Composition
-20080628 - 19  153 Malice               Performance          Pulsewave - New York
+20080628 + 19  153 Malice               Performance          Pulsewave, New York
 20080627 - 19      Collected works      Composition
 20080626 - 16      Collected works      Composition
 20080625 - 14      Collected works      Composition
@@ -3420,7 +3423,7 @@
 20080520
 20080519
 20080518
-20080517 - 19  152 Downtemperature      Performance          Toy Company - Montre
+20080517 + 19  152 Downtemperature      Performance          Toy Company, Montreal  
 20080516
 20080515
 20080514

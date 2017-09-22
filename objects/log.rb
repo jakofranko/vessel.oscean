@@ -68,6 +68,12 @@ class Log
 
   end
 
+  def is_event
+    
+    return rune == "+" ? true : nil
+
+  end
+
   def isDiary
 
     return photo > 0 ? true : nil

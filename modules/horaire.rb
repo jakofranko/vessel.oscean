@@ -7,10 +7,21 @@ def corpse.view
 
   html = ""
 
+  filtered_logs = []
+
+  home_term = @lexicon.to_h(:term)["HOME"]
+
+  count = 0
+  home_term.logs.each do |log|
+    if !log || !log.time || log.time.elapsed < 0 then next end
+    filtered_logs.push(log)
+    count += 1
+  end
+
   if @term.name.like("horaire")
-    home_term = @lexicon.to_h("term")["HOME"]
+    
     html += "
-    #{Graph_Timeline.new(home_term,0,365)}
+    #{Graph_Timeline.new(filtered_logs,0,365)}
     #{@term.long.runes}
     <h2 id='hdf'>Hdf</h2>
     #{Graph_Daily.new(home_term)}
@@ -21,13 +32,13 @@ def corpse.view
     <mini>Sector balance for the previous {{13 months|Desamber}}.</mini>
     <p>The {*Hour Topic*} {_HTo_} & the {*Hour Task*} {_HTa_} - where {_HTo_} is the sum of {_Fh_} over the number of different topics, or #{home_term.logs[0,365].hours}{_Fh_} over #{home_term.logs[0,365].topics.length} topics, and {_HTa_} the sum of logged {_Fh_} over the number of different tasks, or #{home_term.logs[0,365].hours}{_Fh_} over #{home_term.logs[0,365].tasks.length} tasks.</p>
     <h2 id='forecast'>Forecast</h2>
-    #{Graph_Forecast.new(home_term)}
+    #{Graph_Forecast.new(filtered_logs)}
     <mini>Fh & Sector forecast for the next 7 days.</mini>
     <p>And finally, based on previous {_Fh_} trends and ratios, {*predictions*} on upcoming optimal creative sectors and time investments can be forcasted and used to make better decisions during week-planning.</p>
     <note><b>Effectiveness</b>, is doing the right thing. <br> <b>Efficiency</b>, is doing it the right way.</note>"
     return html.markup
   elsif @term.logs.length > 2
-    html += Graph_Timeline.new(@term).to_s
+    html += Graph_Timeline.new(filtered_logs).to_s
     html += Graph_Daily.new(@term).to_s
   else
     return "<p>The {{#{@query}}} entry does not contain enough {{Horaire}} logs.</p>".markup

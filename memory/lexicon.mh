@@ -136,11 +136,12 @@ PURGATEUS
 
 DONSOL
   UNDE : Desktop
-  BREF : BREF : {{Donsol}}, created in collaboration with {{John Eternal|https://twitter.com/johneternal}}, is a card game about exploring a dungeon made of a standard 54 poker card set.
+  BREF : {{Donsol}} is a dongeon crawler card game.
   LONG
     & The Donsol rules to play with a standard deck of cards can be found {{here|Donsol guide}}, and a gameplay video tutorial {{here|https://youtu.be/GNoZrr56GqA}}.
     * Release
-    & The game was released for {{Mobile}} back in 2016, and re-released for {{Desktop}} in 2017 as {{Hundred Rabbits}}. While the game was designed on a train, without internet connection, it seems like Donsol's gameplay accidentally ended up being a twist to Zach Gage and Kurt Bieg's {{Scoundrel|http://stfj.net/index2.php?project=art/2011/Scoundrel.pdf}}, designed in 2011.
+    & The game was created in collaboration with {{John Eternal|https://twitter.com/johneternal}}, released for {{Mobile}} back in 2016, and re-released for {{Desktop}} in 2017 as {{Hundred Rabbits}}.
+    & While the game was designed on a train, without internet connection, it seemed like Donsol's gameplay accidentally ended up being a twist to Zach Gage and Kurt Bieg's {{Scoundrel|http://stfj.net/index2.php?project=art/2011/Scoundrel.pdf}}, designed in 2011.
   LINK
    GITH : https://github.com/hundredrabbits/Donsol
    ITCH : https://hundredrabbits.itch.io/donsol
@@ -251,7 +252,7 @@ REKKA
 
 HUNDRED RABBITS
   UNDE : Devine lu linvega
-  BREF : {{Hundred Rabbits}}, is a design studio on a {{sailboat|Pino}}.
+  BREF : {{Hundred Rabbits}} is a design studio on a {{sailboat|Pino}}.
   TYPE : Diary
   TAGS : Portal
   LONG
@@ -272,7 +273,7 @@ PINO
 
 INSTRUMENT
   UNDE : Pino
-  BREF : The {{Instrument}} is {{Pino}}'s sailing computer, in the form of a {{mobile}} application.
+  BREF : The {{Instrument}} is {{Pino}}'s sailing computer.
   TYPE : Diary
   LONG
     & The application displays various data about the course, speed, location and time. Its original purpose was to help with night sailing where the compass and some of our sailing instruments were hard to see.
@@ -1165,7 +1166,7 @@ DEMO
 SUPERWORKER
   UNDE : Demo
   TYPE : Diary
-  BREF : {{Superworker}} is a concept album created entirely with {{Teenage Engineering's PO24|https://www.teenageengineering.com/products/po}}.
+  BREF : {{Superworker}} is an album created with the {{PO-24|https://www.teenageengineering.com/products/po}}.
   LONG
     & The album contains 3 tracks created from {_over 80 sessions_}, arranged into chiptune experiments.
     @ discography superworker
@@ -1671,19 +1672,14 @@ LOBBY
   TYPE : Memory
   BREF : The {{Lobby}} is the {{Nataniev}} graphical interface which host native applications like {{Marabu}}, {{Ronin}} and {{Left}}.
 
-TOOLKIT
-  UNDE : Nataniev
-  TYPE : Portal
-  BREF : The {{Nataniev}} {{Toolkit}} is a series of core application built within the operating system.
-
 OSCEAN
-  UNDE : Toolkit
+  UNDE : Nataniev
   BREF : {{Oscean}} is a wiki engine.
   LONG
     & {{Oscean}} was created on the 10th of August 2008, and was meant to be a repository of the sum of {{Devine|Devine lu linvega}}'s projects and notes. It has since inspired the creation of the {{Nataniev}} CLI tools which then became an operating system capable of hosting a suite of applications. Many of the on-site tools have been ported into native applications, such as {{Ronin}} and {{Marabu}}.
 
 HORAIRE
-  UNDE : Toolkit
+  UNDE : Nataniev
   TAGS : Portal
   BREF : {{Horaire}} is a time tracking tool.
   LINK
@@ -1691,8 +1687,19 @@ HORAIRE
   LONG
     & Horaire data is logged in {*Focus Hours*} {_Fh_}, a ratio of the total available daily work hours. Logs of 60% and 40% {_Fh_}, over an 8 hours work day, are equal to 4.8h and 3.2h.
 
+DESAMBER
+  UNDE : Nataniev
+  BREF : {{Desamber}} is the time-format of the {{Nataniev}} ecosystems.
+  LONG
+    & The {_Equal Month calendar_} has {*13 months*} of {*28 days*} each and the 365th day of the year is the {_Year Day_}, preceeded by the {_Leap Day_} on leap years. Today's date is {{!desamber}}.
+    & The current {{Nataniev}} time is {{!clock}}. The clock has 6 digits, where their overall value is a ratio over the completion of the day. For example, Noon is 500, 6AM is 250 and 6PM is 750. 
+    & The clock is display in the 000:000 format, where the shortest pulse is equal to 8.64 milliseconds, the second shortest to 86.4 and so on.
+    & The fully formed Nataniev datestamp is {{!desamber}} {{!clock}}.
+  LINK
+    GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
+
 ROTONDE
-  UNDE : Toolkit
+  UNDE : Nataniev
   BREF : {{Rotonde}} is a social feed protocol.
   LINK
     OFFI : http://rotonde.xxiivv.com
@@ -1701,25 +1708,6 @@ ROTONDE
     & {{Rotonde}} is simply the commonly agreed upon specifications of a JSON object shared between portal neighbors of {*~rotonde.xxiivv.com*}.
     & The feed is not attached to any particular client, language or server. The goal of this project is to share decentralized editable, protected, and version-controlled entries.
     & A list of active feeds is maintained by {{~rotonde.cblgh.org|http://rotonde.cblgh.org/crawl}}.
-
-CLOCK
-  UNDE : Toolkit
-  BREF : {{Clock}} is the time format of the Nataniev ecosystem.
-  TYPE : Portal
-  LONG
-    & The current {{Nataniev}} time is {{!clock}}. The clock has 6 digits, where their overall value is a ratio over the completion of the day. For example, Noon is 500, 6AM is 250 and 6PM is 750. 
-    & The clock is display in the 000:000 format, where the shortest pulse is equal to 8.64 milliseconds, the second shortest to 86.4 and so on.
-    & The fully formed Nataniev datestamp is {{!desamber}} {{!clock}}.
-  LINK
-    GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
-
-DESAMBER
-  UNDE : Clock
-  BREF : {{Desamber}} is the calendar format of the Nataniev ecosystem.
-  LONG
-    & The {_Equal Month calendar_} has {*13 months*} of {*28 days*} each and the 365th day of the year is the {_Year Day_}, preceeded by the {_Leap Day_} on leap years. Today's date is {{!desamber}}.
-  LINK
-    GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
 
 PARADISE
   UNDE : Interactive
@@ -1778,15 +1766,11 @@ AESTHETICS
   UNDE : Lifestyle
   BREF : The {{Aesthetics}} notes are meant to answers to recurring questions on productivity, advised from daily logs recorded over many years.
   TYPE : Memory
-  LINK
-    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/aesthetics.mh
 
 NOMAD
   UNDE : Lifestyle
   BREF : The {{Nomad}} notes are reflexions on travel, and on my dreams of a nomadic life.
   TYPE : Memory
-  LINK
-    GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/nomads.mh
 
 OFFLINE
   UNDE : Lifestyle
@@ -1922,6 +1906,46 @@ ABOUT
 
 DEBUG
   BREF : {{Debug}} messages and tools.
+
+2008
+  BREF : The {{Plan|Aesthetics}}.
+  TYPE : calendar
+
+2009
+  BREF : {{Aliceffekt}} rising.
+  TYPE : calendar
+
+2010
+  BREF : Meeting with {{Renaud|Collegiennes}}.
+  TYPE : calendar
+
+2011
+  BREF : Enter the {{Neauismetica}}.
+  TYPE : calendar
+
+2012
+  BREF : Moving to {{Tokyo|Japan}}.
+  TYPE : calendar
+
+2013
+  BREF : A new life in {{Tokyo|Japan}}.
+  TYPE : calendar
+
+2014
+  BREF : Cycling, Food & Coffee.
+  TYPE : calendar
+
+2015
+  BREF : Talks in {{Europe|Travel}}.
+  TYPE : calendar
+
+2016
+  BREF : Moving on a {{sailboat}}.
+  TYPE : calendar
+
+2017
+  BREF : Sailing across the {{South Pacific}} Ocean.
+  TYPE : calendar
 
 ~ Archives
 

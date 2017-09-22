@@ -53,7 +53,7 @@ def corpse.featured_topics
 
   c = 0
   topics.uniq.each do |name|
-    if c > 9 then break end
+    if c > 10 then break end
     terms.push(l[name.upcase])
     c += 1
   end
@@ -69,13 +69,23 @@ def corpse.featured_topics
 end
 
 def corpse.view
-  
+    
+  filtered_logs = []
+
+  count = 0
+  @term.logs.each do |log|
+    if count > 180 then break end
+    if !log || !log.time || log.time.elapsed < 0 then next end
+    filtered_logs.push(log)
+    count += 1
+  end
+
   return  "
   #{index}#{@term.long.runes}\n
   <h2>Featured Diary</h2>
   #{last_diary}
   <h2>Featured Projects</h2>
-  #{Graph_Timeline.new(@term,0,90)}\n
+  #{Graph_Timeline.new(filtered_logs,0,90)}\n
   #{featured_topics}
   <h2>Notice</h2>
   <p id='notice'>I am currently in {*{{$ hundredrabbits get_location}}*}, {{sailing|Hundred rabbits}} across the Pacific Ocean toward New Zealand. My access to internet is limited and will not be able to answer emails as frequently. I will get back to you upon {{landfall|http://100r.co/#map}}.</p>".markup

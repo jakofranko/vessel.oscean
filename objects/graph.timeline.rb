@@ -3,16 +3,34 @@
 
 class Graph_Timeline
 
-  def initialize(term,from = 0,to = term.logs.length)
+  def initialize(logs,from = 0,to = logs.length)
     
     @width = 798
     @height = 100
     @LOD = 100
 
-    @logs = term.logs[from,to]
-    @against = term.logs.length > to * 2 ? term.logs[to,to] : nil
+    @logs = sort_logs(logs)[from,to]
+    @against = @logs.length > to * 2 ? @logs[to,to] : nil
 
     @segments = equalSegments
+
+  end
+
+  def sort_logs logs
+
+    sorted_logs_hash = {}
+
+    logs.each do |log|
+      sorted_logs_hash[log.time.to_s.to_i] = log
+    end
+
+    sorted_logs_array = []
+
+    sorted_logs_hash.sort.each do |date,log|
+      sorted_logs_array.push(log)
+    end
+
+    return sorted_logs_array.reverse
 
   end
 
@@ -42,7 +60,8 @@ class Graph_Timeline
     @length = @to - @from
 
     @logs.each do |log|
-      progressFloat = (log.time.elapsed/@to.to_f) * @LOD.to_f
+      pos = 1 - (@to - log.time.elapsed)/(@length).to_f
+      progressFloat = pos * @LOD.to_f
       progressPrev = progressFloat.to_i
       progressNext  = progressFloat.ceil
       distributePrev = progressNext - progressFloat
