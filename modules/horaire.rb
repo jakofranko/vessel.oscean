@@ -29,13 +29,16 @@ def corpse.view
 
     <h2 id='hto_hta'>HTo, HTa & Focus</h2>
     <p>The {#Fh#} sums over the number of different topics, or different tasks, are the {*Hour Topic*}({#HTo#}) and {*Hour Task*}({#HTa#}); for instance #{home_term.logs[0,365].hours}{#Fh#} over #{home_term.logs[0,365].topics.length} topics, and #{home_term.logs[0,365].tasks.length} tasks, is #{home_term.logs[0,365].hour_topic_focus}{#HTo#} and #{home_term.logs[0,365].hour_task_focus}{#HTa#}, and their average #{home_term.logs[0,365].focus.trim(2)}{#Focus#}.</p>
-
+    
     #{Graph_Daily.new(home_term)}
-  
+    
     <h2 id='forecast'>Forecast</h2>
     #{Graph_Forecast.new(filtered_logs)}
     <p>Based on previous {#Fh#} trends, {*predictions*} on upcoming optimal creative sectors and time investments can be forcasted and used to make better decisions during week-planning.</p>
-    <note><b>Effectiveness</b>, is doing the right thing. <br> <b>Efficiency</b>, is doing it the right way.</note>"
+    
+    
+    <note><b>Effectiveness</b>, is doing the right thing. <br> <b>Efficiency</b>, is doing it the right way.</note>
+    "
     return html.markup
   elsif @term.logs.length > 2
     html += Graph_Timeline.new(@term.logs).to_s

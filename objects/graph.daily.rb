@@ -25,7 +25,7 @@ class Graph_Daily
       date = (now - d).to_s.gsub("-","")
       pos_y = d % 7
       pos_x = (d / 7).to_i
-      html += "<cell class='#{logs[date] ? logs[date] : ''}' style='bottom:#{30 + (pos_y * @cell_height * 1.5)}px; right:#{(pos_x * @cell_width)}px'></cell>"
+      html += "<cell class='#{logs[date] ? logs[date] : ''}' style='bottom:#{30 + (pos_y * @cell_height * 1.5)}px; right:#{(pos_x * @cell_width) + 10}px'></cell>"
       d += 1
     end
     html += "<hr />"
