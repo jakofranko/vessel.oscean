@@ -108,6 +108,18 @@ class Array
 
   end
 
+  def projects
+
+    return (tasks.length * topics.length).to_f
+
+  end
+
+  def single_tasking
+
+    return (hours.to_f/projects)
+
+  end
+
   # 
 
   def hour_day_focus

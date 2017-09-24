@@ -89,6 +89,7 @@ class Graph_Overview
     .graph.overview svg { padding-bottom:5px; padding-left:15px; padding-right:8px}
     .graph.overview svg path { stroke-width:1; stroke:black; fill:none; stroke-linecap:round}
     </style>"
+    
   end
 
   def summary

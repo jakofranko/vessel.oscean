@@ -1907,7 +1907,13 @@ ABOUT
 DEBUG
   BREF : {{Debug}} messages and tools.
 
+YEARLY
+  BREF : {{Yearly}} rating of output values.
+  LONG
+    & This graph shows yearly {{Horaire}} output values.
+
 2008
+  UNDE : Yearly
   BREF : The {{Plan|Aesthetics}}.
   TYPE : calendar
   LONG
@@ -1915,38 +1921,47 @@ DEBUG
     & Programing and design logs were hardly present in the logs. Music was to become a reason to design, and an introduction to world-building.
 
 2009
+  UNDE : Yearly
   BREF : {{Aliceffekt}} rising.
   TYPE : calendar
 
 2010
+  UNDE : Yearly
   BREF : Meeting with {{Renaud|Collegiennes}}.
   TYPE : calendar
 
 2011
+  UNDE : Yearly
   BREF : Enter the {{Neauismetica}}.
   TYPE : calendar
 
 2012
+  UNDE : Yearly
   BREF : Moving to {{Tokyo|Japan}}.
   TYPE : calendar
 
 2013
+  UNDE : Yearly
   BREF : A new life in {{Tokyo|Japan}}.
   TYPE : calendar
 
 2014
+  UNDE : Yearly
   BREF : Cycling, Food & Coffee.
   TYPE : calendar
 
 2015
+  UNDE : Yearly
   BREF : Talks in {{Europe|Travel}}.
   TYPE : calendar
 
 2016
+  UNDE : Yearly
   BREF : Moving on a {{sailboat|Pino}}.
   TYPE : calendar
 
 2017
+  UNDE : Yearly
   BREF : Sailing across the {{South Pacific}} Ocean.
   TYPE : calendar
 

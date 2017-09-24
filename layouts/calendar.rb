@@ -5,11 +5,11 @@ corpse = $nataniev.vessels[:oscean].corpse
 
 corpse.style = "
 .calendar { clear:both; margin-bottom:30px}
-.calendar month { display:block; width:25%;float:left; font-family:'input_mono_regular'; font-size:12px; margin-bottom:15px; text-align:center}
-.calendar month yu.name { border-bottom:1px solid #ccc; padding-bottom:5px; margin-bottom:5px; margin-right:15px; text-align:left; line-height:30px}
+.calendar month { display:block; width:20%;float:left; font-family:'din_regular'; font-size:11px; margin-bottom:15px; text-align:center}
+.calendar month yu.name { margin-bottom:5px; margin-right:15px; text-align:left; line-height:30px; padding-left:5px}
 .calendar day { display:block; float:left; width:14%; line-height:20px; text-align:center; color:#ccc}
 .calendar day.log { color:#000}
-.calendar day.event { font-family:'input_mono_medium'; background:#ddd; color:black} 
+.calendar day.event { font-family:'din_medium'; background:#ddd; color:black} 
 .calendar day.today { background:#72dec2; color:black}
 .calendar day.recurring { background:black; color:white}
 ln.recurring:after { content:'*'; color:#72dec2;}
@@ -93,6 +93,7 @@ end
 def corpse.layout_previous_years
 
   html = "<h2>Previous Years</h2>"
+  html += Graph_Since.new(@horaire.to_a(:log)).to_s
   y = Desamber.new.y
   html += "<p class='simple'>"
   while y >= 2008

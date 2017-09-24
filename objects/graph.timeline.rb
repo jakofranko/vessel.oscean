@@ -7,7 +7,7 @@ class Graph_Timeline
     
     @width = 798
     @height = 100
-    @LOD = 100
+    @LOD = 50
 
     @logs = sort_logs(logs)[from,to]
     @against = @logs.length > to * 2 ? @logs[to,to] : nil
@@ -207,14 +207,15 @@ class Graph_Timeline
   def style
 
     line_width = ((@width)/@LOD.to_f).to_i
+    line_width = 2
 
     return "<style>
     .graph.timeline { margin-bottom:30px}
-    .graph.timeline svg { overflow: hidden; padding-top:5px; height:149px}
-    .graph.timeline svg path { stroke-width: #{line_width}; stroke:pink; stroke-linecap:butt;}
+    .graph.timeline svg { overflow: hidden; padding-top:5px; height:149px; padding-bottom:10px}
+    .graph.timeline svg path { stroke-width: #{line_width}; stroke:pink; stroke-linecap:round;}
     .graph.timeline svg path.audio { fill:#72dec2; stroke:#72dec2}
     .graph.timeline svg path.visual { fill:#000; stroke:black }
-    .graph.timeline svg path.research { fill:none; stroke:black; stroke-dasharray:1,1 }
+    .graph.timeline svg path.research { fill:none; stroke:#ccc }
     .graph.timeline ln { display:block; position:relative; font-family:'din_regular'; font-size:12px;}
     .graph.timeline t.origin { position: absolute;top: -#{@height + 30}px;left: 0px;color: #999 }
     .graph.timeline t.sector { color: #000; display: inline-block;line-height: 30px; margin-right:15px}
