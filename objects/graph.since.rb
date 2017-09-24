@@ -21,13 +21,13 @@ class Graph_Since
     .graph.since svg path { stroke:#ccc; fill:none; stroke-width:2; stroke-linecap:round}
     .graph.since svg path.hour_day_focus { stroke:#000; z-index:9000; position:relative}
     .graph.since svg path.sector_balance { stroke:#72dec2; }
-    .graph.since svg path.tasking_focus { stroke:#000; stroke-dasharray:2,3; }
-    .graph.since svg path.projects { stroke:#ccc }
+    .graph.since svg path.focus { stroke:#000; stroke-dasharray:2,3; }
+    .graph.since svg path.spray { stroke:#ccc }
     .graph.since svg text.year { fill:#aaa}
-    .graph.since svg text.tasking_focus { fill:#000}
+    .graph.since svg text.focus { fill:#000}
     .graph.since svg text.hour_day_focus { font-family:'din_bold'}
     .graph.since svg text.sector_balance { font-family:'din_bold'; fill:#72dec2}
-    .graph.since svg text.projects { fill:#aaa}
+    .graph.since svg text.spray { fill:#aaa}
     </style>"
 
   end
@@ -55,10 +55,10 @@ class Graph_Since
       if !h[:sector_balance] then h[:sector_balance] = {} end
       h[:sector_balance][year] = logs.sector_balance.to_f
       h[:sector_balance][year] = h[:sector_balance][year] < 0 ? 0.0 : h[:sector_balance][year].to_f
-      if !h[:tasking_focus] then h[:tasking_focus] = {} end
-      h[:tasking_focus][year] = logs.tasking_focus.to_f
-      if !h[:projects] then h[:projects] = {} end
-      h[:projects][year] = logs.projects.to_f
+      if !h[:focus] then h[:focus] = {} end
+      h[:focus][year] = logs.focus.to_f
+      if !h[:spray] then h[:spray] = {} end
+      h[:spray][year] = logs.spray.to_f
     end
     return h
 

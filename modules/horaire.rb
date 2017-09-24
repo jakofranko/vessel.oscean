@@ -27,8 +27,8 @@ def corpse.view
     <p>For the past #{filtered_logs.length} days, I have rated my dedication, or enthousiasm, in the proeminent task of that day. A {*Focus Hour*}({#Fh#}), is an index of focus in a single task over the total available daily work hours. The {*Hour Day Focus*}({#Hdf#}) is the average {#Fh#} of a project or task, over a number of days; for instance, #{home_term.logs[0,365].hours}{#Fh#} over 365 days, is #{filtered_logs[0,365].hour_day_focus}{#Hdf#}. </p>
     #{Graph_Since.new(filtered_logs)}
 
-    <h2 id='hto_hta'>HTo, HTa & Taf</h2>
-    <p>The {#Fh#} sums over the number of different topics, or different tasks, are the {*Hour Topic*}({#HTo#}) and {*Hour Task*}({#HTa#}); for instance #{home_term.logs[0,365].hours}{#Fh#} over #{home_term.logs[0,365].topics.length} topics, and #{home_term.logs[0,365].tasks.length} tasks, is #{home_term.logs[0,365].hour_topic_focus}{#HTo#} and #{home_term.logs[0,365].hour_task_focus}{#HTa#} - and their average, or {*Tasking Focus*}, is of #{home_term.logs[0,365].tasking_focus}{#Taf#}.</p>
+    <h2 id='hto_hta'>HTo, HTa & Focus</h2>
+    <p>The {#Fh#} sums over the number of different topics, or different tasks, are the {*Hour Topic*}({#HTo#}) and {*Hour Task*}({#HTa#}); for instance #{home_term.logs[0,365].hours}{#Fh#} over #{home_term.logs[0,365].topics.length} topics, and #{home_term.logs[0,365].tasks.length} tasks, is #{home_term.logs[0,365].hour_topic_focus}{#HTo#} and #{home_term.logs[0,365].hour_task_focus}{#HTa#}, and their average #{home_term.logs[0,365].focus.trim(2)}{#Focus#}.</p>
 
     #{Graph_Daily.new(home_term)}
   

@@ -108,15 +108,15 @@ class Array
 
   end
 
-  def projects
+  def spray
 
-    return (hour_task_focus.to_f * hour_topic_focus.to_f).to_f
+    return (hour_task_focus.to_f * hour_topic_focus.to_f)/hours.to_f
 
   end
 
-  def tasking_focus
+  def focus
 
-    return (hour_task_focus.to_f+hour_topic_focus.to_f)/2.0
+    return (hour_task_focus.to_f + hour_topic_focus.to_f)/2.0
 
   end
 
