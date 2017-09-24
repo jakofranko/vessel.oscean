@@ -1686,8 +1686,6 @@ HORAIRE
   BREF : {{Horaire}} is a time tracking tool.
   LINK
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/horaire.ma
-  LONG
-    & Horaire data is logged in {*Focus Hours*} {_Fh_}, a ratio of the total available daily work hours. Logs of 60% and 40% {_Fh_}, over an 8 hours work day, are equal to 4.8h and 3.2h.
 
 DESAMBER
   UNDE : Nataniev

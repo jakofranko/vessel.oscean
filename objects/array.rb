@@ -110,13 +110,13 @@ class Array
 
   def projects
 
-    return (tasks.length * topics.length).to_f
+    return (hour_task_focus.to_f * hour_topic_focus.to_f).to_f
 
   end
 
-  def single_tasking
+  def tasking_focus
 
-    return (hours.to_f/projects)
+    return (hour_task_focus.to_f+hour_topic_focus.to_f)/2.0
 
   end
 

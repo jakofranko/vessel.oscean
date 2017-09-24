@@ -22,15 +22,16 @@ def corpse.view
     
     html += "
     #{Graph_Timeline.new(filtered_logs,0,365)}
-    #{@term.long.runes}
-    #{Graph_Since.new(filtered_logs)}
+
     <h2 id='hdf'>Hdf</h2>
+    <p>For the past #{filtered_logs.length} days, I have rated my dedication, or enthousiasm, in the proeminent task of that day. A {*Focus Hour*}({#Fh#}), is an index of focus in a single task over the total available daily work hours. The {*Hour Day Focus*}({#Hdf#}) is the average {#Fh#} of a project or task, over a number of days; for instance, #{home_term.logs[0,365].hours}{#Fh#} over 365 days, is #{filtered_logs[0,365].hour_day_focus}{#Hdf#}. </p>
+    #{Graph_Since.new(filtered_logs)}
+
+    <h2 id='hto_hta'>HTo, HTa & Taf</h2>
+    <p>The {#Fh#} sums over the number of different topics, or different tasks, are the {*Hour Topic*}({#HTo#}) and {*Hour Task*}({#HTa#}); for instance #{home_term.logs[0,365].hours}{#Fh#} over #{home_term.logs[0,365].topics.length} topics, and #{home_term.logs[0,365].tasks.length} tasks, is #{home_term.logs[0,365].hour_topic_focus}{#HTo#} and #{home_term.logs[0,365].hour_task_focus}{#HTa#} - and their average, or {*Tasking Focus*}, is of #{home_term.logs[0,365].tasking_focus}{#Taf#}.</p>
+
     #{Graph_Daily.new(home_term)}
-    <mini>Daily log sectors for the past 365 days.</mini>
-    <p>The average daily {_Fh_}, or the {*Hour Day Focus*} {_Hdf_}, is an index of average focus on a specific project or task. The average {_Fh_}, of #{home_term.logs[0,365].hours}{*Fh*} over #{home_term.logs[0,365].length}{*days*}, is equal to #{home_term.logs[0,365].hour_day_focus}{*Hdf*}. Its maximal value is 9, so the Hdf ratio is currently of #{home_term.logs[0,365].hour_day_focus_percentage}%.</p>
-    <h2 id='hto_hta'>HTo/HTa</h2>
-    <mini>Sector balance for the previous {{13 months|Desamber}}.</mini>
-    <p>The {*Hour Topic*} {_HTo_} & the {*Hour Task*} {_HTa_} - where {_HTo_} is the sum of {_Fh_} over the number of different topics, or #{home_term.logs[0,365].hours}{_Fh_} over #{home_term.logs[0,365].topics.length} topics, and {_HTa_} the sum of logged {_Fh_} over the number of different tasks, or #{home_term.logs[0,365].hours}{_Fh_} over #{home_term.logs[0,365].tasks.length} tasks.</p>
+  
     <h2 id='forecast'>Forecast</h2>
     #{Graph_Forecast.new(filtered_logs)}
     <mini>Fh & Sector forecast for the next 7 days.</mini>
