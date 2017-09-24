@@ -1683,6 +1683,7 @@ OSCEAN
 HORAIRE
   UNDE : Nataniev
   TAGS : Portal
+  FLAG : no_photo
   BREF : {{Horaire}} is a time tracking tool.
   LINK
     GITH : https://github.com/XXIIVV/vessel.oscean/blob/master/memory/horaire.ma

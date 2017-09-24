@@ -137,7 +137,7 @@ class Graph_Timeline
     <t class='sector sb'>#{@logs.sector_balance_percentage}% <t style='color:#999'>Sb</t></t>
     <t class='sector right'>#{@against ? against_diff(@logs.hours,@against.hours) : ''} <a href='/Horaire'>#{@logs.hours} <t style='color:#999'>Fh</t></a></t>
     <t class='sector right'>#{@against ? against_diff(@logs.hour_day_focus,@against.hour_day_focus) : ''} #{@logs.hour_day_focus} <t style='color:#999'>Hdf</t></t>
-    <t class='sector right'>#{@logs.focus} <t style='color:#999'>Focus</t></t>"
+    <t class='sector right'>#{@logs.focus.trim(2)} <t style='color:#999'>Focus</t></t>"
 
     return "<ln>#{html}</ln>"
 

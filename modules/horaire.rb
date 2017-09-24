@@ -34,8 +34,7 @@ def corpse.view
   
     <h2 id='forecast'>Forecast</h2>
     #{Graph_Forecast.new(filtered_logs)}
-    <mini>Fh & Sector forecast for the next 7 days.</mini>
-    <p>And finally, based on previous {_Fh_} trends and ratios, {*predictions*} on upcoming optimal creative sectors and time investments can be forcasted and used to make better decisions during week-planning.</p>
+    <p>Based on previous {#Fh#} trends, {*predictions*} on upcoming optimal creative sectors and time investments can be forcasted and used to make better decisions during week-planning.</p>
     <note><b>Effectiveness</b>, is doing the right thing. <br> <b>Efficiency</b>, is doing it the right way.</note>"
     return html.markup
   elsif @term.logs.length > 2

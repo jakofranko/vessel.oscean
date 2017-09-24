@@ -6,7 +6,7 @@
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20171231 - 00
 20171025 + 00      Hundred rabbits      Photography          Move to New Zealand
-20170924 - 25      Oscean               Design
+20170924 - 15      Oscean               Design
 20170923 - 34      Marabu               Tools
 20170922 - 36      Horaire              Tools
 20170921 - 28      Oscean               Design
