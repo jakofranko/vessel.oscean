@@ -41,7 +41,7 @@ class Graph_Yearly
       pos_visual = (((sectors[:audio] + sectors[:visual])/sectors[:sum].to_f) * @height).to_i
       pos_research = (((sectors[:audio] + sectors[:visual] + sectors[:research])/sectors[:sum].to_f) * @height).to_i
       
-      svg += "<circle cx='#{pos_x}' cy='#{r_audio}' r='#{r_audio}' fill='#72dec2'/>"
+      svg += "<circle cx='#{pos_x}' cy='#{r_audio}' r='#{r_audio}' stroke='#72dec2'/>"
       svg += "<circle cx='#{pos_x}' cy='#{r_visual + pos_audio}' r='#{r_visual}' fill='#000'/>"
       svg += "<circle cx='#{pos_x}' cy='#{r_research + pos_visual}' r='#{r_research}' fill='#ddd'/>"
       svg += "<text x='#{pos_x}' y='95' fill='#000'>#{month[0,4]}</text>"
@@ -62,6 +62,7 @@ class Graph_Yearly
     .graph.yearly { margin-bottom:15px; }
     .graph.yearly svg { padding-bottom:30px; }
     .graph.yearly text { font-family:'din_regular'; font-size:12px; text-anchor:middle;}
+    .graph.yearly svg circle { fill: none; stroke-width:2}
     </style>"
 
   end

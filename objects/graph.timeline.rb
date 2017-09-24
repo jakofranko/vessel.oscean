@@ -89,6 +89,7 @@ class Graph_Timeline
   def to_s
 
     html = ""
+    circles = ""
     lineWidth = ((@width)/@LOD.to_f).to_i + 1
     segmentWidth = lineWidth/4
     highestValue = findHighestValue
@@ -111,6 +112,7 @@ class Graph_Timeline
         pos_y1 = prev
         pos_y2 = prev+value
         paths[name] += "M#{pos_x},#{@height - pos_y1.to_i} L#{pos_x},#{@height - pos_y2.to_i} "
+        circles += "<circle cx='#{pos_x}' cy='#{@height - pos_y2.to_i}' r='1.5'/>"
         prev += value
       end
 
@@ -121,7 +123,7 @@ class Graph_Timeline
       html += "<path class='#{name}' d='#{d}'/>"
     end
 
-    return "#{style}<yu class='graph timeline'><svg style='width:100%; height:#{@height}px;'>"+html+"</svg>#{summary}</yu>"
+    return "#{style}<yu class='graph timeline'><svg style='width:100%; height:#{@height}px;'>#{html}#{circles}</svg>#{summary}</yu>"
 
   end
 
