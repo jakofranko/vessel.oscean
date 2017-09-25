@@ -79,12 +79,12 @@ def corpse.view
     filtered_logs.push(log)
     count += 1
   end
-
+  
   return  "
   #{index}#{@term.long.runes}\n
   <h2>Featured Diary</h2>
   #{last_diary}
-  <h2>Featured Projects</h2>
+  <h2>Recent Activity</h2>
   #{Graph_Timeline.new(filtered_logs,0,90)}\n
   #{featured_topics}
   <h2>Notice</h2>

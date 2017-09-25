@@ -130,7 +130,8 @@ class Graph_Timeline
   def summary
 
     html = "
-    <t class='origin'>#{@logs.length} days ago</t>
+    <t class='origin'>#{@logs.last.time.ago}</t>
+    <t class='latest'>#{@logs.first.time.ago}</t>
     <t class='sector audio'>#{@logs.audio_ratio_percentage}% <t style='color:#999'>Audio</t></t>
     <t class='sector visual'>#{@logs.visual_ratio_percentage}% <t style='color:#999'>Visual</t></t>
     <t class='sector research'>#{@logs.research_ratio_percentage}% <t style='color:#999'>Research</t></t>
@@ -219,6 +220,7 @@ class Graph_Timeline
     .graph.timeline svg path.research { fill:none; stroke:#ccc }
     .graph.timeline ln { display:block; position:relative; font-family:'din_regular'; font-size:12px;}
     .graph.timeline t.origin { position: absolute;top: -#{@height + 30}px;left: 0px;color: #999 }
+    .graph.timeline t.latest { position: absolute;top: -#{@height + 30}px;right: 0px;color: #999 }
     .graph.timeline t.sector { color: #000; display: inline-block;line-height: 30px; margin-right:15px}
     .graph.timeline t.sector.audio { left:0px; border-bottom:1px solid #72dec2 }
     .graph.timeline t.sector.visual { left:100px; border-bottom:1px solid black }

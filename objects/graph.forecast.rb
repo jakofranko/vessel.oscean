@@ -8,7 +8,7 @@ class Graph_Forecast
     @logs = logs[from,to]
     @count_topics = 0
 
-    @days_ahead = 28
+    @days_ahead = 21
     @width = 800
     @height = 75
     @line_spacing = (@width/(@days_ahead + 7).to_f).to_i
@@ -50,9 +50,9 @@ class Graph_Forecast
 
     lines = ""
 
-    lines += "<line x1='60' y1='#{@y[:audio]}' x2='#{@width-60}' y2='#{@y[:audio]}'/>"
-    lines += "<line x1='60' y1='#{@y[:visual]}' x2='#{@width-60}' y2='#{@y[:visual]}'/>"
-    lines += "<line x1='60' y1='#{@y[:research]}' x2='#{@width-60}' y2='#{@y[:research]}'/>"
+    # lines += "<line x1='60' y1='#{@y[:audio]}' x2='#{@width-60}' y2='#{@y[:audio]}'/>"
+    # lines += "<line x1='60' y1='#{@y[:visual]}' x2='#{@width-60}' y2='#{@y[:visual]}'/>"
+    # lines += "<line x1='60' y1='#{@y[:research]}' x2='#{@width-60}' y2='#{@y[:research]}'/>"
 
     arc = 10
     i = 0
@@ -74,15 +74,18 @@ class Graph_Forecast
       else
         path += "L#{x},#{y} "
       end
-      circles += "<circle cx='#{x}' cy='#{y}' r='3'/>"
+      circles += "<circle cx='#{x}' cy='#{y}' r='1.5'/>"
       prev = y
       i += 1
     end
 
     lines += "<line x1='#{graph_data.length * (arc * 2) + 45}' y1='#{@y[graph_data.last[:sector]]}' x2='#{@width}' y2='#{@y[graph_data.last[:sector]]}' style='stroke:black; stroke-dasharray:2,4'/>"
-    lines += "<line x1='#{7.5 * (arc * 2) + 30}' y1='#{0}' x2='#{7.5 * (arc * 2) + 30}' y2='#{65}' style='stroke:black; stroke-dasharray:2,4'/>"
 
+    lines += "<line x1='#{7.5 * (arc * 2) + 30}' y1='#{0}' x2='#{7.5 * (arc * 2) + 30}' y2='#{65}' style='stroke:black; stroke-dasharray:2,4'/>"
     labels += "<text x='#{6.8 * (arc * 2) + 30}' y='#{-15}'>Today</text>"
+
+    lines += "<line x1='#{28.5 * (arc * 2) + 30}' y1='#{0}' x2='#{28.5 * (arc * 2) + 30}' y2='#{65}' style='stroke:black; stroke-dasharray:2,4'/>"
+    labels += "<text x='#{27.2 * (arc * 2) + 30}' y='#{-15}'>In 21 Days</text>"
 
 
     labels += "<text x='2' y='#{@y[:audio]+2}'>Audio</text>"
@@ -101,7 +104,7 @@ class Graph_Forecast
     .graph.forecast svg { overflow: hidden; padding-top:5px; height:149px; padding-top:30px; font-size:11px}
     .graph.forecast svg path { stroke:black; stroke-width:2; stroke-linecap:round; fill:none }
     .graph.forecast svg line { stroke:#ccc; stroke-width:2; stroke-linecap:round; fill:none }
-    .graph.forecast svg circle { stroke:black; fill:white; stroke-width:2 }
+    .graph.forecast svg circle { stroke:black; fill:black; stroke-width:0 }
     </style>"
 
   end

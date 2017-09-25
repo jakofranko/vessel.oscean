@@ -65,7 +65,7 @@ def corpse.body
 
   html += "
   <yu class='logo'><wr><a href='/Home'>#{Media.new(:icon,:logo,:logo)}</a></wr></yu>
-  <yu class='hd #{@term.theme} #{@term.diaries.length > 0 ? 'has_photo' : 'no_photo'}'>
+  <yu class='hd #{@term.theme} #{@term.diaries.length > 0 && !@term.flag.include?('no_photo') ? 'has_photo' : 'no_photo'}'>
     <wr>
       #{@term.banner}
     </wr>

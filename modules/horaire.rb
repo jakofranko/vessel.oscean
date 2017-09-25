@@ -36,13 +36,11 @@ def corpse.view
     #{Graph_Forecast.new(filtered_logs)}
     <p>Based on previous {#Fh#} trends, {*predictions*} on upcoming optimal creative sectors and time investments can be forcasted and used to make better decisions during week-planning.</p>
     
-    
     <note><b>Effectiveness</b>, is doing the right thing. <br> <b>Efficiency</b>, is doing it the right way.</note>
     "
     return html.markup
   elsif @term.logs.length > 2
     html += Graph_Timeline.new(@term.logs).to_s
-    html += Graph_Daily.new(@term).to_s
   else
     return "<p>The {{#{@query}}} entry does not contain enough {{Horaire}} logs.</p>".markup
   end
