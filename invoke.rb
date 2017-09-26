@@ -54,7 +54,7 @@ end
 def corpse.body
 
   html = ""
-  html += @term.diaries.length > 0 && @term.flag != 'no_photo' ? (media = @term.diary.media ; media.set_class(:photo) ; media.to_s) : ""
+  html += @term.diaries.length > 0 && @term.flag.to_s != 'no_photo' ? (media = @term.diary.media ; media.set_class(:photo) ; media.to_s) : ""
 
   html_links = ""  
   if @term.link
@@ -65,7 +65,7 @@ def corpse.body
 
   html += "
   <yu class='logo'><wr><a href='/Home'>#{Media.new(:icon,:logo,:logo)}</a></wr></yu>
-  <yu class='hd #{@term.theme} #{@term.diaries.length > 0 && !@term.flag.include?('no_photo') ? 'has_photo' : 'no_photo'}'>
+  <yu class='hd #{@term.theme} #{@term.diaries.length > 0 && !@term.flag.to_s.include?('no_photo') ? 'has_photo' : 'no_photo'}'>
     <wr>
       #{@term.banner}
     </wr>
