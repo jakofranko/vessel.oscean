@@ -39,10 +39,8 @@ class Graph_Overview
       progressFloat = (log.time.elapsed/@to.to_f) * @LOD.to_f
       progressPrev = progressFloat.to_i
       progressNext  = progressFloat.ceil
-      distributePrev = progressNext - progressFloat
-      distributeNext = 1 - distributePrev
-      if segments[progressPrev] then segments[progressPrev] += log.value * distributePrev end
-      if segments[progressNext] then segments[progressNext] += log.value * distributeNext end
+      if segments[progressPrev] then segments[progressPrev] += log.value end
+      if segments[progressNext] then segments[progressNext] += log.value end
     end
     return segments
 
