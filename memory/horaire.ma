@@ -6,6 +6,7 @@
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20171231 - 00
 20171025 + 00      Hundred rabbits      Photography          Move to New Zealand
+20170929 - 29      Lietal               Typography
 20170928 - 38      Ronin                Tools
 20170927 - 28      Ronin                Design
 20170926 - 34      Ronin                Tools

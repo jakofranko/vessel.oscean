@@ -26,7 +26,9 @@ def corpse.build
 
   add_script("core/jquery.js",:lobby)
   add_script("main.js")
-  add_footer("<script>on_resize()</script>")
+  add_script("aeth.js")
+  add_script("septambres.js")
+  add_footer("<script>on_resize(); new Septambres().parse();</script>")
 
 end
 
