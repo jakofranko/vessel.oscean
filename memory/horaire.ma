@@ -6,6 +6,7 @@
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20171231 - 00
 20171025 + 00      Hundred rabbits      Photography          Move to New Zealand
+20171001 - 38      Markl                Development
 20170930 - 28      Oscean               Design
 20170929 - 29      Lietal               Typography
 20170928 - 38      Ronin                Tools
@@ -794,7 +795,7 @@
 20150809 ! 25      Pino                 Photography
 20150808 - 26      Dew                  Maintenance          1.5
 20150807 - 37      Eakout               Maintenance          1.0
-20150806 - 37  438 Eakout               Release              Prototype
+20150806 - 37  438 Eakout               Prototype            Prototype
 20150805 ! 26  437 Infrared             Photography          Habitat 67
 20150804 - 35      Pino                 Writing              Living aboard
 20150803 - 36      Advent v             Maintenance          0.1

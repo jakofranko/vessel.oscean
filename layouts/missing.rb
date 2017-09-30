@@ -15,7 +15,7 @@ def corpse.view
 
   if @query.to_i < 1 && @query.length < 4 then return "<p>Your search query is too short, try again with something longer than 4 characters.</p>" end
 
-  searchResult = search()
+  searchResult = search_view
 
   if searchResult.length == 0 then return ("<p>#{@template}</p>") end
   if searchResult.length == 1 then return ("<p>#{@template} Did you mean {{"+searchResult[0].first.to_s+"}}?</p>").markup end
@@ -43,7 +43,7 @@ def corpse.detail_view searchResult
 
 end
 
-def corpse.search
+def corpse.search_view
 
   searchResult = {}
   query = @query.downcase
