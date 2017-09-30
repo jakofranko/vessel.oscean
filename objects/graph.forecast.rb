@@ -100,7 +100,7 @@ class Graph_Forecast
   def style
 
     return "<style>
-    .graph.forecast { position:relative; height:#{@height + 45}px; font-family:'din_regular' }
+    .graph.forecast { position:relative; height:#{@height + 45}px; font-family:'din_regular'; margin-bottom:30px }
     .graph.forecast svg { overflow: hidden; padding-top:5px; height:149px; padding-top:30px; font-size:11px}
     .graph.forecast svg path { stroke:black; stroke-width:2; stroke-linecap:round; fill:none }
     .graph.forecast svg line { stroke:#ccc; stroke-width:2; stroke-linecap:round; fill:none }

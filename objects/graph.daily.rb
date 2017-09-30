@@ -37,7 +37,7 @@ class Graph_Daily
   def style
 
     return "<style>
-    .graph.daily { position:relative; height:#{@height + 45}px; }
+    .graph.daily { position:relative; height:#{@height + 45}px; margin-bottom:15px }
     .graph.daily cell { display:block; height:3px; width:3px; background:#eee; display:block; border-radius:1px; float:left; margin-bottom:2px; margin-right:1px; position:absolute; border-radius:20px}
     .graph.daily cell.audio { background:#72dec2}
     .graph.daily cell.visual { background:#000}
