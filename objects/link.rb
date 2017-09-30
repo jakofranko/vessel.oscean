@@ -30,7 +30,7 @@ class Link
 
   def action
 
-    if @url.include? "github" then return "View Sources" end
+    if @url.include? "github" then return "Fork" end
     if @url.include? "itunes" then return "Listen" end
     if @url.include? "xxiivv" then return "Project Page" end
     if @url.include? "bandcamp" then return "Listen" end

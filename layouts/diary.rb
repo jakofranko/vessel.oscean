@@ -17,4 +17,4 @@ def corpse.view
 
 end
 
-corpse.style = "body > media.photo { display:none} body yu.hd { margin-top:90px}"
+corpse.style = "body > media.photo { display:none}"

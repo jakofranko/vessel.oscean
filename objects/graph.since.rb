@@ -17,7 +17,7 @@ class Graph_Since
   def style
 
     return "<style>
-    .graph.since svg { width:#{@width}px; height:#{@height + 100}px; padding-bottom:30px; padding-top:60px; font-family:'din_regular'; font-size:11px; padding-left:2px}
+    .graph.since svg { width:#{@width}px; height:#{@height + 100}px; padding-bottom:30px; padding-top:60px; font-family:'input_mono_regular'; font-size:11px; padding-left:2px}
     .graph.since svg path { stroke:#ccc; fill:none; stroke-width:2; stroke-linecap:round}
     .graph.since svg path.hour_day_focus { stroke:#000; z-index:9000; position:relative}
     .graph.since svg path.sector_balance { stroke:#72dec2; }
@@ -25,8 +25,8 @@ class Graph_Since
     .graph.since svg path.spray { stroke:#ccc }
     .graph.since svg text.year { fill:#aaa}
     .graph.since svg text.focus { fill:#000}
-    .graph.since svg text.hour_day_focus { font-family:'din_bold'}
-    .graph.since svg text.sector_balance { font-family:'din_bold'; fill:#72dec2}
+    .graph.since svg text.hour_day_focus { font-family:'input_mono_medium'}
+    .graph.since svg text.sector_balance { font-family:'input_mono_medium'; fill:#72dec2}
     .graph.since svg text.spray { fill:#aaa}
     </style>"
 
@@ -111,6 +111,8 @@ class Graph_Since
         end
         if year == 2009
           labels += "<text class='year' x='#{0}' y='#{(@height+100) - (v * 15)}'>#{stat.to_s.gsub('_',' ').capitalize}</text>"
+        elsif year == 2010
+          labels += ""
         else
           labels += "<text class='#{stat}' x='#{segment_width*i}' y='#{(@height+100) - (v * 15)}'>#{value.trim(2)}</text>"
         end

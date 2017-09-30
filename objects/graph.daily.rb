@@ -30,7 +30,7 @@ class Graph_Daily
     end
     html += "<hr />"
 
-    return "#{style}<yu class='graph daily'>#{html}</yu>"
+    return "#{style}<yu class='graph daily' style='width:#{@width}px'>#{html}</yu>"
 
   end
 

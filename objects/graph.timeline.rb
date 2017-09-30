@@ -130,11 +130,11 @@ class Graph_Timeline
   def summary
 
     html = "
-    <t class='origin'>#{@logs.last.time.ago}</t>
-    <t class='latest'>#{@logs.first.time.ago}</t>
-    <t class='sector audio'>#{@logs.audio_ratio_percentage}% <t style='color:#999'>Audio</t></t>
-    <t class='sector visual'>#{@logs.visual_ratio_percentage}% <t style='color:#999'>Visual</t></t>
-    <t class='sector research'>#{@logs.research_ratio_percentage}% <t style='color:#999'>Research</t></t>
+    <t class='origin'></t>
+    <t class='sector latest'>#{@logs.last.time.ago}</t>
+    <t class='sector audio'><svg><line x1='1' y1='1' x2='15' y2='1'/></svg>#{@logs.audio_ratio_percentage}% <t style='color:#999'>Audio</t></t>
+    <t class='sector visual'><svg><line x1='1' y1='1' x2='15' y2='1'/></svg>#{@logs.visual_ratio_percentage}% <t style='color:#999'>Visual</t></t>
+    <t class='sector research'><svg><line x1='1' y1='1' x2='15' y2='1'/></svg>#{@logs.research_ratio_percentage}% <t style='color:#999'>Research</t></t>
     <t class='sector sb'>#{@logs.sector_balance_percentage}% <t style='color:#999'>Sb</t></t>
     <t class='sector right'>#{@against ? against_diff(@logs.hours,@against.hours) : ''} <a href='/Horaire'>#{@logs.hours} <t style='color:#999'>Fh</t></a></t>
     <t class='sector right'>#{@against ? against_diff(@logs.hour_day_focus,@against.hour_day_focus) : ''} #{@logs.hour_day_focus} <t style='color:#999'>Hdf</t></t>
@@ -212,21 +212,21 @@ class Graph_Timeline
     line_width = 2
 
     return "<style>
-    .graph.timeline { margin-bottom:30px}
+    .graph.timeline { margin-bottom:30px; font-family:'input_mono_regular'; font-size:11px;}
     .graph.timeline svg { overflow: hidden; padding-top:5px; height:149px; padding-bottom:10px}
     .graph.timeline svg path { stroke-width: #{line_width}; stroke:pink; stroke-linecap:round;}
     .graph.timeline svg path.audio { fill:#72dec2; stroke:#72dec2}
     .graph.timeline svg path.visual { fill:#000; stroke:black }
     .graph.timeline svg path.research { fill:none; stroke:#ccc }
-    .graph.timeline ln { display:block; position:relative; font-family:'din_regular'; font-size:12px;}
-    .graph.timeline t.origin { position: absolute;top: -#{@height + 30}px;left: 0px;color: #999 }
-    .graph.timeline t.latest { position: absolute;top: -#{@height + 30}px;right: 0px;color: #999 }
-    .graph.timeline t.sector { color: #000; display: inline-block;line-height: 30px; margin-right:15px}
-    .graph.timeline t.sector.audio { left:0px; border-bottom:1px solid #72dec2 }
-    .graph.timeline t.sector.visual { left:100px; border-bottom:1px solid black }
-    .graph.timeline t.sector.research { left:200px; border-bottom:1px dotted black }
+    .graph.timeline ln { display:block; position:relative;}
+    .graph.timeline t.origin { position: absolute;left: 0px;color: #999 }
+    .graph.timeline t.sector { color: #000; display: inline-block;line-height: 30px; margin-right:15px;}
+    .graph.timeline t.sector svg { width: 25px;height: 3px;display: inline-block;stroke: black;padding: 0px;stroke-width: 2px;stroke-linecap: round}
+    .graph.timeline t.sector.audio svg { stroke:#72dec2 }
+    .graph.timeline t.sector.visual svg { stroke:black }
+    .graph.timeline t.sector.research svg { stroke:#ccc }
     .graph.timeline t.sector.right { float:right; margin-right:0px; margin-left:15px}
-    .graph.timeline t.against { font-family:'din_medium'; color:#fff; border-radius:30px; padding:0px 5px}
+    .graph.timeline t.against { color:#fff; border-radius:30px; padding:0px 5px}
     .graph.timeline t.against.loss { background:#ccc}
     .graph.timeline t.against.gain { background:#72dec2}
     </style>"

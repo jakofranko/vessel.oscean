@@ -4,7 +4,7 @@
 
 HOME
   UNDE : Home
-  BREF : The {{Nataniev}} playground and ecosystems.
+  BREF : Welcome to the {{Nataniev}} playground and ecosystem.
   LONG
     & This wiki provides documentation and narrative context for the various {{Audio}}, {{Visual}} and {{Research}} projects of multimedia developer {{Devine Lu Linvega}}. If this is your first time around, a good place to begin your exploration is the {{Diary}}.
   LINK
@@ -360,10 +360,10 @@ TEN AXITECTURE
   BREF : {{Ten Axitecture}} is a {{Beldam Records}} release by {{Aliceffekt}}.
   LONG
     & The 4 tracks are interpretations of different fictional worlds that have played a role in the {{Aliceffekt}} narrative: Eudoxie from Calvino's Invisible Cities, Borges' Tlon and Schuiten's Citees Obscures.
+    * Tracklist
     @ discography ten axitecture
   LINK
     BAND : https://aliceffekt.bandcamp.com/album/ten-axitecture
-    ITUN : iTunes|https://itunes.apple.com/ca/album/ten-axitecture-ep/id937396413
 
 MINISCOPIE
   UNDE : Beldam records
@@ -606,7 +606,7 @@ RAFINOGRADE
 
 VERRECIEL
   UNDE : Desktop
-  BREF : {{Verreciel}} is a space exploration game.
+  BREF : {{Verreciel}} is an abstract space exploration game.
   TYPE : Diary
   LONG
     & The game joins the sequence of linguistically involved projects like {{Paradise}}, {{Hiversaires}} and {{Oquonie}}. 
@@ -675,7 +675,7 @@ MARKL
 
 OQUONIE
   UNDE : Desktop
-  BREF : {{Oquonie}} is a textless puzzle game.
+  BREF : {{Oquonie}} is a textless isometric puzzle game.
   LONG
     & You will not be alone, your incarnations will have the help of {_bizaroid_} characters speaking {{an obscure language|Camilare}}. Oquonie features an original {{soundtrack|Oquonie Soundtrack}} and was best described as {_{{Animal Crossing in a K-Hole|http://killscreendaily.com/articles/oquonie-maze-worth-entering/}}_}.
     ? Find help in the {{Oquonie Guide}}.
@@ -890,7 +890,6 @@ MARABU
     GITH : https://github.com/neauoire/Marabu
     ITCH : http://hundredrabbits.itch.io/Marabu
   TAGS : Guide
-  TYPE : Diary
 
 RONIN
   UNDE : Software
@@ -908,7 +907,6 @@ RONIN
 
 LEFT
   UNDE : Software
-  TYPE : Diary
   BREF : {{Left}} is a distractionless writing application.
   LONG
     & This {{software}} was created for {{Rekka}}, to help with the writing of the novel {_Wiktopher_}.
@@ -1650,9 +1648,9 @@ GAMME
   UNDE : Research
   TYPE : Archive
   TAGS : Portal
-  BREF : {_La {{Gamme}}_}, is a series of concepts and tools created toward the acceleration of the {_Grand Oeuvre_}.
+  BREF : The {{Gamme}} is a series of concepts and tools created toward the acceleration of the {_Grand Oeuvre_}.
   LONG
-    & A recurring topic throughout the Nataniev ecosystems is the trinity of Audio, visual and research. Of which the truer names, as per {{Lietal}}, should be physicality, Phisiognomy, and Psychology - Or even the subject itself, its shape & its concept. 
+    & A recurring topic throughout the {{Nataniev}} ecosystems is the trinity of {{Audio}}, {{Visual}} and {{Research}}. Of which the truer names, as per {{Lietal}}, should be physicality, Phisiognomy, and Psychology - Or even the subject itself, its shape & its concept. 
     & Trisight is a name given to the pursuit of the {_Grand Oeuvre_}, the trinity of its members. The {*Grand Oeuvre*}, as per Trisight vocabulary, is meant to equal the sum of one's output goals.
 
 NATANIEV
@@ -1678,7 +1676,7 @@ OSCEAN
   UNDE : Nataniev
   BREF : {{Oscean}} is a wiki engine.
   LONG
-    & {{Oscean}} was created on the 10th of August 2008, and was meant to be a repository of the sum of {{Devine|Devine lu linvega}}'s projects and notes. It has since inspired the creation of the {{Nataniev}} CLI tools which then became an operating system capable of hosting a suite of applications. Many of the on-site tools have been ported into native applications, such as {{Ronin}} and {{Marabu}}.
+    & {{Oscean}} was created on {{2008-08-10}}, and was meant to be a repository of the sum of {{Devine|Devine lu linvega}}'s projects and notes. It has since inspired the creation of the {{Nataniev}} CLI tools which then became an operating system capable of hosting a suite of applications. Many of the on-site tools have been ported into native applications, such as {{Ronin}} and {{Marabu}}.
 
 HORAIRE
   UNDE : Nataniev
@@ -1864,7 +1862,7 @@ DEVINE LU LINVEGA
   BREF : {{Devine lu linvega}} is a nomad, developer and designer.
   LONG
     & Operating under the {*Neauoire*} moniker, Devine is a polymath working on a series of {{experimental tools|Gamme}} and {{applications|Interactive}} involving language. Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}}, Devine hopes to inspire visitors to learn and to {{travel}}. 
-    ? To {{flee|Obliques}} is life,<br /> To linger is {{Death}}.
+    ? To {{flee|Obliques}} is life,<br /> To linger, {{Death}}.
     # <comment># Satellite Phone</comment>
     # Currently located in <b>{{$ hundredrabbits get_location}}</b>({{$ hundredrabbits get_position}}).
   LINK

@@ -32,15 +32,15 @@ class Index
     sub_counter = 1
     @indexes.each do |parent,children| 
       if parent.to_s == "root" then next end   
-      html += "<ln class='main'><t class='counter'>#{counter}.0</t> <a href='#{is_hash ? '#' : ''}#{parent.downcase.gsub(' ','_')}'>#{parent.capitalize}</a></ln>"
+      html += "<ln class='head'><a href='#{is_hash ? '#' : ''}#{parent.downcase.gsub(' ','_')}'>#{parent.capitalize}</a></ln>"
       sub_counter = 0
       children.each do |child|
         sub_counter += 1
-        html += "<ln><t class='counter'>#{counter}.#{sub_counter}</t> <a href='#{is_hash ? '#' : ''}#{child.downcase.gsub(' ','_')}'>#{child.capitalize}</a></ln>"
+        html += "<ln class='child'><a href='#{is_hash ? '#' : ''}#{child.downcase.gsub(' ','_')}'>#{child.capitalize}</a></ln>"
       end
       counter += 1
     end
-    return counter+sub_counter < 5 ? "" : "<yu id='index'>#{html}</yu>"
+    return counter+sub_counter < 5 ? "" : "<yu class='index'>#{html}</yu>"
 
   end
   

@@ -6,6 +6,7 @@
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20171231 - 00
 20171025 + 00      Hundred rabbits      Photography          Move to New Zealand
+20170930 - 28      Oscean               Design
 20170929 - 29      Lietal               Typography
 20170928 - 38      Ronin                Tools
 20170927 - 28      Ronin                Design
@@ -1674,7 +1675,7 @@
 20130311 - 35      Hiversaires          Testing              Devlog 22
 20130310 - 38      Oscean               Tools
 20130309 - 23      Japan                Photography          Sand Storm in Tokyo
-20130308 - 28  210 Mirrors              Photography          Office in Tokyo
+20130308 - 28      Mirrors              Photography          Office in Tokyo
 20130307 - 28  200 Hiversaires          Design               Devlog 20
 20130306 - 28      Hiversaires          Design
 20130305 - 26      Hiversaires          Design               Devlog 18
@@ -3852,7 +3853,7 @@
 20070325
 20070324
 20070323
-20070322 ! 35   76 Lietal               Documentation        Composing Words
+20070322 ! 35   76 Lietal               Release              Composing Words
 20070321
 20070320
 20070319

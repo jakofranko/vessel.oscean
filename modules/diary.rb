@@ -3,7 +3,7 @@
 
 corpse = $nataniev.vessels[:oscean].corpse
 
-corpse.style = "body > media.photo { display:none} body yu.hd { margin-top:90px} .pagination {text-align:right; font-family:'din_regular'; font-size:12px} .progress_bar { background:#ddd; display:block; height:1px; margin-bottom:15px} .progress_bar .bar { background:black; height:1px; display:block}"
+corpse.style = "body > media.photo { display:none} .pagination {text-align:right; font-family:'din_regular'; font-size:12px} .progress_bar { background:#ddd; display:block; height:1px; margin-bottom:15px} .progress_bar .bar { background:black; height:1px; display:block}"
 
 def corpse.view
 

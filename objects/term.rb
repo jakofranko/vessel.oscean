@@ -31,15 +31,15 @@ class Term
 
   end
 
-  def is_module    ; return @module end
-  def is_diary     ; return @module == "diary"    ? true : false end
-  def is_issue     ; return @module == "issue"    ? true : false end
-  def is_horaire   ; return @module == "horaire"  ? true : false end
-  def is_photo     ; return @module == "photo"    ? true : false end
-  def has_diaries  ; return diaries.length > 0    ? true : false end
-  def has_logs     ; return logs.length > 0       ? true : false end
-  def has_tag tag  ; return tags.include?(tag)    ? true : false end
-  
+  def is_module      ; return @module end
+  def is_diary       ; return @module == "diary"    ? true : false end
+  def is_issue       ; return @module == "issue"    ? true : false end
+  def is_horaire     ; return @module == "horaire"  ? true : false end
+  def is_photo       ; return @module == "photo"    ? true : false end
+  def has_diaries    ; return diaries.length > 0    ? true : false end
+  def has_logs       ; return logs.length > 0       ? true : false end
+  def has_tag tag    ; return tags.include?(tag)    ? true : false end
+  def has_flag flag  ; return @flag.to_s.include?(flag.to_s)    ? true : false end
   def is_type t ; return type && type.like(t) ? true : false end
 
   def parent
@@ -185,7 +185,7 @@ class Term
     elsif Media.new("badge",parent.parent.name).exists
       b = Media.new("badge",parent.parent.name)
     else
-      b = Media.new("badge","nataniev")
+      return nil
     end
     b.set_class("portal")
     return b

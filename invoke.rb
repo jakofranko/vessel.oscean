@@ -22,6 +22,7 @@ def corpse.build
   add_link("font.frank_ruhl.css",:lobby)
   add_link("font.lora.css",:lobby)
   add_link("font.din.css",:lobby)
+  add_link("font.archivo.css",:lobby)
   add_link("main.css")
 
   add_script("core/jquery.js",:lobby)
@@ -56,7 +57,30 @@ end
 def corpse.body
 
   html = ""
-  html += @term.diaries.length > 0 && @term.flag.to_s != 'no_photo' ? (media = @term.diary.media ; media.set_class(:photo) ; media.to_s) : ""
+
+  html += "
+  #{search}
+  <wr>
+    <yu class='logo'><a href='/Home'>#{@term.badge ? @term.badge : Media.new(:icon,:logo,:logo)}</a></yu>
+    #{header}
+    <yu class='mi'><wr>#{view}</wr></yu>
+    #{directory}
+  </wr>
+  #{footer}"
+ 
+  return html
+
+end
+
+def corpse.search
+
+  return "<yu class='search' id='search_panel'><input type='text' id='search_input' placeholder='#{@term.parent.name}/#{@term.name}'/></yu>"
+
+end
+
+def corpse.header
+
+  html = ""
 
   html_links = ""  
   if @term.link
@@ -65,35 +89,46 @@ def corpse.body
     end
   end
 
-  html += "
-  <yu class='logo'><wr><a href='/Home'>#{Media.new(:icon,:logo,:logo)}</a></wr></yu>
-  <yu class='hd #{@term.theme} #{@term.diaries.length > 0 && !@term.flag.to_s.include?('no_photo') ? 'has_photo' : 'no_photo'}'>
-    <wr>
-      #{@term.banner}
-    </wr>
-  </yu>
-  <yu class='search' id='search_panel'><wr><input type='text' id='search_input' placeholder='#{@term.parent.name}/#{@term.name}'/></wr></yu>
-  <yu class='mi'><wr>#{view}</wr></yu>
+  html += "<p>#{@term.bref}</p>"
+  html += @term.logs.length > 0 ? "<mini>Updated #{@term.logs.first.time.ago} #{html_links}</mini>" : "<mini>#{html_links}</mini>"
+  html += "#{@term.diary && @term.diary.media && !@term.has_flag(:no_photo) && !@term.is_type(:diary) ? @term.diary.media.to_img : ''}"
+  return "<yu class='hd'>#{html}</yu>"
+
+end
+
+def corpse.directory
+
+  topics = {}
+  @horaire.to_a(:log).each do |log|
+    if !topics[log.topic] then topics[log.topic] = {} ; topics[log.topic][:from] = log.date end
+    if log.task.like("release") then topics[log.topic][:release] = log.date end
+    topics[log.topic][:to] = log.date
+  end
+
+  html = ""
+  topics.each do |k,v|
+    if !v[:release] then next end
+    date_format = v[:to].y.to_i == v[:from].y.to_i ? "#{v[:from].y}" : "#{v[:to].y}—#{v[:from].y}"
+    html += "<ln>"+(k.to_url != @query.to_url ? "<a href='/#{k.to_url}'>#{k}</a>" : "<b>#{k}</b>")+" #{date_format}</ln>"
+  end
+  return "<yu class='directory'><list>#{html}</list></yu>"
+
+end
+
+def corpse.footer
+
+  return "
   <yu class='ft'>
     <wr>
-      <ln>
-        <a href='/Devine+Lu+Linvega' style='font-family:\"din_bold\"'><b>Devine Lu Linvega</b></a> © 2009-#{Time.now.year}<br /> 
-        <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>BY-NC-SA</a> 4.0
-      </ln><ln>
-        <a href='/Desamber'><b>#{Desamber.new}</b></a> <br />
-        <a href='/portal'>#{@lexicon.length} Projects</a>, over <a href='/horaire'>#{@horaire.length} Days</a>
-      </ln><ln>
-        Updated #{Log.new(@horaire.render.first).time.ago}<br />
-        <a href='/Nataniev'>Rendered in "+((Time.new - $nataniev.time) * 1000).to_i.to_s+"ms</a>
-      </ln><ln>
-        <a href='https://twitter.com/neauoire' target='_blank'>#{Media.new('icon','twitter')}</a>
-        <a href='https://github.com/neauoire' target='_blank'>#{Media.new('icon','github')}</a>
-      </ln>
+      <a href='https://twitter.com/neauoire' target='_blank'>#{Media.new('icon','twitter')}</a>
+      <a href='https://github.com/neauoire' target='_blank'>#{Media.new('icon','github')}</a>
+      <a href='/Devine+Lu+Linvega'><b>Devine Lu Linvega</b></a> © 2006—#{Time.now.year}<br /> 
+      <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>BY-NC-SA</a> 4.0<br /> 
       <hr />
     </wr>
   </yu>"
- 
-  return html
+
+  # <t>Rendered in "+((Time.new - $nataniev.time) * 1000).to_i.to_s+"ms</t>
 
 end
 

@@ -80,6 +80,7 @@ def corpse.view
     count += 1
   end
   
+  return ""
   return  "
   #{index}#{@term.long.runes}\n
   <h2>Featured Diary</h2>
