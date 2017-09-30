@@ -7,16 +7,16 @@
 THE OPAL INQUISITORS
   > <album>
   % cover.opal.inquisitors
-  - From Vetetrandes
+  - From {{Vetetrandes}}
   - Down The Vertical Canals
   - Exosphere Sunset(Ver'Tale)
-  - Moires Of Dei Dain
+  - Moires Of {{Dei Dain}}
   > </album>
 
 PORTALION
   > <album>
   % cover.portalion
-  - From Laeisth
+  - From {{Laeisth}}
   - The Sixth Season Festival
   - Tunnel Aeroports of Clionn
   - Moebius Lift's Ascension
@@ -41,7 +41,7 @@ DEI DAIN
 
 CHILDREN OF BRAMBLE
   > <album>
-  % cover.children.of.bramblef
+  % cover.children.of.bramble
   - Thievery of the Jade Books
   - The Court of Bramble
   - Decent Dinaisth
@@ -53,7 +53,7 @@ KNOWN MAGYE
   % cover.known.magye
   - Rotative Model
   - Across The Tunnels Of {{Known Magye}}
-  - Mother To The Sand Emperesses
+  - Mother To The {{Sand Emperesses|Rlionn}}
   - The Ceiling Stairs Of Triste Le Roy
   - Cavelight Bathing Ceremony
   - Weaponizing The Septechoes Battalions
@@ -65,7 +65,7 @@ EXTENDED SLEEP
   - Ash Cell
   - The Seventh Cardinal
   - Our Imperial Thought
-  - Known Magye
+  - {{Known Magye}}
   > </album>
 
 ~ Demo
@@ -87,16 +87,6 @@ SUPERVISITOR
   - METALIZER
   > </album>
 
-OLD_SUPERVISITOR
-  - In Virtue and Truth, Not Power
-  - A Stone Carving for an Angel
-  - The Fashion of the Soil
-  - Until We Meet
-  - The Fashion Of The Soul
-  - Meeting Supervisitor
-  - Porselaine
-  - The Saturnine Sail
-
 ~ Beldam
 
 VERRECIEL SOUNDTRACK
@@ -109,28 +99,40 @@ VERRECIEL SOUNDTRACK
   > </album>
 
 TEN AXITECTURE
+  > <album>
+  % cover.ten.axitecture
   - Simetries of Eudoxie
   - Cyclopaedia of Tlön
   - Journaux of Urbicande
-  - Opaques of Dinaisth
+  - Opaques of {{Dinaisth}}
+  > </album>
 
 LOOKING GLACE
+  > <album>
+  % cover.looking.glace
   - Delion's Den
   - Sunflowers & You & I
   - Vertical Mansion Annex
   - Persephone
+  > </album>
 
 MINISCOPIE
+  > <album>
+  % cover.miniscopie
   - Vol'Calibrelation
   - Cybil Calling
   - Fox & Chronologique
   - Hierophant
+  > </album>
 
 RAMIEL
+  > <album>
+  % cover.ramiel
   - Prism 01
   - Prism 02
   - Prism 03
   - Prism 04
+  > </album>
 
 GETAPAN 728K
   > <album>
@@ -140,43 +142,6 @@ GETAPAN 728K
   - 4
   - 4-6
   > </album>  
-
-~ Neauismetic
-
-VETETRANDES LETTRES
-  - The tales of Yajnev are coming into focus
-  - Building for the foundations of Eaurison
-  - We built cities in hexagons
-  - Coastal, seen from the other shores
-  - Our forgotten alphabet
-  - A Summer Spent Sunken (Ver'Tale)
-  - Never Tell Evelyn Of This Place (Ver'Tale)
-  - Building for the festival aux Jardins d'Opal (Ver'Tale)
-  - Views from within the Millionth Nebulum
-
-IDYLLIC MINERS
-  - Decent Aetdth
-  - The Wicked, The Twisted
-  - The Shamen, The Visitors
-  - Serial Procession of Yous
-  - Vampiric Oracles
-
-THE SIXTH SEASON
-  - The Dilitriel Rehersal
-  - Building for the festival aux Jardins d'Opal
-  - 90Va Deafening lights
-  - The Théâtre
-  - Lanterns, stars and Rlionn's daughters
-  - We are driving the Millionth Nebulum Compressor
-  - This time's place
-
-NETHER ESPER INSERTS
-  - Libri Qvinti Appendice.wav
-  - Visiting God First Era.wav
-  - Gyroscope VI.wav
-  - Theorem of Theories.wav
-  - Wise Persons.wav
-  - VY00RGYL
   
 ~ Extra
 
@@ -185,7 +150,7 @@ DAMOISEAU CANALX
   % cover.damoiseau.canalx
   - Korben Dallas (Morning Scene)
   - Pop In The Year 9000
-  - Blam, Le Passage Sacrilege
+  - {{Blam}}, Le Passage Sacrilege
   - A Thousand Times Parix
   > </album>
 
@@ -246,9 +211,56 @@ COLLECTED WORKS
   - Shipwreck(2009)
   - Telegraph City(2008)
   - Fire Works(2008)
-  - Merveilles Hayfields
+  - {{Merveilles}} Hayfields
   - Storm Transit
   - Glass Footsteps
   - Frames & Coastal Games
-  - Kanikule
+  - {{Kanikule}}
   > </album>
+
+OLD_SUPERVISITOR
+  - In Virtue and Truth, Not Power
+  - A Stone Carving for an Angel
+  - The Fashion of the Soil
+  - Until We Meet
+  - The Fashion Of The Soul
+  - Meeting Supervisitor
+  - Porselaine
+  - The Saturnine Sail
+
+~ Neauismetic
+
+VETETRANDES LETTRES
+  - The tales of Yajnev are coming into focus
+  - Building for the foundations of Eaurison
+  - We built cities in hexagons
+  - Coastal, seen from the other shores
+  - Our forgotten alphabet
+  - A Summer Spent Sunken (Ver'Tale)
+  - Never Tell Evelyn Of This Place (Ver'Tale)
+  - Building for the festival aux Jardins d'Opal (Ver'Tale)
+  - Views from within the Millionth Nebulum
+
+IDYLLIC MINERS
+  - Decent Aetdth
+  - The Wicked, The Twisted
+  - The Shamen, The Visitors
+  - Serial Procession of Yous
+  - Vampiric Oracles
+
+THE SIXTH SEASON
+  - The Dilitriel Rehersal
+  - Building for the festival aux Jardins d'Opal
+  - 90Va Deafening lights
+  - The Théâtre
+  - Lanterns, stars and Rlionn's daughters
+  - We are driving the Millionth Nebulum Compressor
+  - This time's place
+
+NETHER ESPER INSERTS
+  - Libri Qvinti Appendice.wav
+  - Visiting God First Era.wav
+  - Gyroscope VI.wav
+  - Theorem of Theories.wav
+  - Wise Persons.wav
+  - VY00RGYL

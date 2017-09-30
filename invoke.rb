@@ -39,18 +39,18 @@ def corpse.query q = nil
   @module  = q.include?(":") ? q.split(":").last : nil
   @query = @query.gsub("_"," ").gsub("+"," ")
 
-  load_folder("#{$nataniev.vessels[:oscean].path}/objects/*")
+  load_folder("#{@host.path}/objects/*")
 
-  @lexicon = Memory_Hash.new(:lexicon,$nataniev.vessels[:oscean].path)
-  @horaire = Memory_Array.new(:horaire,$nataniev.vessels[:oscean].path)
+  @lexicon = Memory_Hash.new(:lexicon,@host.path)
+  @horaire = Memory_Array.new(:horaire,@host.path)
 
   @term    = @lexicon.filter("term",@query,"term")
   @title   = "XXIIVV ∴ #{@term.name}"
 
-  load_any "#{$nataniev.vessels[:oscean].path}/pages",   @query
-  load_any "#{$nataniev.vessels[:oscean].path}/modules", @query
-  load_any "#{$nataniev.vessels[:oscean].path}/layouts", @term.type
-  load_any "#{$nataniev.vessels[:oscean].path}/modules", @module
+  load_any "#{@host.path}/pages",   @query
+  load_any "#{@host.path}/modules", @query
+  load_any "#{@host.path}/layouts", @term.type
+  load_any "#{@host.path}/modules", @module
 
 end
 
