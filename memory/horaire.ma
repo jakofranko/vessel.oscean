@@ -6,6 +6,7 @@
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20171231 - 00
 20171025 + 00      Hundred rabbits      Photography          Move to New Zealand
+20171002 - 36      Markl                Tools
 20171001 - 38      Markl                Development
 20170930 - 28      Oscean               Design
 20170929 - 29      Lietal               Typography
@@ -51,7 +52,7 @@
 20170820 - 28      Hundred rabbits      Video  
 20170819 - 39      Ronin                Tools                
 20170818 - 39      Nataniev             Tools                
-20170817 ! 37  216 Ronin                Tools                
+20170817 ! 37  216 Ronin                Prototype                
 20170816 ! 35  213 Offline              Writing              V Berth Library       Started a little document with notes on {{offline}} life.
 20170815 - 34      Oquonie              Update
 20170814 - 39      Marabu               Update 
@@ -145,7 +146,7 @@
 20170519 - 39      Lietal               Linguistics
 20170518 - 37      Pino                 Maintenance
 20170517 - 34  175 Instrument           Photography          Waterproof            This case shields the {{Instrument}} from salty sprays and moisture.
-20170516 @ 28  174 Instrument           Prototype
+20170516 @ 28  174 Instrument           Design
 20170515 - 28      Horaire              Design
 20170514 - 29      Horaire              Design
 20170513 - 28      Nataniev             Prototype
@@ -795,7 +796,7 @@
 20150809 ! 25      Pino                 Photography
 20150808 - 26      Dew                  Maintenance          1.5
 20150807 - 37      Eakout               Maintenance          1.0
-20150806 - 37  438 Eakout               Prototype            Prototype
+20150806 - 37  438 Eakout               Development          Prototype
 20150805 ! 26  437 Infrared             Photography          Habitat 67
 20150804 - 35      Pino                 Writing              Living aboard
 20150803 - 36      Advent v             Maintenance          0.1
@@ -934,8 +935,8 @@
 20150323 - 36      Mobile               Development
 20150322 - 36      Donsol               Development
 20150321 - 27      Donsol               Release
-20150320 - 26      Physical             Prototype
-20150319 - 29      Physical             Prototype
+20150320 - 26      Physical             Design
+20150319 - 29      Physical             Design
 20150318 - 36      Oscean               Update
 20150317 - 36      Neon hermetism       Writing
 20150316 - 25      Alphavetist          Maintenance          3.4
@@ -1015,7 +1016,7 @@
 20150101 - 35      Entaloneralie        Maintenance          2.1
 20141231 ! 17  282 Beldam records       Branding             Founded Beldam
 20141230 - 35      Noirca               Tools
-20141229 - 34  260 Keyboard 468         Design               Prototype
+20141229 - 34  260 Keyboard 468         Release              Prototype
 20141228 - 34      Keyboard 468         Tools
 20141227 - 34      Keyboard 468         Tools
 20141226 - 34      Keyboard 468         Prototype
@@ -1023,7 +1024,7 @@
 20141224 - 35      Mobile               Development
 20141223 - 35      Mobile               Tools
 20141222 - 35      Mobile               Development
-20141221 - 35      Mobile               Prototype
+20141221 - 35      Mobile               Development
 20141220 - 34      Dew                  Tools
 20141219 - 34      Oscean               Development
 20141218 - 37      Oscean               Maintenance          Automate
@@ -1445,7 +1446,7 @@
 20131028 - 34      Oscean               Development
 20131027 - 34      Oscean               Development
 20131026 - 19      Known magye          Composition
-20131025 - 36      Sketchbook           Prototype
+20131025 - 36      Sketchbook           Illustration
 20131024 - 34      Oscean               Development
 20131023 - 34      Oscean               Maintenance
 20131022 - 34      Horaire              Development
@@ -1569,10 +1570,10 @@
 20130626 - 25      Dei dain             Illustration
 20130625 ! 19  338 Dei dain             Release              Dei Dain
 20130624 - 27  336 Infrared             Photography          Infrared Set 2
-20130623 - 39      Sketchbook           Prototype            Number Study
-20130622 - 39      Sketchbook           Prototype
-20130621 - 39      Sketchbook           Prototype
-20130620 - 39      Sketchbook           Prototype
+20130623 - 39      Sketchbook           Illustration         Number Study
+20130622 - 39      Sketchbook           Illustration
+20130621 - 39      Sketchbook           Illustration
+20130620 - 39      Sketchbook           Illustration
 20130619 - 19  335 Dei dain             Performance          Mega Ran Tour - Toky
 20130618 - 39      Oscean               Design
 20130617 - 28      Oscean               Design               
@@ -1713,7 +1714,7 @@
 20130202 - 35      Hiversaires          Prototype
 20130201 - 27  173 Macro                Photography          Building a telescope
 20130131 - 25  243 Devine lu Linvega    Photography          Osaka Tempers
-20130130 - 29  172 Wallpaper            Prototype            Uzumaki
+20130130 - 29      Wallpaper            Illustration
 20130129 - 27      Wallpaper            Illustration
 20130128 - 35      Oscean               Maintenance
 20130127 - 17  167 Nor let the fools    Release              Nor let the fools
@@ -2031,13 +2032,13 @@
 20120321 ! 25  130 France               Photography          Paris
 20120320 - 25      Occulter             Design
 20120319
-20120318 - 29      Physical             Prototype
+20120318 - 29      Physical             Design
 20120317 - 15      Children of bramble  Composition
 20120316
-20120315 - 29      Physical             Prototype
+20120315 - 29      Physical             Design
 20120314 - 29   97 Ring of scales       Design               Ring of scales
 20120313 - 25      Infrared             Photography
-20120312 - 25      Physical             Prototype
+20120312 - 25      Physical             Design
 20120311 - 25      Physical             Design
 20120310 - 29   95 Hex hive necklace    Design               Hex Hive Necklace
 20120309
@@ -2108,16 +2109,16 @@
 20120104 - 35      Oscean               Development
 20120103 - 35      Oscean               Development
 20120102 - 35      Oscean               Design
-20120101 - 25      Physical             Prototype
+20120101 - 25      Physical             Design
 20111231
 20111230 - 15      Remix                Composition          iVardensphere - Ghos
-20111229 - 25      Physical             Prototype
+20111229 - 25      Physical             Design
 20111228 - 25      Merveilles portable  Design
 20111227 - 25      Merveilles portable  Testing
 20111226
 20111225
 20111224
-20111223 - 25      Physical             Prototype
+20111223 - 25      Physical             Design
 20111222
 20111221 - 25      Merveilles portable  Testing
 20111220 - 35      Merveilles portable  Testing

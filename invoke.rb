@@ -102,13 +102,15 @@ def corpse.directory
   @horaire.to_a(:log).each do |log|
     if !topics[log.topic] then topics[log.topic] = {} ; topics[log.topic][:from] = log.date end
     if log.task.like("release") then topics[log.topic][:release] = log.date end
+    if log.task.like("prototype") then topics[log.topic][:prototype] = log.date end
     topics[log.topic][:to] = log.date
   end
 
   html = ""
   topics.each do |k,v|
-    if !v[:release] then next end
+    if !v[:release] && !v[:prototype] then next end
     date_format = v[:to].y.to_i == v[:from].y.to_i ? "#{v[:from].y}" : "#{v[:to].y}—#{v[:from].y}"
+    if !v[:release] then date_format = "In Development" end
     html += "<ln>"+(k.to_url != @query.to_url ? "<a href='/#{k.to_url}'>#{k}</a>" : "<b>#{k}</b>")+" #{date_format}</ln>"
   end
   return "<yu class='directory'><list>#{html}</list></yu>"

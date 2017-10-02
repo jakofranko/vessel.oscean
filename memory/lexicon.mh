@@ -1678,7 +1678,10 @@ OSCEAN
   UNDE : Nataniev
   BREF : {{Oscean}} is a wiki engine.
   LONG
-    & {{Oscean}} was created on {{2008-08-10}}, and was meant to be a repository of the sum of {{Devine|Devine lu linvega}}'s projects and notes. It has since inspired the creation of the {{Nataniev}} CLI tools which then became an operating system capable of hosting a suite of applications. Many of the on-site tools have been ported into native applications, such as {{Ronin}} and {{Marabu}}.
+    & {{Oscean}} was initiated on {{2008-08-10}}, and was meant to be a repository of the sum of {{Devine|Devine lu linvega}}'s projects and notes. 
+    & It has since expanded into a network of tools, also known as {{Nataniev}}, which now hosts a series of Nataniev Native applications such as {{Ronin}}, {{Marabu}} and its social feed protocole {{Rotonde}}.
+  LINK
+    GITH : https://github.com/XXIIVV/vessel.oscean
 
 HORAIRE
   UNDE : Nataniev
