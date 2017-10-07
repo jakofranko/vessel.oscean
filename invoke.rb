@@ -74,7 +74,7 @@ end
 
 def corpse.search
 
-  return "<yu class='search' id='search_panel'><input type='text' id='search_input' placeholder='#{@term.parent.name}/#{@term.name}'/></yu>"
+  return "<yu class='search' id='search_panel'><a href='/#{@term.parent.name.to_url}'>#{@term.parent.name}</a> : <input type='text' id='search_input' placeholder='#{@term.name}'/></yu>"
 
 end
 
@@ -90,7 +90,7 @@ def corpse.header
   end
 
   html += "<p>#{@term.bref}</p>"
-  html += @term.logs.length > 0 ? "<mini>Updated #{@term.logs.first.time.ago} #{html_links}</mini>" : "<mini>#{html_links}</mini>"
+  html += @term.logs.length > 0 ? "<mini>Updated <a href='/#{@term.name.to_url}:horaire'>#{@term.logs.first.time.ago}</a> #{html_links}</mini>" : "<mini>#{html_links}</mini>"
   html += "#{@term.diary && @term.diary.media && !@term.has_flag(:no_photo) && !@term.is_type(:diary) ? @term.diary.media.to_img : ''}"
   return "<yu class='hd'>#{html}</yu>"
 

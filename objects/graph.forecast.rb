@@ -87,7 +87,6 @@ class Graph_Forecast
     lines += "<line x1='#{28.5 * (arc * 2) + 30}' y1='#{0}' x2='#{28.5 * (arc * 2) + 30}' y2='#{65}' style='stroke:black; stroke-dasharray:2,4'/>"
     labels += "<text x='#{27.2 * (arc * 2) + 30}' y='#{-15}'>In 21 Days</text>"
 
-
     labels += "<text x='2' y='#{@y[:audio]+2}'>Audio</text>"
     labels += "<text x='2' y='#{@y[:visual]+2}'>Visual</text>"
     labels += "<text x='2' y='#{@y[:research]+2}'>Research</text>"

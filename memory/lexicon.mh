@@ -890,7 +890,7 @@ MARABU
   BREF : {{Marabu}} is a programmable music tracker.
   LONG
     & The tracker is built as a fork to the open-source Soundbox and is meant to be an improvement on functionalities and design, while remaining aimed at creating 4K/8K demos.
-    & You can find the full guide {{here|https://github.com/hundredrabbits/Marabu}}.
+    & You can view the complete {{Marabu Manual|https://github.com/hundredrabbits/Marabu}} on Github.
   LINK
     GITH : https://github.com/neauoire/Marabu
     ITCH : http://hundredrabbits.itch.io/Marabu
@@ -906,6 +906,7 @@ RONIN
     # brush:color #72dec2
     # brush.add_pointer 3,3
     & It is meant to replace the use of Photoshop for simple repetitive tasks, basic illustration jobs and the creation of grid based designs. Most of the iconography of {{Nataniev}} has been created with {_Ronin_}.
+    & You can view the complete {{Ronin Manual|https://github.com/hundredrabbits/Marabu}} on Github.
   LINK
     GITH : https://github.com/hundredrabbits/Ronin
     YOUT : https://youtu.be/gifzjhyBwOc
@@ -914,8 +915,8 @@ LEFT
   UNDE : Software
   BREF : {{Left}} is a distractionless writing application.
   LONG
-    & This {{software}} was created for {{Rekka}}, to help with the writing of the novel {_Wiktopher_}.
-    & The source files are available on Github, and executables should be available on Itch.io shortly.
+    & This {{software}} was created to help {{Rekka}} with the writing of her upcoming novel {_Wiktopher_}.
+    & You can view the complete {{Left Manual|https://github.com/hundredrabbits/Left}} on Github.
   LINK
     GITH : https://github.com/hundredrabbits/Left
     ITCH : http://hundredrabbits.itch.io/Left

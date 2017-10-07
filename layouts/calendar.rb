@@ -6,7 +6,7 @@ corpse = $nataniev.vessels[:oscean].corpse
 corpse.style = "
 .calendar { clear:both; margin-bottom:30px}
 .calendar month { display:block; width:20%;float:left; font-family:'din_regular'; font-size:11px; margin-bottom:15px; text-align:center}
-.calendar month yu.name { margin-bottom:5px; margin-right:15px; text-align:left; line-height:30px; padding-left:5px}
+.calendar month yu.name { margin-bottom:5px; margin-right:15px; text-align:left; line-height:20px; padding-left:5px; font-family:'din_medium'; text-transform:uppercase}
 .calendar day { display:block; float:left; width:14%; line-height:20px; text-align:center; color:#ccc}
 .calendar day.log { color:#000}
 .calendar day.event { font-family:'din_medium'; background:#ddd; color:black} 
@@ -123,7 +123,7 @@ def corpse.layout_activity
     sum += log.value
   end
 
-  html += "<list class='simple' style='columns:4'>"
+  html += "<h3>Projects</h3><list class='simple' style='columns:2'>"
   count = 0
   misc = 0
   topics.sort_by {|_key, value| value}.reverse.each do |name,value|
@@ -134,7 +134,7 @@ def corpse.layout_activity
   end
   html += topics.length > 14 ? "<ln>#{topics.length - 14} Misc <t style='float:right; color:#aaa'>#{misc.to_f.percent_of(sum).trim(2)}%</t></ln>" : ""
   html += "<hr /></list>"
-  html += "<list class='simple' style='columns:4'>"
+  html += "<h3>Tasks</h3><list class='simple' style='columns:2'>"
   count = 0
   tasks.sort_by {|_key, value| value}.reverse.each do |name,value|
     if count > 14 then misc += value ; next end
@@ -166,13 +166,13 @@ def corpse.view
   
   html += "<h2>#{@query}</h2>"
   html += build_calendar
-  html += "<h2>Events</h2>"
+  html += "<h3>Events</h3>"
   html += "<list class='simple' style='columns:2'>"
   @events.sort.reverse.each do |y,ms|
     ms.sort.reverse.each do |m,ds|
       ds.sort.reverse.each do |d,data|
         date_str = "#{y.to_s.prepend("0",2)}#{m.to_s.prepend("0",2)}#{d.to_s.prepend("0",2)}"
-        html += "<ln class='#{data[:style]}'>#{date_str} <a href='/#{data[:project].to_url}'>#{data[:name]}</a></ln>"
+        html += "<ln class='#{data[:style]}'><a href='/#{data[:project].to_url}'>#{data[:name]}</a></ln>"
       end
     end
   end
