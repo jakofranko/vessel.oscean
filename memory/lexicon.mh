@@ -671,7 +671,7 @@ OCCULTER
 
 MARKL
   UNDE : Desktop
-  BREF : {{Markl}} is an upcoming AI Arena game.
+  BREF : {{Markl}} is an upcoming Tactical AI Battle Arena(TAIBA).
   LONG
     & {*Markl*} is a game in which players must {{program|https://twitter.com/neauoire/status/914334851813269504}} their character's fighting style, to face various opponents in a battle happening too fast for humans to compete.
     & There are 4 characters to choose from, with unique attributes and stats, allowing for varied loadouts and combat styles.
@@ -1324,8 +1324,7 @@ NOHLXESERRE
   UNDE : Neon hermetism
   BREF : {{Nohlxeserre}} is a language that, when heard or read, delivers a richer and more precise rendition of its meaning than actual experience.
   LONG
-    & The richness and detail of experiencing an event, pales in comparison to have it recited.
-    & Effictively induce the symptoms of {{Neausea}}, see {{Paradichlorisse}}.
+    & The richness and detail of experiencing an event, pales in comparison to having it recited – Effictively inducing the symptoms of {{Neausea}}, see {{Paradichlorisse}}.
 
 FEU
   UNDE : Neon hermetism
@@ -1390,7 +1389,7 @@ CHARACTERS
 
 YAJNEV
   UNDE : Characters
-  BREF : {{Yajnev}}, who's {_death_} engulfed {{Vetetrandes}} in an opaque and impenetrable {_lock_}, was the {{Neon Hermetism}} founder.
+  BREF : {{Yajnev}}, who's {_death_} engulfed {{Vetetrandes}} in an opaque and impenetrable {{lock|Ehrivevnv}}, was the {{Neon Hermetism}} founder.
   LONG
     & In his life, Yajnev worked with {{Andes}} in what came to be the {{Neon Hermetism}} and wrote the original papers on {{Neausea}}.
 
@@ -1419,8 +1418,7 @@ PARADICHLORISSE
   UNDE : Characters
   BREF : {{Paradichlorisse}} has appeared around the {{Yajnev Collapse|Yajnev}}, known to speak a dialect of {{Nohlxeserre}}.
   LONG
-    & All pilgrims reaching it, collapse and eventually starve as they experience {_every life and every death_} through the speech of the infinite being.
-    & {_When Paradichlorisse spoke of silence, silence fell._}
+    & Upon reaching its location, pilgrims collapse as they begin experiencing {_every life and every death_} through the {{speech|Nohlxeserre}} of the infinite being. {_When Paradichlorisse spoke of silence, silence fell._}
 
 ~ Photography
 
