@@ -59,7 +59,7 @@
 20170819 - 39      Ronin                Tools                
 20170818 - 39      Nataniev             Tools                
 20170817 ! 37  216 Ronin                Prototype                
-20170816 ! 35  213 Offline              Writing              V Berth Library       Started a little document with notes on {{offline}} life.
+20170816 ! 35  213 Off the grid         Writing              V Berth Library       Started a little document with notes on {{offline}} life.
 20170815 - 34      Oquonie              Update
 20170814 - 39      Marabu               Update 
 20170813 ! 28  212 Marabu               Design               Version 2             Built a {{Nataniev}} native version of {{Marabu}} tracker music sequencer.
