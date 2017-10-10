@@ -6,6 +6,8 @@
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20171231 - 00
 20171025 + 00      Hundred rabbits      Photography          Move to New Zealand
+20171010 - 23      Lietal               Typography
+20171009 - 32      Neauismetica         Writing
 20171008 - 28      Markl                Design
 20171007 - 35      Markl                Development
 20171006 - 36      Markl                Development

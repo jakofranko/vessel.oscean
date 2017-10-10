@@ -122,15 +122,14 @@ def corpse.footer
   return "
   <yu class='ft'>
     <wr>
+      <a href='/Rotonde'>#{Media.new('icon','oscean').to_s}</a>
       <a href='https://twitter.com/neauoire' target='_blank'>#{Media.new('icon','twitter')}</a>
       <a href='https://github.com/neauoire' target='_blank'>#{Media.new('icon','github')}</a>
       <a href='/Devine+Lu+Linvega'><b>Devine Lu Linvega</b></a> © 2006—#{Time.now.year}<br /> 
-      <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>BY-NC-SA</a> 4.0<br /> 
+      <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>BY-NC-SA</a> 4.0 <t>Rendered in "+((Time.new - $nataniev.time) * 1000).to_i.to_s+"ms</t><br /> 
       <hr />
     </wr>
   </yu>"
-
-  # <t>Rendered in "+((Time.new - $nataniev.time) * 1000).to_i.to_s+"ms</t>
 
 end
 

@@ -72,6 +72,7 @@ def corpse.view
       if link[0,1] == "$" then next end
       if link[0,1] == "#" then next end
       if link[0,1] == "!" then next end
+      if link[4,1] == "-" then next end
       if !_lexicon[link.upcase] then text += "<b>X Links</b>     #{source}:#{link}\n" ; end
     end
   end
