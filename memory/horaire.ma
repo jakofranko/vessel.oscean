@@ -6,6 +6,10 @@
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20171231 - 00
 20171025 + 00      Hundred rabbits      Photography          Move to New Zealand
+20171014 @ 39  172 Rotonde              Tools
+20171013 - 39      Rotonde              Tools
+20171012 - 29      Rotonde              Design
+20171011 - 25      Lietal               Typography
 20171010 - 23      Lietal               Typography
 20171009 - 32      Neauismetica         Writing
 20171008 - 28      Markl                Design

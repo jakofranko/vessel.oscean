@@ -1668,12 +1668,11 @@ ROTONDE
   UNDE : Nataniev
   BREF : {{Rotonde}} is a social feed protocol.
   LINK
-    OFFI : http://rotonde.xxiivv.com
     GITH : https://github.com/Rotonde
   LONG
-    & {{Rotonde}} is simply the commonly agreed upon specifications of a JSON object shared between portal neighbors of {*~rotonde.xxiivv.com*}.
+    & {{Rotonde}} is a commonly agreed upon specifications of a JSON object shared between portal neighbors. It currently operates on the decentralized web protocole {{dat:|https://datproject.org}}.
     & The feed is not attached to any particular client, language or server. The goal of this project is to share decentralized editable, protected, and version-controlled entries.
-    & A list of active feeds is maintained by {{~rotonde.cblgh.org|http://rotonde.cblgh.org/crawl}}.
+    & You can see the setup guide {{here|https://louis.center/p2p-social-networking/}}.
 
 PARADISE
   UNDE : Interactive
