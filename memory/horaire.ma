@@ -6,6 +6,12 @@
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20171231 - 00
 20171025 + 00      Hundred rabbits      Photography          Move to New Zealand
+20171020 - 37      Rotonde              Tools
+20171019 - 38      Rotonde              Tools
+20171018 - 39      Rotonde              Tools
+20171017 - 38      Rotonde              Tools
+20171016 - 37      Rotonde              Tools
+20171015 - 38      Rotonde              Tools
 20171014 @ 39  172 Rotonde              Tools
 20171013 - 39      Rotonde              Tools
 20171012 - 29      Rotonde              Design
