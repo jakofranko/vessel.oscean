@@ -8,11 +8,11 @@ def corpse.view
   html = "#{@term.long.runes}"
   html += "<mini>Read more {{International Fixed Calendar|https://en.wikipedia.org/wiki/International_Fixed_Calendar}}.</mini>".markup
   html += "<h2>Equivalency Table</h2>"
-  html += "<list>"
+  html += "<table>"
   desamber_calendar.each do |month_name,dates|
-    html += "<ln><b>#{month_name}</b> #{dates.first} #{dates.first != dates.last ? 'to '+dates.last : ''}</ln>"
+    html += "<tr><td><b>#{month_name}</b> #{dates.first} #{dates.first != dates.last ? 'to '+dates.last : ''}</td></tr>"
   end
-  html += "</list>"
+  html += "</table>"
 
   return html
 

@@ -5,7 +5,17 @@
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20171231 - 00
-20171025 + 00      Hundred rabbits      Photography          Move to New Zealand
+20171031 + 00      Hundred rabbits      Photography          Move to New Zealand
+20171030 - 38      Nataniev             Management
+20171029 - 37      Nataniev             Management
+20171028 - 38      Nataniev             Management
+20171027 - 37      Nataniev             Management
+20171026 - 36      Nataniev             Management
+20171025 - 36      Nataniev             Management
+20171024 - 32      Nataniev             Management
+20171023 - 32      Nataniev             Management
+20171022 - 31      Nataniev             Management
+20171021 - 22      Rotonde              Design
 20171020 - 37      Rotonde              Tools
 20171019 - 38      Rotonde              Tools
 20171018 - 39      Rotonde              Tools

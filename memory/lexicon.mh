@@ -8,7 +8,6 @@ HOME
   LONG
     & This wiki provides documentation and narrative context for the various {{Audio}}, {{Visual}} and {{Research}} projects of multimedia developer {{Devine Lu Linvega}}. If this is your first time around, a good place to begin your exploration is the {{Diary}}.
   LINK
-    GITH : https://github.com/neauoire
     TWIT : https://twitter.com/neauoire
 
 ~ Sectors
@@ -1355,7 +1354,7 @@ KANIKULE
   UNDE : Dinaisth
   BREF : {{Kanikule}} is an infinite ocean that an immortal will spend an infitite amount of time crossing, effectively reaching the outer-shores mortal.
   LONG
-    & While one can sail away from the point that is Neau, one cannot return to it. 
+    & While one can sail away from the point that is {{Neau}}, one cannot return to it. 
 
 NEAU
   UNDE : Kanikule
@@ -1666,13 +1665,21 @@ DESAMBER
 
 ROTONDE
   UNDE : Nataniev
-  BREF : {{Rotonde}} is a social feed protocol.
+  BREF : {{Rotonde}} is a decentralized social network.
   LINK
     GITH : https://github.com/Rotonde
   LONG
-    & {{Rotonde}} is a commonly agreed upon specifications of a JSON object shared between portal neighbors. It currently operates on the decentralized web protocole {{dat:|https://datproject.org}}.
+    & {{Rotonde}} is a commonly agreed upon specifications of a JSON object shared between {{members of the network|https://github.com/Rotonde}}. It currently operates on the decentralized {{dat|https://datproject.org}} protocole.
     & The feed is not attached to any particular client, language or server. The goal of this project is to share decentralized editable, protected, and version-controlled entries.
-    & You can see the setup guide {{here|https://louis.center/p2p-social-networking/}}.
+    & You can see the setup guide {{here|https://louis.center/p2p-social-networking/}}, and follow daily decentralized internet news on {{The Daily Descent}}.
+
+THE DAILY DESCENT
+  UNDE : Rotonde
+  BREF : {{The Daily Descent}} is a daily P2P news blog within {{Rotonde}}.
+  LONG
+    & The blog features recent decentralized internet developments, broadcasted as a P2P {{Rotonde}} feed. The simpliest way to access the blog is to download the {{Beaker Browser|https://beakerbrowser.com}} and to navigate to {{its portal|dat://portal-thedailydescent.hashbase.io/}}.
+  LINK
+    ROTO : dat://portal-thedailydescent.hashbase.io/
 
 PARADISE
   UNDE : Interactive

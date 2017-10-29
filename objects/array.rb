@@ -96,13 +96,14 @@ class Array
   def hour_task_focus
 
     v = hours/tasks.length.to_f
+
     return "#{(v*10).to_i/10.0}"
 
   end
 
   def hour_task_focus_precentage
 
-    v = hour_task_focus.to_f / (hours/1.0)
+    v = hour_task_focus.to_f / (days/2.0)
 
     return "#{((v * 100)*10).to_i/10.0}"
 
@@ -209,5 +210,8 @@ class Array
   def audio_ratio_percentage ; return "#{((audio_ratio * 100)*10).to_i/10.0}" end
   def visual_ratio_percentage ; return "#{((visual_ratio * 100)*10).to_i/10.0}" end
   def research_ratio_percentage ; return "#{((research_ratio * 100)*10).to_i/10.0}" end
+
+  def effectiveness ; return "#{hour_day_focus_percentage}" end
+  def efficiency ; return "#{hour_task_focus_precentage}" end
 
 end

@@ -26,10 +26,12 @@ class Graph_Forecast
 
     i = 0.5
     @logs[0,7].reverse.each do |log|
+      if log.sector == :misc then next end
       a.push({:day => log.time.d, :sector => log.sector, :value => log.value, :past => true})
     end
 
     generate_forecast(@days_ahead).each do |log|
+      if log.sector == :misc then next end
       a.push({:day => log.time.d, :sector => log.sector, :value => log.value})
     end
 

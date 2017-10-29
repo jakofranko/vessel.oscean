@@ -3,6 +3,9 @@
 
 corpse = $nataniev.vessels[:oscean].corpse
 
+corpse.style =  "
+    body > wr { }"
+
 def corpse.view
 
   html = ""
@@ -24,7 +27,7 @@ def corpse.view
     #{Graph_Timeline.new(filtered_logs,0,365)}
 
     <h2 id='hdf'>Hdf</h2>
-    <p>For the past #{filtered_logs.length} days, I have rated my dedication, or enthousiasm, in the proeminent task of that day. A {*Focus Hour*}({#Fh#}), is an index of focus in a single task over the total available daily work hours. The {*Hour Day Focus*}({#Hdf#}) is the average {#Fh#} of a project or task, over a number of days; for instance, #{home_term.logs[0,365].hours}{#Fh#} over 365 days, is #{filtered_logs[0,365].hour_day_focus}{#Hdf#}. </p>
+    <p>For the past #{filtered_logs.length} days, I have rated my dedication, or enthousiasm, in the proeminent task of each day. A {*Focus Hour*}({#Fh#}), is an index of focus in a single task over the total available daily work hours. The {*Hour Day Focus*}({#Hdf#}) is the average {#Fh#} of a project or task, over a number of days; for instance, #{home_term.logs[0,365].hours}{#Fh#} over 365 days, is #{filtered_logs[0,365].hour_day_focus}{#Hdf#}. </p>
     #{Graph_Since.new(filtered_logs)}
 
     <h2 id='hto_hta'>HTo, HTa & Focus</h2>

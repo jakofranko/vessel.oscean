@@ -29,7 +29,8 @@ def corpse.build
   add_script("main.js")
   add_script("aeth.js")
   add_script("septambres.js")
-  add_footer("<script>on_resize(); new Septambres().parse();</script>")
+  add_script("clock.js")
+  add_footer("<script>on_resize(); new Septambres().parse(); var clock = new Clock(); clock.start(); </script>")
 
 end
 
@@ -90,7 +91,7 @@ def corpse.header
   end
 
   html += "<p>#{@term.bref}</p>"
-  html += @term.logs.length > 0 ? "<mini>Updated <a href='/#{@term.name.to_url}:horaire'>#{@term.logs.first.time.ago}</a> #{html_links}</mini>" : "<mini>#{html_links}</mini>"
+  html += @term.logs.length > 0 ? "<mini>Updated <a class='date' href='/#{@term.name.to_url}:horaire'>#{@term.logs.first.time.ago}</a> #{html_links}</mini>" : "<mini>#{html_links}</mini>"
   html += "#{@term.diary && @term.diary.media && !@term.has_flag(:no_photo) && !@term.is_type(:diary) ? "<a href='/Diary'>"+@term.diary.media.to_img+"</a>" : ''}"
   return "<yu class='hd'>#{html}</yu>"
 
@@ -122,9 +123,11 @@ def corpse.footer
   return "
   <yu class='ft'>
     <wr>
-      <a href='/Rotonde'>#{Media.new('icon','oscean').to_s}</a>
-      <a href='https://twitter.com/neauoire' target='_blank'>#{Media.new('icon','twitter')}</a>
-      <a href='https://github.com/neauoire' target='_blank'>#{Media.new('icon','github')}</a>
+      <a title='Entaloneralie' href='/Desamber' id='clock' style='float:left; margin-right:20px; margin-top:5px; opacity:0.5'></a>
+      <a title='Twitter' href='https://twitter.com/neauoire' target='_blank'>#{Media.new('icon','twitter')}</a>
+      <a title='Github' href='https://github.com/neauoire' target='_blank'>#{Media.new('icon','github')}</a>
+      <a title='Rotonde' href='dat://2f21e3c122ef0f2555d3a99497710cd875c7b0383f998a2d37c02c042d598485/' target='_blank'>#{Media.new('icon','rotonde')}</a>
+      <a href='/Nataniev'>#{Media.new('icon','oscean').to_s}</a>
       <a href='/Devine+Lu+Linvega'><b>Devine Lu Linvega</b></a> © 2006—#{Time.now.year}<br /> 
       <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>BY-NC-SA</a> 4.0 <t>Rendered in "+((Time.new - $nataniev.time) * 1000).to_i.to_s+"ms</t><br /> 
       <hr />
