@@ -41,7 +41,7 @@ class Link
     if @url.include? "youtu" then return "Watch" end
     if @url.include? "drive.google" then return "Download" end
     if @url.include? "itch.io" then return "Download" end
-      if @url.include? "dat:" then return "DAT://" end
+    if @url.include? "dat:" then return "DAT Protocol" end
       
     return "External"
 

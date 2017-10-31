@@ -129,20 +129,20 @@ def corpse.layout_activity
   topics.sort_by {|_key, value| value}.reverse.each do |name,value|
     if count > 14 then misc += value ; next end
     if value == 0 then next end
-    html += "<ln><a href='/#{name.to_url}' title='#{value}fh'>#{name}</a> <t style='float:right; color:#aaa'>#{value.to_f.percent_of(sum).trim(2)}%</t></ln>"
+    html += "<ln><a href='/#{name.to_url}' title='#{value}fh'>#{name}</a> <t style='float:right; color:#aaa; padding-right:10px'>#{value.to_f.percent_of(sum).trim(2)}%</t></ln>"
     count += 1
   end
-  html += topics.length > 14 ? "<ln>#{topics.length - 14} Misc <t style='float:right; color:#aaa'>#{misc.to_f.percent_of(sum).trim(2)}%</t></ln>" : ""
+  html += topics.length > 14 ? "<ln>#{topics.length - 14} Misc <t style='float:right; color:#aaa; padding-right:10px'>#{misc.to_f.percent_of(sum).trim(2)}%</t></ln>" : ""
   html += "<hr /></list>"
   html += "<h3>Tasks</h3><list class='simple' style='columns:2'>"
   count = 0
   tasks.sort_by {|_key, value| value}.reverse.each do |name,value|
     if count > 14 then misc += value ; next end
     if value == 0 then next end
-    html += "<ln><a href='/#{name.to_url}' title='#{value}fh'>#{name}</a> <t style='float:right; color:#aaa'>#{value.to_f.percent_of(sum).trim(2)}%</t></ln>"
+    html += "<ln><a href='/#{name.to_url}' title='#{value}fh'>#{name}</a> <t style='float:right; color:#aaa; padding-right:10px'>#{value.to_f.percent_of(sum).trim(2)}%</t></ln>"
     count += 1
   end
-  html += tasks.length > 14 ? "<ln>#{tasks.length - 14} Misc <t style='float:right; color:#aaa'>#{misc.to_f.percent_of(sum).trim(2)}%</t></ln>" : ""
+  html += tasks.length > 14 ? "<ln>#{tasks.length - 14} Misc <t style='float:right; color:#aaa; padding-right:10px'>#{misc.to_f.percent_of(sum).trim(2)}%</t></ln>" : ""
   html += "<hr /></list>"
 
   return html

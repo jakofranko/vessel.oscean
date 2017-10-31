@@ -1657,8 +1657,8 @@ DESAMBER
   BREF : {{Desamber}} is the time-format of the {{Nataniev}} ecosystems.
   LONG
     & The {_Equal Month calendar_} has {*13 months*} of {*28 days*} each and the 365th day of the year is the {_Year Day_}, preceeded by the {_Leap Day_} on leap years. 
-    = Today is {{!desamber}}.
-    & The current {{Nataniev}} time is {{!clock}}. The clock has 6 digits, where their overall value is a ratio over the completion of the day. For example, Noon is 500, 6AM is 250 and 6PM is 750. 
+    = Today is {{!desamber}}.<br />The time is {{!clock}}.
+    & The clock has 6 digits, where their overall value is a ratio over the completion of the day. For example, Noon is 500, 6AM is 250 and 6PM is 750. 
     & The clock is display in the 000:000 format, where the shortest pulse is equal to 8.64 milliseconds, the second shortest to 86.4 and so on.
   LINK
     GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
@@ -1666,12 +1666,13 @@ DESAMBER
 ROTONDE
   UNDE : Nataniev
   BREF : {{Rotonde}} is a decentralized social network.
-  LINK
-    GITH : https://github.com/Rotonde
   LONG
     & {{Rotonde}} is a commonly agreed upon specifications of a JSON object shared between {{members of the network|https://github.com/Rotonde}}. It currently operates on the decentralized {{dat|https://datproject.org}} protocole.
     & The feed is not attached to any particular client, language or server. The goal of this project is to share decentralized editable, protected, and version-controlled entries.
     & You can see the setup guide {{here|https://louis.center/p2p-social-networking/}}, and follow daily decentralized internet news on {{The Daily Descent}}.
+  LINK
+    GITH : https://github.com/Rotonde
+    ROTO : dat://2f21e3c122ef0f2555d3a99497710cd875c7b0383f998a2d37c02c042d598485/
 
 THE DAILY DESCENT
   UNDE : Rotonde

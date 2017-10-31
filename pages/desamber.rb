@@ -7,12 +7,12 @@ def corpse.view
 
   html = "#{@term.long.runes}"
   html += "<mini>Read more {{International Fixed Calendar|https://en.wikipedia.org/wiki/International_Fixed_Calendar}}.</mini>".markup
-  html += "<h2>Equivalency Table</h2>"
-  html += "<table>"
-  desamber_calendar.each do |month_name,dates|
-    html += "<tr><td><b>#{month_name}</b> #{dates.first} #{dates.first != dates.last ? 'to '+dates.last : ''}</td></tr>"
-  end
-  html += "</table>"
+  # html += "<h2>Equivalency Table</h2>"
+  # html += "<table>"
+  # desamber_calendar.each do |month_name,dates|
+  #   html += "<tr><td><b>#{month_name}</b> #{dates.first} #{dates.first != dates.last ? 'to '+dates.last : ''}</td></tr>"
+  # end
+  # html += "</table>"
 
   return html
 

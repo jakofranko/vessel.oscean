@@ -6,15 +6,15 @@
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20171231 - 00
 20171031 + 00      Hundred rabbits      Photography          Move to New Zealand
-20171030 - 38      Nataniev             Management
-20171029 - 37      Nataniev             Management
-20171028 - 38      Nataniev             Management
-20171027 - 37      Nataniev             Management
-20171026 - 36      Nataniev             Management
-20171025 - 36      Nataniev             Management
-20171024 - 32      Nataniev             Management
-20171023 - 32      Nataniev             Management
-20171022 - 31      Nataniev             Management
+20171030 - 28      Marabu               Interface
+20171029 - 23      Left                 Interface
+20171028 - 32      Nataniev             Branding
+20171027 - 32      Nataniev             Branding
+20171026 - 31      Nataniev             Branding
+20171025 - 32      Nataniev             Branding
+20171024 - 32      Nataniev             Branding
+20171023 - 32      Nataniev             Branding
+20171022 - 31      Nataniev             Interface
 20171021 - 22      Rotonde              Design
 20171020 - 37      Rotonde              Tools
 20171019 - 38      Rotonde              Tools
@@ -55,7 +55,7 @@
 20170914 - 28      Marabu               Design
 20170913 - 28      Left                 Design
 20170912 - 28      Left                 Design
-20170911 - 38      Left                 Development
+20170911 - 38      Left                 Interface
 20170910 - 14      Marabu               Design
 20170909 - 15      Marabu               Design
 20170908 - 16      Marabu               Design
@@ -84,14 +84,14 @@
 20170816 ! 35  213 Off the grid         Writing              V Berth Library       Started a little document with notes on {{offline}} life.
 20170815 - 34      Oquonie              Update
 20170814 - 39      Marabu               Update 
-20170813 ! 28  212 Marabu               Design               Version 2             Built a {{Nataniev}} native version of {{Marabu}} tracker music sequencer.
+20170813 ! 28  212 Marabu               Interface            Version 2             Built a {{Nataniev}} native version of {{Marabu}} tracker music sequencer.
 20170812 - 28      Marabu               Design
 20170811 - 37  211 Philipp traum        Writing              The Beldam            Wrote a few notes on objectivity and realism, under the {{Philipp Traum}} page.
 20170810 @ 38  209 Nutrition            Documentation        Meal Plan Basics      Wrote a simple {{nutritional|Nutrition}} guide with basic information on proteins and essential amino acids.
 20170809 - 26  208 Left                 Design               Tooling               The missing link to the {{Nataniev Suite|Suite}} was a proper native IDE.
 20170808 - 36      Marabu               Update
 20170807 - 37      Ronin                Update            
-20170806 - 28      Nataniev             Design
+20170806 - 28      Nataniev             Interface
 20170805 - 33      Lietal               Linguistics
 20170804 - 29  207 Niue                 Photography          Stu                   By the caves, of the northern fort, stands our friend Stu from SV Sula.
 20170803 - 27  206 Niue                 Photography          The Coastline
@@ -100,17 +100,17 @@
 20170731 ! 26  198 Niue                 Photography          
 20170730 + 26  197 Niue                 Photography          Move to Niue
 20170729 - 29      Desamber             Design
-20170728 - 29      Left                 Design
+20170728 - 29      Left                 Interface
 20170727 - 33      Left                 Tools
 20170726 - 34      Lietal               Linguistics
 20170725 - 32      Lietal               Linguistics
 20170724 - 32      Lietal               Linguistics
 20170723 - 24      Nataniev             Design
-20170722 - 24      Nataniev             Design
+20170722 - 24      Nataniev             Interface
 20170721 - 32      Nataniev             Documentation
 20170720 - 37      Nataniev             Tools
 20170719 - 36      Nataniev             Tools
-20170718 - 26      Nataniev             Design
+20170718 - 26      Nataniev             Interface
 20170718 @ 26  196 Desamber             Design               Entaloneralie Native  Implemented {{Entaloneralie}} into {{Nataniev}} as the native {{Clock}} application.
 20170717 - 28      Hundred rabbits      Video  
 20170716 - 18      Hundred rabbits      Composition
@@ -153,7 +153,7 @@
 20170609 - 39      Marabu               Tools
 20170608 - 37      Oquonie              Update
 20170607 - 38      Horaire              Tools
-20170606 - 29      Horaire              Design
+20170606 - 29      Horaire              Interface
 20170605 - 37      Hundred rabbits      Tools
 20170604 - 38      Hundred rabbits      Tools
 20170603 - 37      Horaire              Design
