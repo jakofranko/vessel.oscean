@@ -5,6 +5,8 @@
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20171231 - 00
+20171102 - 39      Rotonde              Development
+20171101 - 32      Rotonde              Development
 20171031 + 00      Hundred rabbits      Photography          Move to New Zealand
 20171030 - 28      Marabu               Interface
 20171029 - 23      Left                 Interface
