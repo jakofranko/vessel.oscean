@@ -5,7 +5,8 @@
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20171231 - 00
-20171105 - 29  368 Dotgrid              Development
+20171106 - 36      Dotgrid              Maintenance
+20171105 - 29  368 Dotgrid              Release
 20171104 @ 28  210 Rotonde              Interface
 20171103 - 36      Rotonde              Development
 20171102 - 39      Rotonde              Development
@@ -338,7 +339,7 @@
 20161212 - 28      Nataniev             Design
 20161211 - 25  346 Film                 Photography
 20161210 - 38      Nataniev             Writing
-20161209 - 39      Dotgrid              Update
+20161209 - 39      Dotgrid              Prototype
 20161208 - 34      Obliques             Writing
 20161207 - 34      Lietal               Tools
 20161206 - 34  194 Russian              Tools
