@@ -921,6 +921,15 @@ LEFT
     GITH : https://github.com/hundredrabbits/Left
     ITCH : http://hundredrabbits.itch.io/Left
 
+DOTGRID
+  UNDE : Software
+  BREF : {{Dotgrid}} is a simple vector line drawing tool.
+  LONG
+    & You can view the complete {{Dotgrid Manual|https://github.com/hundredrabbits/Dotgrid}} on Github.
+  LINK
+    GITH : https://github.com/hundredrabbits/Dotgrid
+    ITCH : http://hundredrabbits.itch.io/Dotgrid
+
 UNITY
   UNDE : Interactive
   BREF : The {{Unity}} Portal contains various unity-built desktop games.

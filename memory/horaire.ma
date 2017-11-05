@@ -5,6 +5,7 @@
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20171231 - 00
+20171105 - 29  368 Dotgrid              Development
 20171104 @ 28  210 Rotonde              Interface
 20171103 - 36      Rotonde              Development
 20171102 - 39      Rotonde              Development
@@ -222,7 +223,7 @@
 20170405 + 18  498 Superworker          Release              Released Superworker
 20170404 @ 15  350 Superworker          Composition          Pocket Operator       The album was recorded and mastered while crossing the Pacific Ocean onboard {{Pino}}.
 20170403 - 18      Superworker          Composition
-20170402 - 31      Ronin                Tools
+20170402 - 31      Dotgri               Tools
 20170401 - 14      Superworker          Composition
 20170331 - 12      Superworker          Composition
 20170330 - 16      Superworker          Composition
@@ -231,8 +232,8 @@
 20170327 - 12      Superworker          Composition
 20170326 - 24      Thousand rooms       Design
 20170325 - 31      Ronin                Tools
-20170324 - 31      Ronin                Tools
-20170323 - 23      Ronin                Design
+20170324 - 31      Dotgrid              Tools
+20170323 - 23      Dotgrid              Design
 20170322 - 22      Ronin                Branding
 20170321 - 24      Thousand rooms       Design
 20170320 - 21      Ronin                Design
@@ -292,7 +293,7 @@
 20170126 - 27      Ronin                Tools
 20170125 - 29      Hundred rabbits      Video
 20170124 - 38      Markl                Design
-20170123 - 25      Ronin                Tools
+20170123 - 25      Dotgrid              Tools
 20170122 - 19      Hundred rabbits      Composition
 20170121 - 25      Nataniev             Tools
 20170120 - 25      Markl                Design
@@ -303,8 +304,8 @@
 20170115 - 35      Ronin                Tools
 20170114 - 37      Ronin                Tools
 20170113 ! 26  227 Donsol               Design               Desktop Donsol        Released a new {{Donsol}} build, with improved UI and entirely redesigned vector graphics working on all platforms.
-20170112 - 37      Ronin                Tools
-20170111 - 35      Ronin                Tools
+20170112 - 37      Dotgrid              Tools
+20170111 - 35      Dotgrid              Tools
 20170110 - 38      Lietal               Linguistics
 20170109 - 38      Lietal               Linguistics
 20170108 - 27      Lietal               Typography
@@ -337,7 +338,7 @@
 20161212 - 28      Nataniev             Design
 20161211 - 25  346 Film                 Photography
 20161210 - 38      Nataniev             Writing
-20161209 - 39      Ronin                Update
+20161209 - 39      Dotgrid              Update
 20161208 - 34      Obliques             Writing
 20161207 - 34      Lietal               Tools
 20161206 - 34  194 Russian              Tools
