@@ -5,6 +5,7 @@
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20171231 - 00
+20171107 - 26      Ronin                Tools
 20171106 - 36      Dotgrid              Maintenance
 20171105 - 29  368 Dotgrid              Release
 20171104 @ 28  210 Rotonde              Interface
