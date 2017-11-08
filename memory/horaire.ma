@@ -5,6 +5,7 @@
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20171231 - 00
+20171108 @ 27  380 Wiktopher            Tools
 20171107 - 26      Ronin                Tools
 20171106 - 36      Dotgrid              Maintenance
 20171105 - 29  368 Dotgrid              Release
@@ -23,7 +24,7 @@
 20171023 - 32      Nataniev             Branding
 20171022 - 31      Nataniev             Interface
 20171021 - 22      Rotonde              Design
-20171020 - 37      Rotonde              Tools
+20171020 - 37  377 Wiktopher            Design
 20171019 - 38      Rotonde              Tools
 20171018 - 39      Rotonde              Tools
 20171017 - 38      Rotonde              Tools
@@ -225,7 +226,7 @@
 20170405 + 18  498 Superworker          Release              Released Superworker
 20170404 @ 15  350 Superworker          Composition          Pocket Operator       The album was recorded and mastered while crossing the Pacific Ocean onboard {{Pino}}.
 20170403 - 18      Superworker          Composition
-20170402 - 31      Dotgri               Tools
+20170402 - 31      Dotgrid              Tools
 20170401 - 14      Superworker          Composition
 20170331 - 12      Superworker          Composition
 20170330 - 16      Superworker          Composition
