@@ -1678,7 +1678,7 @@ DESAMBER
     & The {_Equal Month calendar_} has {*13 months*} of {*28 days*} each and the 365th day of the year is the {_Year Day_}, preceeded by the {_Leap Day_} on leap years. 
     = Today is {{!desamber}}.<br />The time is {{!clock}}.
     & The clock has 6 digits, where their overall value is a ratio over the completion of the day. For example, Noon is 500, 6AM is 250 and 6PM is 750. 
-    & The clock is display in the 000:000 format, where the shortest pulse is equal to 8.64 milliseconds, the second shortest to 86.4 and so on.
+    & In the 000:000 format, the shortest pulse equals to 8.64 milliseconds, the second shortest 86.4 and so on.
   LINK
     GITH : https://github.com/XXIIVV/Nataniev/blob/master/system/desamber.rb
 
