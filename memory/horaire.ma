@@ -5,11 +5,12 @@
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20171231 - 00
-20171108 @ 27  380 Wiktopher            Tools
+20171109 - 26  383 Rotonde              Design
+20171108 ! 27  380 Wiktopher            Tools
 20171107 - 26      Ronin                Tools
 20171106 - 36      Dotgrid              Maintenance
 20171105 - 29  368 Dotgrid              Release
-20171104 @ 28  210 Rotonde              Interface
+20171104 ! 28  210 Rotonde              Interface
 20171103 - 36      Rotonde              Development
 20171102 - 39      Rotonde              Development
 20171101 - 32      Rotonde              Development
@@ -30,7 +31,7 @@
 20171017 - 38      Rotonde              Tools
 20171016 - 37      Rotonde              Tools
 20171015 - 38      Rotonde              Tools
-20171014 @ 39  172 Rotonde              Tools
+20171014 ! 39  172 Rotonde              Tools
 20171013 - 39      Rotonde              Tools
 20171012 - 29      Rotonde              Design
 20171011 - 25      Lietal               Typography
