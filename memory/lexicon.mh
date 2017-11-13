@@ -1679,6 +1679,8 @@ DESAMBER
     = Today is {{!desamber}}.<br />The time is {{!clock}}.
     & The clock has 6 digits, where their overall value is a ratio over the completion of the day. For example, Noon is 500, 6AM is 250 and 6PM is 750. 
     & In the 000:000 format, the shortest pulse equals to 8.64 milliseconds, the second shortest 86.4 and so on.
+  LINK
+    GITH : http://github.com/hundredrabbits/Clock
 
 ROTONDE
   UNDE : Nataniev
@@ -1899,7 +1901,7 @@ DEVINE LU LINVEGA
   TAGS : Portal
   BREF : {{Devine lu linvega}} is a nomad, developer and designer.
   LONG
-    & Operating under the {*Neauoire*} moniker, Devine is a polymath working on a series of {{experimental tools|Gamme}} and {{applications|Interactive}}. Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}}, Devine hopes to inspire visitors to learn and to {{travel}}. 
+    & Operating under the {*Neauoire*} moniker, Devine is a {{polymath|https://monochromatic.co/writing/interview-with-devine}} working on a series of {{experimental tools|Gamme}} and {{applications|Interactive}}. Populating {{Nataniev}} with notes on {{Language|Lietal}}, {{Illustrations|Illustration}} and {{Sounds|Audio}}, Devine hopes to inspire visitors to learn and to {{travel}}. 
     ? To {{flee|Obliques}} is life,<br /> To linger, {{Death}}.
     # <comment># Satellite Phone</comment>
     # Currently located in <b>{{$ hundredrabbits get_location}}</b>({{$ hundredrabbits get_position}}).

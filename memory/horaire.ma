@@ -5,6 +5,9 @@
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20171231 - 00
+20171112 - 35      Dotgrid              Maintenance
+20171111 - 34      Marabu               Maintenance
+20171110 - 27      Desamber             Tools
 20171109 - 26  383 Rotonde              Design
 20171108 ! 27  380 Wiktopher            Tools
 20171107 - 26      Ronin                Tools
