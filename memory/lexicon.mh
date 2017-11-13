@@ -1697,9 +1697,10 @@ THE DAILY DESCENT
   UNDE : Rotonde
   BREF : {{The Daily Descent}} is a daily P2P news blog within {{Rotonde}}.
   LONG
-    & The blog features recent decentralized internet developments, broadcasted as a P2P {{Rotonde}} feed. The simpliest way to access the blog is to download the {{Beaker Browser|https://beakerbrowser.com}} and to navigate to {{its portal|dat://portal-thedailydescent.hashbase.io/}}.
+    & The blog features recent decentralized internet developments, broadcasted as a P2P {{Rotonde}} feed. The simpliest way to access the blog is to download the {{Beaker Browser|https://beakerbrowser.com}} and to navigate to {{its portal|dat://daily-descent.hashbase.io/}}.
+    * A P2P blog, in a P2P way.
   LINK
-    ROTO : dat://portal-thedailydescent.hashbase.io/
+    ROTO : dat://daily-descent.hashbase.io/
 
 PARADISE
   UNDE : Interactive
