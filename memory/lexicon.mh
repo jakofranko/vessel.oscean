@@ -899,7 +899,7 @@ MARABU
   UNDE : Software
   BREF : {{Marabu}} is a programmable music tracker.
   LONG
-    & The tracker is built as a fork to the open-source Soundbox and is meant to be an improvement on functionalities and design, while remaining aimed at creating 4K/8K demos.
+    & {*Marabu*} is built as a fork to the opensource {_Soundbox_}, and is meant to be an improvement on functionalities and design.
     & You can view the complete {{Marabu Manual|https://github.com/hundredrabbits/Marabu}} on Github.
   LINK
     GITH : https://github.com/neauoire/Marabu
@@ -925,7 +925,7 @@ LEFT
   UNDE : Software
   BREF : {{Left}} is a distractionless writing application.
   LONG
-    & This {{software}} was created to help {{Rekka}} with the writing of her upcoming novel {_Wiktopher_}.
+    & {*Left*} was created to help {{Rekka}} with the writing of her upcoming novel {_Wiktopher_}.
     & You can view the complete {{Left Manual|https://github.com/hundredrabbits/Left}} on Github.
   LINK
     GITH : https://github.com/hundredrabbits/Left
@@ -935,6 +935,7 @@ DOTGRID
   UNDE : Software
   BREF : {{Dotgrid}} is a simple vector line drawing tool.
   LONG
+    & {*Dotgrid*} was built to design logos and glyphs for various {{Nataniev}} projects, and made available to every as a free and opensource software.
     & You can view the complete {{Dotgrid Manual|https://github.com/hundredrabbits/Dotgrid}} on Github.
   LINK
     GITH : https://github.com/hundredrabbits/Dotgrid
