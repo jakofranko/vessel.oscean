@@ -16,7 +16,10 @@ class Term
 
   def initialize name = "Unknown", data = {}
 
-    @data = data ? data : { "UNDE" => nil, "TYPE" => "Missing" }
+    @data = data ? data : { "UNDE" => nil }
+
+    # Only specify a type of missing if this is truly not an entry in the lexicon
+    if !@data["TYPE"] && !@data["LONG"] && !@data["BREF"] then @data["TYPE"] = "Missing" end
 
     @name = "#{name}".downcase.capitalize
     @unde = @data["UNDE"] ? @data["UNDE"].downcase.capitalize : "Home"
@@ -66,7 +69,7 @@ class Term
   def siblings
 
     if @siblings then return @siblings end
-      
+
     a = []
     $nataniev.vessels[:oscean].corpse.lexicon.to_h("term").each do |name,term|
       if !term.unde then next end
@@ -209,7 +212,7 @@ class Term
 
     return "
     <yu class='banner'>
-      <a href='/#{name.to_url}' class='portal'>#{badge}</a>  
+      <a href='/#{name.to_url}' class='portal'>#{badge}</a>
       <yu class='bref'>#{bref}</yu>
       <yu class='links'>#{links_html}</yu>
       #{logs.length > 5 ? Graph_Overview.new(self) : ''}

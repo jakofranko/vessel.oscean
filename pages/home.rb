@@ -47,7 +47,7 @@ def corpse.featured_topics
   c = 0
   @horaire.to_a(:log).each do |log|
     if c > 30 then break end
-    topics.push(log.topic)      
+    topics.push(log.topic)
     c += 1
   end
 
@@ -69,7 +69,7 @@ def corpse.featured_topics
 end
 
 def corpse.view
-    
+
   filtered_logs = []
 
   count = 0
@@ -79,7 +79,7 @@ def corpse.view
     filtered_logs.push(log)
     count += 1
   end
-  
+
   return ""
   return  "
   #{index}#{@term.long.runes}\n

@@ -48,9 +48,16 @@ def corpse.query q = nil
   @term    = @lexicon.filter("term",@query,"term")
   @title   = "XXIIVV ∴ #{@term.name}"
 
+  # Default view
+  def self.view; return "#{@term.long.runes}\n"; end
+
+  # corpse.view will be overridden by any layouts, pages, or modules
+  # that are found from the query or module, in that order.
   load_any "#{@host.path}/pages",   @query
   load_any "#{@host.path}/modules", @query
-  load_any "#{@host.path}/layouts", @term.type
+
+  # Only load a layout if type is specified
+  if !@term.type.nil? then load_any "#{@host.path}/layouts", @term.type end
   load_any "#{@host.path}/modules", @module
 
 end
@@ -68,7 +75,7 @@ def corpse.body
     #{directory}
   </wr>
   #{footer}"
- 
+
   return html
 
 end
@@ -83,7 +90,7 @@ def corpse.header
 
   html = ""
 
-  html_links = ""  
+  html_links = ""
   if @term.link
     @term.link.each do |link|
       html_links += Link.new(link.first,link.last).to_s+" "
@@ -128,15 +135,13 @@ def corpse.footer
       <a title='Github' href='https://github.com/neauoire' target='_blank'>#{Media.new('icon','github')}</a>
       <a title='Rotonde' href='dat://2f21e3c122ef0f2555d3a99497710cd875c7b0383f998a2d37c02c042d598485/' target='_blank'>#{Media.new('icon','rotonde')}</a>
       <a href='/Nataniev'>#{Media.new('icon','oscean').to_s}</a>
-      <a href='/Devine+Lu+Linvega'><b>Devine Lu Linvega</b></a> © 2006—#{Time.now.year}<br /> 
-      <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>BY-NC-SA</a> 4.0 <t>Rendered in "+((Time.new - $nataniev.time) * 1000).to_i.to_s+"ms</t><br /> 
+      <a href='/Devine+Lu+Linvega'><b>Devine Lu Linvega</b></a> © 2006—#{Time.now.year}<br />
+      <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>BY-NC-SA</a> 4.0 <t>Rendered in "+((Time.new - $nataniev.time) * 1000).to_i.to_s+"ms</t><br />
       <hr />
     </wr>
   </yu>"
 
 end
-
-def corpse.view; return "#{@term.long.runes}\n";end
 
 def corpse.horaire; return @horaire; end
 def corpse.lexicon; return @lexicon; end
