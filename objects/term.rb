@@ -16,7 +16,10 @@ class Term
 
   def initialize name = "Unknown", data = {}
 
-    @data = data ? data : { "UNDE" => nil, "TYPE" => "Missing" }
+    @data = data ? data : { "UNDE" => nil }
+
+    # Only specify a type of missing if this is truly not an entry in the lexicon
+    if !@data["TYPE"] && !@data["LONG"] && !@data["BREF"] then @data["TYPE"] = "Missing" end
 
     @name = "#{name}".downcase.capitalize
     @unde = @data["UNDE"] ? @data["UNDE"].downcase.capitalize : "Home"
