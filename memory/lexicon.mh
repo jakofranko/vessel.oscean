@@ -908,8 +908,7 @@ MARABU
 
 RONIN
   UNDE : Software
-  BREF : {{Ronin}} is a programmable visual editor.
-  TYPE : Diary
+  BREF : {{Ronin}} is a graphic design terminal.
   LONG
     & The application is a cross-over between Vim and Photoshop, where every change to the canvas is inputed as a command.
     # frame.resize 640x480

@@ -5,6 +5,7 @@
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20171231 - 00
+20171115 ! 24  401 Ronin                Release
 20171114 - 26      Rotonde              Branding
 20171113 - 37      Dotgrid              Update
 20171112 @ 35  385 Dotgrid              Maintenance          General improvements  {{Dotgrid}} is looking and feeling more mature. With its option to export PNG and SVG, there are no more need for me to be using heavy-weight tools like Illustrator.
