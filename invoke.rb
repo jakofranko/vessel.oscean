@@ -76,7 +76,7 @@ def corpse.body
     #{directory}
   </wr>
   #{footer}"
- 
+
   return html
 
 end
@@ -91,7 +91,7 @@ def corpse.header
 
   html = ""
 
-  html_links = ""  
+  html_links = ""
   if @term.link
     @term.link.each do |link|
       html_links += Link.new(link.first,link.last).to_s+" "

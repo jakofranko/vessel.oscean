@@ -69,7 +69,7 @@ class Term
   def siblings
 
     if @siblings then return @siblings end
-      
+
     a = []
     $nataniev.vessels[:oscean].corpse.lexicon.to_h("term").each do |name,term|
       if !term.unde then next end
@@ -212,7 +212,7 @@ class Term
 
     return "
     <yu class='banner'>
-      <a href='/#{name.to_url}' class='portal'>#{badge}</a>  
+      <a href='/#{name.to_url}' class='portal'>#{badge}</a>
       <yu class='bref'>#{bref}</yu>
       <yu class='links'>#{links_html}</yu>
       #{logs.length > 5 ? Graph_Overview.new(self) : ''}
