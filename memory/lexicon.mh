@@ -1889,6 +1889,14 @@ LIETAL
   LINK
     GITH : https://github.com/XXIIVV/vessel.lietal
 
+TRAUMAE
+  UNDE : Language
+  BREF : {{Traumae}} is a {{synthetic language|http://en.wikipedia.org/wiki/Constructed_language}}, and the precursor to {{Lietal}}.
+  LONG
+    $ traumae print documentation
+  LINK
+    GITH : https://github.com/jakofranko/vessel.traumae
+
 DIARY
   UNDE : Home
   FLAG : no_photo
@@ -1926,10 +1934,6 @@ DEATH
     & This is probably meant as a joke, but in some grim ways, it paints a harsher truth than {{Death}}.
 
 ~ Redirects
-
-TRAUMAE
-  UNDE : Null
-  TYPE : Redirect Lietal
 
 RANDOM
   UNDE : Null
