@@ -915,7 +915,7 @@ RONIN
     # brush:color #72dec2
     # brush.add_pointer 3,3
     & It is meant to replace the use of Photoshop for simple repetitive tasks, basic illustration jobs and the creation of grid based designs. Most of the iconography of {{Nataniev}} has been created with {_Ronin_}.
-    & You can view the complete {{Ronin Manual|https://github.com/hundredrabbits/Marabu}} on Github.
+    & You can view the complete {{Ronin Manual|https://github.com/hundredrabbits/Ronin}} on Github.
   LINK
     GITH : https://github.com/hundredrabbits/Ronin
     YOUT : https://youtu.be/gifzjhyBwOc
