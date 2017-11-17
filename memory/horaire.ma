@@ -5,6 +5,7 @@
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20171231 - 00
+20171116 - 37      Rotonde              Development
 20171115 ! 24  401 Ronin                Release
 20171114 - 26      Rotonde              Branding
 20171113 - 37      Dotgrid              Update
@@ -262,7 +263,7 @@
 20170307 - 34      Neauismetica         Writing
 20170306 @ 28   49 South pacific        Photography          Nuku-Hiva
 20170305 - 12      Superworker          Composition
-20170304 + 29      South pacific        Event                Move to the Marquesas
+20170304 + 29  404 South pacific        Event                Move to the Marquesas
 20170303 - 15      Hundred rabbits      Composition
 20170302 - 29      Hundred rabbits      Video
 20170301 - 15      Hundred rabbits      Composition

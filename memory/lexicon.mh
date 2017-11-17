@@ -910,10 +910,10 @@ RONIN
   UNDE : Software
   BREF : {{Ronin}} is a graphic design terminal.
   LONG
-    & The application is a cross-over between Vim and Photoshop, where every change to the canvas is inputed as a command.
-    # frame.resize 640x480
-    # brush:color #72dec2
-    # brush.add_pointer 3,3
+    & The application is a cross-over between Vim, a terminal and Photoshop, a graphic design software - where every change to the canvas is a command.
+    # frame resize:640x480
+    # io load:
+    # io draw:20,20|100x100
     & It is meant to replace the use of Photoshop for simple repetitive tasks, basic illustration jobs and the creation of grid based designs. Most of the iconography of {{Nataniev}} has been created with {_Ronin_}.
     & You can view the complete {{Ronin Manual|https://github.com/hundredrabbits/Ronin}} on Github.
   LINK
