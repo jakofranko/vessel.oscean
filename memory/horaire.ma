@@ -5,6 +5,9 @@
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20171231 - 00
+20171119 - 24      Oscean               Design
+20171118 - 
+20171117 - 37      Dotgrid              Development
 20171116 - 37      Rotonde              Development
 20171115 ! 24  401 Ronin                Release
 20171114 - 26      Rotonde              Branding

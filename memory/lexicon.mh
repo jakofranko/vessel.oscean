@@ -683,7 +683,7 @@ MARKL
   UNDE : Desktop
   BREF : {{Markl}} is an upcoming Tactical AI Battle Arena(TAIBA).
   LONG
-    & {*Markl*} is a game in which players must {{program|https://twitter.com/neauoire/status/914334851813269504}} their character's fighting style, to face various opponents in a battle happening too fast for humans to compete.
+    & {*Markl*} is a game in which players must {{program|https://twitter.com/hundredrabbits/status/916842882677358592}} their character's fighting style, to face various opponents in a battle happening too fast for humans to compete.
     & There are 4 characters to choose from, with unique attributes and stats, allowing for varied loadouts and combat styles.
     % markl.characters
     & The game will be released as {{Hundred Rabbits}} late 2017, or early 2018, for all desktop platforms.
@@ -932,9 +932,10 @@ LEFT
 
 DOTGRID
   UNDE : Software
-  BREF : {{Dotgrid}} is a simple vector line drawing tool.
+  BREF : {{Dotgrid}} is a vector drawing tool.
   LONG
-    & {*Dotgrid*} was built to design logos and glyphs for various {{Nataniev}} projects, and made available to every as a free and opensource software.
+    & {*Dotgrid*} works by adding control points and drawing different line-types between them. The tool was created to design logos and glyphs for various {{Nataniev}} projects, and made available as a free and open source application.
+    + Guide
     & You can view the complete {{Dotgrid Manual|https://github.com/hundredrabbits/Dotgrid}} on Github.
   LINK
     GITH : https://github.com/hundredrabbits/Dotgrid
