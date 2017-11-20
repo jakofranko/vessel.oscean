@@ -29,8 +29,9 @@ def corpse.build
   add_script("main.js")
   add_script("aeth.js")
   add_script("septambres.js")
+  add_script("gallery.js")
   add_script("clock.js")
-  add_footer("<script>on_resize(); new Septambres().parse(); var clock = new Clock(); clock.start(); </script>")
+  add_footer("<script>on_resize(); new Septambres().parse(); new Gallery().parse(); var clock = new Clock(); clock.start(); </script>")
 
 end
 
@@ -61,9 +62,9 @@ def corpse.body
 
   html += "
   #{search}
+  #{header}
   <wr>
-    <yu class='logo'><a href='/Home'>#{@term.badge ? @term.badge : Media.new(:icon,:logo,:logo)}</a></yu>
-    #{header}
+    #{@term.banner}
     <yu class='mi'><wr>#{view}</wr></yu>
     #{directory}
   </wr>
@@ -82,17 +83,8 @@ end
 def corpse.header
 
   html = ""
-
-  html_links = ""  
-  if @term.link
-    @term.link.each do |link|
-      html_links += Link.new(link.first,link.last).to_s+" "
-    end
-  end
-
-  html += "<p>#{@term.bref}</p>"
-  html += @term.logs.length > 0 ? "<mini>Updated <a class='date' href='/#{@term.name.to_url}:horaire'>#{@term.logs.first.time.ago}</a> #{html_links}</mini>" : "<mini>#{html_links}</mini>"
-  html += "#{@term.diary && @term.diary.media && !@term.has_flag(:no_photo) && !@term.is_type(:diary) ? "<a href='/Diary'>"+@term.diary.media.to_img+"</a>" : ''}"
+  html += "<yu class='logo'><a href='/Home'>#{@term.badge ? @term.badge : Media.new(:icon,:logo,:logo)}</a></yu>"
+  html += @term.diary && @term.diary.media && !@term.has_flag(:no_photo) && !@term.is_type(:diary) ? "#{@term.diary.media}" : ''
   return "<yu class='hd'>#{html}</yu>"
 
 end

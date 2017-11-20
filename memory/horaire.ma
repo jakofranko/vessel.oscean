@@ -5,6 +5,8 @@
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20171231 - 00
+20171122 - 26      Oscean               Design
+20171121 - 
 20171119 - 24      Oscean               Design
 20171118 - 
 20171117 - 37      Dotgrid              Development

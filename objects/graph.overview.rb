@@ -9,7 +9,7 @@ class Graph_Overview
     @logs = term.logs[from,to]
 
     @width = 140
-    @height = 35
+    @height = 50
     @LOD = 40
     @segments = equalSegments
 
@@ -71,13 +71,13 @@ class Graph_Overview
       value = v
       soft_value = (seg_prev+value+seg_next)/3.0
       value = (soft_value / highest) * @height
-      d += "L#{(c * line_width).to_i},#{(@height - (value)).to_i} "
+      d += "M#{(c * line_width).to_i},#{@height} L#{(c * line_width).to_i},#{(@height - (value)).to_i} "
       c += 1
       seg_next = @segments.reverse[c+1] ? @segments.reverse[c+1] : @segments.reverse[c]
       seg_prev = v
     end
 
-    return "#{style}<yu class='graph overview'><a href='/#{@term.name}:Horaire'><svg style='width:#{@width}px; height:#{@height}px;'><path d='#{d}'/></svg></a></yu>"
+    return "#{style}<yu class='graph overview'><a href='/#{@term.name}:Horaire'><svg style='width:#{@width+10}px; height:#{@height}px;'><path d='#{d}'/></svg></a></yu>"
 
   end
 
