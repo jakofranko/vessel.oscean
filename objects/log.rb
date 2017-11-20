@@ -105,7 +105,7 @@ class Log
 
     return "
     <yu class='di'>
-      #{photo ? "<a href='/"+@topic.to_url+"'>"+media.to_img+"</a>" : ""}
+      #{photo ? "<a href='/"+@topic.to_url+"'>"+media.to_img.to_s+"</a>" : ""}
       #{term.banner}
       #{name.to_s != "" ? "<p>#{full}</p><mini><b>"+name+"</b>, #{date}</mini>" : ""}
     </yu>"
