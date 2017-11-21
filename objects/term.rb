@@ -220,7 +220,7 @@ class Term
 
   def theme
 
-    return diaries.length < 1 ? "default" : diaries.first.theme
+    return diaries.length < 1 ? "default" : diary.theme
 
   end
 

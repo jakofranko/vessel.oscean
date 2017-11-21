@@ -62,9 +62,9 @@ class Log
 
   end
 
-  def is_highlight
+  def is_highlight # Use for term
     
-    return rune == "!" || rune == "@" ? true : nil
+    return rune == "!" || rune == "@" || rune == "N" ? true : nil
 
   end
 
@@ -88,6 +88,7 @@ class Log
 
   def theme
 
+    puts "#{rune} #{name}"
     if rune == "N" then return "noir" end
     if rune == "~" then return "no_photo" end
 

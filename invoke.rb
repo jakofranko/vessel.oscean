@@ -85,7 +85,7 @@ def corpse.header
   html = ""
   html += "<yu class='logo'><a href='/Home'>#{@term.badge ? @term.badge : Media.new(:icon,:logo,:logo)}</a></yu>"
   html += @term.diary && @term.diary.media && !@term.has_flag(:no_photo) && !@term.is_type(:diary) ? "#{@term.diary.media}" : ''
-  return "<yu class='hd'>#{html}</yu>"
+  return "<yu class='hd theme_#{@term.theme}'>#{html}</yu>"
 
 end
 
