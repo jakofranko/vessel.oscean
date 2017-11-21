@@ -210,7 +210,7 @@
 20170504 + 39      Thousand rooms       Release              Released 1000 Rooms
 20170503 - 39      Thousand rooms       Linguistics
 20170502 - 29      Thousand rooms       Branding
-20170501 @ 39    9 Thousand rooms       Writing              Cat has a visitor.    Today we completed the first draft of our upcoming book {{Thousand Rooms}}.
+20170501 N 39    9 Thousand rooms       Writing              Cat has a visitor.    Today we completed the first draft of our upcoming book {{Thousand Rooms}}.
 20170430 - 39      Nataniev             Development
 20170429 - 39      Nataniev             Tools
 20170428 - 39      Nataniev             Tools
