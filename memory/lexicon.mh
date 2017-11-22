@@ -683,7 +683,7 @@ MARKL
   UNDE : Desktop
   BREF : {{Markl}} is an upcoming Tactical AI Battle Arena(TAIBA).
   LONG
-    & {*Markl*} is a game in which players must {{program|https://twitter.com/neauoire/status/914334851813269504}} their character's fighting style, to face various opponents in a battle happening too fast for humans to compete.
+    & {*Markl*} is a game in which players must {{program|https://twitter.com/hundredrabbits/status/916842882677358592}} their character's fighting style, to face various opponents in a battle happening too fast for humans to compete.
     & There are 4 characters to choose from, with unique attributes and stats, allowing for varied loadouts and combat styles.
     % markl.characters
     & The game will be released as {{Hundred Rabbits}} late 2017, or early 2018, for all desktop platforms.
@@ -908,15 +908,15 @@ MARABU
 
 RONIN
   UNDE : Software
-  BREF : {{Ronin}} is a programmable visual editor.
-  TYPE : Diary
+  BREF : {{Ronin}} is a graphic design terminal.
   LONG
-    & The application is a cross-over between Vim and Photoshop, where every change to the canvas is inputed as a command.
-    # frame.resize 640x480
-    # brush:color #72dec2
-    # brush.add_pointer 3,3
-    & It is meant to replace the use of Photoshop for simple repetitive tasks, basic illustration jobs and the creation of grid based designs. Most of the iconography of {{Nataniev}} has been created with {_Ronin_}.
-    & You can view the complete {{Ronin Manual|https://github.com/hundredrabbits/Marabu}} on Github.
+    & The application is a cross-over between Vim and Photoshop, meant for simple export tasks, basic illustration jobs and resizing.
+    : The typical Ronin syntax is {*module*}, followed with {*method:params*}. In this example, the {*crop*} method is part of the frame module. While one might choose to manually input or edit the crop method parameters, Ronin makes accessible the $ helper that accesses the cursor position. With a query including the $ character, clicking on the canvas will replace the $ with a position - and holding shift while clicking and dragging will replace the $ with a rect. 
+    # frame resize:640x480
+    # io load:
+    # io draw:20,20|100x100
+    & It is  and the creation of grid based designs. Most of the iconography of {{Nataniev}} has been created with {_Ronin_}.
+    & You can view the complete {{Ronin Manual|https://github.com/hundredrabbits/Ronin}} on Github.
   LINK
     GITH : https://github.com/hundredrabbits/Ronin
     YOUT : https://youtu.be/gifzjhyBwOc
@@ -933,9 +933,10 @@ LEFT
 
 DOTGRID
   UNDE : Software
-  BREF : {{Dotgrid}} is a simple vector line drawing tool.
+  BREF : {{Dotgrid}} is a minimalist vector drawing tool.
   LONG
-    & {*Dotgrid*} was built to design logos and glyphs for various {{Nataniev}} projects, and made available to every as a free and opensource software.
+    & {*Dotgrid*} works by adding control points and drawing different line-types between them. The tool was created to design logos and glyphs for various {{Nataniev}} projects, and made available as a free and open source application.
+    & Choose between 3 types of strokes, lines, arc and 3-points beziers. The application can be entirely operated with the keyboard and can render as both PNG and SVG files. Additional effects like horizontal, vertical and radial mirror are also available - as well as the stroke width and linecap can also be changed. The application menu can be hidden by pressing the tab key.
     & You can view the complete {{Dotgrid Manual|https://github.com/hundredrabbits/Dotgrid}} on Github.
   LINK
     GITH : https://github.com/hundredrabbits/Dotgrid
@@ -1657,7 +1658,7 @@ LOBBY
 
 OSCEAN
   UNDE : Nataniev
-  BREF : {{Oscean}} is a wiki engine.
+  BREF : {{Oscean}} is a custom wiki engine built within {{Nataniev}}.
   LONG
     & {{Oscean}} was initiated on {{2008-08-10}}, and was meant to be a repository of the sum of {{Devine|Devine lu linvega}}'s projects and notes.
     & It has since expanded into a network of tools, also known as {{Nataniev}}, which now hosts a series of Nataniev Native applications such as {{Ronin}}, {{Marabu}} and its social feed protocole {{Rotonde}}.
@@ -1882,7 +1883,7 @@ RUSSIAN
 
 LIETAL
   UNDE : Language
-  BREF : {{Lietal}} is a {{synthetic language|http://en.wikipedia.org/wiki/Constructed_language}}.
+  BREF : {{Lietal}} is an experimental {{synthetic language|http://en.wikipedia.org/wiki/Constructed_language}}.
   TAGS : Portal guide
   LONG
     $ lietal print documentation

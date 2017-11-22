@@ -8,7 +8,7 @@ class Graph_Since
   def initialize(logs)
     
     @logs = logs
-    @width = 800
+    @width = 900
     @height = 140
     @render = generate
 
@@ -17,7 +17,7 @@ class Graph_Since
   def style
 
     return "<style>
-    .graph.since svg { width:#{@width}px; height:#{@height + 50}px; padding-bottom:30px; padding-top:60px; font-family:'input_mono_regular'; font-size:11px; padding-left:2px; margin-bottom:10px}
+    .graph.since svg { width:#{@width}px; height:#{@height + 50}px; padding-bottom:30px; padding-top:60px; font-family:'input_mono_regular'; font-size:11px; padding-left:2px; margin-bottom:30px}
     .graph.since svg path { stroke:#ccc; fill:none; stroke-width:2; stroke-linecap:round}
     .graph.since svg path.effectiveness { stroke:#000; z-index:9000; position:relative}
     .graph.since svg path.efficiency { stroke:#ccc; }
@@ -51,15 +51,9 @@ class Graph_Since
 
     h = {}
     per_year.each do |year,logs|
-      # if !h[:hour_day_focus] then h[:hour_day_focus] = {} end
-      # h[:hour_day_focus][year] = logs.hour_day_focus.to_f
       if !h[:sector_balance] then h[:sector_balance] = {} end
       h[:sector_balance][year] = logs.sector_balance.to_f
       h[:sector_balance][year] = h[:sector_balance][year] < 0 ? 0.0 : h[:sector_balance][year].to_f * 100
-      # if !h[:focus] then h[:focus] = {} end
-      # h[:focus][year] = logs.focus.to_f
-      # if !h[:spray] then h[:spray] = {} end
-      # h[:spray][year] = logs.spray.to_f
 
       if !h[:efficiency] then h[:efficiency] = {} end
       h[:efficiency][year] = logs.efficiency.to_f
@@ -108,19 +102,18 @@ class Graph_Since
       values.each do |year,value|
         x = (segment_width*i)
         y = @height - ((value/max_value) * @height)
-        # y = (y/5.0).to_i * 5
         path += path == "" ? "M#{x},#{y} " : "L#{x},#{y} "
         circles += "<circle class='#{stat}' cx='#{x}'  cy='#{y}' r='1.5'/>"
         # Create text headers
-        if stat == :effectiveness
-          labels += "<text class='year' x='#{segment_width*i}' y='-45'>#{year}</text>"
+        if stat == :effectiveness && year > 2010
+          labels += "<text class='year' x='#{segment_width*i}' y='150'>#{year}</text>"
         end
         if year == 2010
-          labels += "<text class='year' x='#{0}' y='#{(@height+50) - (v * 15)}'>#{stat.to_s.gsub('_',' ').capitalize}</text>"
+          labels += "<text class='year' x='#{0}' y='#{(@height+60) - (v * 15)}'>#{stat.to_s.gsub('_',' ').capitalize}</text>"
         elsif year < 2011
           labels += ""
         else
-          labels += "<text class='#{stat}' x='#{segment_width*i}' y='#{(@height+50) - (v * 15)}'>#{value.trim(1)}%</text>"
+          labels += "<text class='#{stat}' x='#{segment_width*i}' y='#{(@height+60) - (v * 15)}'>#{value.trim(1)}%</text>"
         end
         
         i += 1

@@ -5,10 +5,17 @@
 
 @ DATE   CODE PICT TERM                 TASK                 NAME                  TEXT
 20171231 - 00
+20171122 - 26      Oscean               Design
+20171121 - 
+20171119 - 24      Oscean               Design
+20171118 - 
+20171117 - 37      Dotgrid              Development
+20171116 - 37      Rotonde              Development
+20171115 ! 24  401 Ronin                Release
 20171114 - 26      Rotonde              Branding
 20171113 - 37      Dotgrid              Update
 20171112 @ 35  385 Dotgrid              Maintenance          General improvements  {{Dotgrid}} is looking and feeling more mature. With its option to export PNG and SVG, there are no more need for me to be using heavy-weight tools like Illustrator.
-20171111 - 34      Marabu               Maintenance
+20171111 N 34  405 Markl               Maintenance
 20171110 - 27      Desamber             Tools
 20171109 - 26  383 Rotonde              Design
 20171108 ! 27  380 Wiktopher            Tools
@@ -153,7 +160,7 @@
 20170623 - 35      Rotonde              Development                                
 20170622 - 29      Oscean               Design                                     
 20170621 - 39      Rotonde              Prototype                                  
-20170620 N 26   81 Nataniev             Prototype            Nataniev OS           A first preview of the {{Nataniev}} lobby, the OS' terminal manager.
+20170620 ! 26   81 Nataniev             Prototype            Nataniev OS           A first preview of the {{Nataniev}} lobby, the OS' terminal manager.
 20170619 - 38      Nataniev             Development
 20170618 -       
 20170617 - 29      Nataniev             Prototype                                  
@@ -163,7 +170,7 @@
 20170613 - 17      Marabu               Composition
 20170612 - 14      Marabu               Tools
 20170611 - 18      Marabu               Tools
-20170610 N 19      Marabu               Composition          The Battlestation
+20170610 ! 19      Marabu               Composition          The Battlestation
 20170609 - 39      Marabu               Tools
 20170608 - 37      Oquonie              Update
 20170607 - 38      Horaire              Tools
@@ -203,7 +210,7 @@
 20170504 + 39      Thousand rooms       Release              Released 1000 Rooms
 20170503 - 39      Thousand rooms       Linguistics
 20170502 - 29      Thousand rooms       Branding
-20170501 @ 39    9 Thousand rooms       Writing              Cat has a visitor.    Today we completed the first draft of our upcoming book {{Thousand Rooms}}.
+20170501 N 39    9 Thousand rooms       Writing              Cat has a visitor.    Today we completed the first draft of our upcoming book {{Thousand Rooms}}.
 20170430 - 39      Nataniev             Development
 20170429 - 39      Nataniev             Tools
 20170428 - 39      Nataniev             Tools
@@ -261,7 +268,7 @@
 20170307 - 34      Neauismetica         Writing
 20170306 @ 28   49 South pacific        Photography          Nuku-Hiva
 20170305 - 12      Superworker          Composition
-20170304 + 29      South pacific        Event                Move to the Marquesas
+20170304 + 29  404 South pacific        Event                Move to the Marquesas
 20170303 - 15      Hundred rabbits      Composition
 20170302 - 29      Hundred rabbits      Video
 20170301 - 15      Hundred rabbits      Composition
@@ -276,7 +283,7 @@
 20170220 - 35      Oquonie              Tools
 20170219 - 35      Oquonie              Tools
 20170218 - 37      Oquonie              Tools
-20170216 ! 25  191 Extended sleep       Illustration
+20170216 N 25  191 Extended sleep       Illustration
 20170217 - 35      Oquonie              Maintenance
 20160216 - 33      The will the wisp    Writing
 20170215 - 35      Oquonie              Tools
@@ -306,7 +313,7 @@
 20170122 - 19      Hundred rabbits      Composition
 20170121 - 25      Nataniev             Tools
 20170120 - 25      Markl                Design
-20170119 N 37  229 Nomad                Writing              Fulcanelli            Some thoughts on travel.
+20170119 ! 37  229 Nomad                Writing              Fulcanelli            Some thoughts on travel.
 20170118 - 37      Ronin                Tools
 20170117 - 29      Ronin                Design
 20170116 - 35      Markl                Design
@@ -389,7 +396,7 @@
 20161031 - 25  353 Black                Photography
 20161030 - 35      Nataniev             Update
 20161029 - 34      Obliques             Writing
-20161028 N 36  221 Obliques             Writing              A Digest              I began keeping some general notes on my creative process.
+20161028 ! 36  221 Obliques             Writing              A Digest              I began keeping some general notes on my creative process.
 20161027 - 36      Markl                Design
 20161026 - 26      Markl                Design
 20161025 - 27      Markl                Design
@@ -424,7 +431,7 @@
 20160926 - 21      Polygonoscopy        Modeling
 20160925 - 25  349 Black                Photography
 20160924 - 35      Pino                 Maintenance
-20160923 - 36  253 Devine lu Linvega    Photography          Ensenada Tempers
+20160923 - 36  253 Devine lu linvega    Photography          Ensenada Tempers
 20160922 - 39      Nataniev             Maintenance
 20160921 ! 29  102 Wallpaper            Design               Shinji                Get in the fucking robot!
 20160920 ! 24   98 Lard shader          Illustration         Study C
@@ -1755,7 +1762,7 @@
 20130203 - 35      Hiversaires          Prototype
 20130202 - 35      Hiversaires          Prototype
 20130201 - 27  173 Macro                Photography          Building a telescope
-20130131 - 25  243 Devine lu Linvega    Photography          Osaka Tempers
+20130131 N 25  243 Devine lu Linvega    Photography          Osaka Tempers
 20130130 - 29      Wallpaper            Illustration
 20130129 - 27      Wallpaper            Illustration
 20130128 - 35      Oscean               Maintenance
@@ -1932,7 +1939,7 @@
 20120810 - 32      Oscean               Development
 20120809 - 35      Oscean               Development
 20120808 - 29   39 Infrared             Writing              Wereda
-20120807 - 25  257 Devine lu Linvega    Photography          Tokyo Tempers
+20120807 N 25  257 Devine lu Linvega    Photography          Tokyo Tempers
 20120806
 20120805 - 32      Oscean               Development
 20120804
@@ -2138,7 +2145,7 @@
 20120117 - 15      Es gulf sunflowers   Composition
 20120116
 20120115 - 25   20 Mobile               Development          Character Builder
-20120114 N 35   50 Horaire              Development          The Pillars           I have great plans for {{Horaire}}, it ought to be the pillar onto which I rely to remain inspired and productive.
+20120114 ! 35   50 Horaire              Development          The Pillars           I have great plans for {{Horaire}}, it ought to be the pillar onto which I rely to remain inspired and productive.
 20120113 - 35      Obliques             Tools                Extra
 20120112
 20120111
@@ -2698,7 +2705,7 @@
 20100706 - 25      Drownspire           Design
 20100705 - 19      Mixtape              Mixing               Suilen
 20100704
-20100703 N 35   92 Oscean               Writing              Nataniev's Portrait
+20100703 ! 35   92 Oscean               Writing              Nataniev's Portrait
 20100702 - 35      Oscean               Development
 20100701
 20100630 - 35      Oscean               Development
@@ -3897,7 +3904,7 @@
 20070325
 20070324
 20070323
-20070322 ! 35   76 Lietal               Release              Composing Words
+20070322 N 35   76 Lietal               Release              Composing Words
 20070321
 20070320
 20070319
@@ -4228,4 +4235,4 @@
 20060428
 20060427
 20060426 - 36      Horaire              Development          Started Horaire
-20060426 ! 36    1 Devine Lu Linvega    Photography          Nakano Tempers
+20060426 N 36    1 Devine lu linvega    Photography          Nakano Tempers

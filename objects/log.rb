@@ -62,9 +62,9 @@ class Log
 
   end
 
-  def is_highlight
+  def is_highlight # Use for term
     
-    return rune == "!" || rune == "@" ? true : nil
+    return rune == "!" || rune == "@" || rune == "N" ? true : nil
 
   end
 
@@ -87,7 +87,7 @@ class Log
   end
 
   def theme
-
+    
     if rune == "N" then return "noir" end
     if rune == "~" then return "no_photo" end
 
@@ -105,7 +105,7 @@ class Log
 
     return "
     <yu class='di'>
-      #{photo ? "<a href='/"+@topic.to_url+"'>"+media.to_s+"</a>" : ""}
+      #{photo ? "<a href='/"+@topic.to_url+"'>"+media.to_img.to_s+"</a>" : ""}
       #{term.banner}
       #{name.to_s != "" ? "<p>#{full}</p><mini><b>"+name+"</b>, #{date}</mini>" : ""}
     </yu>"

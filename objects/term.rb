@@ -223,7 +223,7 @@ class Term
 
   def theme
 
-    return diaries.length < 1 ? "default" : diaries.first.theme
+    return diaries.length < 1 ? "default" : diary.theme
 
   end
 
@@ -231,7 +231,7 @@ class Term
 
     return "
     <yu>
-      #{display_photo == true && diary ? "<a href='/#{name}'>"+diary.media.to_s+"</a>" : ""}
+      #{display_photo == true && diary ? "<a href='/#{name}'>"+diary.media.to_img+"</a>" : ""}
       <h2><a href='/#{name}'>#{name}</a></h2>
       <p>#{bref}</p>
       #{full == :long ? @long.runes : ""}

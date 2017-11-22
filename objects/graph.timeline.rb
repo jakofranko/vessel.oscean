@@ -131,7 +131,6 @@ class Graph_Timeline
 
     html = "
     <t class='origin'></t>
-    <t class='sector latest'>#{@logs.last.time.ago}</t>
     <t class='sector audio'><svg><line x1='1' y1='1' x2='15' y2='1'/></svg>#{@logs.audio_ratio_percentage}% <t style='color:#999'>Audio</t></t>
     <t class='sector visual'><svg><line x1='1' y1='1' x2='15' y2='1'/></svg>#{@logs.visual_ratio_percentage}% <t style='color:#999'>Visual</t></t>
     <t class='sector research'><svg><line x1='1' y1='1' x2='15' y2='1'/></svg>#{@logs.research_ratio_percentage}% <t style='color:#999'>Research</t></t>
@@ -218,8 +217,8 @@ class Graph_Timeline
     .graph.timeline svg path.audio { fill:#72dec2; stroke:#72dec2}
     .graph.timeline svg path.visual { fill:#000; stroke:black }
     .graph.timeline svg path.research { fill:none; stroke:#ccc }
-    .graph.timeline ln { display:block; position:relative;}
-    .graph.timeline t.origin { position: absolute;left: 0px;color: #999 }
+    .graph.timeline ln { display:block; position:relative; max-width:800px}
+    .graph.timeline t.origin { position: absolute;left: 0px;color: #999; }
     .graph.timeline t.sector { color: #000; display: inline-block;line-height: 30px; margin-right:15px;}
     .graph.timeline t.sector svg { width: 25px;height: 3px;display: inline-block;stroke: black;padding: 0px;stroke-width: 2px;stroke-linecap: round}
     .graph.timeline t.sector.audio svg { stroke:#72dec2 }
